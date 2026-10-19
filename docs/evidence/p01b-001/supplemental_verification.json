@@ -1,0 +1,16 @@
+{
+  "schema": "p01b-supplemental-verification-v1",
+  "status": "pass",
+  "sealed_manifest_sha256": "3f510647ffd4219d9aabb4ce32defd5adec0ee545492d84eecd7c310aa109d27",
+  "sealed_checksums_sha256": "8108f794b59ad494fbe5874ac9ff7e0dee52fabd29283e37307cfb816dfdfffc",
+  "sealed_files_verified": 394,
+  "input_bundles_match_published_anchors": true,
+  "all_frozen_sources_unchanged": true,
+  "full_protocol_dimensions_verified": true,
+  "supported_prefix_censoring_test": "pass",
+  "test_source": "tests/pilot_reporting.rs",
+  "test_source_sha256": "1718c3d57405be87f97985f7bfe01276c615fd4fa620ff0ed23f6ac6b856b53b",
+  "test_log_sha256": "1d7ebd1224bc6c6b0575bb6d1aa657436224ae9a17e0315bc24526ee10415a86",
+  "full_p01_started": false,
+  "scientific_status": "untested"
+}

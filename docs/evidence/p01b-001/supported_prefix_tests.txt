@@ -1,0 +1,9 @@
+   Compiling causal-alife v0.1.0 (/Users/kalewicker/Documents/Playground/causal-alife)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.20s
+     Running tests/pilot_reporting.rs (target/debug/deps/pilot_reporting-f0c66b8f20b6098a)
+
+running 1 test
+test supported_cap_prefix_never_becomes_a_full_horizon_endpoint ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.44s
+

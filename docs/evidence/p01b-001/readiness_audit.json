@@ -1,0 +1,48 @@
+{
+  "schema": "p01b-readiness-manifest-v1",
+  "execution_status": "complete",
+  "scientific_status": "untested",
+  "full_p01_started": false,
+  "p01_ready": false,
+  "gate_pass": true,
+  "registration_ready": true,
+  "reporting_ready": true,
+  "campaign_runner_ready": false,
+  "preflight_manifest_sha256": "6fbce50aff08b836c23fe3f6f494cba6e8e1d4dd9e2f3247d72790ed2f0c85d4",
+  "generated_label_counts": {
+    "supported": 0,
+    "not_supported": 62,
+    "inconclusive": 2
+  },
+  "controls": {
+    "driven_pair": "supported",
+    "driven_renewal": "supported",
+    "external_flux": "not_supported",
+    "mixed_islands": "supported",
+    "no_op_pair": "not_supported",
+    "unfunded_pair": "not_supported",
+    "attached_inert": "inconclusive",
+    "event": "censored_prefix",
+    "trace": "censored_prefix",
+    "complete": "complete",
+    "event_boundary": "censored_prefix",
+    "trace_boundary": "censored_prefix",
+    "binding": "binding_budget_exceeded",
+    "match": "match_budget_exceeded",
+    "world": "world_size_exceeded",
+    "independent_next_epoch": "equal"
+  },
+  "tamper_rejections": [
+    "missing_summary",
+    "partial_line",
+    "forged_complete",
+    "forged_cap",
+    "bad_count",
+    "bad_world",
+    "detector_output"
+  ],
+  "registered_reused_runs": 64,
+  "generated_epochs_reported": 4096,
+  "source_freeze_sha256": "63dc0827142926a10a0c7aaf00b11ed52b2e1240e5b68b79a3b6947c003f80a2",
+  "protocol_sha256": "3fb81a01e5f578242cdc70092f4832882a2e5181defa051c63a7a25b990a8ea3"
+}

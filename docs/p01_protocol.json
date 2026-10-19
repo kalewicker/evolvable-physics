@@ -1,0 +1,29 @@
+{
+  "schema": "p01-development-pilot-v1",
+  "registered_date": "2026-10-19",
+  "scope": "development only; no confirmatory prevalence or biological claims",
+  "generator": "p01-generator-v1",
+  "proposal_ids": {"start": 3000, "count": 128},
+  "initial_states": [0, 1, 2, 3],
+  "epochs": 1000,
+  "denominator": 512,
+  "worker": {"max_events": 200000, "max_trace_bytes": 33554432},
+  "supervisor": {"wall_seconds": 10, "rss_bytes": 134217728, "poll_seconds": 0.01},
+  "rust_analysis": {"wall_seconds": 30, "rss_bytes": 536870912, "max_output_bytes": 16777216},
+  "python_audit": {"wall_seconds": 60, "rss_bytes": 1073741824, "max_output_bytes": 1048576},
+  "campaign": {
+    "wall_seconds": 7200,
+    "total_process_cpu_seconds": 3600,
+    "trace_bytes": 8589934592,
+    "total_artifact_bytes": 12884901888,
+    "metadata_reserve_bytes": 16777216
+  },
+  "memory_policy": "sampled RSS watchdog accepted for this bounded development pilot; instantaneous bound unestablished",
+  "detector_protocol_digest": "c2a471a6573c9e2f0039bb2d305f775d303724166bbc66cc17c961188d4fff80",
+  "detector_adapter": "p00g-environment-analysis-v1",
+  "cap_policy": "retain every slot and complete prefix; no continuation, replacement, reroll or relaxed limit",
+  "endpoint_policy": "full-horizon AP only for complete independently verified runs; capped prefixes censored; interruptions and analysis failures unmeasured",
+  "analysis_unit": "rule set with four nested initial states; descriptive development counts only",
+  "scientific_status": "untested",
+  "e01_authorized": false
+}

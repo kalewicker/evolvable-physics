@@ -52,7 +52,7 @@ The branch bundle preserves the source, request, receipt, and resulting checkpoi
 
 [P01a findings](docs/p01a_findings.md) report the registered development preflight: 64/64 generated runs completed and independently replayed across 4,096 epochs. A separate worker streams bounded traces; event/output ceilings preserve whole-epoch state, and the supervisor enforces wall and sampled RSS watchdogs. RSS sampling is not a hard instantaneous memory bound. The initial sandbox failure is retained.
 
-The full 128 × 4 × 1,000-epoch P01 pilot has not started. Next: register its compute/storage ceilings and tail policy, decide the memory policy, and add frozen detector reporting for generated trajectories. Mean linear trace scaling is about 5.9 GB and is not a long-run bound. Scientific status remains untested; no reproduction, adaptation or search-superiority claim is established.
+The full 128 × 4 × 1,000-epoch P01 pilot has not started. The [P01b registration and reporting checks](docs/p01b_findings.md) now fix those ceilings and the sampled RSS policy, and independently match frozen detector outputs on all 64 retained trajectories (62 not supported, 2 inconclusive). Next: implement and validate a new sealed runner enforcing the registered multi-stage budgets and failure accounting. Mean linear trace scaling is about 5.9 GB and is not a long-run bound. Scientific status remains untested; no reproduction, adaptation or search-superiority claim is established.
 
 ## Environment fixtures and continuation
 
@@ -97,7 +97,7 @@ Published at [kalewicker/evolvable-physics](https://github.com/kalewicker/evolva
 
 The public snapshot includes source, locked dependencies, protocols, reports, the revised experiment plan, and [compact validation receipts](docs/evidence/README.md). Raw `artifacts/`, `target/`, caches, and machine-local settings stay outside Git. Run the validation command above to generate full evidence from source.
 
-Implementation resumed at the user’s request after publication. The current milestone is P01a; the full P01 pilot remains gated by its own readiness work.
+Implementation resumed at the user’s request after publication. The current milestone is P01b; full P01 execution awaits its new sealed campaign runner.
 
 At the end of future project turns, commit and push any changes to this repository after the appropriate checks. See [AGENTS.md](AGENTS.md).
 
@@ -120,3 +120,13 @@ python3 scripts/audit_pilot.py artifacts/p01a-new-run artifacts/p01a-new-audit.j
 ```
 
 The registered runner requires macOS or Linux and permission to query child RSS with `ps`; a sandbox can block that query. Output directories and audit destinations must be new. It runs checks, builds the release worker, tests forced guards, and evaluates the fixed panel without replacements. [Registration](docs/p01a_registration.md), [limits](docs/p01a_protocol.json), and [source freeze](docs/p01a_freeze.json) distinguish this engineering preflight from the full P01 pilot. The extra executable is `pilot-worker`; `cargo run` still defaults to `causal-alife`.
+
+## P01b detector reporting and registration
+
+```sh
+cargo build --release --locked --offline --bin pilot-report
+./target/release/pilot-report artifacts/p01a-002/runs/2000-0-request.json artifacts/p01a-002/runs/2000-0
+python3 scripts/validate_p01b.py artifacts/p01b-new-run artifacts/p01a-002 artifacts/p00g-001
+```
+
+Use your own complete P01a/P00 validation bundles in the last two arguments when reproducing. Validation requires a new output directory; it reads existing trajectories and runs only disclosed control fixtures. [Full pilot budgets](docs/p01_protocol.json) are registered; this command does not launch the full pilot. The reporter retains all detector details and marks capped prefixes separately from full-horizon endpoints. [P01b findings](docs/p01b_findings.md) preserve the observed negative/inconclusive results and remaining execution gate.

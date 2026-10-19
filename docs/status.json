@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-19",
-  "stage": "P01a",
+  "stage": "P01b",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": false,
   "scientific_status": "untested",
   "next_work": [
-    "register full P01 compute/storage ceilings and slow-tail policy",
-    "record memory enforcement policy for the full pilot",
-    "integrate frozen detectors for generated-trajectory reporting"
+    "implement sealed full-P01 runner with native, detector and independent-audit stages",
+    "verify aggregate CPU/storage/output limits and fixed-denominator failure accounting",
+    "check execution readiness before launching the registered full pilot"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": false,
@@ -22,7 +22,14 @@
     "profiling": "64-run development preflight passed",
     "event_trace_caps": "exact whole-epoch enforcement verified",
     "wall_rss_caps": "watchdogs verified; RSS is sampled, not a hard memory bound",
-    "full_pilot_budget": "not yet registered",
-    "generated_trajectory_detector_reporting": "pending"
-  }
+    "full_pilot_budget": "registered, not yet spent",
+    "generated_trajectory_detector_reporting": "verified on all 64 retained P01a runs",
+    "memory_policy": "sampled RSS accepted for bounded development; instantaneous bound unestablished",
+    "sealed_campaign_runner": "pending"
+  },
+  "registration_ready": true,
+  "reporting_ready": true,
+  "campaign_runner_ready": false,
+  "reporting_receipt": "docs/evidence/p01b-001/readiness_audit.json",
+  "full_pilot_protocol": "docs/p01_protocol.json"
 }

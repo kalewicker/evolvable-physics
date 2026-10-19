@@ -2,3 +2,4 @@
 docs/evidence/** -text
 docs/evidence/**/tests.txt whitespace=-blank-at-eof
 docs/experiment_plan_v2.md -text whitespace=-blank-at-eol
+docs/evidence/**/supported_prefix_tests.txt whitespace=-blank-at-eof
