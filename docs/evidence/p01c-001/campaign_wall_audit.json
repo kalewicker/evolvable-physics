@@ -1,0 +1,67 @@
+{
+  "accepted_endpoints": 0,
+  "execution_status": "complete",
+  "integrity_verified": true,
+  "manifest_sha256": "ee0643951a6e5a8f19403b4a3f566090ce524b848ecd9deed2cecff37ef506c3",
+  "overshoots": {
+    "total_artifact_bytes": false,
+    "total_process_cpu_seconds": false,
+    "trace_bytes": false,
+    "wall_seconds": true
+  },
+  "registered_slots": 4,
+  "resource_usage": {
+    "artifact_bytes": 3913277,
+    "total_process_cpu_seconds": 0.06814599999999871,
+    "trace_bytes": 0,
+    "wall_seconds": 0.0708600003272295
+  },
+  "schema": "p01-campaign-audit-v1",
+  "scientific_status": "untested",
+  "seal_sha256": "6f1a20c98f872868ce726498230292d6b0cdaaaaad5cb0968d48c4fa615b4dec",
+  "summary": {
+    "complete_case_endpoint_counts": {},
+    "costs_started_including_censored_lower_observations": {
+      "child_cpu_seconds": null,
+      "wall_seconds": null
+    },
+    "duplicate_laws_among_generated_proposals": 0,
+    "endpoint_counts_all_slots": {
+      "unmeasured": 4
+    },
+    "laws": {
+      "2000": [
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 0,
+          "status": "not_started_campaign_budget"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 1,
+          "status": "not_started_campaign_budget"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 2,
+          "status": "not_started_campaign_budget"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 3,
+          "status": "not_started_campaign_budget"
+        }
+      ]
+    },
+    "laws_with_verified_supported_state": 0,
+    "registered_slots": 4,
+    "started_slots": 0,
+    "status_counts": {
+      "not_started_campaign_budget": 4
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "accepted_endpoints": 1,
+  "execution_status": "failed",
+  "integrity_verified": true,
+  "manifest_sha256": "3ac6a4af4351a2a336df5415dc183e2edb72bf454aff1e2836b38c3721818b73",
+  "overshoots": {
+    "total_artifact_bytes": false,
+    "total_process_cpu_seconds": false,
+    "trace_bytes": false,
+    "wall_seconds": false
+  },
+  "registered_slots": 4,
+  "resource_usage": {
+    "artifact_bytes": 4232733,
+    "total_process_cpu_seconds": 0.49968199999999996,
+    "trace_bytes": 130436,
+    "wall_seconds": 0.736437208019197
+  },
+  "schema": "p01-campaign-audit-v1",
+  "scientific_status": "untested",
+  "seal_sha256": "21d6a318ce5cdb7dd1a103a7145cc802915c108a4d1676c65f49c436c36f1e51",
+  "summary": {
+    "complete_case_endpoint_counts": {
+      "not_supported": 1
+    },
+    "costs_started_including_censored_lower_observations": {
+      "child_cpu_seconds": {
+        "maximum": 0.134592,
+        "mean": 0.07694899999999999,
+        "median": 0.07694899999999999,
+        "p95_nearest_rank": 0.134592
+      },
+      "wall_seconds": {
+        "maximum": 0.4492760831490159,
+        "mean": 0.2410384165123105,
+        "median": 0.2410384165123105,
+        "p95_nearest_rank": 0.4492760831490159
+      }
+    },
+    "duplicate_laws_among_generated_proposals": 0,
+    "endpoint_counts_all_slots": {
+      "not_supported": 1,
+      "unmeasured": 3
+    },
+    "laws": {
+      "2000": [
+        {
+          "coverage": "complete",
+          "full_horizon_ap": "not_supported",
+          "initial_state": 0,
+          "status": "verified_complete"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 1,
+          "status": "generate_child_failed"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 2,
+          "status": "not_started_infrastructure"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 3,
+          "status": "not_started_infrastructure"
+        }
+      ]
+    },
+    "laws_with_verified_supported_state": 0,
+    "registered_slots": 4,
+    "started_slots": 2,
+    "status_counts": {
+      "generate_child_failed": 1,
+      "not_started_infrastructure": 2,
+      "verified_complete": 1
+    }
+  }
+}

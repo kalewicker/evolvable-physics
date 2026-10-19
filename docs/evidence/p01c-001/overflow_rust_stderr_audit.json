@@ -1,0 +1,81 @@
+{
+  "accepted_endpoints": 3,
+  "execution_status": "complete",
+  "integrity_verified": true,
+  "manifest_sha256": "9545569792d237aaa03c9eca57f29dbc8fea119972d9e260faf3fb60eb9dd164",
+  "overshoots": {
+    "total_artifact_bytes": false,
+    "total_process_cpu_seconds": false,
+    "trace_bytes": false,
+    "wall_seconds": false
+  },
+  "registered_slots": 4,
+  "resource_usage": {
+    "artifact_bytes": 4374789,
+    "total_process_cpu_seconds": 0.8671099999999967,
+    "trace_bytes": 239352,
+    "wall_seconds": 1.1587017076089978
+  },
+  "schema": "p01-campaign-audit-v1",
+  "scientific_status": "untested",
+  "seal_sha256": "dfef220ab477068b2f8519a6be0b9d894641cbbd11c96f6eda682bd12411e114",
+  "summary": {
+    "complete_case_endpoint_counts": {
+      "supported": 3
+    },
+    "costs_started_including_censored_lower_observations": {
+      "child_cpu_seconds": {
+        "maximum": 0.080923,
+        "mean": 0.05649,
+        "median": 0.059969499999999995,
+        "p95_nearest_rank": 0.080923
+      },
+      "wall_seconds": {
+        "maximum": 0.274210624396801,
+        "mean": 0.1628719582222402,
+        "median": 0.1400213958695531,
+        "p95_nearest_rank": 0.274210624396801
+      }
+    },
+    "duplicate_laws_among_generated_proposals": 0,
+    "endpoint_counts_all_slots": {
+      "supported": 3,
+      "unmeasured": 1
+    },
+    "laws": {
+      "2000": [
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 0,
+          "status": "rust_stderr_budget_exceeded"
+        },
+        {
+          "coverage": "complete",
+          "full_horizon_ap": "supported",
+          "initial_state": 1,
+          "status": "verified_complete"
+        },
+        {
+          "coverage": "complete",
+          "full_horizon_ap": "supported",
+          "initial_state": 2,
+          "status": "verified_complete"
+        },
+        {
+          "coverage": "complete",
+          "full_horizon_ap": "supported",
+          "initial_state": 3,
+          "status": "verified_complete"
+        }
+      ]
+    },
+    "laws_with_verified_supported_state": 1,
+    "registered_slots": 4,
+    "started_slots": 4,
+    "status_counts": {
+      "rust_stderr_budget_exceeded": 1,
+      "verified_complete": 3
+    }
+  }
+}

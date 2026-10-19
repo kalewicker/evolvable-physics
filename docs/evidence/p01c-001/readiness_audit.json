@@ -1,0 +1,1542 @@
+{
+  "checks": {
+    "campaign_artifact": {
+      "execution_status": "complete",
+      "manifest_sha256": "026b4ea373b083135a2874ed166f60e2cee435055f46c2cc590bf859e5f73bb6",
+      "seal_sha256": "1a0720817a088a2e456aa3f799701b1621ed8b733789cebda711b64786ce3562",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": null,
+          "wall_seconds": null
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "unmeasured": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_campaign_budget"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 0,
+        "status_counts": {
+          "not_started_campaign_budget": 4
+        }
+      }
+    },
+    "campaign_cpu": {
+      "execution_status": "complete",
+      "manifest_sha256": "c0d828e14719379e36fd4252526a7482b919fad691533af94f71800e4615d4c3",
+      "seal_sha256": "d82723a68dc2b630d08f1b57d2fa7c784707a3260bb4bfc5d01168bd6632edd2",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": null,
+          "wall_seconds": null
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "unmeasured": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_campaign_budget"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 0,
+        "status_counts": {
+          "not_started_campaign_budget": 4
+        }
+      }
+    },
+    "campaign_trace": {
+      "execution_status": "complete",
+      "manifest_sha256": "26c457fd4a8864e85532ec478f28b8cf088491d7a4a20fedcf87736a9c7f52b6",
+      "seal_sha256": "131f2f9f748a57212216ec1a2004803b1c94dd25a2281f1086c38cbaa1f877b8",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": null,
+          "wall_seconds": null
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "unmeasured": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_campaign_budget"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 0,
+        "status_counts": {
+          "not_started_campaign_budget": 4
+        }
+      }
+    },
+    "campaign_wall": {
+      "execution_status": "complete",
+      "manifest_sha256": "ee0643951a6e5a8f19403b4a3f566090ce524b848ecd9deed2cecff37ef506c3",
+      "seal_sha256": "6f1a20c98f872868ce726498230292d6b0cdaaaaad5cb0968d48c4fa615b4dec",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": null,
+          "wall_seconds": null
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "unmeasured": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_campaign_budget"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 0,
+        "status_counts": {
+          "not_started_campaign_budget": 4
+        }
+      }
+    },
+    "complete": {
+      "execution_status": "complete",
+      "manifest_sha256": "d342325ae2214f0a09ea402e10fc6e3cd3f60291959971848d01f371e212bd39",
+      "seal_sha256": "df9907e412395f840786265af8aca9a785a3f50c6a1a3e25a848fb3b84f4a4b2",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 4
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.08129499999999999,
+            "mean": 0.06446225,
+            "median": 0.058978,
+            "p95_nearest_rank": 0.08129499999999999
+          },
+          "wall_seconds": {
+            "maximum": 0.38712470792233944,
+            "mean": 0.1694417290855199,
+            "median": 0.09719329234212637,
+            "p95_nearest_rank": 0.38712470792233944
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 0,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "verified_complete": 4
+        }
+      }
+    },
+    "event_cap": {
+      "execution_status": "complete",
+      "manifest_sha256": "314123998850397ca05c7d9ca6f620e4728fc89a042e96b3740f8391d8151354",
+      "seal_sha256": "19c389270efd3168fe6f0722f6d8e5eb04420206c31e8773c9e3d42e76f04d9c",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.057509,
+            "mean": 0.04393225,
+            "median": 0.040395,
+            "p95_nearest_rank": 0.057509
+          },
+          "wall_seconds": {
+            "maximum": 0.3721427917480469,
+            "mean": 0.1358529592398554,
+            "median": 0.058442794252187014,
+            "p95_nearest_rank": 0.3721427917480469
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "censored": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "censored_prefix",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "verified_censored"
+            },
+            {
+              "coverage": "censored_prefix",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "verified_censored"
+            },
+            {
+              "coverage": "censored_prefix",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "verified_censored"
+            },
+            {
+              "coverage": "censored_prefix",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "verified_censored"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "verified_censored": 4
+        }
+      }
+    },
+    "exclusive_output": "pass",
+    "failure_audit": {
+      "execution_status": "failed",
+      "manifest_sha256": "71598b1dc4eafad34bd28385e519a7e086583653b5b61af2c9e290535449c659",
+      "seal_sha256": "4236667949d893d3b353763a5e94f6256b0431135b69dabd3ae7bc724babc82b",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 1
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.08081999999999999,
+            "mean": 0.05601299999999999,
+            "median": 0.05601299999999999,
+            "p95_nearest_rank": 0.08081999999999999
+          },
+          "wall_seconds": {
+            "maximum": 0.38636041805148125,
+            "mean": 0.2276026252657175,
+            "median": 0.2276026252657175,
+            "p95_nearest_rank": 0.38636041805148125
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 1,
+          "unmeasured": 3
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 0,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "audit_child_failed"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_infrastructure"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_infrastructure"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 2,
+        "status_counts": {
+          "audit_child_failed": 1,
+          "not_started_infrastructure": 2,
+          "verified_complete": 1
+        }
+      }
+    },
+    "failure_generate": {
+      "execution_status": "failed",
+      "manifest_sha256": "3ac6a4af4351a2a336df5415dc183e2edb72bf454aff1e2836b38c3721818b73",
+      "seal_sha256": "21d6a318ce5cdb7dd1a103a7145cc802915c108a4d1676c65f49c436c36f1e51",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "not_supported": 1
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.134592,
+            "mean": 0.07694899999999999,
+            "median": 0.07694899999999999,
+            "p95_nearest_rank": 0.134592
+          },
+          "wall_seconds": {
+            "maximum": 0.4492760831490159,
+            "mean": 0.2410384165123105,
+            "median": 0.2410384165123105,
+            "p95_nearest_rank": 0.4492760831490159
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "not_supported": 1,
+          "unmeasured": 3
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "not_supported",
+              "initial_state": 0,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "generate_child_failed"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_infrastructure"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_infrastructure"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 2,
+        "status_counts": {
+          "generate_child_failed": 1,
+          "not_started_infrastructure": 2,
+          "verified_complete": 1
+        }
+      }
+    },
+    "failure_native": {
+      "execution_status": "failed",
+      "manifest_sha256": "65d7bcf780678770aafc38acfe7cb212318e403ffc9e254659465cc625f6e94f",
+      "seal_sha256": "1fb4a4d6e00cd317d6dde9ade234a4c5b3720f5bc04a0af7ba77ba078d918a36",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 1
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.079634,
+            "mean": 0.049333,
+            "median": 0.049333,
+            "p95_nearest_rank": 0.079634
+          },
+          "wall_seconds": {
+            "maximum": 0.4022486237809062,
+            "mean": 0.22254679165780544,
+            "median": 0.22254679165780544,
+            "p95_nearest_rank": 0.4022486237809062
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 1,
+          "unmeasured": 3
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 0,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "native_child_failed"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_infrastructure"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_infrastructure"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 2,
+        "status_counts": {
+          "native_child_failed": 1,
+          "not_started_infrastructure": 2,
+          "verified_complete": 1
+        }
+      }
+    },
+    "failure_rust": {
+      "execution_status": "failed",
+      "manifest_sha256": "6c60ba792396deecb8ec13e157e275a8a719dc2283d3455e2f83e76bc24bd9ec",
+      "seal_sha256": "8a9f91ea145c20f878b1d9a1427e49c04f672e689e031a42ca9b1d4d5c1df379",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 1
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.07842899999999998,
+            "mean": 0.05145699999999999,
+            "median": 0.05145699999999999,
+            "p95_nearest_rank": 0.07842899999999998
+          },
+          "wall_seconds": {
+            "maximum": 0.3991108313202858,
+            "mean": 0.2245909576304257,
+            "median": 0.2245909576304257,
+            "p95_nearest_rank": 0.3991108313202858
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 1,
+          "unmeasured": 3
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 0,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "rust_child_failed"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_infrastructure"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_infrastructure"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 2,
+        "status_counts": {
+          "not_started_infrastructure": 2,
+          "rust_child_failed": 1,
+          "verified_complete": 1
+        }
+      }
+    },
+    "forced_bad_report": {
+      "execution_status": "failed",
+      "manifest_sha256": "43e5ab9def10d2080fcc5d54a8a7f553135af7b25bd13f4009dd8af81c8bebbe",
+      "seal_sha256": "5e15f5caa91ee07339af0eeb07c8e700714089a7434fbee0903f5b4b02acc5cf",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.10188,
+            "mean": 0.10188,
+            "median": 0.10188,
+            "p95_nearest_rank": 0.10188
+          },
+          "wall_seconds": {
+            "maximum": 0.276824708096683,
+            "mean": 0.276824708096683,
+            "median": 0.276824708096683,
+            "p95_nearest_rank": 0.276824708096683
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "unmeasured": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "audit_child_failed"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "not_started_infrastructure"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_infrastructure"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_infrastructure"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 1,
+        "status_counts": {
+          "audit_child_failed": 1,
+          "not_started_infrastructure": 3
+        }
+      }
+    },
+    "forced_bad_summary": {
+      "execution_status": "failed",
+      "manifest_sha256": "ba06f8ead7f98eedb6d1fc32efc5f746ae5207502ae971f4ea35d4eb3c0fe68e",
+      "seal_sha256": "d0e0f9e0d6bd2f044c83f75a828e19d894b2d0c416b49f960084ad41a3782f19",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.021248,
+            "mean": 0.021248,
+            "median": 0.021248,
+            "p95_nearest_rank": 0.021248
+          },
+          "wall_seconds": {
+            "maximum": 0.19590387307107449,
+            "mean": 0.19590387307107449,
+            "median": 0.19590387307107449,
+            "p95_nearest_rank": 0.19590387307107449
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "unmeasured": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "rust_child_failed"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "not_started_infrastructure"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_infrastructure"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_infrastructure"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 1,
+        "status_counts": {
+          "not_started_infrastructure": 3,
+          "rust_child_failed": 1
+        }
+      }
+    },
+    "forced_rss": {
+      "execution_status": "complete",
+      "manifest_sha256": "231c6c70d5b29254dbdd2662b74ce1c79507120c8a7ed62b98447efe45d19a3d",
+      "seal_sha256": "1b59622a2a7c85a52ef7a13d1069b513fdc2b6ffc39e41b55633b25acfc76327",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.08088,
+            "mean": 0.051152249999999996,
+            "median": 0.060166,
+            "p95_nearest_rank": 0.08088
+          },
+          "wall_seconds": {
+            "maximum": 0.45115654170513153,
+            "mean": 0.1633117503952235,
+            "median": 0.09875356359407306,
+            "p95_nearest_rank": 0.45115654170513153
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "native_rss_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "native_rss_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "forced_sleep": {
+      "execution_status": "complete",
+      "manifest_sha256": "6d8c739f288ef7daa04dcd9dc5025d7cc27530304187dec0a3bc6597d586aff7",
+      "seal_sha256": "337a1dce3bb59073b6d10dcc1bd13e04c46bd35ba3ea88f5c38194450167108b",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.07922799999999999,
+            "mean": 0.05406675,
+            "median": 0.059057,
+            "p95_nearest_rank": 0.07922799999999999
+          },
+          "wall_seconds": {
+            "maximum": 2.0061959577724338,
+            "mean": 0.648316718172282,
+            "median": 0.24495549965649843,
+            "p95_nearest_rank": 2.0061959577724338
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "native_wall_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "native_wall_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "guard_cancellation": "child killed and reaped",
+    "injected_budget_before_audit": {
+      "execution_status": "complete",
+      "manifest_sha256": "04303175abf4e81072fc40a9f9fdc2799e31629cf18e1b9572b1ef9e15d11b48",
+      "seal_sha256": "a355386697799d64c46e9b40fc2f11aa9ee9fe61b7e1d4678973e827d5b4d2bb",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.013107999999999998,
+            "mean": 0.013107999999999998,
+            "median": 0.013107999999999998,
+            "p95_nearest_rank": 0.013107999999999998
+          },
+          "wall_seconds": {
+            "maximum": 0.2947577917948365,
+            "mean": 0.2947577917948365,
+            "median": 0.2947577917948365,
+            "p95_nearest_rank": 0.2947577917948365
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "unmeasured": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "campaign_budget_before_audit"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_campaign_budget"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 1,
+        "status_counts": {
+          "campaign_budget_before_audit": 1,
+          "not_started_campaign_budget": 3
+        }
+      }
+    },
+    "injected_budget_before_rust": {
+      "execution_status": "complete",
+      "manifest_sha256": "78ca8c4359902df48dcc423bd757640bdf55e7dadf548e510514170d784e99fd",
+      "seal_sha256": "faefaba008ff625ce0c2a88bfe7e1d9b4dd6219a3f3e060e3ac66e0d05aed950",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.005660999999999999,
+            "mean": 0.005660999999999999,
+            "median": 0.005660999999999999,
+            "p95_nearest_rank": 0.005660999999999999
+          },
+          "wall_seconds": {
+            "maximum": 0.1577971251681447,
+            "mean": 0.1577971251681447,
+            "median": 0.1577971251681447,
+            "p95_nearest_rank": 0.1577971251681447
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "unmeasured": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "campaign_budget_before_rust"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "not_started_campaign_budget"
+            },
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "not_started_campaign_budget"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 1,
+        "status_counts": {
+          "campaign_budget_before_rust": 1,
+          "not_started_campaign_budget": 3
+        }
+      }
+    },
+    "overflow_audit_stderr": {
+      "execution_status": "complete",
+      "manifest_sha256": "f621bcab3369441677f07668679a450f934291f6e206ce0b81145ccf232aa821",
+      "seal_sha256": "011e7b96adb2d6dcae2db25bdc1a8891a158437b53b1fbf2d5157d6dc6e27688",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.11089299999999999,
+            "mean": 0.07215025,
+            "median": 0.07104649999999998,
+            "p95_nearest_rank": 0.11089299999999999
+          },
+          "wall_seconds": {
+            "maximum": 0.3444512924179435,
+            "mean": 0.1936789583414793,
+            "median": 0.16016225004568696,
+            "p95_nearest_rank": 0.3444512924179435
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "audit_stderr_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "audit_stderr_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "overflow_audit_stdout": {
+      "execution_status": "complete",
+      "manifest_sha256": "6bbd6e803ff8585a4412be5e0f0ccac141d672541da3b5e94d2162926858e197",
+      "seal_sha256": "798524bef8fc9349188ad1c03a403779d077030925298a3349d93b9c7fae66f6",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.087589,
+            "mean": 0.060968999999999995,
+            "median": 0.0606345,
+            "p95_nearest_rank": 0.087589
+          },
+          "wall_seconds": {
+            "maximum": 0.37724429182708263,
+            "mean": 0.18075385433621705,
+            "median": 0.1241348129697144,
+            "p95_nearest_rank": 0.37724429182708263
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "audit_stdout_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "audit_stdout_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "overflow_generate_stderr": {
+      "execution_status": "complete",
+      "manifest_sha256": "05675c54c051e6ee19fe09bcc40b7715933c1d46aa8659b2a5f399bd85c763c0",
+      "seal_sha256": "21ab95740a7da5a82fde55ba68ee7f5d763e90260b38904485e6d081857b3403",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "not_supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.16100299999999998,
+            "mean": 0.10463649999999998,
+            "median": 0.12011049999999998,
+            "p95_nearest_rank": 0.16100299999999998
+          },
+          "wall_seconds": {
+            "maximum": 0.5012101251631975,
+            "mean": 0.21129963593557477,
+            "median": 0.16228306386619806,
+            "p95_nearest_rank": 0.5012101251631975
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "not_supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "generate_stderr_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "not_supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "not_supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "not_supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "generate_stderr_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "overflow_generate_stdout": {
+      "execution_status": "complete",
+      "manifest_sha256": "fd791058db8a503c3653aaaf211ab42b086efc62871e59e6ba07515d06d635ad",
+      "seal_sha256": "858d81447c7412e283a210ad4bfa14a242b533c648560f6ef5a1f56bf4983206",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "not_supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.16480099999999998,
+            "mean": 0.10600425,
+            "median": 0.120834,
+            "p95_nearest_rank": 0.16480099999999998
+          },
+          "wall_seconds": {
+            "maximum": 0.4948396245017648,
+            "mean": 0.21082184393890202,
+            "median": 0.16421022964641452,
+            "p95_nearest_rank": 0.4948396245017648
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "not_supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "generate_stdout_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "not_supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "not_supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "not_supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "generate_stdout_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "overflow_native_stderr": {
+      "execution_status": "complete",
+      "manifest_sha256": "4f08a1ee1a5cefae2e0696758b61fae57ad642cb5f8111b6808e857535cbf9c5",
+      "seal_sha256": "1f90bdc86e4736264a3acfb9258e0081854534df65f65a25d50d17480029ed3d",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.08034,
+            "mean": 0.0547015,
+            "median": 0.059011499999999995,
+            "p95_nearest_rank": 0.08034
+          },
+          "wall_seconds": {
+            "maximum": 0.3897792510688305,
+            "mean": 0.1520525417290628,
+            "median": 0.09746095817536116,
+            "p95_nearest_rank": 0.3897792510688305
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "native_stderr_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "native_stderr_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "overflow_native_stdout": {
+      "execution_status": "complete",
+      "manifest_sha256": "3dfbd160e3d0d9219659b21ce7dfea35b62c933df728916695d202a8c9ab9e86",
+      "seal_sha256": "066428e2961404bd0b26a77a5ece38e16a63b94ed1138288996fbc9ba764cd84",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.07779,
+            "mean": 0.053793249999999994,
+            "median": 0.060190999999999995,
+            "p95_nearest_rank": 0.07779
+          },
+          "wall_seconds": {
+            "maximum": 0.3951684581115842,
+            "mean": 0.15704388520680368,
+            "median": 0.10694254143163562,
+            "p95_nearest_rank": 0.3951684581115842
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "native_stdout_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "native_stdout_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "overflow_rust_stderr": {
+      "execution_status": "complete",
+      "manifest_sha256": "9545569792d237aaa03c9eca57f29dbc8fea119972d9e260faf3fb60eb9dd164",
+      "seal_sha256": "dfef220ab477068b2f8519a6be0b9d894641cbbd11c96f6eda682bd12411e114",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.080923,
+            "mean": 0.05649,
+            "median": 0.059969499999999995,
+            "p95_nearest_rank": 0.080923
+          },
+          "wall_seconds": {
+            "maximum": 0.274210624396801,
+            "mean": 0.1628719582222402,
+            "median": 0.1400213958695531,
+            "p95_nearest_rank": 0.274210624396801
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "rust_stderr_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "rust_stderr_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "overflow_rust_stdout": {
+      "execution_status": "complete",
+      "manifest_sha256": "f1b2b50d5ed2401342efceeb3ff63f7734166a6c8ab46ff0fa58e34c7ef4bdbf",
+      "seal_sha256": "0db8fb155152c514434236dbbda862403c74f8d52c3cc630a6267ef2bdf71987",
+      "summary": {
+        "complete_case_endpoint_counts": {
+          "supported": 3
+        },
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.08079499999999999,
+            "mean": 0.056153749999999995,
+            "median": 0.05952349999999999,
+            "p95_nearest_rank": 0.08079499999999999
+          },
+          "wall_seconds": {
+            "maximum": 0.25126499962061644,
+            "mean": 0.15762238553725183,
+            "median": 0.14058893779292703,
+            "p95_nearest_rank": 0.25126499962061644
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "supported": 3,
+          "unmeasured": 1
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "unmeasured",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "rust_stdout_budget_exceeded"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 1,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 2,
+              "status": "verified_complete"
+            },
+            {
+              "coverage": "complete",
+              "full_horizon_ap": "supported",
+              "initial_state": 3,
+              "status": "verified_complete"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 1,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "rust_stdout_budget_exceeded": 1,
+          "verified_complete": 3
+        }
+      }
+    },
+    "parent_loss": "guard reaped child; unsealed endpoints rejected",
+    "tamper_manifest": "rejected; original retained",
+    "tamper_trace": "rejected; original retained",
+    "trace_cap": {
+      "execution_status": "complete",
+      "manifest_sha256": "7ba17626460befe3c004cd01374cdf87159d87926ea80935fc6dd7be05436538",
+      "seal_sha256": "78ee719ebf24e0580185313f061d3b7de8a8e975024a1f0d4a6be4ef67ff07bc",
+      "summary": {
+        "complete_case_endpoint_counts": {},
+        "costs_started_including_censored_lower_observations": {
+          "child_cpu_seconds": {
+            "maximum": 0.058448,
+            "mean": 0.04375675,
+            "median": 0.039067000000000005,
+            "p95_nearest_rank": 0.058448
+          },
+          "wall_seconds": {
+            "maximum": 0.3687611650675535,
+            "mean": 0.13432532246224582,
+            "median": 0.05650900024920702,
+            "p95_nearest_rank": 0.3687611650675535
+          }
+        },
+        "duplicate_laws_among_generated_proposals": 0,
+        "endpoint_counts_all_slots": {
+          "censored": 4
+        },
+        "laws": {
+          "2000": [
+            {
+              "coverage": "censored_prefix",
+              "full_horizon_ap": null,
+              "initial_state": 0,
+              "status": "verified_censored"
+            },
+            {
+              "coverage": "censored_prefix",
+              "full_horizon_ap": null,
+              "initial_state": 1,
+              "status": "verified_censored"
+            },
+            {
+              "coverage": "censored_prefix",
+              "full_horizon_ap": null,
+              "initial_state": 2,
+              "status": "verified_censored"
+            },
+            {
+              "coverage": "censored_prefix",
+              "full_horizon_ap": null,
+              "initial_state": 3,
+              "status": "verified_censored"
+            }
+          ]
+        },
+        "laws_with_verified_supported_state": 0,
+        "registered_slots": 4,
+        "started_slots": 4,
+        "status_counts": {
+          "verified_censored": 4
+        }
+      }
+    }
+  },
+  "execution_status": "complete",
+  "full_campaign_slots_launched": 0,
+  "full_p01_started": false,
+  "p01_ready": true,
+  "schema": "p01c-readiness-v1",
+  "scientific_status": "untested",
+  "source_freeze_sha256": "06ed5c28160708d499adc97e31f66639b98ebf8c1d526f25d90e85d176adf2ba"
+}

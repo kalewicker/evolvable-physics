@@ -1,0 +1,51 @@
+{
+  "accepted_endpoints": 0,
+  "effective_outcomes": [
+    {
+      "coverage": "unmeasured",
+      "full_horizon_ap": null,
+      "initial_state": 0,
+      "proposal": 2000,
+      "rules_digest": "cefd37aafff2530cca2aee942f76abf1d606ecd0dd8e6519e1a5cc0ab3cd0b62",
+      "slot": 0,
+      "stages": {
+        "native": {
+          "status": "running"
+        }
+      },
+      "status": "unsealed_unmeasured"
+    },
+    {
+      "coverage": "unmeasured",
+      "full_horizon_ap": null,
+      "initial_state": 1,
+      "proposal": 2000,
+      "slot": 1,
+      "stages": {},
+      "status": "not_started_interruption"
+    },
+    {
+      "coverage": "unmeasured",
+      "full_horizon_ap": null,
+      "initial_state": 2,
+      "proposal": 2000,
+      "slot": 2,
+      "stages": {},
+      "status": "not_started_interruption"
+    },
+    {
+      "coverage": "unmeasured",
+      "full_horizon_ap": null,
+      "initial_state": 3,
+      "proposal": 2000,
+      "slot": 3,
+      "stages": {},
+      "status": "not_started_interruption"
+    }
+  ],
+  "execution_status": "interrupted_unsealed",
+  "integrity_verified": false,
+  "registered_slots": 4,
+  "schema": "p01-campaign-audit-v1",
+  "scientific_status": "untested"
+}

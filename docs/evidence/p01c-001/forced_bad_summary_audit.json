@@ -1,0 +1,78 @@
+{
+  "accepted_endpoints": 0,
+  "execution_status": "failed",
+  "integrity_verified": true,
+  "manifest_sha256": "ba06f8ead7f98eedb6d1fc32efc5f746ae5207502ae971f4ea35d4eb3c0fe68e",
+  "overshoots": {
+    "total_artifact_bytes": false,
+    "total_process_cpu_seconds": false,
+    "trace_bytes": false,
+    "wall_seconds": false
+  },
+  "registered_slots": 4,
+  "resource_usage": {
+    "artifact_bytes": 3922664,
+    "total_process_cpu_seconds": 0.20975799999999367,
+    "trace_bytes": 8,
+    "wall_seconds": 0.3445376669988036
+  },
+  "schema": "p01-campaign-audit-v1",
+  "scientific_status": "untested",
+  "seal_sha256": "d0e0f9e0d6bd2f044c83f75a828e19d894b2d0c416b49f960084ad41a3782f19",
+  "summary": {
+    "complete_case_endpoint_counts": {},
+    "costs_started_including_censored_lower_observations": {
+      "child_cpu_seconds": {
+        "maximum": 0.021248,
+        "mean": 0.021248,
+        "median": 0.021248,
+        "p95_nearest_rank": 0.021248
+      },
+      "wall_seconds": {
+        "maximum": 0.19590387307107449,
+        "mean": 0.19590387307107449,
+        "median": 0.19590387307107449,
+        "p95_nearest_rank": 0.19590387307107449
+      }
+    },
+    "duplicate_laws_among_generated_proposals": 0,
+    "endpoint_counts_all_slots": {
+      "unmeasured": 4
+    },
+    "laws": {
+      "2000": [
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 0,
+          "status": "rust_child_failed"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 1,
+          "status": "not_started_infrastructure"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 2,
+          "status": "not_started_infrastructure"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 3,
+          "status": "not_started_infrastructure"
+        }
+      ]
+    },
+    "laws_with_verified_supported_state": 0,
+    "registered_slots": 4,
+    "started_slots": 1,
+    "status_counts": {
+      "not_started_infrastructure": 3,
+      "rust_child_failed": 1
+    }
+  }
+}

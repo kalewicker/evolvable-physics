@@ -1,0 +1,78 @@
+{
+  "accepted_endpoints": 0,
+  "execution_status": "complete",
+  "integrity_verified": true,
+  "manifest_sha256": "04303175abf4e81072fc40a9f9fdc2799e31629cf18e1b9572b1ef9e15d11b48",
+  "overshoots": {
+    "total_artifact_bytes": false,
+    "total_process_cpu_seconds": false,
+    "trace_bytes": false,
+    "wall_seconds": false
+  },
+  "registered_slots": 4,
+  "resource_usage": {
+    "artifact_bytes": 3987713,
+    "total_process_cpu_seconds": 0.21410399999999896,
+    "trace_bytes": 59838,
+    "wall_seconds": 0.4383520418778062
+  },
+  "schema": "p01-campaign-audit-v1",
+  "scientific_status": "untested",
+  "seal_sha256": "a355386697799d64c46e9b40fc2f11aa9ee9fe61b7e1d4678973e827d5b4d2bb",
+  "summary": {
+    "complete_case_endpoint_counts": {},
+    "costs_started_including_censored_lower_observations": {
+      "child_cpu_seconds": {
+        "maximum": 0.013107999999999998,
+        "mean": 0.013107999999999998,
+        "median": 0.013107999999999998,
+        "p95_nearest_rank": 0.013107999999999998
+      },
+      "wall_seconds": {
+        "maximum": 0.2947577917948365,
+        "mean": 0.2947577917948365,
+        "median": 0.2947577917948365,
+        "p95_nearest_rank": 0.2947577917948365
+      }
+    },
+    "duplicate_laws_among_generated_proposals": 0,
+    "endpoint_counts_all_slots": {
+      "unmeasured": 4
+    },
+    "laws": {
+      "2000": [
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 0,
+          "status": "campaign_budget_before_audit"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 1,
+          "status": "not_started_campaign_budget"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 2,
+          "status": "not_started_campaign_budget"
+        },
+        {
+          "coverage": "unmeasured",
+          "full_horizon_ap": null,
+          "initial_state": 3,
+          "status": "not_started_campaign_budget"
+        }
+      ]
+    },
+    "laws_with_verified_supported_state": 0,
+    "registered_slots": 4,
+    "started_slots": 1,
+    "status_counts": {
+      "campaign_budget_before_audit": 1,
+      "not_started_campaign_budget": 3
+    }
+  }
+}

@@ -1,17 +1,17 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-19",
-  "stage": "P01b",
+  "stage": "P01c",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
-  "p01_ready": false,
+  "p01_ready": true,
   "p01_started": false,
   "scientific_status": "untested",
   "next_work": [
-    "implement sealed full-P01 runner with native, detector and independent-audit stages",
-    "verify aggregate CPU/storage/output limits and fixed-denominator failure accounting",
-    "check execution readiness before launching the registered full pilot"
+    "run the registered 512-slot P01 development pilot into a new sealed bundle",
+    "audit and report all complete, censored, unmeasured and unstarted slots without rerolls",
+    "retain development status and do not admit E01 from engineering readiness"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": false,
@@ -25,11 +25,12 @@
     "full_pilot_budget": "registered, not yet spent",
     "generated_trajectory_detector_reporting": "verified on all 64 retained P01a runs",
     "memory_policy": "sampled RSS accepted for bounded development; instantaneous bound unestablished",
-    "sealed_campaign_runner": "pending"
+    "sealed_campaign_runner": "implemented; all 30 registered control expectations passed"
   },
   "registration_ready": true,
   "reporting_ready": true,
-  "campaign_runner_ready": false,
+  "campaign_runner_ready": true,
   "reporting_receipt": "docs/evidence/p01b-001/readiness_audit.json",
-  "full_pilot_protocol": "docs/p01_protocol.json"
+  "full_pilot_protocol": "docs/p01_protocol.json",
+  "campaign_readiness_receipt": "docs/evidence/p01c-001/readiness_audit.json"
 }

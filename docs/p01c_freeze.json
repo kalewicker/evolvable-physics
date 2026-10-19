@@ -1,0 +1,20 @@
+{
+  "schema": "p01c-source-freeze-v1",
+  "registered_date": "2026-10-19",
+  "base_freezes": [
+    "docs/p00f_freeze.json",
+    "docs/p00g_freeze.json",
+    "docs/p01a_freeze.json",
+    "docs/p01b_freeze.json"
+  ],
+  "files": {
+    "scripts/campaign.py": "a27d9c817f5aa18f8b7386d95c4f5f6d70b7b27013fc621cff306acf0d6a0a1f",
+    "scripts/campaign_guard.py": "1b308e1387db298f7d784fcf36f61a9c24bb9238cf315f27d24714d8167d540a",
+    "scripts/campaign_audit_child.py": "7d1c25e39afb06d032781920c9d84147065ae4605e601d4ea02b99e647133629",
+    "scripts/audit_campaign.py": "95bd4443adfd61b228b9e1c7898d58218a24702b3aace5f3b79c421264f3f1ad",
+    "scripts/campaign_control_child.py": "9d30df99f8cca960ed8ecaacc7beb97426682da3d261d30d1c82366e0ae65082",
+    "scripts/validate_p01c.py": "e87f18d5d35e8d8cd6b98df24ee012f72f50bb5a39063189df990228455ac201",
+    "scripts/test_campaign.py": "1284c7d5acfc3eb63be8c040c430d5da53a640f2931a0e9cc6b1a7fc67404969",
+    "docs/p01c_registration.md": "980f7d42a0523abcd1c58b51b91b9a3385b8502a63f0315adcdb4b7658651251"
+  }
+}
