@@ -1,6 +1,6 @@
 # Evolvable Physics
 
-First implementation of the [revised research plan](docs/experiment_plan_v2.md). This standalone Rust package implements a bounded closed-resource transition kernel and reproducible validation artifacts. Full P00 and all scientific capability claims remain incomplete/untested.
+First implementation of the [revised research plan](docs/experiment_plan_v2.md). This standalone Rust package implements a bounded closed-resource transition kernel and reproducible validation artifacts. P00 is admitted for the bounded engineering profiles and disclosed fixture panels. Scientific capability claims remain untested; P01 execution readiness is incomplete.
 
 ## Run
 
@@ -9,7 +9,7 @@ From this directory:
 ```sh
 cargo fetch --locked
 cargo test --locked --offline
-python3 scripts/validate.py artifacts/p00f-new-run
+python3 scripts/validate.py artifacts/p00g-new-run
 ```
 
 The validation command requires a **new** output directory. It preserves failures, copies source files, records source/binary hashes, runs tests and Clippy, compares two Rust matchers across 112 cases / 1,344 epochs, independently replays all transitions in Python, tests corrupted evidence, and verifies fresh-process checkpoint continuation. It also checks 160 controlled intervention arms across two fixture families with an independent external-operation interpreter. Dependencies are pinned in Cargo.lock; omit `--offline` in an environment without cached crates when fetching dependencies initially.
@@ -46,9 +46,11 @@ cargo run --locked --offline -- branch artifacts/branch-fixtures/state_arrest-so
 
 The branch bundle preserves the source, request, receipt, and resulting checkpoint. Keep it with subsequent continuation artifacts.
 
-## Next boundary
+## Current gate and next work
 
-Intervention contracts and controls are documented in [P00b semantics](docs/interventions.md). The environment wrapper is specified in [P00c semantics](docs/environment.md). Environment-aware interventions and tested publication recovery are documented in [P00d semantics](docs/environment_branches.md). Fixed detector calibration is specified in [P00e](docs/detectors.md). The P00 admission requirements and frozen transfer panel are in [P00f registration](docs/p00f_registration.md). Missing logging equivalence and environment-to-detector integration remain admission blockers; broader storage-failure coverage is also limited. Only then freeze and run P01. The current report must not be interpreted as evidence of active persistence, self-maintenance, evolution, or search superiority.
+[P00g findings](docs/p00g_findings.md) close the logging-equivalence and complete-environment detector blockers. The [current admission receipt](docs/evidence/p00g-001/p00g_admission_audit.json) admits P00 for bounded engineering profiles and the disclosed fixtures. Historical P00f assessments remain preserved.
+
+P01 has not started. Its next prerequisites are a registered rule generator, profiling and a compute/storage budget, plus total-event, wall-clock and memory run limits. Scientific status remains untested; no reproduction, adaptation or search-superiority claim is established by fixture admission.
 
 ## Environment fixtures and continuation
 
@@ -93,6 +95,17 @@ Published at [kalewicker/evolvable-physics](https://github.com/kalewicker/evolva
 
 The public snapshot includes source, locked dependencies, protocols, reports, the revised experiment plan, and [compact validation receipts](docs/evidence/README.md). Raw `artifacts/`, `target/`, caches, and machine-local settings stay outside Git. Run the validation command above to generate full evidence from source.
 
-Implementation is paused at P00f. P00 remains unadmitted because logging equivalence and complete environment-to-detector integration are pending. Further implementation waits for the user's next instruction.
+Implementation resumed at the user’s request after publication. The current milestone is P00g; P01 execution remains gated by its own readiness work.
 
 At the end of future project turns, commit and push any changes to this repository after the appropriate checks. See [AGENTS.md](AGENTS.md).
+
+## Logging modes and environment analysis
+
+Full output remains the default. `resume-quiet` and `environment-resume-quiet` retain semantic state and checkpoint identity while suppressing exported step records. Quiet intervals need verified replay to supply event histories for analysis.
+
+```sh
+cargo run --locked --offline -- integration-fixtures artifacts/integration-new
+python3 scripts/audit_integration.py artifacts/integration-new/suite.json
+```
+
+The environment adapter verifies full phases and credits native physical changes only. [P00g semantics](docs/p00g_semantics.md) describe the fixed controls and limits.

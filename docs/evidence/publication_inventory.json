@@ -217,6 +217,62 @@
     {
       "file": "docs/evidence/p00f-002/p00_admission_audit.json",
       "sha256": "70afb8c0a76487250d9093d69339e9bce106c70464d1be980e750d98230b6868"
+    },
+    {
+      "file": "docs/evidence/p00g-001/manifest.json",
+      "sha256": "31d564c0e1adcee813c01ff2c589585bdba49214484d2f972d157cba0ce17dfb"
+    },
+    {
+      "file": "docs/evidence/p00g-001/checksums.json",
+      "sha256": "2761c81102a7fe9838ff3438024f953b2712a113b0d691435ae0c2b4273c6474"
+    },
+    {
+      "file": "docs/evidence/p00g-001/tests.txt",
+      "sha256": "f4fe6ebe8ba786b4000c9d0b4dca52331c7ce61cfc42db5b4844457e6a568465"
+    },
+    {
+      "file": "docs/evidence/p00g-001/detectors-engine-equivalence.json",
+      "sha256": "d3f8de9af9350f9b728869855c45ea4a1db055aa6923878d044aafce59b9d024"
+    },
+    {
+      "file": "docs/evidence/p00g-001/generalization-engine-equivalence.json",
+      "sha256": "52bd380e5104033769b6403793cf9d371e914b8373d48194cdaf95f65dbc402d"
+    },
+    {
+      "file": "docs/evidence/p00g-001/detector_audit.json",
+      "sha256": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882"
+    },
+    {
+      "file": "docs/evidence/p00g-001/environment_audit.json",
+      "sha256": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+    },
+    {
+      "file": "docs/evidence/p00g-001/environment_branch_audit.json",
+      "sha256": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135"
+    },
+    {
+      "file": "docs/evidence/p00g-001/generalization_audit.json",
+      "sha256": "ac63cfe1325cf564cf066a15e4436eb41f81b9accc2a286cd8e878b556e636e4"
+    },
+    {
+      "file": "docs/evidence/p00g-001/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p00g-001/integration_audit.json",
+      "sha256": "5edb73a9f080093eb284ef2d6615845305fca0c354e408efb0fc4addfec29423"
+    },
+    {
+      "file": "docs/evidence/p00g-001/intervention_audit.json",
+      "sha256": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff"
+    },
+    {
+      "file": "docs/evidence/p00g-001/p00_admission_audit.json",
+      "sha256": "8f3c950b18e04e23c6be3bad3ca14d7284c57c4963893477e12a1688d49d8e83"
+    },
+    {
+      "file": "docs/evidence/p00g-001/p00g_admission_audit.json",
+      "sha256": "f77b4b8d824b58a2593e562758ee845885669811a851d5068731d0ddd0d72573"
     }
   ]
 }

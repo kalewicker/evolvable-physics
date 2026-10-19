@@ -1,0 +1,980 @@
+{
+  "stage": "P00g",
+  "execution_status": "complete",
+  "scientific_status": "untested",
+  "p00_complete": true,
+  "source_files": {
+    "Cargo.lock": "74088da525565c8cfd07bfc0af06b188d01fe3e12402482fc6f156fcb19c0d85",
+    "Cargo.toml": "90e2842817a7dab0bffe2a07aa4780fffb104afbdfbb8bfbf55912500caf4476",
+    "README.md": "f28b6d2bb2594695c5bcd32fad317e37266ce16bc3379711a77c53b19cf5010e",
+    "docs/detector_protocol.json": "3c597c4a21610feca890536a378189de4f869ba8be32f22f8e06e43b611a6a45",
+    "docs/detectors.md": "0f652c1d14bfb0294a235e968fa37c712f54e5115a46f4f2e3b683f1aa04db2c",
+    "docs/environment.md": "18d606e7728614b62c252c141fd25f57006da137cf95715b604d26da24d3f714",
+    "docs/environment_branches.md": "b1ef195b9e519d35990a18cbc46e1e154be1daba272564c57b285817ae1934c0",
+    "docs/evidence/README.md": "4cd8e0b288f4011f448693bbc3ea77ade898d03645f1167c46b69f6ad5c8ec5e",
+    "docs/evidence/p00a-001/checksums.json": "60736c3d2916d5c4451e7e311cb612382c1080bbf853c4487d8252e9961751ef",
+    "docs/evidence/p00a-001/independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+    "docs/evidence/p00a-001/manifest.json": "71cad2c5cbaf27652fbaf2abdbabca7bb64bf9c9da53ae8642e93e43f02c6f1b",
+    "docs/evidence/p00a-001/tests.txt": "ebd002c6f6f120ddb8fa260eb8cfbba7802f7642582ae72c0085975d5f8aff6e",
+    "docs/evidence/p00a-002/checksums.json": "e6723a9d2080a2da1c5161a8bcac89585ac2d5eaa3b4ba7a8e546a077a117f06",
+    "docs/evidence/p00a-002/independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+    "docs/evidence/p00a-002/manifest.json": "fd643c60fa7392b27a38eead7e18d7e84eb96422ff0b0fcc10416678faa1682f",
+    "docs/evidence/p00a-002/tests.txt": "9fb0943d934db57e169984824aa8b0ab55a591bb34c90271b23ceea46cbdc518",
+    "docs/evidence/p00b-001/checksums.json": "38dbcfc1b006b2e6994bfd5d5f8411dfee88541ae6cb481b67780ee99341de9c",
+    "docs/evidence/p00b-001/independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+    "docs/evidence/p00b-001/intervention_audit.json": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff",
+    "docs/evidence/p00b-001/manifest.json": "a8f7c02b59c8afe0eaee57060fbebbe64d39298dc904fe381754727fda8a33e3",
+    "docs/evidence/p00b-001/tests.txt": "8b5a7ff15596dcea69a242463de9dec5785c0de0f0f5302f2465f74de4f1025d",
+    "docs/evidence/p00c-001/checksums.json": "5b2e8f29291f9b4c055e58d3c6a134da78cacc5d177a1e7d2232bf1562e51ec9",
+    "docs/evidence/p00c-001/environment_audit.json": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3",
+    "docs/evidence/p00c-001/independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+    "docs/evidence/p00c-001/intervention_audit.json": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff",
+    "docs/evidence/p00c-001/manifest.json": "8eb7bd35fa7b7ec66dcbbc55f9c1a8f603db5cf93c74becf9927189cd917d4af",
+    "docs/evidence/p00c-001/tests.txt": "c5140daafa9f606a973979505461484aa295df816cc5d1f279c143f903fdcd43",
+    "docs/evidence/p00d-001/checksums.json": "952cb4afbdd5823a447f9272212142027f8ab80fefb183903c6402e935a57c06",
+    "docs/evidence/p00d-001/environment_audit.json": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3",
+    "docs/evidence/p00d-001/environment_branch_audit.json": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135",
+    "docs/evidence/p00d-001/independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+    "docs/evidence/p00d-001/intervention_audit.json": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff",
+    "docs/evidence/p00d-001/manifest.json": "38598361629cc7b8dd5928647128728eabf39e93ff67c47583c6c03b42ec4d55",
+    "docs/evidence/p00d-001/tests.txt": "2f91c2da16ef784a0406c40996a2ff8cb4443bfbfc76ab6a480b4f70aa0c121f",
+    "docs/evidence/p00e-001/checksums.json": "8538a54031f4526986fbfad7b4b494e86de95f862d0b2e5374b16fca70b77f56",
+    "docs/evidence/p00e-001/detector_audit.json": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882",
+    "docs/evidence/p00e-001/environment_audit.json": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3",
+    "docs/evidence/p00e-001/environment_branch_audit.json": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135",
+    "docs/evidence/p00e-001/independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+    "docs/evidence/p00e-001/intervention_audit.json": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff",
+    "docs/evidence/p00e-001/manifest.json": "f948b39fb13701ae139a474c539f548d4d454f9c159c7eafad8fe18b7676c9cd",
+    "docs/evidence/p00e-001/tests.txt": "9a6fa2be05fe35c101829a9475d97a5fd102e0d0abdd1c92124ff32916c50af9",
+    "docs/evidence/p00f-001/checksums.json": "7542c67355492b1de31e39dccb53a25ade35a3fac9146c2984475a3266a1d928",
+    "docs/evidence/p00f-001/detector_audit.json": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882",
+    "docs/evidence/p00f-001/environment_audit.json": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3",
+    "docs/evidence/p00f-001/environment_branch_audit.json": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135",
+    "docs/evidence/p00f-001/generalization_audit.json": "8791b290ae6ff8dc789a2508eeaa1c1e8c11c685f64e43d189586b6657755a77",
+    "docs/evidence/p00f-001/independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+    "docs/evidence/p00f-001/intervention_audit.json": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff",
+    "docs/evidence/p00f-001/manifest.json": "56adcf9c7fde4d1bfcee86746254c4d6852846783e70a85b91b4451c625714a3",
+    "docs/evidence/p00f-001/p00_admission_audit.json": "569644521077f32ca05a4bef661a97c265f8f53a009eb94bac9e1bcf2c35c922",
+    "docs/evidence/p00f-001/tests.txt": "ab37e052fa347ed9ec04cb3e7dec4bb50856837a475c90303ee469594a969700",
+    "docs/evidence/p00f-002/checksums.json": "37cf53007bb2372e25b914caccf439ee503a999866a477c04ba5c34c01c6d2ee",
+    "docs/evidence/p00f-002/detector_audit.json": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882",
+    "docs/evidence/p00f-002/environment_audit.json": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3",
+    "docs/evidence/p00f-002/environment_branch_audit.json": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135",
+    "docs/evidence/p00f-002/generalization_audit.json": "ac63cfe1325cf564cf066a15e4436eb41f81b9accc2a286cd8e878b556e636e4",
+    "docs/evidence/p00f-002/independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+    "docs/evidence/p00f-002/intervention_audit.json": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff",
+    "docs/evidence/p00f-002/manifest.json": "665614516abbf07b93c5133e24b6229fe5efa04c1adde5885d621c23af9aa11b",
+    "docs/evidence/p00f-002/p00_admission_audit.json": "70afb8c0a76487250d9093d69339e9bce106c70464d1be980e750d98230b6868",
+    "docs/evidence/p00f-002/tests.txt": "10ac801f194cff76348fbd39efa1a0395ba9fec1334090d116914f8f772c7bb5",
+    "docs/evidence/publication_inventory.json": "d3b5bb84511c2c8bce1c0f2cf93bfba4c6a1e53e57204ab7d8e065f5d52f1522",
+    "docs/experiment_plan_v2.md": "2ae4a7fdcf9d7b5aa7ab4b18e1ac0ab34a348f2122841037cd1696970043e691",
+    "docs/fixtures.md": "df392a73c46ce1b5d11600fa4fa9621600883cd3df72a5ea7fcd58f2204c77de",
+    "docs/generalization_panel.json": "59d5ab24a6b0458a9c025d6cb180caf3393c1debd81a67c8049acae6bf6e4bd5",
+    "docs/interventions.md": "8c2bbe567752863fc36ac27dc6b675a528632b19584c3e2c139ea3faad99f427",
+    "docs/p00_admission_requirements.json": "da83a721bd4ca53be1811ae77cc07166c3b11f783ada2684d6a5c3d3d6b9ff13",
+    "docs/p00a_findings.md": "f27a54a8be90202f4390f7b6e0ad27b77f2a9a87ed02590d78e3b23a72c949f3",
+    "docs/p00b_findings.md": "8383f7a9d50f64eb33905d6c98e328b8cdb3a03f9cce2a7b5565de6d4183853c",
+    "docs/p00c_findings.md": "7b2571c19d8e2a001eceebdd0650275ca017e805c30fee7446e913c83b141f38",
+    "docs/p00d_findings.md": "06780c525f6c00cf6a48308b434912741aaf0fb121b6e2c41717fff41ceeed9a",
+    "docs/p00e_findings.md": "2123f7879a4d774846de72ba62d9bfef736bfa265be9d6217db34ae9809b636a",
+    "docs/p00f_findings.md": "08049d4e60b285febd2a3b3009a8e0e5fe9258eecf5ec1bbc73f479e6373cf54",
+    "docs/p00f_freeze.json": "1f49955e43a7190139214beb0b3f5a8650823de613c98d95112ab5d5f563639e",
+    "docs/p00f_registration.md": "399f04332ec71f6b6899d2a470eefc11b8d51a0a4d0a7bb8b100249b11d879a8",
+    "docs/p00g_admission_addendum.json": "8bb64a9f33ed15de7e259558e7c26858f3c8a04a671b0e93a5fd395c0e19571f",
+    "docs/p00g_freeze.json": "cab7e4de0d1fa8e127d02524d8a59d86055c9f49996d60817f4798488c81e4c9",
+    "docs/p00g_protocol.json": "f34132a765cf6be8aceaa462e93346da50614fd8909d8f693ffcc35defd8a27b",
+    "docs/p00g_registration.md": "f3ad269b62c5378bb2af18f03c99a1c1f1ff9327b7a644c8ab353d19edd4fbcb",
+    "docs/p00g_semantics.md": "06ad67e70e0c7f6aa17316181a6719a70ff9fb28ff8e3f7540492cda6df25619",
+    "docs/semantics.md": "424894f42f168698b47bf617bba7b63008b29effb6a760291fe8a7aa8419d9c4",
+    "scripts/audit.py": "9c7cf5561b2e90194bc04f0e28ca442b4f4c2127cf07ecfa868a99482ce66d1f",
+    "scripts/audit_detectors.py": "e1aec3f27dcc8d72a598e2767dfd5821901188b1229caac372a8b9148a7aed9b",
+    "scripts/audit_environment.py": "01deba425861b45cb2c26261f5d1981a5b636008fdc96e5a6a5a010e61336f3b",
+    "scripts/audit_environment_branches.py": "3331edf8ab6532290fc7e36eed6ea876a191164525faf97543e907b395f51f27",
+    "scripts/audit_generalization.py": "f96ad779a7ab3f312d049ba446a7c2b479aaff5032f2f630233988e70d744268",
+    "scripts/audit_integration.py": "930338cb11387fbf30b17d4e4919d9746ddd7848a40aaabee4c84c5dcc2e1f85",
+    "scripts/audit_interventions.py": "5af065078301de6dd4ac6fa5933b0c8601e3fe0ab0bdd06c14849b9b1e9f0d5b",
+    "scripts/validate.py": "1119a84d017320d25ce912a105115c50bd6fd710ad44df1e4e1c77059fe8d583",
+    "scripts/validate_detectors.py": "9511627dfcc9158ac63ba7956c575c57d87ba6614e3b52296866f384a85534e7",
+    "scripts/validate_environment.py": "b462b3a11f0fd0070c90bf561dd46bdf8e00f0f683d60ef2187a21dd4caeca53",
+    "scripts/validate_environment_branches.py": "05e00d5cba15c12b91985e617ed54648f7fcc4c094ae0514c796ee6473cf2e81",
+    "scripts/validate_generalization.py": "aa6de786a547b471dee696532dd09c387218030e20af7fb3807be51848d910c4",
+    "scripts/validate_integration.py": "40b1e07c65051206c7f36001e517f742ee2105976f9612c6ff2ba730ad1840f4",
+    "scripts/validate_interventions.py": "a56ebfa55845910f9b44e36f63ab0e073b18ac36e5c49d10c9c67a062613527a",
+    "src/analysis.rs": "ef652dc17fe6524db8c54d0d3264d35db355ef09c20c9a962d325ba3b57897ae",
+    "src/core.rs": "223bd0eb4ba3a3eeb645ddb1d95d65153ba9ad64b59ea3e959814bbad9368b20",
+    "src/detector_fixtures.rs": "fa712d41fe84074d91a409942b519c7c027da46027b8959dd4e246437b153550",
+    "src/environment.rs": "6f227882a430af327a7f7483289e2c9c09823035338877ec5c19cbb22b32c82c",
+    "src/environment_analysis.rs": "e1700e7cd4f72cf2e84a905e2ed30f986c4270ba12ceef8600fe945d45a5b26a",
+    "src/environment_branch_fixtures.rs": "5842841f933aa437aa73b9efdeb753374f24d33a6d4b4b26e022316a2bb9614c",
+    "src/environment_branches.rs": "fd49262fe515a2bd02b89895867e4b326b863bb6dc4e1379c1f950792f1688e9",
+    "src/environment_fixtures.rs": "9dffe5490b573f400bf6fe5036e3bed93ae0a081e4328b73ed54fa1d4bafcca9",
+    "src/experiments.rs": "28aefbdd6540cca7f520cb410906d21a6c8dc004b6a8b1e9c8a886e4a1302cd5",
+    "src/generalization.rs": "53d172e4e926c4f6a035882fd5c7c3a5ec445c7dccd55ee0e47eb1b064c4cfdd",
+    "src/integration_fixtures.rs": "ec37dd95bc45edb1277ef543514bd3918875cd2db61dadceb1d9de3f649d2862",
+    "src/intervention_fixtures.rs": "d3bacae4cd59d40f86e8032bc55f66b1817374b96b4a294906f645d936ca5a24",
+    "src/interventions.rs": "e82ae1984920575e88fa452e16b80ece63988d584024283001792b34f7920349",
+    "src/lib.rs": "f96398a3f266c087ef108755c1704ed3856f03e6cb469e7561a2f7d1bed83dfd",
+    "src/main.rs": "1cfa9c5bee40557814fe86a3a87d50ae27162966f5838235127991ced5df630c",
+    "src/runtime.rs": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+    "tests/analysis.rs": "4ecfd73a53abbd3d98fa4da6a7feb6a74d654ace01567104153ff217ce6f81f9",
+    "tests/environment.rs": "ee1a594cb56271490f63bf46443b0a62d16e78ebc1da96612e8e8dcda2d2ff29",
+    "tests/environment_branches.rs": "2bb4a6ab9e22c579fc75f250a48dc52353065418ee85ab1f67833779c0d9fda6",
+    "tests/generalization.rs": "1e2c5af5b455142bf6389a8969c3f8c4e4aa805f94d9e3c85f80f09ed86fecfd",
+    "tests/integration.rs": "8f008403a01cff1a79edde06cf41f67b9beb3c45372af27937b9cc6f4a12e270",
+    "tests/interventions.rs": "149f7459b150ecd50ea185bb7fec32388b62b21ed8bfd36c95ede28bf3c05a50",
+    "tests/kernel.rs": "0ddbffd6ea30065a2cd743dac9c9467124a1232011470f79cbdd0dc9a21b4031"
+  },
+  "checks": {
+    "rust_tests": "pass",
+    "independent_replay": {
+      "status": "pass",
+      "cases": 112,
+      "epochs": 1344,
+      "events": 1216,
+      "scientific_status": "untested",
+      "scope": "P00a closed fixed-contact transition fixtures"
+    },
+    "audit_requires_assertions": "pass",
+    "audit_tamper_rejections": [
+      "priority",
+      "state",
+      "parents",
+      "events",
+      "rule"
+    ],
+    "fresh_process_continuation": "pass",
+    "noop_checkpoint_branch": "pass",
+    "damaged_checkpoints_rejected": "pass",
+    "checkpoint_overwrite_rejected": "pass",
+    "interventions": {
+      "status": "pass",
+      "cases": 32,
+      "arms": 160,
+      "continuation_epochs": 1280,
+      "continuation_events": 1792,
+      "warmup_epochs": 64,
+      "warmup_events": 128,
+      "expected_engineering_outcomes": {
+        "state_arrest": {
+          "baseline": {
+            "focal_events": 8,
+            "control_events": 8
+          },
+          "sham": {
+            "focal_events": 8,
+            "control_events": 8
+          },
+          "target": {
+            "focal_events": 0,
+            "control_events": 8
+          },
+          "unrelated": {
+            "focal_events": 8,
+            "control_events": 0
+          },
+          "rescue": {
+            "focal_events": 8,
+            "control_events": 8
+          }
+        },
+        "activation_relocation": {
+          "baseline": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "sham": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "target": {
+            "focal_events": 0,
+            "control_events": 6
+          },
+          "unrelated": {
+            "focal_events": 6,
+            "control_events": 0
+          },
+          "rescue": {
+            "focal_events": 6,
+            "control_events": 6
+          }
+        }
+      },
+      "scientific_status": "untested",
+      "tamper_rejections": [
+        "receipt",
+        "source",
+        "operation",
+        "rescue",
+        "label",
+        "writer",
+        "warmup",
+        "law"
+      ],
+      "fresh_process_target_and_rescue": "pass",
+      "source_immutable_and_failed_requests_unpublished": "pass",
+      "branch_overwrite_rejected": "pass"
+    },
+    "environment": {
+      "status": "pass",
+      "cases": 64,
+      "epochs": 512,
+      "native_events": 160,
+      "environment_events": 640,
+      "skipped_attempts": 96,
+      "outcomes": {
+        "closed": {
+          "native_events": 0,
+          "environment_events": 0,
+          "skipped_attempts": 0,
+          "injected": 0,
+          "extracted": 0
+        },
+        "local_transport": {
+          "native_events": 2,
+          "environment_events": 5,
+          "skipped_attempts": 6,
+          "injected": 0,
+          "extracted": 0
+        },
+        "driven": {
+          "native_events": 8,
+          "environment_events": 27,
+          "skipped_attempts": 0,
+          "injected": 16,
+          "extracted": 8
+        },
+        "blocked": {
+          "native_events": 0,
+          "environment_events": 8,
+          "skipped_attempts": 0,
+          "injected": 16,
+          "extracted": 0
+        }
+      },
+      "scientific_status": "untested",
+      "tamper_rejections": [
+        "ledger",
+        "order",
+        "contact",
+        "parent",
+        "prepared",
+        "schedule",
+        "native",
+        "skip"
+      ],
+      "fresh_process_continuation": "pass",
+      "damaged_checkpoint_rejections": "pass",
+      "native_loader_profile_separation": "pass"
+    },
+    "environment_branches": {
+      "status": "pass",
+      "cases": 32,
+      "arms": 160,
+      "continuation_epochs": 960,
+      "native_events": 1728,
+      "environment_events": 6400,
+      "outcomes": {
+        "state_arrest": {
+          "baseline": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "sham": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "target": {
+            "focal_events": 0,
+            "control_events": 6
+          },
+          "unrelated": {
+            "focal_events": 6,
+            "control_events": 0
+          },
+          "rescue": {
+            "focal_events": 6,
+            "control_events": 6
+          }
+        },
+        "replenished_activation": {
+          "baseline": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "sham": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "target": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "unrelated": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "rescue": {
+            "focal_events": 6,
+            "control_events": 6
+          }
+        }
+      },
+      "scientific_status": "untested",
+      "tamper_rejections": [
+        "source",
+        "schedule",
+        "ledger",
+        "operations",
+        "receipt",
+        "rescue",
+        "native",
+        "phase"
+      ],
+      "bundle_rejections": [
+        "no_manifest",
+        "no_record",
+        "truncated_record",
+        "forged_receipt",
+        "schedule_drift",
+        "not_complete"
+      ],
+      "fresh_process_target_and_rescue": "pass",
+      "stale_schedule_request_rejected": "pass",
+      "no_overwrite": "pass"
+    },
+    "detectors": {
+      "status": "pass",
+      "cases": 144,
+      "splits": {
+        "development": 36,
+        "validation": 108
+      },
+      "detector_epochs": 1728,
+      "maintenance_arms": 160,
+      "maintenance_epochs": 1920,
+      "retained_disagreements": 16,
+      "registered_label_mismatches": 0,
+      "protocol_digest": "c2a471a6573c9e2f0039bb2d305f775d303724166bbc66cc17c961188d4fff80",
+      "scientific_status": "untested",
+      "families": [
+        {
+          "family": "active_pair",
+          "cases": 16,
+          "active_persistence": "supported",
+          "maintenance": "not_supported",
+          "connected_supported": 16,
+          "interaction_supported": 16
+        },
+        {
+          "family": "attached_inert",
+          "cases": 16,
+          "active_persistence": "inconclusive",
+          "maintenance": "not_supported",
+          "connected_supported": 0,
+          "interaction_supported": 16
+        },
+        {
+          "family": "frozen_pair",
+          "cases": 16,
+          "active_persistence": "not_supported",
+          "maintenance": "not_supported",
+          "connected_supported": 0,
+          "interaction_supported": 0
+        },
+        {
+          "family": "inert_with_oscillator",
+          "cases": 16,
+          "active_persistence": "not_supported",
+          "maintenance": "not_supported",
+          "connected_supported": 0,
+          "interaction_supported": 0
+        },
+        {
+          "family": "irrelevant_bits",
+          "cases": 16,
+          "active_persistence": "supported",
+          "maintenance": "not_supported",
+          "connected_supported": 16,
+          "interaction_supported": 16
+        },
+        {
+          "family": "noise_replacement",
+          "cases": 16,
+          "active_persistence": "not_supported",
+          "maintenance": "not_supported",
+          "connected_supported": 0,
+          "interaction_supported": 0
+        },
+        {
+          "family": "passive_turnover",
+          "cases": 16,
+          "active_persistence": "supported",
+          "maintenance": "not_supported",
+          "connected_supported": 16,
+          "interaction_supported": 16
+        },
+        {
+          "family": "renewal",
+          "cases": 16,
+          "active_persistence": "supported",
+          "maintenance": "supported",
+          "connected_supported": 16,
+          "interaction_supported": 16
+        },
+        {
+          "family": "wholesale_replacement",
+          "cases": 16,
+          "active_persistence": "not_supported",
+          "maintenance": "not_supported",
+          "connected_supported": 0,
+          "interaction_supported": 0
+        }
+      ],
+      "tamper_rejections": [
+        "label",
+        "activity",
+        "membership",
+        "turnover",
+        "occupancy",
+        "intervention",
+        "fingerprint",
+        "disagreement"
+      ]
+    },
+    "generalization": {
+      "execution_status": "complete",
+      "independent_replay": "pass",
+      "panel_accepted": true,
+      "cases": 176,
+      "epochs": 2112,
+      "family_count": 11,
+      "matched_identifier_pairs": 88,
+      "outcomes": {
+        "async_ring4": {
+          "cases": 16,
+          "expected": "inconclusive",
+          "scope": "estimator_scope_limit",
+          "supported": 0,
+          "not_supported": 0,
+          "inconclusive": 16,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 0
+        },
+        "chain4": {
+          "cases": 16,
+          "expected": "supported",
+          "scope": "in_scope_positive",
+          "supported": 16,
+          "not_supported": 0,
+          "inconclusive": 0,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 0
+        },
+        "fragmentation4": {
+          "cases": 16,
+          "expected": "not_supported",
+          "scope": "ambiguity_control",
+          "supported": 0,
+          "not_supported": 16,
+          "inconclusive": 0,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 64
+        },
+        "frozen6": {
+          "cases": 16,
+          "expected": "not_supported",
+          "scope": "negative_control",
+          "supported": 0,
+          "not_supported": 16,
+          "inconclusive": 0,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 0
+        },
+        "hyperedge3": {
+          "cases": 16,
+          "expected": "supported",
+          "scope": "in_scope_positive",
+          "supported": 16,
+          "not_supported": 0,
+          "inconclusive": 0,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 0
+        },
+        "hyperedge4": {
+          "cases": 16,
+          "expected": "supported",
+          "scope": "in_scope_positive",
+          "supported": 16,
+          "not_supported": 0,
+          "inconclusive": 0,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 0
+        },
+        "oversize7": {
+          "cases": 16,
+          "expected": "not_supported",
+          "scope": "out_of_size_scope",
+          "supported": 0,
+          "not_supported": 16,
+          "inconclusive": 0,
+          "excluded_large_samples": 208,
+          "ambiguous_links": 0
+        },
+        "resource_cycle3": {
+          "cases": 16,
+          "expected": "not_supported",
+          "scope": "negative_control",
+          "supported": 0,
+          "not_supported": 16,
+          "inconclusive": 0,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 0
+        },
+        "ring6": {
+          "cases": 16,
+          "expected": "supported",
+          "scope": "in_scope_positive",
+          "supported": 16,
+          "not_supported": 0,
+          "inconclusive": 0,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 0
+        },
+        "star5": {
+          "cases": 16,
+          "expected": "supported",
+          "scope": "in_scope_positive",
+          "supported": 16,
+          "not_supported": 0,
+          "inconclusive": 0,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 0
+        },
+        "templated_births": {
+          "cases": 16,
+          "expected": "not_supported",
+          "scope": "negative_control",
+          "supported": 0,
+          "not_supported": 16,
+          "inconclusive": 0,
+          "excluded_large_samples": 0,
+          "ambiguous_links": 0
+        }
+      },
+      "scope_counts": {
+        "estimator_scope_limit": 16,
+        "in_scope_positive": 80,
+        "ambiguity_control": 16,
+        "negative_control": 48,
+        "out_of_size_scope": 16
+      },
+      "registered_label_mismatches": [],
+      "identifier_invariance_failures": [],
+      "ambiguous_links": 64,
+      "excluded_large_samples": 208,
+      "detector_unchanged": true,
+      "p00_admitted": false,
+      "scientific_status": "untested",
+      "tamper_rejections": [
+        "generator",
+        "scope",
+        "summary",
+        "fingerprint",
+        "expected_label",
+        "event_omission",
+        "encoding"
+      ],
+      "source_freeze": {
+        "schema": "p00f-source-freeze-v1",
+        "registered_date": "2026-10-19",
+        "files": {
+          "src/analysis.rs": "ef652dc17fe6524db8c54d0d3264d35db355ef09c20c9a962d325ba3b57897ae",
+          "docs/detector_protocol.json": "3c597c4a21610feca890536a378189de4f869ba8be32f22f8e06e43b611a6a45",
+          "scripts/audit_detectors.py": "e1aec3f27dcc8d72a598e2767dfd5821901188b1229caac372a8b9148a7aed9b",
+          "src/generalization.rs": "53d172e4e926c4f6a035882fd5c7c3a5ec445c7dccd55ee0e47eb1b064c4cfdd",
+          "docs/generalization_panel.json": "59d5ab24a6b0458a9c025d6cb180caf3393c1debd81a67c8049acae6bf6e4bd5",
+          "docs/p00_admission_requirements.json": "da83a721bd4ca53be1811ae77cc07166c3b11f783ada2684d6a5c3d3d6b9ff13"
+        }
+      },
+      "source_only_freeze_check": "pass",
+      "admission": {
+        "schema": "p00f-admission-audit-v1",
+        "requirements": [
+          {
+            "id": "kernel_replay",
+            "status": "supported_in_tested_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "independent_audit.json",
+              "tests.txt"
+            ],
+            "source": "src/runtime.rs",
+            "limit": "Rust matchers share execution; independent Python replay covers fixed fixtures.",
+            "source_sha256": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+            "evidence_hashes": {
+              "independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+              "tests.txt": "f4fe6ebe8ba786b4000c9d0b4dca52331c7ce61cfc42db5b4844457e6a568465"
+            }
+          },
+          {
+            "id": "exact_accounting",
+            "status": "supported_in_tested_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "independent_audit.json",
+              "environment_audit.json"
+            ],
+            "source": "src/core.rs",
+            "limit": "Abstract integer matter/activation bookkeeping; bounded counters.",
+            "source_sha256": "223bd0eb4ba3a3eeb645ddb1d95d65153ba9ad64b59ea3e959814bbad9368b20",
+            "evidence_hashes": {
+              "independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+              "environment_audit.json": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+            }
+          },
+          {
+            "id": "atomic_rejection",
+            "status": "supported_in_tested_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "tests.txt"
+            ],
+            "source": "tests/environment.rs",
+            "limit": "Specified cap/overflow/precondition paths; not exhaustive runtime fault injection.",
+            "source_sha256": "ee1a594cb56271490f63bf46443b0a62d16e78ebc1da96612e8e8dcda2d2ff29",
+            "evidence_hashes": {
+              "tests.txt": "f4fe6ebe8ba786b4000c9d0b4dca52331c7ce61cfc42db5b4844457e6a568465"
+            }
+          },
+          {
+            "id": "continuation_and_interventions",
+            "status": "supported_in_tested_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "environment_branch_audit.json",
+              "tests.txt"
+            ],
+            "source": "src/environment_branches.rs",
+            "limit": "Fresh-process continuation and four publication boundaries; arbitrary power loss and full event-store crash recovery unverified.",
+            "source_sha256": "fd49262fe515a2bd02b89895867e4b326b863bb6dc4e1379c1f950792f1688e9",
+            "evidence_hashes": {
+              "environment_branch_audit.json": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135",
+              "tests.txt": "f4fe6ebe8ba786b4000c9d0b4dca52331c7ce61cfc42db5b4844457e6a568465"
+            }
+          },
+          {
+            "id": "detector_fixed_calibration",
+            "status": "supported_on_disclosed_fixtures",
+            "blocks_p00": false,
+            "evidence": [
+              "detector_audit.json"
+            ],
+            "source": "docs/detector_protocol.json",
+            "limit": "Operational AP/maintenance calibration; bounded 2\u20136 nodes and explicit disagreement.",
+            "source_sha256": "3c597c4a21610feca890536a378189de4f869ba8be32f22f8e06e43b611a6a45",
+            "evidence_hashes": {
+              "detector_audit.json": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882"
+            }
+          },
+          {
+            "id": "detector_generalization_panel",
+            "status": "passed_with_explicit_scope_limits",
+            "blocks_p00": false,
+            "evidence": [
+              "generalization_audit.json"
+            ],
+            "source": "docs/generalization_panel.json",
+            "limit": "Disclosed transfer panel, not random-world sensitivity/specificity. A failed panel adds a blocker.",
+            "source_sha256": "59d5ab24a6b0458a9c025d6cb180caf3393c1debd81a67c8049acae6bf6e4bd5",
+            "evidence_hashes": {
+              "generalization_audit.json": "ac63cfe1325cf564cf066a15e4436eb41f81b9accc2a286cd8e878b556e636e4"
+            }
+          },
+          {
+            "id": "logging_equivalence",
+            "status": "missing",
+            "blocks_p00": true,
+            "evidence": [],
+            "source": "src/runtime.rs",
+            "limit": "No logging-disabled execution path and paired semantic-equivalence check.",
+            "source_sha256": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+            "evidence_hashes": {}
+          },
+          {
+            "id": "environment_detector_integration",
+            "status": "missing",
+            "blocks_p00": true,
+            "evidence": [],
+            "source": "src/analysis.rs",
+            "limit": "Analysis accepts native Experiment/Frame only; full Environment/Epoch analysis and environment-only activity attribution are unverified.",
+            "source_sha256": "ef652dc17fe6524db8c54d0d3264d35db355ef09c20c9a962d325ba3b57897ae",
+            "evidence_hashes": {}
+          },
+          {
+            "id": "parallel_execution_scope",
+            "status": "bounded_support",
+            "blocks_p00": false,
+            "evidence": [
+              "tests.txt"
+            ],
+            "source": "tests/kernel.rs",
+            "limit": "Independent worlds in threads, not concurrent within-world matching. Campaign worker scheduling remains P01 work.",
+            "source_sha256": "0ddbffd6ea30065a2cd743dac9c9467124a1232011470f79cbdd0dc9a21b4031",
+            "evidence_hashes": {
+              "tests.txt": "f4fe6ebe8ba786b4000c9d0b4dca52331c7ce61cfc42db5b4844457e6a568465"
+            }
+          },
+          {
+            "id": "provenance_scope",
+            "status": "documented_restriction",
+            "blocks_p00": false,
+            "evidence": [
+              "docs/semantics.md"
+            ],
+            "source": "src/runtime.rs",
+            "limit": "Conservative node/adjacency keys, not field-level causal necessity or biological lineage.",
+            "source_sha256": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+            "evidence_hashes": {
+              "docs/semantics.md": "424894f42f168698b47bf617bba7b63008b29effb6a760291fe8a7aa8419d9c4"
+            }
+          }
+        ],
+        "blocking_requirements": [
+          "logging_equivalence",
+          "environment_detector_integration"
+        ],
+        "p00_admitted": false,
+        "p01_execution_readiness": [
+          {
+            "id": "registered_rule_generator",
+            "status": "missing",
+            "source": "src/experiments.rs"
+          },
+          {
+            "id": "profiling_and_cost_budget",
+            "status": "missing",
+            "source": "docs/p00f_registration.md"
+          },
+          {
+            "id": "event_time_memory_run_caps",
+            "status": "partial",
+            "source": "src/core.rs",
+            "limit": "Node/edge/matching caps exist; total events, wall-clock and memory admission limits are not implemented."
+          }
+        ],
+        "p01_started": false,
+        "e01_started": false,
+        "scientific_status": "untested",
+        "decision": "Do not run P01/E01 until P00 blockers are resolved; complete P01-specific generator, instrumentation and resource-budget readiness before executing its pilot."
+      }
+    },
+    "integration": {
+      "status": "pass",
+      "environment_detector_cases": 96,
+      "environment_detector_epochs": 1152,
+      "native_events_in_primary_cases": 976,
+      "native_logging_cases": 112,
+      "legacy_environment_logging_cases": 64,
+      "maintenance_arms": 80,
+      "maintenance_epochs": 960,
+      "logging_equivalent_epochs": 4256,
+      "external_only_activity_rejected": true,
+      "mixed_islands_not_pooled": true,
+      "environment_maintenance_controls": "pass",
+      "scientific_status": "untested",
+      "tamper_rejections": [
+        "prepared",
+        "environment",
+        "ledger",
+        "quiet_digest",
+        "external_activity",
+        "native",
+        "occupancy",
+        "rescue"
+      ],
+      "native_engine_equivalence_cases": 320,
+      "fresh_process_mode_switch": "pass",
+      "admission": {
+        "schema": "p00g-admission-audit-v1",
+        "base_assessment": "p00_admission_audit.json",
+        "addendum_digest": "4ef05e52ca28019e5fbd20beabe2a12951ddb6ad741fea5bbb3659298287ed5d",
+        "requirements": [
+          {
+            "id": "kernel_replay",
+            "status": "supported_in_tested_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "independent_audit.json",
+              "tests.txt"
+            ],
+            "source": "src/runtime.rs",
+            "limit": "Rust matchers share execution; independent Python replay covers fixed fixtures.",
+            "source_sha256": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+            "evidence_hashes": {
+              "independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+              "tests.txt": "f4fe6ebe8ba786b4000c9d0b4dca52331c7ce61cfc42db5b4844457e6a568465"
+            }
+          },
+          {
+            "id": "exact_accounting",
+            "status": "supported_in_tested_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "independent_audit.json",
+              "environment_audit.json"
+            ],
+            "source": "src/core.rs",
+            "limit": "Abstract integer matter/activation bookkeeping; bounded counters.",
+            "source_sha256": "223bd0eb4ba3a3eeb645ddb1d95d65153ba9ad64b59ea3e959814bbad9368b20",
+            "evidence_hashes": {
+              "independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+              "environment_audit.json": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+            }
+          },
+          {
+            "id": "atomic_rejection",
+            "status": "supported_in_tested_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "tests.txt"
+            ],
+            "source": "tests/environment.rs",
+            "limit": "Specified cap/overflow/precondition paths; not exhaustive runtime fault injection.",
+            "source_sha256": "ee1a594cb56271490f63bf46443b0a62d16e78ebc1da96612e8e8dcda2d2ff29",
+            "evidence_hashes": {
+              "tests.txt": "f4fe6ebe8ba786b4000c9d0b4dca52331c7ce61cfc42db5b4844457e6a568465"
+            }
+          },
+          {
+            "id": "continuation_and_interventions",
+            "status": "supported_in_tested_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "environment_branch_audit.json",
+              "tests.txt"
+            ],
+            "source": "src/environment_branches.rs",
+            "limit": "Fresh-process continuation and four publication boundaries; arbitrary power loss and full event-store crash recovery unverified.",
+            "source_sha256": "fd49262fe515a2bd02b89895867e4b326b863bb6dc4e1379c1f950792f1688e9",
+            "evidence_hashes": {
+              "environment_branch_audit.json": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135",
+              "tests.txt": "f4fe6ebe8ba786b4000c9d0b4dca52331c7ce61cfc42db5b4844457e6a568465"
+            }
+          },
+          {
+            "id": "detector_fixed_calibration",
+            "status": "supported_on_disclosed_fixtures",
+            "blocks_p00": false,
+            "evidence": [
+              "detector_audit.json"
+            ],
+            "source": "docs/detector_protocol.json",
+            "limit": "Operational AP/maintenance calibration; bounded 2\u20136 nodes and explicit disagreement.",
+            "source_sha256": "3c597c4a21610feca890536a378189de4f869ba8be32f22f8e06e43b611a6a45",
+            "evidence_hashes": {
+              "detector_audit.json": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882"
+            }
+          },
+          {
+            "id": "detector_generalization_panel",
+            "status": "passed_with_explicit_scope_limits",
+            "blocks_p00": false,
+            "evidence": [
+              "generalization_audit.json"
+            ],
+            "source": "docs/generalization_panel.json",
+            "limit": "Disclosed transfer panel, not random-world sensitivity/specificity. A failed panel adds a blocker.",
+            "source_sha256": "59d5ab24a6b0458a9c025d6cb180caf3393c1debd81a67c8049acae6bf6e4bd5",
+            "evidence_hashes": {
+              "generalization_audit.json": "ac63cfe1325cf564cf066a15e4436eb41f81b9accc2a286cd8e878b556e636e4"
+            }
+          },
+          {
+            "id": "logging_equivalence",
+            "status": "supported_in_registered_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "integration_audit.json"
+            ],
+            "source": "src/runtime.rs",
+            "limit": "Output-disabled semantic equivalence in 4,256 paired epochs and specified rollback/checkpoint cases; provenance bookkeeping remains enabled.",
+            "source_sha256": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+            "evidence_hashes": {
+              "integration_audit.json": "5edb73a9f080093eb284ef2d6615845305fca0c354e408efb0fc4addfec29423"
+            }
+          },
+          {
+            "id": "environment_detector_integration",
+            "status": "supported_in_registered_profiles",
+            "blocks_p00": false,
+            "evidence": [
+              "integration_audit.json"
+            ],
+            "source": "src/environment_analysis.rs",
+            "limit": "Versioned environment adapter validates full epochs and credits native physical changes only. Original 2\u20136 node, identity, coactivity and disclosed-fixture limits remain.",
+            "source_sha256": "e1700e7cd4f72cf2e84a905e2ed30f986c4270ba12ceef8600fe945d45a5b26a",
+            "evidence_hashes": {
+              "integration_audit.json": "5edb73a9f080093eb284ef2d6615845305fca0c354e408efb0fc4addfec29423"
+            }
+          },
+          {
+            "id": "parallel_execution_scope",
+            "status": "bounded_support",
+            "blocks_p00": false,
+            "evidence": [
+              "tests.txt"
+            ],
+            "source": "tests/kernel.rs",
+            "limit": "Independent worlds in threads, not concurrent within-world matching. Campaign worker scheduling remains P01 work.",
+            "source_sha256": "0ddbffd6ea30065a2cd743dac9c9467124a1232011470f79cbdd0dc9a21b4031",
+            "evidence_hashes": {
+              "tests.txt": "f4fe6ebe8ba786b4000c9d0b4dca52331c7ce61cfc42db5b4844457e6a568465"
+            }
+          },
+          {
+            "id": "provenance_scope",
+            "status": "documented_restriction",
+            "blocks_p00": false,
+            "evidence": [
+              "docs/semantics.md"
+            ],
+            "source": "src/runtime.rs",
+            "limit": "Conservative node/adjacency keys, not field-level causal necessity or biological lineage.",
+            "source_sha256": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+            "evidence_hashes": {
+              "docs/semantics.md": "424894f42f168698b47bf617bba7b63008b29effb6a760291fe8a7aa8419d9c4"
+            }
+          }
+        ],
+        "blocking_requirements": [],
+        "p00_admitted": true,
+        "admission_scope": "bounded engineering profiles and disclosed fixture panels",
+        "p01_execution_readiness": [
+          {
+            "id": "registered_rule_generator",
+            "status": "missing",
+            "source": "src/experiments.rs"
+          },
+          {
+            "id": "profiling_and_cost_budget",
+            "status": "missing",
+            "source": "docs/p00f_registration.md"
+          },
+          {
+            "id": "event_time_memory_run_caps",
+            "status": "partial",
+            "source": "src/core.rs",
+            "limit": "Node/edge/matching caps exist; total events, wall-clock and memory admission limits are not implemented."
+          }
+        ],
+        "p01_ready": false,
+        "p01_started": false,
+        "e01_started": false,
+        "scientific_status": "untested"
+      }
+    }
+  },
+  "binary_sha256": "8e2d3a72d7083aadeb31903968154c709ca5abde9c6cad6168c9a6d92277ed14",
+  "current_admission_receipt": "p00g_admission_audit.json"
+}

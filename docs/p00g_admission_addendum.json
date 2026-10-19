@@ -1,0 +1,13 @@
+{
+  "schema":"p00g-admission-addendum-v1",
+  "base_requirements":"docs/p00_admission_requirements.json",
+  "base_requirements_sha256":"da83a721bd4ca53be1811ae77cc07166c3b11f783ada2684d6a5c3d3d6b9ff13",
+  "supersedes_current_blocker_assessment":"p00f-admission-audit-v1",
+  "updates":{
+    "logging_equivalence":{"required_evidence":"integration_audit.json","source":"src/runtime.rs","limit":"Output-disabled semantic equivalence in 4,256 paired epochs and specified rollback/checkpoint cases; provenance bookkeeping remains enabled."},
+    "environment_detector_integration":{"required_evidence":"integration_audit.json","source":"src/environment_analysis.rs","limit":"Versioned environment adapter validates full epochs and credits native physical changes only. Original 2–6 node, identity, coactivity and disclosed-fixture limits remain."}
+  },
+  "p00_admission_rule":"Admit the bounded engineering profiles only if all original requirements are nonblocking after these evidence-backed updates and all prior fixture, independent replay and engine equivalence checks pass.",
+  "p01_admission_rule":"P00 engineering admission does not authorize execution of P01. Its registered rule generator, profiling/cost budget and event/time/memory caps remain prerequisites.",
+  "scientific_status":"untested"
+}

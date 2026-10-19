@@ -1,0 +1,22 @@
+{
+  "schema": "p00g-integration-protocol-v1",
+  "base_detector_protocol_digest": "c2a471a6573c9e2f0039bb2d305f775d303724166bbc66cc17c961188d4fff80",
+  "analysis_schema": "p00g-environment-analysis-v1",
+  "epochs": 12,
+  "seeds": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+  "families": {
+    "driven_pair": {"expected_ap":"supported","expected_native_events":12},
+    "external_flux": {"expected_ap":"not_supported","expected_native_events":0},
+    "unfunded_pair": {"expected_ap":"not_supported","expected_native_events":1},
+    "no_op_pair": {"expected_ap":"not_supported","expected_native_events":12},
+    "mixed_islands": {"expected_ap":"supported","expected_native_events":12},
+    "driven_renewal": {"expected_ap":"supported","expected_native_events":24}
+  },
+  "maintenance_family":"driven_renewal",
+  "maintenance_arms":["baseline","sham","target","unrelated","rescue"],
+  "maintenance_warmup_epochs":2,
+  "maintenance_expected_occupancy":[8,8,0,8,8],
+  "logging_semantics":"Disabled mode emits no exported frame but preserves semantic state, writer metadata, counters, keys, schedules and ledgers. Every logged/unlogged epoch must agree on the full state.",
+  "external_activity_policy":"Validate full environment phases; activity credit uses only actual native state/topology changes. Environment supply/extraction/transport receives no native activity credit.",
+  "admission_policy":"Close only the two P00f blockers on successful replay, raw-mode equivalence, external-only controls, maintenance controls, and unchanged prior suites. P01 execution readiness remains a separate gate."
+}

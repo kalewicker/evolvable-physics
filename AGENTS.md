@@ -19,6 +19,6 @@ Do not create empty commits for a read-only turn. If push fails or requires user
 
 ## Research status
 
-Implementation was paused by the user after P00f to publish the repository. Do not resume experiments merely because the project is opened; wait for a new instruction to continue work. Current P00 admission and remaining blockers are recorded in `docs/p00f_findings.md` and the published admission receipt. Scientific status remains untested.
+Implementation resumed on 2026-10-19 at the user’s request after publication. Current P00g admission is recorded in `docs/p00g_findings.md` and `docs/evidence/p00g-001/p00g_admission_audit.json`. P00 is admitted only for bounded engineering profiles and disclosed fixture panels. P01 requires its registered generator, profiling/budget and run-limit readiness work before execution. Scientific status remains untested. Do not start unregistered experiments merely because the project is opened.
 
 Keep versioned profiles, detector thresholds, registered denominators, inconclusive classifications, negative outcomes, independent replay, and original receipts intact. Record a new protocol version when changing a frozen scientific contract. Raw evidence belongs in ignored `artifacts/` paths; public receipts belong in `docs/evidence/`.

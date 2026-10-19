@@ -9,6 +9,13 @@ pub enum Matcher {
     Reference,
     Indexed,
 }
+/// Observer output mode. Semantic writer metadata and event IDs are retained.
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub enum TraceMode {
+    Full,
+    Disabled,
+}
+
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct Candidate {
     pub rule: u64,
@@ -283,6 +290,13 @@ pub fn enumerate(exp: &Experiment, matcher: Matcher) -> Result<Vec<Candidate>> {
     Ok(result)
 }
 pub fn step(exp: &mut Experiment, matcher: Matcher) -> Result<Frame> {
+    Ok(step_with_logging(exp, matcher, TraceMode::Full)?.expect("full trace"))
+}
+pub fn step_with_logging(
+    exp: &mut Experiment,
+    matcher: Matcher,
+    mode: TraceMode,
+) -> Result<Option<Frame>> {
     let candidates = enumerate(exp, matcher)?;
     let mut selected = Vec::new();
     let mut reads = BTreeSet::new();
@@ -303,12 +317,15 @@ pub fn step(exp: &mut Experiment, matcher: Matcher) -> Result<Frame> {
     let mut events = Vec::new();
     for c in selected {
         let rule = exp.rules.iter().find(|r| r.id == c.rule).unwrap();
-        let parents: BTreeSet<u64> = c
-            .reads
-            .iter()
-            .chain(&c.writes)
-            .filter_map(|k| world.writers.get(k).copied())
-            .collect();
+        let parents: BTreeSet<u64> = if mode == TraceMode::Full {
+            c.reads
+                .iter()
+                .chain(&c.writes)
+                .filter_map(|k| world.writers.get(k).copied())
+                .collect()
+        } else {
+            BTreeSet::new()
+        };
         let (mut next, all_writes) = apply(&world, rule, &c.binding)?;
         let id = world.next_event;
         next.next_event = add(id, 1)?;
@@ -316,23 +333,29 @@ pub fn step(exp: &mut Experiment, matcher: Matcher) -> Result<Frame> {
             next.writers.insert(key, id);
         }
         world = next;
-        events.push(Event {
-            id,
-            candidate: c.clone(),
-            parents: parents.into_iter().collect(),
-        });
+        if mode == TraceMode::Full {
+            events.push(Event {
+                id,
+                candidate: c.clone(),
+                parents: parents.into_iter().collect(),
+            });
+        }
     }
     world.epoch = add(world.epoch, 1)?;
     world.validate()?;
     if world.nodes.len() > exp.limits.max_nodes || world.edges.len() > exp.limits.max_edges {
         return Err("world_size_exceeded".into());
     }
-    let frame = Frame {
-        before: digest(&exp.world),
-        after: digest(&world),
-        candidates,
-        events,
-        world: world.clone(),
+    let frame = if mode == TraceMode::Full {
+        Some(Frame {
+            before: digest(&exp.world),
+            after: digest(&world),
+            candidates,
+            events,
+            world: world.clone(),
+        })
+    } else {
+        None
     };
     exp.world = world;
     Ok(frame)

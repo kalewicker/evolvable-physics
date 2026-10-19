@@ -1,0 +1,16 @@
+{
+  "schema": "project-status-v1",
+  "date": "2026-10-19",
+  "stage": "P00g",
+  "p00_admitted": true,
+  "admission_scope": "bounded engineering profiles and disclosed fixture panels",
+  "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
+  "p01_ready": false,
+  "p01_started": false,
+  "scientific_status": "untested",
+  "next_work": [
+    "registered rule generator",
+    "profiling and cost budget",
+    "event/time/memory run limits"
+  ]
+}

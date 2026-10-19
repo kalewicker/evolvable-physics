@@ -1,7 +1,7 @@
 //! Versioned environment orchestration around the unchanged closed native kernel.
 use crate::{
     core::*,
-    runtime::{self, Frame, Matcher},
+    runtime::{self, Frame, Matcher, TraceMode},
 };
 use serde::{Deserialize, Serialize};
 use std::{collections::BTreeSet, path::Path};
@@ -126,6 +126,13 @@ fn add(a: u64, b: u64) -> Result<u64> {
     a.checked_add(b).ok_or("environment_overflow".into())
 }
 pub fn step(env: &mut Environment, matcher: Matcher) -> Result<Epoch> {
+    Ok(step_with_logging(env, matcher, TraceMode::Full)?.expect("full environment trace"))
+}
+pub fn step_with_logging(
+    env: &mut Environment,
+    matcher: Matcher,
+    mode: TraceMode,
+) -> Result<Option<Epoch>> {
     env.validate()?;
     let mut out = env.clone();
     let mut channels = env.channels.clone();
@@ -139,7 +146,11 @@ pub fn step(env: &mut Environment, matcher: Matcher) -> Result<Epoch> {
         {
             continue;
         }
-        let before = digest(&out);
+        let before = if mode == TraceMode::Full {
+            Some(digest(&out))
+        } else {
+            None
+        };
         let mut reads = BTreeSet::new();
         let mut writes = BTreeSet::new();
         let w = &mut out.native.world;
@@ -197,10 +208,14 @@ pub fn step(env: &mut Environment, matcher: Matcher) -> Result<Epoch> {
                 }
             }
         };
-        let parents: BTreeSet<_> = reads
-            .iter()
-            .filter_map(|k| w.writers.get(k).copied())
-            .collect();
+        let parents: BTreeSet<_> = if mode == TraceMode::Full {
+            reads
+                .iter()
+                .filter_map(|k| w.writers.get(k).copied())
+                .collect()
+        } else {
+            BTreeSet::new()
+        };
         let event_id = if enabled {
             let id = w.next_event;
             w.next_event = add(id, 1)?;
@@ -212,32 +227,42 @@ pub fn step(env: &mut Environment, matcher: Matcher) -> Result<Epoch> {
             None
         };
         out.validate()?;
-        events.push(Event {
-            channel: c.id,
-            event_id,
-            status: if enabled {
-                "applied"
-            } else {
-                "insufficient_resource"
-            }
-            .into(),
-            reads,
-            writes,
-            parents: parents.into_iter().collect(),
-            before,
-            after: digest(&out),
-        });
+        if mode == TraceMode::Full {
+            events.push(Event {
+                channel: c.id,
+                event_id,
+                status: if enabled {
+                    "applied"
+                } else {
+                    "insufficient_resource"
+                }
+                .into(),
+                reads,
+                writes,
+                parents: parents.into_iter().collect(),
+                before: before.expect("full environment before"),
+                after: digest(&out),
+            });
+        }
     }
-    let prepared = out.native.clone();
-    let native_frame = runtime::step(&mut out.native, matcher)?;
+    let prepared = if mode == TraceMode::Full {
+        Some(out.native.clone())
+    } else {
+        None
+    };
+    let native_frame = runtime::step_with_logging(&mut out.native, matcher, mode)?;
     out.validate()?;
-    let frame = Epoch {
-        before: digest(env),
-        after: digest(&out),
-        environment_events: events,
-        prepared,
-        native_frame,
-        state: out.clone(),
+    let frame = if mode == TraceMode::Full {
+        Some(Epoch {
+            before: digest(env),
+            after: digest(&out),
+            environment_events: events,
+            prepared: prepared.expect("full prepared"),
+            native_frame: native_frame.expect("full native frame"),
+            state: out.clone(),
+        })
+    } else {
+        None
     };
     *env = out;
     Ok(frame)

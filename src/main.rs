@@ -1,13 +1,33 @@
 use causal_alife::{
     core::*,
-    detector_fixtures, environment, environment_branch_fixtures, environment_branches,
-    environment_fixtures, experiments, generalization, intervention_fixtures, interventions,
+    detector_fixtures, environment, environment_analysis, environment_branch_fixtures,
+    environment_branches, environment_fixtures, experiments, generalization, integration_fixtures,
+    intervention_fixtures, interventions,
     runtime::{self, Matcher},
 };
 use std::path::Path;
 fn run() -> Result<()> {
     let a: Vec<String> = std::env::args().collect();
     match a.get(1).map(String::as_str) {
+        Some("integration-fixtures") if a.len()==3 => {
+            let dir=Path::new(&a[2]);std::fs::create_dir(dir).map_err(|e|e.to_string())?;
+            let suite=integration_fixtures::suite()?;
+            std::fs::write(dir.join("suite.json"),serde_json::to_vec_pretty(&suite).unwrap()).map_err(|e|e.to_string())?;
+            for c in suite.cases.iter().filter(|c|c.initial.native.seed==0) {
+                environment::save(&dir.join(format!("{}-checkpoint.json",c.family)),&c.epochs[2].state)?;
+                environment::save(&dir.join(format!("{}-expected.json",c.family)),&c.epochs[11].state)?;
+            }
+            println!("96 environment-detector cases plus legacy logging and maintenance controls. Independent audit pending.");
+        }
+        Some("analysis-equivalence") if a.len()==4 => {
+            #[derive(serde::Deserialize)] struct Case { initial:Experiment, frames:Vec<runtime::Frame>, detection:causal_alife::analysis::Detection }
+            #[derive(serde::Deserialize)] struct Suite { cases:Vec<Case> }
+            let suite:Suite=serde_json::from_slice(&std::fs::read(&a[2]).map_err(|e|e.to_string())?).map_err(|e|e.to_string())?;
+            for c in &suite.cases { if environment_analysis::analyze_native(&c.initial,&c.frames)?!=c.detection {return Err("analysis_engine_equivalence_mismatch".into());} }
+            let receipt=serde_json::json!({"schema":"p00g-analysis-equivalence-v1","cases":suite.cases.len(),"all_outputs_equal":true});
+            std::fs::OpenOptions::new().write(true).create_new(true).open(&a[3]).and_then(|mut f| {use std::io::Write;f.write_all(&serde_json::to_vec_pretty(&receipt).unwrap())}).map_err(|e|e.to_string())?;
+            println!("{} equivalent detector cases",suite.cases.len());
+        }
         Some("generalization-panel") if a.len()==3 => {
             let dir=Path::new(&a[2]);std::fs::create_dir(dir).map_err(|e|e.to_string())?;
             let suite=generalization::suite()?;
@@ -54,10 +74,13 @@ fn run() -> Result<()> {
             }
             println!("64 environment cases / 512 epochs. Independent audit pending.");
         }
-        Some("environment-resume") if a.len()==5 => {
+        Some("environment-resume" | "environment-resume-quiet") if a.len()==5 => {
             let mut env=environment::load(Path::new(&a[2]))?;
             let epochs:u64=a[3].parse().map_err(|_|"invalid_epoch_count")?;
-            for _ in 0..epochs {environment::step(&mut env,Matcher::Indexed)?;}
+            for _ in 0..epochs {
+                if a[1]=="environment-resume-quiet" { environment::step_with_logging(&mut env,Matcher::Indexed,runtime::TraceMode::Disabled)?; }
+                else { environment::step(&mut env,Matcher::Indexed)?; }
+            }
             environment::save(Path::new(&a[4]),&env)?;
             println!("{}",digest(&env));
         }
@@ -119,17 +142,18 @@ fn run() -> Result<()> {
             runtime::save(&dir.join("expected.json"), &exp)?;
             println!("112 cases / 1344 epochs: Rust matcher agreement. Independent audit pending.");
         }
-        Some("resume") if a.len() == 5 => {
+        Some("resume" | "resume-quiet") if a.len() == 5 => {
             let mut exp = runtime::load(Path::new(&a[2]))?;
             let epochs: u64 = a[3].parse().map_err(|_| "invalid_epoch_count")?;
             for _ in 0..epochs {
-                runtime::step(&mut exp, Matcher::Indexed)?;
+                if a[1]=="resume-quiet" { runtime::step_with_logging(&mut exp,Matcher::Indexed,runtime::TraceMode::Disabled)?; }
+                else { runtime::step(&mut exp,Matcher::Indexed)?; }
             }
             runtime::save(Path::new(&a[4]), &exp)?;
             println!("{}", digest(&exp));
         }
         _ => return Err(
-            "usage: causal-alife generalization-panel NEW_DIRECTORY | detector-fixtures NEW_DIRECTORY | environment-branch-fixtures NEW_DIRECTORY | environment-branch CHECKPOINT REQUEST_JSON NEW_DIRECTORY | environment-branch-resume BUNDLE EPOCHS NEW_CHECKPOINT | environment-fixtures NEW_DIRECTORY | environment-resume CHECKPOINT EPOCHS NEW_CHECKPOINT | fixtures NEW_DIRECTORY | intervention-fixtures NEW_DIRECTORY | branch CHECKPOINT REQUEST_JSON NEW_DIRECTORY | resume CHECKPOINT EPOCHS NEW_CHECKPOINT"
+            "usage: causal-alife integration-fixtures NEW_DIRECTORY | analysis-equivalence SUITE NEW_RECEIPT | generalization-panel NEW_DIRECTORY | detector-fixtures NEW_DIRECTORY | environment-branch-fixtures NEW_DIRECTORY | environment-branch CHECKPOINT REQUEST_JSON NEW_DIRECTORY | environment-branch-resume BUNDLE EPOCHS NEW_CHECKPOINT | environment-fixtures NEW_DIRECTORY | environment-resume[-quiet] CHECKPOINT EPOCHS NEW_CHECKPOINT | fixtures NEW_DIRECTORY | intervention-fixtures NEW_DIRECTORY | branch CHECKPOINT REQUEST_JSON NEW_DIRECTORY | resume[-quiet] CHECKPOINT EPOCHS NEW_CHECKPOINT"
                 .into(),
         ),
     }

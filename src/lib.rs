@@ -10,4 +10,6 @@ pub mod runtime;
 
 pub mod analysis;
 pub mod detector_fixtures;
+pub mod environment_analysis;
 pub mod generalization;
+pub mod integration_fixtures;

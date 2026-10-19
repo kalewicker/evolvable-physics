@@ -13,6 +13,7 @@ import validate_environment
 import validate_environment_branches
 import validate_detectors
 import validate_generalization
+import validate_integration
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -26,7 +27,7 @@ def run(cmd, log):
 def main():
     out = Path(sys.argv[1]).resolve()
     out.mkdir(parents=True, exist_ok=False)
-    manifest = {'stage': 'P00f', 'execution_status': 'running', 'scientific_status': 'untested',
+    manifest = {'stage': 'P00g', 'execution_status': 'running', 'scientific_status': 'untested',
                 'p00_complete': False, 'source_files': {}, 'checks': {}}
     manifest_path = out / 'manifest.json'
     def save():
@@ -101,6 +102,9 @@ def main():
         manifest['checks']['environment_branches'] = validate_environment_branches.validate(binary, out, run)
         manifest['checks']['detectors'] = validate_detectors.validate(binary, out, run)
         manifest['checks']['generalization'] = validate_generalization.validate(binary, out, run)
+        manifest['checks']['integration'] = validate_integration.validate(binary, out, run)
+        manifest['p00_complete'] = manifest['checks']['integration']['admission']['p00_admitted']
+        manifest['current_admission_receipt'] = 'p00g_admission_audit.json'
         manifest['execution_status'] = 'complete'
     except Exception as error:
         manifest['execution_status'] = 'failed'

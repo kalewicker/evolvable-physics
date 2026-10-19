@@ -58,3 +58,7 @@ No asynchronous within-world workers, durable event-store recovery, configurable
 ## P00b extension
 
 Host state/resource interventions now have a separate [request and receipt contract](interventions.md). Native profile semantics above are unchanged; the extension explicitly records external event IDs rather than attributing host edits to native rules.
+
+## P00g output and analysis update
+
+Full and disabled exported-output modes now preserve the same native/environment semantics, with checkpoint equivalence and complete-environment detector validation. See [P00g semantics](p00g_semantics.md); earlier scope exclusions describe the original P00a implementation boundary.
