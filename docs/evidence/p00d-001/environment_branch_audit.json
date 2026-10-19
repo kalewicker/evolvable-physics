@@ -1,0 +1,76 @@
+{
+  "status": "pass",
+  "cases": 32,
+  "arms": 160,
+  "continuation_epochs": 960,
+  "native_events": 1728,
+  "environment_events": 6400,
+  "outcomes": {
+    "state_arrest": {
+      "baseline": {
+        "focal_events": 6,
+        "control_events": 6
+      },
+      "sham": {
+        "focal_events": 6,
+        "control_events": 6
+      },
+      "target": {
+        "focal_events": 0,
+        "control_events": 6
+      },
+      "unrelated": {
+        "focal_events": 6,
+        "control_events": 0
+      },
+      "rescue": {
+        "focal_events": 6,
+        "control_events": 6
+      }
+    },
+    "replenished_activation": {
+      "baseline": {
+        "focal_events": 6,
+        "control_events": 6
+      },
+      "sham": {
+        "focal_events": 6,
+        "control_events": 6
+      },
+      "target": {
+        "focal_events": 6,
+        "control_events": 6
+      },
+      "unrelated": {
+        "focal_events": 6,
+        "control_events": 6
+      },
+      "rescue": {
+        "focal_events": 6,
+        "control_events": 6
+      }
+    }
+  },
+  "scientific_status": "untested",
+  "tamper_rejections": [
+    "source",
+    "schedule",
+    "ledger",
+    "operations",
+    "receipt",
+    "rescue",
+    "native",
+    "phase"
+  ],
+  "bundle_rejections": [
+    "no_manifest",
+    "no_record",
+    "truncated_record",
+    "forged_receipt",
+    "schedule_drift",
+    "not_complete"
+  ],
+  "fresh_process_target_and_rescue": "pass",
+  "stale_schedule_request_rejected": "pass",
+  "no_overwrite": "pass"
+}

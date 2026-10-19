@@ -1,0 +1,22 @@
+{
+  "schema": "p00f-admission-requirements-v1",
+  "requirements": [
+    {"id":"kernel_replay","status":"supported_in_tested_profiles","blocks_p00":false,"evidence":["independent_audit.json","tests.txt"],"source":"src/runtime.rs","limit":"Rust matchers share execution; independent Python replay covers fixed fixtures."},
+    {"id":"exact_accounting","status":"supported_in_tested_profiles","blocks_p00":false,"evidence":["independent_audit.json","environment_audit.json"],"source":"src/core.rs","limit":"Abstract integer matter/activation bookkeeping; bounded counters."},
+    {"id":"atomic_rejection","status":"supported_in_tested_profiles","blocks_p00":false,"evidence":["tests.txt"],"source":"tests/environment.rs","limit":"Specified cap/overflow/precondition paths; not exhaustive runtime fault injection."},
+    {"id":"continuation_and_interventions","status":"supported_in_tested_profiles","blocks_p00":false,"evidence":["environment_branch_audit.json","tests.txt"],"source":"src/environment_branches.rs","limit":"Fresh-process continuation and four publication boundaries; arbitrary power loss and full event-store crash recovery unverified."},
+    {"id":"detector_fixed_calibration","status":"supported_on_disclosed_fixtures","blocks_p00":false,"evidence":["detector_audit.json"],"source":"docs/detector_protocol.json","limit":"Operational AP/maintenance calibration; bounded 2–6 nodes and explicit disagreement."},
+    {"id":"detector_generalization_panel","status":"evaluate_registered_panel","blocks_p00":false,"evidence":["generalization_audit.json"],"source":"docs/generalization_panel.json","limit":"Disclosed transfer panel, not random-world sensitivity/specificity. A failed panel adds a blocker."},
+    {"id":"logging_equivalence","status":"missing","blocks_p00":true,"evidence":[],"source":"src/runtime.rs","limit":"No logging-disabled execution path and paired semantic-equivalence check."},
+    {"id":"environment_detector_integration","status":"missing","blocks_p00":true,"evidence":[],"source":"src/analysis.rs","limit":"Analysis accepts native Experiment/Frame only; full Environment/Epoch analysis and environment-only activity attribution are unverified."},
+    {"id":"parallel_execution_scope","status":"bounded_support","blocks_p00":false,"evidence":["tests.txt"],"source":"tests/kernel.rs","limit":"Independent worlds in threads, not concurrent within-world matching. Campaign worker scheduling remains P01 work."},
+    {"id":"provenance_scope","status":"documented_restriction","blocks_p00":false,"evidence":["docs/semantics.md"],"source":"src/runtime.rs","limit":"Conservative node/adjacency keys, not field-level causal necessity or biological lineage."}
+  ],
+  "p01_execution_readiness": [
+    {"id":"registered_rule_generator","status":"missing","source":"src/experiments.rs"},
+    {"id":"profiling_and_cost_budget","status":"missing","source":"docs/p00f_registration.md"},
+    {"id":"event_time_memory_run_caps","status":"partial","source":"src/core.rs","limit":"Node/edge/matching caps exist; total events, wall-clock and memory admission limits are not implemented."}
+  ],
+  "later_assays": ["reproduction, budding/fission and environment-template causal attribution", "heredity and differential reproduction", "adaptation and ecology"],
+  "decision": "Do not run P01/E01 until P00 blockers are resolved; complete P01-specific generator, instrumentation and resource-budget readiness before executing its pilot."
+}

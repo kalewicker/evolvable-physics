@@ -1,0 +1,44 @@
+{
+  "stage": "P00a",
+  "execution_status": "complete",
+  "scientific_status": "untested",
+  "p00_complete": false,
+  "source_files": {
+    "Cargo.lock": "74088da525565c8cfd07bfc0af06b188d01fe3e12402482fc6f156fcb19c0d85",
+    "Cargo.toml": "90e2842817a7dab0bffe2a07aa4780fffb104afbdfbb8bfbf55912500caf4476",
+    "README.md": "8d1f5d775567847ce92a1db17cd04dd1b4e44e2bc7904a424608db05d1ab6a1e",
+    "docs/fixtures.md": "df392a73c46ce1b5d11600fa4fa9621600883cd3df72a5ea7fcd58f2204c77de",
+    "docs/semantics.md": "d17361b79c774683179efb95e9a0630381523d590c7239b4afacfb12573527c5",
+    "scripts/audit.py": "0ecd3e690f5891b1822c07de17253b08dc86d4562b26f5cf9f1f9b61f6f576b8",
+    "scripts/validate.py": "38de7cf8c3e09dbb4204fbac43ba104a15dd6c512120f3c819d0c3e57a6ea568",
+    "src/core.rs": "223bd0eb4ba3a3eeb645ddb1d95d65153ba9ad64b59ea3e959814bbad9368b20",
+    "src/experiments.rs": "28aefbdd6540cca7f520cb410906d21a6c8dc004b6a8b1e9c8a886e4a1302cd5",
+    "src/lib.rs": "6b3e104bad96f9c67b6aef15049194a0c70e2dd57aede3c234b1b4fedc138c90",
+    "src/main.rs": "91c8dc3026a8552c0634747a531208c7f8e954c520f96aa4c304fab0ffd28ebf",
+    "src/runtime.rs": "3844b9d813e4a8d67af68e154e2aae4b2a8d85083dae78e7765fd3146bb6d9ec",
+    "tests/kernel.rs": "0ddbffd6ea30065a2cd743dac9c9467124a1232011470f79cbdd0dc9a21b4031"
+  },
+  "checks": {
+    "rust_tests": "pass",
+    "independent_replay": {
+      "status": "pass",
+      "cases": 112,
+      "epochs": 1344,
+      "events": 1216,
+      "scientific_status": "untested",
+      "scope": "P00a closed fixed-contact transition fixtures"
+    },
+    "audit_tamper_rejections": [
+      "priority",
+      "state",
+      "parents",
+      "events",
+      "rule"
+    ],
+    "fresh_process_continuation": "pass",
+    "noop_checkpoint_branch": "pass",
+    "damaged_checkpoints_rejected": "pass",
+    "checkpoint_overwrite_rejected": "pass"
+  },
+  "binary_sha256": "9afb5cc475893f244610119cb2f34a6a6ea9ef2d21158c11c48b8a49a648bde0"
+}

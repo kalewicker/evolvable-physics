@@ -1,0 +1,77 @@
+{
+  "schema": "p00e-detector-protocol-v1",
+  "min_nodes": 2,
+  "max_nodes": 6,
+  "min_duration": 8,
+  "identity_jaccard_numerator": 1,
+  "identity_jaccard_denominator": 2,
+  "feature_similarity_numerator": 1,
+  "feature_similarity_denominator": 2,
+  "min_active_epoch_numerator": 1,
+  "min_active_epoch_denominator": 2,
+  "require_all_members_active": true,
+  "interaction_lookback": 3,
+  "min_replacement_pairs": 2,
+  "maintenance_horizon": 12,
+  "min_occupancy_drop_numerator": 1,
+  "min_occupancy_drop_denominator": 2,
+  "control_occupancy_tolerance": 0,
+  "development_seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "validation_seeds": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "expected": {
+    "frozen_pair": [
+      "not_supported",
+      "not_supported"
+    ],
+    "active_pair": [
+      "supported",
+      "not_supported"
+    ],
+    "inert_with_oscillator": [
+      "not_supported",
+      "not_supported"
+    ],
+    "attached_inert": [
+      "inconclusive",
+      "not_supported"
+    ],
+    "irrelevant_bits": [
+      "supported",
+      "not_supported"
+    ],
+    "wholesale_replacement": [
+      "not_supported",
+      "not_supported"
+    ],
+    "renewal": [
+      "supported",
+      "supported"
+    ],
+    "passive_turnover": [
+      "supported",
+      "not_supported"
+    ],
+    "noise_replacement": [
+      "not_supported",
+      "not_supported"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.03s
+     Running unittests src/lib.rs (target/debug/deps/causal_alife-8877a8340460673b)
+
+running 3 tests
+test environment_branches::recovery_tests::child_writer ... ok
+test environment_branches::recovery_tests::partial_pending_checkpoint_is_never_promoted_or_overwritten ... ok
+
+running 1 test
+
+running 1 test
+
+running 1 test
+
+running 1 test
+test environment_branches::recovery_tests::fresh_process_exit_at_every_publication_boundary ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.16s
+
+     Running unittests src/main.rs (target/debug/deps/causal_alife-b44a72d023c03ed9)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/environment.rs (target/debug/deps/environment-2fcda7d456bb372c)
+
+running 5 tests
+test local_geometry_schedule_and_ledger_validation ... ok
+test errors_after_environment_work_roll_back_entire_epoch ... ok
+test unavailable_attempts_do_not_spend_or_allocate_events_and_provenance_is_explicit ... ok
+test closed_wrapper_preserves_native_trace_and_storage_order_does_not_matter ... ok
+test registered_controls_and_exact_ledgers ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.03s
+
+     Running tests/environment_branches.rs (target/debug/deps/environment_branches-bb993fe367373c57)
+
+running 4 tests
+test full_wrapper_identity_rejects_changed_schedule_with_identical_native_state ... ok
+test compound_failure_is_atomic_and_configuration_stays_fixed ... ok
+test branch_precedes_environment_phase_without_consuming_it ... ok
+test integrated_controls_preserve_expected_null_and_arrest_results ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 9.26s
+
+     Running tests/interventions.rs (target/debug/deps/interventions-73644f956c7ee3b1)
+
+running 5 tests
+test event_overflow_and_unknown_json_fields_are_rejected ... ok
+test resource_moves_conserve_both_ledgers_and_rescue_restores_inventory ... ok
+test empty_branch_is_exact_and_sham_has_explicit_provenance ... ok
+test stale_source_and_invalid_requests_reject_without_changing_source ... ok
+test matched_arms_have_expected_effects_and_rescue_dynamics ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.55s
+
+     Running tests/kernel.rs (target/debug/deps/kernel-59bea5c5ef59ff1b)
+
+running 11 tests
+test invalid_inputs_rejected_without_mutation ... ok
+test counter_overflow_rolls_back_whole_epoch ... ok
+test cap_errors_leave_entire_experiment_unchanged ... ok
+test dangling_deletion_and_duplicate_edges_are_inapplicable ... ok
+test failed_compound_operations_are_not_partially_applied ... ok
+test provenance_has_prior_event_ids_and_no_op_branch_is_identical ... ok
+test ordered_hyperedges_support_three_and_four_endpoints ... ok
+test expected_oscillator_and_frozen_behavior ... ok
+test absent_predicates_and_shared_accounts_conflict ... ok
+test storage_order_and_independent_workers_do_not_change_results ... ok
+test full_fixture_differential_suite ... ok
+
+test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.56s
+
+   Doc-tests causal_alife
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

@@ -1,0 +1,121 @@
+{
+  "stage": "P00b",
+  "execution_status": "complete",
+  "scientific_status": "untested",
+  "p00_complete": false,
+  "source_files": {
+    "Cargo.lock": "74088da525565c8cfd07bfc0af06b188d01fe3e12402482fc6f156fcb19c0d85",
+    "Cargo.toml": "90e2842817a7dab0bffe2a07aa4780fffb104afbdfbb8bfbf55912500caf4476",
+    "README.md": "d7f07fda66dac39ba1e7b05ee44e716b9aae3e19cc3e9716259cb104a2ae88cc",
+    "docs/fixtures.md": "df392a73c46ce1b5d11600fa4fa9621600883cd3df72a5ea7fcd58f2204c77de",
+    "docs/interventions.md": "8c2bbe567752863fc36ac27dc6b675a528632b19584c3e2c139ea3faad99f427",
+    "docs/p00a_findings.md": "3b15e6e6d19e553c55f7d313ff30584206eaf76ddc10c6579d26fe23408a04e6",
+    "docs/semantics.md": "424894f42f168698b47bf617bba7b63008b29effb6a760291fe8a7aa8419d9c4",
+    "scripts/audit.py": "9c7cf5561b2e90194bc04f0e28ca442b4f4c2127cf07ecfa868a99482ce66d1f",
+    "scripts/audit_interventions.py": "5af065078301de6dd4ac6fa5933b0c8601e3fe0ab0bdd06c14849b9b1e9f0d5b",
+    "scripts/validate.py": "35b9bfd93f74eb84e603077bc32eca9bd1ea75c7efa0be98a9fa462de27c1536",
+    "scripts/validate_interventions.py": "a56ebfa55845910f9b44e36f63ab0e073b18ac36e5c49d10c9c67a062613527a",
+    "src/core.rs": "223bd0eb4ba3a3eeb645ddb1d95d65153ba9ad64b59ea3e959814bbad9368b20",
+    "src/experiments.rs": "28aefbdd6540cca7f520cb410906d21a6c8dc004b6a8b1e9c8a886e4a1302cd5",
+    "src/intervention_fixtures.rs": "d3bacae4cd59d40f86e8032bc55f66b1817374b96b4a294906f645d936ca5a24",
+    "src/interventions.rs": "e82ae1984920575e88fa452e16b80ece63988d584024283001792b34f7920349",
+    "src/lib.rs": "02da3def22e106f17250ada54f59da27727c170cdeee69bb83c3e888444d3465",
+    "src/main.rs": "ae6975aa3d6a939f0aca2a44820f12b061f526a6425941f594b98cb6a00dfb25",
+    "src/runtime.rs": "3844b9d813e4a8d67af68e154e2aae4b2a8d85083dae78e7765fd3146bb6d9ec",
+    "tests/interventions.rs": "149f7459b150ecd50ea185bb7fec32388b62b21ed8bfd36c95ede28bf3c05a50",
+    "tests/kernel.rs": "0ddbffd6ea30065a2cd743dac9c9467124a1232011470f79cbdd0dc9a21b4031"
+  },
+  "checks": {
+    "rust_tests": "pass",
+    "independent_replay": {
+      "status": "pass",
+      "cases": 112,
+      "epochs": 1344,
+      "events": 1216,
+      "scientific_status": "untested",
+      "scope": "P00a closed fixed-contact transition fixtures"
+    },
+    "audit_requires_assertions": "pass",
+    "audit_tamper_rejections": [
+      "priority",
+      "state",
+      "parents",
+      "events",
+      "rule"
+    ],
+    "fresh_process_continuation": "pass",
+    "noop_checkpoint_branch": "pass",
+    "damaged_checkpoints_rejected": "pass",
+    "checkpoint_overwrite_rejected": "pass",
+    "interventions": {
+      "status": "pass",
+      "cases": 32,
+      "arms": 160,
+      "continuation_epochs": 1280,
+      "continuation_events": 1792,
+      "warmup_epochs": 64,
+      "warmup_events": 128,
+      "expected_engineering_outcomes": {
+        "state_arrest": {
+          "baseline": {
+            "focal_events": 8,
+            "control_events": 8
+          },
+          "sham": {
+            "focal_events": 8,
+            "control_events": 8
+          },
+          "target": {
+            "focal_events": 0,
+            "control_events": 8
+          },
+          "unrelated": {
+            "focal_events": 8,
+            "control_events": 0
+          },
+          "rescue": {
+            "focal_events": 8,
+            "control_events": 8
+          }
+        },
+        "activation_relocation": {
+          "baseline": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "sham": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "target": {
+            "focal_events": 0,
+            "control_events": 6
+          },
+          "unrelated": {
+            "focal_events": 6,
+            "control_events": 0
+          },
+          "rescue": {
+            "focal_events": 6,
+            "control_events": 6
+          }
+        }
+      },
+      "scientific_status": "untested",
+      "tamper_rejections": [
+        "receipt",
+        "source",
+        "operation",
+        "rescue",
+        "label",
+        "writer",
+        "warmup",
+        "law"
+      ],
+      "fresh_process_target_and_rescue": "pass",
+      "source_immutable_and_failed_requests_unpublished": "pass",
+      "branch_overwrite_rejected": "pass"
+    }
+  },
+  "binary_sha256": "f460bde0087c83235d451efcf68ff9a6ae935941126fff93917e67325bcd3793"
+}

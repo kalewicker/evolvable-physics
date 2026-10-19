@@ -1,0 +1,69 @@
+{
+  "status": "pass",
+  "cases": 32,
+  "arms": 160,
+  "continuation_epochs": 1280,
+  "continuation_events": 1792,
+  "warmup_epochs": 64,
+  "warmup_events": 128,
+  "expected_engineering_outcomes": {
+    "state_arrest": {
+      "baseline": {
+        "focal_events": 8,
+        "control_events": 8
+      },
+      "sham": {
+        "focal_events": 8,
+        "control_events": 8
+      },
+      "target": {
+        "focal_events": 0,
+        "control_events": 8
+      },
+      "unrelated": {
+        "focal_events": 8,
+        "control_events": 0
+      },
+      "rescue": {
+        "focal_events": 8,
+        "control_events": 8
+      }
+    },
+    "activation_relocation": {
+      "baseline": {
+        "focal_events": 6,
+        "control_events": 6
+      },
+      "sham": {
+        "focal_events": 6,
+        "control_events": 6
+      },
+      "target": {
+        "focal_events": 0,
+        "control_events": 6
+      },
+      "unrelated": {
+        "focal_events": 6,
+        "control_events": 0
+      },
+      "rescue": {
+        "focal_events": 6,
+        "control_events": 6
+      }
+    }
+  },
+  "scientific_status": "untested",
+  "tamper_rejections": [
+    "receipt",
+    "source",
+    "operation",
+    "rescue",
+    "label",
+    "writer",
+    "warmup",
+    "law"
+  ],
+  "fresh_process_target_and_rescue": "pass",
+  "source_immutable_and_failed_requests_unpublished": "pass",
+  "branch_overwrite_rejected": "pass"
+}

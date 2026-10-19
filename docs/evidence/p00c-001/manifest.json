@@ -1,0 +1,180 @@
+{
+  "stage": "P00c",
+  "execution_status": "complete",
+  "scientific_status": "untested",
+  "p00_complete": false,
+  "source_files": {
+    "Cargo.lock": "74088da525565c8cfd07bfc0af06b188d01fe3e12402482fc6f156fcb19c0d85",
+    "Cargo.toml": "90e2842817a7dab0bffe2a07aa4780fffb104afbdfbb8bfbf55912500caf4476",
+    "README.md": "a3cb4321dee88168dbf22ab2a67da6481cf387e98bf74498c6d35631cab2826e",
+    "docs/environment.md": "d387a076f49ffa3798113bbb7cbad673e34d7d7ebb53b2474857d078d4e34ebd",
+    "docs/fixtures.md": "df392a73c46ce1b5d11600fa4fa9621600883cd3df72a5ea7fcd58f2204c77de",
+    "docs/interventions.md": "8c2bbe567752863fc36ac27dc6b675a528632b19584c3e2c139ea3faad99f427",
+    "docs/p00a_findings.md": "3b15e6e6d19e553c55f7d313ff30584206eaf76ddc10c6579d26fe23408a04e6",
+    "docs/p00b_findings.md": "7bfc726308e435cd2011292525f3b230236d358dc8c6f70048535a047bf9a5ba",
+    "docs/semantics.md": "424894f42f168698b47bf617bba7b63008b29effb6a760291fe8a7aa8419d9c4",
+    "scripts/audit.py": "9c7cf5561b2e90194bc04f0e28ca442b4f4c2127cf07ecfa868a99482ce66d1f",
+    "scripts/audit_environment.py": "01deba425861b45cb2c26261f5d1981a5b636008fdc96e5a6a5a010e61336f3b",
+    "scripts/audit_interventions.py": "5af065078301de6dd4ac6fa5933b0c8601e3fe0ab0bdd06c14849b9b1e9f0d5b",
+    "scripts/validate.py": "45b6dcdac19bee0ace9ba990f3e02b0eba24e0b1a5ef2ba07dc7eacdcc4bde87",
+    "scripts/validate_environment.py": "b462b3a11f0fd0070c90bf561dd46bdf8e00f0f683d60ef2187a21dd4caeca53",
+    "scripts/validate_interventions.py": "a56ebfa55845910f9b44e36f63ab0e073b18ac36e5c49d10c9c67a062613527a",
+    "src/core.rs": "223bd0eb4ba3a3eeb645ddb1d95d65153ba9ad64b59ea3e959814bbad9368b20",
+    "src/environment.rs": "937cc00f3c8cb7825f1beebccde9249cd3fbe759f73a4660ca2c2b933bbe4972",
+    "src/environment_fixtures.rs": "9dffe5490b573f400bf6fe5036e3bed93ae0a081e4328b73ed54fa1d4bafcca9",
+    "src/experiments.rs": "28aefbdd6540cca7f520cb410906d21a6c8dc004b6a8b1e9c8a886e4a1302cd5",
+    "src/intervention_fixtures.rs": "d3bacae4cd59d40f86e8032bc55f66b1817374b96b4a294906f645d936ca5a24",
+    "src/interventions.rs": "e82ae1984920575e88fa452e16b80ece63988d584024283001792b34f7920349",
+    "src/lib.rs": "b48d2d6aff0a18d73496621ecddff7860dca260db745802b9532f53b679bc1f5",
+    "src/main.rs": "387447c40b71c040e7e4d1d9fcf7d91266ef6a4efaed4202c6c58e91fa3f775a",
+    "src/runtime.rs": "55a0b17a339da1fbafc307410d0bd5f3de425023b196b44850ef03ef72074fcb",
+    "tests/environment.rs": "ee1a594cb56271490f63bf46443b0a62d16e78ebc1da96612e8e8dcda2d2ff29",
+    "tests/interventions.rs": "149f7459b150ecd50ea185bb7fec32388b62b21ed8bfd36c95ede28bf3c05a50",
+    "tests/kernel.rs": "0ddbffd6ea30065a2cd743dac9c9467124a1232011470f79cbdd0dc9a21b4031"
+  },
+  "checks": {
+    "rust_tests": "pass",
+    "independent_replay": {
+      "status": "pass",
+      "cases": 112,
+      "epochs": 1344,
+      "events": 1216,
+      "scientific_status": "untested",
+      "scope": "P00a closed fixed-contact transition fixtures"
+    },
+    "audit_requires_assertions": "pass",
+    "audit_tamper_rejections": [
+      "priority",
+      "state",
+      "parents",
+      "events",
+      "rule"
+    ],
+    "fresh_process_continuation": "pass",
+    "noop_checkpoint_branch": "pass",
+    "damaged_checkpoints_rejected": "pass",
+    "checkpoint_overwrite_rejected": "pass",
+    "interventions": {
+      "status": "pass",
+      "cases": 32,
+      "arms": 160,
+      "continuation_epochs": 1280,
+      "continuation_events": 1792,
+      "warmup_epochs": 64,
+      "warmup_events": 128,
+      "expected_engineering_outcomes": {
+        "state_arrest": {
+          "baseline": {
+            "focal_events": 8,
+            "control_events": 8
+          },
+          "sham": {
+            "focal_events": 8,
+            "control_events": 8
+          },
+          "target": {
+            "focal_events": 0,
+            "control_events": 8
+          },
+          "unrelated": {
+            "focal_events": 8,
+            "control_events": 0
+          },
+          "rescue": {
+            "focal_events": 8,
+            "control_events": 8
+          }
+        },
+        "activation_relocation": {
+          "baseline": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "sham": {
+            "focal_events": 6,
+            "control_events": 6
+          },
+          "target": {
+            "focal_events": 0,
+            "control_events": 6
+          },
+          "unrelated": {
+            "focal_events": 6,
+            "control_events": 0
+          },
+          "rescue": {
+            "focal_events": 6,
+            "control_events": 6
+          }
+        }
+      },
+      "scientific_status": "untested",
+      "tamper_rejections": [
+        "receipt",
+        "source",
+        "operation",
+        "rescue",
+        "label",
+        "writer",
+        "warmup",
+        "law"
+      ],
+      "fresh_process_target_and_rescue": "pass",
+      "source_immutable_and_failed_requests_unpublished": "pass",
+      "branch_overwrite_rejected": "pass"
+    },
+    "environment": {
+      "status": "pass",
+      "cases": 64,
+      "epochs": 512,
+      "native_events": 160,
+      "environment_events": 640,
+      "skipped_attempts": 96,
+      "outcomes": {
+        "closed": {
+          "native_events": 0,
+          "environment_events": 0,
+          "skipped_attempts": 0,
+          "injected": 0,
+          "extracted": 0
+        },
+        "local_transport": {
+          "native_events": 2,
+          "environment_events": 5,
+          "skipped_attempts": 6,
+          "injected": 0,
+          "extracted": 0
+        },
+        "driven": {
+          "native_events": 8,
+          "environment_events": 27,
+          "skipped_attempts": 0,
+          "injected": 16,
+          "extracted": 8
+        },
+        "blocked": {
+          "native_events": 0,
+          "environment_events": 8,
+          "skipped_attempts": 0,
+          "injected": 16,
+          "extracted": 0
+        }
+      },
+      "scientific_status": "untested",
+      "tamper_rejections": [
+        "ledger",
+        "order",
+        "contact",
+        "parent",
+        "prepared",
+        "schedule",
+        "native",
+        "skip"
+      ],
+      "fresh_process_continuation": "pass",
+      "damaged_checkpoint_rejections": "pass",
+      "native_loader_profile_separation": "pass"
+    }
+  },
+  "binary_sha256": "255679101d807d8e03a4de65ab1355a40b04c95afd39f72fb27817cd82840b1a"
+}

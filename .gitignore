@@ -1,0 +1,13 @@
+/target/
+/artifacts/
+__pycache__/
+
+.DS_Store
+.venv/
+.env
+.env.*
+!.env.example
+.codex/
+.claude/
+.aws/
+.idea/

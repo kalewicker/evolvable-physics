@@ -1,0 +1,23 @@
+{
+  "schema": "p00f-generalization-protocol-v1",
+  "base_protocol_digest": "c2a471a6573c9e2f0039bb2d305f775d303724166bbc66cc17c961188d4fff80",
+  "epochs": 12,
+  "seeds": [101, 102, 103, 104, 105, 106, 107, 108],
+  "encodings": ["identity", "relabeled"],
+  "families": {
+    "chain4": {"nodes": 4, "expected_ap": "supported", "scope": "in_scope_positive"},
+    "ring6": {"nodes": 6, "expected_ap": "supported", "scope": "in_scope_positive"},
+    "star5": {"nodes": 5, "expected_ap": "supported", "scope": "in_scope_positive"},
+    "hyperedge3": {"nodes": 3, "expected_ap": "supported", "scope": "in_scope_positive"},
+    "hyperedge4": {"nodes": 4, "expected_ap": "supported", "scope": "in_scope_positive"},
+    "frozen6": {"nodes": 6, "expected_ap": "not_supported", "scope": "negative_control"},
+    "resource_cycle3": {"nodes": 3, "expected_ap": "not_supported", "scope": "negative_control"},
+    "fragmentation4": {"nodes": 4, "expected_ap": "not_supported", "scope": "ambiguity_control"},
+    "templated_births": {"nodes": 2, "expected_ap": "not_supported", "scope": "negative_control"},
+    "oversize7": {"nodes": 7, "expected_ap": "not_supported", "scope": "out_of_size_scope"},
+    "async_ring4": {"nodes": 4, "expected_ap": "inconclusive", "scope": "estimator_scope_limit"}
+  },
+  "label_invariance_required": true,
+  "claims": {"maintenance": "untested", "reproduction": "untested", "evolution": "untested"},
+  "admission_policy": "Report all label deviations, exclusions, ambiguities and invariant failures; any mismatch prevents panel acceptance. Matching out-of-scope predictions does not establish coverage or pass full P00. No seed replacement or threshold change after evaluation."
+}

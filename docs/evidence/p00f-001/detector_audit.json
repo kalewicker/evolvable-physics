@@ -1,0 +1,99 @@
+{
+  "status": "pass",
+  "cases": 144,
+  "splits": {
+    "development": 36,
+    "validation": 108
+  },
+  "detector_epochs": 1728,
+  "maintenance_arms": 160,
+  "maintenance_epochs": 1920,
+  "retained_disagreements": 16,
+  "registered_label_mismatches": 0,
+  "protocol_digest": "c2a471a6573c9e2f0039bb2d305f775d303724166bbc66cc17c961188d4fff80",
+  "scientific_status": "untested",
+  "families": [
+    {
+      "family": "active_pair",
+      "cases": 16,
+      "active_persistence": "supported",
+      "maintenance": "not_supported",
+      "connected_supported": 16,
+      "interaction_supported": 16
+    },
+    {
+      "family": "attached_inert",
+      "cases": 16,
+      "active_persistence": "inconclusive",
+      "maintenance": "not_supported",
+      "connected_supported": 0,
+      "interaction_supported": 16
+    },
+    {
+      "family": "frozen_pair",
+      "cases": 16,
+      "active_persistence": "not_supported",
+      "maintenance": "not_supported",
+      "connected_supported": 0,
+      "interaction_supported": 0
+    },
+    {
+      "family": "inert_with_oscillator",
+      "cases": 16,
+      "active_persistence": "not_supported",
+      "maintenance": "not_supported",
+      "connected_supported": 0,
+      "interaction_supported": 0
+    },
+    {
+      "family": "irrelevant_bits",
+      "cases": 16,
+      "active_persistence": "supported",
+      "maintenance": "not_supported",
+      "connected_supported": 16,
+      "interaction_supported": 16
+    },
+    {
+      "family": "noise_replacement",
+      "cases": 16,
+      "active_persistence": "not_supported",
+      "maintenance": "not_supported",
+      "connected_supported": 0,
+      "interaction_supported": 0
+    },
+    {
+      "family": "passive_turnover",
+      "cases": 16,
+      "active_persistence": "supported",
+      "maintenance": "not_supported",
+      "connected_supported": 16,
+      "interaction_supported": 16
+    },
+    {
+      "family": "renewal",
+      "cases": 16,
+      "active_persistence": "supported",
+      "maintenance": "supported",
+      "connected_supported": 16,
+      "interaction_supported": 16
+    },
+    {
+      "family": "wholesale_replacement",
+      "cases": 16,
+      "active_persistence": "not_supported",
+      "maintenance": "not_supported",
+      "connected_supported": 0,
+      "interaction_supported": 0
+    }
+  ],
+  "tamper_rejections": [
+    "label",
+    "activity",
+    "membership",
+    "turnover",
+    "occupancy",
+    "intervention",
+    "fingerprint",
+    "disagreement"
+  ]
+}

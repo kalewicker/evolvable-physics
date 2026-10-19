@@ -1,0 +1,12 @@
+{
+  "schema": "p00f-source-freeze-v1",
+  "registered_date": "2026-10-19",
+  "files": {
+    "src/analysis.rs": "ef652dc17fe6524db8c54d0d3264d35db355ef09c20c9a962d325ba3b57897ae",
+    "docs/detector_protocol.json": "3c597c4a21610feca890536a378189de4f869ba8be32f22f8e06e43b611a6a45",
+    "scripts/audit_detectors.py": "e1aec3f27dcc8d72a598e2767dfd5821901188b1229caac372a8b9148a7aed9b",
+    "src/generalization.rs": "53d172e4e926c4f6a035882fd5c7c3a5ec445c7dccd55ee0e47eb1b064c4cfdd",
+    "docs/generalization_panel.json": "59d5ab24a6b0458a9c025d6cb180caf3393c1debd81a67c8049acae6bf6e4bd5",
+    "docs/p00_admission_requirements.json": "da83a721bd4ca53be1811ae77cc07166c3b11f783ada2684d6a5c3d3d6b9ff13"
+  }
+}

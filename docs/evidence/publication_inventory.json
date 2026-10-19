@@ -1,0 +1,222 @@
+{
+  "schema": "public-receipts-v1",
+  "note": "Original sealed receipts and logs; raw trace/checkpoint/source bundles are not included.",
+  "files": [
+    {
+      "file": "docs/evidence/p00a-001/manifest.json",
+      "sha256": "71cad2c5cbaf27652fbaf2abdbabca7bb64bf9c9da53ae8642e93e43f02c6f1b"
+    },
+    {
+      "file": "docs/evidence/p00a-001/checksums.json",
+      "sha256": "60736c3d2916d5c4451e7e311cb612382c1080bbf853c4487d8252e9961751ef"
+    },
+    {
+      "file": "docs/evidence/p00a-001/tests.txt",
+      "sha256": "ebd002c6f6f120ddb8fa260eb8cfbba7802f7642582ae72c0085975d5f8aff6e"
+    },
+    {
+      "file": "docs/evidence/p00a-001/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p00a-002/manifest.json",
+      "sha256": "fd643c60fa7392b27a38eead7e18d7e84eb96422ff0b0fcc10416678faa1682f"
+    },
+    {
+      "file": "docs/evidence/p00a-002/checksums.json",
+      "sha256": "e6723a9d2080a2da1c5161a8bcac89585ac2d5eaa3b4ba7a8e546a077a117f06"
+    },
+    {
+      "file": "docs/evidence/p00a-002/tests.txt",
+      "sha256": "9fb0943d934db57e169984824aa8b0ab55a591bb34c90271b23ceea46cbdc518"
+    },
+    {
+      "file": "docs/evidence/p00a-002/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p00b-001/manifest.json",
+      "sha256": "a8f7c02b59c8afe0eaee57060fbebbe64d39298dc904fe381754727fda8a33e3"
+    },
+    {
+      "file": "docs/evidence/p00b-001/checksums.json",
+      "sha256": "38dbcfc1b006b2e6994bfd5d5f8411dfee88541ae6cb481b67780ee99341de9c"
+    },
+    {
+      "file": "docs/evidence/p00b-001/tests.txt",
+      "sha256": "8b5a7ff15596dcea69a242463de9dec5785c0de0f0f5302f2465f74de4f1025d"
+    },
+    {
+      "file": "docs/evidence/p00b-001/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p00b-001/intervention_audit.json",
+      "sha256": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff"
+    },
+    {
+      "file": "docs/evidence/p00c-001/manifest.json",
+      "sha256": "8eb7bd35fa7b7ec66dcbbc55f9c1a8f603db5cf93c74becf9927189cd917d4af"
+    },
+    {
+      "file": "docs/evidence/p00c-001/checksums.json",
+      "sha256": "5b2e8f29291f9b4c055e58d3c6a134da78cacc5d177a1e7d2232bf1562e51ec9"
+    },
+    {
+      "file": "docs/evidence/p00c-001/tests.txt",
+      "sha256": "c5140daafa9f606a973979505461484aa295df816cc5d1f279c143f903fdcd43"
+    },
+    {
+      "file": "docs/evidence/p00c-001/environment_audit.json",
+      "sha256": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+    },
+    {
+      "file": "docs/evidence/p00c-001/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p00c-001/intervention_audit.json",
+      "sha256": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff"
+    },
+    {
+      "file": "docs/evidence/p00d-001/manifest.json",
+      "sha256": "38598361629cc7b8dd5928647128728eabf39e93ff67c47583c6c03b42ec4d55"
+    },
+    {
+      "file": "docs/evidence/p00d-001/checksums.json",
+      "sha256": "952cb4afbdd5823a447f9272212142027f8ab80fefb183903c6402e935a57c06"
+    },
+    {
+      "file": "docs/evidence/p00d-001/tests.txt",
+      "sha256": "2f91c2da16ef784a0406c40996a2ff8cb4443bfbfc76ab6a480b4f70aa0c121f"
+    },
+    {
+      "file": "docs/evidence/p00d-001/environment_audit.json",
+      "sha256": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+    },
+    {
+      "file": "docs/evidence/p00d-001/environment_branch_audit.json",
+      "sha256": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135"
+    },
+    {
+      "file": "docs/evidence/p00d-001/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p00d-001/intervention_audit.json",
+      "sha256": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff"
+    },
+    {
+      "file": "docs/evidence/p00e-001/manifest.json",
+      "sha256": "f948b39fb13701ae139a474c539f548d4d454f9c159c7eafad8fe18b7676c9cd"
+    },
+    {
+      "file": "docs/evidence/p00e-001/checksums.json",
+      "sha256": "8538a54031f4526986fbfad7b4b494e86de95f862d0b2e5374b16fca70b77f56"
+    },
+    {
+      "file": "docs/evidence/p00e-001/tests.txt",
+      "sha256": "9a6fa2be05fe35c101829a9475d97a5fd102e0d0abdd1c92124ff32916c50af9"
+    },
+    {
+      "file": "docs/evidence/p00e-001/detector_audit.json",
+      "sha256": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882"
+    },
+    {
+      "file": "docs/evidence/p00e-001/environment_audit.json",
+      "sha256": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+    },
+    {
+      "file": "docs/evidence/p00e-001/environment_branch_audit.json",
+      "sha256": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135"
+    },
+    {
+      "file": "docs/evidence/p00e-001/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p00e-001/intervention_audit.json",
+      "sha256": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff"
+    },
+    {
+      "file": "docs/evidence/p00f-001/manifest.json",
+      "sha256": "56adcf9c7fde4d1bfcee86746254c4d6852846783e70a85b91b4451c625714a3"
+    },
+    {
+      "file": "docs/evidence/p00f-001/checksums.json",
+      "sha256": "7542c67355492b1de31e39dccb53a25ade35a3fac9146c2984475a3266a1d928"
+    },
+    {
+      "file": "docs/evidence/p00f-001/tests.txt",
+      "sha256": "ab37e052fa347ed9ec04cb3e7dec4bb50856837a475c90303ee469594a969700"
+    },
+    {
+      "file": "docs/evidence/p00f-001/detector_audit.json",
+      "sha256": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882"
+    },
+    {
+      "file": "docs/evidence/p00f-001/environment_audit.json",
+      "sha256": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+    },
+    {
+      "file": "docs/evidence/p00f-001/environment_branch_audit.json",
+      "sha256": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135"
+    },
+    {
+      "file": "docs/evidence/p00f-001/generalization_audit.json",
+      "sha256": "8791b290ae6ff8dc789a2508eeaa1c1e8c11c685f64e43d189586b6657755a77"
+    },
+    {
+      "file": "docs/evidence/p00f-001/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p00f-001/intervention_audit.json",
+      "sha256": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff"
+    },
+    {
+      "file": "docs/evidence/p00f-001/p00_admission_audit.json",
+      "sha256": "569644521077f32ca05a4bef661a97c265f8f53a009eb94bac9e1bcf2c35c922"
+    },
+    {
+      "file": "docs/evidence/p00f-002/manifest.json",
+      "sha256": "665614516abbf07b93c5133e24b6229fe5efa04c1adde5885d621c23af9aa11b"
+    },
+    {
+      "file": "docs/evidence/p00f-002/checksums.json",
+      "sha256": "37cf53007bb2372e25b914caccf439ee503a999866a477c04ba5c34c01c6d2ee"
+    },
+    {
+      "file": "docs/evidence/p00f-002/tests.txt",
+      "sha256": "10ac801f194cff76348fbd39efa1a0395ba9fec1334090d116914f8f772c7bb5"
+    },
+    {
+      "file": "docs/evidence/p00f-002/detector_audit.json",
+      "sha256": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882"
+    },
+    {
+      "file": "docs/evidence/p00f-002/environment_audit.json",
+      "sha256": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+    },
+    {
+      "file": "docs/evidence/p00f-002/environment_branch_audit.json",
+      "sha256": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135"
+    },
+    {
+      "file": "docs/evidence/p00f-002/generalization_audit.json",
+      "sha256": "ac63cfe1325cf564cf066a15e4436eb41f81b9accc2a286cd8e878b556e636e4"
+    },
+    {
+      "file": "docs/evidence/p00f-002/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p00f-002/intervention_audit.json",
+      "sha256": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff"
+    },
+    {
+      "file": "docs/evidence/p00f-002/p00_admission_audit.json",
+      "sha256": "70afb8c0a76487250d9093d69339e9bce106c70464d1be980e750d98230b6868"
+    }
+  ]
+}
