@@ -1,0 +1,16 @@
+{
+  "schema": "p01a-source-freeze-v2",
+  "registered_date": "2026-10-19",
+  "previous_freeze": "docs/p01a_freeze_v1.json",
+  "previous_sha256": "bdb7305c9a8ab74962740cdaaf9f26c72a2376e7bcea68f7846cd9c7029de789",
+  "files": {
+    "docs/p01a_protocol.json": "db98b1195781bd764d7195a0efc4d40e1b6fd530b95f77608acc81e56852389b",
+    "docs/p01a_registration.md": "6cd257c45b199e65736bad11754a933837f41e3bde9f60f1d7ce51678df01de5",
+    "src/pilot.rs": "7b680d6883005b6bd934899d71e30da0032dc7ca719a419d97a2cc63581d09d5",
+    "src/bin/pilot-worker.rs": "bad39c65628d1d10b86dea3463bc1458461ecb4ae5299caf61f1301987c74fb8",
+    "src/lib.rs": "bcbf719da807613eeb3008dc320eab385b4837a0357a2a46aa2853f5f64d04c2",
+    "tests/pilot.rs": "b1fe0e365c0cbb3ac3d7b5871250984af2fd82c2fe14b4903604dd85db48f1c4",
+    "scripts/pilot.py": "622a69783366d62e2235766cdca1cbd527f7125e0486b83403c6f5af13681fa1",
+    "scripts/test_pilot.py": "d4c4337b3859058da20c2a1bf476cf048751430179a84bfe5e26deca68f58552"
+  }
+}

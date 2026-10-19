@@ -273,6 +273,126 @@
     {
       "file": "docs/evidence/p00g-001/p00g_admission_audit.json",
       "sha256": "f77b4b8d824b58a2593e562758ee845885669811a851d5068731d0ddd0d72573"
+    },
+    {
+      "file": "docs/evidence/p01a-001/build.txt",
+      "sha256": "bf467531f5beb885a96bd9c6fface6ae72f2374fde05afdb35750be7ce7f4064"
+    },
+    {
+      "file": "docs/evidence/p01a-001/checksums.json",
+      "sha256": "9dc682f05f54505b8538ad272907cfa4b07130a9939cce9b97ef8307dbd0ed8c"
+    },
+    {
+      "file": "docs/evidence/p01a-001/clippy.txt",
+      "sha256": "ee1d3fffa2022e962e63e0dbe4d35c9c198450a20c29fc09030f635dbb38bfcd"
+    },
+    {
+      "file": "docs/evidence/p01a-001/format.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "docs/evidence/p01a-001/manifest.json",
+      "sha256": "e92b82b5945bbde24fa6e4a744b239efd103e70c279776a1c9a92a0fe19e4d0d"
+    },
+    {
+      "file": "docs/evidence/p01a-001/tests.txt",
+      "sha256": "a91ac26518406c54bb3ce0f01e11fa66dd5c257f816113692c8632bef6224105"
+    },
+    {
+      "file": "docs/evidence/p01a-002/build.txt",
+      "sha256": "64d0cbd4b7e4c6329fde55978dd3d261407b55f34c21add0feebf7e0575ee531"
+    },
+    {
+      "file": "docs/evidence/p01a-002/checksums.json",
+      "sha256": "779442327a28cd198be30601f6a1c333f162aefde8ad4774d3712e26a18e2b1f"
+    },
+    {
+      "file": "docs/evidence/p01a-002/clippy.txt",
+      "sha256": "ee1d3fffa2022e962e63e0dbe4d35c9c198450a20c29fc09030f635dbb38bfcd"
+    },
+    {
+      "file": "docs/evidence/p01a-002/format.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "docs/evidence/p01a-002/independent_audit.json",
+      "sha256": "8ccbcc5047a7171df399cbd08b596761b4aa074b03ba8eb5e837a72b1669aa32"
+    },
+    {
+      "file": "docs/evidence/p01a-002/manifest.json",
+      "sha256": "6fbce50aff08b836c23fe3f6f494cba6e8e1d4dd9e2f3247d72790ed2f0c85d4"
+    },
+    {
+      "file": "docs/evidence/p01a-002/python_tests.txt",
+      "sha256": "5279d1fc9a1ced44f9c96da1414ef59e4676f963fbad52e7a1a2903538819b0d"
+    },
+    {
+      "file": "docs/evidence/p01a-002/tests.txt",
+      "sha256": "34f6f3cad178ec0abb8c8e2d3ce27c5008758c7d11f3ba8d688b18d78061bc2c"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/build.txt",
+      "sha256": "ee1d3fffa2022e962e63e0dbe4d35c9c198450a20c29fc09030f635dbb38bfcd"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/checksums.json",
+      "sha256": "ea9f43f46780de818f7517204510f10dfb408347a66410b424e29a14b3b23fce"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/clippy.txt",
+      "sha256": "ee1d3fffa2022e962e63e0dbe4d35c9c198450a20c29fc09030f635dbb38bfcd"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/detector_audit.json",
+      "sha256": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/environment_audit.json",
+      "sha256": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/environment_branch_audit.json",
+      "sha256": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/format.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/generalization_audit.json",
+      "sha256": "ac63cfe1325cf564cf066a15e4436eb41f81b9accc2a286cd8e878b556e636e4"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/independent_audit.json",
+      "sha256": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/integration_audit.json",
+      "sha256": "5edb73a9f080093eb284ef2d6615845305fca0c354e408efb0fc4addfec29423"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/intervention_audit.json",
+      "sha256": "4bf851d4674a1c463c60d1774771b9307c94fe5ca9be015389bf9881b0b975ff"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/manifest.json",
+      "sha256": "b7fd823560c19994597c2de3226ae40fc042757340b08db32a7c2bd1bba6b19c"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/p00_admission_audit.json",
+      "sha256": "3cf78eb9e09880a8e50218dabfbdcdc9665ce7933cc94ad41172e7bf714f4661"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/p00g_admission_audit.json",
+      "sha256": "acab37d651e64740ff0af06deae0b2b6f15ce87817b54b894f2cbcdd66f6d96f"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/suite_equivalence.json",
+      "sha256": "d2db7980e32c8f8591e400612eafc4d06932595b7dc4ea8414fdb79fc626be25"
+    },
+    {
+      "file": "docs/evidence/p01a-p00-regression-001/tests.txt",
+      "sha256": "7ae700d349ec8b65d71086036233e31f17307eff46d20671c7bc4e02fc40767c"
     }
   ]
 }

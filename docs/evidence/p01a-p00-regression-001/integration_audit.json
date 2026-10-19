@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "environment_detector_cases": 96,
+  "environment_detector_epochs": 1152,
+  "native_events_in_primary_cases": 976,
+  "native_logging_cases": 112,
+  "legacy_environment_logging_cases": 64,
+  "maintenance_arms": 80,
+  "maintenance_epochs": 960,
+  "logging_equivalent_epochs": 4256,
+  "external_only_activity_rejected": true,
+  "mixed_islands_not_pooled": true,
+  "environment_maintenance_controls": "pass",
+  "scientific_status": "untested",
+  "tamper_rejections": [
+    "prepared",
+    "environment",
+    "ledger",
+    "quiet_digest",
+    "external_activity",
+    "native",
+    "occupancy",
+    "rescue"
+  ],
+  "native_engine_equivalence_cases": 320,
+  "fresh_process_mode_switch": "pass"
+}

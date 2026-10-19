@@ -1,0 +1,13 @@
+{
+  "schema": "p01a-source-freeze-v1",
+  "registered_date": "2026-10-19",
+  "files": {
+    "docs/p01a_protocol.json": "db98b1195781bd764d7195a0efc4d40e1b6fd530b95f77608acc81e56852389b",
+    "docs/p01a_registration.md": "46f623110648cc5ce52250136ee96b7cc6dbd2da5680b5a04ba27ce9bd947a26",
+    "src/pilot.rs": "7b680d6883005b6bd934899d71e30da0032dc7ca719a419d97a2cc63581d09d5",
+    "src/bin/pilot-worker.rs": "bad39c65628d1d10b86dea3463bc1458461ecb4ae5299caf61f1301987c74fb8",
+    "src/lib.rs": "bcbf719da807613eeb3008dc320eab385b4837a0357a2a46aa2853f5f64d04c2",
+    "tests/pilot.rs": "b1fe0e365c0cbb3ac3d7b5871250984af2fd82c2fe14b4903604dd85db48f1c4",
+    "scripts/pilot.py": "33795a95bb8a037aee1566f60975a5645ab70f06055e11cbcac650b724009bfe"
+  }
+}

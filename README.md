@@ -50,7 +50,9 @@ The branch bundle preserves the source, request, receipt, and resulting checkpoi
 
 [P00g findings](docs/p00g_findings.md) close the logging-equivalence and complete-environment detector blockers. The [current admission receipt](docs/evidence/p00g-001/p00g_admission_audit.json) admits P00 for bounded engineering profiles and the disclosed fixtures. Historical P00f assessments remain preserved.
 
-P01 has not started. Its next prerequisites are a registered rule generator, profiling and a compute/storage budget, plus total-event, wall-clock and memory run limits. Scientific status remains untested; no reproduction, adaptation or search-superiority claim is established by fixture admission.
+[P01a findings](docs/p01a_findings.md) report the registered development preflight: 64/64 generated runs completed and independently replayed across 4,096 epochs. A separate worker streams bounded traces; event/output ceilings preserve whole-epoch state, and the supervisor enforces wall and sampled RSS watchdogs. RSS sampling is not a hard instantaneous memory bound. The initial sandbox failure is retained.
+
+The full 128 × 4 × 1,000-epoch P01 pilot has not started. Next: register its compute/storage ceilings and tail policy, decide the memory policy, and add frozen detector reporting for generated trajectories. Mean linear trace scaling is about 5.9 GB and is not a long-run bound. Scientific status remains untested; no reproduction, adaptation or search-superiority claim is established.
 
 ## Environment fixtures and continuation
 
@@ -95,7 +97,7 @@ Published at [kalewicker/evolvable-physics](https://github.com/kalewicker/evolva
 
 The public snapshot includes source, locked dependencies, protocols, reports, the revised experiment plan, and [compact validation receipts](docs/evidence/README.md). Raw `artifacts/`, `target/`, caches, and machine-local settings stay outside Git. Run the validation command above to generate full evidence from source.
 
-Implementation resumed at the user’s request after publication. The current milestone is P00g; P01 execution remains gated by its own readiness work.
+Implementation resumed at the user’s request after publication. The current milestone is P01a; the full P01 pilot remains gated by its own readiness work.
 
 At the end of future project turns, commit and push any changes to this repository after the appropriate checks. See [AGENTS.md](AGENTS.md).
 
@@ -109,3 +111,12 @@ python3 scripts/audit_integration.py artifacts/integration-new/suite.json
 ```
 
 The environment adapter verifies full phases and credits native physical changes only. [P00g semantics](docs/p00g_semantics.md) describe the fixed controls and limits.
+
+## P01a development preflight
+
+```sh
+python3 scripts/pilot.py artifacts/p01a-new-run
+python3 scripts/audit_pilot.py artifacts/p01a-new-run artifacts/p01a-new-audit.json
+```
+
+The registered runner requires macOS or Linux and permission to query child RSS with `ps`; a sandbox can block that query. Output directories and audit destinations must be new. It runs checks, builds the release worker, tests forced guards, and evaluates the fixed panel without replacements. [Registration](docs/p01a_registration.md), [limits](docs/p01a_protocol.json), and [source freeze](docs/p01a_freeze.json) distinguish this engineering preflight from the full P01 pilot. The extra executable is `pilot-worker`; `cargo run` still defaults to `causal-alife`.

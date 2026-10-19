@@ -1,0 +1,50 @@
+{
+  "schema": "p01a-p00-byte-equivalence-v1",
+  "baseline": "p00g-001",
+  "current": "p01a-p00-regression-001",
+  "suites": [
+    {
+      "file": "detectors/suite.json",
+      "baseline_sha256": "037e3f93bd40d6d7a48d2d487dbd5597a38ca628e6ee17c7cecda9e867254594",
+      "current_sha256": "037e3f93bd40d6d7a48d2d487dbd5597a38ca628e6ee17c7cecda9e867254594",
+      "byte_identical": true
+    },
+    {
+      "file": "environment/suite.json",
+      "baseline_sha256": "c52e753a723c545920582e083a85bbd708f69719985bcc774251dc9d3cb5dd96",
+      "current_sha256": "c52e753a723c545920582e083a85bbd708f69719985bcc774251dc9d3cb5dd96",
+      "byte_identical": true
+    },
+    {
+      "file": "environment_branches/suite.json",
+      "baseline_sha256": "ad3a54a157a6281fc0c4356def4ca69bfed8b31b935224f036a7412dccf930d6",
+      "current_sha256": "ad3a54a157a6281fc0c4356def4ca69bfed8b31b935224f036a7412dccf930d6",
+      "byte_identical": true
+    },
+    {
+      "file": "fixtures/suite.json",
+      "baseline_sha256": "ade5c4ad8a9b1a994036098c55c166cdc6f182c92830830d3948a8de915cfdab",
+      "current_sha256": "ade5c4ad8a9b1a994036098c55c166cdc6f182c92830830d3948a8de915cfdab",
+      "byte_identical": true
+    },
+    {
+      "file": "generalization/suite.json",
+      "baseline_sha256": "1d8b68f61933b3c8cc97cfef4d8caee8a4900ca07f551695027b0a31360219d7",
+      "current_sha256": "1d8b68f61933b3c8cc97cfef4d8caee8a4900ca07f551695027b0a31360219d7",
+      "byte_identical": true
+    },
+    {
+      "file": "integration/suite.json",
+      "baseline_sha256": "006fc6f111d57e0191db1f6b1c33ba89756a25a50b22aa09b3af9ae72d83c602",
+      "current_sha256": "006fc6f111d57e0191db1f6b1c33ba89756a25a50b22aa09b3af9ae72d83c602",
+      "byte_identical": true
+    },
+    {
+      "file": "interventions/suite.json",
+      "baseline_sha256": "b729c63ac96bc81c6a459e8eb0251edd33010b836b7f3110aff31e895c4e866f",
+      "current_sha256": "b729c63ac96bc81c6a459e8eb0251edd33010b836b7f3110aff31e895c4e866f",
+      "byte_identical": true
+    }
+  ],
+  "all_byte_identical": true
+}

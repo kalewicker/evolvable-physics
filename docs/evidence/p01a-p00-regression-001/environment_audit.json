@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "cases": 64,
+  "epochs": 512,
+  "native_events": 160,
+  "environment_events": 640,
+  "skipped_attempts": 96,
+  "outcomes": {
+    "closed": {
+      "native_events": 0,
+      "environment_events": 0,
+      "skipped_attempts": 0,
+      "injected": 0,
+      "extracted": 0
+    },
+    "local_transport": {
+      "native_events": 2,
+      "environment_events": 5,
+      "skipped_attempts": 6,
+      "injected": 0,
+      "extracted": 0
+    },
+    "driven": {
+      "native_events": 8,
+      "environment_events": 27,
+      "skipped_attempts": 0,
+      "injected": 16,
+      "extracted": 8
+    },
+    "blocked": {
+      "native_events": 0,
+      "environment_events": 8,
+      "skipped_attempts": 0,
+      "injected": 16,
+      "extracted": 0
+    }
+  },
+  "scientific_status": "untested",
+  "tamper_rejections": [
+    "ledger",
+    "order",
+    "contact",
+    "parent",
+    "prepared",
+    "schedule",
+    "native",
+    "skip"
+  ],
+  "fresh_process_continuation": "pass",
+  "damaged_checkpoint_rejections": "pass",
+  "native_loader_profile_separation": "pass"
+}

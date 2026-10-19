@@ -1,0 +1,17 @@
+{
+  "schema": "p01a-readiness-v1",
+  "registered_date": "2026-10-19",
+  "scope": "development engineering preflight, not the full P01 pilot",
+  "generator": "p01-generator-v1",
+  "proposal_ids": {"start": 2000, "count": 16},
+  "initial_states": [0, 1, 2, 3],
+  "epochs": 64,
+  "worker": {"max_events": 10000, "max_trace_bytes": 4194304},
+  "supervisor": {"wall_seconds": 10, "rss_bytes": 134217728, "poll_seconds": 0.01},
+  "campaign": {"wall_seconds": 600, "worker_cpu_seconds": 120, "trace_bytes": 268435456},
+  "denominator": 64,
+  "gate": {"completed_runs": 64, "independent_generator_and_replay": true, "forced_guard_checks": true},
+  "full_pilot_proposed": {"rule_sets": 128, "initial_states": 4, "epochs": 1000},
+  "no_replacement": true,
+  "scientific_status": "untested"
+}

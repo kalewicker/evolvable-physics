@@ -1,0 +1,66 @@
+{
+  "schema": "p01a-independent-audit-v1",
+  "status": "pass",
+  "gate_pass": true,
+  "manifest_sha256": "6fbce50aff08b836c23fe3f6f494cba6e8e1d4dd9e2f3247d72790ed2f0c85d4",
+  "checksums_sha256": "779442327a28cd198be30601f6a1c333f162aefde8ad4774d3712e26a18e2b1f",
+  "sealed_files": 362,
+  "registered_runs": 64,
+  "replayed_epochs": 4096,
+  "events": 18081,
+  "native_events": 18081,
+  "applicable_candidates": 18969,
+  "trace_bytes": 47306474,
+  "duplicate_rule_sets": 0,
+  "worker_cpu_seconds": 2.3223860000000003,
+  "guard_checks": {
+    "event": "event_budget_exceeded",
+    "trace": "trace_budget_exceeded",
+    "complete": "complete",
+    "event_boundary": "event_budget_exceeded",
+    "trace_boundary": "trace_budget_exceeded",
+    "wall": {
+      "status": "wall_budget_exceeded",
+      "returncode": -9,
+      "wall_seconds": 0.13984766602516174,
+      "worker_cpu_seconds": 0.018457,
+      "peak_rss_bytes": 11501568,
+      "peak_sampled_rss_bytes": 11501568,
+      "rss_samples": 5
+    },
+    "rss": {
+      "status": "rss_budget_exceeded",
+      "returncode": -9,
+      "wall_seconds": 0.018269292078912258,
+      "worker_cpu_seconds": 0.0041329999999999995,
+      "peak_rss_bytes": 1867776,
+      "peak_sampled_rss_bytes": 1556480,
+      "rss_samples": 1
+    },
+    "infrastructure": {
+      "status": "infrastructure_error",
+      "returncode": 7,
+      "wall_seconds": 0.04062845930457115,
+      "worker_cpu_seconds": 0.025910000000000002,
+      "peak_rss_bytes": 11845632,
+      "peak_sampled_rss_bytes": 8814592,
+      "rss_samples": 2
+    },
+    "tamper_priority": "rejected",
+    "tamper_state": "rejected",
+    "tamper_initial": "rejected",
+    "tamper_summary": "rejected"
+  },
+  "cost_scenarios": {
+    "label": "linear 512-run by 1000-epoch scenarios; not a tail bound or readiness gate",
+    "worker_cpu_hours_mean": 0.08063840277777777,
+    "worker_cpu_hours_p95": 0.20930444444444443,
+    "worker_cpu_hours_observed_max": 0.26871555555555554,
+    "trace_bytes_mean": 5913309250.0,
+    "trace_bytes_observed_max": 14909008000.0,
+    "observed_peak_rss_bytes": 5210112
+  },
+  "p01_ready": false,
+  "full_p01_started": false,
+  "scientific_status": "untested"
+}

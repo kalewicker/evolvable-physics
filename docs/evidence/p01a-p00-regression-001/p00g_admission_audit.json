@@ -1,0 +1,178 @@
+{
+  "schema": "p00g-admission-audit-v1",
+  "base_assessment": "p00_admission_audit.json",
+  "addendum_digest": "4ef05e52ca28019e5fbd20beabe2a12951ddb6ad741fea5bbb3659298287ed5d",
+  "requirements": [
+    {
+      "id": "kernel_replay",
+      "status": "supported_in_tested_profiles",
+      "blocks_p00": false,
+      "evidence": [
+        "independent_audit.json",
+        "tests.txt"
+      ],
+      "source": "src/runtime.rs",
+      "limit": "Rust matchers share execution; independent Python replay covers fixed fixtures.",
+      "source_sha256": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+      "evidence_hashes": {
+        "independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+        "tests.txt": "7ae700d349ec8b65d71086036233e31f17307eff46d20671c7bc4e02fc40767c"
+      }
+    },
+    {
+      "id": "exact_accounting",
+      "status": "supported_in_tested_profiles",
+      "blocks_p00": false,
+      "evidence": [
+        "independent_audit.json",
+        "environment_audit.json"
+      ],
+      "source": "src/core.rs",
+      "limit": "Abstract integer matter/activation bookkeeping; bounded counters.",
+      "source_sha256": "223bd0eb4ba3a3eeb645ddb1d95d65153ba9ad64b59ea3e959814bbad9368b20",
+      "evidence_hashes": {
+        "independent_audit.json": "77f39a93190e03a7509b2326522024d1041db7c4bb68ec8877192b0a3df085c8",
+        "environment_audit.json": "678d0ccf4dd8b689077fd795b014459678b9e9dc14e731bb4d68f1631e2dbda3"
+      }
+    },
+    {
+      "id": "atomic_rejection",
+      "status": "supported_in_tested_profiles",
+      "blocks_p00": false,
+      "evidence": [
+        "tests.txt"
+      ],
+      "source": "tests/environment.rs",
+      "limit": "Specified cap/overflow/precondition paths; not exhaustive runtime fault injection.",
+      "source_sha256": "ee1a594cb56271490f63bf46443b0a62d16e78ebc1da96612e8e8dcda2d2ff29",
+      "evidence_hashes": {
+        "tests.txt": "7ae700d349ec8b65d71086036233e31f17307eff46d20671c7bc4e02fc40767c"
+      }
+    },
+    {
+      "id": "continuation_and_interventions",
+      "status": "supported_in_tested_profiles",
+      "blocks_p00": false,
+      "evidence": [
+        "environment_branch_audit.json",
+        "tests.txt"
+      ],
+      "source": "src/environment_branches.rs",
+      "limit": "Fresh-process continuation and four publication boundaries; arbitrary power loss and full event-store crash recovery unverified.",
+      "source_sha256": "fd49262fe515a2bd02b89895867e4b326b863bb6dc4e1379c1f950792f1688e9",
+      "evidence_hashes": {
+        "environment_branch_audit.json": "2a7d24903bd3fdece9b5042e86f5904b6a1dfecba213678c87e9606f8e996135",
+        "tests.txt": "7ae700d349ec8b65d71086036233e31f17307eff46d20671c7bc4e02fc40767c"
+      }
+    },
+    {
+      "id": "detector_fixed_calibration",
+      "status": "supported_on_disclosed_fixtures",
+      "blocks_p00": false,
+      "evidence": [
+        "detector_audit.json"
+      ],
+      "source": "docs/detector_protocol.json",
+      "limit": "Operational AP/maintenance calibration; bounded 2\u20136 nodes and explicit disagreement.",
+      "source_sha256": "3c597c4a21610feca890536a378189de4f869ba8be32f22f8e06e43b611a6a45",
+      "evidence_hashes": {
+        "detector_audit.json": "3f5ed3b404c02e82588534431419d69d2ec3eed0a7da322d7a879cb859eef882"
+      }
+    },
+    {
+      "id": "detector_generalization_panel",
+      "status": "passed_with_explicit_scope_limits",
+      "blocks_p00": false,
+      "evidence": [
+        "generalization_audit.json"
+      ],
+      "source": "docs/generalization_panel.json",
+      "limit": "Disclosed transfer panel, not random-world sensitivity/specificity. A failed panel adds a blocker.",
+      "source_sha256": "59d5ab24a6b0458a9c025d6cb180caf3393c1debd81a67c8049acae6bf6e4bd5",
+      "evidence_hashes": {
+        "generalization_audit.json": "ac63cfe1325cf564cf066a15e4436eb41f81b9accc2a286cd8e878b556e636e4"
+      }
+    },
+    {
+      "id": "logging_equivalence",
+      "status": "supported_in_registered_profiles",
+      "blocks_p00": false,
+      "evidence": [
+        "integration_audit.json"
+      ],
+      "source": "src/runtime.rs",
+      "limit": "Output-disabled semantic equivalence in 4,256 paired epochs and specified rollback/checkpoint cases; provenance bookkeeping remains enabled.",
+      "source_sha256": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+      "evidence_hashes": {
+        "integration_audit.json": "5edb73a9f080093eb284ef2d6615845305fca0c354e408efb0fc4addfec29423"
+      }
+    },
+    {
+      "id": "environment_detector_integration",
+      "status": "supported_in_registered_profiles",
+      "blocks_p00": false,
+      "evidence": [
+        "integration_audit.json"
+      ],
+      "source": "src/environment_analysis.rs",
+      "limit": "Versioned environment adapter validates full epochs and credits native physical changes only. Original 2\u20136 node, identity, coactivity and disclosed-fixture limits remain.",
+      "source_sha256": "e1700e7cd4f72cf2e84a905e2ed30f986c4270ba12ceef8600fe945d45a5b26a",
+      "evidence_hashes": {
+        "integration_audit.json": "5edb73a9f080093eb284ef2d6615845305fca0c354e408efb0fc4addfec29423"
+      }
+    },
+    {
+      "id": "parallel_execution_scope",
+      "status": "bounded_support",
+      "blocks_p00": false,
+      "evidence": [
+        "tests.txt"
+      ],
+      "source": "tests/kernel.rs",
+      "limit": "Independent worlds in threads, not concurrent within-world matching. Campaign worker scheduling remains P01 work.",
+      "source_sha256": "0ddbffd6ea30065a2cd743dac9c9467124a1232011470f79cbdd0dc9a21b4031",
+      "evidence_hashes": {
+        "tests.txt": "7ae700d349ec8b65d71086036233e31f17307eff46d20671c7bc4e02fc40767c"
+      }
+    },
+    {
+      "id": "provenance_scope",
+      "status": "documented_restriction",
+      "blocks_p00": false,
+      "evidence": [
+        "docs/semantics.md"
+      ],
+      "source": "src/runtime.rs",
+      "limit": "Conservative node/adjacency keys, not field-level causal necessity or biological lineage.",
+      "source_sha256": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272",
+      "evidence_hashes": {
+        "docs/semantics.md": "67bb9d86efd681c86d9a7c757311fbb7649ce1152a50b9604fd4f069b3cadafd"
+      }
+    }
+  ],
+  "blocking_requirements": [],
+  "p00_admitted": true,
+  "admission_scope": "bounded engineering profiles and disclosed fixture panels",
+  "p01_execution_readiness": [
+    {
+      "id": "registered_rule_generator",
+      "status": "missing",
+      "source": "src/experiments.rs"
+    },
+    {
+      "id": "profiling_and_cost_budget",
+      "status": "missing",
+      "source": "docs/p00f_registration.md"
+    },
+    {
+      "id": "event_time_memory_run_caps",
+      "status": "partial",
+      "source": "src/core.rs",
+      "limit": "Node/edge/matching caps exist; total events, wall-clock and memory admission limits are not implemented."
+    }
+  ],
+  "p01_ready": false,
+  "p01_started": false,
+  "e01_started": false,
+  "scientific_status": "untested"
+}

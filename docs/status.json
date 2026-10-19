@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-19",
-  "stage": "P00g",
+  "stage": "P01a",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,8 +9,20 @@
   "p01_started": false,
   "scientific_status": "untested",
   "next_work": [
-    "registered rule generator",
-    "profiling and cost budget",
-    "event/time/memory run limits"
-  ]
+    "register full P01 compute/storage ceilings and slow-tail policy",
+    "record memory enforcement policy for the full pilot",
+    "integrate frozen detectors for generated-trajectory reporting"
+  ],
+  "p01_preflight_complete": true,
+  "full_p01_started": false,
+  "e01_started": false,
+  "preflight_receipt": "docs/evidence/p01a-002/independent_audit.json",
+  "p01_readiness": {
+    "registered_generator": "implemented, closed environment v1",
+    "profiling": "64-run development preflight passed",
+    "event_trace_caps": "exact whole-epoch enforcement verified",
+    "wall_rss_caps": "watchdogs verified; RSS is sampled, not a hard memory bound",
+    "full_pilot_budget": "not yet registered",
+    "generated_trajectory_detector_reporting": "pending"
+  }
 }
