@@ -1,6 +1,6 @@
 # Evolvable Physics
 
-First implementation of the [revised research plan](docs/experiment_plan_v2.md). This standalone Rust package implements a bounded closed-resource transition kernel and reproducible validation artifacts. P00 is admitted for the bounded engineering profiles and disclosed fixture panels. The registered bounded P01 development pilot is ready to run. Scientific capability claims remain untested.
+First implementation of the [revised research plan](docs/experiment_plan_v2.md). This standalone Rust package implements a bounded closed-resource transition kernel and reproducible validation artifacts. P00 is admitted for the bounded engineering profiles and disclosed fixture panels. The first bounded P01 development pilot is complete at its registered CPU reserve stop. Scientific capability claims remain untested.
 
 ## Run
 
@@ -52,7 +52,9 @@ The branch bundle preserves the source, request, receipt, and resulting checkpoi
 
 [P01a findings](docs/p01a_findings.md) report the registered development preflight: 64/64 generated runs completed and independently replayed across 4,096 epochs. A separate worker streams bounded traces; event/output ceilings preserve whole-epoch state, and the supervisor enforces wall and sampled RSS watchdogs. RSS sampling is not a hard instantaneous memory bound. The initial sandbox failure is retained.
 
-The full 128 × 4 × 1,000-epoch P01 pilot has not started. The [P01b registration and reporting checks](docs/p01b_findings.md) now fix those ceilings and the sampled RSS policy, and independently match frozen detector outputs on all 64 retained trajectories (62 not supported, 2 inconclusive). [P01c](docs/p01c_findings.md) now verifies that runner with 30 control expectations. The registered development pilot is ready to launch into a new sealed directory. Mean linear trace scaling is about 5.9 GB and is not a long-run bound. Scientific status remains untested; no reproduction, adaptation or search-superiority claim is established.
+The [first P01 development pilot](docs/p01_findings.md) stopped at its CPU launch reserve: 469 complete horizons, one censored prefix and 42 unstarted slots. Its 469 complete-run AP labels were 436 `not_supported`, 33 `inconclusive` and zero `supported`. All 512 registered cells remain in the report, and the sealed audit passed without a resource overshoot.
+
+That registration is consumed. Next is read-only diagnosis of generator reachability, detector disagreements and verification cost, followed by protocol closure before any new world runs. Do not resume unstarted slots or extend the capped prefix. Scientific status remains untested and E01 remains unauthorized.
 
 ## Environment fixtures and continuation
 
@@ -97,7 +99,7 @@ Published at [kalewicker/evolvable-physics](https://github.com/kalewicker/evolva
 
 The public snapshot includes source, locked dependencies, protocols, reports, the revised experiment plan, and [compact validation receipts](docs/evidence/README.md). Raw `artifacts/`, `target/`, caches, and machine-local settings stay outside Git. Run the validation command above to generate full evidence from source.
 
-Implementation resumed at the user’s request after publication. The current milestone is P01c; the registered bounded P01 development pilot is ready, and has not started.
+Implementation resumed at the user’s request after publication. The current milestone is P01; its first budgeted attempt is sealed. Next is read-only diagnosis and protocol closure, without new world runs.
 
 At the end of future project turns, commit and push any changes to this repository after the appropriate checks. See [AGENTS.md](AGENTS.md).
 
@@ -139,6 +141,14 @@ python3 scripts/campaign.py artifacts/p01-new-run
 python3 scripts/audit_campaign.py artifacts/p01-new-run artifacts/p01-new-audit.json
 ```
 
-The campaign command launches the registered 512-slot development pilot and requires a new output path, current frozen sources, and the published P01c readiness receipt. It queries child RSS with `ps`, which can require permission outside a desktop sandbox. Sources/binaries, bounded stage outputs, all slot outcomes and the final seal are retained. A full pilot can stop at its budget without completing all horizons; no slot is replaced. An unsealed interrupted bundle is never resumed, and its read-only audit accepts no endpoints.
+The campaign command reproduces the historical runner entry point and requires a new output path, current frozen sources, and the published P01c readiness receipt. **The original P01 registration is consumed: do not launch it again, resume its unstarted slots, or extend its capped run without a newly registered protocol.** It queries child RSS with `ps`, which can require permission outside a desktop sandbox. Sources/binaries, bounded stage outputs, all slot outcomes and the final seal are retained. A full pilot can stop at its budget without completing all horizons; no slot is replaced. An unsealed interrupted bundle is never resumed, and its read-only audit accepts no endpoints.
 
 To rerun only the engineering controls, use `python3 scripts/validate_p01c.py artifacts/p01c-new-run`. See [registration](docs/p01c_registration.md), [findings](docs/p01c_findings.md) and [full pilot ceilings](docs/p01_protocol.json). Neither command authorizes E01.
+
+## P01 findings and read-only report
+
+```sh
+python3 scripts/summarize_p01.py artifacts/p01-001 artifacts/p01-new-report
+```
+
+Use an existing complete sealed bundle and a new report directory. This verifies inventory/audit bindings and computes descriptive tables; it never evolves a world or resumes a campaign. The [first pilot findings](docs/p01_findings.md) preserve 436 unsupported and 33 inconclusive complete-run labels, one censored prefix and 42 unstarted cells. No AP support was established, and E01 remains unauthorized.

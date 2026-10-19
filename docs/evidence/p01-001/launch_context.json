@@ -1,0 +1,13 @@
+{
+  "schema": "p01-launch-context-v1",
+  "source_commit": "06bd4e999ade56855431e9e1afe6c30ce07ac467",
+  "protocol_sha256": "3fb81a01e5f578242cdc70092f4832882a2e5181defa051c63a7a25b990a8ea3",
+  "readiness_receipt": "docs/evidence/p01c-001/readiness_audit.json",
+  "readiness_sha256": "c1b88daac8abe4e8855a70a0c9e48058797b18f5a28466c7ac6d706aae68be59",
+  "binaries": {
+    "pilot-worker": "c72bef814a04aa4582193868c23b9a5701de6a24998c21c7fa9bba252473b8ff",
+    "pilot-report": "c7b0b4a97104a91b77cab81b2b23e3b69d6307c5be94ecfc346a66bb090ff9c9"
+  },
+  "scientific_status": "untested",
+  "no_replacement": true
+}

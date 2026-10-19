@@ -1,0 +1,18 @@
+{
+  "schema": "p01-publication-context-v1",
+  "campaign_manifest_sha256": "53415e6418ec0ce2c66708e9fe6bbc1c650cf4b1bd0f701552ef09accf796c71",
+  "campaign_seal_sha256": "6a3acfa43651d5d6c98fddcd4fdc2c22575c36b41e8e9008b514b74c379ece29",
+  "external_files": {
+    "slot_outcomes.csv": "44067b145816c6a3c26ffc0dbe1d44a2dc893ac061e403b4961a6fc982c5517d",
+    "report_tests.txt": "3a1c4cd02a1576f2aafd89a805ce14566da40f26587c010179bb2611fcfbc795",
+    "build.txt": "765f1396d07f30f3a451cd3f9d9cad4e83c92c8e0aecf955ffc09061a6cf1e02",
+    "campaign_audit.json": "0382f76c7ecf2fc616c6330f357ade62b55baa736cb4388070870727adac4beb",
+    "launch_context.json": "b699dc866dcb4fdd04b83b47df147eaadecdc5372183e74b244353663143509f",
+    "findings.json": "0d6c698bc26fddb8da67e1b25aef357037fce680ce54f2b915a58c753b3c9972",
+    "report_checksums.json": "a84eb17d523be21e6b5126d2d9fd193ef362469059aa80c26e2964ad0c6406a0",
+    "environment.json": "91f3f95dd699670242ff01cc270af4de638a48d5509efc9e4760e61dc6c22698"
+  },
+  "scientific_status": "untested",
+  "full_protocol_consumed": true,
+  "e01_authorized": false
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "p01-host-context-v1",
+  "recorded_at": "during first registered campaign; not a semantic input",
+  "os": "Darwin",
+  "os_release": "24.6.0",
+  "architecture": "arm64",
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "rustc": "rustc 1.94.0 (4a4ef493e 2026-03-02)",
+  "rss_policy": "sampled watchdog; instantaneous bound unestablished"
+}

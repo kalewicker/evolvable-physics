@@ -1,0 +1,18 @@
+{
+  "checksums_sha256": "d7b0ec0d7ba03dd67bc041c793de13effbd9f4395834b7d23b0b18e9a3fa62da",
+  "manifest_sha256": "53415e6418ec0ce2c66708e9fe6bbc1c650cf4b1bd0f701552ef09accf796c71",
+  "measurement_boundary": "after inventory and manifest fsync; final seal publication overhead excluded",
+  "overshoots": {
+    "total_artifact_bytes": false,
+    "total_process_cpu_seconds": false,
+    "trace_bytes": false,
+    "wall_seconds": false
+  },
+  "resource_usage": {
+    "artifact_bytes": 4953302088,
+    "total_process_cpu_seconds": 3506.036956,
+    "trace_bytes": 4865221216,
+    "wall_seconds": 3021.9367991248146
+  },
+  "schema": "p01-campaign-seal-v1"
+}

@@ -1,20 +1,20 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-19",
-  "stage": "P01c",
+  "stage": "P01",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
-  "p01_ready": true,
-  "p01_started": false,
+  "p01_ready": false,
+  "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "run the registered 512-slot P01 development pilot into a new sealed bundle",
-    "audit and report all complete, censored, unmeasured and unstarted slots without rerolls",
-    "retain development status and do not admit E01 from engineering readiness"
+    "read-only diagnosis of generator reachability, detector disagreements and verification cost tail",
+    "register protocol closure and any future changes before more world runs",
+    "do not resume, reroll or expand the consumed P01 pilot; E01 remains unauthorized"
   ],
   "p01_preflight_complete": true,
-  "full_p01_started": false,
+  "full_p01_started": true,
   "e01_started": false,
   "preflight_receipt": "docs/evidence/p01a-002/independent_audit.json",
   "p01_readiness": {
@@ -22,7 +22,7 @@
     "profiling": "64-run development preflight passed",
     "event_trace_caps": "exact whole-epoch enforcement verified",
     "wall_rss_caps": "watchdogs verified; RSS is sampled, not a hard memory bound",
-    "full_pilot_budget": "registered, not yet spent",
+    "full_pilot_budget": "consumed by first attempt; 42 slots unstarted at CPU reserve stop",
     "generated_trajectory_detector_reporting": "verified on all 64 retained P01a runs",
     "memory_policy": "sampled RSS accepted for bounded development; instantaneous bound unestablished",
     "sealed_campaign_runner": "implemented; all 30 registered control expectations passed"
@@ -32,5 +32,21 @@
   "campaign_runner_ready": true,
   "reporting_receipt": "docs/evidence/p01b-001/readiness_audit.json",
   "full_pilot_protocol": "docs/p01_protocol.json",
-  "campaign_readiness_receipt": "docs/evidence/p01c-001/readiness_audit.json"
+  "campaign_readiness_receipt": "docs/evidence/p01c-001/readiness_audit.json",
+  "p01_execution_complete": true,
+  "p01_all_horizons_complete": false,
+  "p01_protocol_consumed": true,
+  "p01_execution_receipt": "docs/evidence/p01-001/campaign_audit.json",
+  "p01_findings": "docs/p01_findings.md",
+  "p01_outcomes": {
+    "registered": 512,
+    "started": 470,
+    "complete_horizons": 469,
+    "censored": 1,
+    "unmeasured_started": 0,
+    "unstarted_budget": 42,
+    "supported": 0,
+    "not_supported": 436,
+    "inconclusive": 33
+  }
 }
