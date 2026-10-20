@@ -621,6 +621,38 @@
     {
       "file": "docs/evidence/p01-001/slot_outcomes.csv",
       "sha256": "44067b145816c6a3c26ffc0dbe1d44a2dc893ac061e403b4961a6fc982c5517d"
+    },
+    {
+      "file": "docs/evidence/p01d-001/checksums.json",
+      "sha256": "a65d1f675b490043e0f9f929f6c87a46692750ab78e9ea80be49729ccf1047ad"
+    },
+    {
+      "file": "docs/evidence/p01d-001/findings.json",
+      "sha256": "0236b04db2c8a8f669879538a5b33e7c4d345d1a69e1ae69b662397cb24a5a1a"
+    },
+    {
+      "file": "docs/evidence/p01d-001/inconclusive_cases.json",
+      "sha256": "e6bd49b33026096a54e82eaeb06d23ba7383049753df2e97a1e877f017d86c29"
+    },
+    {
+      "file": "docs/evidence/p01d-001/input_campaign_audit.json",
+      "sha256": "0382f76c7ecf2fc616c6330f357ade62b55baa736cb4388070870727adac4beb"
+    },
+    {
+      "file": "docs/evidence/p01d-001/manifest.json",
+      "sha256": "000deb996fa34914b37ea8f1ef6cb68a9f9a0b69404209634a46d6c72e229d5d"
+    },
+    {
+      "file": "docs/evidence/p01d-001/publication_context.json",
+      "sha256": "dc718e9e81280918c601765b980db11b16602924715dd2e2a795c310cf14fa9e"
+    },
+    {
+      "file": "docs/evidence/p01d-001/slot_diagnoses.json",
+      "sha256": "d1cbbf0620cda65ab91c1422799fd7b9069be1ca416faf25169f9e8adca23f56"
+    },
+    {
+      "file": "docs/evidence/p01d-001/tests.txt",
+      "sha256": "cfef1f5b80e1a9d170c891dfa640d34de72aef8260a01aa35e5372c31253b436"
     }
   ]
 }

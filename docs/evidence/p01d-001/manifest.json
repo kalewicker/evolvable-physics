@@ -1,0 +1,13 @@
+{
+  "schema": "p01d-analysis-manifest-v1",
+  "execution_status": "complete",
+  "scientific_status": "untested",
+  "new_world_runs": 0,
+  "source_files": {
+    "scripts/diagnose_p01.py": "45de3f6c2f7191daf6df3b8bde405e85ae3baa1a1e8f373f217146dc3518d8c1",
+    "scripts/test_diagnose_p01.py": "6d1d28776e8cdfdeb993f5314b607f25e67cc50c74617a9cec1d09431904aab7",
+    "docs/p01d_analysis_plan.md": "7a690ae2b3df1eb676506b82a2a6ba9df29b68ddfb3ef3921467bf34c02e1d33"
+  },
+  "processed_slots": 470,
+  "source_manifest_sha256": "53415e6418ec0ce2c66708e9fe6bbc1c650cf4b1bd0f701552ef09accf796c71"
+}

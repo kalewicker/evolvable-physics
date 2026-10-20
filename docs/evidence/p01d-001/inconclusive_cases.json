@@ -1,0 +1,2241 @@
+[
+  {
+    "slot": 6,
+    "proposal": 3001,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 2,
+          "active_fraction": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2998,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 1,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "duration": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 998,
+        "proposal_observations": 3,
+        "maximum_track_duration": 2
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 2,
+          "active_epochs": 667,
+          "active_members": [
+            5,
+            6
+          ],
+          "active_persistence": true,
+          "all_members": [
+            5,
+            6
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 5,
+          "initial_features": {
+            "e:0:[2, 1]": 1,
+            "n:1": 1,
+            "n:2": 1
+          },
+          "last": 1000,
+          "members": [
+            5,
+            6
+          ],
+          "observations": 996,
+          "similar_observations": 996
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "0ed2a8d621fd432018a45bbfd29fb7115e0d6edce9b0754fbee30d8ac5f86bfd"
+  },
+  {
+    "slot": 7,
+    "proposal": 3001,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 2,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 959,
+          "active_members": [
+            0,
+            1,
+            2
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            1,
+            2
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 2,
+            "n:2": 3
+          },
+          "last": 1000,
+          "members": [
+            0,
+            1,
+            2
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        },
+        {
+          "index": 2,
+          "active_epochs": 900,
+          "active_members": [
+            5,
+            6
+          ],
+          "active_persistence": true,
+          "all_members": [
+            5,
+            6
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 1,
+            "n:2": 2
+          },
+          "last": 1000,
+          "members": [
+            5,
+            6
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "214e59043951fa5447726978d29adb0ec717d791638be19cd8c5b7df2392d769"
+  },
+  {
+    "slot": 8,
+    "proposal": 3002,
+    "initial_state": 0,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "active_fraction": 1,
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2000,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 1,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "duration": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 998,
+        "proposal_observations": 3,
+        "maximum_track_duration": 2
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 937,
+          "active_members": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 1,
+            "e:0:[2, 3]": 1,
+            "e:0:[3, 2]": 1,
+            "e:0:[3, 3]": 1,
+            "n:2": 2,
+            "n:3": 3
+          },
+          "last": 1000,
+          "members": [
+            3,
+            4,
+            5
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "793ee80c14af2714aac0ce32194edf1fb04487429dbcd02675491fb81b20882e"
+  },
+  {
+    "slot": 17,
+    "proposal": 3004,
+    "initial_state": 1,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 2,
+          "active_fraction": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 938,
+          "active_members": [
+            2,
+            3
+          ],
+          "active_persistence": true,
+          "all_members": [
+            2,
+            3
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[1, 1]": 1,
+            "n:1": 2
+          },
+          "last": 1000,
+          "members": [
+            2,
+            3
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "0524c185071b89b9772ee5daf3363aa21afd99dddc142c5d1fe3c037875196a6"
+  },
+  {
+    "slot": 18,
+    "proposal": 3004,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 1,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 1001,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 750,
+          "active_members": [
+            6,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            6,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 1]": 1,
+            "n:1": 1,
+            "n:3": 1
+          },
+          "last": 1000,
+          "members": [
+            6,
+            7
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "4aaddecaba69156ac7182dcdc0a3d4cc884749b7d5c05b28b257d6736215a261"
+  },
+  {
+    "slot": 19,
+    "proposal": 3004,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "active_fraction": 1,
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 709,
+          "active_members": [
+            6,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            6,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 1]": 1,
+            "n:1": 1,
+            "n:2": 1
+          },
+          "last": 1000,
+          "members": [
+            6,
+            7
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "4cd5a6df85c2429ffd5830d5b0654caf7f075193643313a01db8571a777c3200"
+  },
+  {
+    "slot": 20,
+    "proposal": 3005,
+    "initial_state": 0,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 2,
+        "failed_gate_counts_overlapping": {
+          "active_fraction": 1,
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 1000,
+          "active_members": [
+            0,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 3]": 1,
+            "n:3": 2
+          },
+          "last": 1000,
+          "members": [
+            0,
+            7
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        },
+        {
+          "index": 2,
+          "active_epochs": 1000,
+          "active_members": [
+            5,
+            6
+          ],
+          "active_persistence": true,
+          "all_members": [
+            5,
+            6
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 2]": 1,
+            "n:2": 1,
+            "n:3": 1
+          },
+          "last": 1000,
+          "members": [
+            5,
+            6
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "379a8d075592baff83f234f9c3433151550d8a46385d78a89395a57e69bf4132"
+  },
+  {
+    "slot": 23,
+    "proposal": 3005,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            3,
+            4
+          ],
+          "active_persistence": true,
+          "all_members": [
+            3,
+            4
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 3]": 1,
+            "n:3": 2
+          },
+          "last": 1000,
+          "members": [
+            3,
+            4
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "82ee0b3e03e30668b1f5e1cd172288398baa46c0609d823ae0e2b40b7007dd6d"
+  },
+  {
+    "slot": 33,
+    "proposal": 3008,
+    "initial_state": 1,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 1000,
+          "active_members": [
+            0,
+            1,
+            2
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            1,
+            2
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 3]": 1,
+            "e:0:[3, 2]": 1,
+            "n:2": 1,
+            "n:3": 2
+          },
+          "last": 1000,
+          "members": [
+            0,
+            1,
+            2
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "442f35634db14af93ad30b199e6b23a149bf40b77580f81da383f4fd25edcc82"
+  },
+  {
+    "slot": 35,
+    "proposal": 3008,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 1000,
+          "active_members": [
+            0,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 3]": 1,
+            "n:3": 2
+          },
+          "last": 1000,
+          "members": [
+            0,
+            7
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "4ed39d180e850afca386545d30315f4343758ee556656f7d9620f150ae77c818"
+  },
+  {
+    "slot": 49,
+    "proposal": 3012,
+    "initial_state": 1,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2001,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 1,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "duration": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 998,
+        "proposal_observations": 3,
+        "maximum_track_duration": 2
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 999,
+          "active_members": [
+            4,
+            5
+          ],
+          "active_persistence": true,
+          "all_members": [
+            4,
+            5
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 1,
+          "initial_features": {
+            "e:0:[2, 1]": 1,
+            "n:1": 1,
+            "n:2": 1
+          },
+          "last": 1000,
+          "members": [
+            4,
+            5
+          ],
+          "observations": 1000,
+          "similar_observations": 1000
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "47c5af6bc52ea937caa55192a0ccefcdc12dd5787e03dd39fa724081ae96f85a"
+  },
+  {
+    "slot": 50,
+    "proposal": 3012,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            3,
+            4,
+            5
+          ],
+          "active_persistence": true,
+          "all_members": [
+            3,
+            4,
+            5
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 2,
+            "n:2": 3
+          },
+          "last": 1000,
+          "members": [
+            3,
+            4,
+            5
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "043516194dc26a709e146a036d46bcc6857812447da1e1ac9584cced329185b3"
+  },
+  {
+    "slot": 51,
+    "proposal": 3012,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 1000,
+          "active_members": [
+            0,
+            6,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            6,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 2,
+            "n:2": 3
+          },
+          "last": 1000,
+          "members": [
+            0,
+            6,
+            7
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "fd5a8f47b3a6e5a59f0945115b7c1f5dcb0d8279220a3dcfd5999b2a31f9c2ad"
+  },
+  {
+    "slot": 102,
+    "proposal": 3025,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 1,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 1001,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "duration": 1,
+          "active_fraction": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 2,
+        "proposal_observations": 999,
+        "maximum_track_duration": 995
+      }
+    },
+    "supported_tracks": {
+      "connected": [],
+      "interaction": [
+        {
+          "index": 1,
+          "active_epochs": 995,
+          "active_members": [
+            5,
+            6
+          ],
+          "active_persistence": true,
+          "all_members": [
+            5,
+            6
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 5,
+          "initial_features": {
+            "e:0:[2, 1]": 1,
+            "n:1": 1,
+            "n:2": 1
+          },
+          "last": 1000,
+          "members": [
+            5,
+            6
+          ],
+          "observations": 996,
+          "similar_observations": 996
+        }
+      ]
+    },
+    "report_sha256": "effd108a8ea17af8c17935f4de6c2bad02b7f41d4feb455c882d43e64e3193e5"
+  },
+  {
+    "slot": 103,
+    "proposal": 3025,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 1000,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "duration": 1000,
+          "inactive_members": 1000
+        },
+        "excluded_large_component_observations": 501,
+        "empty_samples": 501,
+        "proposal_observations": 1000,
+        "maximum_track_duration": 0
+      },
+      "interaction": {
+        "tracks": 1,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1,
+        "proposal_observations": 1000,
+        "maximum_track_duration": 999
+      }
+    },
+    "supported_tracks": {
+      "connected": [],
+      "interaction": [
+        {
+          "index": 0,
+          "active_epochs": 999,
+          "active_members": [
+            0,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 1,
+          "initial_features": {
+            "n:1": 1,
+            "n:2": 1
+          },
+          "last": 1000,
+          "members": [
+            0,
+            7
+          ],
+          "observations": 1000,
+          "similar_observations": 1000
+        }
+      ]
+    },
+    "report_sha256": "36d152f4178e527af9e669afff0ab81e358c3311cf10d51440ced095de570063"
+  },
+  {
+    "slot": 120,
+    "proposal": 3030,
+    "initial_state": 0,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 999,
+          "active_members": [
+            0,
+            1
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            1
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[1, 1]": 1,
+            "n:1": 2
+          },
+          "last": 1000,
+          "members": [
+            0,
+            1
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "c56bac430d353d7551b1c580f476d9a4b3bdab6de683fe7c1f47497c245ef595"
+  },
+  {
+    "slot": 186,
+    "proposal": 3046,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "active_fraction": 1,
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            1,
+            2
+          ],
+          "active_persistence": true,
+          "all_members": [
+            1,
+            2
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[1, 3]": 1,
+            "n:1": 1,
+            "n:3": 1
+          },
+          "last": 1000,
+          "members": [
+            1,
+            2
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "6228f02685bdc273267273c6213e8c548af96416ab0dfba0258621c823a8d418"
+  },
+  {
+    "slot": 187,
+    "proposal": 3046,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 2,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            3,
+            4
+          ],
+          "active_persistence": true,
+          "all_members": [
+            3,
+            4
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 3]": 1,
+            "n:2": 1,
+            "n:3": 1
+          },
+          "last": 1000,
+          "members": [
+            3,
+            4
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        },
+        {
+          "index": 2,
+          "active_epochs": 1000,
+          "active_members": [
+            6,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            6,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[1, 3]": 1,
+            "n:1": 1,
+            "n:3": 1
+          },
+          "last": 1000,
+          "members": [
+            6,
+            7
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "c6e9e19f45d30deaae586eb65095ad4e6f9e5c6bc7794573521bed76e74e4642"
+  },
+  {
+    "slot": 195,
+    "proposal": 3048,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 1000,
+          "active_members": [
+            0,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 1,
+            "n:2": 2
+          },
+          "last": 1000,
+          "members": [
+            0,
+            7
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "696a670c652f8c100fcdec196dd35c9285206926e990e882536e193bd089a250"
+  },
+  {
+    "slot": 231,
+    "proposal": 3057,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "active_fraction": 1,
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 997,
+          "active_members": [
+            4,
+            5
+          ],
+          "active_persistence": true,
+          "all_members": [
+            4,
+            5
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[1, 1]": 1,
+            "n:1": 2
+          },
+          "last": 1000,
+          "members": [
+            4,
+            5
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "db9568a9f1a79eeebc4573ddb8cb9b5ff95252c29fa3cfd0148c1df9f152f1f7"
+  },
+  {
+    "slot": 236,
+    "proposal": 3059,
+    "initial_state": 0,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "active_fraction": 1,
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            3,
+            4
+          ],
+          "active_persistence": true,
+          "all_members": [
+            3,
+            4
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 3]": 1,
+            "n:3": 2
+          },
+          "last": 1000,
+          "members": [
+            3,
+            4
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "524782f00e2e0cbf29e5cd388293d2fb669e5b2d673b0ecf9a4abef3a516d478"
+  },
+  {
+    "slot": 245,
+    "proposal": 3061,
+    "initial_state": 1,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 2,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 2,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "duration": 2,
+          "active_fraction": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 997,
+        "proposal_observations": 6,
+        "maximum_track_duration": 2
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 1000,
+          "active_members": [
+            0,
+            1,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            1,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[1, 2]": 1,
+            "n:1": 1,
+            "n:2": 1
+          },
+          "last": 1000,
+          "members": [
+            0,
+            1,
+            7
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        },
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            3,
+            4,
+            5
+          ],
+          "active_persistence": true,
+          "all_members": [
+            3,
+            4,
+            5
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 1,
+            "e:0:[3, 2]": 1,
+            "n:2": 2,
+            "n:3": 1
+          },
+          "last": 1000,
+          "members": [
+            4,
+            5
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "18af234d75069905200928a53ee1473d07c687e8d102226b8bf6030cc3e49199"
+  },
+  {
+    "slot": 275,
+    "proposal": 3068,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            2,
+            3
+          ],
+          "active_persistence": true,
+          "all_members": [
+            2,
+            3
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 1,
+            "n:2": 2
+          },
+          "last": 1000,
+          "members": [
+            2,
+            3
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "d0f84fce333b7061ce419e3c24f24e7e6f36dd2dfc02a9e74206c7977b1c4deb"
+  },
+  {
+    "slot": 316,
+    "proposal": 3079,
+    "initial_state": 0,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 1,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "duration": 1,
+          "active_fraction": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 998,
+        "proposal_observations": 3,
+        "maximum_track_duration": 2
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 956,
+          "active_members": [
+            5,
+            6
+          ],
+          "active_persistence": true,
+          "all_members": [
+            5,
+            6
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 3]": 1,
+            "n:3": 2
+          },
+          "last": 1000,
+          "members": [
+            5,
+            6
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "a32a82963166ea21f5764430d486aef8d54072a62d8e66c3af908416e52bdf01"
+  },
+  {
+    "slot": 318,
+    "proposal": 3079,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "active_fraction": 2,
+          "inactive_members": 2
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 917,
+          "active_members": [
+            2,
+            3
+          ],
+          "active_persistence": true,
+          "all_members": [
+            2,
+            3
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 3]": 1,
+            "n:3": 2
+          },
+          "last": 1000,
+          "members": [
+            2,
+            3
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "c473c59bb14ca35d296504b236d1c24a0c8a85df10c9167794bf14741a1e2bc5"
+  },
+  {
+    "slot": 349,
+    "proposal": 3087,
+    "initial_state": 1,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 2
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            2,
+            3
+          ],
+          "active_persistence": true,
+          "all_members": [
+            2,
+            3
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 1,
+            "n:2": 2
+          },
+          "last": 1000,
+          "members": [
+            2,
+            3
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "f6c44c9425ddb3500e220a94a590c413d5518263d25155f832c6a9dafb1d6482"
+  },
+  {
+    "slot": 371,
+    "proposal": 3092,
+    "initial_state": 3,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 998,
+          "active_members": [
+            0,
+            1
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            1
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[1, 1]": 1,
+            "n:1": 2
+          },
+          "last": 1000,
+          "members": [
+            0,
+            1
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "a50fa25a42915bf0ecca560b0d5f03dd21dcc05c6f5bcaa640798d504e1d2359"
+  },
+  {
+    "slot": 390,
+    "proposal": 3097,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 2002,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            3,
+            4,
+            5
+          ],
+          "active_persistence": true,
+          "all_members": [
+            3,
+            4,
+            5
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 3]": 2,
+            "n:3": 3
+          },
+          "last": 1000,
+          "members": [
+            3,
+            4,
+            5
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "4ca7150ef187f60532cc224ad71bf46848b75f5b11a535c66030dbe6d688efd6"
+  },
+  {
+    "slot": 393,
+    "proposal": 3098,
+    "initial_state": 1,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "active_fraction": 1,
+          "inactive_members": 2
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 1,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "duration": 1,
+          "active_fraction": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 998,
+        "proposal_observations": 3,
+        "maximum_track_duration": 2
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 0,
+          "active_epochs": 1000,
+          "active_members": [
+            0,
+            1,
+            2
+          ],
+          "active_persistence": true,
+          "all_members": [
+            0,
+            1,
+            2
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 1]": 1,
+            "n:1": 1,
+            "n:3": 1
+          },
+          "last": 1000,
+          "members": [
+            0,
+            1,
+            2
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "d061b718a8e7bb29891d527ba13ab893e662ecfeefb8098bae0fa339ca663aaf"
+  },
+  {
+    "slot": 458,
+    "proposal": 3114,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 2,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 1027,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 2,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "duration": 2
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 995,
+        "proposal_observations": 6,
+        "maximum_track_duration": 2
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 18,
+          "active_members": [
+            6,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            6,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 3]": 1,
+            "n:3": 2
+          },
+          "last": 25,
+          "members": [
+            6,
+            7
+          ],
+          "observations": 26,
+          "similar_observations": 26
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "0cb4d558222de7005f0203840a3edb1de1f40ea630c443ee7b064f20954bb493"
+  },
+  {
+    "slot": 462,
+    "proposal": 3115,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 2
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 2,
+          "active_epochs": 1000,
+          "active_members": [
+            4,
+            5
+          ],
+          "active_persistence": true,
+          "all_members": [
+            4,
+            5
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[3, 1]": 1,
+            "n:1": 1,
+            "n:3": 1
+          },
+          "last": 1000,
+          "members": [
+            4,
+            5
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "d009104b6aa2ce2a9744686170608b4ada55fa91584c7369122d0ae786811774"
+  },
+  {
+    "slot": 464,
+    "proposal": 3116,
+    "initial_state": 0,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "inactive_members": 2
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 0,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {},
+        "excluded_large_component_observations": 0,
+        "empty_samples": 1001,
+        "proposal_observations": 0,
+        "maximum_track_duration": 0
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 2,
+          "active_epochs": 998,
+          "active_members": [
+            6,
+            7
+          ],
+          "active_persistence": true,
+          "all_members": [
+            6,
+            7
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 1,
+            "n:2": 2
+          },
+          "last": 1000,
+          "members": [
+            6,
+            7
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "564d887886229f4c6ae9f87259e4e28d7e715664ec0b8e04ed435b29f9b47d8b"
+  },
+  {
+    "slot": 466,
+    "proposal": 3116,
+    "initial_state": 2,
+    "full_horizon_ap": "inconclusive",
+    "estimators": {
+      "connected": {
+        "tracks": 3,
+        "supported_tracks": 1,
+        "failed_gate_counts_overlapping": {
+          "active_fraction": 2,
+          "inactive_members": 2
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 0,
+        "proposal_observations": 3003,
+        "maximum_track_duration": 1000
+      },
+      "interaction": {
+        "tracks": 1,
+        "supported_tracks": 0,
+        "failed_gate_counts_overlapping": {
+          "duration": 1,
+          "active_fraction": 1
+        },
+        "excluded_large_component_observations": 0,
+        "empty_samples": 998,
+        "proposal_observations": 3,
+        "maximum_track_duration": 2
+      }
+    },
+    "supported_tracks": {
+      "connected": [
+        {
+          "index": 1,
+          "active_epochs": 1000,
+          "active_members": [
+            1,
+            2
+          ],
+          "active_persistence": true,
+          "all_members": [
+            1,
+            2
+          ],
+          "ambiguous": false,
+          "births": 0,
+          "deaths": 0,
+          "first": 0,
+          "initial_features": {
+            "e:0:[2, 2]": 1,
+            "n:2": 2
+          },
+          "last": 1000,
+          "members": [
+            1,
+            2
+          ],
+          "observations": 1001,
+          "similar_observations": 1001
+        }
+      ],
+      "interaction": []
+    },
+    "report_sha256": "26d16e107b7348dc4e2c511aa3db142fed9806bf79095b92e001973626d9c26c"
+  }
+]

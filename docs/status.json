@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-19",
-  "stage": "P01",
+  "stage": "P01d",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "read-only diagnosis of generator reachability, detector disagreements and verification cost tail",
-    "register protocol closure and any future changes before more world runs",
-    "do not resume, reroll or expand the consumed P01 pilot; E01 remains unauthorized"
+    "implement a separate independent single-pass Python verifier producing verified activity without removing checks",
+    "freeze candidate/validator/input hashes before executing the fixed offline P01e equivalence, corruption and paired cost preflight",
+    "preserve consumed P01 outcomes; no new worlds, continuation, reroll, budget expansion or E01"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -48,5 +48,12 @@
     "supported": 0,
     "not_supported": 436,
     "inconclusive": 33
-  }
+  },
+  "p01_diagnosis_complete": true,
+  "p01_protocol_closed": true,
+  "p01_closure": "docs/p01_closure.json",
+  "diagnosis_receipt": "docs/evidence/p01d-001/findings.json",
+  "next_engineering_protocol": "docs/p01e_protocol.json",
+  "new_world_runs_admitted": false,
+  "e01_authorized": false
 }

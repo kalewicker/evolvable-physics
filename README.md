@@ -54,7 +54,7 @@ The branch bundle preserves the source, request, receipt, and resulting checkpoi
 
 The [first P01 development pilot](docs/p01_findings.md) stopped at its CPU launch reserve: 469 complete horizons, one censored prefix and 42 unstarted slots. Its 469 complete-run AP labels were 436 `not_supported`, 33 `inconclusive` and zero `supported`. All 512 registered cells remain in the report, and the sealed audit passed without a resource overshoot.
 
-That registration is consumed. Next is read-only diagnosis of generator reachability, detector disagreements and verification cost, followed by protocol closure before any new world runs. Do not resume unstarted slots or extend the capped prefix. Scientific status remains untested and E01 remains unauthorized.
+That registration is consumed and [closed](docs/p01_closure.json). [P01d diagnosis](docs/p01d_findings.md) checked every retained epoch: generator v1 leaves newborns isolated/unfunded and makes node deletion unreachable; all 33 disagreements remain inconclusive. Independent Python verification used 80.073% of recorded leaf CPU. Next implement and freeze a separate verifier, then run the registered [offline P01e equivalence/cost preflight](docs/p01e_protocol.json) on existing evidence. No new world runs are admitted. Scientific status remains untested and E01 remains unauthorized.
 
 ## Environment fixtures and continuation
 
@@ -99,7 +99,7 @@ Published at [kalewicker/evolvable-physics](https://github.com/kalewicker/evolva
 
 The public snapshot includes source, locked dependencies, protocols, reports, the revised experiment plan, and [compact validation receipts](docs/evidence/README.md). Raw `artifacts/`, `target/`, caches, and machine-local settings stay outside Git. Run the validation command above to generate full evidence from source.
 
-Implementation resumed at the user’s request after publication. The current milestone is P01; its first budgeted attempt is sealed. Next is read-only diagnosis and protocol closure, without new world runs.
+Implementation resumed at the user’s request after publication. P01 is sealed and closed, and P01d diagnosis is complete. Next is the registered P01e offline verifier implementation/preflight, without new world runs.
 
 At the end of future project turns, commit and push any changes to this repository after the appropriate checks. See [AGENTS.md](AGENTS.md).
 
@@ -152,3 +152,11 @@ python3 scripts/summarize_p01.py artifacts/p01-001 artifacts/p01-new-report
 ```
 
 Use an existing complete sealed bundle and a new report directory. This verifies inventory/audit bindings and computes descriptive tables; it never evolves a world or resumes a campaign. The [first pilot findings](docs/p01_findings.md) preserve 436 unsupported and 33 inconclusive complete-run labels, one censored prefix and 42 unstarted cells. No AP support was established, and E01 remains unauthorized.
+
+## P01d read-only diagnosis
+
+```sh
+python3 scripts/diagnose_p01.py artifacts/p01-001 artifacts/p01d-new-analysis
+```
+
+Use an existing sealed campaign and a new analysis directory. This verifies the original inventory, scans existing traces and saved detector fields, and attributes cost from retained receipts; it does not evolve worlds or change labels. [Findings](docs/p01d_findings.md) separate the finite scan from the [source-level reachability argument](docs/generator_v1_reachability.md). Public receipts do not contain raw trajectories, so this command requires the complete local bundle. The [P01e protocol](docs/p01e_protocol.json) registers the next bounded offline gate; its verifier candidate is not implemented yet.

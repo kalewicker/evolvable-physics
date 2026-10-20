@@ -1,0 +1,32 @@
+{
+  "schema": "p01-protocol-closure-v1",
+  "date": "2026-10-19",
+  "protocol": "docs/p01_protocol.json",
+  "consumed": true,
+  "closed": true,
+  "execution_accounting_independent_replay": "pass within registered ceilings",
+  "all_registered_horizons_feasible_within_budget": "not demonstrated",
+  "registered_slots": 512,
+  "complete_horizons": 469,
+  "censored_prefixes": 1,
+  "unstarted_budget": 42,
+  "started_unmeasured": 0,
+  "full_horizon_ap": {"supported": 0, "not_supported": 436, "inconclusive": 33},
+  "original_seal": "docs/evidence/p01-001/seal.json",
+  "original_manifest_sha256": "53415e6418ec0ce2c66708e9fe6bbc1c650cf4b1bd0f701552ef09accf796c71",
+  "original_seal_sha256": "6a3acfa43651d5d6c98fddcd4fdc2c22575c36b41e8e9008b514b74c379ece29",
+  "read_only_diagnosis": "pass; original outcomes preserved",
+  "diagnosis_findings": "docs/evidence/p01d-001/findings.json",
+  "source_scope_argument": "docs/generator_v1_reachability.md",
+  "generator_v1_limits": [
+    "node deletion unreachable",
+    "newborns remain isolated and unfunded",
+    "eligible detector proposals confined to original eight nodes"
+  ],
+  "next_engineering_protocol": "docs/p01e_protocol.json",
+  "next_candidate_implemented": false,
+  "resume_repeat_reroll_budget_expansion_admitted": false,
+  "new_world_runs_admitted": false,
+  "e01_authorized": false,
+  "scientific_status": "untested"
+}

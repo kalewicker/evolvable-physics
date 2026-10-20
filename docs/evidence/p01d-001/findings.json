@@ -1,0 +1,131 @@
+{
+  "schema": "p01d-findings-v1",
+  "source_manifest_sha256": "53415e6418ec0ce2c66708e9fe6bbc1c650cf4b1bd0f701552ef09accf796c71",
+  "source_seal_sha256": "6a3acfa43651d5d6c98fddcd4fdc2c22575c36b41e8e9008b514b74c379ece29",
+  "diagnostic_sha256": "45de3f6c2f7191daf6df3b8bde405e85ae3baa1a1e8f373f217146dc3518d8c1",
+  "registered_slots": 512,
+  "started_slots_scanned": 470,
+  "unstarted_slots_preserved": 42,
+  "epochs_scanned": 469935,
+  "events_scanned": 1655754,
+  "unique_generated_laws": 118,
+  "rule_forms_in_generated_laws": {
+    "3": 125,
+    "4": 112,
+    "5": 119,
+    "7": 121,
+    "2": 115,
+    "6": 115,
+    "0": 115,
+    "1": 122
+  },
+  "committed_event_forms": {
+    "4": 4183,
+    "3": 620,
+    "2": 3472,
+    "0": 731282,
+    "6": 1047,
+    "1": 914099,
+    "5": 1051
+  },
+  "observed_node_births": 4183,
+  "observed_node_deaths": 0,
+  "maximum_observed_nodes": 72,
+  "contact_and_newborn_invariants": "pass on all observed worlds",
+  "detector_proposals_contain_newborns": false,
+  "track_node_turnover": false,
+  "estimator_directions": [
+    {
+      "coverage": "complete",
+      "connected_supported": false,
+      "interaction_supported": false,
+      "states": 436
+    },
+    {
+      "coverage": "complete",
+      "connected_supported": true,
+      "interaction_supported": false,
+      "states": 31
+    },
+    {
+      "coverage": "complete",
+      "connected_supported": false,
+      "interaction_supported": true,
+      "states": 2
+    },
+    {
+      "coverage": "censored_prefix",
+      "connected_supported": false,
+      "interaction_supported": false,
+      "states": 1
+    }
+  ],
+  "supported_tracks": {
+    "connected_supported_tracks": 35,
+    "interaction_supported_tracks": 2
+  },
+  "inconclusive_cells_preserved": 33,
+  "cost_attribution": {
+    "leaf_child_cpu_seconds": {
+      "audit": 2189.183567,
+      "generate": 0.9760789999999998,
+      "native": 196.43015899999995,
+      "rust": 347.38266000000004
+    },
+    "leaf_child_cpu_total": 2733.972465,
+    "python_audit_fraction_of_leaf_cpu": 0.8007335827356258,
+    "sum_guard_self_cpu_at_guard_observation": 232.1464990000002,
+    "sum_guard_and_reaped_cpu_at_guard_observation": 3305.0766049999966,
+    "reaped_nonleaf_cpu_inferred_at_guard_boundaries": 338.95764099999633,
+    "aggregate_cpu_at_seal": 3506.036956,
+    "remaining_cpu_at_other_boundaries": 200.96035100000336,
+    "limits": "boundary differences; residual is not an exact exclusive parent/ps profile; no speedup benchmark"
+  },
+  "replay_call_graph": [
+    {
+      "file": "scripts/pilot_reporting.py",
+      "function": "verify",
+      "call": "pilot.verify_trace",
+      "static_call_sites": 1,
+      "source_sha256": "86d34d9bd0ba2f894d6e32d2c71e0969ca2579792a8afce2dc188fe6de6117eb"
+    },
+    {
+      "file": "scripts/pilot_reporting.py",
+      "function": "verify",
+      "call": "audit_integration.analyze_environment",
+      "static_call_sites": 1,
+      "source_sha256": "86d34d9bd0ba2f894d6e32d2c71e0969ca2579792a8afce2dc188fe6de6117eb"
+    },
+    {
+      "file": "scripts/pilot.py",
+      "function": "verify_trace",
+      "call": "audit.verify_case",
+      "static_call_sites": 1,
+      "source_sha256": "622a69783366d62e2235766cdca1cbd527f7125e0486b83403c6f5af13681fa1"
+    },
+    {
+      "file": "scripts/audit_integration.py",
+      "function": "analyze_environment",
+      "call": "detector.activity",
+      "static_call_sites": 1,
+      "source_sha256": "930338cb11387fbf30b17d4e4919d9746ddd7848a40aaabee4c84c5dcc2e1f85"
+    },
+    {
+      "file": "scripts/audit_detectors.py",
+      "function": "activity",
+      "call": "audit.verify_case",
+      "static_call_sites": 1,
+      "source_sha256": "e1aec3f27dcc8d72a598e2767dfd5821901188b1229caac372a8b9148a7aed9b"
+    },
+    {
+      "file": "scripts/audit_detectors.py",
+      "function": "activity",
+      "call": "audit.execute",
+      "static_call_sites": 1,
+      "source_sha256": "e1aec3f27dcc8d72a598e2767dfd5821901188b1229caac372a8b9148a7aed9b"
+    }
+  ],
+  "new_world_runs": 0,
+  "scientific_status": "untested",
+  "e01_authorized": false
+}

@@ -1,0 +1,11 @@
+# P01d: read-only diagnosis and protocol closure
+
+Date: 2026-10-19. This is a disclosed post-hoc development analysis of the consumed P01 pilot. Source inspection and a first read of retained detector reports have already revealed 31 structural-only and two interaction-only disagreements. This is not a new preregistered biological test or blinded analysis. No world is evolved, no unstarted draw is generated, no cap is continued and no label is replaced.
+
+Use every one of the 470 started slots and all 469,935 retained epochs; keep the 42 unstarted slots in the original denominator. Verify the original seal/inventory and all current freezes before scanning. Stream existing traces and bind the scan to their recorded hashes. Record rule-form/event counts, node additions/deletions, Contact preservation, structural endpoint restrictions, newborn resources/isolation, and allocator/matter bounds. Validate the source-level invariant argument against every observed world and every stored detector proposal. Finite observations corroborate the argument but do not turn it into machine-checked universal dynamics.
+
+Read all retained detector fields and recompute their existing Boolean track gates from the saved metrics at unchanged thresholds. Count every failed condition (overlapping counts, not mutually exclusive causal explanations). Preserve all 33 inconclusive cells. Report both disagreement directions, track membership, inactive members, short/ambiguous/feature-changing tracks, empty samples and excluded-large component observations. No alternative detector or new favorable endpoint is selected.
+
+Attribute measured leaf-stage CPU and separately named guard/remaining CPU from original receipts, respecting different measurement boundaries. Inspect the frozen Python call graph for redundant replay; do not benchmark a replacement, remove checks or claim a speedup. CPU/censoring/order effects remain part of the original negative development outcome.
+
+Close the consumed protocol with accounting/replay status separate from scientific acceptance. Decide only the next bounded engineering task; no E01 or new law sampling is admitted. Diagnosis scripts, tests and their receipts are new artifacts; original sources, traces, reports and receipts stay byte-identical.

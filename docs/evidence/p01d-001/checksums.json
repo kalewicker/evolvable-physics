@@ -1,0 +1,10 @@
+{
+  "findings.json": "0236b04db2c8a8f669879538a5b33e7c4d345d1a69e1ae69b662397cb24a5a1a",
+  "manifest.json": "000deb996fa34914b37ea8f1ef6cb68a9f9a0b69404209634a46d6c72e229d5d",
+  "input_campaign_audit.json": "0382f76c7ecf2fc616c6330f357ade62b55baa736cb4388070870727adac4beb",
+  "slot_diagnoses.json": "d1cbbf0620cda65ab91c1422799fd7b9069be1ca416faf25169f9e8adca23f56",
+  "inconclusive_cases.json": "e6bd49b33026096a54e82eaeb06d23ba7383049753df2e97a1e877f017d86c29",
+  "source/docs/p01d_analysis_plan.md": "7a690ae2b3df1eb676506b82a2a6ba9df29b68ddfb3ef3921467bf34c02e1d33",
+  "source/scripts/diagnose_p01.py": "45de3f6c2f7191daf6df3b8bde405e85ae3baa1a1e8f373f217146dc3518d8c1",
+  "source/scripts/test_diagnose_p01.py": "6d1d28776e8cdfdeb993f5314b607f25e67cc50c74617a9cec1d09431904aab7"
+}

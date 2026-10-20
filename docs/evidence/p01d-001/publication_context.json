@@ -1,0 +1,18 @@
+{
+  "schema": "p01d-publication-context-v1",
+  "original_campaign_manifest_sha256": "53415e6418ec0ce2c66708e9fe6bbc1c650cf4b1bd0f701552ef09accf796c71",
+  "original_campaign_seal_sha256": "6a3acfa43651d5d6c98fddcd4fdc2c22575c36b41e8e9008b514b74c379ece29",
+  "diagnostic_manifest_sha256": "000deb996fa34914b37ea8f1ef6cb68a9f9a0b69404209634a46d6c72e229d5d",
+  "diagnostic_checksums_sha256": "a65d1f675b490043e0f9f929f6c87a46692750ab78e9ea80be49729ccf1047ad",
+  "external_files": {
+    "docs/evidence/p01d-001/tests.txt": "cfef1f5b80e1a9d170c891dfa640d34de72aef8260a01aa35e5372c31253b436",
+    "docs/p01d_findings.md": "52467827cccd8e806c25de1e105fcd614183459d218736a5eb1947505415bab3",
+    "docs/generator_v1_reachability.md": "13883fcf6074837c007600a20f28fca0aeee712826ae0a5112317b7b2bc86f2a",
+    "docs/p01_closure.json": "3b5e0675686e57777e8c9090d4b1475421f12380a649d4133317248d851fb726",
+    "docs/p01e_protocol.json": "6952821c7bf91fefa71c583ce35923b22d3baea74986882e7e2337186789d71c"
+  },
+  "note": "External tests and later closure/protocol documents are outside the original diagnostic inventory; no original bundle is modified.",
+  "new_world_runs": 0,
+  "scientific_status": "untested",
+  "e01_authorized": false
+}
