@@ -1,0 +1,49 @@
+{
+  "schema": "generator-v3-design-only-v1",
+  "namespace": "p01-generator-v3",
+  "status": "proposed_not_implemented",
+  "kinds": [1, 2, 3],
+  "rule_slots": 8,
+  "form_modulus": 8,
+  "type_map": {
+    "scope": "per_law",
+    "field": "child_kind_by_donor",
+    "initial": 0,
+    "indices": [0, 1, 2],
+    "range": 3,
+    "value_offset": 1,
+    "requires_bijection": false
+  },
+  "bindings": {
+    "birth_form": 4,
+    "birth_donor": "kind0",
+    "birth_child": "type_map[kind0]",
+    "transfer_form": 3,
+    "transfer_route": 1,
+    "transfer_donor": "kind0",
+    "transfer_target": "type_map[kind0]",
+    "recycle_form": 7,
+    "recycle_donor": "kind0",
+    "recycle_target": "type_map[kind0]"
+  },
+  "retain_v2": [
+    "draw_algorithm_except_namespace_and_declared_fields",
+    "independent_rule_forms_donor_kinds_states_and_routes",
+    "other_forms_and_all_operation_order_and_costs",
+    "initial_world_fields_and_resources",
+    "closed_environment_and_limits",
+    "matchers_scheduler_and_detectors"
+  ],
+  "not_admitted": [
+    "generator_implementation",
+    "sampler_calls",
+    "law_repair_filter_or_reroll",
+    "candidate_enumeration",
+    "world_transition_application",
+    "witness_execution",
+    "new_environment_or_thresholds",
+    "E01"
+  ],
+  "proposal_ids": [],
+  "execution_protocol": null
+}

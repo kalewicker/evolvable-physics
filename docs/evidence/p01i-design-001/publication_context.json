@@ -1,0 +1,24 @@
+{
+  "base_commit": "8589f4367df737b342a87b53638fad578807e795",
+  "copies": [
+    {
+      "original": "artifacts/p01i-design-001/static_review.json",
+      "public": "docs/evidence/p01i-design-001/static_review.json",
+      "sha256": "7224e0f84a4bc396c3af2c80af1e107cdf23ced96b58a7dc307816b7cfd5490d"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "f83c46053adf59183942a4966811b9b8da55d31b05720b634b7e8f17c6e54cff",
+    "README.md": "92fb7bd5cbdaeab7f8895515c57e718fb50ea585e753ad47b860a1f200d873a6",
+    "docs/evidence/README.md": "abb2716003fe485a7cb39e95f101ea9727fbf61b173e1e9be39d82118a34665e",
+    "docs/generator_v3_design.json": "f53bed61ed60426eca2810cf2f62becdae5caa58340af6f8032006aed04f391d",
+    "docs/generator_v3_design.md": "728568257ed22993dd6742c6a16bc7063ae776e391d92b3cde256c45508dbf87",
+    "docs/p01i_findings.md": "6e94b1015cdfe023810158e849fadd6534ee4d1ea758ab82f392604c4a1d721b",
+    "docs/status.json": "02aa512aa1a92df6dce3a3ff33c53ca7b5c4507cd9e5497eb87f2ffe83e1e33b",
+    "scripts/review_generator_v3_design.py": "a9a8f3a672a5cd600f9592eb82470016b4f9d93ba4364672527e68ef33530fb1"
+  },
+  "note": "Static review checked all 343 prior public receipts before this publication. No historical receipt or freeze was rewritten. This is not an execution seal.",
+  "schema": "p01i-design-publication-context-v1",
+  "scope": "design-only finite type review; no generator implementation or sampling admission"
+}

@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01h_complete",
+  "stage": "P01i_design_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "design-only review of type-coherent constructive rule generation, including whether created children can match donor patterns",
-    "account explicitly for the altered sampling prior/authored bias and retain independent template presence, state/resource constraints and negative-gate history",
-    "specify necessary type-path checks before proposing any new registered experiment; no sampler calls, law repairs, rerolls, new dynamics or E01"
+    "register implementation-readiness checks for the exact proposed v3 kind-map contract before adapter implementation",
+    "fix literal-field Rust/Python comparisons covering every form/route, shared map reuse, absent donor bodies and unchanged state/material barriers",
+    "no hash sampler calls, candidate enumeration, world transitions, witness execution, new sampling panel or E01; any later experiment needs a separate registration and execution freeze"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -158,5 +158,10 @@
     "new_world_runs": 0,
     "sampler_calls": 0,
     "transition_applications": 0
-  }
+  },
+  "p01i_design_complete": true,
+  "p01i_findings": "docs/p01i_findings.md",
+  "generator_v3_design": "docs/generator_v3_design.json",
+  "generator_v3_implemented": false,
+  "p01i_static_review": "docs/evidence/p01i-design-001/static_review.json"
 }

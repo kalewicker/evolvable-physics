@@ -62,3 +62,10 @@ remain local; no sampler, interpreter, native executable or subprocess was
 called during the diagnostic/audit. The failed P01g gate is unchanged. See
 [diagnostic findings](../p01h_findings.md) for the exact-table kind restriction
 and design-only next scope.
+
+P01i publishes a design-only static review over all 27 abstract kind maps and
+eight birth-donor subsets, finite field-alphabet compatibility counts and
+cross-checked type paths. It includes no rule tables, initial worlds, sampled
+laws or trajectories. Publication context binds the byte-identical local
+receipt and final design/checker/status files. It is not an execution seal or
+sampling admission. See [design findings](../p01i_findings.md).

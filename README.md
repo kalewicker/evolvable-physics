@@ -245,3 +245,18 @@ directory; they read records without law construction or transition application.
 Public compact receipts omit raw trajectories. Next is a design-only type-
 coherence review that accounts for the changed prior and child-as-donor path.
 No new generator, law draw, dynamics or E01 is admitted.
+
+## P01i type-coherent design review
+
+The [proposed v3 design](docs/generator_v3_design.md) shares a per-law map from
+donor kind to child kind across birth, Structural funding and leaf recycling.
+It explicitly checks whether children can match another birth donor; matching
+incoming funding/recycling kinds alone is insufficient. Forms, donor kinds,
+states and routes remain independently keyed. The changed correlation is
+authored sampling bias, not an evolved mechanism.
+
+[Static findings](docs/p01i_findings.md) cover all 27 maps and eight donor
+subsets, with independent graph checks and explicit failure examples. No laws
+were sampled or worlds advanced. Next is a separate registration for literal-
+field adapter readiness checks; generator implementation and a new experiment
+are not yet admitted. The P01g negative gate and scientific status are unchanged.

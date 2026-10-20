@@ -1373,6 +1373,14 @@
     {
       "file": "docs/evidence/p01h-001/publication_context.json",
       "sha256": "4985228edb91d985e8b2d648912ee9c6ec05c4f3e7149df9a3f7136b90317613"
+    },
+    {
+      "file": "docs/evidence/p01i-design-001/publication_context.json",
+      "sha256": "409974cad055a98f264609a917d65febd7fa9ff9c7f4591b81c2c67e14abce58"
+    },
+    {
+      "file": "docs/evidence/p01i-design-001/static_review.json",
+      "sha256": "7224e0f84a4bc396c3af2c80af1e107cdf23ced96b58a7dc307816b7cfd5490d"
     }
   ]
 }

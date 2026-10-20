@@ -1,0 +1,8118 @@
+{
+  "checks_passed": true,
+  "date": "2026-10-20",
+  "field_algebra": {
+    "assumption": "idealized independent uniform fields, conditional on specified forms/routes",
+    "not_a_hash_sampler_probability_or_whole_table_success_rate": true,
+    "proposed_v3": {
+      "pair": {
+        "assignments": 2187,
+        "compatible_assignments": 729,
+        "fraction": "1/3"
+      },
+      "triple": {
+        "assignments": 2187,
+        "compatible_assignments": 243,
+        "fraction": "1/9"
+      },
+      "triple_and_child_donor": {
+        "assignments": 2187,
+        "compatible_assignments": 81,
+        "fraction": "1/27"
+      }
+    },
+    "v2": {
+      "pair": {
+        "assignments": 2187,
+        "compatible_assignments": 243,
+        "fraction": "1/9"
+      },
+      "triple": {
+        "assignments": 2187,
+        "compatible_assignments": 27,
+        "fraction": "1/81"
+      },
+      "triple_and_child_donor": {
+        "assignments": 2187,
+        "compatible_assignments": 9,
+        "fraction": "1/243"
+      }
+    },
+    "v3_marginal_assignment_denominator": 81,
+    "v3_ordered_pair_marginals": [
+      {
+        "assignments": 9,
+        "pair": [
+          1,
+          1
+        ]
+      },
+      {
+        "assignments": 9,
+        "pair": [
+          1,
+          2
+        ]
+      },
+      {
+        "assignments": 9,
+        "pair": [
+          1,
+          3
+        ]
+      },
+      {
+        "assignments": 9,
+        "pair": [
+          2,
+          1
+        ]
+      },
+      {
+        "assignments": 9,
+        "pair": [
+          2,
+          2
+        ]
+      },
+      {
+        "assignments": 9,
+        "pair": [
+          2,
+          3
+        ]
+      },
+      {
+        "assignments": 9,
+        "pair": [
+          3,
+          1
+        ]
+      },
+      {
+        "assignments": 9,
+        "pair": [
+          3,
+          2
+        ]
+      },
+      {
+        "assignments": 9,
+        "pair": [
+          3,
+          3
+        ]
+      }
+    ]
+  },
+  "generator_implemented": false,
+  "historical_frozen_project_files_unchanged": 116,
+  "new_world_runs_admitted": false,
+  "prior_public_receipts_verified": 343,
+  "schema": "p01i-static-type-design-review-v1",
+  "scientific_status": "untested",
+  "scope": "design-only finite type algebra; no laws, hashes used as draws, candidates or transitions",
+  "source_sha256": {
+    "docs/generator_v3_design.json": "f53bed61ed60426eca2810cf2f62becdae5caa58340af6f8032006aed04f391d",
+    "docs/generator_v3_design.md": "728568257ed22993dd6742c6a16bc7063ae776e391d92b3cde256c45508dbf87",
+    "docs/p01g_closure.json": "03a26930d5f7e4ecf67bd3e1bcf1c10eff9cfad18aa9c297c6dceba91e4c9c6a",
+    "docs/p01g_execution_freeze.json": "a8966325d73fb47151d6613b5b97907b1d5bf203b7fd24ff3efc2a9928a25214",
+    "docs/p01h_findings.md": "acef2ec59e4978f344b2a2c8beabacf6984d244a298acbd0fc566cd1d495d435",
+    "docs/p01h_source_argument.md": "6d0d29e1d3b9d294587842ed29071c7dc9addea10447a6183835a5037c25a8c8",
+    "scripts/review_generator_v3_design.py": "a9a8f3a672a5cd600f9592eb82470016b4f9d93ba4364672527e68ef33530fb1"
+  },
+  "type_profiles": {
+    "birth_donor_subsets_per_map": 8,
+    "closed_type_paths": 198,
+    "first_child_donor_paths": 216,
+    "kind_relabeling_comparisons": 3888,
+    "maps": 27,
+    "not_a_resource_state_or_trajectory_claim": true,
+    "profiles": [
+      {
+        "birth_donors": [],
+        "map": [
+          1,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          1,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          1,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          1,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          1,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          1,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          1,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          1,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          1,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          1,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          1,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          1,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          1,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          1,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          1,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          1,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          1,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          1,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          1,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          1,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          1,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          1,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          1,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          1,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          1,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          1,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          1,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          1,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          1,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          1,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          1,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          1,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          1,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          1,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          1,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          1,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          1,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          1,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          1,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          1,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          1,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          1,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          1,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          1,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          1,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          1,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          1,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          1,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          1,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          1,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          1,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          1,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          1,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          1,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          1,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          1,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          1,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          1,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          1,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          1,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          1,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          1,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          1,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          1,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          1,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          1,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          1,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          1,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          1,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          1,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          1,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          1,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          2,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          2,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          2,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          2,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          2,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          2,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          2,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          2,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          2,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          2,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          2,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          2,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          2,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          2,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          2,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          2,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          2,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          2,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          2,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          2,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          2,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          2,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          2,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          2,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          2,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          2,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          2,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          2,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          2,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          2,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          2,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          2,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          2,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          2,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          2,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          2,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          2,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          2,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          2,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          2,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          2,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          2,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          2,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          2,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          2,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          2,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          2,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          2,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          2,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          2,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          2,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          2,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          2,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          2,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          2,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          2,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          2,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          2,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          2,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          2,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          2,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          2,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          2,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          2,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          2,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          2,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          2,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          2,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          2,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          2,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          2,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          2,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          3,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          3,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          3,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          3,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          3,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          3,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          3,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          3,
+          1,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          3,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          3,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          3,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          3,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          3,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          3,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          3,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          3,
+          1,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          3,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          3,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          3,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          3,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          3,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          3,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          3,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          3,
+          1,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          3,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          3,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          3,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          3,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          3,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          3,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          3,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          3,
+          2,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          3,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          3,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          3,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          3,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          3,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          3,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          3,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          3,
+          2,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          3,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          3,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          3,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          3,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          3,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          3,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          3,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          3,
+          2,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          3,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          3,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          3,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          3,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          3,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          3,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          3,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          3,
+          3,
+          1
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          3,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          3,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          3,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          3,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          3,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          3,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          3,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          3,
+          3,
+          2
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [],
+        "map": [
+          3,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1
+        ],
+        "map": [
+          3,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2
+        ],
+        "map": [
+          3,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2
+        ],
+        "map": [
+          3,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              1
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": [
+              2
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": false,
+            "visited": []
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          3
+        ],
+        "map": [
+          3,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          3
+        ],
+        "map": [
+          3,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": false,
+            "start": 2,
+            "terminus": 2,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          2,
+          3
+        ],
+        "map": [
+          3,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": false,
+            "start": 1,
+            "terminus": 1,
+            "type_cycle": false,
+            "visited": []
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "birth_donors": [
+          1,
+          2,
+          3
+        ],
+        "map": [
+          3,
+          3,
+          3
+        ],
+        "paths": [
+          {
+            "first_child_can_be_donor": true,
+            "start": 1,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              1,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 2,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              2,
+              3
+            ]
+          },
+          {
+            "first_child_can_be_donor": true,
+            "start": 3,
+            "terminus": 3,
+            "type_cycle": true,
+            "visited": [
+              3
+            ]
+          }
+        ]
+      }
+    ],
+    "valid_start_paths": 324
+  }
+}
