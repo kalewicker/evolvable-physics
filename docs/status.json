@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-19",
-  "stage": "P01e",
+  "stage": "P01f_registration",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "design and register generator-v2 reachability witnesses for attached funded birth and created-member deletion/recycling",
-    "freeze positive/negative witness expectations and source-level invariants before native fixture execution or new sampling",
-    "preserve consumed P01/P01e registrations, original pipeline and all unfavorable/inconclusive outcomes; E01 remains unauthorized"
+    "implement the registered fixed 48-case reachability witness runner and independent validation without changing frozen source files",
+    "freeze implementation/dependencies/binary/inputs and write an execution-admission record before any registered witness transition, including in tests",
+    "run only the fixed witness batch under registered ceilings after execution admission; preserve every failed or missing case; no law sampling or E01"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -53,7 +53,7 @@
   "p01_protocol_closed": true,
   "p01_closure": "docs/p01_closure.json",
   "diagnosis_receipt": "docs/evidence/p01d-001/findings.json",
-  "next_engineering_protocol": null,
+  "next_engineering_protocol": "docs/p01f_protocol.json",
   "new_world_runs_admitted": false,
   "e01_authorized": false,
   "p01e_execution_complete": true,
@@ -64,5 +64,13 @@
   "p01e_admission": "docs/p01e_admission.json",
   "p01e_findings": "docs/p01e_findings.md",
   "p01e_receipt": "docs/evidence/p01e-001/receipt_audit_v2.json",
-  "next_work_requires_new_protocol": true
+  "next_work_requires_new_protocol": false,
+  "p01f_registration_complete": true,
+  "p01f_execution_started": false,
+  "p01f_static_review": "docs/evidence/p01f-registration-001/static_review.json",
+  "p01f_registration": "docs/p01f_protocol.json",
+  "p01f_registration_freeze": "docs/p01f_registration_freeze.json",
+  "generator_v2_implemented": false,
+  "reachability_witness_runner_implemented": false,
+  "next_work_requires_execution_freeze": true
 }

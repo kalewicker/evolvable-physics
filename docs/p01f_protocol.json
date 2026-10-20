@@ -1,0 +1,72 @@
+{
+  "schema": "p01f-reachability-registration-v1",
+  "registered_date": "2026-10-19",
+  "stage": "design and registration only; no native execution in this milestone",
+  "generator_design": "docs/generator_v2_design.md",
+  "witness_registry": "docs/p01f_witnesses.json",
+  "family_order": [
+    "attached_funded_birth",
+    "birth_recycle_to_exhaustion",
+    "descendant_growth",
+    "birth_missing_matter",
+    "birth_missing_activation",
+    "recycle_original_contact",
+    "recycle_nonleaf",
+    "recycle_missing_activation",
+    "contact_is_not_structural_route",
+    "structural_funding",
+    "edge_detach_strands_child",
+    "birth_world_cap"
+  ],
+  "scheduler_seeds": [0, 1, 2, 3],
+  "expansion": "family-major, seed-minor; only initial.native.seed is replaced",
+  "denominator": 48,
+  "expected_per_matcher": {
+    "attempted_epochs": 92,
+    "committed_epochs": 88,
+    "committed_events": 60,
+    "node_births": 28,
+    "node_deaths": 16,
+    "complete_cases": 44,
+    "whole_epoch_world_cap_cases": 4
+  },
+  "matching_engines": ["Reference", "Indexed"],
+  "future_execution": {
+    "implementation": "new src/bin/reachability-witness.rs and separate validation/audit scripts; do not edit frozen kernel/library/generator files",
+    "requirements_before_execution": [
+      "preserve this registration and static-review receipt",
+      "implement a fixed-panel constructor/runner reading these authored inputs; do not generate law draws",
+      "freeze implementation, validation scripts, binary, this design/registry, all dependencies and input hashes before any native witness call",
+      "write a separate execution-admission record binding this immutable registration and execution freeze; admit only this fixed witness batch",
+      "retain build/test logs and check watchdog access before the registered attempt",
+      "build and structural-only tests may precede execution freeze; executing registered witness transitions in a test counts as execution and cannot be an unrecorded rehearsal",
+      "new output directory, full manifest, every fixed slot and all failures; no retries or replacements"
+    ],
+    "native_panel_process": {"wall_seconds": 30, "sampled_rss_bytes": 268435456, "output_bytes": 33554432},
+    "python_audit_process": {"wall_seconds": 90, "sampled_rss_bytes": 536870912, "output_bytes": 2097152},
+    "campaign": {"wall_seconds": 240, "total_process_cpu_seconds": 300, "artifact_bytes": 536870912},
+    "poll_seconds": 0.01,
+    "memory_policy": "sampled RSS with reaped-process peak retained; not a hard instantaneous bound",
+    "execution_admitted_now": false
+  },
+  "gate": [
+    "all 48 fixed cases measured, with no missing/replaced case",
+    "both Rust matchers agree exactly on candidates, priorities, events, dependencies, every state and error rollback",
+    "the frozen reference Python interpreter independently verifies every committed native/environment epoch and full detector record",
+    "the separate single-pass adapter additionally agrees on activity and full detection on all committed traces; no timing comparison or replacement of the reference",
+    "all literal expected counters/resources/topology and declared commit sequences match",
+    "the attached-birth witness includes node 8 in both eligible estimator samples at sample 1 without threshold changes",
+    "zero-event inapplicability advances epoch only; world-cap rejection leaves the full environment unchanged",
+    "every registered negative witness is retained as an expected result, not repaired or resampled",
+    "all per-process and aggregate resource ceilings satisfied; sources/inputs/seal independently audited"
+  ],
+  "claims_excluded": [
+    "a successful generated law draw or a witness law preimage in the finite hash-keyed sampler",
+    "calibrated prevalence, search improvement or whole-campaign cost feasibility",
+    "active persistence, maintenance, reproduction, heredity, adaptation or open-ended evolution"
+  ],
+  "law_sampling_admitted": false,
+  "new_world_runs_admitted_now": false,
+  "e01_authorized": false,
+  "scientific_status": "untested"
+}

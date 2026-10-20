@@ -54,7 +54,7 @@ The branch bundle preserves the source, request, receipt, and resulting checkpoi
 
 The [first P01 development pilot](docs/p01_findings.md) stopped at its CPU launch reserve: 469 complete horizons, one censored prefix and 42 unstarted slots. Its 469 complete-run AP labels were 436 `not_supported`, 33 `inconclusive` and zero `supported`. All 512 registered cells remain in the report, and the sealed audit passed without a resource overshoot.
 
-That registration is consumed and [closed](docs/p01_closure.json). [P01d diagnosis](docs/p01d_findings.md) checked every retained epoch: generator v1 leaves newborns isolated/unfunded and makes node deletion unreachable; all 33 disagreements remain inconclusive. Independent Python verification used 80.073% of recorded leaf CPU. The separate verifier passed [P01e's fixed offline panel](docs/p01e_findings.md) with 50.174% lower paired child CPU; the frozen receipt auditor's float-sum failure and post-hoc arithmetic correction are preserved. Next design and register generator-v2 reachability witnesses before executing them. No new world runs are admitted. Scientific status remains untested and E01 remains unauthorized.
+That registration is consumed and [closed](docs/p01_closure.json). [P01d diagnosis](docs/p01d_findings.md) checked every retained epoch: generator v1 leaves newborns isolated/unfunded and makes node deletion unreachable; all 33 disagreements remain inconclusive. Independent Python verification used 80.073% of recorded leaf CPU. The separate verifier passed [P01e's fixed offline panel](docs/p01e_findings.md) with 50.174% lower paired child CPU; the frozen receipt auditor's float-sum failure and post-hoc arithmetic correction are preserved. [P01f](docs/p01f_findings.md) now registers 48 fixed reachability witnesses and their source-level argument; next implement the runner and freeze it before execution. No new world runs are admitted. Scientific status remains untested and E01 remains unauthorized.
 
 ## Environment fixtures and continuation
 
@@ -99,7 +99,7 @@ Published at [kalewicker/evolvable-physics](https://github.com/kalewicker/evolva
 
 The public snapshot includes source, locked dependencies, protocols, reports, the revised experiment plan, and [compact validation receipts](docs/evidence/README.md). Raw `artifacts/`, `target/`, caches, and machine-local settings stay outside Git. Run the validation command above to generate full evidence from source.
 
-Implementation resumed at the user’s request after publication. P01 is sealed and closed; P01d diagnosis and P01e offline verifier preflight are complete. Next is generator-v2 reachability witness design/registration. No new world runs are admitted.
+Implementation resumed at the user’s request after publication. P01 is sealed and closed; P01d diagnosis and P01e offline verifier preflight are complete. P01f design/registration is complete; next implement and freeze its fixed witness runner before execution admission. No native witness or law sampling is currently admitted.
 
 At the end of future project turns, commit and push any changes to this repository after the appropriate checks. See [AGENTS.md](AGENTS.md).
 
@@ -173,3 +173,13 @@ python3 scripts/audit_p01e_v2.py artifacts/p01e-new-run artifacts/p01e-new-audit
 These are the historical entry points, not authorization to repeat the single registered timing attempt. Execution requires the full byte-matching P00g/P01 bundles, a new output directory and permission for `ps` memory sampling. Receipts alone do not contain those inputs. The audit reads a completed bundle and requires a new destination outside it. RSS is sampled; no hard instantaneous memory bound is established.
 
 [P01e findings](docs/p01e_findings.md) preserve the single sealed attempt, 112 native and 96 environment fixture comparisons, eight exact P01 pairs, and all 11 corruption rejections. The candidate used 57.720598 versus 115.845487 seconds of paired child CPU on this host/panel. The frozen v1 receipt auditor failed on float-sum equality; the separate post-hoc v2 auditor verifies Decimal gate arithmetic without changing the original candidate, harness, freeze or measurements. The [admission record](docs/p01e_admission.json) records that qualification. The original campaign pipeline and scientific status remain unchanged.
+
+## P01f reachability registration
+
+[Generator-v2 design](docs/generator_v2_design.md) specifies attached funded birth, Structural resource transfer and recoverable leaf deletion using existing operations. The [protocol](docs/p01f_protocol.json) and [literal witness registry](docs/p01f_witnesses.json) fix 12 authored families across four seeds, with explicit positive/negative predictions and future execution ceilings. Neither the sampler nor the witness runner is implemented.
+
+```sh
+python3 scripts/check_p01f_registration.py artifacts/p01f-registration-new
+```
+
+This static review requires a new output directory and byte-matching [registration freeze](docs/p01f_registration_freeze.json). It checks schemas, case census and declared inventory arithmetic; it does not match or execute a rule or establish a predicted trajectory. [Registration findings](docs/p01f_findings.md) preserve that distinction. Next implement the fixed-panel runner and validation, then bind source/binary/input hashes in an execution freeze and admission record before native calls. No law search or E01 is admitted.

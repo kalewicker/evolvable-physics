@@ -1,0 +1,44 @@
+{
+  "schema": "p01f-registration-publication-context-v1",
+  "registration_freeze_sha256": "f824891c7c2e09554153359d3636f097d508860f5486962990bee856f917dfb5",
+  "original_static_review_files": {
+    "static_review.json": "7a36981683a564eaf5814617417db8eeef3fd658665a2b306ce0d6482846e8d5",
+    "checksums.json": "ea3b3ffce12bd24f9c7d4b69aa090d1ac695ec3794be37d64e540718bf5bde05"
+  },
+  "external_files": {
+    "docs/evidence/p01f-registration-001/tests.txt": "2d9d3a52eae60884ac50611a1a25de57c24995642fe4968f1d6ca7edcb856d32",
+    "docs/p01f_findings.md": "e2db3d2a9cf3ef2b09fff8e78fd328f3b16dfcc82e0a9122566b502aa538b4f8"
+  },
+  "unchanged_semantics_and_build_sources": {
+    "Cargo.lock": "74088da525565c8cfd07bfc0af06b188d01fe3e12402482fc6f156fcb19c0d85",
+    "Cargo.toml": "959321e4dfbfd57a3ff3cb926c2f343e16ef9dec1d2819267e3ac595aa0b59b7",
+    "src/analysis.rs": "ef652dc17fe6524db8c54d0d3264d35db355ef09c20c9a962d325ba3b57897ae",
+    "src/bin/pilot-report.rs": "2d058eeac0bc6f4d243a0050b51d5b3c9dc4312d3223331bf374b00e5b57b2b0",
+    "src/bin/pilot-worker.rs": "bad39c65628d1d10b86dea3463bc1458461ecb4ae5299caf61f1301987c74fb8",
+    "src/core.rs": "223bd0eb4ba3a3eeb645ddb1d95d65153ba9ad64b59ea3e959814bbad9368b20",
+    "src/detector_fixtures.rs": "fa712d41fe84074d91a409942b519c7c027da46027b8959dd4e246437b153550",
+    "src/environment.rs": "6f227882a430af327a7f7483289e2c9c09823035338877ec5c19cbb22b32c82c",
+    "src/environment_analysis.rs": "e1700e7cd4f72cf2e84a905e2ed30f986c4270ba12ceef8600fe945d45a5b26a",
+    "src/environment_branch_fixtures.rs": "5842841f933aa437aa73b9efdeb753374f24d33a6d4b4b26e022316a2bb9614c",
+    "src/environment_branches.rs": "fd49262fe515a2bd02b89895867e4b326b863bb6dc4e1379c1f950792f1688e9",
+    "src/environment_fixtures.rs": "9dffe5490b573f400bf6fe5036e3bed93ae0a081e4328b73ed54fa1d4bafcca9",
+    "src/experiments.rs": "28aefbdd6540cca7f520cb410906d21a6c8dc004b6a8b1e9c8a886e4a1302cd5",
+    "src/generalization.rs": "53d172e4e926c4f6a035882fd5c7c3a5ec445c7dccd55ee0e47eb1b064c4cfdd",
+    "src/integration_fixtures.rs": "ec37dd95bc45edb1277ef543514bd3918875cd2db61dadceb1d9de3f649d2862",
+    "src/intervention_fixtures.rs": "d3bacae4cd59d40f86e8032bc55f66b1817374b96b4a294906f645d936ca5a24",
+    "src/interventions.rs": "e82ae1984920575e88fa452e16b80ece63988d584024283001792b34f7920349",
+    "src/lib.rs": "bcbf719da807613eeb3008dc320eab385b4837a0357a2a46aa2853f5f64d04c2",
+    "src/main.rs": "1cfa9c5bee40557814fe86a3a87d50ae27162966f5838235127991ced5df630c",
+    "src/pilot.rs": "7b680d6883005b6bd934899d71e30da0032dc7ca719a419d97a2cc63581d09d5",
+    "src/runtime.rs": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272"
+  },
+  "semantic_source_baseline_commit": "c8827349a6351ffd298493fcab1cd59fe73645f6",
+  "note": "Static registration only. Source hashes additionally bind the unchanged kernel/build inputs; no binary or implementation execution freeze exists yet. External logs/report/context are outside the original static-review inventory.",
+  "native_world_runs": 0,
+  "candidate_enumerations": 0,
+  "transition_applications": 0,
+  "trajectory_predictions_empirically_verified": false,
+  "execution_admitted": false,
+  "scientific_status": "untested",
+  "e01_authorized": false
+}

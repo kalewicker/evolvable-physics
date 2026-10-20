@@ -1,0 +1,4296 @@
+{
+  "schema": "p01f-reachability-witnesses-v1",
+  "date": "2026-10-19",
+  "scope": "declarative expectations only; no transition execution has established these predictions",
+  "slot_expansion": "family-major, then seeds from protocol; replace only initial.native.seed",
+  "synthetic_child_policy": "Pre-populated ID 8 is an authored state, not evidence of a prior birth; descendant/cycle witnesses must record actual creation/deletion.",
+  "families": [
+    {
+      "id": "attached_funded_birth",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "CreateNode",
+                  "account": 0,
+                  "kind": 2,
+                  "state": 0
+                },
+                {
+                  "op": "CreateEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              }
+            },
+            "next_node": 8,
+            "next_edge": 8,
+            "epoch": 0,
+            "dissipated": 0,
+            "matter_total": 80,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 1,
+      "source_prediction": "Unique parent; four atomic operations create, attach, fund and burn.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 1,
+        "committed_events": 1,
+        "births": 1,
+        "deaths": 0,
+        "live_nodes": 9,
+        "live_edges": 9,
+        "next_node": 9,
+        "next_edge": 9,
+        "dissipated": 1,
+        "root": {
+          "matter": 5,
+          "activation": 6
+        },
+        "live_newborns": [
+          8
+        ],
+        "newborn_resources": {
+          "8": {
+            "matter": 1,
+            "activation": 1
+          }
+        },
+        "structural_endpoints": [
+          [
+            0,
+            8
+          ]
+        ],
+        "eligible_proposals": {
+          "sample": 1,
+          "members": [
+            0,
+            8
+          ],
+          "estimators": [
+            "connected",
+            "interaction"
+          ]
+        }
+      },
+      "declared_commits": [
+        {
+          "rule": 0,
+          "binding": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "birth_recycle_to_exhaustion",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "CreateNode",
+                  "account": 0,
+                  "kind": 2,
+                  "state": 0
+                },
+                {
+                  "op": "CreateEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                },
+                {
+                  "kind": 2,
+                  "state": null
+                }
+              ],
+              "edges": [
+                {
+                  "class": "Structural",
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "DeleteEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "DeleteNode",
+                  "node": 1,
+                  "recipient": 0
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              }
+            },
+            "next_node": 8,
+            "next_edge": 8,
+            "epoch": 0,
+            "dissipated": 0,
+            "matter_total": 80,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 8,
+      "source_prediction": "Every enabled event shares the root. Birth costs two root activation; recycling returns child activation then burns one. Exactly four of each commit, in seed-dependent order, before all eight root activation is dissipated.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 8,
+        "committed_events": 8,
+        "births": 4,
+        "deaths": 4,
+        "live_nodes": 8,
+        "live_edges": 8,
+        "next_node": 12,
+        "next_edge": 12,
+        "dissipated": 8,
+        "root": {
+          "matter": 8,
+          "activation": 0
+        },
+        "live_newborns": [],
+        "structural_endpoints": [],
+        "commits_per_epoch": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "max_live_newborns_at_most": 2
+      }
+    },
+    {
+      "id": "descendant_growth",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 62,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "CreateNode",
+                  "account": 0,
+                  "kind": 2,
+                  "state": 0
+                },
+                {
+                  "op": "CreateEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 2,
+                  "state": null
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "CreateNode",
+                  "account": 0,
+                  "kind": 3,
+                  "state": 0
+                },
+                {
+                  "op": "CreateEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                },
+                {
+                  "kind": 2,
+                  "state": null
+                }
+              ],
+              "edges": [
+                {
+                  "class": "Structural",
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 5,
+                "activation": 6
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              }
+            },
+            "next_node": 8,
+            "next_edge": 8,
+            "epoch": 0,
+            "dissipated": 0,
+            "matter_total": 77,
+            "activation_total": 62,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 4,
+      "source_prediction": "Resource boundaries force birth, two Structural transfers, then birth funded by the created child. Starting resources are authored, not a generator-v2 initial draw.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 4,
+        "committed_events": 4,
+        "births": 2,
+        "deaths": 0,
+        "live_nodes": 10,
+        "live_edges": 10,
+        "next_node": 10,
+        "next_edge": 10,
+        "dissipated": 2,
+        "root": {
+          "matter": 0,
+          "activation": 2
+        },
+        "live_newborns": [
+          8,
+          9
+        ],
+        "newborn_resources": {
+          "8": {
+            "matter": 0,
+            "activation": 1
+          },
+          "9": {
+            "matter": 1,
+            "activation": 1
+          }
+        },
+        "structural_endpoints": [
+          [
+            0,
+            8
+          ],
+          [
+            8,
+            9
+          ]
+        ]
+      },
+      "declared_commits": [
+        {
+          "rule": 0,
+          "binding": [
+            0
+          ]
+        },
+        {
+          "rule": 2,
+          "binding": [
+            0,
+            8
+          ]
+        },
+        {
+          "rule": 2,
+          "binding": [
+            0,
+            8
+          ]
+        },
+        {
+          "rule": 1,
+          "binding": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "birth_missing_matter",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "CreateNode",
+                  "account": 0,
+                  "kind": 2,
+                  "state": 0
+                },
+                {
+                  "op": "CreateEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 2,
+                "activation": 8
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              }
+            },
+            "next_node": 8,
+            "next_edge": 8,
+            "epoch": 0,
+            "dissipated": 0,
+            "matter_total": 74,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 1,
+      "source_prediction": "Transfer cannot be funded after staged node/edge creation; all staged edits are discarded.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 1,
+        "committed_events": 0,
+        "births": 0,
+        "deaths": 0,
+        "live_nodes": 8,
+        "live_edges": 8,
+        "next_node": 8,
+        "next_edge": 8,
+        "dissipated": 0,
+        "root": {
+          "matter": 2,
+          "activation": 8
+        },
+        "live_newborns": []
+      }
+    },
+    {
+      "id": "birth_missing_activation",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 57,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "CreateNode",
+                  "account": 0,
+                  "kind": 2,
+                  "state": 0
+                },
+                {
+                  "op": "CreateEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 8,
+                "activation": 1
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              }
+            },
+            "next_node": 8,
+            "next_edge": 8,
+            "epoch": 0,
+            "dissipated": 0,
+            "matter_total": 80,
+            "activation_total": 57,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 1,
+      "source_prediction": "Transfer consumes the last donor activation, so final Burn fails and the entire staged birth is discarded.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 1,
+        "committed_events": 0,
+        "births": 0,
+        "deaths": 0,
+        "live_nodes": 8,
+        "live_edges": 8,
+        "next_node": 8,
+        "next_edge": 8,
+        "dissipated": 0,
+        "root": {
+          "matter": 8,
+          "activation": 1
+        },
+        "live_newborns": []
+      }
+    },
+    {
+      "id": "recycle_original_contact",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                },
+                {
+                  "kind": 2,
+                  "state": null
+                }
+              ],
+              "edges": [
+                {
+                  "class": "Structural",
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "DeleteEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "DeleteNode",
+                  "node": 1,
+                  "recipient": 0
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "1": {
+                "kind": 2,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              },
+              "8": {
+                "class": "Structural",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              }
+            },
+            "next_node": 8,
+            "next_edge": 9,
+            "epoch": 0,
+            "dissipated": 0,
+            "matter_total": 81,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 1,
+      "source_prediction": "Deleting the Structural edge does not remove original target Contact incidence; node deletion fails and refunds are discarded.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 1,
+        "committed_events": 0,
+        "births": 0,
+        "deaths": 0,
+        "live_nodes": 8,
+        "live_edges": 9,
+        "next_node": 8,
+        "next_edge": 9,
+        "dissipated": 0,
+        "root": {
+          "matter": 8,
+          "activation": 8
+        },
+        "live_newborns": []
+      }
+    },
+    {
+      "id": "recycle_nonleaf",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                },
+                {
+                  "kind": 2,
+                  "state": null
+                }
+              ],
+              "edges": [
+                {
+                  "class": "Structural",
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "DeleteEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "DeleteNode",
+                  "node": 1,
+                  "recipient": 0
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 4,
+                "activation": 6
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "8": {
+                "kind": 2,
+                "state": 0,
+                "matter": 1,
+                "activation": 1
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              },
+              "8": {
+                "class": "Structural",
+                "kind": 0,
+                "ends": [
+                  0,
+                  8
+                ]
+              },
+              "9": {
+                "class": "Structural",
+                "kind": 0,
+                "ends": [
+                  8,
+                  1
+                ]
+              }
+            },
+            "next_node": 9,
+            "next_edge": 10,
+            "epoch": 0,
+            "dissipated": 1,
+            "matter_total": 80,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 1,
+      "source_prediction": "A second incident Structural edge remains on the synthetic child. Removal of only the matched edge cannot make deletion valid.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 1,
+        "committed_events": 0,
+        "births": 0,
+        "deaths": 0,
+        "live_nodes": 9,
+        "live_edges": 10,
+        "next_node": 9,
+        "next_edge": 10,
+        "dissipated": 1,
+        "root": {
+          "matter": 4,
+          "activation": 6
+        },
+        "live_newborns": [
+          8
+        ]
+      }
+    },
+    {
+      "id": "recycle_missing_activation",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                },
+                {
+                  "kind": 2,
+                  "state": null
+                }
+              ],
+              "edges": [
+                {
+                  "class": "Structural",
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "DeleteEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "DeleteNode",
+                  "node": 1,
+                  "recipient": 0
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 5,
+                "activation": 0
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "8": {
+                "kind": 2,
+                "state": 0,
+                "matter": 1,
+                "activation": 0
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              },
+              "8": {
+                "class": "Structural",
+                "kind": 0,
+                "ends": [
+                  0,
+                  8
+                ]
+              }
+            },
+            "next_node": 9,
+            "next_edge": 9,
+            "epoch": 0,
+            "dissipated": 8,
+            "matter_total": 80,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 1,
+      "source_prediction": "Neither account nor child has activation for final Burn, even after refunds. Both node and edge removal must roll back.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 1,
+        "committed_events": 0,
+        "births": 0,
+        "deaths": 0,
+        "live_nodes": 9,
+        "live_edges": 9,
+        "next_node": 9,
+        "next_edge": 9,
+        "dissipated": 8,
+        "root": {
+          "matter": 5,
+          "activation": 0
+        },
+        "live_newborns": [
+          8
+        ]
+      }
+    },
+    {
+      "id": "contact_is_not_structural_route",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                },
+                {
+                  "kind": 2,
+                  "state": null
+                }
+              ],
+              "edges": [
+                {
+                  "class": "Structural",
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "1": {
+                "kind": 2,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              }
+            },
+            "next_node": 8,
+            "next_edge": 8,
+            "epoch": 0,
+            "dissipated": 0,
+            "matter_total": 80,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 1,
+      "source_prediction": "The required ordered Structural edge is absent. Contact alone cannot enable a Structural-route Transfer.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 1,
+        "committed_events": 0,
+        "births": 0,
+        "deaths": 0,
+        "live_nodes": 8,
+        "live_edges": 8,
+        "next_node": 8,
+        "next_edge": 8,
+        "dissipated": 0,
+        "root": {
+          "matter": 8,
+          "activation": 8
+        },
+        "live_newborns": []
+      }
+    },
+    {
+      "id": "structural_funding",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                },
+                {
+                  "kind": 2,
+                  "state": null
+                }
+              ],
+              "edges": [
+                {
+                  "class": "Structural",
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 5,
+                "activation": 6
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "8": {
+                "kind": 2,
+                "state": 0,
+                "matter": 1,
+                "activation": 1
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              },
+              "8": {
+                "class": "Structural",
+                "kind": 0,
+                "ends": [
+                  0,
+                  8
+                ]
+              }
+            },
+            "next_node": 9,
+            "next_edge": 9,
+            "epoch": 0,
+            "dissipated": 1,
+            "matter_total": 80,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 1,
+      "source_prediction": "A synthetic attached child receives matter/activation through the new Structural route. Resource-only changes remain excluded from detector activity.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 1,
+        "committed_events": 1,
+        "births": 0,
+        "deaths": 0,
+        "live_nodes": 9,
+        "live_edges": 9,
+        "next_node": 9,
+        "next_edge": 9,
+        "dissipated": 1,
+        "root": {
+          "matter": 4,
+          "activation": 5
+        },
+        "live_newborns": [
+          8
+        ],
+        "newborn_resources": {
+          "8": {
+            "matter": 2,
+            "activation": 2
+          }
+        },
+        "structural_endpoints": [
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      "declared_commits": [
+        {
+          "rule": 0,
+          "binding": [
+            0,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edge_detach_strands_child",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                },
+                {
+                  "kind": 2,
+                  "state": null
+                }
+              ],
+              "edges": [
+                {
+                  "class": "Structural",
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "DeleteEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 128,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 5,
+                "activation": 6
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "8": {
+                "kind": 2,
+                "state": 0,
+                "matter": 1,
+                "activation": 1
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              },
+              "8": {
+                "class": "Structural",
+                "kind": 0,
+                "ends": [
+                  0,
+                  8
+                ]
+              }
+            },
+            "next_node": 9,
+            "next_edge": 9,
+            "epoch": 0,
+            "dissipated": 1,
+            "matter_total": 80,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 2,
+      "source_prediction": "Edge-only deletion refunds one matter but leaves an isolated funded child. This alphabet has no unary reclamation route for an orphan.",
+      "expected": {
+        "outcome": "complete",
+        "committed_epochs": 2,
+        "committed_events": 1,
+        "births": 0,
+        "deaths": 0,
+        "live_nodes": 9,
+        "live_edges": 8,
+        "next_node": 9,
+        "next_edge": 9,
+        "dissipated": 1,
+        "root": {
+          "matter": 6,
+          "activation": 6
+        },
+        "live_newborns": [
+          8
+        ],
+        "structural_endpoints": [],
+        "newborn_resources": {
+          "8": {
+            "matter": 1,
+            "activation": 1
+          }
+        },
+        "commits_per_epoch": [
+          1,
+          0
+        ]
+      },
+      "declared_commits": [
+        {
+          "rule": 0,
+          "binding": [
+            0,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "birth_world_cap",
+      "input_origin": "authored operator witness; not a generated law draw",
+      "initial": {
+        "profile": "p00c-local-driven-v1",
+        "channels": [],
+        "initial_activation": 64,
+        "injected": 0,
+        "extracted": 0,
+        "native": {
+          "profile": "p00a-local-closed-v1",
+          "seed": 0,
+          "rules": [
+            {
+              "id": 0,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": null
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "CreateNode",
+                  "account": 0,
+                  "kind": 2,
+                  "state": 0
+                },
+                {
+                  "op": "CreateEdge",
+                  "account": 0,
+                  "kind": 0,
+                  "ends": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "op": "Transfer",
+                  "from": 0,
+                  "to": 1,
+                  "matter": 1,
+                  "activation": 1
+                },
+                {
+                  "op": "Burn",
+                  "node": 0,
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "nodes": [
+                {
+                  "kind": 1,
+                  "state": 2
+                }
+              ],
+              "edges": [],
+              "absent": [],
+              "ops": [
+                {
+                  "op": "SetState",
+                  "node": 0,
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "limits": {
+            "max_candidates": 4096,
+            "max_bindings": 65536,
+            "max_nodes": 8,
+            "max_edges": 256
+          },
+          "world": {
+            "nodes": {
+              "0": {
+                "kind": 1,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "1": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "2": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "3": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "4": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "5": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "6": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              },
+              "7": {
+                "kind": 3,
+                "state": 0,
+                "matter": 8,
+                "activation": 8
+              }
+            },
+            "edges": {
+              "0": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  0,
+                  1
+                ]
+              },
+              "1": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  1,
+                  2
+                ]
+              },
+              "2": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  2,
+                  3
+                ]
+              },
+              "3": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  3,
+                  4
+                ]
+              },
+              "4": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  4,
+                  5
+                ]
+              },
+              "5": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  5,
+                  6
+                ]
+              },
+              "6": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  6,
+                  7
+                ]
+              },
+              "7": {
+                "class": "Contact",
+                "kind": 0,
+                "ends": [
+                  7,
+                  0
+                ]
+              }
+            },
+            "next_node": 8,
+            "next_edge": 8,
+            "epoch": 0,
+            "dissipated": 0,
+            "matter_total": 80,
+            "activation_total": 64,
+            "next_event": 0,
+            "writers": {}
+          }
+        }
+      },
+      "attempted_epochs": 1,
+      "source_prediction": "A valid birth exceeds the world-node ceiling. The environment epoch is rejected with no state, counter or ledger publication.",
+      "expected": {
+        "outcome": "whole_epoch_error",
+        "committed_epochs": 0,
+        "committed_events": 0,
+        "births": 0,
+        "deaths": 0,
+        "live_nodes": 8,
+        "live_edges": 8,
+        "next_node": 8,
+        "next_edge": 8,
+        "dissipated": 0,
+        "root": {
+          "matter": 8,
+          "activation": 8
+        },
+        "live_newborns": [],
+        "error": "world_size_exceeded",
+        "full_environment_unchanged": true
+      }
+    }
+  ]
+}

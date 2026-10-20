@@ -921,6 +921,22 @@
     {
       "file": "docs/evidence/p01e-001/tests.txt",
       "sha256": "4740b60d4b0dfbf1fa23f4cae30c60d33fee9f65304f797ae9c3789b51d5e3d5"
+    },
+    {
+      "file": "docs/evidence/p01f-registration-001/checksums.json",
+      "sha256": "ea3b3ffce12bd24f9c7d4b69aa090d1ac695ec3794be37d64e540718bf5bde05"
+    },
+    {
+      "file": "docs/evidence/p01f-registration-001/publication_context.json",
+      "sha256": "cdd90e5cf7796af8737040595fcf95bcd6ad247fa6dea3c049be7dbee5caadf3"
+    },
+    {
+      "file": "docs/evidence/p01f-registration-001/static_review.json",
+      "sha256": "7a36981683a564eaf5814617417db8eeef3fd658665a2b306ce0d6482846e8d5"
+    },
+    {
+      "file": "docs/evidence/p01f-registration-001/tests.txt",
+      "sha256": "2d9d3a52eae60884ac50611a1a25de57c24995642fe4968f1d6ca7edcb856d32"
     }
   ]
 }
