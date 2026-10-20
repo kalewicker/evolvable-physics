@@ -1,0 +1,1928 @@
+{
+  "continuation_gate_pass": false,
+  "decision": "engineering_pass_mechanism_fail",
+  "distinct_observed_tables": 16,
+  "distinct_tables_with_same_trajectory_visible_birth_recycle_loop": 0,
+  "distinct_tables_with_visible_birth": 10,
+  "e01_authorized": false,
+  "engineering_gate_pass": true,
+  "full_horizon_ap_labels": {
+    "inconclusive": 2,
+    "not_supported": 62
+  },
+  "law_denominator": 16,
+  "laws": [
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 4,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 4,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 3,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 3,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 5,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 5,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "9a185f5e80a903d62a15c0d856f2dd6974f96dc0e75dd21a8f2580c1c9d2a852",
+      "observed_trajectories_with_visible_birth": 3,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4000
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "430fed2acca920ec38d0121f114b19c187bd24704df0e74810bb99f550eac27b",
+      "observed_trajectories_with_visible_birth": 0,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4001
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 6,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 6,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 6,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 6,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "61559f7ffadbcbcaf1c37f664ce7bf40c01b3b941bd4d9821b00ad24c9da7da7",
+      "observed_trajectories_with_visible_birth": 2,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4002
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "ba530590469f681129a74281418afedaa5c617b9254757cc3aaadfa8406ed6d8",
+      "observed_trajectories_with_visible_birth": 0,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4003
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 4,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 4,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 12,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 12,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 12,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 12,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "fb99399c76b18b0dab1497fd5ea11bceba95834e3c3442610c1ff87207dcffc1",
+      "observed_trajectories_with_visible_birth": 4,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4004
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "7b096b4c1252eeda0d0d0ab35c5c3c631b0a0c181cf171c82c358eaac3ad38d5",
+      "observed_trajectories_with_visible_birth": 0,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4005
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "1c211f8d39cc76df1514b95038eb7a9c29eae0c6b6f633779e43460338912f86",
+      "observed_trajectories_with_visible_birth": 0,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4006
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "inconclusive",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "inconclusive",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "26aa786515a8790b72fc2ce90f5f421f1931b705b15a103e76f450ecbc4e1561",
+      "observed_trajectories_with_visible_birth": 1,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4007
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 6,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 6,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 3,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 3,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 3,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 3,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "0e46ca046912d569a4921fcdf1537700901c4179cf5ffdada61f735e4768b402",
+      "observed_trajectories_with_visible_birth": 2,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4008
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 8,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 8,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 8,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 10,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 10,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 10,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 10,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "63a475451935148d83bb5fed8eb30810df63ccfba64604f326909f94d3a00182",
+      "observed_trajectories_with_visible_birth": 3,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4009
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "4899e8226554b97781bb547d82af25a24a2c3434dc52594a5983fae2d1fe9587",
+      "observed_trajectories_with_visible_birth": 0,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4010
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 4,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 4,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "5707095cbe1d6d48c6f713ed90c256588dd462168e9ee9a20658015744b432a9",
+      "observed_trajectories_with_visible_birth": 3,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4011
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 1,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 1,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 1,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 1,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 1,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 1,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 1,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 1,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 1,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 1,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 1,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 1,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "d2264f046182f6fafef634996275a2a67e0104e5db23653c3d4302d68894ddc3",
+      "observed_trajectories_with_visible_birth": 3,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4012
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "ca3d60db898054fbb3c250853252b4c27a13c42374895da967dbeef6175cc5f4",
+      "observed_trajectories_with_visible_birth": 0,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4013
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 4,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 4,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 4,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 2,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 5,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 5,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 6,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 6,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 6,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "2811fffc97779820e3814fb342dd56745416ae79a8265e3f381814234ba993fd",
+      "observed_trajectories_with_visible_birth": 4,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4014
+    },
+    {
+      "all_four_horizons_complete": true,
+      "initial_states": [
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 0,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 1,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 1,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 2,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 1,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 2,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        },
+        {
+          "full_horizon_ap": "not_supported",
+          "full_horizon_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "initial_state": 3,
+          "missing_reason": null,
+          "prefix_counts": {
+            "additional_structural_funding": 0,
+            "births": 0,
+            "descendant_construction": 0,
+            "orphaning": 0,
+            "recycling": 0,
+            "visibility": 0,
+            "visible_birth_recycle_ids": 0
+          },
+          "status": "complete"
+        }
+      ],
+      "law_digest": "70a0323c29f23bb5dc684dc5019f2c8d2da79b682d20d050f8786f1faa907396",
+      "observed_trajectories_with_visible_birth": 1,
+      "observed_trajectories_with_visible_recycling": 0,
+      "proposal": 4015
+    }
+  ],
+  "mechanism_gate_pass": false,
+  "per_run_stage_child_cpu_seconds": {
+    "count": 64,
+    "maximum": 1.33405,
+    "median": 0.46730700000000003,
+    "p95_nearest_rank": 1.1302949999999998,
+    "sum": 36.742542
+  },
+  "per_run_stage_wall_seconds": {
+    "count": 64,
+    "maximum": 1.3846534164622426,
+    "median": 0.5303735411725938,
+    "p95_nearest_rank": 1.2072165831923485,
+    "sum": 40.41937290877104
+  },
+  "resource_usage_before_seal": {
+    "artifact_bytes": 269587245,
+    "total_process_cpu_seconds": 63.069421999999996,
+    "wall_seconds": 59.16638099960983
+  },
+  "schema": "p01g-assessment-v1",
+  "scientific_status": "untested",
+  "stage_costs": {
+    "generation": {
+      "child_cpu_seconds": {
+        "count": 64,
+        "maximum": 0.0027539999999999995,
+        "median": 0.0021935,
+        "p95_nearest_rank": 0.002626,
+        "sum": 0.14215
+      },
+      "guard_and_reaped_children_cpu_seconds": {
+        "count": 64,
+        "maximum": 0.089175,
+        "median": 0.0323105,
+        "p95_nearest_rank": 0.037059,
+        "sum": 2.1482129999999997
+      },
+      "peak_rss_bytes": {
+        "count": 64,
+        "maximum": 1556480,
+        "median": 1474560.0,
+        "p95_nearest_rank": 1523712,
+        "sum": 94486528
+      },
+      "peak_sampled_rss_bytes": {
+        "count": 64,
+        "maximum": 147456,
+        "median": 0.0,
+        "p95_nearest_rank": 0,
+        "sum": 278528
+      },
+      "stderr_bytes": {
+        "count": 64,
+        "maximum": 0,
+        "median": 0.0,
+        "p95_nearest_rank": 0,
+        "sum": 0
+      },
+      "stdout_bytes": {
+        "count": 64,
+        "maximum": 3288,
+        "median": 2879.0,
+        "p95_nearest_rank": 3225,
+        "sum": 185095
+      },
+      "wall_seconds": {
+        "count": 64,
+        "maximum": 0.26124825049191713,
+        "median": 0.0045389169827103615,
+        "p95_nearest_rank": 0.005440999753773212,
+        "sum": 0.5641032522544265
+      }
+    },
+    "native": {
+      "child_cpu_seconds": {
+        "count": 64,
+        "maximum": 0.065999,
+        "median": 0.0364175,
+        "p95_nearest_rank": 0.058658,
+        "sum": 2.592139
+      },
+      "guard_and_reaped_children_cpu_seconds": {
+        "count": 64,
+        "maximum": 0.114324,
+        "median": 0.075926,
+        "p95_nearest_rank": 0.10903,
+        "sum": 5.159907
+      },
+      "peak_rss_bytes": {
+        "count": 64,
+        "maximum": 3260416,
+        "median": 2613248.0,
+        "p95_nearest_rank": 3227648,
+        "sum": 167608320
+      },
+      "peak_sampled_rss_bytes": {
+        "count": 64,
+        "maximum": 3227648,
+        "median": 2523136.0,
+        "p95_nearest_rank": 3145728,
+        "sum": 162267136
+      },
+      "stderr_bytes": {
+        "count": 64,
+        "maximum": 4695,
+        "median": 3274.5,
+        "p95_nearest_rank": 4424,
+        "sum": 221358
+      },
+      "stdout_bytes": {
+        "count": 64,
+        "maximum": 1522756,
+        "median": 999961.0,
+        "p95_nearest_rank": 1447356,
+        "sum": 69906632
+      },
+      "wall_seconds": {
+        "count": 64,
+        "maximum": 0.1857675425708294,
+        "median": 0.049476479180157185,
+        "p95_nearest_rank": 0.07132437452673912,
+        "sum": 3.6488414146006107
+      }
+    },
+    "python_audit": {
+      "child_cpu_seconds": {
+        "count": 64,
+        "maximum": 1.155093,
+        "median": 0.382926,
+        "p95_nearest_rank": 0.9567769999999999,
+        "sum": 30.120711
+      },
+      "guard_and_reaped_children_cpu_seconds": {
+        "count": 64,
+        "maximum": 1.4494410000000002,
+        "median": 0.48965749999999997,
+        "p95_nearest_rank": 1.169949,
+        "sum": 38.118246
+      },
+      "peak_rss_bytes": {
+        "count": 64,
+        "maximum": 43073536,
+        "median": 33390592.0,
+        "p95_nearest_rank": 41566208,
+        "sum": 2206334976
+      },
+      "peak_sampled_rss_bytes": {
+        "count": 64,
+        "maximum": 42237952,
+        "median": 33095680.0,
+        "p95_nearest_rank": 41271296,
+        "sum": 2182512640
+      },
+      "stderr_bytes": {
+        "count": 64,
+        "maximum": 0,
+        "median": 0.0,
+        "p95_nearest_rank": 0,
+        "sum": 0
+      },
+      "stdout_bytes": {
+        "count": 64,
+        "maximum": 4705,
+        "median": 1444.0,
+        "p95_nearest_rank": 3408,
+        "sum": 125923
+      },
+      "wall_seconds": {
+        "count": 64,
+        "maximum": 1.1836861250922084,
+        "median": 0.4055678336881101,
+        "p95_nearest_rank": 0.9747480833902955,
+        "sum": 31.36383595317602
+      }
+    },
+    "rust_report": {
+      "child_cpu_seconds": {
+        "count": 64,
+        "maximum": 0.11087199999999998,
+        "median": 0.051337,
+        "p95_nearest_rank": 0.10178199999999998,
+        "sum": 3.887542
+      },
+      "guard_and_reaped_children_cpu_seconds": {
+        "count": 64,
+        "maximum": 0.166486,
+        "median": 0.0921105,
+        "p95_nearest_rank": 0.15192,
+        "sum": 6.610177999999999
+      },
+      "peak_rss_bytes": {
+        "count": 64,
+        "maximum": 10502144,
+        "median": 6807552.0,
+        "p95_nearest_rank": 9338880,
+        "sum": 456114176
+      },
+      "peak_sampled_rss_bytes": {
+        "count": 64,
+        "maximum": 9420800,
+        "median": 6258688.0,
+        "p95_nearest_rank": 8765440,
+        "sum": 425017344
+      },
+      "stderr_bytes": {
+        "count": 64,
+        "maximum": 0,
+        "median": 0.0,
+        "p95_nearest_rank": 0,
+        "sum": 0
+      },
+      "stdout_bytes": {
+        "count": 64,
+        "maximum": 56788,
+        "median": 22901.5,
+        "p95_nearest_rank": 40833,
+        "sum": 1399056
+      },
+      "wall_seconds": {
+        "count": 64,
+        "maximum": 0.21050687413662672,
+        "median": 0.06359774991869926,
+        "p95_nearest_rank": 0.12011387478560209,
+        "sum": 4.842592288739979
+      }
+    }
+  },
+  "status_counts": {
+    "complete": 64
+  },
+  "trajectory_denominator": 64
+}

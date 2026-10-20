@@ -40,3 +40,15 @@ separate publication context binds those original copies and later status and
 findings. The registration freeze covers sampler sources, not a future execution
 binary/dependency admission. The fixed campaign and event-level mechanism audit
 remain to be implemented and frozen before sampling. See [P01g findings](../p01g_findings.md).
+
+P01g execution publishes the subsequent single-batch manifest, assessment,
+inventory, seal and read-only receipt audit, all 64 original cell-audit outputs
+(renamed to `runs/SLOT/receipt.json`), the two inconclusive detector reports and
+pre-execution build/test logs. Publication context maps every byte-identical copy
+to its original retained path and binds the later closeout documents. All 256
+guard results remain in the manifest; full descriptors, raw trajectories and
+source/dependency/binary snapshots stay local and in the original inventory.
+Engineering passed for all 64 cells; the mechanism continuation criterion failed
+with zero newborn recycling loops. Both inconclusive labels and all negatives
+remain unchanged. The registration is consumed; next scope is read-only
+diagnosis, with no new sampling or E01. See [execution findings](../p01g_execution_findings.md).

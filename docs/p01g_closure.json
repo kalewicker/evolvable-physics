@@ -1,0 +1,39 @@
+{
+  "complete_trajectories": 64,
+  "continuation_gate_pass": false,
+  "date": "2026-10-20",
+  "decision": "engineering_pass_mechanism_fail",
+  "distinct_tables_with_same_trajectory_visible_birth_recycle_loop": 0,
+  "distinct_tables_with_visible_birth": 10,
+  "e01_authorized": false,
+  "engineering_gate_pass": true,
+  "evidence": {
+    "docs/evidence/p01g-001/assessment.json": "dfc4a45f94a0c1a7dd6c8adb395cb91099b771d99345fd456b4166142828a1ad",
+    "docs/evidence/p01g-001/manifest.json": "dc061da8937ed678bfe73766162ab80a0da5829664133c545823e7eb005914a3",
+    "docs/evidence/p01g-001/receipt_audit.json": "6c6830e60570bd48c07e6a373cf7b60bffc8ffa595506bbf491366890bf8d98d",
+    "docs/evidence/p01g-001/seal.json": "ccffdf83a24121592f25af90b9c520fa79fd915795a9a289ae3326a0ede279cb",
+    "docs/p01g_execution_admission.json": "499419c513be38ff12bcca9b46d3509fc67d90557ef8cc803e4fd89650df339e",
+    "docs/p01g_execution_freeze.json": "a8966325d73fb47151d6613b5b97907b1d5bf203b7fd24ff3efc2a9928a25214",
+    "docs/p01g_protocol.json": "99b06ab9f6bf768e4d76dc70a2f9b70f1906adcdff0a89374f5a1c72018b7afb",
+    "docs/p01g_registration_freeze.json": "db29a045b0fed604cda4bb70ef0ee629519728e7d518e3e6dad6f7248828d537"
+  },
+  "inconclusive_slots": [
+    29,
+    31
+  ],
+  "law_sampling_admitted": false,
+  "mechanism_gate_pass": false,
+  "next_scope": "disclosed read-only diagnosis of all retained P01g inputs, rules, candidates, events and receipts; no sampler calls or new evolution",
+  "prohibited_under_consumed_registration": [
+    "rerun",
+    "replace law or initial state",
+    "extend horizons",
+    "select favorable laws for escalation",
+    "relax gate criteria"
+  ],
+  "registered_laws": 16,
+  "registered_trajectories": 64,
+  "registration_consumed": true,
+  "schema": "p01g-closure-v1",
+  "scientific_status": "untested"
+}

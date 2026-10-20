@@ -54,7 +54,7 @@ The branch bundle preserves the source, request, receipt, and resulting checkpoi
 
 The [first P01 development pilot](docs/p01_findings.md) stopped at its CPU launch reserve: 469 complete horizons, one censored prefix and 42 unstarted slots. Its 469 complete-run AP labels were 436 `not_supported`, 33 `inconclusive` and zero `supported`. All 512 registered cells remain in the report, and the sealed audit passed without a resource overshoot.
 
-That registration is consumed and [closed](docs/p01_closure.json). [P01d diagnosis](docs/p01d_findings.md) checked every retained epoch: generator v1 leaves newborns isolated/unfunded and makes node deletion unreachable; all 33 disagreements remain inconclusive. Independent Python verification used 80.073% of recorded leaf CPU. The separate verifier passed [P01e's fixed offline panel](docs/p01e_findings.md) with 50.174% lower paired child CPU; the frozen receipt auditor's float-sum failure and post-hoc arithmetic correction are preserved. [P01f execution](docs/p01f_execution_findings.md) verified all 48 registered authored reachability witnesses with exact agreement across both Rust matchers and independent Python replay. [P01g](docs/p01g_findings.md) now registers that sampling preflight and structurally reviews the Rust/Python samplers. Next implement and freeze the fixed campaign and mechanism audit. No law sampling or repeated witness batch is admitted. Scientific status remains untested and E01 remains unauthorized.
+That registration is consumed and [closed](docs/p01_closure.json). [P01d diagnosis](docs/p01d_findings.md) checked every retained epoch: generator v1 leaves newborns isolated/unfunded and makes node deletion unreachable; all 33 disagreements remain inconclusive. Independent Python verification used 80.073% of recorded leaf CPU. The separate verifier passed [P01e's fixed offline panel](docs/p01e_findings.md) with 50.174% lower paired child CPU; the frozen receipt auditor's float-sum failure and post-hoc arithmetic correction are preserved. [P01f execution](docs/p01f_execution_findings.md) verified all 48 registered authored reachability witnesses with exact agreement across both Rust matchers and independent Python replay. [P01g execution](docs/p01g_execution_findings.md) completed all 64 sampled trajectories and passed the engineering gate, but failed its recycling continuation criterion. Next diagnose the existing evidence read-only. No law sampling or repeated witness batch is admitted. Scientific status remains untested and E01 remains unauthorized.
 
 ## Environment fixtures and continuation
 
@@ -99,7 +99,7 @@ Published at [kalewicker/evolvable-physics](https://github.com/kalewicker/evolva
 
 The public snapshot includes source, locked dependencies, protocols, reports, the revised experiment plan, and [compact validation receipts](docs/evidence/README.md). Raw `artifacts/`, `target/`, caches, and machine-local settings stay outside Git. Run the validation command above to generate full evidence from source.
 
-Implementation resumed at the user’s request after publication. P01 is sealed and closed; P01d diagnosis and P01e offline verifier preflight are complete. P01f reachability execution is complete and consumed. All 48 authored cases passed. P01g now registers the bounded sampling-feasibility preflight and implements the samplers with mock-field tests. Next implement and freeze its campaign and mechanism checks before any law draws.
+Implementation resumed at the user’s request after publication. P01 is sealed and closed; P01d diagnosis and P01e offline verifier preflight are complete. P01f reachability execution is complete and consumed. All 48 authored cases passed. P01g completed the bounded sampling-feasibility preflight: ten tables produced visible birth, none produced a newborn recycling loop. Its registration is consumed; next diagnose that failure read-only.
 
 At the end of future project turns, commit and push any changes to this repository after the appropriate checks. See [AGENTS.md](AGENTS.md).
 
@@ -176,7 +176,7 @@ These are the historical entry points, not authorization to repeat the single re
 
 ## P01f reachability registration
 
-[Generator-v2 design](docs/generator_v2_design.md) specifies attached funded birth, Structural resource transfer and recoverable leaf deletion using existing operations. The [protocol](docs/p01f_protocol.json) and [literal witness registry](docs/p01f_witnesses.json) fix 12 authored families across four seeds, with explicit positive/negative predictions and future execution ceilings. The fixed witness runner is implemented and its single registered batch passed; the law sampler is now implemented and structurally reviewed in [P01g](docs/p01g_findings.md), with no hash-keyed draw yet executed.
+[Generator-v2 design](docs/generator_v2_design.md) specifies attached funded birth, Structural resource transfer and recoverable leaf deletion using existing operations. The [protocol](docs/p01f_protocol.json) and [literal witness registry](docs/p01f_witnesses.json) fix 12 authored families across four seeds, with explicit positive/negative predictions and future execution ceilings. The fixed witness runner is implemented and its single registered batch passed; the law sampler subsequently ran in [P01g](docs/p01g_execution_findings.md), whose engineering gate passed and mechanism gate failed.
 
 ```sh
 python3 scripts/check_p01f_registration.py artifacts/p01f-registration-new
@@ -207,9 +207,20 @@ python3 scripts/check_p01g_registration.py artifacts/p01g-registration-new
 ```
 
 This performs static registration checks only, into a new output directory.
-The Rust `generator-v2` and independent Python sampler are implemented; their
-tests use injected fields without hash-keyed law construction or dynamics.
-[Findings](docs/p01g_findings.md) preserve that scope. Sampling requires the still
-pending fixed campaign/mechanism validator and a separate complete execution
-freeze/admission before any draws, including rehearsals. No sampling or E01 is
-currently admitted.
+The [registration findings](docs/p01g_findings.md) preserve the original static
+review. The subsequent [execution findings](docs/p01g_execution_findings.md) report
+64/64 complete trajectories with independent verification, ten distinct tables
+with visible birth and zero with newborn recycling. The engineering gate passed;
+the mechanism continuation gate failed. The registration is consumed and
+[closed](docs/p01g_closure.json); no repeated or expanded sampling or E01 is admitted.
+Next diagnose the existing rules/traces read-only.
+
+The receipt audit reads a complete retained local bundle without sampler calls
+or transitions:
+
+```sh
+python3 scripts/audit_p01g_receipts.py artifacts/p01g-001
+```
+
+Public compact receipts omit raw trajectories, dependency snapshots and binaries.
+The complete local bundle is required for this audit.

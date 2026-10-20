@@ -1,0 +1,16 @@
+{
+  "checksums_sha256": "a774c16b507c4a4699d45665ebcc0d1940ee862fdcdc4c484db307386f009ee9",
+  "continuation_gate_pass": false,
+  "decision": "engineering_pass_mechanism_fail",
+  "engineering_gate_pass": true,
+  "manifest_sha256": "dc061da8937ed678bfe73766162ab80a0da5829664133c545823e7eb005914a3",
+  "mechanism_gate_pass": false,
+  "overshoot": [],
+  "resource_usage": {
+    "artifact_bytes": 270142422,
+    "total_process_cpu_seconds": 63.495391999999995,
+    "wall_seconds": 59.822481458075345
+  },
+  "schema": "p01g-campaign-seal-v1",
+  "scientific_status": "untested"
+}
