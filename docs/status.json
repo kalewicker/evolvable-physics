@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01j_readiness_complete",
+  "stage": "P01k_registration_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "separately register bounded v3 keyed-sampler implementation and an unfiltered static census/equivalence panel before any hash draw",
-    "fix denominators, complete field-key/source checks, per-table necessary type/state/material paths, costs, failure policy and execution freeze; retain every incompatible/missing-body table without filtering or repair",
-    "no hash sampler implementation or calls before that registration, no world trajectories, new environment, changed detector gates or E01; literal-field readiness does not establish sampled-law or dynamical behavior"
+    "implement the registered independent v3 keyed samplers, runner, static report and auditor only at new paths, preserving all frozen sources and Cargo files",
+    "test only unhashed serialization, literal digest-prefix arithmetic, injected fields and synthetic route/guard/bookkeeping records before execution freeze; no keyed calls on any proposal, including tests",
+    "freeze the complete source/dependency/tool/binary/input closure and exact output-path admission, commit/push before any future keyed draw; retain the whole 32-law/128-environment static panel, with no filtering, world trajectories or E01"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -53,7 +53,7 @@
   "p01_protocol_closed": true,
   "p01_closure": "docs/p01_closure.json",
   "diagnosis_receipt": "docs/evidence/p01d-001/findings.json",
-  "next_engineering_protocol": null,
+  "next_engineering_protocol": "docs/p01k_protocol.json",
   "new_world_runs_admitted": false,
   "e01_authorized": false,
   "p01e_execution_complete": true,
@@ -64,7 +64,7 @@
   "p01e_admission": "docs/p01e_admission.json",
   "p01e_findings": "docs/p01e_findings.md",
   "p01e_receipt": "docs/evidence/p01e-001/receipt_audit_v2.json",
-  "next_work_requires_new_protocol": true,
+  "next_work_requires_new_protocol": false,
   "p01f_registration_complete": true,
   "p01f_execution_started": true,
   "p01f_static_review": "docs/evidence/p01f-registration-001/static_review.json",
@@ -72,7 +72,7 @@
   "p01f_registration_freeze": "docs/p01f_registration_freeze.json",
   "generator_v2_implemented": true,
   "reachability_witness_runner_implemented": true,
-  "next_work_requires_execution_freeze": false,
+  "next_work_requires_execution_freeze": true,
   "p01f_execution_complete": true,
   "p01f_registration_consumed": true,
   "p01f_reachability_gate_pass": true,
@@ -184,5 +184,12 @@
     "barrier": 8,
     "invalid": 12,
     "probe": 15
-  }
+  },
+  "p01k_registration_complete": true,
+  "p01k_protocol": "docs/p01k_protocol.json",
+  "p01k_registration_freeze": "docs/p01k_registration_freeze.json",
+  "p01k_static_review": "docs/evidence/p01k-registration-001/static_review.json",
+  "p01k_findings": "docs/p01k_findings.md",
+  "p01k_sampling_started": false,
+  "generator_v3_sampler_implementation_admitted": true
 }

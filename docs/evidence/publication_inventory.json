@@ -1453,6 +1453,18 @@
     {
       "file": "docs/evidence/p01j-readiness-001/seal.json",
       "sha256": "da9f4eab8c49413af449fb1686dea4ce43fc4224c54406cf2763764fd2729792"
+    },
+    {
+      "file": "docs/evidence/p01k-registration-001/publication_context.json",
+      "sha256": "60f54421e35e012c452c2db40d89c23aa3eb17bbd878fb372737749569c41fcd"
+    },
+    {
+      "file": "docs/evidence/p01k-registration-001/static_review.json",
+      "sha256": "39c466d29101e05463600684eb61034dcfa2e6fea9a282314f9dce849a952682"
+    },
+    {
+      "file": "docs/evidence/p01k-registration-001/tests.txt",
+      "sha256": "50900d4fb2c1810af1c819355dd50b22f67d771352b3a642e5921439a3884d56"
     }
   ]
 }

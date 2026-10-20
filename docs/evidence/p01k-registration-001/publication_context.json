@@ -1,0 +1,32 @@
+{
+  "base_commit": "486b2e29fbf341c8136874888d9ef0ea3ff709d8",
+  "copies": [
+    {
+      "original": "artifacts/p01k-registration-001/static_review.json",
+      "public": "docs/evidence/p01k-registration-001/static_review.json",
+      "sha256": "39c466d29101e05463600684eb61034dcfa2e6fea9a282314f9dce849a952682"
+    },
+    {
+      "original": "artifacts/p01k-registration-checks-001/tests.txt",
+      "public": "docs/evidence/p01k-registration-001/tests.txt",
+      "sha256": "50900d4fb2c1810af1c819355dd50b22f67d771352b3a642e5921439a3884d56"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "1825a7664a852f8867c420ed498bdfdf286c00978e210ed0de8baf7c4601d23e",
+    "README.md": "40c6c1d4f2dd1a2137a46c4e461f0e108050b331faa3c9642a30dc4bccc11e22",
+    "docs/evidence/README.md": "e3613023dd8c7161725eb13ad6f09c2531116197ba43f8f777518204082abbf5",
+    "docs/p01k_findings.md": "36493986c8f80b2975801f1a785c58bafa0ed94b73dee00597c12049c081d9a8",
+    "docs/p01k_primitive_vectors.json": "1e51893a302def4eab9dc191e17a4ab9831ecd2339714c27d47092b4a9da6370",
+    "docs/p01k_protocol.json": "e697d86ee0569831c55e8a0f4850924ff358bfeb06e72b4a2cbadedfe7aad409",
+    "docs/p01k_registration.md": "3d26cad6adc0cdbc5755730d7329c93cec4b2eb5fb0bcb8a5ea2efa9e4c587a8",
+    "docs/p01k_registration_freeze.json": "2fb523301e5afefc94025923688583923b360551e8ed4568a3e31e52214a48f1",
+    "docs/status.json": "d46fccb6f680cac223a29e70f9ba21cda910a64670d9418034a948035699693f",
+    "scripts/check_p01k_registration.py": "a6e9f101c22ba694f08adf437b49d91bedf7aee02d026288645f0fc7996f53be",
+    "scripts/test_p01k_registration.py": "e2aad7a56c59b54220b05ed1d25e8c1d2d8c21503537809904c4f87f47556c42"
+  },
+  "note": "Test log and final closeout/guidance are outside the registration freeze. All 363 prior public receipts remain byte-identical. Future sampler implementation may use mocks, but keyed evaluation needs a separate full execution freeze/admission committed and pushed first.",
+  "schema": "p01k-registration-publication-context-v1",
+  "scope": "registration/source contracts only; sampler code and keyed calls remain undone; zero world epochs"
+}

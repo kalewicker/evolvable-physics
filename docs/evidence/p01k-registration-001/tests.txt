@@ -1,0 +1,14 @@
+test_budget_drift_is_not_a_static_pass (test_p01k_registration.Registration.test_budget_drift_is_not_a_static_pass) ... ok
+test_fixed_unfiltered_panel_and_execution_flags (test_p01k_registration.Registration.test_fixed_unfiltered_panel_and_execution_flags) ... ok
+test_literal_vectors_catch_serialization_and_endian_errors (test_p01k_registration.Registration.test_literal_vectors_catch_serialization_and_endian_errors) ... ok
+test_missing_reordered_and_inconsistent_law_cells_rejected (test_p01k_registration.Registration.test_missing_reordered_and_inconsistent_law_cells_rejected) ... ok
+test_positive_routes_cannot_hide_unstarted_cell (test_p01k_registration.Registration.test_positive_routes_cannot_hide_unstarted_cell) ... ok
+test_registration_validates_without_any_sha_call (test_p01k_registration.Registration.test_registration_validates_without_any_sha_call) ... ok
+test_repeated_addresses_are_not_independent_laws (test_p01k_registration.Registration.test_repeated_addresses_are_not_independent_laws) ... ok
+test_source_initial_and_modulus_changes_rejected (test_p01k_registration.Registration.test_source_initial_and_modulus_changes_rejected) ... ok
+test_zero_routes_does_not_change_engineering_gate_or_admit_dynamics (test_p01k_registration.Registration.test_zero_routes_does_not_change_engineering_gate_or_admit_dynamics) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.024s
+
+OK

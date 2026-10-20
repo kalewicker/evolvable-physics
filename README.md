@@ -295,3 +295,16 @@ read-only audit requires the complete retained bundle. Engineering repairs may
 repeat the same fixed readiness panel while preserving every attempt. Next is
 a separate registration for the actual keyed sampler and an unfiltered static
 census. No law sampling, world execution or E01 is currently admitted.
+
+## P01k keyed-sampler/static-census registration
+
+The [new registration](docs/p01k_registration.md) fixes 32 proposal IDs × four
+initial states for a future static census, with zero world epochs. The
+[static findings](docs/p01k_findings.md) verify the 128-cell plan, field-address
+counts and unhashed primitive vectors. All laws and negative routes remain in
+the denominator; there is no motif-count success gate or favorable-law filter.
+
+Next implement the independent samplers, runner, static report and auditor using
+mock/literal inputs only. Actual keyed calls require a separate complete
+execution freeze and admission committed/pushed first. No sampled law, world
+trajectory or E01 has been admitted by this registration.

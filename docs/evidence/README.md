@@ -87,3 +87,10 @@ was not changed to include later completion/audit/log/documentation files;
 publication context anchors those separately. All 12,671 fixed records passed,
 with no hash sampling or dynamics. See
 [readiness findings](../p01j_readiness_findings.md) for exact admission limits.
+
+P01k registration publishes the static 32-law/128-environment plan review and
+targeted test log. The checker enumerates symbolic field addresses and checks
+unhashed serialization/literal prefix arithmetic; it constructs no law or
+initial world. Publication context binds the byte-identical copies, 149-file
+registration freeze and final guidance/findings. This is not a sampling or
+world-execution admission. See [registration findings](../p01k_findings.md).
