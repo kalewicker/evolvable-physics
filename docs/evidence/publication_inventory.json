@@ -1329,6 +1329,50 @@
     {
       "file": "docs/evidence/p01g-001/toolchain.json",
       "sha256": "eeabda6065d88194759f7d2f72957594dd58a54868539febd3db6c81ac175449"
+    },
+    {
+      "file": "docs/evidence/p01h-001/audit/tests.txt",
+      "sha256": "a6707d4eff38012da33ddc34bc6dc076a3b17151cfc9aef223c8790cbe64c3da"
+    },
+    {
+      "file": "docs/evidence/p01h-001/cell_diagnoses.json",
+      "sha256": "16bb27b0fb5d81affddf27489ab299132eb07d5bb9fa83a02b490c86464510af"
+    },
+    {
+      "file": "docs/evidence/p01h-001/checksums.json",
+      "sha256": "5e06fb35a3eeda46f706310d4d2ddd036611cead32e5409498dc5fd806fa27e8"
+    },
+    {
+      "file": "docs/evidence/p01h-001/diagnostic/tests.txt",
+      "sha256": "d9d734ee1c2de67b748aeef1c4126433aa438ad8375ca953916f12b1df11414d"
+    },
+    {
+      "file": "docs/evidence/p01h-001/findings.json",
+      "sha256": "8775823aa0eba71bac1513f8635c53482fe02e70c4b9f3db97b627cd42380bf4"
+    },
+    {
+      "file": "docs/evidence/p01h-001/inconclusive_cases.json",
+      "sha256": "77d4d103d3abebea93ee51f3370e51865974dbbd14adbfc8f7aecc0803489530"
+    },
+    {
+      "file": "docs/evidence/p01h-001/independent_audit.json",
+      "sha256": "f6652fd763376c2e55d5f82f4d7e8c09dc6b766a5b4a4cdc1414e583f0771638"
+    },
+    {
+      "file": "docs/evidence/p01h-001/input_receipt_audit.json",
+      "sha256": "5e83af673d421caa745ea540333411e14a060c329b0dd4bf698cdec2c77a4d70"
+    },
+    {
+      "file": "docs/evidence/p01h-001/law_diagnoses.json",
+      "sha256": "c034b21cfc7de68264b920a40e4519c2b966eccc5f46a3804c2e5fb91d896cf9"
+    },
+    {
+      "file": "docs/evidence/p01h-001/manifest.json",
+      "sha256": "0352248f0c9837af855e9a7033b38e08164bf2a3434df2321ac013c9108b856d"
+    },
+    {
+      "file": "docs/evidence/p01h-001/publication_context.json",
+      "sha256": "4985228edb91d985e8b2d648912ee9c6ec05c4f3e7149df9a3f7136b90317613"
     }
   ]
 }

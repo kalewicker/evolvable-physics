@@ -1,0 +1,16 @@
+{
+  "execution_status": "complete",
+  "input_manifest_sha256": "dc061da8937ed678bfe73766162ab80a0da5829664133c545823e7eb005914a3",
+  "input_seal_sha256": "ccffdf83a24121592f25af90b9c520fa79fd915795a9a289ae3326a0ede279cb",
+  "new_world_runs": 0,
+  "processed_cells": 64,
+  "sampler_calls": 0,
+  "schema": "p01h-read-only-manifest-v1",
+  "scientific_status": "untested",
+  "source_files": {
+    "docs/p01h_analysis_plan.md": "a2ebdf9b38d80dd64aea0be3e720de53bf2b6566663f6972350bf715c18d944f",
+    "scripts/diagnose_p01g.py": "744e13aadbf328790d7c160945b59a9e66b5946bf09fbab44ca9d98cfbf965a3",
+    "scripts/test_diagnose_p01g.py": "3f556a6a2b74b0a1cde958cf65cfe8a6ef5e8cac33e6b9891cb9b1f7646f20d6"
+  },
+  "transition_applications": 0
+}

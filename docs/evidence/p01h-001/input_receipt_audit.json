@@ -1,0 +1,20 @@
+{
+  "continuation_gate_pass": false,
+  "decision": "engineering_pass_mechanism_fail",
+  "e01_authorized": false,
+  "engineering_gate_pass": true,
+  "inventory_files": 4568,
+  "mechanism_gate_pass": false,
+  "resource_usage": {
+    "artifact_bytes": 270142422,
+    "total_process_cpu_seconds": 63.495391999999995,
+    "wall_seconds": 59.822481458075345
+  },
+  "schema": "p01g-receipt-audit-v1",
+  "scientific_status": "untested",
+  "scope": "inventory/provenance and sealed receipts; no sampler call or transition replay",
+  "seal_sha256": "ccffdf83a24121592f25af90b9c520fa79fd915795a9a289ae3326a0ede279cb",
+  "status": "pass",
+  "valid_stage_receipts": 256,
+  "verified_trajectory_receipts": 64
+}

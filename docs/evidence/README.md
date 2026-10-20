@@ -52,3 +52,13 @@ Engineering passed for all 64 cells; the mechanism continuation criterion failed
 with zero newborn recycling loops. Both inconclusive labels and all negatives
 remain unchanged. The registration is consumed; next scope is read-only
 diagnosis, with no new sampling or E01. See [execution findings](../p01g_execution_findings.md).
+
+P01h publishes the subsequent read-only diagnostic manifest, inventory, input
+receipt audit, full law/cell diagnoses, findings and retained inconclusive cases.
+Its later independent kind-matrix audit and two targeted test logs are outside
+the original diagnostic inventory. Publication context binds those copies,
+later audit sources and the conditional source argument. Raw source snapshots
+remain local; no sampler, interpreter, native executable or subprocess was
+called during the diagnostic/audit. The failed P01g gate is unchanged. See
+[diagnostic findings](../p01h_findings.md) for the exact-table kind restriction
+and design-only next scope.

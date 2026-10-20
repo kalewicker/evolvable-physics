@@ -1,0 +1,68 @@
+{
+  "analysis_plan_and_diagnostic_commit": "bdaa38f",
+  "copies": [
+    {
+      "original": "artifacts/p01h-001/manifest.json",
+      "public": "docs/evidence/p01h-001/manifest.json",
+      "sha256": "0352248f0c9837af855e9a7033b38e08164bf2a3434df2321ac013c9108b856d"
+    },
+    {
+      "original": "artifacts/p01h-001/checksums.json",
+      "public": "docs/evidence/p01h-001/checksums.json",
+      "sha256": "5e06fb35a3eeda46f706310d4d2ddd036611cead32e5409498dc5fd806fa27e8"
+    },
+    {
+      "original": "artifacts/p01h-001/input_receipt_audit.json",
+      "public": "docs/evidence/p01h-001/input_receipt_audit.json",
+      "sha256": "5e83af673d421caa745ea540333411e14a060c329b0dd4bf698cdec2c77a4d70"
+    },
+    {
+      "original": "artifacts/p01h-001/findings.json",
+      "public": "docs/evidence/p01h-001/findings.json",
+      "sha256": "8775823aa0eba71bac1513f8635c53482fe02e70c4b9f3db97b627cd42380bf4"
+    },
+    {
+      "original": "artifacts/p01h-001/law_diagnoses.json",
+      "public": "docs/evidence/p01h-001/law_diagnoses.json",
+      "sha256": "c034b21cfc7de68264b920a40e4519c2b966eccc5f46a3804c2e5fb91d896cf9"
+    },
+    {
+      "original": "artifacts/p01h-001/cell_diagnoses.json",
+      "public": "docs/evidence/p01h-001/cell_diagnoses.json",
+      "sha256": "16bb27b0fb5d81affddf27489ab299132eb07d5bb9fa83a02b490c86464510af"
+    },
+    {
+      "original": "artifacts/p01h-001/inconclusive_cases.json",
+      "public": "docs/evidence/p01h-001/inconclusive_cases.json",
+      "sha256": "77d4d103d3abebea93ee51f3370e51865974dbbd14adbfc8f7aecc0803489530"
+    },
+    {
+      "original": "artifacts/p01h-001-independent-audit.json",
+      "public": "docs/evidence/p01h-001/independent_audit.json",
+      "sha256": "f6652fd763376c2e55d5f82f4d7e8c09dc6b766a5b4a4cdc1414e583f0771638"
+    },
+    {
+      "original": "artifacts/p01h-tests.txt",
+      "public": "docs/evidence/p01h-001/diagnostic/tests.txt",
+      "sha256": "d9d734ee1c2de67b748aeef1c4126433aa438ad8375ca953916f12b1df11414d"
+    },
+    {
+      "original": "artifacts/p01h-audit-tests.txt",
+      "public": "docs/evidence/p01h-001/audit/tests.txt",
+      "sha256": "a6707d4eff38012da33ddc34bc6dc076a3b17151cfc9aef223c8790cbe64c3da"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "9e0f27e0aed712228b4b30a3ce2af401bb4524375f7937cfd3d06ebafba26abf",
+    "README.md": "cd000287b7d3c827adba996fc26c50ad241701f2139627ecdb27899f3d349689",
+    "docs/p01h_findings.md": "acef2ec59e4978f344b2a2c8beabacf6984d244a298acbd0fc566cd1d495d435",
+    "docs/p01h_source_argument.md": "6d0d29e1d3b9d294587842ed29071c7dc9addea10447a6183835a5037c25a8c8",
+    "docs/status.json": "1fb6848f152ef12507dc0db72171ebc5c217b61a69c6f5f9c6c66379ef7c44dc",
+    "scripts/audit_p01h.py": "f69e1d8e7019eeaef63cc4864bc3c5195e65fff95aeff638e617e629cb90fb3b",
+    "scripts/test_p01h_audit.py": "40b684305e603f18f0f799039fa2ec43df13164fa40daab71cec5092f8afddd7"
+  },
+  "note": "The independent audit, external test logs and later source argument/closeout are outside the original diagnostic inventory. No sampler, transition application or subprocess was run by analysis or audit. Original P01g seal/gates/labels unchanged.",
+  "schema": "p01h-publication-context-v1",
+  "scope": "post-hoc read-only diagnosis and conditional argument for exact retained law tables; no new experiment admission"
+}

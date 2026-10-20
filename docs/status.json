@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01g_closed_negative",
+  "stage": "P01h_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "write a disclosed read-only analysis plan for the consumed P01g mechanism failure before scanning the existing inputs/traces",
-    "diagnose available rule bodies, newborn matching/resource/topology constraints and scheduler competition across all 64 retained cases, without sampler calls or new world evolution",
-    "preserve the failed recycling gate and both inconclusive detector labels; no escalation, favorable-law selection, reroll or changed thresholds"
+    "design-only review of type-coherent constructive rule generation, including whether created children can match donor patterns",
+    "account explicitly for the altered sampling prior/authored bias and retain independent template presence, state/resource constraints and negative-gate history",
+    "specify necessary type-path checks before proposing any new registered experiment; no sampler calls, law repairs, rerolls, new dynamics or E01"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -136,5 +136,27 @@
       "inconclusive": 2,
       "supported": 0
     }
+  },
+  "p01h_complete": true,
+  "p01h_findings": "docs/p01h_findings.md",
+  "p01h_source_argument": "docs/p01h_source_argument.md",
+  "p01h_analysis_plan": "docs/p01h_analysis_plan.md",
+  "p01h_independent_audit": "docs/evidence/p01h-001/independent_audit.json",
+  "p01h_outcomes": {
+    "laws_diagnosed": 16,
+    "trajectories_diagnosed": 64,
+    "epochs_scanned": 8192,
+    "events_scanned": 7453,
+    "same_law_birth_structural_funding_pairs": 9,
+    "same_law_birth_recycling_pairs": 15,
+    "kind_compatible_funding_pairs": 0,
+    "kind_compatible_recycling_pairs": 0,
+    "funding_rule_binding_exposures": 16598,
+    "recycling_rule_binding_exposures": 18610,
+    "descendant_birth_rule_binding_exposures": 22797,
+    "applicable_newborn_mechanism_candidates": 0,
+    "new_world_runs": 0,
+    "sampler_calls": 0,
+    "transition_applications": 0
   }
 }

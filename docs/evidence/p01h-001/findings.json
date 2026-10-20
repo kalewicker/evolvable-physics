@@ -1,0 +1,201 @@
+{
+  "analysis_plan_sha256": "a2ebdf9b38d80dd64aea0be3e720de53bf2b6566663f6972350bf715c18d944f",
+  "birth_visibility_categories": {
+    "connected=False,interaction=True,ever_joint=False": 38,
+    "connected=True,interaction=True,ever_joint=True": 104
+  },
+  "committed_event_forms": {
+    "0": 4626,
+    "1": 2206,
+    "2": 370,
+    "3": 99,
+    "4": 142,
+    "5": 9,
+    "6": 1
+  },
+  "e01_authorized": false,
+  "inconclusive_slots": [
+    29,
+    31
+  ],
+  "input_manifest_sha256": "dc061da8937ed678bfe73766162ab80a0da5829664133c545823e7eb005914a3",
+  "input_seal_sha256": "ccffdf83a24121592f25af90b9c520fa79fd915795a9a289ae3326a0ede279cb",
+  "law_cells": 16,
+  "mechanism_exposures": {
+    "descendant_birth": {
+      "examples": {
+        "donor_kind": {
+          "binding": [
+            8
+          ],
+          "epoch": 1,
+          "failed_conditions": [
+            "donor_kind",
+            "donor_state",
+            "matter",
+            "activation"
+          ],
+          "rule": 7,
+          "slot": 0
+        },
+        "donor_state": {
+          "binding": [
+            11
+          ],
+          "epoch": 1,
+          "failed_conditions": [
+            "donor_state",
+            "matter",
+            "activation"
+          ],
+          "rule": 7,
+          "slot": 9
+        },
+        "matter": {
+          "binding": [
+            11
+          ],
+          "epoch": 1,
+          "failed_conditions": [
+            "matter",
+            "activation"
+          ],
+          "rule": 3,
+          "slot": 9
+        }
+      },
+      "exposures": 22797,
+      "failed_conditions_overlapping": {
+        "activation": 22797,
+        "donor_kind": 11967,
+        "donor_state": 7566,
+        "matter": 22797
+      },
+      "first_blocker": {
+        "donor_kind": 11967,
+        "donor_state": 2137,
+        "matter": 8693
+      }
+    },
+    "funding": {
+      "examples": {
+        "donor_kind": {
+          "binding": [
+            4,
+            8
+          ],
+          "epoch": 1,
+          "failed_conditions": [
+            "donor_kind",
+            "target_state"
+          ],
+          "rule": 5,
+          "slot": 16
+        },
+        "target_kind": {
+          "binding": [
+            2,
+            8
+          ],
+          "epoch": 1,
+          "failed_conditions": [
+            "target_kind",
+            "donor_state",
+            "target_state"
+          ],
+          "rule": 2,
+          "slot": 36
+        }
+      },
+      "exposures": 16598,
+      "failed_conditions_overlapping": {
+        "activation": 7586,
+        "donor_kind": 11822,
+        "donor_state": 7021,
+        "matter": 248,
+        "target_kind": 12314,
+        "target_state": 13358
+      },
+      "first_blocker": {
+        "donor_kind": 11822,
+        "target_kind": 4776
+      }
+    },
+    "recycling": {
+      "examples": {
+        "donor_kind": {
+          "binding": [
+            0,
+            8
+          ],
+          "epoch": 1,
+          "failed_conditions": [
+            "donor_kind",
+            "target_state"
+          ],
+          "rule": 0,
+          "slot": 0
+        },
+        "target_kind": {
+          "binding": [
+            0,
+            8
+          ],
+          "epoch": 1,
+          "failed_conditions": [
+            "target_kind"
+          ],
+          "rule": 6,
+          "slot": 0
+        }
+      },
+      "exposures": 18610,
+      "failed_conditions_overlapping": {
+        "donor_kind": 16478,
+        "donor_state": 7040,
+        "target_kind": 15099,
+        "target_state": 11393
+      },
+      "first_blocker": {
+        "donor_kind": 16478,
+        "target_kind": 2132
+      }
+    }
+  },
+  "new_world_runs": 0,
+  "newborn_activation_values": [
+    0,
+    1
+  ],
+  "newborn_matter_values": [
+    1
+  ],
+  "newborns": 142,
+  "newborns_observed_state_change": 56,
+  "newborns_with_construction_resources": 0,
+  "original_mechanism_gate_pass": false,
+  "rule_forms_across_16_tables": {
+    "0": 14,
+    "1": 13,
+    "2": 15,
+    "3": 23,
+    "4": 12,
+    "5": 19,
+    "6": 15,
+    "7": 17
+  },
+  "sampler_calls": 0,
+  "schema": "p01h-read-only-findings-v1",
+  "scientific_status": "untested",
+  "totals": {
+    "descendant_birth_base_opportunities_without_rule": 0,
+    "epochs": 8192,
+    "funding_base_opportunities_without_rule": 7307,
+    "live_newborn_pre_epochs": 17875,
+    "newborn_edge_epochs": 17875,
+    "newborn_without_incoming_edge_pre_epochs": 0,
+    "recycling_base_opportunities_without_rule": 9314
+  },
+  "trajectory_cells": 64,
+  "transition_applications": 0
+}

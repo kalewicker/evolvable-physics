@@ -1,0 +1,11 @@
+{
+  "cell_diagnoses.json": "16bb27b0fb5d81affddf27489ab299132eb07d5bb9fa83a02b490c86464510af",
+  "findings.json": "8775823aa0eba71bac1513f8635c53482fe02e70c4b9f3db97b627cd42380bf4",
+  "inconclusive_cases.json": "77d4d103d3abebea93ee51f3370e51865974dbbd14adbfc8f7aecc0803489530",
+  "input_receipt_audit.json": "5e83af673d421caa745ea540333411e14a060c329b0dd4bf698cdec2c77a4d70",
+  "law_diagnoses.json": "c034b21cfc7de68264b920a40e4519c2b966eccc5f46a3804c2e5fb91d896cf9",
+  "manifest.json": "0352248f0c9837af855e9a7033b38e08164bf2a3434df2321ac013c9108b856d",
+  "source/docs/p01h_analysis_plan.md": "a2ebdf9b38d80dd64aea0be3e720de53bf2b6566663f6972350bf715c18d944f",
+  "source/scripts/diagnose_p01g.py": "744e13aadbf328790d7c160945b59a9e66b5946bf09fbab44ca9d98cfbf965a3",
+  "source/scripts/test_diagnose_p01g.py": "3f556a6a2b74b0a1cde958cf65cfe8a6ef5e8cac33e6b9891cb9b1f7646f20d6"
+}

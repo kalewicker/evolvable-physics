@@ -1,0 +1,184 @@
+{
+  "analysis_checksums_sha256": "5e06fb35a3eeda46f706310d4d2ddd036611cead32e5409498dc5fd806fa27e8",
+  "analysis_manifest_sha256": "0352248f0c9837af855e9a7033b38e08164bf2a3434df2321ac013c9108b856d",
+  "cells": 64,
+  "epochs": 8192,
+  "events": 7453,
+  "inconclusive_slots_preserved": [
+    29,
+    31
+  ],
+  "input_manifest_sha256": "dc061da8937ed678bfe73766162ab80a0da5829664133c545823e7eb005914a3",
+  "input_seal_sha256": "ccffdf83a24121592f25af90b9c520fa79fd915795a9a289ae3326a0ede279cb",
+  "law_kind_matrices": [
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 4,
+      "birth_rules": 1,
+      "funding_rules": 0,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4000,
+      "recycling_rules": 4
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 0,
+      "birth_rules": 0,
+      "funding_rules": 0,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4001,
+      "recycling_rules": 1
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 4,
+      "birth_rules": 2,
+      "funding_rules": 0,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4002,
+      "recycling_rules": 2
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 0,
+      "birth_rules": 0,
+      "funding_rules": 1,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4003,
+      "recycling_rules": 1
+    },
+    {
+      "birth_funding_pairs": 1,
+      "birth_recycling_pairs": 0,
+      "birth_rules": 1,
+      "funding_rules": 1,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4004,
+      "recycling_rules": 0
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 0,
+      "birth_rules": 0,
+      "funding_rules": 0,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4005,
+      "recycling_rules": 1
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 0,
+      "birth_rules": 0,
+      "funding_rules": 0,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4006,
+      "recycling_rules": 1
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 1,
+      "birth_rules": 1,
+      "funding_rules": 0,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4007,
+      "recycling_rules": 1
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 2,
+      "birth_rules": 2,
+      "funding_rules": 0,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4008,
+      "recycling_rules": 1
+    },
+    {
+      "birth_funding_pairs": 2,
+      "birth_recycling_pairs": 0,
+      "birth_rules": 1,
+      "funding_rules": 2,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4009,
+      "recycling_rules": 0
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 0,
+      "birth_rules": 0,
+      "funding_rules": 1,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4010,
+      "recycling_rules": 1
+    },
+    {
+      "birth_funding_pairs": 3,
+      "birth_recycling_pairs": 2,
+      "birth_rules": 1,
+      "funding_rules": 3,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4011,
+      "recycling_rules": 2
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 1,
+      "birth_rules": 1,
+      "funding_rules": 0,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4012,
+      "recycling_rules": 1
+    },
+    {
+      "birth_funding_pairs": 0,
+      "birth_recycling_pairs": 0,
+      "birth_rules": 0,
+      "funding_rules": 1,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4013,
+      "recycling_rules": 0
+    },
+    {
+      "birth_funding_pairs": 1,
+      "birth_recycling_pairs": 0,
+      "birth_rules": 1,
+      "funding_rules": 1,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4014,
+      "recycling_rules": 0
+    },
+    {
+      "birth_funding_pairs": 2,
+      "birth_recycling_pairs": 1,
+      "birth_rules": 1,
+      "funding_rules": 2,
+      "kind_compatible_funding_pairs": [],
+      "kind_compatible_recycling_pairs": [],
+      "proposal": 4015,
+      "recycling_rules": 1
+    }
+  ],
+  "matched_birth_funding_pairs": 0,
+  "matched_birth_recycling_pairs": 0,
+  "new_world_runs": 0,
+  "sampler_calls": 0,
+  "schema": "p01h-independent-record-audit-v1",
+  "scientific_status": "untested",
+  "scope": "saved-record identities, counts and independent kind-matrix check; conditional source argument is not a formal proof assistant result",
+  "status": "pass",
+  "transition_applications": 0
+}
