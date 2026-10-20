@@ -1,0 +1,18 @@
+{
+  "admitted_output": "artifacts/p01g-001",
+  "date": "2026-10-20",
+  "e01_authorized": false,
+  "execution_freeze_sha256": "a8966325d73fb47151d6613b5b97907b1d5bf203b7fd24ff3efc2a9928a25214",
+  "fixed_slots": 64,
+  "hash_keyed_law_constructions_so_far": 0,
+  "law_sampling_admitted": true,
+  "limits": "unchanged docs/p01g_protocol.json",
+  "locked_build_and_clippy": "pass",
+  "native_transitions_so_far": 0,
+  "no_retries_or_replacements": true,
+  "pre_execution_python_tests_passed": 52,
+  "protocol_sha256": "99b06ab9f6bf768e4d76dc70a2f9b70f1906adcdff0a89374f5a1c72018b7afb",
+  "registration_freeze_sha256": "db29a045b0fed604cda4bb70ef0ee629519728e7d518e3e6dad6f7248828d537",
+  "schema": "p01g-execution-admission-v1",
+  "scientific_status": "untested"
+}
