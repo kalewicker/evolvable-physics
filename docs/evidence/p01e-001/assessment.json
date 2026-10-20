@@ -1,0 +1,14 @@
+{
+  "all_registered_corruptions_rejected": true,
+  "candidate_to_reference_cpu_ratio": 0.4982550420803186,
+  "complete_fixed_pairs": true,
+  "cost_gate_pass": true,
+  "exact_full_records_and_endpoints": true,
+  "fixtures_passed": true,
+  "gate_pass": true,
+  "leaf_cpu_seconds": {
+    "candidate": 57.720598,
+    "reference": 115.84548699999999
+  },
+  "resource_gate_pass": true
+}

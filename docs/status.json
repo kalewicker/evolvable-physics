@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-19",
-  "stage": "P01d",
+  "stage": "P01e",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "implement a separate independent single-pass Python verifier producing verified activity without removing checks",
-    "freeze candidate/validator/input hashes before executing the fixed offline P01e equivalence, corruption and paired cost preflight",
-    "preserve consumed P01 outcomes; no new worlds, continuation, reroll, budget expansion or E01"
+    "design and register generator-v2 reachability witnesses for attached funded birth and created-member deletion/recycling",
+    "freeze positive/negative witness expectations and source-level invariants before native fixture execution or new sampling",
+    "preserve consumed P01/P01e registrations, original pipeline and all unfavorable/inconclusive outcomes; E01 remains unauthorized"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -53,7 +53,16 @@
   "p01_protocol_closed": true,
   "p01_closure": "docs/p01_closure.json",
   "diagnosis_receipt": "docs/evidence/p01d-001/findings.json",
-  "next_engineering_protocol": "docs/p01e_protocol.json",
+  "next_engineering_protocol": null,
   "new_world_runs_admitted": false,
-  "e01_authorized": false
+  "e01_authorized": false,
+  "p01e_execution_complete": true,
+  "p01e_registration_consumed": true,
+  "p01e_sealed_gate_pass": true,
+  "p01e_frozen_receipt_auditor_passed": false,
+  "p01e_posthoc_receipt_audit_passed": true,
+  "p01e_admission": "docs/p01e_admission.json",
+  "p01e_findings": "docs/p01e_findings.md",
+  "p01e_receipt": "docs/evidence/p01e-001/receipt_audit_v2.json",
+  "next_work_requires_new_protocol": true
 }

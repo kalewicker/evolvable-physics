@@ -1,0 +1,1 @@
+{"clean_positive_control": "pass", "corruption": "forged_cap", "rejections": {"candidate": {"exception": "AssertionError", "reason": "Unjustified cap"}, "reference": {"exception": "AssertionError", "reason": "Unjustified cap"}}, "status": "pass"}

@@ -1,0 +1,33 @@
+{
+  "schema": "p01e-independent-receipt-audit-v2",
+  "post_hoc_arithmetic_correction": true,
+  "frozen_v1_auditor_sha256": "f0afa37f99f2fc523b281819115590593fdf9ef5d178a6b26d0eb9547dea4080",
+  "display_rounding": {
+    "sum_absolute_differences_seconds": {
+      "reference": "3.5E-15",
+      "candidate": "2.0E-15"
+    },
+    "ratio_absolute_difference": "8.071132411E-19"
+  },
+  "integrity_verified": true,
+  "manifest_sha256": "9e77746c746f1723a8d4e3780d9d898edcbfde3f96f6ac0d2982effde0bc1248",
+  "seal_sha256": "5b66fde6999f4c4b5e97e0d6ceb7a1d7c269c22533d056175c9ed02a6a73ae82",
+  "freeze_sha256": "2844740f3e98661a43c7c446236cf25b33b3055014ea933d44c35aff166da7c7",
+  "native_cases": 112,
+  "environment_cases": 96,
+  "maintenance_arms": 80,
+  "paired_inputs": 8,
+  "corruptions": 11,
+  "exact_equivalence": true,
+  "cost_gate_pass": true,
+  "resource_gate_pass": true,
+  "leaf_cpu_seconds": {
+    "reference": 115.84548699999999,
+    "candidate": 57.720597999999995
+  },
+  "cpu_ratio": 0.4982550420803186,
+  "gate_pass": true,
+  "new_world_runs": 0,
+  "scientific_status": "untested",
+  "e01_authorized": false
+}

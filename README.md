@@ -54,7 +54,7 @@ The branch bundle preserves the source, request, receipt, and resulting checkpoi
 
 The [first P01 development pilot](docs/p01_findings.md) stopped at its CPU launch reserve: 469 complete horizons, one censored prefix and 42 unstarted slots. Its 469 complete-run AP labels were 436 `not_supported`, 33 `inconclusive` and zero `supported`. All 512 registered cells remain in the report, and the sealed audit passed without a resource overshoot.
 
-That registration is consumed and [closed](docs/p01_closure.json). [P01d diagnosis](docs/p01d_findings.md) checked every retained epoch: generator v1 leaves newborns isolated/unfunded and makes node deletion unreachable; all 33 disagreements remain inconclusive. Independent Python verification used 80.073% of recorded leaf CPU. Next implement and freeze a separate verifier, then run the registered [offline P01e equivalence/cost preflight](docs/p01e_protocol.json) on existing evidence. No new world runs are admitted. Scientific status remains untested and E01 remains unauthorized.
+That registration is consumed and [closed](docs/p01_closure.json). [P01d diagnosis](docs/p01d_findings.md) checked every retained epoch: generator v1 leaves newborns isolated/unfunded and makes node deletion unreachable; all 33 disagreements remain inconclusive. Independent Python verification used 80.073% of recorded leaf CPU. The separate verifier passed [P01e's fixed offline panel](docs/p01e_findings.md) with 50.174% lower paired child CPU; the frozen receipt auditor's float-sum failure and post-hoc arithmetic correction are preserved. Next design and register generator-v2 reachability witnesses before executing them. No new world runs are admitted. Scientific status remains untested and E01 remains unauthorized.
 
 ## Environment fixtures and continuation
 
@@ -99,7 +99,7 @@ Published at [kalewicker/evolvable-physics](https://github.com/kalewicker/evolva
 
 The public snapshot includes source, locked dependencies, protocols, reports, the revised experiment plan, and [compact validation receipts](docs/evidence/README.md). Raw `artifacts/`, `target/`, caches, and machine-local settings stay outside Git. Run the validation command above to generate full evidence from source.
 
-Implementation resumed at the user’s request after publication. P01 is sealed and closed, and P01d diagnosis is complete. Next is the registered P01e offline verifier implementation/preflight, without new world runs.
+Implementation resumed at the user’s request after publication. P01 is sealed and closed; P01d diagnosis and P01e offline verifier preflight are complete. Next is generator-v2 reachability witness design/registration. No new world runs are admitted.
 
 At the end of future project turns, commit and push any changes to this repository after the appropriate checks. See [AGENTS.md](AGENTS.md).
 
@@ -159,4 +159,17 @@ Use an existing complete sealed bundle and a new report directory. This verifies
 python3 scripts/diagnose_p01.py artifacts/p01-001 artifacts/p01d-new-analysis
 ```
 
-Use an existing sealed campaign and a new analysis directory. This verifies the original inventory, scans existing traces and saved detector fields, and attributes cost from retained receipts; it does not evolve worlds or change labels. [Findings](docs/p01d_findings.md) separate the finite scan from the [source-level reachability argument](docs/generator_v1_reachability.md). Public receipts do not contain raw trajectories, so this command requires the complete local bundle. The [P01e protocol](docs/p01e_protocol.json) registers the next bounded offline gate; its verifier candidate is not implemented yet.
+Use an existing sealed campaign and a new analysis directory. This verifies the original inventory, scans existing traces and saved detector fields, and attributes cost from retained receipts; it does not evolve worlds or change labels. [Findings](docs/p01d_findings.md) separate the finite scan from the [source-level reachability argument](docs/generator_v1_reachability.md). Public receipts do not contain raw trajectories, so this command requires the complete local bundle. The [P01e findings](docs/p01e_findings.md) report the subsequent offline verifier preflight.
+
+## P01e offline verifier preflight
+
+The [P01e protocol](docs/p01e_protocol.json) and [implementation registration](docs/p01e_registration.md) specify a separate Python verifier that emits physical activity during checked replay. It preserves the frozen reference pipeline. Its fixed source/input identities are in [the freeze](docs/p01e_freeze.json). This is an engineering comparison on existing evidence, with no native world execution.
+
+```sh
+python3 scripts/validate_p01e.py artifacts/p01e-new-run
+python3 scripts/audit_p01e_v2.py artifacts/p01e-new-run artifacts/p01e-new-audit.json
+```
+
+These are the historical entry points, not authorization to repeat the single registered timing attempt. Execution requires the full byte-matching P00g/P01 bundles, a new output directory and permission for `ps` memory sampling. Receipts alone do not contain those inputs. The audit reads a completed bundle and requires a new destination outside it. RSS is sampled; no hard instantaneous memory bound is established.
+
+[P01e findings](docs/p01e_findings.md) preserve the single sealed attempt, 112 native and 96 environment fixture comparisons, eight exact P01 pairs, and all 11 corruption rejections. The candidate used 57.720598 versus 115.845487 seconds of paired child CPU on this host/panel. The frozen v1 receipt auditor failed on float-sum equality; the separate post-hoc v2 auditor verifies Decimal gate arithmetic without changing the original candidate, harness, freeze or measurements. The [admission record](docs/p01e_admission.json) records that qualification. The original campaign pipeline and scientific status remain unchanged.

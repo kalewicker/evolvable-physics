@@ -1,0 +1,16 @@
+{
+  "child_cpu_seconds": 0.333771,
+  "guard_and_reaped_children_cpu_seconds": 0.437627,
+  "guard_self_cpu_seconds": 0.054879,
+  "peak_rss_bytes": 227344384,
+  "peak_sampled_rss_bytes": 227328000,
+  "returncode": 0,
+  "rss_samples": 24,
+  "schema": "p01-stage-result-v1",
+  "status": "exited",
+  "stderr_bytes": 0,
+  "stderr_observed_bytes": 0,
+  "stdout_bytes": 260,
+  "stdout_observed_bytes": 260,
+  "wall_seconds": 0.35112666711211205
+}

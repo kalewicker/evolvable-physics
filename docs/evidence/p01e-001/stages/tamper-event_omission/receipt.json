@@ -1,0 +1,1 @@
+{"clean_positive_control": "pass", "corruption": "event_omission", "rejections": {"candidate": {"exception": "AssertionError", "reason": "scheduler selection"}, "reference": {"exception": "AssertionError", "reason": "scheduler selection"}}, "status": "pass"}

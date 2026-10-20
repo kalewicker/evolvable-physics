@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01e.py", line 108, in <module>
+    result = verify(bundle.resolve())
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01e.py", line 93, in verify
+    assert assessment['leaf_cpu_seconds'] == cpu and assessment['candidate_to_reference_cpu_ratio'] == ratio
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

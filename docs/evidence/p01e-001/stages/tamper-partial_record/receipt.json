@@ -1,0 +1,1 @@
+{"clean_positive_control": "pass", "corruption": "partial_record", "rejections": {"candidate": {"exception": "AssertionError", "reason": "Partial record"}, "reference": {"exception": "AssertionError", "reason": "Partial record"}}, "status": "pass"}

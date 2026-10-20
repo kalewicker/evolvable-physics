@@ -1,0 +1,1 @@
+{"clean_positive_control": "pass", "corruption": "world", "rejections": {"candidate": {"exception": "AssertionError", "reason": "independent state replay"}, "reference": {"exception": "AssertionError", "reason": "independent state replay"}}, "status": "pass"}

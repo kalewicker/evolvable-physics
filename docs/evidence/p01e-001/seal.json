@@ -1,0 +1,14 @@
+{
+  "checksums_sha256": "e54c8d1b8ac3e07717f2841fa0e66ba687e3af685df2a1d24fd3396f4f38b06c",
+  "gate_pass": true,
+  "manifest_sha256": "9e77746c746f1723a8d4e3780d9d898edcbfde3f96f6ac0d2982effde0bc1248",
+  "overshoot": [],
+  "resource_usage": {
+    "artifact_bytes": 1632415,
+    "peak_observed_rss_bytes": 361168896,
+    "total_process_cpu_seconds": 227.043987,
+    "wall_seconds": 195.12846779171377
+  },
+  "schema": "p01e-offline-seal-v1",
+  "scientific_status": "untested"
+}
