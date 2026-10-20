@@ -1,0 +1,14 @@
+test_checker_has_only_standard_library_imports (test_p01j_registration.Registration.test_checker_has_only_standard_library_imports) ... ok
+test_complete_descriptor_census_and_slot_ids (test_p01j_registration.Registration.test_complete_descriptor_census_and_slot_ids) ... ok
+test_contact_route_and_operation_order_cannot_be_collapsed (test_p01j_registration.Registration.test_contact_route_and_operation_order_cannot_be_collapsed) ... ok
+test_ignored_fields_and_invalid_boundaries_cannot_be_weakened (test_p01j_registration.Registration.test_ignored_fields_and_invalid_boundaries_cannot_be_weakened) ... ok
+test_incoming_kind_coherence_does_not_admit_child_donor (test_p01j_registration.Registration.test_incoming_kind_coherence_does_not_admit_child_donor) ... ok
+test_map_removal_duplication_and_boolean_coercion_rejected (test_p01j_registration.Registration.test_map_removal_duplication_and_boolean_coercion_rejected) ... ok
+test_no_sampling_execution_or_panel_drift (test_p01j_registration.Registration.test_no_sampling_execution_or_panel_drift) ... ok
+test_states_and_material_are_separate_predicates (test_p01j_registration.Registration.test_states_and_material_are_separate_predicates) ... ok
+test_wildcard_and_law_initial_routing_remain_fixed (test_p01j_registration.Registration.test_wildcard_and_law_initial_routing_remain_fixed) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.017s
+
+OK

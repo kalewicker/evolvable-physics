@@ -260,3 +260,17 @@ subsets, with independent graph checks and explicit failure examples. No laws
 were sampled or worlds advanced. Next is a separate registration for literal-
 field adapter readiness checks; generator implementation and a new experiment
 are not yet admitted. The P01g negative gate and scientific status are unchanged.
+
+## P01j literal-field readiness registration
+
+The [fixed readiness protocol](docs/p01j_protocol.json) and
+[registration notes](docs/p01j_registration.md) now register 11,664 individual
+rule-field cases and 972 environment assemblies, plus missing-body/state/
+material barriers, invalid inputs and ignored-field probes. The
+[static findings](docs/p01j_findings.md) verify descriptor coverage and frozen
+identities; the adapters have not run.
+
+Next implement the separate Rust/Python literal-field adapters and fixed
+validator under this registration. No hash sampler, candidate enumeration,
+world transitions, new sampling panel or E01 is admitted. The input registry
+and criteria remain frozen even if an implementation needs repair.

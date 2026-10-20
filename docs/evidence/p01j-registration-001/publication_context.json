@@ -1,0 +1,32 @@
+{
+  "base_commit": "0cbf267d4f0fdd2419b9ad3a54f564eb30e42075",
+  "copies": [
+    {
+      "original": "artifacts/p01j-registration-001/static_review.json",
+      "public": "docs/evidence/p01j-registration-001/static_review.json",
+      "sha256": "82470a606c54cef9bb7832b64db7687fb3114795cc5e653102345e424649540f"
+    },
+    {
+      "original": "artifacts/p01j-registration-001-optimized-tests.txt",
+      "public": "docs/evidence/p01j-registration-001/tests/tests.txt",
+      "sha256": "0a3187121916574289428215733bc25dc662480d793a88226a16d3f64ef53b9d"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "278ac4b61f53c9b9f87c36fbfc8434d3f28d4bf5d77c47da6de515e4e06d9a0c",
+    "README.md": "64752ebf23cb5c1dbb8aabeaed151b95d3580190f657935bcd1da745ab1cab30",
+    "docs/evidence/README.md": "5a1dbdf423b5dd6c209a823f5b7c742baef51eb499e8dd5912770ef54350080b",
+    "docs/p01j_findings.md": "3cd0f02705da4f8e885ed7654cb541d580a16c3292c399ae9eafc8dbd66898ac",
+    "docs/p01j_literal_fields.json": "ba7f3594d16837ded1e6dd61cd1ed08d599f82bbd2fdffa1da47f64a4e680f3d",
+    "docs/p01j_protocol.json": "6c6ba969189cc015b9fb7a0fb786320dd80ec22c3e81c774ff8b1e695af0222b",
+    "docs/p01j_registration.md": "5615081b146dc373160aab9da27589e319b24e6b4512b4bff8fcc4917baa1da9",
+    "docs/p01j_registration_freeze.json": "e5ad02996fc1f89271e0af858cc856dc8693b499f655cfd104653481f5bc2c72",
+    "docs/status.json": "358267a4a2eeed89ccbc63d800400f356cdb5df8fb3ca7e103320aba87a55469",
+    "scripts/check_p01j_registration.py": "ef0e711916acdb7be950b716cb09b7f1bcd0e70d0abce24fd2f4f54026f49c1f",
+    "scripts/test_p01j_registration.py": "4083fa88bd7f62e848728630fe8f65a67bc7af9c0fdc831043e1efcc55f70698"
+  },
+  "note": "The optimized-mode test log and final findings/guidance are external to the registration freeze. All prior 345 public entries remain unchanged. Literal adapter implementation is the next registered work; sampling and dynamics remain unadmitted.",
+  "schema": "p01j-registration-publication-context-v1",
+  "scope": "static readiness registration only; no literal adapters, sampler or world execution"
+}

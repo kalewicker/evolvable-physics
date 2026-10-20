@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01i_design_complete",
+  "stage": "P01j_registration_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "register implementation-readiness checks for the exact proposed v3 kind-map contract before adapter implementation",
-    "fix literal-field Rust/Python comparisons covering every form/route, shared map reuse, absent donor bodies and unchanged state/material barriers",
-    "no hash sampler calls, candidate enumeration, world transitions, witness execution, new sampling panel or E01; any later experiment needs a separate registration and execution freeze"
+    "implement the separate literal-field Rust/Python adapters and fixed readiness validator at the registered new paths; leave frozen sources and Cargo files unchanged",
+    "verify all fixed rule/assembly cases, source routing and map reuse, independent operation/accounting invariants, negatives and invalid inputs; retain every attempt with source identities",
+    "no hash sampler implementation or calls, candidate enumeration, world transitions, new sampling panel, environment changes or E01; any later experiment requires a separate registration and execution freeze"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -53,7 +53,7 @@
   "p01_protocol_closed": true,
   "p01_closure": "docs/p01_closure.json",
   "diagnosis_receipt": "docs/evidence/p01d-001/findings.json",
-  "next_engineering_protocol": null,
+  "next_engineering_protocol": "docs/p01j_protocol.json",
   "new_world_runs_admitted": false,
   "e01_authorized": false,
   "p01e_execution_complete": true,
@@ -64,7 +64,7 @@
   "p01e_admission": "docs/p01e_admission.json",
   "p01e_findings": "docs/p01e_findings.md",
   "p01e_receipt": "docs/evidence/p01e-001/receipt_audit_v2.json",
-  "next_work_requires_new_protocol": true,
+  "next_work_requires_new_protocol": false,
   "p01f_registration_complete": true,
   "p01f_execution_started": true,
   "p01f_static_review": "docs/evidence/p01f-registration-001/static_review.json",
@@ -163,5 +163,13 @@
   "p01i_findings": "docs/p01i_findings.md",
   "generator_v3_design": "docs/generator_v3_design.json",
   "generator_v3_implemented": false,
-  "p01i_static_review": "docs/evidence/p01i-design-001/static_review.json"
+  "p01i_static_review": "docs/evidence/p01i-design-001/static_review.json",
+  "p01j_registration_complete": true,
+  "p01j_protocol": "docs/p01j_protocol.json",
+  "p01j_registration_freeze": "docs/p01j_registration_freeze.json",
+  "p01j_static_review": "docs/evidence/p01j-registration-001/static_review.json",
+  "p01j_findings": "docs/p01j_findings.md",
+  "p01j_literal_adapter_validation_started": false,
+  "literal_field_adapter_implementation_admitted": true,
+  "generator_v3_sampling_admitted": false
 }

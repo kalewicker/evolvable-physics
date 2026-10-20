@@ -1381,6 +1381,18 @@
     {
       "file": "docs/evidence/p01i-design-001/static_review.json",
       "sha256": "7224e0f84a4bc396c3af2c80af1e107cdf23ced96b58a7dc307816b7cfd5490d"
+    },
+    {
+      "file": "docs/evidence/p01j-registration-001/publication_context.json",
+      "sha256": "5a0d630c844525e995b086ec39ee183cb8012a8088c4876c1bb8df7630301e9e"
+    },
+    {
+      "file": "docs/evidence/p01j-registration-001/static_review.json",
+      "sha256": "82470a606c54cef9bb7832b64db7687fb3114795cc5e653102345e424649540f"
+    },
+    {
+      "file": "docs/evidence/p01j-registration-001/tests/tests.txt",
+      "sha256": "0a3187121916574289428215733bc25dc662480d793a88226a16d3f64ef53b9d"
     }
   ]
 }

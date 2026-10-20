@@ -69,3 +69,11 @@ cross-checked type paths. It includes no rule tables, initial worlds, sampled
 laws or trajectories. Publication context binds the byte-identical local
 receipt and final design/checker/status files. It is not an execution seal or
 sampling admission. See [design findings](../p01i_findings.md).
+
+P01j registration publishes a static descriptor-census review and the optimized-
+Python registration-test log. Publication context binds the byte-identical
+copies, final findings/guidance and 130-file registration freeze. This is not
+adapter execution or law sampling: no rule table or initial world was built.
+The next literal-field implementation step is bounded by the fixed registration;
+future sampling and world execution remain unadmitted. See
+[registration findings](../p01j_findings.md).

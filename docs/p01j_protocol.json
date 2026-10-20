@@ -1,0 +1,98 @@
+{
+  "schema": "p01j-v3-literal-readiness-registration-v1",
+  "registered_date": "2026-10-20",
+  "scope": "registration only; future literal-field adapter checks, no hash draws or world execution",
+  "generator_design": "docs/generator_v3_design.json",
+  "registry": "docs/p01j_literal_fields.json",
+  "namespace": "p01-generator-v3",
+  "proposal_ids": [],
+  "panels": {
+    "rule_field_cases": 11664,
+    "environment_assembly_cases": 972,
+    "barrier_cases": 8,
+    "invalid_input_cases": 12,
+    "ignored_field_probe_groups": 6
+  },
+  "rule_expansion": {
+    "order": [
+      "map",
+      "raw_donor_kind",
+      "variant",
+      "raw_state_pair"
+    ],
+    "rule_id": "ordinal % 8",
+    "kind1": "(kind0 + state1) % 3",
+    "new_kind": "(kind0 + state0 + 1) % 3",
+    "value": "(state0 + 2 * state1) % 3",
+    "sign": "(state0 + state1) % 2",
+    "amount": "state1 % 2",
+    "matter": "state0 % 2"
+  },
+  "assembly_expansion": {
+    "order": [
+      "map",
+      "rotation_0_through_8",
+      "initial_fields"
+    ],
+    "variant": "(slot + rotation) % 9",
+    "kind0": "slot % 3",
+    "state0": "(slot + rotation) % 4",
+    "state1": "(slot + rotation + 1) % 4",
+    "other_fields": "same formula as rule_expansion",
+    "rule_id": "slot",
+    "map_reuse": "one per-law map shared by all eight slots and four initial field records"
+  },
+  "field_domains": {
+    "form": 8,
+    "kind0": 3,
+    "kind1": 3,
+    "new_kind": 3,
+    "state0": 4,
+    "state1": 4,
+    "value": 3,
+    "sign": 2,
+    "amount": 2,
+    "matter": 2,
+    "route": 2
+  },
+  "field_source_contract": {
+    "interface": "callback(initial_id, field, index, modulus) -> raw integer; no proposal ID or hash fallback",
+    "map_reads": "child_kind_by_donor at initial=0, indices 0,1,2, modulus=3, exactly once each per assembly; returns registry map minus one",
+    "rule_reads": "initial=0, rule-slot index 0..7, declared field domain; unused fields may be skipped",
+    "initial_reads": "requested initial ID, node_kind/node_state indices 0..7 modulus=3; structural indices 0..7 modulus=2; scheduler index=0 modulus=18446744073709551615",
+    "validation": "reject missing required keys, non-integers including booleans, and out-of-range returned values before modulo reduction; no fallback draws"
+  },
+  "future_paths": {
+    "rust": "src/bin/generator-v3-fields.rs",
+    "python": "scripts/generator_v3_fields.py",
+    "validator": "scripts/validate_p01j.py"
+  },
+  "comparison": {
+    "rules": "exact complete decoded JSON equality Rust/Python; separately check literal variant shape and all operation operands/order/costs against v2 contract with only the three declared kind substitutions",
+    "assembly": "exact complete environment equality, eight slot IDs, map routing trace, law identity across four initial IDs; original Contact ring, literal initial fields, resources, counters, ledgers and limits",
+    "ignored_fields": "base rule uses map [2,3,1], kind0=0, kind1=2, new_kind=0, state0=state1=3, value=2, sign=0, amount=0, matter=1, rule_id=0; change only the listed field across listed values; exact output unchanged in both adapters",
+    "barriers": "evaluate only registered local predicates on descriptors; no matching or dynamics; expected flags do not assert operation applicability or full reachability",
+    "invalid_inputs": "each adapter must reject every named invalid case with a structured error and no output environment; all other fields use the ignored-field base, initial=0 and first literal initial record",
+    "coverage_limits": "finite authored boundary panel, not all field combinations, finite sampler preimages, sampled-law equivalence, or native reachability"
+  },
+  "gate": [
+    "every fixed rule and assembly cell present exactly once in order; complete Rust/Python equality and independent operation/accounting invariants",
+    "all routing/map reuse checks, six ignored-field groups, eight barrier verdicts and twelve input rejections pass",
+    "no hash sampler, candidate enumeration, transition interpreter, worker, detector or historical campaign invocation; retain identities/logs of every readiness attempt",
+    "all historical frozen sources and receipts unchanged; source/binary/input hashes and full counts recorded"
+  ],
+  "future_validation_limits": {
+    "wall_seconds_per_adapter": 30,
+    "output_bytes_per_adapter": 67108864,
+    "aggregate_wall_seconds": 120,
+    "note": "development readiness limits, not a campaign or benchmark; build and ordinary unit tests precede validation; validator must enforce limits and retain truncation/failure receipts"
+  },
+  "failure_policy": "retain failed readiness attempts; fix implementation and repeat the same fixed panel with new source identities/output directory. Do not edit frozen inputs or criteria to turn a failure into a pass. This engineering panel is not a consumed scientific sampling experiment.",
+  "implementation_admission_after_registration": "only separate literal-field adapters and their fixed readiness validator; no hash sampler implementation or execution",
+  "registration_only_now": true,
+  "literal_field_validation_executed": false,
+  "law_sampling_admitted": false,
+  "world_execution_admitted": false,
+  "e01_authorized": false,
+  "scientific_status": "untested"
+}

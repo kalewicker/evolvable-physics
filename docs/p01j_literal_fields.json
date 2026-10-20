@@ -1,0 +1,826 @@
+{
+  "schema": "p01j-literal-field-registry-v1",
+  "maps": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      3,
+      2
+    ],
+    [
+      1,
+      3,
+      3
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      1,
+      3
+    ],
+    [
+      2,
+      2,
+      1
+    ],
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      3
+    ],
+    [
+      2,
+      3,
+      1
+    ],
+    [
+      2,
+      3,
+      2
+    ],
+    [
+      2,
+      3,
+      3
+    ],
+    [
+      3,
+      1,
+      1
+    ],
+    [
+      3,
+      1,
+      2
+    ],
+    [
+      3,
+      1,
+      3
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      3,
+      2,
+      2
+    ],
+    [
+      3,
+      2,
+      3
+    ],
+    [
+      3,
+      3,
+      1
+    ],
+    [
+      3,
+      3,
+      2
+    ],
+    [
+      3,
+      3,
+      3
+    ]
+  ],
+  "raw_donor_kinds": [
+    0,
+    1,
+    2
+  ],
+  "raw_state_pairs": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "variants": [
+    {
+      "name": "set_state",
+      "form": 0,
+      "route": 0,
+      "pattern_arity": 1,
+      "edge_class": null,
+      "ops": [
+        "SetState"
+      ]
+    },
+    {
+      "name": "add_state",
+      "form": 1,
+      "route": 0,
+      "pattern_arity": 1,
+      "edge_class": null,
+      "ops": [
+        "AddState"
+      ]
+    },
+    {
+      "name": "burn",
+      "form": 2,
+      "route": 0,
+      "pattern_arity": 1,
+      "edge_class": null,
+      "ops": [
+        "Burn"
+      ]
+    },
+    {
+      "name": "contact_transfer",
+      "form": 3,
+      "route": 0,
+      "pattern_arity": 2,
+      "edge_class": "Contact",
+      "ops": [
+        "Transfer"
+      ]
+    },
+    {
+      "name": "structural_transfer",
+      "form": 3,
+      "route": 1,
+      "pattern_arity": 2,
+      "edge_class": "Structural",
+      "ops": [
+        "Transfer"
+      ]
+    },
+    {
+      "name": "attached_birth",
+      "form": 4,
+      "route": 0,
+      "pattern_arity": 1,
+      "edge_class": null,
+      "ops": [
+        "CreateNode",
+        "CreateEdge",
+        "Transfer",
+        "Burn"
+      ]
+    },
+    {
+      "name": "contact_edge_create",
+      "form": 5,
+      "route": 0,
+      "pattern_arity": 2,
+      "edge_class": "Contact",
+      "ops": [
+        "CreateEdge"
+      ]
+    },
+    {
+      "name": "structural_edge_delete",
+      "form": 6,
+      "route": 0,
+      "pattern_arity": 2,
+      "edge_class": "Structural",
+      "ops": [
+        "DeleteEdge"
+      ]
+    },
+    {
+      "name": "leaf_recycle",
+      "form": 7,
+      "route": 0,
+      "pattern_arity": 2,
+      "edge_class": "Structural",
+      "ops": [
+        "DeleteEdge",
+        "DeleteNode",
+        "Burn"
+      ]
+    }
+  ],
+  "initial_fields": [
+    {
+      "id": 0,
+      "node_kind": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      "node_state": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      "structural": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scheduler": 0
+    },
+    {
+      "id": 1,
+      "node_kind": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        1
+      ],
+      "node_state": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        1
+      ],
+      "structural": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduler": 1
+    },
+    {
+      "id": 2,
+      "node_kind": [
+        1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "node_state": [
+        1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "structural": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "scheduler": 2
+    },
+    {
+      "id": 3,
+      "node_kind": [
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        0
+      ],
+      "node_state": [
+        0,
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2
+      ],
+      "structural": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "scheduler": 18446744073709551614
+    }
+  ],
+  "ignored_field_probes": [
+    {
+      "variant": "attached_birth",
+      "field": "new_kind",
+      "values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "variant": "structural_transfer",
+      "field": "kind1",
+      "values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "variant": "leaf_recycle",
+      "field": "kind1",
+      "values": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "variant": "attached_birth",
+      "field": "amount",
+      "values": [
+        0,
+        1
+      ]
+    },
+    {
+      "variant": "leaf_recycle",
+      "field": "amount",
+      "values": [
+        0,
+        1
+      ]
+    },
+    {
+      "variant": "burn",
+      "field": "route",
+      "values": [
+        0,
+        1
+      ]
+    }
+  ],
+  "barrier_verdict_order": [
+    "birth_present",
+    "funding_kind_path",
+    "recycle_kind_path",
+    "child_donor_kind_path",
+    "material_funding_local_predicate",
+    "child_donor_state_predicate"
+  ],
+  "barriers": [
+    {
+      "name": "coherent_baseline",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "birth_donors": [
+        1,
+        2
+      ],
+      "funding_donors": [
+        1
+      ],
+      "recycle_donors": [
+        1
+      ],
+      "parent": 1,
+      "child_state": 0,
+      "next_donor_state": null,
+      "funding_target_state": null,
+      "transfer_matter": 1,
+      "expected": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "birth_absent",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "birth_donors": [],
+      "funding_donors": [
+        1
+      ],
+      "recycle_donors": [
+        1
+      ],
+      "parent": 1,
+      "child_state": 0,
+      "next_donor_state": null,
+      "funding_target_state": null,
+      "transfer_matter": 1,
+      "expected": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "name": "funding_absent",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "birth_donors": [
+        1,
+        2
+      ],
+      "funding_donors": [],
+      "recycle_donors": [
+        1
+      ],
+      "parent": 1,
+      "child_state": 0,
+      "next_donor_state": null,
+      "funding_target_state": null,
+      "transfer_matter": 1,
+      "expected": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "name": "recycle_absent",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "birth_donors": [
+        1,
+        2
+      ],
+      "funding_donors": [
+        1
+      ],
+      "recycle_donors": [],
+      "parent": 1,
+      "child_state": 0,
+      "next_donor_state": null,
+      "funding_target_state": null,
+      "transfer_matter": 1,
+      "expected": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "child_donor_absent",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "birth_donors": [
+        1
+      ],
+      "funding_donors": [
+        1
+      ],
+      "recycle_donors": [
+        1
+      ],
+      "parent": 1,
+      "child_state": 0,
+      "next_donor_state": null,
+      "funding_target_state": null,
+      "transfer_matter": 1,
+      "expected": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "name": "child_donor_state_mismatch",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "birth_donors": [
+        1,
+        2
+      ],
+      "funding_donors": [
+        1
+      ],
+      "recycle_donors": [
+        1
+      ],
+      "parent": 1,
+      "child_state": 0,
+      "next_donor_state": 1,
+      "funding_target_state": null,
+      "transfer_matter": 1,
+      "expected": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "name": "funding_state_mismatch",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "birth_donors": [
+        1,
+        2
+      ],
+      "funding_donors": [
+        1
+      ],
+      "recycle_donors": [
+        1
+      ],
+      "parent": 1,
+      "child_state": 0,
+      "next_donor_state": null,
+      "funding_target_state": 1,
+      "transfer_matter": 1,
+      "expected": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "name": "funding_has_no_matter",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "birth_donors": [
+        1,
+        2
+      ],
+      "funding_donors": [
+        1
+      ],
+      "recycle_donors": [
+        1
+      ],
+      "parent": 1,
+      "child_state": 0,
+      "next_donor_state": null,
+      "funding_target_state": null,
+      "transfer_matter": 0,
+      "expected": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    }
+  ],
+  "invalid_inputs": [
+    {
+      "name": "short_map",
+      "target": "map",
+      "value": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "low_map_kind",
+      "target": "map",
+      "value": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "high_map_kind",
+      "target": "map",
+      "value": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "bool_map_kind",
+      "target": "map",
+      "value": [
+        true,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "high_form",
+      "target": "form",
+      "value": 8
+    },
+    {
+      "name": "low_kind0",
+      "target": "kind0",
+      "value": -1
+    },
+    {
+      "name": "high_state0",
+      "target": "state0",
+      "value": 4
+    },
+    {
+      "name": "high_route",
+      "target": "route",
+      "value": 2
+    },
+    {
+      "name": "negative_amount",
+      "target": "amount",
+      "value": -1
+    },
+    {
+      "name": "high_initial",
+      "target": "initial_id",
+      "value": 4
+    },
+    {
+      "name": "high_scheduler",
+      "target": "scheduler",
+      "value": 18446744073709551615
+    },
+    {
+      "name": "missing_required_field",
+      "target": "required_kind0",
+      "value": null
+    }
+  ]
+}
