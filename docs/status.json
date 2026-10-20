@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01f_complete",
+  "stage": "P01g_registration",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "register a small generator-v2 sampling-feasibility preflight with fixed law IDs, initial-state seeds, horizons, budgets and go/no-go criteria before drawing any laws",
-    "implement and statically verify the sampler against the v2 distribution; reuse existing watchdog/accounting and independent replay",
-    "separate per-law mechanistic reachability from detector labels, retain negative and inconclusive cases, and state closed activation limits"
+    "implement the fixed 64-cell P01g campaign and event-level mechanism audit using the existing worker/reporter/guard/interpreters without modifying frozen source files",
+    "validate synthetic bookkeeping, censoring and failure handling without constructing a hash-keyed law or executing registered native transitions",
+    "freeze full implementation/dependency/binary/input closure and write separate execution admission before any law construction; then only the registered fixed batch may run"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -53,7 +53,7 @@
   "p01_protocol_closed": true,
   "p01_closure": "docs/p01_closure.json",
   "diagnosis_receipt": "docs/evidence/p01d-001/findings.json",
-  "next_engineering_protocol": "docs/p01f_protocol.json",
+  "next_engineering_protocol": "docs/p01g_protocol.json",
   "new_world_runs_admitted": false,
   "e01_authorized": false,
   "p01e_execution_complete": true,
@@ -64,13 +64,13 @@
   "p01e_admission": "docs/p01e_admission.json",
   "p01e_findings": "docs/p01e_findings.md",
   "p01e_receipt": "docs/evidence/p01e-001/receipt_audit_v2.json",
-  "next_work_requires_new_protocol": true,
+  "next_work_requires_new_protocol": false,
   "p01f_registration_complete": true,
   "p01f_execution_started": true,
   "p01f_static_review": "docs/evidence/p01f-registration-001/static_review.json",
   "p01f_registration": "docs/p01f_protocol.json",
   "p01f_registration_freeze": "docs/p01f_registration_freeze.json",
-  "generator_v2_implemented": false,
+  "generator_v2_implemented": true,
   "reachability_witness_runner_implemented": true,
   "next_work_requires_execution_freeze": true,
   "p01f_execution_complete": true,
@@ -98,5 +98,13 @@
       "node_deaths": 16,
       "whole_epoch_world_cap_cases": 4
     }
-  }
+  },
+  "generator_v2_sampled_output_equivalence_verified": false,
+  "p01g_registration_complete": true,
+  "p01g_sampling_started": false,
+  "p01g_campaign_runner_implemented": false,
+  "p01g_protocol": "docs/p01g_protocol.json",
+  "p01g_registration_freeze": "docs/p01g_registration_freeze.json",
+  "p01g_findings": "docs/p01g_findings.md",
+  "p01g_static_review": "docs/evidence/p01g-registration-001/static_review.json"
 }

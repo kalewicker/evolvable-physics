@@ -1,0 +1,51 @@
+{
+  "compiled_binary": {
+    "file": "target/release/generator-v2",
+    "scope": "compiled identity only; no hash-keyed law construction; not a full execution freeze",
+    "sha256": "3fd5d2a17ce89d3795972c02f52d0cb2dc1e6c097694146f0ddf25e5ea76b41e"
+  },
+  "copies": [
+    {
+      "file": "docs/evidence/p01g-registration-001/static_review.json",
+      "original": "artifacts/p01g-registration-001/static_review.json",
+      "sha256": "da0ab643457ba88d3b8e2a8640abe213260d8059d4804ed9855349b3c945deee"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/checksums.json",
+      "original": "artifacts/p01g-registration-001/checksums.json",
+      "sha256": "33b6486ad3f8b57cd04c5fa4e2a8c1220ad473801291ab6003d29dda2f7eef78"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/build.txt",
+      "original": "artifacts/p01g-registration-build-001/build.txt",
+      "sha256": "79aedf4fd3ff7469e354806913ffc81836f9a9172b4e7f5814bed4b1d6e88ff8"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/clippy.txt",
+      "original": "artifacts/p01g-registration-build-001/clippy.txt",
+      "sha256": "55249464fc6201541d4c2e116ec40534862a317dffb044338942f46467524215"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/rust/tests.txt",
+      "original": "artifacts/p01g-registration-build-001/rust/tests.txt",
+      "sha256": "25192982b9087a0e73fd0db352cab6224221d2df0166e374fdd8b9ba01ff2a70"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/python/tests.txt",
+      "original": "artifacts/p01g-registration-build-001/python/tests.txt",
+      "sha256": "cdf027e21a134eb5de7678ae864bc70fe237c2f32c9b777b56f7e31058868b45"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "cefd29c371ee8d252d2a190abe177ae1345053af5224092e29ca813b6c8ca1bf",
+    "README.md": "72002af9014bd1f9cdbd28495e9330f1956cac48f2b145adb2e305fa2b446d7a",
+    "docs/p01g_findings.md": "5d45b97bfa52b821396a637931562928975f7086f30624a6b78e387e31d0beab",
+    "docs/p01g_protocol.json": "99b06ab9f6bf768e4d76dc70a2f9b70f1906adcdff0a89374f5a1c72018b7afb",
+    "docs/p01g_registration.md": "76165ef5b8f22d6d661a1d5d110d2105fe9e2c96e1d1e9d01fd774bef1b038e1",
+    "docs/p01g_registration_freeze.json": "db29a045b0fed604cda4bb70ef0ee629519728e7d518e3e6dad6f7248828d537",
+    "docs/status.json": "a9d9e4e6f510f2281b917579754c1b48527f53281f71d41b325fad45caee0b2c"
+  },
+  "schema": "p01g-registration-publication-context-v1",
+  "scope": "static registration and mock-field tests only; no sampled-law equivalence, trajectories or performance measurement"
+}

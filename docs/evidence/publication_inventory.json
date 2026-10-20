@@ -997,6 +997,34 @@
     {
       "file": "docs/evidence/p01f-001/toolchain.json",
       "sha256": "5076099af65b5f654ca956244a51c25d0dd4fbbd5d1a8b4a5f5a6eec94fa67c7"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/build.txt",
+      "sha256": "79aedf4fd3ff7469e354806913ffc81836f9a9172b4e7f5814bed4b1d6e88ff8"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/checksums.json",
+      "sha256": "33b6486ad3f8b57cd04c5fa4e2a8c1220ad473801291ab6003d29dda2f7eef78"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/clippy.txt",
+      "sha256": "55249464fc6201541d4c2e116ec40534862a317dffb044338942f46467524215"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/publication_context.json",
+      "sha256": "ba6925fc901430d206af5c908a4c5c117c487ccde874063fd6e2d69330fa4b47"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/python/tests.txt",
+      "sha256": "cdf027e21a134eb5de7678ae864bc70fe237c2f32c9b777b56f7e31058868b45"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/rust/tests.txt",
+      "sha256": "25192982b9087a0e73fd0db352cab6224221d2df0166e374fdd8b9ba01ff2a70"
+    },
+    {
+      "file": "docs/evidence/p01g-registration-001/static_review.json",
+      "sha256": "da0ab643457ba88d3b8e2a8640abe213260d8059d4804ed9855349b3c945deee"
     }
   ]
 }

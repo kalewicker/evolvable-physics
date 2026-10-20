@@ -1,0 +1,11 @@
+   Compiling causal-alife v0.1.0 (/Users/kalewicker/Documents/Playground/causal-alife)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.04s
+     Running unittests src/bin/generator-v2.rs (target/debug/deps/generator_v2-60736ab4c3610ef0)
+
+running 3 tests
+test tests::invalid_initial_rejected_before_any_draw ... ok
+test tests::mock_contact_route_and_no_initial_structural_edges ... ok
+test tests::mock_all_templates_and_accounting ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

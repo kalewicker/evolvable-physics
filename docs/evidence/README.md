@@ -32,3 +32,11 @@ receipt audit and publication context are outside the original bundle; context
 binds byte-identical copies, pre-execution logs and later closeout documentation.
 The registration is consumed. Reachability admission concerns authored fixtures;
 the law sampler is not implemented and no law draw or E01 is admitted.
+
+P01g registration publishes the subsequent static 16-law/64-trajectory protocol
+review and its inventory, plus build/lint logs, three mock-field Rust tests and
+40 Python tests. No hash-keyed law construction or native transition ran. The
+separate publication context binds those original copies and later status and
+findings. The registration freeze covers sampler sources, not a future execution
+binary/dependency admission. The fixed campaign and event-level mechanism audit
+remain to be implemented and frozen before sampling. See [P01g findings](../p01g_findings.md).

@@ -1,0 +1,80 @@
+{
+  "schema": "p01g-generator-v2-feasibility-registration-v1",
+  "registered_date": "2026-10-20",
+  "stage": "registration and sampler structural review; execution not admitted",
+  "generator": "p01-generator-v2",
+  "generator_contract": "docs/generator_v2_design.md",
+  "prerequisite": "docs/p01f_reachability_admission.json",
+  "proposal_ids": [4000, 4001, 4002, 4003, 4004, 4005, 4006, 4007, 4008, 4009, 4010, 4011, 4012, 4013, 4014, 4015],
+  "initial_state_ids": [0, 1, 2, 3],
+  "expansion": "proposal-major, initial-state-minor; no filtering, rejection, repair or replacement",
+  "law_denominator": 16,
+  "trajectory_denominator": 64,
+  "epochs": 128,
+  "worker_request": {"max_events": 16384, "max_trace_bytes": 4194304},
+  "per_process": {
+    "generation": {"wall_seconds": 5, "sampled_rss_bytes": 134217728, "output_bytes": 1048576},
+    "native": {"wall_seconds": 10, "sampled_rss_bytes": 268435456, "output_bytes": 4456448},
+    "rust_report": {"wall_seconds": 20, "sampled_rss_bytes": 536870912, "output_bytes": 4194304},
+    "python_audit": {"wall_seconds": 30, "sampled_rss_bytes": 536870912, "output_bytes": 1048576}
+  },
+  "campaign": {
+    "wall_seconds": 600,
+    "total_process_cpu_seconds": 300,
+    "artifact_bytes": 1073741824,
+    "metadata_reserve_bytes": 33554432,
+    "poll_seconds": 0.01,
+    "launch_policy": "before each stage reserve its full wall allowance, twice that allowance in aggregate CPU, its output allowance and metadata reserve; stop at first unavailable reservation",
+    "rss_policy": "sampled enforcement plus reaped peak check; not a hard instantaneous memory bound",
+    "accounting": "one measured campaign includes generation, verification, native worker, Rust report, Python audit, extraction, guards, snapshots, inventory and seal bytes; compilation and structural unit tests precede its clock"
+  },
+  "observables": {
+    "attached_funded_birth": "committed form-4 event creates a fresh node, a donor-to-child Structural edge, child free matter >=1 and activation >=1; record event ID, donor and created node ID",
+    "visible_birth": "an actual attached funded newborn belongs to at least one eligible connected proposal and at least one eligible interaction proposal at the same retained sample while live; record sample and both proposals; this is eligibility only",
+    "additional_structural_funding": "later committed form-3 Structural Transfer has an actual earlier-born node as recipient; exclude the Transfer internal to its birth; retain transferred matter and activation",
+    "descendant_construction": "committed form-4 birth has an actual earlier-born node as its donor/account; record both birth event IDs; this construction relation is not biological ancestry or causal reproduction",
+    "newborn_recycling": "committed form-7 deletion removes a node created in an earlier retained birth event in this same trajectory; record creation/deletion IDs and refund recipient",
+    "visible_birth_recycle_loop": "the same created node satisfies attached_funded_birth, visible_birth and later newborn_recycling within one trajectory; do not pool different nodes, initial states or laws",
+    "orphaning": "record when an actual newborn remains live with no incident Structural edge after a committed event",
+    "full_detector_record": "unchanged original Rust/Python environment detector output for every retained prefix; full-horizon AP null on censoring; never choose one estimator to replace disagreement"
+  },
+  "reporting": {
+    "unit": "proposal ID is the sampled-law unit; four initial states are nested observations, not 64 independent law samples",
+    "law_identity": "SHA-256 of canonical ordered eight-rule list with only id fields omitted; retain duplicate bodies and duplicate tables; report both 16 proposal cells and distinct table count",
+    "denominators": "retain all 16 laws and all 64 trajectories, including negative, censored, failed and unstarted cells; per-law summaries preserve all four initial-state outcomes",
+    "missingness": "report observed prefix mechanisms as lower-bound observations; unobserved full-horizon metrics are null with reason, never false or silently excluded",
+    "costs": "report aggregate measured pipeline CPU/wall/bytes and each stage's CPU/wall/RSS/output; per-run median, nearest-rank p95 and maximum; no whole-campaign forecast from witness timing",
+    "interpretation": "fixed deterministic proposal panel, post-P01 development evidence; descriptive fractions only, no random-population confidence intervals, v1 superiority estimate or prevalence generalization"
+  },
+  "engineering_gate": [
+    "all 64 fixed trajectories complete 128 epochs without censoring, failed stages, missing or replaced cells",
+    "Rust and independently implemented Python samplers agree on complete initial environments for every cell; law tables are identical across each proposal's four initial states",
+    "frozen reference Python interpreter verifies candidates, scheduling, dependencies, states, ledgers, worker summary, caps and complete detector records; separate single-pass adapter additionally agrees",
+    "mechanistic extraction checks committed event-level state differences, not rule availability or pooled detector activity",
+    "all per-process and aggregate ceilings, source/input/binary identities, inventories and seals pass"
+  ],
+  "mechanism_gate": {
+    "min_distinct_rule_tables_with_visible_birth": 2,
+    "min_of_those_tables_with_same_trajectory_visible_birth_recycle_loop": 1,
+    "eligible_observations": "complete independently verified trajectories only; one qualifying table counts once even when multiple proposals or initial states share it",
+    "additional_funding_and_descendant_construction": "secondary descriptive endpoints; not substituted for the primary loop or imposed as extra acceptance thresholds",
+    "rationale": "small engineering continuation criterion requiring repeatable access to detector-visible birth across distinct sampled tables plus one within-trajectory recycling example; not a statistical significance threshold or life criterion"
+  },
+  "decision": {
+    "engineering_failure_or_incomplete": "stop; retain every case and diagnose infrastructure, censoring or feasibility; no expansion or completion of missing cells under this registration",
+    "engineering_pass_mechanism_fail": "stop this distribution's escalation; retain zeros and frozen gates; read-only diagnosis before any separately justified redesign",
+    "both_pass": "eligible to propose a fresh bounded development protocol; no automatic E01, longer run, seed expansion, driven environment or scientific claim"
+  },
+  "requirements_before_execution": [
+    "preserve this registration and static-review receipt before any hash-keyed sampled law construction",
+    "finish the fixed campaign and event-level mechanism validators using existing worker/reporter/guard/interpreters without editing frozen source paths",
+    "freeze the complete source/dependency/binary/input closure and write a separate execution-admission record before any registered sampler draw or native transition, including tests",
+    "build and mock-field/template/static tests may precede execution freeze; no hash-keyed sampler calls on any proposal before that freeze",
+    "run only one attempt in a new output directory, with a full 64-slot manifest before drawing; preserve all outcomes; no rerun, replacement, repaired law, preferred estimator or relaxed gate"
+  ],
+  "closed_environment_limits": "initial activation 64, no supply; each birth burns activation, so at most 64 births per trajectory conservatively; free state/edge changes can persist and do not establish sustained constructive turnover",
+  "execution_admitted_now": false,
+  "law_sampling_admitted_now": false,
+  "e01_authorized": false,
+  "scientific_status": "untested"
+}
