@@ -77,3 +77,13 @@ adapter execution or law sampling: no rule table or initial world was built.
 The next literal-field implementation step is bounded by the fixed registration;
 future sampling and world execution remain unadmitted. See
 [registration findings](../p01j_findings.md).
+
+P01j readiness publishes the subsequent literal-field assessment, identities,
+stage guards, original inventory/seal, external completion record and later
+read-only custody/input audit. Build/test logs include the initial failed Rust
+compilation and its successful correction. Complete JSONL records, source and
+failure snapshots, and binaries remain local. The original 17-entry inventory
+was not changed to include later completion/audit/log/documentation files;
+publication context anchors those separately. All 12,671 fixed records passed,
+with no hash sampling or dynamics. See
+[readiness findings](../p01j_readiness_findings.md) for exact admission limits.

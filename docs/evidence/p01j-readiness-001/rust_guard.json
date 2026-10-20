@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Users/kalewicker/Documents/Playground/causal-alife/target/release/generator-v3-fields"
+  ],
+  "output_bytes": 11458375,
+  "output_ceiling_bytes": 67108864,
+  "returncode": 0,
+  "status": "complete",
+  "wall_ceiling_seconds": 30,
+  "wall_seconds": 0.6307508330792189
+}

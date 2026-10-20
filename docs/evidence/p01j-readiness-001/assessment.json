@@ -1,0 +1,62 @@
+{
+  "case_counts": {
+    "assembly": 972,
+    "barrier": 8,
+    "invalid": 12,
+    "probe": 15,
+    "rule": 11664
+  },
+  "engineering_gate_pass": true,
+  "full_law_initial_groups_verified": 243,
+  "hash_sampler_calls": 0,
+  "ignored_field_groups_verified": 6,
+  "law_sampling_admitted": false,
+  "schema": "p01j-literal-field-readiness-v1",
+  "scientific_status": "untested",
+  "scope": "authored literal fields only; no finite hash sampler or native reachability admission",
+  "source_identities": {
+    "files": {
+      "docs/p01j_literal_fields.json": "ba7f3594d16837ded1e6dd61cd1ed08d599f82bbd2fdffa1da47f64a4e680f3d",
+      "docs/p01j_protocol.json": "6c6ba969189cc015b9fb7a0fb786320dd80ec22c3e81c774ff8b1e695af0222b",
+      "docs/p01j_registration_freeze.json": "e5ad02996fc1f89271e0af858cc856dc8693b499f655cfd104653481f5bc2c72",
+      "scripts/generator_v3_fields.py": "ae759b9b334a0a538df0bdeac777bf019b1535f0959699ae1d744b45b88b8cd7",
+      "scripts/test_p01j_readiness.py": "5f52667e22f406a4326df03c0529fc9b728da827dd69757b7e596d663f21de41",
+      "scripts/validate_p01j.py": "0a0b88d7d6156ff519e2dbc0ed3e873baaf1b2c3fdf295c5f16fa0c025bee40d",
+      "src/bin/generator-v3-fields.rs": "e46aa6375125417f3f768248fa947a7cff37f5be2e064da63b3734266dbb1e76"
+    },
+    "literal_inputs_sha256": "eaec085f171d085e0501d6ec6bf0ea90f8669d02435e7d0d45a539f27ee34622",
+    "prior_public_receipts_verified": 348,
+    "python_executable": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "python_executable_sha256": "695fc18cdb9a699c6b1ea88ce4027854782ed704eb34cc3200e6f8380155b6a8",
+    "registration_files_verified": 130,
+    "rust_binary_sha256": "f93c18f47f21d24d5afdf7d03ef33a8069926635d2abcebaf52b81de344c5582"
+  },
+  "stages": {
+    "python": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/kalewicker/Documents/Playground/causal-alife/scripts/generator_v3_fields.py"
+      ],
+      "output_bytes": 11458375,
+      "output_ceiling_bytes": 67108864,
+      "returncode": 0,
+      "status": "complete",
+      "wall_ceiling_seconds": 30,
+      "wall_seconds": 0.4543981673195958
+    },
+    "rust": {
+      "command": [
+        "/Users/kalewicker/Documents/Playground/causal-alife/target/release/generator-v3-fields"
+      ],
+      "output_bytes": 11458375,
+      "output_ceiling_bytes": 67108864,
+      "returncode": 0,
+      "status": "complete",
+      "wall_ceiling_seconds": 30,
+      "wall_seconds": 0.6307508330792189
+    }
+  },
+  "status": "pass",
+  "wall_seconds_through_checks": 2.8331878753378987,
+  "world_transitions": 0
+}

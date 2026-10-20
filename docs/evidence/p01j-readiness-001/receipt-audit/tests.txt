@@ -1,0 +1,7 @@
+test_tampered_bundle_is_rejected_before_output_interpretation (test_p01j_receipt_audit.ReceiptAudit.test_tampered_bundle_is_rejected_before_output_interpretation) ... ok
+test_valid_domain_field_change_still_breaks_registered_input_identity (test_p01j_receipt_audit.ReceiptAudit.test_valid_domain_field_change_still_breaks_registered_input_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK

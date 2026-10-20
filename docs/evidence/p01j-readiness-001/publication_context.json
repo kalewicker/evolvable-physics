@@ -1,0 +1,97 @@
+{
+  "copies": [
+    {
+      "original": "artifacts/p01j-readiness-001/assessment.json",
+      "public": "docs/evidence/p01j-readiness-001/assessment.json",
+      "sha256": "7f4da94a36cab93954d33030dde6ca001a3d93e36401616c0e42ae2a1d073b64"
+    },
+    {
+      "original": "artifacts/p01j-readiness-001/identities.json",
+      "public": "docs/evidence/p01j-readiness-001/identities.json",
+      "sha256": "6807cb7bb1bc0603e24cbd5d8b77c21934a9864cc89d31cea873cd7fc0800523"
+    },
+    {
+      "original": "artifacts/p01j-readiness-001/checksums.json",
+      "public": "docs/evidence/p01j-readiness-001/checksums.json",
+      "sha256": "35653426f0621207a303f3af40275651511ff7132ebba9d648f26b325284d440"
+    },
+    {
+      "original": "artifacts/p01j-readiness-001/seal.json",
+      "public": "docs/evidence/p01j-readiness-001/seal.json",
+      "sha256": "da9f4eab8c49413af449fb1686dea4ce43fc4224c54406cf2763764fd2729792"
+    },
+    {
+      "original": "artifacts/p01j-readiness-001/completion.json",
+      "public": "docs/evidence/p01j-readiness-001/completion.json",
+      "sha256": "2f91dfd840ef2a8c8e18809ec9018198a5703c8ec7bf99d2a9913440aead6e45"
+    },
+    {
+      "original": "artifacts/p01j-readiness-001/python_guard.json",
+      "public": "docs/evidence/p01j-readiness-001/python_guard.json",
+      "sha256": "c9bf3186fc97443f29e47e3dea8ec9df6a4fce0c60e258b86dd9f2c8c8f97ea4"
+    },
+    {
+      "original": "artifacts/p01j-readiness-001/rust_guard.json",
+      "public": "docs/evidence/p01j-readiness-001/rust_guard.json",
+      "sha256": "60e39253216ef7f74daafae71631322ebe1b6a1581cb9b8fe2d26a52cb9d9ad7"
+    },
+    {
+      "original": "artifacts/p01j-readiness-001-audit.json",
+      "public": "docs/evidence/p01j-readiness-001/receipt_audit.json",
+      "sha256": "41365714448f01c92d721453bcfeacf3734fce01c7c26f7abe6a6ff0735db6ab"
+    },
+    {
+      "original": "artifacts/p01j-build-001/rust-tests.txt",
+      "public": "docs/evidence/p01j-readiness-001/failed-rust-build/tests.txt",
+      "sha256": "c3912741ae8b12755bb37314e5743a9a01f0518d65f5f2473d1e8a8a345a8ab0"
+    },
+    {
+      "original": "artifacts/p01j-build-001/rust-tests-after-fix.txt",
+      "public": "docs/evidence/p01j-readiness-001/rust/tests.txt",
+      "sha256": "f19817fbb423d0bbfddb1b25b207593ecd23faa5300b38702af268a2d5c09503"
+    },
+    {
+      "original": "artifacts/p01j-build-001/python-tests.txt",
+      "public": "docs/evidence/p01j-readiness-001/python/tests.txt",
+      "sha256": "9afb54f095d3fff160d7f2cbaf32d63923d529027b0a22afb4fdf7707fdb739b"
+    },
+    {
+      "original": "artifacts/p01j-build-001/receipt-audit-tests.txt",
+      "public": "docs/evidence/p01j-readiness-001/receipt-audit/tests.txt",
+      "sha256": "4e3f3f5dff829d074ed22a5c191a48dcf60aee151912f5194f75d4dd56d77298"
+    },
+    {
+      "original": "artifacts/p01j-build-001/clippy.txt",
+      "public": "docs/evidence/p01j-readiness-001/clippy/tests.txt",
+      "sha256": "187921d8a1dc622cea89f337c35d13313499134bc306129406c1e4bfd0316a43"
+    },
+    {
+      "original": "artifacts/p01j-build-001/build.txt",
+      "public": "docs/evidence/p01j-readiness-001/release-build/tests.txt",
+      "sha256": "651f6464810d91b0ef4abf0a4e179e012bf69bf721cd620a4627eed638a09260"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "bacf3c2d37477767d15952a00c130a0504624c5975d33a45b4699467e9ea0535",
+    "README.md": "53941470cc3f37244cd9bcabb424c1b41c244fd56ccfc3edc800e5727d782315",
+    "docs/evidence/README.md": "fedae5172bc8489ebda578a7c42738ea11e21f2182885375e5d195982ac587d0",
+    "docs/p01j_readiness_admission.json": "942c09daf4604d7c571eef7dfd5622f31e867da75bd874d370089d25fa52a2ac",
+    "docs/p01j_readiness_findings.md": "567b437ff89f41cba9539742608b7ef19fa99fd205f511076f94061478dfeca5",
+    "docs/status.json": "96f537ec7a932e12546a6cf14beecabcc7f727112b0f4a7eba7052b0a6613601",
+    "scripts/audit_p01j_readiness.py": "7e65ed6376d564d363389f00268a76a4d748a1fbba6f50b99f65e0fa91263940",
+    "scripts/generator_v3_fields.py": "ae759b9b334a0a538df0bdeac777bf019b1535f0959699ae1d744b45b88b8cd7",
+    "scripts/test_p01j_readiness.py": "5f52667e22f406a4326df03c0529fc9b728da827dd69757b7e596d663f21de41",
+    "scripts/test_p01j_receipt_audit.py": "e9ac955dbbe76e9053c00fff07cb571c47eca22ea0552fbd0a5dbcb8ee4e9b62",
+    "scripts/validate_p01j.py": "0a0b88d7d6156ff519e2dbc0ed3e873baaf1b2c3fdf295c5f16fa0c025bee40d",
+    "src/bin/generator-v3-fields.rs": "e46aa6375125417f3f768248fa947a7cff37f5be2e064da63b3734266dbb1e76"
+  },
+  "note": "Original 17-entry readiness inventory/seal unchanged. Completion, later receipt audit, build/test logs and final closeout files are external to that inventory. Raw inputs/outputs, snapshots and binary stay local. No hash sampler or world transition executed.",
+  "registration_commit": "05fc7b8d1f9767c5cce60b3203ed22ce620166f9",
+  "schema": "p01j-readiness-publication-context-v1",
+  "scope": "fixed authored literal-field adapter readiness only; actual keyed sampler remains unimplemented and unadmitted",
+  "unpublished_failure_snapshot": {
+    "file": "artifacts/p01j-build-001/generator-v3-fields-failed.rs",
+    "sha256": "0e29e369be89c3373d3f33ea955392721882c252538e8ba6d3548fc71b4a7bc8"
+  }
+}

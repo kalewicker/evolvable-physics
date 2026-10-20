@@ -1,0 +1,14 @@
+test_every_literal_invalid_input_is_rejected (test_p01j_readiness.Readiness.test_every_literal_invalid_input_is_rejected) ... ok
+test_local_barriers_match_literal_expectations (test_p01j_readiness.Readiness.test_local_barriers_match_literal_expectations) ... ok
+test_map_reuse_across_all_initial_ids (test_p01j_readiness.Readiness.test_map_reuse_across_all_initial_ids) ... ok
+test_misrouted_field_read_and_extra_output_are_rejected (test_p01j_readiness.Readiness.test_misrouted_field_read_and_extra_output_are_rejected) ... ok
+test_missing_case_is_not_silently_dropped (test_p01j_readiness.Readiness.test_missing_case_is_not_silently_dropped) ... ok
+test_output_guard_retains_bounded_prefix_and_reaps_child (test_p01j_readiness.Readiness.test_output_guard_retains_bounded_prefix_and_reaps_child) ... ok
+test_panel_expansion_exact_and_unique (test_p01j_readiness.Readiness.test_panel_expansion_exact_and_unique) ... ok
+test_shared_birth_cost_bug_cannot_pass_oracle (test_p01j_readiness.Readiness.test_shared_birth_cost_bug_cannot_pass_oracle) ... ok
+test_wall_guard_terminates_silent_child (test_p01j_readiness.Readiness.test_wall_guard_terminates_silent_child) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.178s
+
+OK

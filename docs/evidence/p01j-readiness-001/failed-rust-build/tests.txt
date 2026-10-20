@@ -1,0 +1,38 @@
+   Compiling causal-alife v0.1.0 (/Users/kalewicker/Documents/Playground/causal-alife)
+error: implementation of `FnMut` is not general enough
+   --> src/bin/generator-v3-fields.rs:266:13
+    |
+266 |             assemble(bounded(&r["initial_id"], 4)?, &mut callback)?
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ implementation of `FnMut` is not general enough
+    |
+    = note: closure with signature `fn(u64, &'2 str, u64, u64) -> Result<u64, &str>` must implement `FnMut<(u64, &'1 str, u64, u64)>`, for any lifetime `'1`...
+    = note: ...but it actually implements `FnMut<(u64, &'2 str, u64, u64)>`, for some specific lifetime `'2`
+
+error: implementation of `FnOnce` is not general enough
+   --> src/bin/generator-v3-fields.rs:266:13
+    |
+266 |             assemble(bounded(&r["initial_id"], 4)?, &mut callback)?
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ implementation of `FnOnce` is not general enough
+    |
+    = note: closure with signature `fn(u64, &'2 str, u64, u64) -> Result<u64, &str>` must implement `FnOnce<(u64, &'1 str, u64, u64)>`, for any lifetime `'1`...
+    = note: ...but it actually implements `FnOnce<(u64, &'2 str, u64, u64)>`, for some specific lifetime `'2`
+
+error: implementation of `FnMut` is not general enough
+   --> src/bin/generator-v3-fields.rs:271:13
+    |
+271 |             rule(bounded(&r["rule_id"], 8)?, &map, &mut callback)?
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ implementation of `FnMut` is not general enough
+    |
+    = note: closure with signature `fn(u64, &'2 str, u64, u64) -> Result<u64, &str>` must implement `FnMut<(u64, &'1 str, u64, u64)>`, for any lifetime `'1`...
+    = note: ...but it actually implements `FnMut<(u64, &'2 str, u64, u64)>`, for some specific lifetime `'2`
+
+error: implementation of `FnOnce` is not general enough
+   --> src/bin/generator-v3-fields.rs:271:13
+    |
+271 |             rule(bounded(&r["rule_id"], 8)?, &map, &mut callback)?
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ implementation of `FnOnce` is not general enough
+    |
+    = note: closure with signature `fn(u64, &'2 str, u64, u64) -> Result<u64, &str>` must implement `FnOnce<(u64, &'1 str, u64, u64)>`, for any lifetime `'1`...
+    = note: ...but it actually implements `FnOnce<(u64, &'2 str, u64, u64)>`, for some specific lifetime `'2`
+
+error: could not compile `causal-alife` (bin "generator-v3-fields" test) due to 4 previous errors

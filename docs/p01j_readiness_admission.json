@@ -1,0 +1,39 @@
+{
+  "case_counts": {
+    "assembly": 972,
+    "barrier": 8,
+    "invalid": 12,
+    "probe": 15,
+    "rule": 11664
+  },
+  "date": "2026-10-20",
+  "e01_authorized": false,
+  "engineering_gate_pass": true,
+  "hash_sampler_implemented": false,
+  "implementation_files": {
+    "scripts/audit_p01j_readiness.py": "7e65ed6376d564d363389f00268a76a4d748a1fbba6f50b99f65e0fa91263940",
+    "scripts/generator_v3_fields.py": "ae759b9b334a0a538df0bdeac777bf019b1535f0959699ae1d744b45b88b8cd7",
+    "scripts/test_p01j_readiness.py": "5f52667e22f406a4326df03c0529fc9b728da827dd69757b7e596d663f21de41",
+    "scripts/test_p01j_receipt_audit.py": "e9ac955dbbe76e9053c00fff07cb571c47eca22ea0552fbd0a5dbcb8ee4e9b62",
+    "scripts/validate_p01j.py": "0a0b88d7d6156ff519e2dbc0ed3e873baaf1b2c3fdf295c5f16fa0c025bee40d",
+    "src/bin/generator-v3-fields.rs": "e46aa6375125417f3f768248fa947a7cff37f5be2e064da63b3734266dbb1e76"
+  },
+  "law_sampling_admitted": false,
+  "literal_field_adapters_implemented": true,
+  "next_scope": "separately register bounded v3 keyed-sampler implementation and an unfiltered static census/equivalence panel before any hash draw; no world trajectory budget yet",
+  "receipts": {
+    "artifacts/p01j-readiness-001-audit.json": "41365714448f01c92d721453bcfeacf3734fce01c7c26f7abe6a6ff0735db6ab",
+    "artifacts/p01j-readiness-001/assessment.json": "7f4da94a36cab93954d33030dde6ca001a3d93e36401616c0e42ae2a1d073b64",
+    "artifacts/p01j-readiness-001/checksums.json": "35653426f0621207a303f3af40275651511ff7132ebba9d648f26b325284d440",
+    "artifacts/p01j-readiness-001/completion.json": "2f91dfd840ef2a8c8e18809ec9018198a5703c8ec7bf99d2a9913440aead6e45",
+    "artifacts/p01j-readiness-001/seal.json": "da9f4eab8c49413af449fb1686dea4ce43fc4224c54406cf2763764fd2729792"
+  },
+  "registration_commit": "05fc7b8d1f9767c5cce60b3203ed22ce620166f9",
+  "registration_freeze_sha256": "e5ad02996fc1f89271e0af858cc856dc8693b499f655cfd104653481f5bc2c72",
+  "repeat_policy": "implementation repairs may repeat the same frozen readiness panel into a new directory; preserve every previous attempt and source identity, never repair inputs or criteria",
+  "rust_binary_sha256": "f93c18f47f21d24d5afdf7d03ef33a8069926635d2abcebaf52b81de344c5582",
+  "schema": "p01j-literal-field-readiness-admission-v1",
+  "scientific_status": "untested",
+  "scope": "exact Rust/Python construction and independent invariants on the fixed authored literal-field panel only",
+  "world_execution_admitted": false
+}

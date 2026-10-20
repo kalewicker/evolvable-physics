@@ -1,0 +1,13 @@
+{
+  "adapter_executions": 0,
+  "bundle_inventory_entries": 17,
+  "completion_sha256": "2f91dfd840ef2a8c8e18809ec9018198a5703c8ec7bf99d2a9913440aead6e45",
+  "panel_records_verified": 12671,
+  "readiness_seal_sha256": "da9f4eab8c49413af449fb1686dea4ce43fc4224c54406cf2763764fd2729792",
+  "registration_files_verified": 130,
+  "sampling_admitted": false,
+  "schema": "p01j-readiness-receipt-audit-v1",
+  "scientific_status": "untested",
+  "scope": "read-only custody, independently indexed registered inputs, differential records and ceilings; operation oracle remains the separate validator",
+  "status": "pass"
+}

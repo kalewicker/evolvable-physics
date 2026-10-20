@@ -274,3 +274,24 @@ Next implement the separate Rust/Python literal-field adapters and fixed
 validator under this registration. No hash sampler, candidate enumeration,
 world transitions, new sampling panel or E01 is admitted. The input registry
 and criteria remain frozen even if an implementation needs repair.
+
+## P01j literal-field implementation
+
+The separate Rust/Python adapters and bounded validator now pass the fixed
+panel: 11,664 rules, 972 environment assemblies and all negative/invalid/
+ignored-field checks, with complete output equality and independent operation/
+accounting invariants. [Readiness findings](docs/p01j_readiness_findings.md)
+include the retained initial compilation failure, tests and read-only receipt
+audit. Neither adapter contains a hash sampler or executes world transitions.
+
+```sh
+cargo build --release --locked --offline --bin generator-v3-fields
+python3 scripts/validate_p01j.py artifacts/p01j-readiness-new
+python3 scripts/audit_p01j_readiness.py artifacts/p01j-readiness-001 artifacts/p01j-readiness-new-audit.json
+```
+
+Validation requires a new directory and the intact frozen local inputs; the
+read-only audit requires the complete retained bundle. Engineering repairs may
+repeat the same fixed readiness panel while preserving every attempt. Next is
+a separate registration for the actual keyed sampler and an unfiltered static
+census. No law sampling, world execution or E01 is currently admitted.
