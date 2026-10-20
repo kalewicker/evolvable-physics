@@ -1,0 +1,367 @@
+{
+  "cases": [
+    {
+      "family": "attached_funded_birth",
+      "result_digest": "8666ca298ee70230748425a70b2f74ff2ebdab62f4b4161f2265ff7b510edaa7",
+      "seed": 0,
+      "slot": 0,
+      "status": "pass"
+    },
+    {
+      "family": "attached_funded_birth",
+      "result_digest": "a34fb8ac3b8e4cdbc25ce985e286b54f72c802b605a398f1ff2a534320ca6b75",
+      "seed": 1,
+      "slot": 1,
+      "status": "pass"
+    },
+    {
+      "family": "attached_funded_birth",
+      "result_digest": "dc57a27be5c4ffc0769e6a4fd99791f90a4f1ad8a466812297399897ae8472db",
+      "seed": 2,
+      "slot": 2,
+      "status": "pass"
+    },
+    {
+      "family": "attached_funded_birth",
+      "result_digest": "bea8a302f0450831e0e5a92a6a58fb62c6ce0bdadcf6f04b133347c630760cdd",
+      "seed": 3,
+      "slot": 3,
+      "status": "pass"
+    },
+    {
+      "family": "birth_recycle_to_exhaustion",
+      "result_digest": "ad3481f645f26f00cb7d333282e8d3a29f4f2f704484b3d509dcddf6c920878c",
+      "seed": 0,
+      "slot": 4,
+      "status": "pass"
+    },
+    {
+      "family": "birth_recycle_to_exhaustion",
+      "result_digest": "b7cd660e93f873dbda3a4f91ad82d2d509314cc353856b431c9f15d37ad2e347",
+      "seed": 1,
+      "slot": 5,
+      "status": "pass"
+    },
+    {
+      "family": "birth_recycle_to_exhaustion",
+      "result_digest": "a6c45955d23b6378d66765e61d096606b36e8760c7fe2062d981aa1f1dee5c65",
+      "seed": 2,
+      "slot": 6,
+      "status": "pass"
+    },
+    {
+      "family": "birth_recycle_to_exhaustion",
+      "result_digest": "c57e2e71bd620d0f9f5fe662953f3d35b3ff9c002244184fad339a571f4cf80b",
+      "seed": 3,
+      "slot": 7,
+      "status": "pass"
+    },
+    {
+      "family": "descendant_growth",
+      "result_digest": "2c107327f2ff4213fdb78596d8b33de29c8f5077d44085f0da52e485d79c574a",
+      "seed": 0,
+      "slot": 8,
+      "status": "pass"
+    },
+    {
+      "family": "descendant_growth",
+      "result_digest": "c2f47b39a0844b48f2af8ee9059a2c9163759ea9e973b773574a486517355928",
+      "seed": 1,
+      "slot": 9,
+      "status": "pass"
+    },
+    {
+      "family": "descendant_growth",
+      "result_digest": "07b8aef2bcf90ff7b781fc5d120ab3bee16124421e2aa200986f0aebb7e6d5fb",
+      "seed": 2,
+      "slot": 10,
+      "status": "pass"
+    },
+    {
+      "family": "descendant_growth",
+      "result_digest": "ed171c0b1c8bc74fd067ad52fc21ab98fa5a82eac85fd3fb256cc9fa092a3080",
+      "seed": 3,
+      "slot": 11,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_matter",
+      "result_digest": "b579a2ea29a3496c893fae6dd601451af033ec1cba6cc60dc49b57ce7a3f344a",
+      "seed": 0,
+      "slot": 12,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_matter",
+      "result_digest": "a84f11cb69acd3d2edb98baff4faa90860d0450fb2c4138324ae9620aafa87f8",
+      "seed": 1,
+      "slot": 13,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_matter",
+      "result_digest": "7807fc6d537b584c29875abdbbe8c07f765d6ddbd34d03529901b2e68d5baf58",
+      "seed": 2,
+      "slot": 14,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_matter",
+      "result_digest": "67484e466fcc434ba3a0efb143435af44d10fdd9100709e9b24db647a2f8b7ce",
+      "seed": 3,
+      "slot": 15,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_activation",
+      "result_digest": "1a5c38ab8594a24f638c2cef15ac86918fac967975d672d356dd314dbfd117d3",
+      "seed": 0,
+      "slot": 16,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_activation",
+      "result_digest": "bf965edcd9fe219ce552c3ba6573761ffd36f79fbb7e21b89a40fffa3d0628ba",
+      "seed": 1,
+      "slot": 17,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_activation",
+      "result_digest": "830e851153b43534eeefd8de16af0c79f74d3eadd9d76915e7bfe717399fc85d",
+      "seed": 2,
+      "slot": 18,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_activation",
+      "result_digest": "1069dec8f916dcd97ce649803c38ae9649cb703c279a7683cea6ecef3424e59e",
+      "seed": 3,
+      "slot": 19,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_original_contact",
+      "result_digest": "bbd8a92e83b924abc5897ab6ae2cea2e2a03a4798f08a9d259a3359b148d5325",
+      "seed": 0,
+      "slot": 20,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_original_contact",
+      "result_digest": "12d40a853f20bf9bad310fa4d0ad3616891d4199abb2d3172cc0f13261388cf8",
+      "seed": 1,
+      "slot": 21,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_original_contact",
+      "result_digest": "1a27c0d037c8150bebd4189b9f73c17d57e4bde4f3eeee43c3b0e50701f27f0f",
+      "seed": 2,
+      "slot": 22,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_original_contact",
+      "result_digest": "573c7b6b70e407f5bb7dec24d1d2e57fe93f61b0e62cdf6b07f9de582300e3fd",
+      "seed": 3,
+      "slot": 23,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_nonleaf",
+      "result_digest": "b775fcd6fe2d7298749714c1df915947c3b1c4b38533fd317c95e737245f9372",
+      "seed": 0,
+      "slot": 24,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_nonleaf",
+      "result_digest": "d6a400dc637f73cb21d3ae70f2ba6bde51874ff477a9c75f98a52f82a48ce5d8",
+      "seed": 1,
+      "slot": 25,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_nonleaf",
+      "result_digest": "574fcacdfabadb24623fe10e1044a218a13917c1055e1e2985cef71ed104c2ec",
+      "seed": 2,
+      "slot": 26,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_nonleaf",
+      "result_digest": "344efd53e31e0ac6af3ebb7c67d966b9ae234bbb4df323de1edeffee15142483",
+      "seed": 3,
+      "slot": 27,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_missing_activation",
+      "result_digest": "654e7e63a0f1c84eb3af9c3fb55c4ba5fd6c82d1a29e2cbcb7f5cfba0dd7b152",
+      "seed": 0,
+      "slot": 28,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_missing_activation",
+      "result_digest": "7c501534df8a11a9f8f9b770d320abe50d6399f40be9f1bf5b7b06928075d23d",
+      "seed": 1,
+      "slot": 29,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_missing_activation",
+      "result_digest": "3dd45f9d0e526a751589ba37ebc911921c22d1f079cd3f6e8418be5e8ca92d3b",
+      "seed": 2,
+      "slot": 30,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_missing_activation",
+      "result_digest": "aba36e812ec9cc7209f2ae54effdeaf0b5f1503c16af5ec8f48284994c718283",
+      "seed": 3,
+      "slot": 31,
+      "status": "pass"
+    },
+    {
+      "family": "contact_is_not_structural_route",
+      "result_digest": "768f1a93cbff3826e6352ef93d501ab5eb20a10aa24bcc8ef89aeadf5c28d5ab",
+      "seed": 0,
+      "slot": 32,
+      "status": "pass"
+    },
+    {
+      "family": "contact_is_not_structural_route",
+      "result_digest": "1376f8a6cafc00305c2d9dde02304b80ad277a3a539d8511451d1fce89963ccd",
+      "seed": 1,
+      "slot": 33,
+      "status": "pass"
+    },
+    {
+      "family": "contact_is_not_structural_route",
+      "result_digest": "13e097d274b6bafc9b4d8b0f9de7c83f2af95bfe2c24ac66c1731a47dc52d2ca",
+      "seed": 2,
+      "slot": 34,
+      "status": "pass"
+    },
+    {
+      "family": "contact_is_not_structural_route",
+      "result_digest": "9bc550dd8c6ba46ca87f12682ab1a02d9e84d788373425dcc6a84a2e9e2b6c45",
+      "seed": 3,
+      "slot": 35,
+      "status": "pass"
+    },
+    {
+      "family": "structural_funding",
+      "result_digest": "e8c4c445a0e568a562626ff25e9a631640cb028dbc5f4ba21616ca272887d9cf",
+      "seed": 0,
+      "slot": 36,
+      "status": "pass"
+    },
+    {
+      "family": "structural_funding",
+      "result_digest": "4832587e5fae2c3ac648e4fd185095a2efc60cc2eb11e2dfb07ff6828475cafc",
+      "seed": 1,
+      "slot": 37,
+      "status": "pass"
+    },
+    {
+      "family": "structural_funding",
+      "result_digest": "3edf774a61ff91e920b48f017ab42fa57d9c63f3b3c9ec3d018e2b0f307f628e",
+      "seed": 2,
+      "slot": 38,
+      "status": "pass"
+    },
+    {
+      "family": "structural_funding",
+      "result_digest": "67c4a040204e845c8ffe9b88764e5448188b7b29c909603c4bf413c97391496c",
+      "seed": 3,
+      "slot": 39,
+      "status": "pass"
+    },
+    {
+      "family": "edge_detach_strands_child",
+      "result_digest": "a403b3fb845c086868efa3f91afbfe922dc6374c23a1cdbcaa842cbfb56dc59c",
+      "seed": 0,
+      "slot": 40,
+      "status": "pass"
+    },
+    {
+      "family": "edge_detach_strands_child",
+      "result_digest": "8cf1560c78163fafcb48c6cc01c53c006b86832d11dfe3a9b8a006b98fe0dac8",
+      "seed": 1,
+      "slot": 41,
+      "status": "pass"
+    },
+    {
+      "family": "edge_detach_strands_child",
+      "result_digest": "4c20942125d1e098f566af7bd473ebf7c8cab1039f9609cf72c6835c2987d12d",
+      "seed": 2,
+      "slot": 42,
+      "status": "pass"
+    },
+    {
+      "family": "edge_detach_strands_child",
+      "result_digest": "7658a93490d07598aa299e83ff6e27aa918920549e41ff21fbeab65b2f3f51b8",
+      "seed": 3,
+      "slot": 43,
+      "status": "pass"
+    },
+    {
+      "family": "birth_world_cap",
+      "result_digest": "e43470069418f27e8370ff0a111d2d87e025c6374cce465dad9f53e314726d3e",
+      "seed": 0,
+      "slot": 44,
+      "status": "pass"
+    },
+    {
+      "family": "birth_world_cap",
+      "result_digest": "c03daf8ae60b1f61c607ef671c57663097614bc7dbb627f8eca93ed68d2bf761",
+      "seed": 1,
+      "slot": 45,
+      "status": "pass"
+    },
+    {
+      "family": "birth_world_cap",
+      "result_digest": "746ec41160dd114c3d0631b0b70e20ca5ab41242164ca0be32e767bacc770e82",
+      "seed": 2,
+      "slot": 46,
+      "status": "pass"
+    },
+    {
+      "family": "birth_world_cap",
+      "result_digest": "7271162ee5ca1eea21e29a1f018408744d98d3e0e422f08916d45e7e2549c225",
+      "seed": 3,
+      "slot": 47,
+      "status": "pass"
+    }
+  ],
+  "fixed_slots": 48,
+  "law_sampling_admitted": false,
+  "matcher_case_passes": 96,
+  "per_matcher": {
+    "Indexed": {
+      "attempted_epochs": 92,
+      "committed_epochs": 88,
+      "committed_events": 60,
+      "complete_cases": 44,
+      "node_births": 28,
+      "node_deaths": 16,
+      "whole_epoch_world_cap_cases": 4
+    },
+    "Reference": {
+      "attempted_epochs": 92,
+      "committed_epochs": 88,
+      "committed_events": 60,
+      "complete_cases": 44,
+      "node_births": 28,
+      "node_deaths": 16,
+      "whole_epoch_world_cap_cases": 4
+    }
+  },
+  "schema": "p01f-panel-audit-v1",
+  "scientific_status": "untested",
+  "scope": "authored fixture reachability only",
+  "status": "pass"
+}

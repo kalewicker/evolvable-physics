@@ -1,0 +1,13 @@
+{
+  "checksums_sha256": "287a355d98026a25e7b90b3c623e59c3d42b6e6ece32df891bff8cfff308300e",
+  "gate_pass": true,
+  "manifest_sha256": "6c0eadd07505542241e4041cfb23d596296d0366d89bb15338675ff8b1242230",
+  "overshoot": [],
+  "resource_usage": {
+    "artifact_bytes": 195977865,
+    "total_process_cpu_seconds": 2.31685,
+    "wall_seconds": 2.484261375851929
+  },
+  "schema": "p01f-execution-seal-v1",
+  "scientific_status": "untested"
+}

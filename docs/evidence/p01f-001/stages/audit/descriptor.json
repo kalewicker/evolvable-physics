@@ -1,0 +1,20 @@
+{
+  "campaign_deadline": 5089053.486377791,
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/source/scripts/p01f_audit.py",
+    "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/source/docs/p01f_protocol.json",
+    "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/source/docs/p01f_witnesses.json",
+    "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/stages/native/stdout.bin"
+  ],
+  "cwd": "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/source",
+  "directory": "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/stages/audit",
+  "limits": {
+    "poll_seconds": 0.01,
+    "rss_bytes": 536870912,
+    "stderr_bytes": 65536,
+    "stdout_bytes": 2031616,
+    "wall_seconds": 90
+  },
+  "parent_pid": 15055
+}

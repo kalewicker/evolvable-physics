@@ -1,0 +1,18 @@
+{
+  "campaign_deadline": 5089053.486377791,
+  "command": [
+    "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/bin/reachability-witness",
+    "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/source/docs/p01f_protocol.json",
+    "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/source/docs/p01f_witnesses.json"
+  ],
+  "cwd": "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/source",
+  "directory": "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01f-001/stages/native",
+  "limits": {
+    "poll_seconds": 0.01,
+    "rss_bytes": 268435456,
+    "stderr_bytes": 65536,
+    "stdout_bytes": 33488896,
+    "wall_seconds": 30
+  },
+  "parent_pid": 15055
+}

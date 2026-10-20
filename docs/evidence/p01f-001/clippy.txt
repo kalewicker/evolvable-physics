@@ -1,0 +1,17 @@
+    Checking typenum v1.20.1
+    Checking libc v0.2.191
+    Checking serde_core v1.0.228
+    Checking zmij v1.0.23
+    Checking itoa v1.0.18
+    Checking memchr v2.8.3
+    Checking cfg-if v1.0.5
+    Checking generic-array v0.14.7
+    Checking cpufeatures v0.2.17
+    Checking crypto-common v0.1.7
+    Checking block-buffer v0.10.4
+    Checking digest v0.10.7
+    Checking sha2 v0.10.9
+    Checking serde_json v1.0.150
+    Checking serde v1.0.228
+    Checking causal-alife v0.1.0 (/Users/kalewicker/Documents/Playground/causal-alife)
+    Finished `release` profile [optimized] target(s) in 2.52s

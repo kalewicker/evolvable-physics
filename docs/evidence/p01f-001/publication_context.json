@@ -1,0 +1,90 @@
+{
+  "copies": [
+    {
+      "original": "artifacts/p01f-001/manifest.json",
+      "public": "docs/evidence/p01f-001/manifest.json",
+      "sha256": "6c0eadd07505542241e4041cfb23d596296d0366d89bb15338675ff8b1242230"
+    },
+    {
+      "original": "artifacts/p01f-001/checksums.json",
+      "public": "docs/evidence/p01f-001/checksums.json",
+      "sha256": "287a355d98026a25e7b90b3c623e59c3d42b6e6ece32df891bff8cfff308300e"
+    },
+    {
+      "original": "artifacts/p01f-001/seal.json",
+      "public": "docs/evidence/p01f-001/seal.json",
+      "sha256": "60ec71d14d4cae89c94d4782544f24cffca4519dcfae2482613556d8c71ada6e"
+    },
+    {
+      "original": "artifacts/p01f-001/panel_audit.json",
+      "public": "docs/evidence/p01f-001/panel_audit.json",
+      "sha256": "81c2cdb305a6ccc681dd3be01f9973f05b30be0bdb7468009d50bc11144b98ad"
+    },
+    {
+      "original": "artifacts/p01f-001/stages/native/result.json",
+      "public": "docs/evidence/p01f-001/stages/native/result.json",
+      "sha256": "782e4613b87f92acf893fb617abac2b74346a4c49ec9544d30b2c8e5e90c7985"
+    },
+    {
+      "original": "artifacts/p01f-001/stages/native/descriptor.json",
+      "public": "docs/evidence/p01f-001/stages/native/descriptor.json",
+      "sha256": "e284227d3e45967e8a88195dab26d0625a7ab4eb199d12b776619adfd4029c00"
+    },
+    {
+      "original": "artifacts/p01f-001/stages/audit/result.json",
+      "public": "docs/evidence/p01f-001/stages/audit/result.json",
+      "sha256": "d2bb9367f16d23e75a841c1d5b654d9ffe29f714cef21263976c7bdfc7d95702"
+    },
+    {
+      "original": "artifacts/p01f-001/stages/audit/descriptor.json",
+      "public": "docs/evidence/p01f-001/stages/audit/descriptor.json",
+      "sha256": "5d76d2f4e10d965b125153cdef60311286e05b29aeed66654e5797bdbcd10dfa"
+    },
+    {
+      "original": "artifacts/p01f-001-receipt-audit.json",
+      "public": "docs/evidence/p01f-001/receipt_audit.json",
+      "sha256": "5551ee2a2a2806d25af5230d3d814eef6c7be50178895f3d6fbaa9fbe641371f"
+    },
+    {
+      "original": "artifacts/p01f-build-001/build.txt",
+      "public": "docs/evidence/p01f-001/build.txt",
+      "sha256": "410d474da10979bcfb36efaac25a190cc7c782bd04e9e996831df770fddae08e"
+    },
+    {
+      "original": "artifacts/p01f-build-001/clippy.txt",
+      "public": "docs/evidence/p01f-001/clippy.txt",
+      "sha256": "f9b2abd0e27f38cecaa806b6859c6c45131df516019e4f7ae77b7a9fb9529c27"
+    },
+    {
+      "original": "artifacts/p01f-build-001/tests.txt",
+      "public": "docs/evidence/p01f-001/tests.txt",
+      "sha256": "f3fa0e157132ecc16c27e7efda54e7b6cda2d92745277a59f1614198bec646a9"
+    },
+    {
+      "original": "artifacts/p01f-build-001/toolchain.json",
+      "public": "docs/evidence/p01f-001/toolchain.json",
+      "sha256": "5076099af65b5f654ca956244a51c25d0dd4fbbd5d1a8b4a5f5a6eec94fa67c7"
+    },
+    {
+      "original": "artifacts/p01f-build-001/cargo_metadata.json",
+      "public": "docs/evidence/p01f-001/cargo_metadata.json",
+      "sha256": "cce4b385317db40ff7e5ecb43854de42e5a685ff65cc58ed4b6a27c91a24f0fe"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "e0f57b601e4cbeceb74ea94a2269e98ac76023e91f36b0127e45d058ba7aab56",
+    "README.md": "c7d425f3fd1e3cc9461cb26d971144c0e59a8ac4c6de00b24997a0cf2fcb3ed6",
+    "docs/p01f_execution_admission.json": "561a18f5af10095ecc9fd1993b2bf69297165a044df36235eff95fb7d5123449",
+    "docs/p01f_execution_findings.md": "58d64463bbefca5cf50fc26e8650cfe80d926b712c5fc34c0782dd8f094f2b24",
+    "docs/p01f_execution_freeze.json": "187b1d919f5d174af5936fb923f2a660161b218370c5ced19cc36c34d02aabd2",
+    "docs/p01f_implementation.md": "72ab1417810270d8150afa76b5017d6aba2c76cab06d12e8f8f057a1951e953b",
+    "docs/p01f_reachability_admission.json": "c36104d0b209e5d1ca0d57df23e3e81717f126119fc2abee2c8efe826fb5f9d4",
+    "docs/status.json": "640f34c8f54ad171a2468ca91ded1847c8c59c15a8f7640ba0b593e26a348ccb"
+  },
+  "implementation_published_before_native_execution_commit": "7f7edf2",
+  "note": "Receipt audit, public packaging, build/test logs and closeout documentation are outside original campaign clock/inventory; raw transitions/dependencies/binary remain local. No timing or native retry.",
+  "raw_bundle": "artifacts/p01f-001",
+  "schema": "p01f-publication-context-v1",
+  "scope": "authored fixture reachability only; no law sampling or scientific capability admission"
+}

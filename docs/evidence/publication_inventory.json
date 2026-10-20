@@ -937,6 +937,66 @@
     {
       "file": "docs/evidence/p01f-registration-001/tests.txt",
       "sha256": "2d9d3a52eae60884ac50611a1a25de57c24995642fe4968f1d6ca7edcb856d32"
+    },
+    {
+      "file": "docs/evidence/p01f-001/build.txt",
+      "sha256": "410d474da10979bcfb36efaac25a190cc7c782bd04e9e996831df770fddae08e"
+    },
+    {
+      "file": "docs/evidence/p01f-001/cargo_metadata.json",
+      "sha256": "cce4b385317db40ff7e5ecb43854de42e5a685ff65cc58ed4b6a27c91a24f0fe"
+    },
+    {
+      "file": "docs/evidence/p01f-001/checksums.json",
+      "sha256": "287a355d98026a25e7b90b3c623e59c3d42b6e6ece32df891bff8cfff308300e"
+    },
+    {
+      "file": "docs/evidence/p01f-001/clippy.txt",
+      "sha256": "f9b2abd0e27f38cecaa806b6859c6c45131df516019e4f7ae77b7a9fb9529c27"
+    },
+    {
+      "file": "docs/evidence/p01f-001/manifest.json",
+      "sha256": "6c0eadd07505542241e4041cfb23d596296d0366d89bb15338675ff8b1242230"
+    },
+    {
+      "file": "docs/evidence/p01f-001/panel_audit.json",
+      "sha256": "81c2cdb305a6ccc681dd3be01f9973f05b30be0bdb7468009d50bc11144b98ad"
+    },
+    {
+      "file": "docs/evidence/p01f-001/publication_context.json",
+      "sha256": "c101ff593feadca67f092f92e83cef9ee40331bec51a57068ffd632731d3edb5"
+    },
+    {
+      "file": "docs/evidence/p01f-001/receipt_audit.json",
+      "sha256": "5551ee2a2a2806d25af5230d3d814eef6c7be50178895f3d6fbaa9fbe641371f"
+    },
+    {
+      "file": "docs/evidence/p01f-001/seal.json",
+      "sha256": "60ec71d14d4cae89c94d4782544f24cffca4519dcfae2482613556d8c71ada6e"
+    },
+    {
+      "file": "docs/evidence/p01f-001/stages/audit/descriptor.json",
+      "sha256": "5d76d2f4e10d965b125153cdef60311286e05b29aeed66654e5797bdbcd10dfa"
+    },
+    {
+      "file": "docs/evidence/p01f-001/stages/audit/result.json",
+      "sha256": "d2bb9367f16d23e75a841c1d5b654d9ffe29f714cef21263976c7bdfc7d95702"
+    },
+    {
+      "file": "docs/evidence/p01f-001/stages/native/descriptor.json",
+      "sha256": "e284227d3e45967e8a88195dab26d0625a7ab4eb199d12b776619adfd4029c00"
+    },
+    {
+      "file": "docs/evidence/p01f-001/stages/native/result.json",
+      "sha256": "782e4613b87f92acf893fb617abac2b74346a4c49ec9544d30b2c8e5e90c7985"
+    },
+    {
+      "file": "docs/evidence/p01f-001/tests.txt",
+      "sha256": "f3fa0e157132ecc16c27e7efda54e7b6cda2d92745277a59f1614198bec646a9"
+    },
+    {
+      "file": "docs/evidence/p01f-001/toolchain.json",
+      "sha256": "5076099af65b5f654ca956244a51c25d0dd4fbbd5d1a8b4a5f5a6eec94fa67c7"
     }
   ]
 }

@@ -1,0 +1,339 @@
+{
+  "execution_admission_sha256": "561a18f5af10095ecc9fd1993b2bf69297165a044df36235eff95fb7d5123449",
+  "execution_freeze_sha256": "187b1d919f5d174af5936fb923f2a660161b218370c5ced19cc36c34d02aabd2",
+  "execution_status": "complete",
+  "gate_pass": true,
+  "law_sampling_admitted": false,
+  "registration_freeze_sha256": "f824891c7c2e09554153359d3636f097d508860f5486962990bee856f917dfb5",
+  "resource_usage_before_seal": {
+    "artifact_bytes": 195684673,
+    "total_process_cpu_seconds": 2.087001,
+    "wall_seconds": 2.252329334616661
+  },
+  "schema": "p01f-execution-manifest-v1",
+  "scientific_status": "untested",
+  "slots": [
+    {
+      "family": "attached_funded_birth",
+      "seed": 0,
+      "slot": 0,
+      "status": "pass"
+    },
+    {
+      "family": "attached_funded_birth",
+      "seed": 1,
+      "slot": 1,
+      "status": "pass"
+    },
+    {
+      "family": "attached_funded_birth",
+      "seed": 2,
+      "slot": 2,
+      "status": "pass"
+    },
+    {
+      "family": "attached_funded_birth",
+      "seed": 3,
+      "slot": 3,
+      "status": "pass"
+    },
+    {
+      "family": "birth_recycle_to_exhaustion",
+      "seed": 0,
+      "slot": 4,
+      "status": "pass"
+    },
+    {
+      "family": "birth_recycle_to_exhaustion",
+      "seed": 1,
+      "slot": 5,
+      "status": "pass"
+    },
+    {
+      "family": "birth_recycle_to_exhaustion",
+      "seed": 2,
+      "slot": 6,
+      "status": "pass"
+    },
+    {
+      "family": "birth_recycle_to_exhaustion",
+      "seed": 3,
+      "slot": 7,
+      "status": "pass"
+    },
+    {
+      "family": "descendant_growth",
+      "seed": 0,
+      "slot": 8,
+      "status": "pass"
+    },
+    {
+      "family": "descendant_growth",
+      "seed": 1,
+      "slot": 9,
+      "status": "pass"
+    },
+    {
+      "family": "descendant_growth",
+      "seed": 2,
+      "slot": 10,
+      "status": "pass"
+    },
+    {
+      "family": "descendant_growth",
+      "seed": 3,
+      "slot": 11,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_matter",
+      "seed": 0,
+      "slot": 12,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_matter",
+      "seed": 1,
+      "slot": 13,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_matter",
+      "seed": 2,
+      "slot": 14,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_matter",
+      "seed": 3,
+      "slot": 15,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_activation",
+      "seed": 0,
+      "slot": 16,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_activation",
+      "seed": 1,
+      "slot": 17,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_activation",
+      "seed": 2,
+      "slot": 18,
+      "status": "pass"
+    },
+    {
+      "family": "birth_missing_activation",
+      "seed": 3,
+      "slot": 19,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_original_contact",
+      "seed": 0,
+      "slot": 20,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_original_contact",
+      "seed": 1,
+      "slot": 21,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_original_contact",
+      "seed": 2,
+      "slot": 22,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_original_contact",
+      "seed": 3,
+      "slot": 23,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_nonleaf",
+      "seed": 0,
+      "slot": 24,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_nonleaf",
+      "seed": 1,
+      "slot": 25,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_nonleaf",
+      "seed": 2,
+      "slot": 26,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_nonleaf",
+      "seed": 3,
+      "slot": 27,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_missing_activation",
+      "seed": 0,
+      "slot": 28,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_missing_activation",
+      "seed": 1,
+      "slot": 29,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_missing_activation",
+      "seed": 2,
+      "slot": 30,
+      "status": "pass"
+    },
+    {
+      "family": "recycle_missing_activation",
+      "seed": 3,
+      "slot": 31,
+      "status": "pass"
+    },
+    {
+      "family": "contact_is_not_structural_route",
+      "seed": 0,
+      "slot": 32,
+      "status": "pass"
+    },
+    {
+      "family": "contact_is_not_structural_route",
+      "seed": 1,
+      "slot": 33,
+      "status": "pass"
+    },
+    {
+      "family": "contact_is_not_structural_route",
+      "seed": 2,
+      "slot": 34,
+      "status": "pass"
+    },
+    {
+      "family": "contact_is_not_structural_route",
+      "seed": 3,
+      "slot": 35,
+      "status": "pass"
+    },
+    {
+      "family": "structural_funding",
+      "seed": 0,
+      "slot": 36,
+      "status": "pass"
+    },
+    {
+      "family": "structural_funding",
+      "seed": 1,
+      "slot": 37,
+      "status": "pass"
+    },
+    {
+      "family": "structural_funding",
+      "seed": 2,
+      "slot": 38,
+      "status": "pass"
+    },
+    {
+      "family": "structural_funding",
+      "seed": 3,
+      "slot": 39,
+      "status": "pass"
+    },
+    {
+      "family": "edge_detach_strands_child",
+      "seed": 0,
+      "slot": 40,
+      "status": "pass"
+    },
+    {
+      "family": "edge_detach_strands_child",
+      "seed": 1,
+      "slot": 41,
+      "status": "pass"
+    },
+    {
+      "family": "edge_detach_strands_child",
+      "seed": 2,
+      "slot": 42,
+      "status": "pass"
+    },
+    {
+      "family": "edge_detach_strands_child",
+      "seed": 3,
+      "slot": 43,
+      "status": "pass"
+    },
+    {
+      "family": "birth_world_cap",
+      "seed": 0,
+      "slot": 44,
+      "status": "pass"
+    },
+    {
+      "family": "birth_world_cap",
+      "seed": 1,
+      "slot": 45,
+      "status": "pass"
+    },
+    {
+      "family": "birth_world_cap",
+      "seed": 2,
+      "slot": 46,
+      "status": "pass"
+    },
+    {
+      "family": "birth_world_cap",
+      "seed": 3,
+      "slot": 47,
+      "status": "pass"
+    }
+  ],
+  "stages": {
+    "audit": {
+      "child_cpu_seconds": 0.514638,
+      "guard_and_reaped_children_cpu_seconds": 0.662921,
+      "guard_self_cpu_seconds": 0.069949,
+      "peak_rss_bytes": 37748736,
+      "peak_sampled_rss_bytes": 37732352,
+      "returncode": 0,
+      "rss_samples": 37,
+      "schema": "p01-stage-result-v1",
+      "status": "exited",
+      "stderr_bytes": 0,
+      "stderr_observed_bytes": 0,
+      "stdout_bytes": 8456,
+      "stdout_observed_bytes": 8456,
+      "wall_seconds": 0.5452600829303265
+    },
+    "native": {
+      "child_cpu_seconds": 0.13459,
+      "guard_and_reaped_children_cpu_seconds": 0.254653,
+      "guard_self_cpu_seconds": 0.060747999999999996,
+      "peak_rss_bytes": 11501568,
+      "peak_sampled_rss_bytes": 10944512,
+      "returncode": 0,
+      "rss_samples": 28,
+      "schema": "p01-stage-result-v1",
+      "status": "exited",
+      "stderr_bytes": 0,
+      "stderr_observed_bytes": 0,
+      "stdout_bytes": 1604638,
+      "stdout_observed_bytes": 1604638,
+      "wall_seconds": 0.4195039998739958
+    }
+  }
+}

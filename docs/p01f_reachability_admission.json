@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-20",
+  "e01_authorized": false,
+  "engineering_gate_pass": true,
+  "evidence": {
+    "docs/evidence/p01f-001/manifest.json": "6c0eadd07505542241e4041cfb23d596296d0366d89bb15338675ff8b1242230",
+    "docs/evidence/p01f-001/panel_audit.json": "81c2cdb305a6ccc681dd3be01f9973f05b30be0bdb7468009d50bc11144b98ad",
+    "docs/evidence/p01f-001/receipt_audit.json": "5551ee2a2a2806d25af5230d3d814eef6c7be50178895f3d6fbaa9fbe641371f",
+    "docs/evidence/p01f-001/seal.json": "60ec71d14d4cae89c94d4782544f24cffca4519dcfae2482613556d8c71ada6e",
+    "docs/p01f_execution_admission.json": "561a18f5af10095ecc9fd1993b2bf69297165a044df36235eff95fb7d5123449",
+    "docs/p01f_execution_freeze.json": "187b1d919f5d174af5936fb923f2a660161b218370c5ced19cc36c34d02aabd2",
+    "docs/p01f_registration_freeze.json": "f824891c7c2e09554153359d3636f097d508860f5486962990bee856f917dfb5"
+  },
+  "fixed_cases": 48,
+  "generated_law_draws": 0,
+  "generator_v2_sampler_implemented": false,
+  "law_sampling_admitted": false,
+  "matcher_case_passes": 96,
+  "next_task": "register small generator-v2 sampling-feasibility preflight before any law draw; reuse existing guard/accounting/replay",
+  "registration_consumed": true,
+  "schema": "p01f-reachability-admission-v1",
+  "scientific_status": "untested",
+  "scope": "bounded authored-fixture reachability only"
+}

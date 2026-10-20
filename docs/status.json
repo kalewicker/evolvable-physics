@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
-  "date": "2026-10-19",
-  "stage": "P01f_registration",
+  "date": "2026-10-20",
+  "stage": "P01f_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "implement the registered fixed 48-case reachability witness runner and independent validation without changing frozen source files",
-    "freeze implementation/dependencies/binary/inputs and write an execution-admission record before any registered witness transition, including in tests",
-    "run only the fixed witness batch under registered ceilings after execution admission; preserve every failed or missing case; no law sampling or E01"
+    "register a small generator-v2 sampling-feasibility preflight with fixed law IDs, initial-state seeds, horizons, budgets and go/no-go criteria before drawing any laws",
+    "implement and statically verify the sampler against the v2 distribution; reuse existing watchdog/accounting and independent replay",
+    "separate per-law mechanistic reachability from detector labels, retain negative and inconclusive cases, and state closed activation limits"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -64,13 +64,39 @@
   "p01e_admission": "docs/p01e_admission.json",
   "p01e_findings": "docs/p01e_findings.md",
   "p01e_receipt": "docs/evidence/p01e-001/receipt_audit_v2.json",
-  "next_work_requires_new_protocol": false,
+  "next_work_requires_new_protocol": true,
   "p01f_registration_complete": true,
-  "p01f_execution_started": false,
+  "p01f_execution_started": true,
   "p01f_static_review": "docs/evidence/p01f-registration-001/static_review.json",
   "p01f_registration": "docs/p01f_protocol.json",
   "p01f_registration_freeze": "docs/p01f_registration_freeze.json",
   "generator_v2_implemented": false,
-  "reachability_witness_runner_implemented": false,
-  "next_work_requires_execution_freeze": true
+  "reachability_witness_runner_implemented": true,
+  "next_work_requires_execution_freeze": true,
+  "p01f_execution_complete": true,
+  "p01f_registration_consumed": true,
+  "p01f_reachability_gate_pass": true,
+  "p01f_execution_findings": "docs/p01f_execution_findings.md",
+  "p01f_reachability_admission": "docs/p01f_reachability_admission.json",
+  "p01f_receipt_audit": "docs/evidence/p01f-001/receipt_audit.json",
+  "p01f_measured_per_matcher": {
+    "Indexed": {
+      "attempted_epochs": 92,
+      "committed_epochs": 88,
+      "committed_events": 60,
+      "complete_cases": 44,
+      "node_births": 28,
+      "node_deaths": 16,
+      "whole_epoch_world_cap_cases": 4
+    },
+    "Reference": {
+      "attempted_epochs": 92,
+      "committed_epochs": 88,
+      "committed_events": 60,
+      "complete_cases": 44,
+      "node_births": 28,
+      "node_deaths": 16,
+      "whole_epoch_world_cap_cases": 4
+    }
+  }
 }

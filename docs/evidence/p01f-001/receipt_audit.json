@@ -1,0 +1,38 @@
+{
+  "schema": "p01f-receipt-audit-v1",
+  "status": "pass",
+  "fixed_cases": 48,
+  "matcher_case_passes": 96,
+  "inventory_files": 3208,
+  "source_files": 94,
+  "dependency_files": 3088,
+  "per_matcher": {
+    "Indexed": {
+      "attempted_epochs": 92,
+      "committed_epochs": 88,
+      "committed_events": 60,
+      "complete_cases": 44,
+      "node_births": 28,
+      "node_deaths": 16,
+      "whole_epoch_world_cap_cases": 4
+    },
+    "Reference": {
+      "attempted_epochs": 92,
+      "committed_epochs": 88,
+      "committed_events": 60,
+      "complete_cases": 44,
+      "node_births": 28,
+      "node_deaths": 16,
+      "whole_epoch_world_cap_cases": 4
+    }
+  },
+  "resource_usage": {
+    "artifact_bytes": 195977865,
+    "total_process_cpu_seconds": 2.31685,
+    "wall_seconds": 2.484261375851929
+  },
+  "seal_sha256": "60ec71d14d4cae89c94d4782544f24cffca4519dcfae2482613556d8c71ada6e",
+  "law_sampling_admitted": false,
+  "scientific_status": "untested",
+  "accounting_boundary": "sealed usage includes inventory and seal bytes; excludes later receipt audit/publication"
+}

@@ -54,7 +54,7 @@ The branch bundle preserves the source, request, receipt, and resulting checkpoi
 
 The [first P01 development pilot](docs/p01_findings.md) stopped at its CPU launch reserve: 469 complete horizons, one censored prefix and 42 unstarted slots. Its 469 complete-run AP labels were 436 `not_supported`, 33 `inconclusive` and zero `supported`. All 512 registered cells remain in the report, and the sealed audit passed without a resource overshoot.
 
-That registration is consumed and [closed](docs/p01_closure.json). [P01d diagnosis](docs/p01d_findings.md) checked every retained epoch: generator v1 leaves newborns isolated/unfunded and makes node deletion unreachable; all 33 disagreements remain inconclusive. Independent Python verification used 80.073% of recorded leaf CPU. The separate verifier passed [P01e's fixed offline panel](docs/p01e_findings.md) with 50.174% lower paired child CPU; the frozen receipt auditor's float-sum failure and post-hoc arithmetic correction are preserved. [P01f](docs/p01f_findings.md) now registers 48 fixed reachability witnesses and their source-level argument; next implement the runner and freeze it before execution. No new world runs are admitted. Scientific status remains untested and E01 remains unauthorized.
+That registration is consumed and [closed](docs/p01_closure.json). [P01d diagnosis](docs/p01d_findings.md) checked every retained epoch: generator v1 leaves newborns isolated/unfunded and makes node deletion unreachable; all 33 disagreements remain inconclusive. Independent Python verification used 80.073% of recorded leaf CPU. The separate verifier passed [P01e's fixed offline panel](docs/p01e_findings.md) with 50.174% lower paired child CPU; the frozen receipt auditor's float-sum failure and post-hoc arithmetic correction are preserved. [P01f execution](docs/p01f_execution_findings.md) verified all 48 registered authored reachability witnesses with exact agreement across both Rust matchers and independent Python replay. The next task is registering a small generator-v2 sampling-feasibility preflight. No law sampling or repeated witness batch is admitted. Scientific status remains untested and E01 remains unauthorized.
 
 ## Environment fixtures and continuation
 
@@ -99,7 +99,7 @@ Published at [kalewicker/evolvable-physics](https://github.com/kalewicker/evolva
 
 The public snapshot includes source, locked dependencies, protocols, reports, the revised experiment plan, and [compact validation receipts](docs/evidence/README.md). Raw `artifacts/`, `target/`, caches, and machine-local settings stay outside Git. Run the validation command above to generate full evidence from source.
 
-Implementation resumed at the user’s request after publication. P01 is sealed and closed; P01d diagnosis and P01e offline verifier preflight are complete. P01f design/registration is complete; next implement and freeze its fixed witness runner before execution admission. No native witness or law sampling is currently admitted.
+Implementation resumed at the user’s request after publication. P01 is sealed and closed; P01d diagnosis and P01e offline verifier preflight are complete. P01f reachability execution is complete and consumed. All 48 authored cases passed; the v2 sampler remains unimplemented. Next register the bounded sampling-feasibility preflight before any law draws.
 
 At the end of future project turns, commit and push any changes to this repository after the appropriate checks. See [AGENTS.md](AGENTS.md).
 
@@ -176,10 +176,18 @@ These are the historical entry points, not authorization to repeat the single re
 
 ## P01f reachability registration
 
-[Generator-v2 design](docs/generator_v2_design.md) specifies attached funded birth, Structural resource transfer and recoverable leaf deletion using existing operations. The [protocol](docs/p01f_protocol.json) and [literal witness registry](docs/p01f_witnesses.json) fix 12 authored families across four seeds, with explicit positive/negative predictions and future execution ceilings. Neither the sampler nor the witness runner is implemented.
+[Generator-v2 design](docs/generator_v2_design.md) specifies attached funded birth, Structural resource transfer and recoverable leaf deletion using existing operations. The [protocol](docs/p01f_protocol.json) and [literal witness registry](docs/p01f_witnesses.json) fix 12 authored families across four seeds, with explicit positive/negative predictions and future execution ceilings. The fixed witness runner is implemented and its single registered batch passed; the law sampler remains unimplemented.
 
 ```sh
 python3 scripts/check_p01f_registration.py artifacts/p01f-registration-new
 ```
 
-This static review requires a new output directory and byte-matching [registration freeze](docs/p01f_registration_freeze.json). It checks schemas, case census and declared inventory arithmetic; it does not match or execute a rule or establish a predicted trajectory. [Registration findings](docs/p01f_findings.md) preserve that distinction. Next implement the fixed-panel runner and validation, then bind source/binary/input hashes in an execution freeze and admission record before native calls. No law search or E01 is admitted.
+This static review requires a new output directory and byte-matching [registration freeze](docs/p01f_registration_freeze.json). It checks schemas, case census and declared inventory arithmetic; it does not match or execute a rule or establish a predicted trajectory. [Registration findings](docs/p01f_findings.md) preserve that distinction. The subsequent [execution findings](docs/p01f_execution_findings.md) report all 48 cases passing under the separately frozen implementation. The batch is consumed; do not repeat it. No law search or E01 is admitted.
+
+For a retained complete local bundle, the receipt-only audit performs no transitions:
+
+```sh
+python3 scripts/audit_p01f_receipts.py artifacts/p01f-001
+```
+
+The public receipts omit raw traces and dependency snapshots, so this audit requires the full local bundle. See [implementation](docs/p01f_implementation.md), [execution freeze](docs/p01f_execution_freeze.json) and [reachability admission](docs/p01f_reachability_admission.json).

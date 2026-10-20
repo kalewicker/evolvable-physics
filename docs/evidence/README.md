@@ -21,3 +21,14 @@ P01d publishes the read-only diagnostic manifest, inventory, input campaign audi
 P01e publishes the immutable offline-preflight manifest/inventory/seal, fixed-panel fixture receipts, and per-stage guard/output receipts (no raw trajectories). Its checksum inventory also covers unpublished source snapshots and mutated record copies; published stage files are byte-identical originals. The v1 receipt-auditor traceback, later v2 read-only audit, preflight/post-correction test logs and publication context are outside the original bundle. Context binds those external files and the post-hoc correction source. The candidate/harness freeze, timing inputs, gate and measurements were not changed or repeated. See [P01e findings](../p01e_findings.md).
 
 P01f registration publishes a static schema/census/inventory review and its checksum inventory. The separate test log and publication context anchor later review documentation and unchanged kernel/build hashes. No native world, candidate enumeration or transition application was executed; all 48 witness cases and their event/resource totals are predictions awaiting a separate implementation/execution freeze. This is not a simulator-run seal or reachability admission. See [registration findings](../p01f_findings.md).
+
+P01f execution publishes the subsequent single-batch manifest, inventory, seal,
+panel and receipt audits, stage guard/descriptors and pre-execution build/lint/test
+logs. All 48 authored cases passed; see [execution findings](../p01f_execution_findings.md).
+The implementation freeze/admission was committed and pushed before execution.
+Raw transition records, source/binary copies and dependency snapshots remain
+local. The checksum inventory covers those unpublished files too. The separate
+receipt audit and publication context are outside the original bundle; context
+binds byte-identical copies, pre-execution logs and later closeout documentation.
+The registration is consumed. Reachability admission concerns authored fixtures;
+the law sampler is not implemented and no law draw or E01 is admitted.
