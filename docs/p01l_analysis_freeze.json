@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-20",
+  "files": {
+    "docs/p01k_closure.json": "10b69425d381a88cc4ab182b5bc8a08bdbd17939c91c89c2e88d1fd677d49ba0",
+    "docs/p01l_analysis_plan.md": "ba8fbed1ea397f6878e81fb1fdc375fec0d16a0f27a8bb88ff790f036598579a",
+    "scripts/generator_v3_fields.py": "ae759b9b334a0a538df0bdeac777bf019b1535f0959699ae1d744b45b88b8cd7",
+    "src/core.rs": "223bd0eb4ba3a3eeb645ddb1d95d65153ba9ad64b59ea3e959814bbad9368b20",
+    "src/runtime.rs": "bbf691fe55b49992977099aeb1763f248c9b29ba63680ecf8159e78ae2728272"
+  },
+  "initial_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "inputs": {
+    "artifacts/p01k-001/analysis/static_report/stdout.bin": "498a7a1725ad7ba0cc0d099eb8e2df4c98771679a8d6a2b6188bf7d2fbf197e0",
+    "artifacts/p01k-001/checksums.json": "b700623bff27a5246cf94aee56cb2847f4b05712ee8989efdddf0bbb46c51ee2",
+    "artifacts/p01k-001/manifest.json": "7f6dfa2b3cca41250f9f89bdeecab833ec31b37168624c403f2f10e0f93aaae3",
+    "artifacts/p01k-001/seal.json": "28cc39cf2930dfcbfbcbcb4e8b2a579a5fb7f2099b3b0cf93f633b339b3fe54a"
+  },
+  "known_results": "P01k counts published before this post-hoc plan; zero immediately state-aligned joined motifs",
+  "proposals": [
+    5000,
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007,
+    5008,
+    5009,
+    5010,
+    5011,
+    5012,
+    5013,
+    5014,
+    5015,
+    5016,
+    5017,
+    5018,
+    5019,
+    5020,
+    5021,
+    5022,
+    5023,
+    5024,
+    5025,
+    5026,
+    5027,
+    5028,
+    5029,
+    5030,
+    5031
+  ],
+  "read_only_analysis_admitted": true,
+  "sampling_admitted": false,
+  "schema": "p01l-read-only-analysis-freeze-v1",
+  "world_execution_admitted": false
+}
