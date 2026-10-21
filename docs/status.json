@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01l_complete",
+  "stage": "P01m_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "design-only review of a minimal state/resource-coherent lifecycle prior: explicit body availability, state and material correlations, preserved child-as-donor paths and disclosed authored bias relative to v3",
-    "retain every consumed panel, negative outcome, inconclusive label and original criterion; no repair, replacement or favorable-law evolution",
-    "no implementation, namespace-keyed reevaluation, fresh sampling, trajectories, environment/detector change or E01 admitted; any future experiment requires separate justification and registration"
+    "separately register fixed literal-field readiness for independent Rust/Python v4 adapters before implementation",
+    "cover all maps/roles, cross-slot/initial reuse, effective versus ignored fields, unchanged templates, absent-body/child-donor and state/material/resource/topology negatives, and all 119 raw field records",
+    "no namespace-keyed evaluation, native laws, candidates, world execution, new sampling panel, historical input repair/selection or E01; any later experiment needs separate justification/registration/execution freeze"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -219,5 +219,14 @@
   "p01l_summary": "docs/evidence/p01l-001/summary.json",
   "p01l_world_transitions": 0,
   "p01l_material_state_permitted_funded_descendant_paths": 0,
-  "p01l_conditional_bootstrap_exclusion_tables": 32
+  "p01l_conditional_bootstrap_exclusion_tables": 32,
+  "p01m_design_complete": true,
+  "generator_v4_implemented": false,
+  "generator_v4_implementation_admitted": false,
+  "generator_v4_sampling_admitted": false,
+  "generator_v4_design": "docs/generator_v4_design.json",
+  "p01m_findings": "docs/p01m_findings.md",
+  "p01m_closure": "docs/p01m_closure.json",
+  "p01m_static_review": "docs/evidence/p01m-design-001/static_review.json",
+  "p01m_independent_audit": "docs/evidence/p01m-design-001/independent_audit.json"
 }

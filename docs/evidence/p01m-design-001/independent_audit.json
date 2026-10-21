@@ -1,0 +1,13 @@
+{
+  "all_profile_membership_and_cycles_checked": true,
+  "analysis_checksums_sha256": "0cfaea75aba586d27738c543024a3bc784f330dd646d97ff448f5ef64b68ca7d",
+  "audit_source_sha256": "7aa1e3f95540ccc4f4805ee008b5555f8d3c7530ec6e5cd4e8201c6288e89e3a",
+  "keyed_hash_evaluations": 0,
+  "profiles_verified": 13824,
+  "review_sha256": "72495f878ff87b808e6aa65ed796d263cabb82323d237c5c67252cebb2d5c40d",
+  "schema": "p01m-independent-saved-profile-audit-v1",
+  "scope": "saved profile/domain/custody audit; label-state equalities verified separately by design checker",
+  "slot_feasible_profiles": 13797,
+  "status": "pass",
+  "world_transitions": 0
+}

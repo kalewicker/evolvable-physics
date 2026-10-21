@@ -1,0 +1,47 @@
+{
+  "base_commit": "4d4a449f228604aeae1c94e612a5d3d8e0857191",
+  "copies": [
+    {
+      "original": "artifacts/p01m-design-001/static_review.json",
+      "public": "docs/evidence/p01m-design-001/static_review.json",
+      "sha256": "72495f878ff87b808e6aa65ed796d263cabb82323d237c5c67252cebb2d5c40d"
+    },
+    {
+      "original": "artifacts/p01m-design-001/checksums.json",
+      "public": "docs/evidence/p01m-design-001/checksums.json",
+      "sha256": "0cfaea75aba586d27738c543024a3bc784f330dd646d97ff448f5ef64b68ca7d"
+    },
+    {
+      "original": "artifacts/p01m-design-001-audit-final.json",
+      "public": "docs/evidence/p01m-design-001/independent_audit.json",
+      "sha256": "2029a812b58c5c37ad2fb9a40e6c019ee2abf6e789a797778944ff6e2c1bf6a8"
+    },
+    {
+      "original": "artifacts/p01m-precheck-001/tests-final.txt",
+      "public": "docs/evidence/p01m-design-001/tests.txt",
+      "sha256": "398d89d4d10222af6b792355b836b0539bf7ad8c60e2e680b89e37b7f1705354"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "dc4cda23579e2da725a189b5684b12feea893886cd2ffc51fe5bd8bede1561ba",
+    "README.md": "7c7678977cb39f36f39ef6a2f16a732daa789b96b5574adc12ff113a0d3462bd",
+    "docs/evidence/README.md": "2b4db075ad2dbece11fd71e9a043bc7f04495e3ddda9a04e243408d0bfdd4643",
+    "docs/generator_v4_design.json": "9d238d51cfba2e2d673ff8edb922e360388494426a525feb062753746a6435d6",
+    "docs/generator_v4_design.md": "0e649c295ee72b6744dad832c72c97b4d4c3ae40395a83240448391a0f5c8d19",
+    "docs/p01m_closure.json": "2e189aecb92fd33eb476d3187846488d381c6bd4283114ceabbe3cd6f9dd520e",
+    "docs/p01m_findings.md": "0adcd6c58d03f3592ed5ae511d3dd72aa2ed0c045cf43347f64a7b0cfc48ca8e",
+    "docs/status.json": "4b571ac31139032b5b547f2cc1a9c99fdd98fb25c78ca2ad7726681cb7c9f26e",
+    "scripts/audit_generator_v4_design.py": "7aa1e3f95540ccc4f4805ee008b5555f8d3c7530ec6e5cd4e8201c6288e89e3a",
+    "scripts/review_generator_v4_design.py": "246f1260b5c4830bbfc6addd29e3df9c6e14d79f85962be44a984f61e5e06637",
+    "scripts/test_generator_v4_design.py": "17809ec10994d8d317824a8ade7cf424db3db61c328a288736b5ffb344bfeb84"
+  },
+  "note": "Original abstract-profile/source-copy inventory remains unchanged. Audits, test logs and final closeout/publication files are later external additions. All 397 prior public receipts and 172 frozen project files were verified before publication. Abstract profiles and source snapshots remain local. No native law, namespace-keyed draw or world transition occurred. This is not an experiment execution seal.",
+  "retained_preliminary_checks": {
+    "artifacts/p01m-design-001-audit.json": "2036051a0f6c9fe86eca8e203fd844ac3c516cdc7b5f93410e082d45170a98c0",
+    "artifacts/p01m-precheck-001/checks.txt": "1e65bcec1a8e6e5b86c2a7e4c251d861f785d7a00c4d8dac4d5f318d500f0761",
+    "artifacts/p01m-precheck-001/tests.txt": "3077dbe5a91bd8e1b9af2b1134511833ae6a79f12606e88f85037fea8fb524f5"
+  },
+  "schema": "p01m-design-publication-context-v1",
+  "scope": "proposed changed prior, design only; no implementation, sampling or world execution admission"
+}

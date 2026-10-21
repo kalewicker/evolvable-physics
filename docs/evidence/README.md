@@ -122,3 +122,12 @@ later source argument, closeout and helpers. The original P01k seal is unchanged
 full raw tables/sampler outputs and preliminary successful checks remain local.
 These are unary-state algebra and conditional topology/resource checks, not
 new world trajectories. See [review findings](../p01l_findings.md).
+
+P01m publishes the proposed-v4 finite design review, original abstract-profile
+and source-copy inventory, independent saved-profile audit and final contract
+test log. All 13,824 abstract profiles, source snapshots and preliminary checks
+remain local and are hash-bound; they are not sampled laws or worlds.
+Publication context binds byte copies and later design/findings/closeout files.
+No prior inventory, seal, sampled panel or outcome changed. The recommendation
+requires a separate literal-readiness registration before implementation;
+see [design findings](../p01m_findings.md).

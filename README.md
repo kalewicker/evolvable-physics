@@ -359,3 +359,26 @@ These commands read saved evidence and require a new analysis output path;
 they do not repeat the consumed census. Next is design-only review of a minimal
 state/resource-coherent lifecycle prior and its authored bias. Implementation,
 fresh sampling, favorable-law evolution and E01 remain unadmitted.
+
+## P01m proposed v4 design
+
+The [design review](docs/p01m_findings.md) recommends shared per-kind constructive
+states plus matter-bearing Structural funding. It keeps independently sampled
+body presence and eight slots, so missing roles remain possible. These are
+explicit authored correlations; no generator or sampled law was implemented.
+
+Finite checks passed across 59,049 kind/state cases and all 13,824 abstract
+body-presence profiles. A fully covered three-kind birth/funding/recycling
+cycle needs nine bodies and does not fit eight slots. These counts concern
+labels and role coverage, not chemistry success or sampler frequencies.
+
+```sh
+python3 -m unittest discover -s scripts -p test_generator_v4_design.py -v
+python3 scripts/review_generator_v4_design.py artifacts/p01m-design-new
+python3 scripts/audit_generator_v4_design.py artifacts/p01m-design-new artifacts/p01m-design-new-audit.json
+```
+
+Next separately register literal-field readiness for independent Rust/Python
+adapters before implementation. New sampling, world execution and E01 remain
+unadmitted. Historical panels, criteria and negative/inconclusive outcomes stay
+intact.

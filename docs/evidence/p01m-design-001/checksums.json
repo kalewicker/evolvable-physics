@@ -1,0 +1,9 @@
+{
+  "profiles.jsonl": "79fc9945c3b161e73afe671ed5e6ce42e5f9dcf29b9ce355a713956c001432b3",
+  "source/docs/generator_v4_design.json": "9d238d51cfba2e2d673ff8edb922e360388494426a525feb062753746a6435d6",
+  "source/docs/generator_v4_design.md": "0e649c295ee72b6744dad832c72c97b4d4c3ae40395a83240448391a0f5c8d19",
+  "source/docs/p01l_closure.json": "c7508664dcb5f67c8ae27462e1da036051375d499fb2ecd8a5c093beda8637a8",
+  "source/docs/p01l_source_argument.md": "e0f1c3b62f75654290fbd3a46ee5d86a3c7729124e6b2dc73c00890ed34155a2",
+  "source/scripts/review_generator_v4_design.py": "246f1260b5c4830bbfc6addd29e3df9c6e14d79f85962be44a984f61e5e06637",
+  "static_review.json": "72495f878ff87b808e6aa65ed796d263cabb82323d237c5c67252cebb2d5c40d"
+}

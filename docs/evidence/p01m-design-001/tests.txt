@@ -1,0 +1,8 @@
+test_proposed_contract_has_no_execution_admission (test_generator_v4_design.DesignContractTests.test_proposed_contract_has_no_execution_admission) ... ok
+test_review_imports_and_hash_input_are_file_only (test_generator_v4_design.DesignContractTests.test_review_imports_and_hash_input_are_file_only) ... ok
+test_six_malformed_contracts_are_rejected (test_generator_v4_design.DesignContractTests.test_six_malformed_contracts_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.019s
+
+OK

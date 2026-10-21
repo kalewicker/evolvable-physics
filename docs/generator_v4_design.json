@@ -1,0 +1,69 @@
+{
+  "schema": "generator-v4-design-only-v1",
+  "status": "proposed_not_implemented",
+  "namespace": "p01-generator-v4",
+  "rule_slots": 8,
+  "kinds": [1, 2, 3],
+  "states": [0, 1, 2],
+  "type_map": {
+    "field": "child_kind_by_donor",
+    "scope": "per_law",
+    "initial": 0,
+    "indices": [0, 1, 2],
+    "modulus": 3,
+    "offset": 1,
+    "requires_bijection": false
+  },
+  "state_map": {
+    "field": "role_state_by_kind",
+    "scope": "per_law",
+    "initial": 0,
+    "indices": [0, 1, 2],
+    "modulus": 3,
+    "offset": 0
+  },
+  "effective_overrides": {
+    "birth_4": {
+      "donor_kind": "kind0+1",
+      "donor_state": "state_map[donor_kind]",
+      "child_kind": "type_map[donor_kind]",
+      "child_state": "state_map[child_kind]"
+    },
+    "structural_transfer_3_route_1": {
+      "donor_kind": "kind0+1",
+      "target_kind": "type_map[donor_kind]",
+      "donor_state": "state_map[donor_kind]",
+      "target_state": "state_map[target_kind]",
+      "matter": 1
+    },
+    "recycling_7": {
+      "donor_kind": "kind0+1",
+      "target_kind": "type_map[donor_kind]",
+      "donor_state": "state_map[donor_kind]",
+      "target_state": "state_map[target_kind]"
+    }
+  },
+  "body_presence": "independent_form_donor_kind_and_route_fields_no_insertion",
+  "unchanged_except_namespace": [
+    "all_8_slot_form_and_donor_fields",
+    "unary_and_Contact_and_edge_only_templates",
+    "Structural_transfer_activation_amount",
+    "operation_order_and_costs",
+    "initial_world_fields_resources_topology_and_closed_environment",
+    "kernel_matchers_scheduler_caps_and_detectors"
+  ],
+  "unused_raw_fields": "retain_all_11_v3_fields_per_slot_even_when_overridden",
+  "logical_field_records_per_environment": 119,
+  "proposal_ids": [],
+  "execution_protocol": null,
+  "not_admitted": [
+    "generator_implementation",
+    "namespace_keyed_hash_evaluation",
+    "law_repair_filter_reroll_or_selection",
+    "candidate_enumeration",
+    "world_transitions",
+    "witness_execution",
+    "new_environment_or_detector_thresholds",
+    "E01"
+  ]
+}

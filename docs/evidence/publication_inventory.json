@@ -1589,6 +1589,26 @@
     {
       "file": "docs/evidence/p01l-001/tests.txt",
       "sha256": "fda215ca772527cc2ca0c42e6d08a5d74cf3763c021f6b7045ea753f3c87cfd9"
+    },
+    {
+      "file": "docs/evidence/p01m-design-001/checksums.json",
+      "sha256": "0cfaea75aba586d27738c543024a3bc784f330dd646d97ff448f5ef64b68ca7d"
+    },
+    {
+      "file": "docs/evidence/p01m-design-001/independent_audit.json",
+      "sha256": "2029a812b58c5c37ad2fb9a40e6c019ee2abf6e789a797778944ff6e2c1bf6a8"
+    },
+    {
+      "file": "docs/evidence/p01m-design-001/publication_context.json",
+      "sha256": "b669a7371666791ade48a50a077c4440be816ddb3c0fbf428d815ae9e92b05a3"
+    },
+    {
+      "file": "docs/evidence/p01m-design-001/static_review.json",
+      "sha256": "72495f878ff87b808e6aa65ed796d263cabb82323d237c5c67252cebb2d5c40d"
+    },
+    {
+      "file": "docs/evidence/p01m-design-001/tests.txt",
+      "sha256": "398d89d4d10222af6b792355b836b0539bf7ad8c60e2e680b89e37b7f1705354"
     }
   ]
 }

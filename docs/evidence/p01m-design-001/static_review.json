@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "cycles_across_all_type_maps": {
+      "1": 27,
+      "2": 9,
+      "3": 2
+    },
+    "exclusive_partition": {
+      "funded_descendant_without_local_recycle": 2241,
+      "local_joined_labels_available": 3015,
+      "no_birth_donor": 1728,
+      "no_local_funded_descendant": 6840
+    },
+    "fully_covered_cycle_body_minimum": {
+      "1_kind": 3,
+      "2_kinds": 6,
+      "3_kinds": 9
+    },
+    "local_funded_profile_count": 5256,
+    "local_joined_profile_count": 3015,
+    "minimum_bodies_histogram": {
+      "0": 27,
+      "1": 243,
+      "2": 972,
+      "3": 2268,
+      "4": 3402,
+      "5": 3402,
+      "6": 2268,
+      "7": 972,
+      "8": 243,
+      "9": 27
+    },
+    "profiles": 13824,
+    "scope": "role availability only; recurrent labels do not establish resource cycles or events",
+    "slot_feasible_profiles": 13797,
+    "slot_infeasible_profiles": 27,
+    "type_subset_profiles_are_not_a_sampling_distribution": true
+  },
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "checks_passed": true,
+  "chemistry_continuation_gate": null,
+  "counterexamples_and_resources": {
+    "activation_dissipated_per_birth": 1,
+    "closed_initial_activation": 64,
+    "conditional_budgets": [
+      {
+        "activation_per_transfer": 1,
+        "child_after_funding": [
+          3,
+          3
+        ],
+        "child_after_own_birth": [
+          0,
+          1
+        ],
+        "creator_after_funding": [
+          3,
+          4
+        ],
+        "original_creator_after_birth": [
+          5,
+          6
+        ],
+        "transfer_count": 2
+      },
+      {
+        "activation_per_transfer": 2,
+        "child_after_funding": [
+          3,
+          5
+        ],
+        "child_after_own_birth": [
+          0,
+          3
+        ],
+        "creator_after_funding": [
+          3,
+          2
+        ],
+        "original_creator_after_birth": [
+          5,
+          6
+        ],
+        "transfer_count": 2
+      }
+    ],
+    "conservative_birth_bound": 64,
+    "counterexamples": [
+      {
+        "closes_matter_deficit": false,
+        "kind_and_state_match": true,
+        "matter": 0,
+        "name": "state_coherence_without_material"
+      },
+      {
+        "funding_guard": 0,
+        "matter": 1,
+        "name": "material_without_state_coherence",
+        "newborn_state": 1,
+        "next_birth_guard": 2,
+        "state_permitted": false,
+        "unary_writers": 0
+      },
+      {
+        "B": [
+          1
+        ],
+        "F": [
+          1
+        ],
+        "first_child_can_be_donor": false,
+        "name": "missing_child_donor",
+        "type_map": [
+          2,
+          2,
+          3
+        ]
+      },
+      {
+        "B": [
+          1
+        ],
+        "F": [],
+        "funded_start": false,
+        "name": "missing_funding",
+        "type_map": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "exact_guard_accepts": false,
+        "later_state": 1,
+        "name": "state_writer_can_leave_role_state",
+        "role_state": 0
+      },
+      {
+        "B": [
+          1,
+          2,
+          3
+        ],
+        "F": [
+          1,
+          2,
+          3
+        ],
+        "R": [
+          1,
+          2,
+          3
+        ],
+        "minimum_bodies": 9,
+        "name": "full_three_kind_cycle_over_slot_cap",
+        "slot_cap": 8,
+        "type_map": [
+          2,
+          3,
+          1
+        ]
+      }
+    ],
+    "no_resource_or_scheduling_history_constructed": true
+  },
+  "date": "2026-10-20",
+  "e01_authorized": false,
+  "frozen_project_files_unchanged": 172,
+  "generator_implemented": false,
+  "keyed_hash_evaluations": 0,
+  "prior_public_receipts_verified": 397,
+  "profiles_sha256": "79fc9945c3b161e73afe671ed5e6ce42e5f9dcf29b9ce355a713956c001432b3",
+  "sampling_admitted": false,
+  "schema": "p01m-static-role-design-review-v1",
+  "scientific_status": "untested",
+  "scope": "finite abstract labels only; no native law, hash draws, candidate matching or world execution",
+  "source_sha256": {
+    "docs/generator_v4_design.json": "9d238d51cfba2e2d673ff8edb922e360388494426a525feb062753746a6435d6",
+    "docs/generator_v4_design.md": "0e649c295ee72b6744dad832c72c97b4d4c3ae40395a83240448391a0f5c8d19",
+    "docs/p01l_closure.json": "c7508664dcb5f67c8ae27462e1da036051375d499fb2ecd8a5c093beda8637a8",
+    "docs/p01l_source_argument.md": "e0f1c3b62f75654290fbd3a46ee5d86a3c7729124e6b2dc73c00890ed34155a2",
+    "scripts/review_generator_v4_design.py": "246f1260b5c4830bbfc6addd29e3df9c6e14d79f85962be44a984f61e5e06637"
+  },
+  "state_algebra": {
+    "donor_label_cases": 59049,
+    "funded_identity_true": 6561,
+    "joined_identity_true": 2187,
+    "kind_and_state_relabeling_comparisons": 78732,
+    "role_state_counts": [
+      {
+        "assignments": 243,
+        "kind": 1,
+        "state": 0
+      },
+      {
+        "assignments": 243,
+        "kind": 1,
+        "state": 1
+      },
+      {
+        "assignments": 243,
+        "kind": 1,
+        "state": 2
+      },
+      {
+        "assignments": 243,
+        "kind": 2,
+        "state": 0
+      },
+      {
+        "assignments": 243,
+        "kind": 2,
+        "state": 1
+      },
+      {
+        "assignments": 243,
+        "kind": 2,
+        "state": 2
+      },
+      {
+        "assignments": 243,
+        "kind": 3,
+        "state": 0
+      },
+      {
+        "assignments": 243,
+        "kind": 3,
+        "state": 1
+      },
+      {
+        "assignments": 243,
+        "kind": 3,
+        "state": 2
+      }
+    ],
+    "scope": "exhaustive abstract labels conditional on roles; not sampled-law or trajectory frequencies",
+    "state_maps": 27,
+    "type_maps": 27
+  },
+  "world_execution_admitted": false,
+  "world_transitions": 0
+}
