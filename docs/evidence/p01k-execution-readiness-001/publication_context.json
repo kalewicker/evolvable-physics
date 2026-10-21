@@ -1,0 +1,21 @@
+{
+  "copies": [
+    {
+      "original": "artifacts/p01k-execution-readiness-001/readiness.json",
+      "public": "docs/evidence/p01k-execution-readiness-001/readiness.json",
+      "sha256": "be6a0408fbf128cb9d2d5c68bc1a0397cabdf2edd2786d10bdaf44690b83dc8d"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "c7127f26dd6e89bb4e091b25fbb797a48bd9333bfb5910f394662dc0b4813e19",
+    "docs/p01k_execution_admission.json": "f9e4f657f73ed4490198c8ad82049c4eefa8c128fc0bb0ece3c274daa53743ff",
+    "docs/p01k_execution_freeze.json": "69ff28afc4bad3a38e2c8cf69f6543bb70d742e761aaf6c433b26af2f9bc4179",
+    "docs/p01k_execution_freeze_notes.md": "df71c9e5b2d862dd2dc38a362afaca0aa3fb25a2f7c3b129242d91eebfd1b768",
+    "docs/status.json": "1f446581f2878b05fd46111c45230279f4df8e6546b297423a7b972081b4d99d",
+    "scripts/check_p01k_execution.py": "035106fcf7713f347e823985d1446a89f4f3ea4c5f82950922d72dfb7682422a"
+  },
+  "implementation_commit": "f2f73dfa8883a612bcf6964c36ad38c58327a8fd",
+  "schema": "p01k-execution-readiness-publication-context-v1",
+  "scope": "pre-sampling closure/admission review only; commit/push gate still precedes first keyed evaluation"
+}

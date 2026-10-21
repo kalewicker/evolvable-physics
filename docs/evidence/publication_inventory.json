@@ -1501,6 +1501,14 @@
     {
       "file": "docs/evidence/p01k-implementation-001/rust/tests.txt",
       "sha256": "631be9fa3163468137a84d0b553e0b018ae7ed4eadc3b6c8803ff99ff3d3ea7c"
+    },
+    {
+      "file": "docs/evidence/p01k-execution-readiness-001/publication_context.json",
+      "sha256": "f335d4d509844984e140ede48e739c37101efcdc0b95169a1a8d58a8799f6af5"
+    },
+    {
+      "file": "docs/evidence/p01k-execution-readiness-001/readiness.json",
+      "sha256": "be6a0408fbf128cb9d2d5c68bc1a0397cabdf2edd2786d10bdaf44690b83dc8d"
     }
   ]
 }

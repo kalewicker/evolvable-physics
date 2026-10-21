@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01k_implementation_ready",
+  "stage": "P01k_execution_admitted",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "prepare and verify the full P01k source/dependency/tool/binary/input execution freeze and exact output-path admission; commit/push before any keyed sampler or hash-audit call",
-    "only after that freeze/admission, execute the one registered 32-law/128-environment static census under original budgets, retaining all negatives, duplicates, failed and unstarted cells without filtering, repair or retry",
-    "independently audit records/costs/receipts and close the consumed attempt; no world trajectories, changed environment/detector gates or E01; literal/mock readiness does not prove sampled equivalence or live watchdog integration"
+    "commit/push the verified P01k execution freeze/admission before the first namespace-keyed evaluation",
+    "execute only the single registered 32-law/128-environment static census in artifacts/p01k-001, with original budgets and no filtering, retry or replacement",
+    "audit and close the consumed attempt, preserving all outcomes; no world transitions or E01"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -72,7 +72,7 @@
   "p01f_registration_freeze": "docs/p01f_registration_freeze.json",
   "generator_v2_implemented": true,
   "reachability_witness_runner_implemented": true,
-  "next_work_requires_execution_freeze": true,
+  "next_work_requires_execution_freeze": false,
   "p01f_execution_complete": true,
   "p01f_registration_consumed": true,
   "p01f_reachability_gate_pass": true,
@@ -171,7 +171,7 @@
   "p01j_findings": "docs/p01j_findings.md",
   "p01j_literal_adapter_validation_started": true,
   "literal_field_adapter_implementation_admitted": true,
-  "generator_v3_sampling_admitted": false,
+  "generator_v3_sampling_admitted": true,
   "p01j_literal_adapter_validation_complete": true,
   "generator_v3_literal_adapters_implemented": true,
   "p01j_readiness_gate_pass": true,
@@ -197,5 +197,7 @@
   "p01k_independent_auditor_implemented": true,
   "p01k_literal_mock_readiness_pass": true,
   "p01k_implementation_readiness": "docs/p01k_implementation_readiness.json",
-  "p01k_implementation_findings": "docs/p01k_implementation_findings.md"
+  "p01k_implementation_findings": "docs/p01k_implementation_findings.md",
+  "p01k_execution_freeze": "docs/p01k_execution_freeze.json",
+  "p01k_execution_admission": "docs/p01k_execution_admission.json"
 }

@@ -1,0 +1,22 @@
+{
+  "admitted_output": "artifacts/p01k-001",
+  "date": "2026-10-20",
+  "e01_authorized": false,
+  "execution_freeze_sha256": "69ff28afc4bad3a38e2c8cf69f6543bb70d742e761aaf6c433b26af2f9bc4179",
+  "execution_gate": "this freeze/admission must be committed and pushed before first keyed evaluation, including independent hash audit",
+  "fixed_cells": 128,
+  "fixed_laws": 32,
+  "keyed_sampler_evaluations_so_far": 0,
+  "limits": "unchanged docs/p01k_protocol.json; all 128 manifest rows before any keyed evaluation",
+  "literal_implementation_readiness_sha256": "84e215b1f351df88cd7af32f7feb0e947cfc9672873f0e8d44bd390135d9c52e",
+  "no_retries_or_replacements": true,
+  "output_absolute": "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01k-001",
+  "protocol_sha256": "e697d86ee0569831c55e8a0f4850924ff358bfeb06e72b4a2cbadedfe7aad409",
+  "registration_freeze_sha256": "2fb523301e5afefc94025923688583923b360551e8ed4568a3e31e52214a48f1",
+  "sampling_admitted": true,
+  "schema": "p01k-static-execution-admission-v1",
+  "scientific_status": "untested",
+  "tests_and_build": "4 Rust tests, 10 Python tests, Clippy/release and literal/recorded-mock preflight passed with byte-identical source/binary reuse",
+  "world_execution_admitted": false,
+  "world_transitions_so_far": 0
+}
