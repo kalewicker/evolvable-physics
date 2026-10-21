@@ -131,3 +131,12 @@ Publication context binds byte copies and later design/findings/closeout files.
 No prior inventory, seal, sampled panel or outcome changed. The recommendation
 requires a separate literal-readiness registration before implementation;
 see [design findings](../p01m_findings.md).
+
+P01n publishes the static v4 literal-readiness registration review and its
+normal/optimized ten-test logs. The registration freeze pins 220 project/input
+files and all 402 preceding public receipts; later guidance/findings/publication
+files are separately anchored in publication context. The checker enumerates
+case identities and condition vectors only. It neither constructs native
+rules/worlds nor calls an adapter or keyed sampler. See
+[registration findings](../p01n_findings.md) for conditional literal-only
+implementation admission and the remaining sampling/execution boundary.

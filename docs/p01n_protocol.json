@@ -1,0 +1,200 @@
+{
+  "schema": "p01n-v4-literal-readiness-registration-v1",
+  "date": "2026-10-20",
+  "scope": "registration only; fixed literal descriptors, no adapters or worlds constructed/executed",
+  "generator_design": "docs/generator_v4_design.json",
+  "registry": "docs/p01n_literal_fields.json",
+  "namespace": "p01-generator-v4",
+  "proposal_ids": [],
+  "panels": {
+    "constructive_rule_cases": 6561,
+    "unchanged_rule_cases": 7776,
+    "environment_assembly_cases": 2916,
+    "ignored_field_probe_groups": 37,
+    "ignored_field_evaluations": 395,
+    "invalid_input_cases": 79,
+    "validator_only_local_conditions": 13,
+    "adapter_requests": 17727
+  },
+  "field_domains": {
+    "form": 8,
+    "kind0": 3,
+    "kind1": 3,
+    "new_kind": 3,
+    "state0": 4,
+    "state1": 4,
+    "value": 3,
+    "sign": 2,
+    "amount": 2,
+    "matter": 2,
+    "route": 2
+  },
+  "constructive_expansion": {
+    "order": [
+      "type_map",
+      "state_map",
+      "raw_donor_kind",
+      "constructive_variant"
+    ],
+    "rule_id": "global_rule_ordinal % 8",
+    "kind1_and_new_kind": "type_map[kind0] % 3; deliberately differs from the mapped raw child kind",
+    "state0": 3,
+    "state1": 3,
+    "value": "(state_map[type_map[kind0]-1] + 1) % 3",
+    "sign_and_amount": "global_rule_ordinal % 2",
+    "matter": 0,
+    "form_and_route": "registered variant"
+  },
+  "unchanged_expansion": {
+    "order": [
+      "type_map",
+      "raw_donor_kind",
+      "unchanged_variant",
+      "raw_state_pair"
+    ],
+    "rule_id": "global_rule_ordinal % 8, continuing after constructive panel",
+    "state_map": [
+      2,
+      0,
+      1
+    ],
+    "kind1": "(kind0 + state1) % 3",
+    "new_kind": "(kind0 + state0 + 1) % 3",
+    "value": "(state0 + 2 * state1) % 3",
+    "sign": "(state0 + state1) % 2",
+    "amount": "state1 % 2",
+    "matter": "state0 % 2",
+    "form_and_route": "registered variant"
+  },
+  "assembly_expansion": {
+    "order": [
+      "type_map",
+      "state_map",
+      "initial_fields"
+    ],
+    "rotation": "(3 * type_map_index + state_map_index) % 9",
+    "variant": "(slot + rotation) % 9",
+    "kind0": "(slot + type_map_index) % 3",
+    "state0": "(slot + rotation) % 4",
+    "state1": "(slot + rotation + 1) % 4",
+    "other_fields": "unchanged_expansion formulas",
+    "rule_id": "slot",
+    "reuse": "both maps and all eight rules identical across four initial IDs in each of 729 groups"
+  },
+  "probes": {
+    "mode": "rule",
+    "map": [
+      2,
+      3,
+      1
+    ],
+    "state_map": [
+      2,
+      0,
+      1
+    ],
+    "rule_id": 0,
+    "base_fields": {
+      "form": "registered variant",
+      "route": "registered variant",
+      "kind0": 0,
+      "kind1": 2,
+      "new_kind": 0,
+      "state0": 3,
+      "state1": 3,
+      "value": 2,
+      "sign": 0,
+      "amount": 0,
+      "matter": 0
+    },
+    "comparison": "complete rule output equal within each group; all 17 field records still present and changed raw map/state/slot values recorded, so traces may differ"
+  },
+  "invalid_inputs": {
+    "base_mode": "entry mode",
+    "map": [
+      2,
+      3,
+      1
+    ],
+    "state_map": [
+      2,
+      0,
+      1
+    ],
+    "initial_id": 0,
+    "initial_fields": "registry initial_fields[0]",
+    "base_rule_variant": "structural_transfer",
+    "base_rule_fields": "probes base_fields with numeric form=3 and route=1",
+    "rule_id": 0,
+    "mutation": "only entry target changes; dotted targets index last slot or literal initial field; entry name ending _missing or named missing_raw_kind0/missing_initial_fields deletes the key; rule_fields_short keeps first seven; not_list replaces with object",
+    "response": {
+      "case_id": "echo input ID",
+      "ok": false,
+      "error": "invalid_literal_input"
+    },
+    "validate_ignored_fields": true
+  },
+  "interface": {
+    "requests": "JSONL rule or assembly: case_id, mode, map, state_map; rule requires rule_id and fields; assembly requires initial_id, initial_fields, rule_fields",
+    "response": "exactly case_id, ok=true, value, field_reads on success; exactly case_id, ok=false, error=invalid_literal_input on invalid input",
+    "source": "callback(initial,field,index,modulus)->literal raw integer; no proposal ID or hash fallback",
+    "validation": "all maps/fields required; reject non-integers including bool, missing fields, wrong container length and out-of-range values before callback use; no modulo repair",
+    "read_order": [
+      "three child_kind_by_donor at initial=0 indices 0..2 modulus=3, raw map minus one",
+      "three role_state_by_kind at initial=0 indices 0..2 modulus=3, raw state_map",
+      "slot order then field_domains insertion order, initial=0 and index=rule ID",
+      "for assembly, node index order: node_kind then node_state under requested initial ID, modulus=3",
+      "for assembly, structural index order modulus=2 under requested initial ID",
+      "for assembly, scheduler index=0 modulus=18446744073709551615 under requested initial ID"
+    ],
+    "rule_field_records": 17,
+    "assembly_field_records": 119
+  },
+  "comparison": {
+    "constructive": "complete JSON equality Rust/Python plus independent declared operation table: exact role states, mapped kinds, Structural matter=1; raw poison fields must not leak",
+    "unchanged": "complete JSON against independent v3 form semantics and operation operands/order, not merely two adapters agreeing",
+    "assembly": "full initial environment, accounting, counters, caps, ring/Structural topology, scheduler and all rules; both maps stable across slots and all four initials",
+    "local_conditions": "13 fixed descriptor-only verdict vectors checked by validator; no adapter barrier mode, rule matching or transitions. Counterfactual state-only/material-only and abstract nine-body examples are explicitly not v4 sampled tables",
+    "coverage_limits": "factored authored panel, not the full joint Cartesian product, sampler preimages/equivalence, native reachability or chemistry success"
+  },
+  "future_paths": {
+    "rust": "src/bin/generator-v4-fields.rs",
+    "python": "scripts/generator_v4_fields.py",
+    "validator": "scripts/validate_p01n.py",
+    "readiness_tests": "scripts/test_p01n_readiness.py"
+  },
+  "gate": [
+    "all 17727 adapter requests present exactly once and in order; Rust/Python exact complete outputs and independent declared operation/accounting checks pass",
+    "all traces exactly ordered with 17 records per valid rule and 119 per assembly; all 729 four-initial groups preserve both maps and identical rules",
+    "all 37 probe groups/395 evaluations, 79 structured invalid rejections and 13 validator-only condition vectors pass without semantic overclaim",
+    "source/binary/input closure and all logs/limits recorded; frozen historical sources and prior receipts unchanged; no hash draws, matchers, transitions, witnesses or detectors invoked"
+  ],
+  "future_validation_limits": {
+    "wall_seconds_per_adapter": 60,
+    "combined_stdout_stderr_bytes_per_adapter": 268435456,
+    "aggregate_wall_seconds": 300,
+    "policy": "development readiness only; guard/reap child process groups, retain stdout/stderr within byte cap and failure/truncation/not-started receipts; aggregate covers preparation, guards and audit, not prior build/unit tests; no instantaneous RSS bound claimed"
+  },
+  "failure_policy": "retain every readiness attempt with source/input/binary identities; repair implementation only and repeat this identical panel into a fresh directory; never alter fixed inputs or gate to promote failure",
+  "implementation_admission_after_commit": "only separate literal adapters, fixed validator and new tests; keep Cargo files and old source paths byte-identical; no hash sampler implementation or evaluation",
+  "registration_only_now": true,
+  "literal_validation_executed": false,
+  "sampling_admitted": false,
+  "world_execution_admitted": false,
+  "e01_authorized": false,
+  "scientific_status": "untested",
+  "case_ids": {
+    "order": [
+      "constructive_rules",
+      "unchanged_rules",
+      "assemblies",
+      "probes",
+      "invalid_inputs"
+    ],
+    "rules": "rule-{global_rule_ordinal:05d}",
+    "assemblies": "assembly-{ordinal:04d}",
+    "probes": "probe-{group_index:02d}-{value_index:02d}",
+    "invalid_inputs": "invalid-{entry_name}",
+    "validator_only_conditions": "condition-{entry_name}"
+  }
+}

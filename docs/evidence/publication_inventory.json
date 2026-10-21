@@ -1609,6 +1609,22 @@
     {
       "file": "docs/evidence/p01m-design-001/tests.txt",
       "sha256": "398d89d4d10222af6b792355b836b0539bf7ad8c60e2e680b89e37b7f1705354"
+    },
+    {
+      "file": "docs/evidence/p01n-registration-001/publication_context.json",
+      "sha256": "72d4992df81b603797d6d7d8df4775e4f4205e3f895332e0a022ce1f29cce0e2"
+    },
+    {
+      "file": "docs/evidence/p01n-registration-001/static_review.json",
+      "sha256": "db34f65e76e613657437ee1f16964bd39189df3c2ee1b703f26ca94f43807338"
+    },
+    {
+      "file": "docs/evidence/p01n-registration-001/tests-optimized.txt",
+      "sha256": "20291cedf5491d94e55ddc8d268172e1aef83924bc6ae86db2ac2a351f3ff4ba"
+    },
+    {
+      "file": "docs/evidence/p01n-registration-001/tests.txt",
+      "sha256": "18746f1ea10d95134f458c9bda91111d63c445b621ac9ecff76f62e157320b27"
     }
   ]
 }

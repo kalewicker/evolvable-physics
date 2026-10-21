@@ -382,3 +382,18 @@ Next separately register literal-field readiness for independent Rust/Python
 adapters before implementation. New sampling, world execution and E01 remain
 unadmitted. Historical panels, criteria and negative/inconclusive outcomes stay
 intact.
+
+## P01n v4 literal-readiness registration
+
+The [fixed registration](docs/p01n_registration.md) defines 17,727 future adapter
+requests plus 13 validator-only condition cases. It covers constructive map
+coherence, unchanged forms, all four initial records per map pair, ignored raw
+fields and invalid boundaries. Complete output equality and 17/119-record traces
+are required; no hash draws or world execution are part of this panel.
+
+[Static findings](docs/p01n_findings.md) record ten passing registration tests
+both normally and with Python optimization. No adapter was implemented or run.
+After this registration is committed/pushed, next implement only its separate
+Rust/Python literal adapters and fixed validator, preserving every attempt and
+all frozen sources. Actual sampler implementation or new experiments require
+separate registration and admission.

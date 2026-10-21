@@ -1,0 +1,15 @@
+test_checker_imports_and_sha_inputs_are_file_only (test_p01n_registration.RegistrationTests.test_checker_imports_and_sha_inputs_are_file_only) ... ok
+test_cross_initial_rules_may_not_depend_on_initial_id (test_p01n_registration.RegistrationTests.test_cross_initial_rules_may_not_depend_on_initial_id) ... ok
+test_denominators_paths_and_case_order_fixed (test_p01n_registration.RegistrationTests.test_denominators_paths_and_case_order_fixed) ... ok
+test_fixed_descriptor_counts_and_continuing_slot_ids (test_p01n_registration.RegistrationTests.test_fixed_descriptor_counts_and_continuing_slot_ids) ... ok
+test_ignored_probes_and_all_raw_reads_are_required (test_p01n_registration.RegistrationTests.test_ignored_probes_and_all_raw_reads_are_required) ... ok
+test_invalid_ignored_field_bounds_and_boolean_cases_fixed (test_p01n_registration.RegistrationTests.test_invalid_ignored_field_bounds_and_boolean_cases_fixed) ... ok
+test_local_negatives_remain_separate_and_counterfactual (test_p01n_registration.RegistrationTests.test_local_negatives_remain_separate_and_counterfactual) ... ok
+test_map_removal_duplication_and_boolean_labels_rejected (test_p01n_registration.RegistrationTests.test_map_removal_duplication_and_boolean_labels_rejected) ... ok
+test_no_sampling_world_or_early_validation_admission (test_p01n_registration.RegistrationTests.test_no_sampling_world_or_early_validation_admission) ... ok
+test_poisoned_raw_fields_and_unchanged_contact_semantics_fixed (test_p01n_registration.RegistrationTests.test_poisoned_raw_fields_and_unchanged_contact_semantics_fixed) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.054s
+
+OK

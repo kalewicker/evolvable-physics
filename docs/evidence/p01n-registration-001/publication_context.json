@@ -1,0 +1,38 @@
+{
+  "base_commit": "9250f649dbe6266fc240b619ab59b2c64eba6b33",
+  "copies": [
+    {
+      "original": "artifacts/p01n-registration-001/static_review.json",
+      "public": "docs/evidence/p01n-registration-001/static_review.json",
+      "sha256": "db34f65e76e613657437ee1f16964bd39189df3c2ee1b703f26ca94f43807338"
+    },
+    {
+      "original": "artifacts/p01n-registration-checks-001/tests.txt",
+      "public": "docs/evidence/p01n-registration-001/tests.txt",
+      "sha256": "18746f1ea10d95134f458c9bda91111d63c445b621ac9ecff76f62e157320b27"
+    },
+    {
+      "original": "artifacts/p01n-registration-checks-001/tests-optimized.txt",
+      "public": "docs/evidence/p01n-registration-001/tests-optimized.txt",
+      "sha256": "20291cedf5491d94e55ddc8d268172e1aef83924bc6ae86db2ac2a351f3ff4ba"
+    }
+  ],
+  "date": "2026-10-20",
+  "external_files": {
+    "AGENTS.md": "0631e195ddf8d459d369aa7c19ecfadf346766cf627cbd09de01cadad23a7e4f",
+    "README.md": "f397adc4ba8eae6425ec934fa41554615a607afdf5d8393a5943b8f3e2119a8b",
+    "docs/evidence/README.md": "8f837907fdb0a340358fa5d9fe8a18f851edb9e1b954b233d9a336dd8a1ebf31",
+    "docs/p01n_closure.json": "c24b437ef98695c8d9d271b5a52fe0da322a3f29eabbd20e1937f45390227838",
+    "docs/p01n_findings.md": "c18239a2178b96abfb6ade69103c0bab94b8d403a8c168ee93242ee863a1d193",
+    "docs/p01n_literal_fields.json": "4245d32bbc3a3d72b48664c9b64304ac36cb8326b7a45d3a2b2e75064a1d37ec",
+    "docs/p01n_protocol.json": "8342878ac715e8aafb656a13d472a9b1c7c6eed42270aa192e202f1a159eb2b6",
+    "docs/p01n_registration.md": "f39bbbe29fdcc5d95f99c967f561f14d45ea5cb78f655c9224037f1f0440d8c7",
+    "docs/p01n_registration_freeze.json": "8d865f4983f1b05d72d72de6834db89cc4d571ddc611bb24c3077a7bd410f5ff",
+    "docs/status.json": "3bafccabd5408a3a97aa22da5f08e125795ac1deb98a94c97582bbeaa4571082",
+    "scripts/check_p01n_registration.py": "77e2af8a6b3893e78fa4abc2f6e118b0d86fa3ae7790fd04f9154f2313fb9b14",
+    "scripts/test_p01n_registration.py": "3fd7e31bca1a474cd4df9afa5bb1f025a14b830358b14225d88c2ff418d6bc77"
+  },
+  "note": "Registration freeze pins 220 source/input files and the preceding 402 public receipts; final guidance/status/findings/closeout and these publication files are later external additions. No adapters, native rules/worlds or namespace-keyed draws were constructed/executed. This is registration, not readiness or experiment execution evidence.",
+  "schema": "p01n-registration-publication-context-v1",
+  "scope": "literal implementation admitted only after commit/push; no hash sampler implementation, sampling, world execution or E01"
+}
