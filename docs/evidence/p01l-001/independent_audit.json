@@ -1,0 +1,59 @@
+{
+  "analysis_checksums_sha256": "54fab18137aede5faecdbb1719bfe0687e31d9dfd7da3377f3c48940a0503149",
+  "audit_source_sha256": "cc3a994ec732a5fcd8aa1bcac61b961e12babe0602a61ebe412bf19d9e127b96",
+  "bootstrap_partition": {
+    "no_birth_body": [
+      5001,
+      5004,
+      5006,
+      5010,
+      5019,
+      5023,
+      5024,
+      5028
+    ],
+    "no_kind_compatible_funding_descendant_path": [
+      5000,
+      5002,
+      5003,
+      5005,
+      5007,
+      5008,
+      5009,
+      5011,
+      5012,
+      5013,
+      5014,
+      5016,
+      5017,
+      5018,
+      5020,
+      5021,
+      5022,
+      5025,
+      5026,
+      5027,
+      5029,
+      5031
+    ],
+    "no_material_funding_on_kind_compatible_path": [
+      5015
+    ],
+    "not_excluded_by_this_review": [],
+    "unary_state_exclusion_on_material_path": [
+      5030
+    ]
+  },
+  "cells": 128,
+  "combinations_verified": 163,
+  "conditional_source_argument": "Under the frozen topology/templates, a newborn first birth requires a material funding/descendant path permitted by this state abstraction; exclusion is scoped to these exact 32 tables, not the sampler or kernel.",
+  "input_seal_sha256": "28cc39cf2930dfcbfbcbcb4e8b2a579a5fb7f2099b3b0cf93f633b339b3fe54a",
+  "keyed_hash_evaluations": 0,
+  "laws": 32,
+  "schema": "p01l-independent-state-record-audit-v1",
+  "scientific_status": "untested",
+  "state_oracle": "independent five-block quotient",
+  "status": "pass",
+  "topology_and_resource_premises_checked": true,
+  "world_transitions": 0
+}

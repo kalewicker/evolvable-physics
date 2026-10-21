@@ -113,3 +113,12 @@ the original inventory/seal remains unchanged. Raw sampler messages/outputs,
 descriptors, source/dependency snapshots and binary remain local. All 128 cells
 passed; no world transitions occurred and no behavioral endpoint was scored.
 The registration is consumed. See [execution findings](../p01k_execution_findings.md).
+
+P01l publishes all 32 per-table phase diagnoses (raw rule copies omitted), all
+128 original-state reviews, descriptive summary, original analysis inventory,
+input/independent audits and the final eight-test log. Publication context
+distinguishes byte copies from the rule-omitting derived view and binds the
+later source argument, closeout and helpers. The original P01k seal is unchanged;
+full raw tables/sampler outputs and preliminary successful checks remain local.
+These are unary-state algebra and conditional topology/resource checks, not
+new world trajectories. See [review findings](../p01l_findings.md).

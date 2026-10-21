@@ -1,0 +1,13 @@
+test_directional_drift_and_bounds (test_p01l.StateTests.test_directional_drift_and_bounds) ... ok
+test_entry_points_cannot_import_sampling_or_world_modules (test_p01l.StateTests.test_entry_points_cannot_import_sampling_or_world_modules) ... ok
+test_exhaustive_two_writer_algebra (test_p01l.StateTests.test_exhaustive_two_writer_algebra) ... ok
+test_noops_missing_writers_and_guard_chains (test_p01l.StateTests.test_noops_missing_writers_and_guard_chains) ... ok
+test_phase_filtering_is_directional (test_p01l.StateTests.test_phase_filtering_is_directional) ... ok
+test_reject_unsupported_quotient_alphabet (test_p01l.StateTests.test_reject_unsupported_quotient_alphabet) ... ok
+test_resource_and_missing_body_negatives (test_p01l.StateTests.test_resource_and_missing_body_negatives) ... ok
+test_topology_argument_rejects_refund_and_contact_changes (test_p01l.StateTests.test_topology_argument_rejects_refund_and_contact_changes) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.024s
+
+OK

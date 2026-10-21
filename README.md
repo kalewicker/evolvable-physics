@@ -338,3 +338,24 @@ No worlds advanced; behavioral endpoints remain null/not_executed. The full
 panel and negative history are retained. Next is a read-only review of remaining
 state/resource constraints across all 32 tables, before any separately registered
 trajectory question. Do not rerun or extend this census or select favorable laws.
+
+## P01l state and resource review
+
+The [read-only review](docs/p01l_findings.md) is complete across all 32 retained
+tables and 128 initial records. Later unary state changes permit some routes
+that fail the immediate-state test, but no material-funded newborn-to-next-birth
+path survives all necessary conditions. The [conditional source argument](docs/p01l_source_argument.md)
+excludes that mechanism for these exact tables under their frozen topology;
+it makes no sampler-wide or life-impossibility claim. All 163 body combinations
+passed independent state/premise checks, and eight tests passed. No worlds ran.
+
+```sh
+python3 -m unittest discover -s scripts -p test_p01l.py -v
+python3 scripts/review_p01l.py artifacts/p01k-001 artifacts/p01l-new
+python3 scripts/audit_p01l.py artifacts/p01k-001 artifacts/p01l-new artifacts/p01l-new-audit.json
+```
+
+These commands read saved evidence and require a new analysis output path;
+they do not repeat the consumed census. Next is design-only review of a minimal
+state/resource-coherent lifecycle prior and its authored bias. Implementation,
+fresh sampling, favorable-law evolution and E01 remain unadmitted.

@@ -1,0 +1,72 @@
+{
+  "analysis_plan_commit": "0561c9020ad99fa85c92460d26fdffb89eee7be5",
+  "copies": [
+    {
+      "original": "artifacts/p01l-001/manifest.json",
+      "public": "docs/evidence/p01l-001/manifest.json",
+      "sha256": "cd3f7fe7d663df8b3214823c4095b100ddee090f2f1419eb5d0aa73b9ef265ba"
+    },
+    {
+      "original": "artifacts/p01l-001/checksums.json",
+      "public": "docs/evidence/p01l-001/checksums.json",
+      "sha256": "54fab18137aede5faecdbb1719bfe0687e31d9dfd7da3377f3c48940a0503149"
+    },
+    {
+      "original": "artifacts/p01l-001/input_audit.json",
+      "public": "docs/evidence/p01l-001/input_audit.json",
+      "sha256": "fb9848bdaa0880be5e31b001f5f796cd2f30ddfd5ad65fec11122c54411c276d"
+    },
+    {
+      "original": "artifacts/p01l-001/summary.json",
+      "public": "docs/evidence/p01l-001/summary.json",
+      "sha256": "5bd1680a6c3134849a5c88cd3b17d9ea161a12b1d1a67dea033c960fd799f36d"
+    },
+    {
+      "original": "artifacts/p01l-001/cells.json",
+      "public": "docs/evidence/p01l-001/cells.json",
+      "sha256": "8b6210110b44bfac566f01208a8532b82ad44a480a79c3799812461ada684cbb"
+    },
+    {
+      "original": "artifacts/p01l-001-independent-audit-final.json",
+      "public": "docs/evidence/p01l-001/independent_audit.json",
+      "sha256": "b55fc465e3520eca9910354a4ab079144775dd6750b75e7b66c1df7973c746aa"
+    },
+    {
+      "original": "artifacts/p01l-readiness-001/tests-final.txt",
+      "public": "docs/evidence/p01l-001/tests.txt",
+      "sha256": "fda215ca772527cc2ca0c42e6d08a5d74cf3763c021f6b7045ea753f3c87cfd9"
+    }
+  ],
+  "date": "2026-10-20",
+  "derived_views": [
+    {
+      "original": "artifacts/p01l-001/laws.json",
+      "original_sha256": "f6e126eb3bee8b8595d031aff3aacd1c8d2915ea51fff735aa4fc992b580ad48",
+      "public": "docs/evidence/p01l-001/table_review.json",
+      "public_sha256": "569250880045608eaf6bc92a8b5111176aa1faad770ea4dd4bd5c4d9246d7232",
+      "transformation": "omit only the rules field from every law row; retain all 32 rows, all combinations/phase records, counts and denominators"
+    }
+  ],
+  "external_files": {
+    "AGENTS.md": "2d8cf98f56d3fb19e690f94aee9b722d73b650bb7f0ef78a203b1b15d65046b3",
+    "README.md": "067a6712391b9fd9990eb0af5030d135e1364bd097fde2fd6cb1e35d40543702",
+    "docs/evidence/README.md": "98f7df2e4c7c4f85ed45ea6fd4fe82faa1f0aaddcbb2ded7f5322965e8e437d7",
+    "docs/p01l_analysis_freeze.json": "8e0881e0402415a80dddcd63a9dde51b5d41efe1c019de7dc2368a9ca1ae9170",
+    "docs/p01l_analysis_plan.md": "ba8fbed1ea397f6878e81fb1fdc375fec0d16a0f27a8bb88ff790f036598579a",
+    "docs/p01l_closure.json": "c7508664dcb5f67c8ae27462e1da036051375d499fb2ecd8a5c093beda8637a8",
+    "docs/p01l_findings.md": "4edaebd2d3f2837aa21e269c9766af91242c9a72f1cc21623091d63921151940",
+    "docs/p01l_source_argument.md": "e0f1c3b62f75654290fbd3a46ee5d86a3c7729124e6b2dc73c00890ed34155a2",
+    "docs/status.json": "6e8acfc0c6cd0988c0c53f5b58e7724c591894f79337ce2584c562bcd14d9cc0",
+    "scripts/audit_p01l.py": "cc3a994ec732a5fcd8aa1bcac61b961e12babe0602a61ebe412bf19d9e127b96",
+    "scripts/review_p01l.py": "a50757849eca7db6c87bb6b2ab1d07cf1955c02e331d3bb410e7179f68a5c22d",
+    "scripts/test_p01l.py": "be074ed68c92a3f64ec84b9358b8874aff1d9635f8d625b6fafd10a965a1a410"
+  },
+  "note": "Original P01k inventory/seal and P01l analysis inventory unchanged. Later independent audits, publication view, tests, source argument and closeout are external to the original analysis inventory. Raw sampler outputs and full rule copies stay local. No new keyed evaluation or world transition.",
+  "original_p01k_seal_sha256": "28cc39cf2930dfcbfbcbcb4e8b2a579a5fb7f2099b3b0cf93f633b339b3fe54a",
+  "retained_preliminary_successful_checks": {
+    "artifacts/p01l-001-independent-audit.json": "818cbd128640faa3c35fa4371442f45143b6ff1eb1f81718c0446fa1d5e31913",
+    "artifacts/p01l-readiness-001/audit_p01l-initial.py": "ef7231abf3d3bf33a10776c36fab4e97e4dbc69d63d768366dd7a20469cd5d62",
+    "artifacts/p01l-readiness-001/tests.txt": "193068bf06ccfdde04340c0d2fcaafeeca74fc973ca057c50c5db75309b049a1"
+  },
+  "schema": "p01l-review-publication-context-v1"
+}

@@ -1,0 +1,149 @@
+{
+  "analysis_plan_commit": "0561c9020ad99fa85c92460d26fdffb89eee7be5",
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "body_combinations_verified": 163,
+  "bootstrap_partition": {
+    "no_birth_body": [
+      5001,
+      5004,
+      5006,
+      5010,
+      5019,
+      5023,
+      5024,
+      5028
+    ],
+    "no_kind_compatible_funding_descendant_path": [
+      5000,
+      5002,
+      5003,
+      5005,
+      5007,
+      5008,
+      5009,
+      5011,
+      5012,
+      5013,
+      5014,
+      5016,
+      5017,
+      5018,
+      5020,
+      5021,
+      5022,
+      5025,
+      5026,
+      5027,
+      5029,
+      5031
+    ],
+    "no_material_funding_on_kind_compatible_path": [
+      5015
+    ],
+    "not_excluded_by_this_review": [],
+    "unary_state_exclusion_on_material_path": [
+      5030
+    ]
+  },
+  "chemistry_continuation_gate": null,
+  "complete": true,
+  "conditional_source_exclusion": "newborn-as-parent first birth excluded for these exact tables under frozen initial/topology/templates; not a sampler-wide or kernel impossibility claim",
+  "counts": {
+    "descendant_pairs": {
+      "immediate_state_aligned": 10,
+      "kind_match": 24,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 13,
+      "total": 53
+    },
+    "funded_descendant_triples": {
+      "immediate_state_aligned": 1,
+      "kind_match": 2,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 1,
+      "total": 24
+    },
+    "funding_pairs": {
+      "immediate_state_aligned": 2,
+      "kind_match": 5,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 2,
+      "total": 18
+    },
+    "joined_quadruples": {
+      "immediate_state_aligned": 0,
+      "kind_match": 3,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 1,
+      "total": 33
+    },
+    "recycling_pairs": {
+      "immediate_state_aligned": 2,
+      "kind_match": 12,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 4,
+      "total": 35
+    }
+  },
+  "date": "2026-10-20",
+  "e01_authorized": false,
+  "independent_state_audit_pass": true,
+  "initial_environments": 128,
+  "invented_interval_graph_comparisons": 924,
+  "keyed_hash_evaluations": 0,
+  "law_cells": 32,
+  "next_scope": "design-only review of a minimal state/resource-coherent lifecycle prior with explicit authored bias and child-as-donor paths; no implementation, sampling or dynamics admitted",
+  "original_birth_checks": 132,
+  "original_birth_state_permitted": 101,
+  "positive_tables": {
+    "descendant_pairs": {
+      "immediate_state_aligned": 9,
+      "kind_match": 15,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 11,
+      "total": 24
+    },
+    "funded_descendant_triples": {
+      "immediate_state_aligned": 1,
+      "kind_match": 2,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 1,
+      "total": 13
+    },
+    "funding_pairs": {
+      "immediate_state_aligned": 2,
+      "kind_match": 4,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 2,
+      "total": 13
+    },
+    "joined_quadruples": {
+      "immediate_state_aligned": 0,
+      "kind_match": 2,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 1,
+      "total": 8
+    },
+    "recycling_pairs": {
+      "immediate_state_aligned": 2,
+      "kind_match": 9,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 4,
+      "total": 16
+    }
+  },
+  "receipts": {
+    "artifacts/p01k-001/seal.json": "28cc39cf2930dfcbfbcbcb4e8b2a579a5fb7f2099b3b0cf93f633b339b3fe54a",
+    "artifacts/p01l-001-independent-audit-final.json": "b55fc465e3520eca9910354a4ab079144775dd6750b75e7b66c1df7973c746aa",
+    "artifacts/p01l-001/checksums.json": "54fab18137aede5faecdbb1719bfe0687e31d9dfd7da3377f3c48940a0503149",
+    "artifacts/p01l-001/manifest.json": "cd3f7fe7d663df8b3214823c4095b100ddee090f2f1419eb5d0aa73b9ef265ba"
+  },
+  "sampling_admitted": false,
+  "schema": "p01l-state-resource-review-closure-v1",
+  "scientific_status": "untested",
+  "tests_passed": 8,
+  "topology_and_resource_premises_checked": true,
+  "world_execution_admitted": false,
+  "world_transitions": 0
+}

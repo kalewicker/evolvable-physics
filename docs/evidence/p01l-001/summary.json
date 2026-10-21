@@ -1,0 +1,89 @@
+{
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "birth_bodies": 33,
+  "chemistry_continuation_gate": null,
+  "executable_reachability": null,
+  "initial_environments": 128,
+  "keyed_hash_evaluations": 0,
+  "law_cells": 32,
+  "original_birth_checks": 132,
+  "original_birth_state_permitted": 101,
+  "positive_tables": {
+    "descendant_pairs": {
+      "immediate_state_aligned": 9,
+      "kind_match": 15,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 11,
+      "total": 24
+    },
+    "funded_descendant_triples": {
+      "immediate_state_aligned": 1,
+      "kind_match": 2,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 1,
+      "total": 13
+    },
+    "funding_pairs": {
+      "immediate_state_aligned": 2,
+      "kind_match": 4,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 2,
+      "total": 13
+    },
+    "joined_quadruples": {
+      "immediate_state_aligned": 0,
+      "kind_match": 2,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 1,
+      "total": 8
+    },
+    "recycling_pairs": {
+      "immediate_state_aligned": 2,
+      "kind_match": 9,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 4,
+      "total": 16
+    }
+  },
+  "schema": "p01l-static-state-resource-review-v1",
+  "scientific_status": "untested",
+  "totals": {
+    "descendant_pairs": {
+      "immediate_state_aligned": 10,
+      "kind_match": 24,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 13,
+      "total": 53
+    },
+    "funded_descendant_triples": {
+      "immediate_state_aligned": 1,
+      "kind_match": 2,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 1,
+      "total": 24
+    },
+    "funding_pairs": {
+      "immediate_state_aligned": 2,
+      "kind_match": 5,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 2,
+      "total": 18
+    },
+    "joined_quadruples": {
+      "immediate_state_aligned": 0,
+      "kind_match": 3,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 1,
+      "total": 33
+    },
+    "recycling_pairs": {
+      "immediate_state_aligned": 2,
+      "kind_match": 12,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 4,
+      "total": 35
+    }
+  },
+  "world_transitions": 0
+}

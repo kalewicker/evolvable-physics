@@ -1,0 +1,14 @@
+{
+  "cells": 128,
+  "input_manifest_sha256": "7f6dfa2b3cca41250f9f89bdeecab833ec31b37168624c403f2f10e0f93aaae3",
+  "input_seal_sha256": "28cc39cf2930dfcbfbcbcb4e8b2a579a5fb7f2099b3b0cf93f633b339b3fe54a",
+  "laws": 32,
+  "schema": "p01l-review-manifest-v1",
+  "scope": "post-hoc unary-state algebra and conditional resource budgets only",
+  "sources": {
+    "docs/p01l_analysis_freeze.json": "8e0881e0402415a80dddcd63a9dde51b5d41efe1c019de7dc2368a9ca1ae9170",
+    "docs/p01l_analysis_plan.md": "ba8fbed1ea397f6878e81fb1fdc375fec0d16a0f27a8bb88ff790f036598579a",
+    "scripts/review_p01l.py": "a50757849eca7db6c87bb6b2ab1d07cf1955c02e331d3bb410e7179f68a5c22d"
+  },
+  "status": "complete"
+}

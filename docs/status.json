@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01k_complete",
+  "stage": "P01l_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "fix a disclosed read-only analysis plan for state/resource constraints across all 32 retained P01k tables before further diagnosis",
-    "distinguish immediate birth-state alignment from possible later state changes, phase sequencing and resource/topology constraints; retain negatives and unresolved cases across the whole panel",
-    "no namespace-keyed message reevaluation, fresh sampling, favorable-law evolution, generator repair, changed environment/threshold or E01; any future trajectory question needs separate justification/registration"
+    "design-only review of a minimal state/resource-coherent lifecycle prior: explicit body availability, state and material correlations, preserved child-as-donor paths and disclosed authored bias relative to v3",
+    "retain every consumed panel, negative outcome, inconclusive label and original criterion; no repair, replacement or favorable-law evolution",
+    "no implementation, namespace-keyed reevaluation, fresh sampling, trajectories, environment/detector change or E01 admitted; any future experiment requires separate justification and registration"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -208,5 +208,16 @@
   "p01k_execution_findings": "docs/p01k_execution_findings.md",
   "p01k_execution_receipt": "docs/evidence/p01k-001/receipt_audit.json",
   "p01k_cost_receipt": "docs/evidence/p01k-001/cost_audit.json",
-  "p01k_static_summary": "docs/evidence/p01k-001/summary.json"
+  "p01k_static_summary": "docs/evidence/p01k-001/summary.json",
+  "p01l_complete": true,
+  "p01l_analysis_plan": "docs/p01l_analysis_plan.md",
+  "p01l_analysis_freeze": "docs/p01l_analysis_freeze.json",
+  "p01l_findings": "docs/p01l_findings.md",
+  "p01l_source_argument": "docs/p01l_source_argument.md",
+  "p01l_closure": "docs/p01l_closure.json",
+  "p01l_independent_audit": "docs/evidence/p01l-001/independent_audit.json",
+  "p01l_summary": "docs/evidence/p01l-001/summary.json",
+  "p01l_world_transitions": 0,
+  "p01l_material_state_permitted_funded_descendant_paths": 0,
+  "p01l_conditional_bootstrap_exclusion_tables": 32
 }
