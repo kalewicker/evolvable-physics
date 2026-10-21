@@ -1,0 +1,69 @@
+{
+  "copies": [
+    {
+      "original": "artifacts/p01k-001/manifest.json",
+      "public": "docs/evidence/p01k-001/manifest.json",
+      "sha256": "7f6dfa2b3cca41250f9f89bdeecab833ec31b37168624c403f2f10e0f93aaae3"
+    },
+    {
+      "original": "artifacts/p01k-001/assessment.json",
+      "public": "docs/evidence/p01k-001/assessment.json",
+      "sha256": "eca380eca72d4d4a7efd855e9ece96f8ffce23d7761fea87c294e0b9401a5ddf"
+    },
+    {
+      "original": "artifacts/p01k-001/checksums.json",
+      "public": "docs/evidence/p01k-001/checksums.json",
+      "sha256": "b700623bff27a5246cf94aee56cb2847f4b05712ee8989efdddf0bbb46c51ee2"
+    },
+    {
+      "original": "artifacts/p01k-001/seal.json",
+      "public": "docs/evidence/p01k-001/seal.json",
+      "sha256": "28cc39cf2930dfcbfbcbcb4e8b2a579a5fb7f2099b3b0cf93f633b339b3fe54a"
+    },
+    {
+      "original": "artifacts/p01k-001/analysis/static_report/stdout.bin",
+      "public": "docs/evidence/p01k-001/static_census.json",
+      "sha256": "498a7a1725ad7ba0cc0d099eb8e2df4c98771679a8d6a2b6188bf7d2fbf197e0"
+    },
+    {
+      "original": "artifacts/p01k-001/analysis/independent_audit/stdout.bin",
+      "public": "docs/evidence/p01k-001/independent_audit.json",
+      "sha256": "d89eea13866aeddfdb3d429fc8eef90d3de3366705c56dfeef615ea7913a8f3a"
+    },
+    {
+      "original": "artifacts/p01k-001-receipt-audit.json",
+      "public": "docs/evidence/p01k-001/receipt_audit.json",
+      "sha256": "9eb17799bef718a7c9c3c7a8fe8f23a3062f3b4d1eb4ad00ded96c75a4f8a7d7"
+    },
+    {
+      "original": "artifacts/p01k-001-cost-audit.json",
+      "public": "docs/evidence/p01k-001/cost_audit.json",
+      "sha256": "5e989b02b34e9bee6bfeaea75941bdd717411d9f0ee1d9ff1d220277b7317e8c"
+    },
+    {
+      "original": "artifacts/p01k-closeout-001/summary.json",
+      "public": "docs/evidence/p01k-001/summary.json",
+      "sha256": "58e278fd2bfcc435a64af4757844f4ce5f99ef3e59e6a41818a5663d6f76f66f"
+    },
+    {
+      "original": "artifacts/p01k-execution-readiness-001/sandbox-memory-probe.txt",
+      "public": "docs/evidence/p01k-001/sandbox-memory-probe/tests.txt",
+      "sha256": "1c8a58548c7344c45ffb5493c45cd3b6797e286c430b9293ca46f90fe00e9652"
+    }
+  ],
+  "date": "2026-10-20",
+  "execution_freeze_commit": "bd8e97d29e2461bcb8c802de21e04a7cfcc9a949",
+  "external_files": {
+    "AGENTS.md": "22d807ee81abbd5530b652e98e6e1fbab4c59b90d36ed861bfaf235a9d940ba8",
+    "README.md": "8b03dd94a4d8c1f2da545adcc9de3d14b916df1f917b9d54e9c778780aee5de3",
+    "docs/evidence/README.md": "195c9c1c56a997f2b40a9df51a5fbf3651dbe4748c28e93616dfa28b3a146fe2",
+    "docs/p01k_closure.json": "10b69425d381a88cc4ab182b5bc8a08bdbd17939c91c89c2e88d1fd677d49ba0",
+    "docs/p01k_execution_findings.md": "a158626940e04d17aa05fff1238605ba3e5641cc181490a933f5694ff02326b1",
+    "docs/status.json": "4dd8bfa0f5750d1ceb4bb9069b2d2ece1546a2b9ff908ada698f60235eed40c0",
+    "scripts/audit_p01k_costs.py": "de410d1ca3709f8fdc31901920d9867a74ef51ffcbe834b340097835b5f97b1c",
+    "scripts/summarize_p01k.py": "f2825ab2d31e02fa3eae3763415c4d95cb280c3e66b4d7b628ce56b890ff2efd"
+  },
+  "note": "Original 4559-entry inventory/seal unchanged. Post-seal custody/cost audits, descriptive summary, sandbox capability-probe log and final closeout are external to that inventory. Raw messages/environments, source/dependency snapshots, descriptors and binary stay local. The denied probe preceded directory creation and all keyed evaluations; exactly one sampled attempt ran.",
+  "schema": "p01k-execution-publication-context-v1",
+  "scope": "consumed single static census; no world epochs or behavioral admission"
+}

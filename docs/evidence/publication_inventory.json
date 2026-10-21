@@ -1509,6 +1509,50 @@
     {
       "file": "docs/evidence/p01k-execution-readiness-001/readiness.json",
       "sha256": "be6a0408fbf128cb9d2d5c68bc1a0397cabdf2edd2786d10bdaf44690b83dc8d"
+    },
+    {
+      "file": "docs/evidence/p01k-001/assessment.json",
+      "sha256": "eca380eca72d4d4a7efd855e9ece96f8ffce23d7761fea87c294e0b9401a5ddf"
+    },
+    {
+      "file": "docs/evidence/p01k-001/checksums.json",
+      "sha256": "b700623bff27a5246cf94aee56cb2847f4b05712ee8989efdddf0bbb46c51ee2"
+    },
+    {
+      "file": "docs/evidence/p01k-001/cost_audit.json",
+      "sha256": "5e989b02b34e9bee6bfeaea75941bdd717411d9f0ee1d9ff1d220277b7317e8c"
+    },
+    {
+      "file": "docs/evidence/p01k-001/independent_audit.json",
+      "sha256": "d89eea13866aeddfdb3d429fc8eef90d3de3366705c56dfeef615ea7913a8f3a"
+    },
+    {
+      "file": "docs/evidence/p01k-001/manifest.json",
+      "sha256": "7f6dfa2b3cca41250f9f89bdeecab833ec31b37168624c403f2f10e0f93aaae3"
+    },
+    {
+      "file": "docs/evidence/p01k-001/publication_context.json",
+      "sha256": "8d9890fc100ad7c0d64c0963ad39e4d084842d4c0393aac7001dec8eab1da5f9"
+    },
+    {
+      "file": "docs/evidence/p01k-001/receipt_audit.json",
+      "sha256": "9eb17799bef718a7c9c3c7a8fe8f23a3062f3b4d1eb4ad00ded96c75a4f8a7d7"
+    },
+    {
+      "file": "docs/evidence/p01k-001/sandbox-memory-probe/tests.txt",
+      "sha256": "1c8a58548c7344c45ffb5493c45cd3b6797e286c430b9293ca46f90fe00e9652"
+    },
+    {
+      "file": "docs/evidence/p01k-001/seal.json",
+      "sha256": "28cc39cf2930dfcbfbcbcb4e8b2a579a5fb7f2099b3b0cf93f633b339b3fe54a"
+    },
+    {
+      "file": "docs/evidence/p01k-001/static_census.json",
+      "sha256": "498a7a1725ad7ba0cc0d099eb8e2df4c98771679a8d6a2b6188bf7d2fbf197e0"
+    },
+    {
+      "file": "docs/evidence/p01k-001/summary.json",
+      "sha256": "58e278fd2bfcc435a64af4757844f4ce5f99ef3e59e6a41818a5663d6f76f66f"
     }
   ]
 }

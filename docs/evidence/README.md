@@ -103,3 +103,13 @@ the original inventory. No actual keyed message, sampled census or world was
 executed. See [implementation findings](../p01k_implementation_findings.md) for
 the distinction between construction/record-format readiness and untested live
 sampling/watchdog integration.
+
+P01k execution publishes the single static census's manifest, assessment,
+original 4,559-entry inventory/seal, complete per-law/cell report and in-campaign
+independent audit. It also publishes the later file-only custody/cost audits,
+all-law descriptive summary and preserved pre-attempt sandbox memory-probe log.
+Publication context binds those external additions and final closeout sources;
+the original inventory/seal remains unchanged. Raw sampler messages/outputs,
+descriptors, source/dependency snapshots and binary remain local. All 128 cells
+passed; no world transitions occurred and no behavioral endpoint was scored.
+The registration is consumed. See [execution findings](../p01k_execution_findings.md).

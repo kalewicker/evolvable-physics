@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01k_execution_admitted",
+  "stage": "P01k_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "commit/push the verified P01k execution freeze/admission before the first namespace-keyed evaluation",
-    "execute only the single registered 32-law/128-environment static census in artifacts/p01k-001, with original budgets and no filtering, retry or replacement",
-    "audit and close the consumed attempt, preserving all outcomes; no world transitions or E01"
+    "fix a disclosed read-only analysis plan for state/resource constraints across all 32 retained P01k tables before further diagnosis",
+    "distinguish immediate birth-state alignment from possible later state changes, phase sequencing and resource/topology constraints; retain negatives and unresolved cases across the whole panel",
+    "no namespace-keyed message reevaluation, fresh sampling, favorable-law evolution, generator repair, changed environment/threshold or E01; any future trajectory question needs separate justification/registration"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -53,7 +53,7 @@
   "p01_protocol_closed": true,
   "p01_closure": "docs/p01_closure.json",
   "diagnosis_receipt": "docs/evidence/p01d-001/findings.json",
-  "next_engineering_protocol": "docs/p01k_protocol.json",
+  "next_engineering_protocol": null,
   "new_world_runs_admitted": false,
   "e01_authorized": false,
   "p01e_execution_complete": true,
@@ -64,7 +64,7 @@
   "p01e_admission": "docs/p01e_admission.json",
   "p01e_findings": "docs/p01e_findings.md",
   "p01e_receipt": "docs/evidence/p01e-001/receipt_audit_v2.json",
-  "next_work_requires_new_protocol": false,
+  "next_work_requires_new_protocol": true,
   "p01f_registration_complete": true,
   "p01f_execution_started": true,
   "p01f_static_review": "docs/evidence/p01f-registration-001/static_review.json",
@@ -171,7 +171,7 @@
   "p01j_findings": "docs/p01j_findings.md",
   "p01j_literal_adapter_validation_started": true,
   "literal_field_adapter_implementation_admitted": true,
-  "generator_v3_sampling_admitted": true,
+  "generator_v3_sampling_admitted": false,
   "p01j_literal_adapter_validation_complete": true,
   "generator_v3_literal_adapters_implemented": true,
   "p01j_readiness_gate_pass": true,
@@ -190,7 +190,7 @@
   "p01k_registration_freeze": "docs/p01k_registration_freeze.json",
   "p01k_static_review": "docs/evidence/p01k-registration-001/static_review.json",
   "p01k_findings": "docs/p01k_findings.md",
-  "p01k_sampling_started": false,
+  "p01k_sampling_started": true,
   "generator_v3_sampler_implementation_admitted": true,
   "p01k_runner_implemented": true,
   "p01k_static_report_implemented": true,
@@ -199,5 +199,14 @@
   "p01k_implementation_readiness": "docs/p01k_implementation_readiness.json",
   "p01k_implementation_findings": "docs/p01k_implementation_findings.md",
   "p01k_execution_freeze": "docs/p01k_execution_freeze.json",
-  "p01k_execution_admission": "docs/p01k_execution_admission.json"
+  "p01k_execution_admission": "docs/p01k_execution_admission.json",
+  "p01k_execution_complete": true,
+  "p01k_registration_consumed": true,
+  "p01k_engineering_gate_pass": true,
+  "p01k_chemistry_continuation_gate": null,
+  "p01k_closure": "docs/p01k_closure.json",
+  "p01k_execution_findings": "docs/p01k_execution_findings.md",
+  "p01k_execution_receipt": "docs/evidence/p01k-001/receipt_audit.json",
+  "p01k_cost_receipt": "docs/evidence/p01k-001/cost_audit.json",
+  "p01k_static_summary": "docs/evidence/p01k-001/summary.json"
 }

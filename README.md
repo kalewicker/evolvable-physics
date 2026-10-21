@@ -325,3 +325,16 @@ This development preflight requires a new directory and evaluates no keyed
 sampler message. The actual census remains unrun. Next freeze and commit/push
 the full execution closure/admission before any keyed call, then execute only
 the registered single static attempt. No world trajectories or E01 are admitted.
+
+## P01k sampled static census
+
+The [single sampled census](docs/p01k_execution_findings.md) is complete and
+consumed. All 32 laws / 128 initial environments and 258 stages passed independent
+sampler, census, custody and cost checks. Kind-compatible funding, recycling and
+child-donor routes occur, while complete joined motifs have zero immediate state
+alignments. These local predicates are not dynamical reachability or life claims.
+
+No worlds advanced; behavioral endpoints remain null/not_executed. The full
+panel and negative history are retained. Next is a read-only review of remaining
+state/resource constraints across all 32 tables, before any separately registered
+trajectory question. Do not rerun or extend this census or select favorable laws.
