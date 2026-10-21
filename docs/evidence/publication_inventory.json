@@ -1465,6 +1465,42 @@
     {
       "file": "docs/evidence/p01k-registration-001/tests.txt",
       "sha256": "50900d4fb2c1810af1c819355dd50b22f67d771352b3a642e5921439a3884d56"
+    },
+    {
+      "file": "docs/evidence/p01k-implementation-001/assessment.json",
+      "sha256": "7935f77972b1ade55600390abb9ab4cf26cf586a09d9da034d9802e11d8fdd94"
+    },
+    {
+      "file": "docs/evidence/p01k-implementation-001/checksums.json",
+      "sha256": "a4d68d46f908c70c2028d8767a13dee6a2dcc0f4b58cd0ab7fbb731d7bd9b392"
+    },
+    {
+      "file": "docs/evidence/p01k-implementation-001/clippy/tests.txt",
+      "sha256": "65168142fb1a4454d933a0afd8c00cf82f6ffbfa425602e247f81feddeb92426"
+    },
+    {
+      "file": "docs/evidence/p01k-implementation-001/completion.json",
+      "sha256": "355be59ee85b69fa33e4ab076125542b1610bbc741154c4e83126515ffc1836d"
+    },
+    {
+      "file": "docs/evidence/p01k-implementation-001/integrity_audit.json",
+      "sha256": "4809fa41a0eed6b7a63cd09e2c809f289092cc92ba70a08d05f1ea221a5345cb"
+    },
+    {
+      "file": "docs/evidence/p01k-implementation-001/publication_context.json",
+      "sha256": "57c531c81fa8bdb6918cf1b1a8144436c5c66575f17780a886269876ed204739"
+    },
+    {
+      "file": "docs/evidence/p01k-implementation-001/python/tests.txt",
+      "sha256": "c2d3f6b3d08b380bfdfd0a5486525d8f2cd34f260b573422ac1dd097b889a058"
+    },
+    {
+      "file": "docs/evidence/p01k-implementation-001/release-build/tests.txt",
+      "sha256": "c138541bea450fb14740c7ee6f4511d6fef862afbdc97c41e05f21cbe4007719"
+    },
+    {
+      "file": "docs/evidence/p01k-implementation-001/rust/tests.txt",
+      "sha256": "631be9fa3163468137a84d0b553e0b018ae7ed4eadc3b6c8803ff99ff3d3ea7c"
     }
   ]
 }

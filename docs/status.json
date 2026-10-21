@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-20",
-  "stage": "P01k_registration_complete",
+  "stage": "P01k_implementation_ready",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "implement the registered independent v3 keyed samplers, runner, static report and auditor only at new paths, preserving all frozen sources and Cargo files",
-    "test only unhashed serialization, literal digest-prefix arithmetic, injected fields and synthetic route/guard/bookkeeping records before execution freeze; no keyed calls on any proposal, including tests",
-    "freeze the complete source/dependency/tool/binary/input closure and exact output-path admission, commit/push before any future keyed draw; retain the whole 32-law/128-environment static panel, with no filtering, world trajectories or E01"
+    "prepare and verify the full P01k source/dependency/tool/binary/input execution freeze and exact output-path admission; commit/push before any keyed sampler or hash-audit call",
+    "only after that freeze/admission, execute the one registered 32-law/128-environment static census under original budgets, retaining all negatives, duplicates, failed and unstarted cells without filtering, repair or retry",
+    "independently audit records/costs/receipts and close the consumed attempt; no world trajectories, changed environment/detector gates or E01; literal/mock readiness does not prove sampled equivalence or live watchdog integration"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -162,7 +162,7 @@
   "p01i_design_complete": true,
   "p01i_findings": "docs/p01i_findings.md",
   "generator_v3_design": "docs/generator_v3_design.json",
-  "generator_v3_implemented": false,
+  "generator_v3_implemented": true,
   "p01i_static_review": "docs/evidence/p01i-design-001/static_review.json",
   "p01j_registration_complete": true,
   "p01j_protocol": "docs/p01j_protocol.json",
@@ -191,5 +191,11 @@
   "p01k_static_review": "docs/evidence/p01k-registration-001/static_review.json",
   "p01k_findings": "docs/p01k_findings.md",
   "p01k_sampling_started": false,
-  "generator_v3_sampler_implementation_admitted": true
+  "generator_v3_sampler_implementation_admitted": true,
+  "p01k_runner_implemented": true,
+  "p01k_static_report_implemented": true,
+  "p01k_independent_auditor_implemented": true,
+  "p01k_literal_mock_readiness_pass": true,
+  "p01k_implementation_readiness": "docs/p01k_implementation_readiness.json",
+  "p01k_implementation_findings": "docs/p01k_implementation_findings.md"
 }

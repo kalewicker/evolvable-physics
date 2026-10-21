@@ -94,3 +94,12 @@ unhashed serialization/literal prefix arithmetic; it constructs no law or
 initial world. Publication context binds the byte-identical copies, 149-file
 registration freeze and final guidance/findings. This is not a sampling or
 world-execution admission. See [registration findings](../p01k_findings.md).
+
+P01k implementation publishes the literal/mock preflight assessment, original
+19-entry inventory, external completion/integrity receipts and final build/test
+logs. Raw inputs, complete outputs, fake digest records, source snapshots and
+binaries remain local. Publication context separately anchors files added after
+the original inventory. No actual keyed message, sampled census or world was
+executed. See [implementation findings](../p01k_implementation_findings.md) for
+the distinction between construction/record-format readiness and untested live
+sampling/watchdog integration.

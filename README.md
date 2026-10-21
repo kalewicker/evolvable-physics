@@ -308,3 +308,20 @@ Next implement the independent samplers, runner, static report and auditor using
 mock/literal inputs only. Actual keyed calls require a separate complete
 execution freeze and admission committed/pushed first. No sampled law, world
 trajectory or E01 has been admitted by this registration.
+
+## P01k implementation and mock readiness
+
+The keyed samplers, census runner, static report and independent auditor are
+implemented. [Implementation findings](docs/p01k_implementation_findings.md)
+record 12,671 matching literal responses plus 972 matching recorded mock
+assemblies, with independent field/output checks. All tests, Clippy and release
+build passed. The mock digests are literal formatting fixtures, not SHA results.
+
+```sh
+python3 scripts/validate_p01k_implementation.py artifacts/p01k-implementation-new
+```
+
+This development preflight requires a new directory and evaluates no keyed
+sampler message. The actual census remains unrun. Next freeze and commit/push
+the full execution closure/admission before any keyed call, then execute only
+the registered single static attempt. No world trajectories or E01 are admitted.

@@ -1,0 +1,41 @@
+{
+  "actual_keyed_source_executed": false,
+  "date": "2026-10-20",
+  "e01_authorized": false,
+  "implementation_files": {
+    "scripts/audit_p01k.py": "d9b985be50bdb2071bf19bbafcc56f689b1bf093b0486347721a3918c47aab0a",
+    "scripts/generator_v3.py": "5d2412342495860b613b29f6eab7d59eee10f7961a285d14205bb5b3094df2e3",
+    "scripts/p01k_census.py": "91fce522c33bda4cf7591d7079e5647dbe5c4f5592d54be0ddf56f9a138262dd",
+    "scripts/p01k_contract.py": "07bc4d66a0c662a2494a74f7c88c7e64c4612a4b2e461f96c8579f06c0f8f986",
+    "scripts/p01k_static.py": "6d7e41b47d229962e35e37e33c64350223ad505e6f15726d783c0efac4b5b0c2",
+    "scripts/test_p01k_implementation.py": "d37fd5dc1e8d54fd139c1b312127e884ab6dd4c228558c4182f85e66a164aa0f",
+    "scripts/validate_p01k_implementation.py": "9ef69cef3f77a23bec67e9bb52db23dc58b1bda22e6b90ee479bbf897c633776",
+    "src/bin/generator-v3.rs": "cb1793b34faff3e7715f8f83a565fa545015c5219c3a6e2e73996b1833f74584"
+  },
+  "literal_counts": {
+    "assembly": 972,
+    "barrier": 8,
+    "invalid": 12,
+    "probe": 15,
+    "rule": 11664
+  },
+  "literal_mock_gate_pass": true,
+  "live_sampled_rss_integration_executed": false,
+  "mock_draw_records_per_implementation": 112752,
+  "next_scope": "verify/freeze full execution closure and exact output admission; commit/push before first keyed call, then one fixed P01k static attempt only",
+  "receipts": {
+    "artifacts/p01k-implementation-001-integrity.json": "4809fa41a0eed6b7a63cd09e2c809f289092cc92ba70a08d05f1ea221a5345cb",
+    "artifacts/p01k-implementation-001/assessment.json": "7935f77972b1ade55600390abb9ab4cf26cf586a09d9da034d9802e11d8fdd94",
+    "artifacts/p01k-implementation-001/checksums.json": "a4d68d46f908c70c2028d8767a13dee6a2dcc0f4b58cd0ab7fbb731d7bd9b392",
+    "artifacts/p01k-implementation-001/completion.json": "355be59ee85b69fa33e4ab076125542b1610bbc741154c4e83126515ffc1836d"
+  },
+  "recorded_mock_assemblies": 972,
+  "registration_commit": "484fa5b24924d288c69c86fe7c2d730db65c6d39",
+  "registration_freeze_sha256": "2fb523301e5afefc94025923688583923b360551e8ed4568a3e31e52214a48f1",
+  "rust_binary_sha256": "a7025a2bba82c754216d6c659ac9287fb7526f763d42af3f09d2b6dc88a02af2",
+  "samplers_runner_report_auditor_implemented": true,
+  "sampling_admitted": false,
+  "schema": "p01k-literal-implementation-readiness-record-v1",
+  "scientific_status": "untested",
+  "world_execution_admitted": false
+}

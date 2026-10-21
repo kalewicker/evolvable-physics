@@ -1,0 +1,21 @@
+{
+  "assessment.json": "7935f77972b1ade55600390abb9ab4cf26cf586a09d9da034d9802e11d8fdd94",
+  "literal-inputs.jsonl": "eaec085f171d085e0501d6ec6bf0ea90f8669d02435e7d0d45a539f27ee34622",
+  "python-literal.jsonl": "a1dafcef2f7742933c59f0a071bc438a7f1a1752eb9874b0b1eb4f7fc22d05e5",
+  "python-literal.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "python-recorded.jsonl": "c0fba21de704ab4e897088cddc72597914adf18abc01718173687d6fdd173b80",
+  "python-recorded.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "recorded-inputs.jsonl": "3abad2fa8877283671c7b110387c63e64f5d51ce105b59a62e9d753895000f9b",
+  "rust-literal.jsonl": "a1dafcef2f7742933c59f0a071bc438a7f1a1752eb9874b0b1eb4f7fc22d05e5",
+  "rust-literal.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "rust-recorded.jsonl": "c0fba21de704ab4e897088cddc72597914adf18abc01718173687d6fdd173b80",
+  "rust-recorded.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source/scripts/audit_p01k.py": "d9b985be50bdb2071bf19bbafcc56f689b1bf093b0486347721a3918c47aab0a",
+  "source/scripts/generator_v3.py": "5d2412342495860b613b29f6eab7d59eee10f7961a285d14205bb5b3094df2e3",
+  "source/scripts/p01k_census.py": "91fce522c33bda4cf7591d7079e5647dbe5c4f5592d54be0ddf56f9a138262dd",
+  "source/scripts/p01k_contract.py": "07bc4d66a0c662a2494a74f7c88c7e64c4612a4b2e461f96c8579f06c0f8f986",
+  "source/scripts/p01k_static.py": "6d7e41b47d229962e35e37e33c64350223ad505e6f15726d783c0efac4b5b0c2",
+  "source/scripts/test_p01k_implementation.py": "d37fd5dc1e8d54fd139c1b312127e884ab6dd4c228558c4182f85e66a164aa0f",
+  "source/scripts/validate_p01k_implementation.py": "9ef69cef3f77a23bec67e9bb52db23dc58b1bda22e6b90ee479bbf897c633776",
+  "source/src/bin/generator-v3.rs": "cb1793b34faff3e7715f8f83a565fa545015c5219c3a6e2e73996b1833f74584"
+}

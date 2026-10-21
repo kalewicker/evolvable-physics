@@ -1,0 +1,14 @@
+{
+  "assessment_sha256": "7935f77972b1ade55600390abb9ab4cf26cf586a09d9da034d9802e11d8fdd94",
+  "checksums_sha256": "a4d68d46f908c70c2028d8767a13dee6a2dcc0f4b58cd0ab7fbb731d7bd9b392",
+  "completion_sha256": "355be59ee85b69fa33e4ab076125542b1610bbc741154c4e83126515ffc1836d",
+  "execution_admission_present": false,
+  "inventory_entries": 19,
+  "keyed_hash_evaluations": 0,
+  "prior_public_receipts_verified": 366,
+  "registration_files_verified": 149,
+  "schema": "p01k-implementation-integrity-audit-v1",
+  "scope": "read-only inventory/source/binary identity, completion and mock process/census receipts; semantic checks belong to preflight and unit tests",
+  "status": "pass",
+  "world_transitions": 0
+}
