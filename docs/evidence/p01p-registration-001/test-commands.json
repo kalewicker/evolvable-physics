@@ -1,0 +1,33 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts",
+      "-p",
+      "test_p01p_registration.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "normal.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-O",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts",
+      "-p",
+      "test_p01p_registration.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "optimized.log"
+  }
+]

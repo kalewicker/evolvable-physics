@@ -1,0 +1,324 @@
+{
+  "schema": "p01p-read-only-analysis-registration-v1",
+  "date": "2026-10-22",
+  "scope": "post-hoc read-only diagnosis plan, fixed before new retained-rule analysis; registration only now",
+  "prior_knowledge": "P01o public summary is known: 32 distinct tables, one joined type/state/material-aligned motif; no new body-level diagnosis has been performed for this plan",
+  "source_bundle": "artifacts/p01o-001",
+  "source_closure": "docs/p01o_closure.json",
+  "source_seal_sha256": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00",
+  "proposal_ids": [
+    6000,
+    6001,
+    6002,
+    6003,
+    6004,
+    6005,
+    6006,
+    6007,
+    6008,
+    6009,
+    6010,
+    6011,
+    6012,
+    6013,
+    6014,
+    6015,
+    6016,
+    6017,
+    6018,
+    6019,
+    6020,
+    6021,
+    6022,
+    6023,
+    6024,
+    6025,
+    6026,
+    6027,
+    6028,
+    6029,
+    6030,
+    6031
+  ],
+  "initial_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "law_denominator": 32,
+  "initial_denominator": 128,
+  "slots_per_law": 8,
+  "epochs": 0,
+  "registration_only_now": true,
+  "read_only_analysis_admitted_after_commit_push": true,
+  "diagnosis_executed_now": false,
+  "sampling_admitted": false,
+  "world_execution_admitted": false,
+  "e01_authorized": false,
+  "scientific_status": "untested",
+  "input_policy": {
+    "generation_streams": "both Rust and Python for every fixed cell, complete saved JSON; no source recomputation",
+    "custody": "verify every original inventory entry, exact inventory membership, manifest/seal links, all 128 cell identities and independent audit/cost receipts; pin every analysis input and semantic source",
+    "write_policy": "new output directory outside original bundle; no original rewrite or seal replacement",
+    "missingness": "retain every table and initial, all absent bodies/incompatible combinations and explicit failure/unresolved states; no favorable-law subset"
+  },
+  "body_groups": [
+    "birth_funding_pairs",
+    "birth_recycle_pairs",
+    "child_next_birth_pairs",
+    "funded_descendant_triples",
+    "joined_quadruples",
+    "cleanup_annotated_quintuples"
+  ],
+  "combination_policy": "same table only; all ordered Cartesian combinations, including kind/state/resource failures; body IDs may repeat in different roles; P,C,G are distinct node roles even when kinds coincide; never enumerate concrete bindings",
+  "phases": {
+    "parent": [
+      "birth",
+      "funding",
+      "parent_recycling"
+    ],
+    "child": [
+      "newborn",
+      "funding",
+      "next_birth",
+      "outgoing_edge_cleanup",
+      "parent_recycling"
+    ],
+    "grandchild": [
+      "newborn",
+      "outgoing_edge_cleanup"
+    ],
+    "cleanup_forms": [
+      6,
+      7
+    ],
+    "order": [
+      "birth_P_to_C",
+      "funding_P_to_C_twice",
+      "birth_C_to_G",
+      "cleanup_C_to_G",
+      "recycle_C_to_P"
+    ]
+  },
+  "state_abstraction": {
+    "domain": "signed i32 with checked AddState; no wrapping/clamping",
+    "writers": "only unary SetState/AddState of the role kind; constants/guards 0..2 or wildcard and deltas +/-1; reject unsupported alphabet",
+    "representation": "unions of closed integer intervals; arbitrary finite unary sequences, ignoring scheduling and competition",
+    "phase_policy": "filter each reached set by the current role predicate before taking the next closure; preserve accepted/rejected sets and exact order",
+    "initial_policy": "all 128 saved kind/state histograms, not concrete rule bindings; original-node state access conditions are specific to the conditional founder scenario, not general bootstrap impossibility",
+    "independent_oracle": "five-region quotient: below 0, exact 0/1/2, above 2; compare phase predicate feasibility within validated alphabet, not concrete exterior-state multiplicity"
+  },
+  "topology_contract": {
+    "source_validation": "verify exact operation operands/order, Structural-only edge creation/deletion, Contact prerequisite for form5, fresh node IDs, ordered-source refunds and leaf-after-edge-removal checks",
+    "newborn": "no Contact incidence; incoming creation edge must survive for creator recycling; no outgoing Structural edge before its own first birth under these templates",
+    "cleanup": "form6 removes C->G edge and refunds its edge matter to C, leaving G orphaned; form7 also deletes/refunds leaf G and burns one activation; neither outcome proves execution",
+    "leaf": "C may be a leaf after its outgoing edge is removed without deleting G; G must be a leaf only for cleanup form7 in the isolated-branch scenario",
+    "limits": "isolated P-C-G branch, no extra incidence or intervening resource use; report outside-family interference, orphan persistence and unsupported topologies as unresolved"
+  },
+  "resource_contract": {
+    "initial_original": [
+      8,
+      8
+    ],
+    "newborn": [
+      1,
+      1
+    ],
+    "birth_requirement": [
+      3,
+      2
+    ],
+    "structural_funding_matter": 1,
+    "activation_amounts": [
+      1,
+      2
+    ],
+    "transfers": 2,
+    "ledger_policy": "closed-form conditional balances for the fixed isolated branch only; no mutable world, event queue, operation interpreter or hypothetical trajectory execution",
+    "interpretation": "nonnegative conditional balances are necessary arithmetic checks, not event reachability, repeated lifecycle or observed chemistry",
+    "global_bound": "initial activation64, no injection, each birth burns1; retain conservative source bound of at most64 births without treating it as an observed count"
+  },
+  "conditional_budget_cases": [
+    {
+      "name": "activation_1_cleanup_6",
+      "activation_per_funding": 1,
+      "cleanup_form": 6,
+      "parent_after_funding": [
+        3,
+        4
+      ],
+      "child_after_funding": [
+        3,
+        3
+      ],
+      "child_after_descendant_birth": [
+        0,
+        1
+      ],
+      "grandchild_at_birth": [
+        1,
+        1
+      ],
+      "child_after_cleanup": [
+        1,
+        1
+      ],
+      "parent_after_recycling": [
+        6,
+        4
+      ],
+      "grandchild_after_cleanup": [
+        1,
+        1
+      ],
+      "total_dissipated_activation": 3
+    },
+    {
+      "name": "activation_1_cleanup_7",
+      "activation_per_funding": 1,
+      "cleanup_form": 7,
+      "parent_after_funding": [
+        3,
+        4
+      ],
+      "child_after_funding": [
+        3,
+        3
+      ],
+      "child_after_descendant_birth": [
+        0,
+        1
+      ],
+      "grandchild_at_birth": [
+        1,
+        1
+      ],
+      "child_after_cleanup": [
+        3,
+        1
+      ],
+      "parent_after_recycling": [
+        8,
+        4
+      ],
+      "grandchild_after_cleanup": null,
+      "total_dissipated_activation": 4
+    },
+    {
+      "name": "activation_2_cleanup_6",
+      "activation_per_funding": 2,
+      "cleanup_form": 6,
+      "parent_after_funding": [
+        3,
+        2
+      ],
+      "child_after_funding": [
+        3,
+        5
+      ],
+      "child_after_descendant_birth": [
+        0,
+        3
+      ],
+      "grandchild_at_birth": [
+        1,
+        1
+      ],
+      "child_after_cleanup": [
+        1,
+        3
+      ],
+      "parent_after_recycling": [
+        6,
+        4
+      ],
+      "grandchild_after_cleanup": [
+        1,
+        1
+      ],
+      "total_dissipated_activation": 3
+    },
+    {
+      "name": "activation_2_cleanup_7",
+      "activation_per_funding": 2,
+      "cleanup_form": 7,
+      "parent_after_funding": [
+        3,
+        2
+      ],
+      "child_after_funding": [
+        3,
+        5
+      ],
+      "child_after_descendant_birth": [
+        0,
+        3
+      ],
+      "grandchild_at_birth": [
+        1,
+        1
+      ],
+      "child_after_cleanup": [
+        3,
+        3
+      ],
+      "parent_after_recycling": [
+        8,
+        4
+      ],
+      "grandchild_after_cleanup": null,
+      "total_dissipated_activation": 4
+    }
+  ],
+  "verification_controls": [
+    "missing_body",
+    "zero_matter_counterfactual",
+    "unary_drift_and_i32_bounds",
+    "phase_order_filtering",
+    "wrong_cleanup_kind_or_state",
+    "grandchild_nonleaf_for_recycle",
+    "creation_edge_removed_before_parent_recycle",
+    "edge_only_cleanup_orphans_grandchild",
+    "recycled_cleanup_refunds_free_resources",
+    "same_kind_distinct_roles_and_reused_body",
+    "initial_state_absence_is_scenario_only"
+  ],
+  "verification_policy": {
+    "state_schema_count": 20,
+    "writer_sets_zero_one_two_with_replacement": 231,
+    "starts": [
+      "singleton0",
+      "singleton1",
+      "singleton2",
+      "wildcard_i32"
+    ],
+    "state_closure_comparisons": 924,
+    "checks": "invented controls and independent arithmetic/state/topology checks before parsing retained rule bodies; guard against sampler/process imports and process creation; no retained inputs in tests"
+  },
+  "reporting": {
+    "unit": "body combinations, conditional ledgers and kind/state histograms; not trajectories or independent law replicates",
+    "classification": [
+      "local_condition_excluded",
+      "permitted_by_abstraction",
+      "unresolved"
+    ],
+    "exclusion_scope": "only the named necessary condition or isolated-branch scenario; a broader exact-table exclusion needs separately checked sufficient source premises",
+    "all_rows": "all32 table rows, all128 initial rows, all body combinations with reason fields; zero combinations remain explicit",
+    "behavioral_outcomes": null,
+    "behavioral_missing_reason": "not_executed",
+    "chemistry_continuation_gate": null
+  },
+  "future_paths": {
+    "review": "scripts/review_p01p.py",
+    "independent_audit": "scripts/audit_p01p.py",
+    "tests": "scripts/test_p01p.py"
+  },
+  "development_limits": {
+    "wall_seconds_per_tool": 120,
+    "output_bytes_per_tool": 134217728,
+    "policy": "cooperative monotonic-time and emitted-byte checks; explicit bounded failure receipts and no RSS/hard-time claim; source and inputs snapshotted; original sampling budgets unchanged"
+  },
+  "failure_policy": "retain every analysis/test attempt with source/input identities; implementation repairs may repeat only this same read-only plan into a new directory; never repair sampled inputs, alter frozen scientific contracts or replace the consumed census",
+  "decision": "stop after complete all-table review and independent audit; state one separately justified next boundary; no sampling, favorable-law dynamics, environment/detector change or E01 follows automatically"
+}

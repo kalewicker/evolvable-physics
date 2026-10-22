@@ -469,3 +469,17 @@ The registration is consumed. Next preregister a read-only resource/state/
 topology review across all retained tables before diagnosis. No sampled retry,
 repair, favorable-law trajectories or E01 are admitted; scientific status
 remains untested.
+
+## P01p read-only diagnosis plan registered
+
+The [post-hoc review plan](docs/p01p_analysis_plan.md) fixes resource/state/
+topology questions across every P01o table and initial record. It separates
+edge-only cleanup with a surviving orphan from leaf recycling, and tests
+conditional balances without executing worlds.
+
+Eight registration tests passed normally and optimized; 264 analysis inputs,
+the original inventory/seal and prior receipts matched. See
+[registration findings](docs/p01p_registration_findings.md). No new diagnosis ran.
+After commit/push, next implement the new read-only helpers and execute this
+fixed review. Scientific status remains untested; no sampled or trajectory
+reruns are admitted.

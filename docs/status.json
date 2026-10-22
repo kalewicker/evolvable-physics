@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-22",
-  "stage": "P01o_static_execution_complete",
+  "stage": "P01p_read_only_review_registered",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "separately preregister a read-only resource/state/topology review across all 32 retained tables and 128 initial records before diagnosis; no keyed reevaluation, new sampling or favorable-law trajectories",
-    "preserve consumed registration, original seal, all cells, costs, duplicates and negative/inconclusive outcomes; static alignment is an authored correlation, not chemistry",
-    "no sampled retry/resume/extension, law repair/filter/reroll, favorable subset, changed environment/detectors, world trajectories or E01; scientific status stays untested"
+    "after P01p plan/freeze commit/push, implement only the new read-only review/audit/test paths, test invented controls before parsing retained rule bodies, then perform and independently audit the fixed all-table review",
+    "preserve both cleanup routes, all 32 tables/all 128 initials and incompatible/absent combinations; distinguish conditional branch state/resource/topology checks from executable behavior",
+    "retain every analysis attempt and fix implementation against the same plan without repairing sampled inputs; no keyed reevaluation, new sampling, favorable-law trajectories, changed environment/detectors or E01"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -278,5 +278,13 @@
   "p01o_cost_receipt": "docs/evidence/p01o-001/cost_audit.json",
   "p01o_static_summary": "docs/evidence/p01o-001/summary.json",
   "generator_v4_sampled_output_equivalence_verified": true,
-  "generator_v4_equivalence_scope": "the fixed 128 P01o initial environments only"
+  "generator_v4_equivalence_scope": "the fixed 128 P01o initial environments only",
+  "p01p_registration_complete": true,
+  "p01p_protocol": "docs/p01p_protocol.json",
+  "p01p_analysis_plan": "docs/p01p_analysis_plan.md",
+  "p01p_analysis_freeze": "docs/p01p_analysis_freeze.json",
+  "p01p_registration_findings": "docs/p01p_registration_findings.md",
+  "p01p_registration_receipt": "docs/evidence/p01p-registration-001/static_review.json",
+  "p01p_diagnosis_started": false,
+  "p01p_read_only_analysis_admitted_after_commit_push": true
 }

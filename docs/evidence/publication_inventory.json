@@ -1973,6 +1973,30 @@
     {
       "file": "docs/evidence/p01o-001/summary.json",
       "sha256": "0822171dc4063001d9286d9dd4b89957ece4a475cce388f323eac5c0b3ff71c3"
+    },
+    {
+      "file": "docs/evidence/p01p-registration-001/publication_context.json",
+      "sha256": "f942511d1f97b184cd706d3e8460756de72bb6e2ee9066158829709b0c469b0e"
+    },
+    {
+      "file": "docs/evidence/p01p-registration-001/static_review.json",
+      "sha256": "241672355ef3c5ba0d815d97bb836e3381793465bdf0f3a24ff86bf0f65b9ecc"
+    },
+    {
+      "file": "docs/evidence/p01p-registration-001/test-commands.json",
+      "sha256": "220847b2d430d4542a306c2ef258ca851f1a29b4c23b831255e4ad18b97ed1d4"
+    },
+    {
+      "file": "docs/evidence/p01p-registration-001/test-source-identities.json",
+      "sha256": "dd424ee12f400b0650069c5f71190ed1accc9bb312601cee24e388e420e6898f"
+    },
+    {
+      "file": "docs/evidence/p01p-registration-001/tests-normal.log",
+      "sha256": "6cfce5c2bbe267726f4c29618b93243efa56ad3851c62455c6c70e5bfcd3d886"
+    },
+    {
+      "file": "docs/evidence/p01p-registration-001/tests-optimized.log",
+      "sha256": "6cfce5c2bbe267726f4c29618b93243efa56ad3851c62455c6c70e5bfcd3d886"
     }
   ]
 }

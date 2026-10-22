@@ -1,0 +1,27 @@
+{
+  "analysis_freeze_sha256": "bd2e0eabc0134ccf96601d3edf0a64a1eb2ec4bbc2509c6f86f7cb99f6db84f0",
+  "analysis_inputs_verified": 264,
+  "conditional_budget_controls": 4,
+  "diagnosis_executed": false,
+  "fixed_initial_records": 128,
+  "fixed_laws": 32,
+  "historical_file_counts": {
+    "docs/p01k_execution_freeze.json": 172,
+    "docs/p01n_registration_freeze.json": 220,
+    "docs/p01o_execution_freeze.json": 740,
+    "docs/p01o_registration_freeze.json": 235
+  },
+  "keyed_evaluations": 0,
+  "original_inventory_entries_verified": 5127,
+  "planned_state_closure_comparisons": 924,
+  "prior_public_receipts_verified": 493,
+  "registered_body_groups": 6,
+  "registered_negative_controls": 11,
+  "registration_files_verified": 260,
+  "retained_rule_bodies_parsed": 0,
+  "schema": "p01p-static-registration-review-v1",
+  "scientific_status": "untested",
+  "slots_per_law": 8,
+  "status": "pass",
+  "world_transitions": 0
+}

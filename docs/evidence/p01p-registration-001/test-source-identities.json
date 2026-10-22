@@ -1,0 +1,6 @@
+{
+  "docs/p01p_analysis_plan.md": "eed8c56a4d184dd76da2e1687ef0dbf454f44cfbe3910ea9506f2ee6b79943a4",
+  "docs/p01p_protocol.json": "61d6bed096951b02e662d81248441e6d5e36b0e9d597ac00fd4457851af9084b",
+  "scripts/check_p01p_registration.py": "1ca65fd4a352880a7ef378d717460f208bc0424216892f88b8926cc257ec79dc",
+  "scripts/test_p01p_registration.py": "04bb4e10c4795537fa92efc04fae94cac5f5d0fc433b0adceaebdd043dac100e"
+}

@@ -1,0 +1,40 @@
+{
+  "copies": [
+    {
+      "original": "artifacts/p01p-registration-001/static_review.json",
+      "public": "docs/evidence/p01p-registration-001/static_review.json",
+      "sha256": "241672355ef3c5ba0d815d97bb836e3381793465bdf0f3a24ff86bf0f65b9ecc"
+    },
+    {
+      "original": "artifacts/p01p-registration-tests-001/normal.log",
+      "public": "docs/evidence/p01p-registration-001/tests-normal.log",
+      "sha256": "6cfce5c2bbe267726f4c29618b93243efa56ad3851c62455c6c70e5bfcd3d886"
+    },
+    {
+      "original": "artifacts/p01p-registration-tests-001/optimized.log",
+      "public": "docs/evidence/p01p-registration-001/tests-optimized.log",
+      "sha256": "6cfce5c2bbe267726f4c29618b93243efa56ad3851c62455c6c70e5bfcd3d886"
+    },
+    {
+      "original": "artifacts/p01p-registration-tests-001/identities.json",
+      "public": "docs/evidence/p01p-registration-001/test-source-identities.json",
+      "sha256": "dd424ee12f400b0650069c5f71190ed1accc9bb312601cee24e388e420e6898f"
+    },
+    {
+      "original": "artifacts/p01p-registration-tests-001/checks.json",
+      "public": "docs/evidence/p01p-registration-001/test-commands.json",
+      "sha256": "220847b2d430d4542a306c2ef258ca851f1a29b4c23b831255e4ad18b97ed1d4"
+    }
+  ],
+  "date": "2026-10-22",
+  "external_files": {
+    "AGENTS.md": "de2ec0282c7c6e20081528b16f147d4e7e50b07d0c783114f7206087e5713c29",
+    "README.md": "f90ba4b36edbb2d2af729d875d988de0fa1ffe5f0ae38a463b37b449b8a3b0df",
+    "docs/p01p_analysis_freeze.json": "bd2e0eabc0134ccf96601d3edf0a64a1eb2ec4bbc2509c6f86f7cb99f6db84f0",
+    "docs/p01p_registration_findings.md": "0ade8297e98495eb398f76b222699474deea08d15346fbc5ae1ce8578c4ae077",
+    "docs/status.json": "b31907d0e849fdc5ee822938780a3f80c67f9b350731bedd93312d05daf95bd9"
+  },
+  "note": "All original P01o inputs and seal remain unchanged. Future review source/test paths do not yet exist. The four conditional ledgers are fixed invented arithmetic descriptors; the 924 state-closure comparisons remain planned.",
+  "schema": "p01p-registration-publication-context-v1",
+  "scope": "post-hoc plan/descriptor and file-custody review only, before new retained-body diagnosis; no keyed message evaluation, world construction/transition or candidate enumeration"
+}

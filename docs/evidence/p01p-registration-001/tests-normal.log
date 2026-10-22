@@ -1,0 +1,13 @@
+test_all_cells_and_repeated_initials_are_retained (test_p01p_registration.Registration.test_all_cells_and_repeated_initials_are_retained) ... ok
+test_changed_panel_and_behavioral_admission_rejected (test_p01p_registration.Registration.test_changed_panel_and_behavioral_admission_rejected) ... ok
+test_cleanup_routes_and_phase_filtering_cannot_be_dropped (test_p01p_registration.Registration.test_cleanup_routes_and_phase_filtering_cannot_be_dropped) ... ok
+test_contract_validates_without_hashing (test_p01p_registration.Registration.test_contract_validates_without_hashing) ... ok
+test_missing_controls_and_wrong_budget_rejected (test_p01p_registration.Registration.test_missing_controls_and_wrong_budget_rejected) ... ok
+test_orphan_and_refund_control_corruptions_rejected (test_p01p_registration.Registration.test_orphan_and_refund_control_corruptions_rejected) ... ok
+test_positive_classification_cannot_be_scientific_support (test_p01p_registration.Registration.test_positive_classification_cannot_be_scientific_support) ... ok
+test_state_oracle_and_behavioral_nulls_cannot_drift (test_p01p_registration.Registration.test_state_oracle_and_behavioral_nulls_cannot_drift) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK

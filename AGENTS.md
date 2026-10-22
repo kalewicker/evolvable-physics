@@ -130,3 +130,29 @@ identities across all 32 tables/128 initial records before diagnosis. No keyed
 message reevaluation, new sampled panel, world execution, environment/detector
 changes or E01. Behavioral outcomes remain null/not_executed and scientific
 status untested; all P01g/P01k negatives/inconclusives remain unchanged.
+
+## Current next boundary after P01p review registration
+
+P01p post-hoc read-only resource/state/topology review registration is complete.
+See docs/p01p_analysis_plan.md, docs/p01p_protocol.json,
+docs/p01p_analysis_freeze.json and docs/p01p_registration_findings.md. Static
+review and eight tests (normal and optimized) passed: 260 registration source
+files, 264 analysis inputs, original 5,127-entry inventory/seal and 493 previous
+public receipts matched. No retained-body diagnosis, keyed call or world
+transition occurred in registration. After plan/freeze commit/push, next
+implement only scripts/review_p01p.py, scripts/audit_p01p.py and scripts/test_p01p.py
+at the new paths, test invented controls before diagnosis, then run/audit only
+this fixed all-32-table/128-initial review. Keep old source/Cargo paths unchanged.
+Retain all failed attempts and identities, fixing implementation against this
+same plan into a fresh directory; never repair laws or original seals.
+The plan distinguishes cleanup6 (edge refund, orphan grandchild survives) from
+cleanup7 (leaf grandchild refunded/deleted); a parent may become a leaf without
+deleting its descendant node if the outgoing edge is removed. Retain both
+routes, phase order, distinct node roles with possibly equal kinds, four
+conditional ledgers and all incompatible/absent combinations. The 924 future
+state-closure comparisons are planned, not already executed. Cooperative
+per-tool limits are 120 seconds/128 MiB emitted bytes, with failure receipts and
+no hard RSS/time claim. No process creation, sampler/adapter/matcher/interpreter
+imports, keyed reevaluation, favorable-law selection, new sampling, world runs,
+environment/detector changes or E01. Behavioral outcomes remain null/not_executed
+and scientific status untested; preserve all consumed P01g/P01k/P01o outcomes.
