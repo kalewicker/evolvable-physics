@@ -1,0 +1,16 @@
+{
+  "analysis_checksums_sha256": "a27aa81765701ebdc85d2c3fe7ee9d37bf936a17ab3d3f4fbf7f2bfbbb5fd92e",
+  "analysis_inventory_entries": 538,
+  "cells": 128,
+  "combinations_verified": 170,
+  "conditional_ledger_and_topology_checks": true,
+  "executable_reachability": null,
+  "input_seal_sha256": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00",
+  "keyed_evaluations": 0,
+  "laws": 32,
+  "schema": "p01p-independent-state-ledger-topology-audit-v1",
+  "scientific_status": "untested",
+  "state_oracle": "independent five-region quotient",
+  "status": "pass",
+  "world_transitions": 0
+}

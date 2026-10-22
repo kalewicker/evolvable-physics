@@ -1,0 +1,33 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts",
+      "-p",
+      "test_p01p.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.2325311666354537
+  },
+  {
+    "command": [
+      "python3",
+      "-O",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts",
+      "-p",
+      "test_p01p.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.4162866659462452
+  }
+]

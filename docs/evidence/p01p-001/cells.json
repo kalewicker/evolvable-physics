@@ -1,0 +1,9940 @@
+[
+  {
+    "founder_cleanup_checks": [
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 0,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 1,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 2,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 3,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      }
+    ],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 2,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6000,
+    "slot": 0
+  },
+  {
+    "founder_cleanup_checks": [
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": false,
+        "quintuple_index": 0,
+        "reason": "original_seed_exclusion_for_this_founder_only",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": false,
+        "quintuple_index": 1,
+        "reason": "original_seed_exclusion_for_this_founder_only",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": false,
+        "quintuple_index": 2,
+        "reason": "original_seed_exclusion_for_this_founder_only",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": false,
+        "quintuple_index": 3,
+        "reason": "original_seed_exclusion_for_this_founder_only",
+        "scope": "specified_original_founder_only"
+      }
+    ],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 3,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6000,
+    "slot": 1
+  },
+  {
+    "founder_cleanup_checks": [
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 0,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 1,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 2,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 3,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      }
+    ],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 6,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 3,
+      "2,1": 2,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6000,
+    "slot": 2
+  },
+  {
+    "founder_cleanup_checks": [
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 0,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 1,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 2,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 4,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 3,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      }
+    ],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6000,
+    "slot": 3
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 3,
+        "original_kind_count": 0,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": []
+            }
+          ],
+          "start": []
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 2,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": []
+    },
+    "proposal": 6001,
+    "slot": 4
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 2,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6001,
+    "slot": 5
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 5,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 2,
+      "3,0": 2,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0
+      ]
+    },
+    "proposal": 6001,
+    "slot": 6
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6001,
+    "slot": 7
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 3,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 2,
+      "2,0": 2,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6002,
+    "slot": 8
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 3,
+        "kind": 3,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 2,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6002,
+    "slot": 9
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 3,
+        "kind": 3,
+        "original_kind_count": 5,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 2,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6002,
+    "slot": 10
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 3,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 2,
+      "2,1": 2,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6002,
+    "slot": 11
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 4,
+        "kind": 1,
+        "original_kind_count": 5,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 5,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 2,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": []
+    },
+    "proposal": 6003,
+    "slot": 12
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 4,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 5,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 2,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6003,
+    "slot": 13
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 2,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 4,
+        "kind": 1,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 5,
+        "kind": 2,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 4,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6003,
+    "slot": 14
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 2,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 4,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 5,
+        "kind": 2,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6003,
+    "slot": 15
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 2,
+      "2,2": 2,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6004,
+    "slot": 16
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 2,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6004,
+    "slot": 17
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 0,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": []
+            }
+          ],
+          "start": []
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 2,
+      "2,1": 3,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": []
+    },
+    "proposal": 6004,
+    "slot": 18
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 0,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": []
+            }
+          ],
+          "start": []
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 2,
+      "2,1": 2,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": []
+    },
+    "proposal": 6004,
+    "slot": 19
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2147483647
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 3,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6005,
+    "slot": 20
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2147483647
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6005,
+    "slot": 21
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2147483647
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6005,
+    "slot": 22
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2147483647
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 3,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        1
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6005,
+    "slot": 23
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6006,
+    "slot": 24
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 2,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6006,
+    "slot": 25
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6006,
+    "slot": 26
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 2,
+      "3,0": 0,
+      "3,1": 3,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6006,
+    "slot": 27
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 3,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6007,
+    "slot": 28
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6007,
+    "slot": 29
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 2,
+      "3,0": 0,
+      "3,1": 4,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6007,
+    "slot": 30
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 2,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6007,
+    "slot": 31
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  -2147483648,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 2,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6008,
+    "slot": 32
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 2,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  -2147483648,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 2,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6008,
+    "slot": 33
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  -2147483648,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 3
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6008,
+    "slot": 34
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 2,
+        "original_kind_count": 0,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": []
+            }
+          ],
+          "start": []
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 5,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 3,
+      "1,1": 0,
+      "1,2": 2,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6008,
+    "slot": 35
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 3,
+        "original_kind_count": 0,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": []
+            }
+          ],
+          "start": []
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 2,
+      "1,2": 2,
+      "2,0": 2,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": []
+    },
+    "proposal": 6009,
+    "slot": 36
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 3,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 2,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 3,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6009,
+    "slot": 37
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 4,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6009,
+    "slot": 38
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 3,
+        "original_kind_count": 5,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 2,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6009,
+    "slot": 39
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 6,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  -2147483648,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 2,
+      "1,2": 2,
+      "2,0": 2,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": []
+    },
+    "proposal": 6010,
+    "slot": 40
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  -2147483648,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 3,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6010,
+    "slot": 41
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  -2147483648,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 3,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6010,
+    "slot": 42
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  -2147483648,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 2,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6010,
+    "slot": 43
+  },
+  {
+    "founder_cleanup_checks": [
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 0,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 1,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 2,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "permitted_by_abstraction",
+        "original_seed_permitted": true,
+        "quintuple_index": 3,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 4,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 5,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 6,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 7,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 8,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 9,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 10,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 11,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 12,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 13,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 14,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 15,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      }
+    ],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 2,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6011,
+    "slot": 44
+  },
+  {
+    "founder_cleanup_checks": [
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 0,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 1,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 2,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "permitted_by_abstraction",
+        "original_seed_permitted": true,
+        "quintuple_index": 3,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 4,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 5,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 6,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 7,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 8,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 9,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 10,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 11,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 12,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 13,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 14,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 15,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      }
+    ],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 1,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 2,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6011,
+    "slot": 45
+  },
+  {
+    "founder_cleanup_checks": [
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 0,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 1,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 2,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "permitted_by_abstraction",
+        "original_seed_permitted": true,
+        "quintuple_index": 3,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 4,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 5,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 6,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 7,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 8,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 9,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 10,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 11,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 12,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 13,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 14,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 15,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      }
+    ],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6011,
+    "slot": 46
+  },
+  {
+    "founder_cleanup_checks": [
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 0,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 1,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 2,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "permitted_by_abstraction",
+        "original_seed_permitted": true,
+        "quintuple_index": 3,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 4,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 5,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 6,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 1,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 7,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 8,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 9,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 10,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 11,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 12,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 13,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 14,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      },
+      {
+        "birth": 3,
+        "classification": "local_condition_excluded",
+        "original_seed_permitted": true,
+        "quintuple_index": 15,
+        "reason": "inherits_conditional_local_checks",
+        "scope": "specified_original_founder_only"
+      }
+    ],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6011,
+    "slot": 47
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 1,
+        "original_kind_count": 0,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": []
+            }
+          ],
+          "start": []
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 3,
+      "2,1": 3,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6012,
+    "slot": 48
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 1,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6012,
+    "slot": 49
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 4,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6012,
+    "slot": 50
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6012,
+    "slot": 51
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 3,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6013,
+    "slot": 52
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6013,
+    "slot": 53
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 2,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6013,
+    "slot": 54
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 3,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6013,
+    "slot": 55
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 2,
+      "3,0": 0,
+      "3,1": 4,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6014,
+    "slot": 56
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 3,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6014,
+    "slot": 57
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0
+      ]
+    },
+    "proposal": 6014,
+    "slot": 58
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6014,
+    "slot": 59
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 4,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": []
+    },
+    "proposal": 6015,
+    "slot": 60
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 2,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 3,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6015,
+    "slot": 61
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 2,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6015,
+    "slot": 62
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 2,
+      "2,0": 0,
+      "2,1": 4,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        1
+      ],
+      "3": [
+        0
+      ]
+    },
+    "proposal": 6015,
+    "slot": 63
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 3,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6016,
+    "slot": 64
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 4,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": []
+    },
+    "proposal": 6016,
+    "slot": 65
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 3,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6016,
+    "slot": 66
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 4,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6016,
+    "slot": 67
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6017,
+    "slot": 68
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 2,
+      "2,1": 2,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6017,
+    "slot": 69
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6017,
+    "slot": 70
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 2,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 3,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6017,
+    "slot": 71
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6018,
+    "slot": 72
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 1,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 1,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 3,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6018,
+    "slot": 73
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6018,
+    "slot": 74
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 6,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6018,
+    "slot": 75
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 6,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6019,
+    "slot": 76
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 6,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6019,
+    "slot": 77
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 6,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6019,
+    "slot": 78
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 6,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 3,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        1
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6019,
+    "slot": 79
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 2,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6020,
+    "slot": 80
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 3,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6020,
+    "slot": 81
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 3
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6020,
+    "slot": 82
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 2,
+        "kind": 1,
+        "original_kind_count": 0,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": []
+            }
+          ],
+          "start": []
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 3,
+      "3,0": 2,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0
+      ]
+    },
+    "proposal": 6020,
+    "slot": 83
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 3,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6021,
+    "slot": 84
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 3,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6021,
+    "slot": 85
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 2,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6021,
+    "slot": 86
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 0,
+      "1,2": 2,
+      "2,0": 2,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6021,
+    "slot": 87
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  -2147483648,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 5,
+        "kind": 3,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 2,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6022,
+    "slot": 88
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  -2147483648,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 5,
+        "kind": 3,
+        "original_kind_count": 5,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 3
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6022,
+    "slot": 89
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  -2147483648,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 5,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 2,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6022,
+    "slot": 90
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 4,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  -2147483648,
+                  0
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 5,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 0,
+      "1,2": 2,
+      "2,0": 2,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6022,
+    "slot": 91
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 5,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 2,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6023,
+    "slot": 92
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 5,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 3
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6023,
+    "slot": 93
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 5,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 1,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6023,
+    "slot": 94
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 5,
+        "kind": 2,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 1,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "guard": 1,
+              "reachable": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6023,
+    "slot": 95
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 2,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 3,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6024,
+    "slot": 96
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 4,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6024,
+    "slot": 97
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 3,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6024,
+    "slot": 98
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 3,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": []
+    },
+    "proposal": 6024,
+    "slot": 99
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6025,
+    "slot": 100
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6025,
+    "slot": 101
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 2,
+      "3,0": 1,
+      "3,1": 3,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6025,
+    "slot": 102
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 3,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6025,
+    "slot": 103
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 2,
+      "2,2": 1,
+      "3,0": 2,
+      "3,1": 0,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6026,
+    "slot": 104
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 4,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6026,
+    "slot": 105
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 2,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        1
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6026,
+    "slot": 106
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6026,
+    "slot": 107
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 2,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6027,
+    "slot": 108
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 2,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6027,
+    "slot": 109
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 3,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6027,
+    "slot": 110
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 3,
+      "3,0": 1,
+      "3,1": 3,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6027,
+    "slot": 111
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 2,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6028,
+    "slot": 112
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 4,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        1
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6028,
+    "slot": 113
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 3
+    },
+    "original_state_seeds": {
+      "1": [
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6028,
+    "slot": 114
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 2,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6028,
+    "slot": 115
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 2,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6029,
+    "slot": 116
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 3,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6029,
+    "slot": 117
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        0,
+        1,
+        2
+      ]
+    },
+    "proposal": 6029,
+    "slot": 118
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6029,
+    "slot": 119
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 3,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 3,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 2,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 4,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 3
+    },
+    "original_state_seeds": {
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6030,
+    "slot": 120
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 2,
+        "original_kind_count": 5,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 3,
+      "2,1": 2,
+      "2,2": 0,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6030,
+    "slot": 121
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 2,
+        "original_kind_count": 3,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "guard": 0,
+              "reachable": [
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 2,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 3,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 2,
+      "2,1": 1,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "proposal": 6030,
+    "slot": 122
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [
+      {
+        "birth": 0,
+        "kind": 3,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 1,
+        "kind": 3,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 3,
+        "kind": 2,
+        "original_kind_count": 6,
+        "state_path": {
+          "permitted": false,
+          "phases": [
+            {
+              "accepted": [],
+              "guard": 0,
+              "reachable": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "birth": 7,
+        "kind": 3,
+        "original_kind_count": 1,
+        "state_path": {
+          "permitted": true,
+          "phases": [
+            {
+              "accepted": [
+                [
+                  2,
+                  2
+                ]
+              ],
+              "guard": 2,
+              "reachable": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "start": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "original_kind_state_histogram": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 3,
+      "2,2": 3,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        1
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6030,
+    "slot": 123
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 0,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 2,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        1
+      ]
+    },
+    "proposal": 6031,
+    "slot": 124
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 1,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 2,
+      "1,2": 0,
+      "2,0": 1,
+      "2,1": 0,
+      "2,2": 1,
+      "3,0": 0,
+      "3,1": 1,
+      "3,2": 2
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        1,
+        2
+      ]
+    },
+    "proposal": 6031,
+    "slot": 125
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 2,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 2,
+      "1,1": 1,
+      "1,2": 1,
+      "2,0": 2,
+      "2,1": 0,
+      "2,2": 0,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 0
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        1,
+        2
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "proposal": 6031,
+    "slot": 126
+  },
+  {
+    "founder_cleanup_checks": [],
+    "initial": 3,
+    "original_birth_state_checks": [],
+    "original_kind_state_histogram": {
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 2,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 2,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1
+    },
+    "original_state_seeds": {
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1,
+        2
+      ],
+      "3": [
+        2
+      ]
+    },
+    "proposal": 6031,
+    "slot": 127
+  }
+]

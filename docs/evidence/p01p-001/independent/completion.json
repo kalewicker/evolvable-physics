@@ -1,0 +1,8 @@
+{
+  "checksums_sha256": "9fd0e68700d71954203a6568bcdb93a0a05a2544bad8b54066d398a7b5b1b0bb",
+  "output_bytes_including_completion": 14679066,
+  "output_ceiling_bytes": 134217728,
+  "status": "pass",
+  "wall_ceiling_seconds": 120,
+  "wall_seconds_including_inventory": 0.7773051662370563
+}

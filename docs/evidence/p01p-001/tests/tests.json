@@ -1,0 +1,17 @@
+{
+  "keyed_evaluations": 0,
+  "retained_input_reads": 0,
+  "returncodes": [
+    0,
+    0
+  ],
+  "sources": {
+    "scripts/audit_p01p.py": "66ea8cd04d9636a508ad293eaf6315ae15ceaaa678be3c40fbe99d730bd2fbd6",
+    "scripts/review_p01p.py": "8a9681f41b60e44fffad379adb6772bcd28677843772cdb6b9dabd830c655612",
+    "scripts/test_p01p.py": "5efbf5b51d85f212423d97676a791814e4392a9a6dd000dbbbafac012c4af25a"
+  },
+  "state_comparisons": 924,
+  "status": "pass",
+  "tests": 13,
+  "world_transitions": 0
+}

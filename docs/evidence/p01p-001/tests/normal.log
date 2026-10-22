@@ -1,0 +1,18 @@
+test_924_independent_state_closure_comparisons (test_p01p.StateAndBranchTests.test_924_independent_state_closure_comparisons) ... ok
+test_all_four_ledgers_have_independent_refund_and_conservation_checks (test_p01p.StateAndBranchTests.test_all_four_ledgers_have_independent_refund_and_conservation_checks) ... ok
+test_alphabet_and_refund_tampering_rejected (test_p01p.StateAndBranchTests.test_alphabet_and_refund_tampering_rejected) ... ok
+test_drift_bounds_and_phase_order (test_p01p.StateAndBranchTests.test_drift_bounds_and_phase_order) ... ok
+test_edge_cleanup_keeps_orphan_and_recycle_cleanup_refunds_it (test_p01p.StateAndBranchTests.test_edge_cleanup_keeps_orphan_and_recycle_cleanup_refunds_it) ... ok
+test_independent_row_verdict_and_trace_corruption_rejected (test_p01p.StateAndBranchTests.test_independent_row_verdict_and_trace_corruption_rejected) ... ok
+test_initial_absence_excludes_only_the_specified_founder (test_p01p.StateAndBranchTests.test_initial_absence_excludes_only_the_specified_founder) ... ok
+test_leaf_and_creation_edge_negatives_are_conditional (test_p01p.StateAndBranchTests.test_leaf_and_creation_edge_negatives_are_conditional) ... ok
+test_limits_emit_bounded_failed_receipts (test_p01p.StateAndBranchTests.test_limits_emit_bounded_failed_receipts) ... ok
+test_reused_bodies_and_equal_kinds_keep_distinct_roles (test_p01p.StateAndBranchTests.test_reused_bodies_and_equal_kinds_keep_distinct_roles) ... ok
+test_tools_cannot_import_generators_or_launch_processes (test_p01p.StateAndBranchTests.test_tools_cannot_import_generators_or_launch_processes) ... ok
+test_wrong_cleanup_kind_and_state_fail_separately (test_p01p.StateAndBranchTests.test_wrong_cleanup_kind_and_state_fail_separately) ... ok
+test_zero_matter_counterfactual_and_missing_bodies (test_p01p.StateAndBranchTests.test_zero_matter_counterfactual_and_missing_bodies) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.046s
+
+OK

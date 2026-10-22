@@ -1,0 +1,109 @@
+{
+  "analysis_plan_commit": "8acdfcd9d108da16043664dec62767f80f094176",
+  "copies": [
+    {
+      "original": "artifacts/p01p-001/input_audit.json",
+      "public": "docs/evidence/p01p-001/input_audit.json",
+      "sha256": "7f71797e526622980b11538693928ebee695b0278849a047e363ece69238edbc"
+    },
+    {
+      "original": "artifacts/p01p-001/identities.json",
+      "public": "docs/evidence/p01p-001/identities.json",
+      "sha256": "2ac635254ca8b77371c655a10fd03071b04510d89b9c40224d0ed9a4ad071bda"
+    },
+    {
+      "original": "artifacts/p01p-001/manifest.json",
+      "public": "docs/evidence/p01p-001/manifest.json",
+      "sha256": "dba9e1cb5e25f547d831a2112ac6672ed354fbaf506cdcb91fd3fad358b1903e"
+    },
+    {
+      "original": "artifacts/p01p-001/cells.json",
+      "public": "docs/evidence/p01p-001/cells.json",
+      "sha256": "dcbd668069042bbbdbd0aa33b105f8c370f27eb4057fcd3d2bfc2218f958e69e"
+    },
+    {
+      "original": "artifacts/p01p-001/summary.json",
+      "public": "docs/evidence/p01p-001/summary.json",
+      "sha256": "b9e17ef7cb6479dbeea34d5a4d78e085a7b46e8857b87827150e8570102ed2bb"
+    },
+    {
+      "original": "artifacts/p01p-001/assessment.json",
+      "public": "docs/evidence/p01p-001/assessment.json",
+      "sha256": "9522b056c6c18557010dd1817d2325c598341b2fc37f785ad31d0e9efa6b96f9"
+    },
+    {
+      "original": "artifacts/p01p-001/checksums.json",
+      "public": "docs/evidence/p01p-001/checksums.json",
+      "sha256": "a27aa81765701ebdc85d2c3fe7ee9d37bf936a17ab3d3f4fbf7f2bfbbb5fd92e"
+    },
+    {
+      "original": "artifacts/p01p-001/completion.json",
+      "public": "docs/evidence/p01p-001/completion.json",
+      "sha256": "9d78595897d40e776338bc058b9ab9faf2bcdc271c1c63567bc56856ab07e16f"
+    },
+    {
+      "original": "artifacts/p01p-001/public_laws.json",
+      "public": "docs/evidence/p01p-001/laws.json",
+      "sha256": "06c82dd16723223f4cfc2b2194cf2c91ccaac2bef2748e3830768f19c98d49d6"
+    },
+    {
+      "original": "artifacts/p01p-audit-001/audit.json",
+      "public": "docs/evidence/p01p-001/independent_audit.json",
+      "sha256": "f1d14554328a1c4393fc3a32277dcd9b63c33132d1759b4840fce2a1e963c661"
+    },
+    {
+      "original": "artifacts/p01p-audit-001/assessment.json",
+      "public": "docs/evidence/p01p-001/independent/assessment.json",
+      "sha256": "f1d14554328a1c4393fc3a32277dcd9b63c33132d1759b4840fce2a1e963c661"
+    },
+    {
+      "original": "artifacts/p01p-audit-001/checksums.json",
+      "public": "docs/evidence/p01p-001/independent/checksums.json",
+      "sha256": "9fd0e68700d71954203a6568bcdb93a0a05a2544bad8b54066d398a7b5b1b0bb"
+    },
+    {
+      "original": "artifacts/p01p-audit-001/completion.json",
+      "public": "docs/evidence/p01p-001/independent/completion.json",
+      "sha256": "03ff8686bee7ca44d65f5d895662bf3da389bfc6f01e57952282a9cd26d3c6e6"
+    },
+    {
+      "original": "artifacts/p01p-build-001/normal.log",
+      "public": "docs/evidence/p01p-001/tests/normal.log",
+      "sha256": "f3bcbe334d4ed1f02178a3612d3ad26d0be30008c66ae6c97ec2f47673320f84"
+    },
+    {
+      "original": "artifacts/p01p-build-001/optimized.log",
+      "public": "docs/evidence/p01p-001/tests/optimized.log",
+      "sha256": "9944fb4fb7848d25555d0adc399b3e6f553163ca2f4f24369e3357e4d88dd950"
+    },
+    {
+      "original": "artifacts/p01p-build-001/checks.json",
+      "public": "docs/evidence/p01p-001/tests/checks.json",
+      "sha256": "337953d6bdf1725323345575d4d6630d90253aece4c42832697f00e6dcc60aaf"
+    },
+    {
+      "original": "artifacts/p01p-build-001/tests.json",
+      "public": "docs/evidence/p01p-001/tests/tests.json",
+      "sha256": "dc295874bd90633491ab9c24ae4e420d6810535be385b1a6f5a6aab6560c3085"
+    },
+    {
+      "original": "artifacts/p01p-closeout-001/receipt.json",
+      "public": "docs/evidence/p01p-001/closeout_custody.json",
+      "sha256": "ad47c28946345abc2ced0ea048a5c006b2946f9f50ef2cd92562636357a744ac"
+    }
+  ],
+  "date": "2026-10-22",
+  "external_files": {
+    "AGENTS.md": "d8eeb2bfaad83d06a83795079a6d5861b63dd543bb2222656e9eb04d03e824e0",
+    "README.md": "b82481e1ba7cf65e8553e54e5c84e2eb8ad65c70cdeac415132c91f75dfaff4d",
+    "docs/p01p_closure.json": "ad7c8cb5dea0620a747c2bfbfb018e8e0225e7aaa1324183e61fdcdde5817b59",
+    "docs/p01p_findings.md": "c3723e6a078171014e231b1c68b26f5fc0fbc024e128db44a4087e085c00d953",
+    "docs/status.json": "f535684549877cc3600192d21edcdb24e2c5bdfb53d491679526d703e361cc2c",
+    "scripts/audit_p01p.py": "66ea8cd04d9636a508ad293eaf6315ae15ceaaa678be3c40fbe99d730bd2fbd6",
+    "scripts/review_p01p.py": "8a9681f41b60e44fffad379adb6772bcd28677843772cdb6b9dabd830c655612",
+    "scripts/test_p01p.py": "5efbf5b51d85f212423d97676a791814e4392a9a6dd000dbbbafac012c4af25a"
+  },
+  "note": "Original P01o and both P01p inventories remain unchanged. Raw native rules, generator streams and source/input snapshots remain local. Public laws.json is the byte-identical complete public_laws.json projection; all body combinations and initial rows are retained. Later closeout custody, tests and final documents are external to the original analysis inventory and bound here. One passing review and one passing independent audit; no new sampler, keyed evaluation or world execution.",
+  "schema": "p01p-review-publication-context-v1",
+  "scientific_status": "untested"
+}

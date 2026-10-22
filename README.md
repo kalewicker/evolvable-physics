@@ -483,3 +483,17 @@ the original inventory/seal and prior receipts matched. See
 After commit/push, next implement the new read-only helpers and execute this
 fixed review. Scientific status remains untested; no sampled or trajectory
 reruns are admitted.
+
+## P01p read-only review complete
+
+The registered review and independent audit passed for all 32 laws, 128 initial
+records and 170 body combinations. One cleanup-by-recycling branch passes the
+conditional state/resource/topology abstraction, including its four founder
+state checks. Its ledger restores matter but spends four activation; no
+trajectory or reproduction was observed. See [findings](docs/p01p_findings.md)
+and [closure](docs/p01p_closure.json).
+
+Thirteen tests passed normally and optimized, including 924 independent state
+comparisons. All inputs and original seals remain intact. Next separately
+register an unfiltered bounded dynamical mechanism assay across all saved
+initial environments. No favorable-law run, new sampling or E01 is admitted.

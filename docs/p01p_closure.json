@@ -1,0 +1,188 @@
+{
+  "analysis_attempts": 1,
+  "analysis_plan_commit": "8acdfcd9d108da16043664dec62767f80f094176",
+  "audit_attempts": 1,
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "body_combinations_verified": 170,
+  "chemistry_continuation_gate": null,
+  "classification_scope": "registered isolated-branch local conditions only; neither executable reachability nor broad exact-table impossibility",
+  "complete": true,
+  "counts": {
+    "birth_funding_pairs": {
+      "classifications": {
+        "local_condition_excluded": 3,
+        "permitted_by_abstraction": 7,
+        "unresolved": 0
+      },
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 7,
+      "kind_match": 7,
+      "phased_state_and_material": 7,
+      "phased_state_permitted": 7,
+      "total": 10
+    },
+    "birth_recycle_pairs": {
+      "classifications": {
+        "local_condition_excluded": 19,
+        "permitted_by_abstraction": 8,
+        "unresolved": 0
+      },
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 8,
+      "kind_match": 8,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 8,
+      "total": 27
+    },
+    "child_next_birth_pairs": {
+      "classifications": {
+        "local_condition_excluded": 61,
+        "permitted_by_abstraction": 26,
+        "unresolved": 0
+      },
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 26,
+      "kind_match": 26,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 26,
+      "total": 87
+    },
+    "cleanup_annotated_quintuples": {
+      "classifications": {
+        "local_condition_excluded": 19,
+        "permitted_by_abstraction": 1,
+        "unresolved": 0
+      },
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 1,
+      "immediate_state_aligned": 1,
+      "kind_match": 1,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 1,
+      "total": 20
+    },
+    "funded_descendant_triples": {
+      "classifications": {
+        "local_condition_excluded": 15,
+        "permitted_by_abstraction": 1,
+        "unresolved": 0
+      },
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 1,
+      "kind_match": 1,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 1,
+      "total": 16
+    },
+    "joined_quadruples": {
+      "classifications": {
+        "local_condition_excluded": 9,
+        "permitted_by_abstraction": 0,
+        "unresolved": 1
+      },
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 1,
+      "kind_match": 1,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 1,
+      "total": 10
+    }
+  },
+  "date": "2026-10-22",
+  "e01_authorized": false,
+  "executable_reachability": null,
+  "founder_cleanup_checks": 80,
+  "founder_cleanup_classifications": {
+    "local_condition_excluded": 76,
+    "permitted_by_abstraction": 4,
+    "unresolved": 0
+  },
+  "independent_state_ledger_topology_audit_pass": true,
+  "initial_records": 128,
+  "interval_quotient_comparisons": 924,
+  "invented_tests": 13,
+  "keyed_evaluations": 0,
+  "law_cells": 32,
+  "next_scope": "separately justify/register a bounded unfiltered dynamical mechanism assay using all 32 retained laws/all 128 saved environments, fixing evidence, controls, horizons, gates, costs and failure policy before implementation/execution; no keyed reevaluation or favorable subset",
+  "original_birth_checks": 156,
+  "original_birth_state_permitted": 104,
+  "positive_tables": {
+    "birth_funding_pairs": {
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 6,
+      "kind_match": 6,
+      "phased_state_and_material": 6,
+      "phased_state_permitted": 6,
+      "total": 7
+    },
+    "birth_recycle_pairs": {
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 5,
+      "kind_match": 5,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 5,
+      "total": 9
+    },
+    "child_next_birth_pairs": {
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 10,
+      "kind_match": 10,
+      "phased_state_and_material": 0,
+      "phased_state_permitted": 10,
+      "total": 21
+    },
+    "cleanup_annotated_quintuples": {
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 1,
+      "immediate_state_aligned": 1,
+      "kind_match": 1,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 1,
+      "total": 2
+    },
+    "funded_descendant_triples": {
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 1,
+      "kind_match": 1,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 1,
+      "total": 7
+    },
+    "joined_quadruples": {
+      "cleanup6_permitted": 0,
+      "cleanup7_permitted": 0,
+      "immediate_state_aligned": 1,
+      "kind_match": 1,
+      "phased_state_and_material": 1,
+      "phased_state_permitted": 1,
+      "total": 2
+    }
+  },
+  "receipts": {
+    "artifacts/p01o-001/seal.json": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00",
+    "artifacts/p01p-001/checksums.json": "a27aa81765701ebdc85d2c3fe7ee9d37bf936a17ab3d3f4fbf7f2bfbbb5fd92e",
+    "artifacts/p01p-001/completion.json": "9d78595897d40e776338bc058b9ab9faf2bcdc271c1c63567bc56856ab07e16f",
+    "artifacts/p01p-001/manifest.json": "dba9e1cb5e25f547d831a2112ac6672ed354fbaf506cdcb91fd3fad358b1903e",
+    "artifacts/p01p-001/summary.json": "b9e17ef7cb6479dbeea34d5a4d78e085a7b46e8857b87827150e8570102ed2bb",
+    "artifacts/p01p-audit-001/audit.json": "f1d14554328a1c4393fc3a32277dcd9b63c33132d1759b4840fce2a1e963c661",
+    "artifacts/p01p-audit-001/checksums.json": "9fd0e68700d71954203a6568bcdb93a0a05a2544bad8b54066d398a7b5b1b0bb",
+    "artifacts/p01p-audit-001/completion.json": "03ff8686bee7ca44d65f5d895662bf3da389bfc6f01e57952282a9cd26d3c6e6",
+    "artifacts/p01p-build-001/tests.json": "dc295874bd90633491ab9c24ae4e420d6810535be385b1a6f5a6aab6560c3085",
+    "artifacts/p01p-closeout-001/receipt.json": "ad47c28946345abc2ced0ea048a5c006b2946f9f50ef2cd92562636357a744ac"
+  },
+  "sampling_admitted": false,
+  "schema": "p01p-read-only-review-closure-v1",
+  "scientific_status": "untested",
+  "world_execution_admitted": false,
+  "world_transitions": 0
+}

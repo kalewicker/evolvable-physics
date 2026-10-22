@@ -1,0 +1,9 @@
+{
+  "body_combinations": 170,
+  "cells": 128,
+  "keyed_evaluations": 0,
+  "laws": 32,
+  "scientific_status": "untested",
+  "status": "pass",
+  "world_transitions": 0
+}

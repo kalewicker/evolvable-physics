@@ -1,0 +1,26 @@
+{
+  "attempts": [
+    {
+      "checksums_sha256": "a27aa81765701ebdc85d2c3fe7ee9d37bf936a17ab3d3f4fbf7f2bfbbb5fd92e",
+      "completion_sha256": "9d78595897d40e776338bc058b9ab9faf2bcdc271c1c63567bc56856ab07e16f",
+      "directory": "artifacts/p01p-001",
+      "file_bytes": 16050923,
+      "inventory_entries": 538,
+      "wall_seconds": 1.1478413753211498
+    },
+    {
+      "checksums_sha256": "9fd0e68700d71954203a6568bcdb93a0a05a2544bad8b54066d398a7b5b1b0bb",
+      "completion_sha256": "03ff8686bee7ca44d65f5d895662bf3da389bfc6f01e57952282a9cd26d3c6e6",
+      "directory": "artifacts/p01p-audit-001",
+      "file_bytes": 14679066,
+      "inventory_entries": 534,
+      "wall_seconds": 0.7773051662370563
+    }
+  ],
+  "keyed_evaluations": 0,
+  "original_sampled_seal_unchanged": true,
+  "schema": "p01p-read-only-custody-closeout-v1",
+  "scope": "saved byte/source/input identities, inventories, limits and completion links; no new record analysis",
+  "status": "pass",
+  "world_transitions": 0
+}

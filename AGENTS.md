@@ -156,3 +156,28 @@ no hard RSS/time claim. No process creation, sampler/adapter/matcher/interpreter
 imports, keyed reevaluation, favorable-law selection, new sampling, world runs,
 environment/detector changes or E01. Behavioral outcomes remain null/not_executed
 and scientific status untested; preserve all consumed P01g/P01k/P01o outcomes.
+
+## Current next boundary after P01p review
+
+P01p registered all-table review and independent audit are complete. The pushed
+plan commit 8acdfcd preceded diagnosis. All 32 laws, 128 initial records and 170
+combinations passed independent state/ledger/topology/custody checks; all
+negative/absent groups remain. Thirteen invented tests passed normally and
+optimized, including 924 interval/five-region comparisons and all registered
+controls. There was one passing reviewer attempt and one passing independent
+audit, with no implementation/input repair. Review/audit inventories have
+538/534 entries; original P01o seal is unchanged. See docs/p01p_findings.md and
+docs/p01p_closure.json. One cleanup7 branch is permitted by abstraction in
+law 6011, reusing birth 1/recycle 7 with funding 2, and all four saved initial seed
+checks pass. Its conditional ledger restores P's matter but spends four
+activation, with both descendants removed; it is not observed reproduction.
+No cleanup6 branch passes these retained local checks; preserve the orphan
+versus refund distinction and all other table results. No keyed evaluation,
+world transition, candidate enumeration or process launch occurred in review.
+Next separately justify/register a bounded unfiltered dynamical mechanism
+assay using all 32 laws/all 128 saved environments without keyed reevaluation;
+fix evidence, controls, horizons, gates, budgets and failure policy before any
+implementation/execution. No favorable-table trajectory, generator repair,
+rerun of the consumed census, environment/detector change or E01 is admitted.
+Behavioral outcomes stay null/not_executed and scientific status untested;
+all P01g/P01k/P01o outcomes and inconclusives remain unchanged.
