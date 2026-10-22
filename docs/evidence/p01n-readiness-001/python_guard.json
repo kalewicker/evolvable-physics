@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/kalewicker/Documents/Playground/causal-alife/scripts/generator_v4_fields.py"
+  ],
+  "output_bytes": 25103603,
+  "output_ceiling_bytes": 268435456,
+  "returncode": 0,
+  "status": "complete",
+  "wall_ceiling_seconds": 60,
+  "wall_seconds": 0.9140407089143991
+}

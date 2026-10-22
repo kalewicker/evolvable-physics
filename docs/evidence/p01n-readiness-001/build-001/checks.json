@@ -1,0 +1,18 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts",
+      "-p",
+      "test_p01n_readiness.py",
+      "-v"
+    ],
+    "returncode": 1,
+    "wall_seconds": 0.6523282499983907,
+    "log": "check-0.log"
+  }
+]

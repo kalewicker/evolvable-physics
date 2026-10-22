@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
-  "date": "2026-10-20",
-  "stage": "P01n_registration_complete",
+  "date": "2026-10-22",
+  "stage": "P01n_literal_readiness_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,8 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "after registration commit/push, implement only separate literal-field Rust/Python v4 adapters, the fixed validator and new readiness tests at registered paths; keep all frozen source and Cargo files unchanged",
-    "run the identical 17727-request panel and 13 validator-only condition cases with full independent JSON/trace/accounting checks and fixed limits; retain every build/test/validation failure, repairing implementation only into a new output directory",
-    "no hash sampler implementation/evaluation, sampled panel, candidate/world execution, witnesses, repaired/selected historical laws, environment/detector changes or E01; scientific status stays untested"
+    "separately register bounded v4 keyed implementation and an unfiltered static census/equivalence panel; no keyed draw before committed execution closure and no world trajectories",
+    "preserve all consumed panels, original negative/inconclusive outcomes, frozen sources and receipts; no table repair/filtering/reroll, environment/detector changes or E01"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -236,7 +235,18 @@
   "p01n_findings": "docs/p01n_findings.md",
   "p01n_closure": "docs/p01n_closure.json",
   "p01n_static_review": "docs/evidence/p01n-registration-001/static_review.json",
-  "p01n_literal_validation_started": false,
-  "p01n_literal_readiness_gate_pass": null,
-  "generator_v4_literal_adapters_admitted_after_registration": true
+  "p01n_literal_validation_started": true,
+  "p01n_literal_readiness_gate_pass": true,
+  "generator_v4_literal_adapters_admitted_after_registration": true,
+  "generator_v4_literal_adapters_implemented": true,
+  "p01n_literal_validation_complete": true,
+  "p01n_readiness_admission": "docs/p01n_readiness_admission.json",
+  "p01n_readiness_counts": {
+    "assembly": 2916,
+    "invalid": 79,
+    "probe": 395,
+    "rule": 14337
+  },
+  "p01n_readiness_findings": "docs/p01n_readiness_findings.md",
+  "p01n_readiness_receipt": "docs/evidence/p01n-readiness-001/receipt_audit.json"
 }

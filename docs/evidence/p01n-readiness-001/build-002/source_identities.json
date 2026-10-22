@@ -1,0 +1,9 @@
+{
+  "src/bin/generator-v4-fields.rs": "bb3b71ddbf7b84cc26d74e3283bd620c3c529b202069723c4bb29e8d7158ef47",
+  "scripts/generator_v4_fields.py": "3fdcc244a9cc051450e33b3630c67a03935022557c8b4380328ba53620cdface",
+  "scripts/validate_p01n.py": "17484f4531ed4fc7ca3c796abc578b11f5203815d2af73777679eeedb60796ec",
+  "scripts/audit_p01n_readiness.py": "eed3ca0697cfab65b29e31f6907206ff5fba8af19e4a31a999c33a347c98f5ca",
+  "scripts/test_p01n_readiness.py": "0aa4ce244901985d9de14c7dad6a891001c4c823b3ada682c7f773bb88d2bf27",
+  "Cargo.toml": "959321e4dfbfd57a3ff3cb926c2f343e16ef9dec1d2819267e3ac595aa0b59b7",
+  "Cargo.lock": "74088da525565c8cfd07bfc0af06b188d01fe3e12402482fc6f156fcb19c0d85"
+}

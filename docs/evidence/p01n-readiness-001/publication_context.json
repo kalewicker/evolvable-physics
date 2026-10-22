@@ -1,0 +1,170 @@
+{
+  "copies": [
+    {
+      "original": "artifacts/p01n-readiness-001/assessment.json",
+      "public": "docs/evidence/p01n-readiness-001/assessment.json",
+      "sha256": "e21622ab4cc4870ba032755516c32fe9203fea0a9e0e141a060cc519cabaf302"
+    },
+    {
+      "original": "artifacts/p01n-readiness-001/identities.json",
+      "public": "docs/evidence/p01n-readiness-001/identities.json",
+      "sha256": "29377848dd55f76c5e450fcb811d9d3a72caaff5830a93ced1f76db3b4402bb4"
+    },
+    {
+      "original": "artifacts/p01n-readiness-001/checksums.json",
+      "public": "docs/evidence/p01n-readiness-001/checksums.json",
+      "sha256": "690194791a99780d3ae769d8eaec1010426dd5b0d0de3d01b1232b234930a6af"
+    },
+    {
+      "original": "artifacts/p01n-readiness-001/seal.json",
+      "public": "docs/evidence/p01n-readiness-001/seal.json",
+      "sha256": "dce7c137b5b9e0378a4f123e7b6628f6951cfcb8517e977fa6655139fc222d99"
+    },
+    {
+      "original": "artifacts/p01n-readiness-001/completion.json",
+      "public": "docs/evidence/p01n-readiness-001/completion.json",
+      "sha256": "46a27cd32db4f89a71aec11cc101fe8fd6b83daf9221a92f8e381d46497db54f"
+    },
+    {
+      "original": "artifacts/p01n-readiness-001/python_guard.json",
+      "public": "docs/evidence/p01n-readiness-001/python_guard.json",
+      "sha256": "253c20eeb3a028c46ad2e28f8378ff60cc77872e08e0f7fa61afb356c92f35d2"
+    },
+    {
+      "original": "artifacts/p01n-readiness-001/rust_guard.json",
+      "public": "docs/evidence/p01n-readiness-001/rust_guard.json",
+      "sha256": "4c63792ffc1f8844dcf0aafa6f5daa8476728a088319b1f0d86e33eaf7ad2497"
+    },
+    {
+      "original": "artifacts/p01n-readiness-001/local_conditions.json",
+      "public": "docs/evidence/p01n-readiness-001/local_conditions.json",
+      "sha256": "5c46dc283b4443d90e8f580fefebbac21fba8d89edf342b16a40de6f3929609f"
+    },
+    {
+      "original": "artifacts/p01n-readiness-driver-001/receipt_audit.json",
+      "public": "docs/evidence/p01n-readiness-001/receipt_audit.json",
+      "sha256": "41fc0c23f1823eb07141ef09462b60f9a0953a6d3eb94b7f9b3732e1c8df78e4"
+    },
+    {
+      "original": "artifacts/p01n-readiness-driver-001/completion.json",
+      "public": "docs/evidence/p01n-readiness-001/driver/completion.json",
+      "sha256": "3383bb73b578997ad04be678b1e02b2ecd6844962c7645e7a65fc1b72488f8a3"
+    },
+    {
+      "original": "artifacts/p01n-readiness-driver-001/driver.py",
+      "public": "docs/evidence/p01n-readiness-001/driver/driver.py",
+      "sha256": "3c4de25df7913a9767e6a8f5b975903240722db0e5e93b113c7ee9a3e991cf1e"
+    },
+    {
+      "original": "artifacts/p01n-readiness-driver-001/stage-0.log",
+      "public": "docs/evidence/p01n-readiness-001/driver/stage-0.log",
+      "sha256": "ea409ae8da37ac3f0c68e24b070040a351a9a7704dff362cad1367e46ec3f2bb"
+    },
+    {
+      "original": "artifacts/p01n-readiness-driver-001/stage-1.log",
+      "public": "docs/evidence/p01n-readiness-001/driver/stage-1.log",
+      "sha256": "bd22ac8de686ec7e17784423864bc1e6284fb854d8aad6aa2963b4e5714c664c"
+    },
+    {
+      "original": "artifacts/p01n-build-001/check-0.log",
+      "public": "docs/evidence/p01n-readiness-001/build-001/check-0.log",
+      "sha256": "3b44f3d8753d4f5d92f2fd1b82455d8e42cfad4cff614e0283dea1b845a417ea"
+    },
+    {
+      "original": "artifacts/p01n-build-001/checks.json",
+      "public": "docs/evidence/p01n-readiness-001/build-001/checks.json",
+      "sha256": "8df1ffd9ea13d420a5daa39c89dba3d35bb4136829121e7fe535f13c2b6d89a2"
+    },
+    {
+      "original": "artifacts/p01n-build-001/source_identities.json",
+      "public": "docs/evidence/p01n-readiness-001/build-001/source_identities.json",
+      "sha256": "0fc2fc6612e916b7d16ee265cc933b6ccbefbf7640302e191c85868392a447b3"
+    },
+    {
+      "original": "artifacts/p01n-build-002/check-0.log",
+      "public": "docs/evidence/p01n-readiness-001/build-002/check-0.log",
+      "sha256": "f7591fda6135eae590bea041c83dcedd0802e5cdb512fbc7f308166ed4dad88d"
+    },
+    {
+      "original": "artifacts/p01n-build-002/check-1.log",
+      "public": "docs/evidence/p01n-readiness-001/build-002/check-1.log",
+      "sha256": "b65cf5ac418b28a0de76b50a39816803f805f5c81dc8f35d7c102bed369bb1fe"
+    },
+    {
+      "original": "artifacts/p01n-build-002/check-2.log",
+      "public": "docs/evidence/p01n-readiness-001/build-002/check-2.log",
+      "sha256": "eeb4a4d6a5e667ac002e343d11f3b746af0b19fc8111fff848612cdf928d5b95"
+    },
+    {
+      "original": "artifacts/p01n-build-002/check-3.log",
+      "public": "docs/evidence/p01n-readiness-001/build-002/check-3.log",
+      "sha256": "78a2bdd9ad16225326b11d2d73683acea0e937192c10ec09c58df1a3a1bdf59b"
+    },
+    {
+      "original": "artifacts/p01n-build-002/check-4.log",
+      "public": "docs/evidence/p01n-readiness-001/build-002/check-4.log",
+      "sha256": "31350c4b0081baeedaeab119b8da50f48eecb082129ad756b5cffe07ec9e1564"
+    },
+    {
+      "original": "artifacts/p01n-build-002/checks.json",
+      "public": "docs/evidence/p01n-readiness-001/build-002/checks.json",
+      "sha256": "daef999e50c53c99bfc787ab2ca836c1e260d8d0fd6bda4896b8a7e1b9bda8da"
+    },
+    {
+      "original": "artifacts/p01n-build-002/source_identities.json",
+      "public": "docs/evidence/p01n-readiness-001/build-002/source_identities.json",
+      "sha256": "ad6cff583564dc6843d609cb57d628019723cf9dba9294a0f9d179fc4fe0cf27"
+    },
+    {
+      "original": "artifacts/p01n-build-003/check-0.log",
+      "public": "docs/evidence/p01n-readiness-001/build-003/check-0.log",
+      "sha256": "1e081994320248e8a87bf6fd95481261a12d7d3b2081c88ffe9375d141a142a6"
+    },
+    {
+      "original": "artifacts/p01n-build-003/check-1.log",
+      "public": "docs/evidence/p01n-readiness-001/build-003/check-1.log",
+      "sha256": "5e9ae0923e36efbea5b18f690b8d5bf8b3dd60c12126bfb8c238f75a35b76b7d"
+    },
+    {
+      "original": "artifacts/p01n-build-003/check-2.log",
+      "public": "docs/evidence/p01n-readiness-001/build-003/check-2.log",
+      "sha256": "a29af8d4771b459af10d96a47cbad6a24d243871dd0602817359022c10cbe907"
+    },
+    {
+      "original": "artifacts/p01n-build-003/check-3.log",
+      "public": "docs/evidence/p01n-readiness-001/build-003/check-3.log",
+      "sha256": "02db5a66fa0c60ca8618bd08aac556eac4f3ec863e8630a0d353dba6a0f6e126"
+    },
+    {
+      "original": "artifacts/p01n-build-003/check-4.log",
+      "public": "docs/evidence/p01n-readiness-001/build-003/check-4.log",
+      "sha256": "90c8a1a69c0155761cff4bfe0e61bbee007961d2b96729d2127c2e0c291489dd"
+    },
+    {
+      "original": "artifacts/p01n-build-003/checks.json",
+      "public": "docs/evidence/p01n-readiness-001/build-003/checks.json",
+      "sha256": "6012b00011f1cf77a48b9c4613a0c0a7bfa9a985203757ff86fb04eee3ba23a9"
+    },
+    {
+      "original": "artifacts/p01n-build-003/source_identities.json",
+      "public": "docs/evidence/p01n-readiness-001/build-003/source_identities.json",
+      "sha256": "8343b1b436438251b2846ebeaf071e65b51b2a994ecb34a2df7e43c45b085069"
+    }
+  ],
+  "date": "2026-10-22",
+  "external_files": {
+    "AGENTS.md": "f3a9714fc0ab9320ba6f5798a0d65f71cdb53f2b4450cead2254e90e1da8e892",
+    "README.md": "8f50b11ba4cc14fb88a510f99927eb08c2f6a383e94a3ad577916d5ae0c42888",
+    "docs/p01n_readiness_admission.json": "91b3e5fcefc86aafe156c5a267b80fdcf22737da75ce606985a77f40fd62626b",
+    "docs/p01n_readiness_findings.md": "c07fe69f01bf2ab3cc428abf936ad1af821ce4cb3aab4bc739af8ba73f8dbd31",
+    "docs/status.json": "445933e60eba43bdd9634d471eec73e0298eb110c2b949cbd3ce072ba07bfcb7",
+    "scripts/audit_p01n_readiness.py": "c38d9ac00fc7337442c2ae619594962f6a277191950c7d71a15983d1700f2f97",
+    "scripts/generator_v4_fields.py": "3fdcc244a9cc051450e33b3630c67a03935022557c8b4380328ba53620cdface",
+    "scripts/test_p01n_readiness.py": "0aa4ce244901985d9de14c7dad6a891001c4c823b3ada682c7f773bb88d2bf27",
+    "scripts/validate_p01n.py": "4958f373a16f5c290c07d676cd294e30a534d63363483417c3767068865b9b4c",
+    "src/bin/generator-v4-fields.rs": "bb3b71ddbf7b84cc26d74e3283bd620c3c529b202069723c4bb29e8d7158ef47"
+  },
+  "note": "Original 22-entry readiness inventory and seal unchanged. Completion, later custody audit, driver/build logs, closeout identity check and final documents are outside the original inventory. Complete JSONL, source snapshots and retained binary remain local. All three build histories including the failed test filter are retained. One full readiness attempt passed. No hash sampler or world execution.",
+  "registration_commit": "55dba7d1041754e87ed27b00977dffc8208cc7df",
+  "schema": "p01n-readiness-publication-context-v1"
+}

@@ -1,0 +1,9 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running unittests src/bin/generator-v4-fields.rs (target/debug/deps/generator_v4_fields-19215fd6248e458b)
+
+running 2 tests
+test tests::booleans_and_missing_fields_are_rejected ... ok
+test tests::literal_birth_uses_map_and_fixed_costs ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

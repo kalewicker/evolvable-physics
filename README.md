@@ -397,3 +397,19 @@ After this registration is committed/pushed, next implement only its separate
 Rust/Python literal adapters and fixed validator, preserving every attempt and
 all frozen sources. Actual sampler implementation or new experiments require
 separate registration and admission.
+
+## P01n v4 literal readiness complete
+
+The separate v4 literal adapters passed all **17,727 fixed requests**, exact
+Rust/Python JSON and ordered traces, and an independent operation/accounting
+oracle. All 597,448 field reads per adapter, 729 four-initial groups, 37 ignored
+field groups, 79 invalid rejections and 13 validator-only conditions passed.
+The read-only custody audit and build/regression checks passed; the initial
+test-filter failure is retained. See [findings](docs/p01n_readiness_findings.md)
+and [admission](docs/p01n_readiness_admission.json).
+
+This is authored literal construction only; scientific status remains untested.
+Next separately register v4 keyed implementation and an unfiltered static
+census before implementing or evaluating the actual sampler. No world runs or
+E01 are admitted. The original registration, frozen sources and prior results
+remain unchanged.

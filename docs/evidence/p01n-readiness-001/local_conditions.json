@@ -1,0 +1,223 @@
+[
+  {
+    "case_id": "condition-coherent_local_conditions",
+    "scope": "hypothetical_local_conditions",
+    "verdict": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-birth_absent",
+    "scope": "body_absence",
+    "verdict": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-funding_absent",
+    "scope": "body_absence",
+    "verdict": [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-recycle_absent",
+    "scope": "body_absence",
+    "verdict": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-child_donor_absent",
+    "scope": "body_absence",
+    "verdict": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-state_only_control",
+    "scope": "counterfactual_not_a_v4_effective_transfer",
+    "verdict": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-material_only_control",
+    "scope": "counterfactual_unaligned_state",
+    "verdict": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-creator_drift",
+    "scope": "later_state_condition",
+    "verdict": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-child_drift",
+    "scope": "later_state_condition",
+    "verdict": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-unfunded_newborn",
+    "scope": "resource_condition",
+    "verdict": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-nonleaf_after_descendant",
+    "scope": "topology_condition",
+    "verdict": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-creation_edge_missing",
+    "scope": "topology_condition",
+    "verdict": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "case_id": "condition-three_kind_full_role_cycle",
+    "scope": "abstract_profile_not_an_eight_slot_table",
+    "verdict": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  }
+]

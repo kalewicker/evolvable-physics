@@ -1,0 +1,36 @@
+{
+  "behavioral_outcomes": null,
+  "behavioral_status": "not_executed",
+  "build_test_attempts": 3,
+  "case_counts": {
+    "assembly": 2916,
+    "invalid": 79,
+    "probe": 395,
+    "rule": 14337
+  },
+  "date": "2026-10-22",
+  "e01_authorized": false,
+  "engineering_gate_pass": true,
+  "full_readiness_attempts": 1,
+  "hash_sampler_implemented": false,
+  "implementation_files": {
+    "scripts/audit_p01n_readiness.py": "c38d9ac00fc7337442c2ae619594962f6a277191950c7d71a15983d1700f2f97",
+    "scripts/generator_v4_fields.py": "3fdcc244a9cc051450e33b3630c67a03935022557c8b4380328ba53620cdface",
+    "scripts/test_p01n_readiness.py": "0aa4ce244901985d9de14c7dad6a891001c4c823b3ada682c7f773bb88d2bf27",
+    "scripts/validate_p01n.py": "4958f373a16f5c290c07d676cd294e30a534d63363483417c3767068865b9b4c",
+    "src/bin/generator-v4-fields.rs": "bb3b71ddbf7b84cc26d74e3283bd620c3c529b202069723c4bb29e8d7158ef47"
+  },
+  "law_sampling_admitted": false,
+  "literal_field_adapters_implemented": true,
+  "local_condition_cases": 13,
+  "next_scope": "separately register bounded v4 keyed implementation and an unfiltered static census/equivalence panel; no keyed draw before committed execution closure and no world trajectories",
+  "registration_commit": "55dba7d1041754e87ed27b00977dffc8208cc7df",
+  "registration_freeze_sha256": "8d865f4983f1b05d72d72de6834db89cc4d571ddc611bb24c3077a7bd410f5ff",
+  "repeat_policy": "implementation repairs only against the same frozen panel into a fresh directory; retain all attempts and never change inputs or criteria",
+  "rust_binary_sha256": "7d3815d52f2d83859b775acbcf7407ee1b451e331c985b09c69ccff07a264858",
+  "schema": "p01n-literal-readiness-admission-v1",
+  "scientific_status": "untested",
+  "scope": "authored literal fields only; no finite hash sampler or native reachability admission",
+  "successful_field_records_per_adapter": 597448,
+  "world_execution_admitted": false
+}

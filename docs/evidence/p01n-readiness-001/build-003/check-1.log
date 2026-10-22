@@ -1,0 +1,18 @@
+test_constructive_poison_fields_and_contact_preservation (test_p01n_readiness.Readiness.test_constructive_poison_fields_and_contact_preservation) ... ok
+test_every_literal_invalid_input_is_rejected (test_p01n_readiness.Readiness.test_every_literal_invalid_input_is_rejected) ... ok
+test_launch_failure_and_nonzero_exit_have_receipts (test_p01n_readiness.Readiness.test_launch_failure_and_nonzero_exit_have_receipts) ... ok
+test_local_conditions_are_validator_only (test_p01n_readiness.Readiness.test_local_conditions_are_validator_only) ... ok
+test_map_reuse_across_all_initial_ids (test_p01n_readiness.Readiness.test_map_reuse_across_all_initial_ids) ... ok
+test_misrouted_field_read_and_extra_output_are_rejected (test_p01n_readiness.Readiness.test_misrouted_field_read_and_extra_output_are_rejected) ... ok
+test_missing_case_is_not_silently_dropped (test_p01n_readiness.Readiness.test_missing_case_is_not_silently_dropped) ... ok
+test_no_launch_after_aggregate_deadline (test_p01n_readiness.Readiness.test_no_launch_after_aggregate_deadline) ... ok
+test_output_guard_retains_bounded_prefix_and_reaps_child (test_p01n_readiness.Readiness.test_output_guard_retains_bounded_prefix_and_reaps_child) ... ok
+test_panel_expansion_exact_and_unique (test_p01n_readiness.Readiness.test_panel_expansion_exact_and_unique) ... ok
+test_registered_input_audit_rejects_poison_and_order_changes (test_p01n_readiness.Readiness.test_registered_input_audit_rejects_poison_and_order_changes) ... ok
+test_shared_birth_cost_bug_cannot_pass_oracle (test_p01n_readiness.Readiness.test_shared_birth_cost_bug_cannot_pass_oracle) ... ok
+test_wall_guard_terminates_silent_child (test_p01n_readiness.Readiness.test_wall_guard_terminates_silent_child) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.523s
+
+OK

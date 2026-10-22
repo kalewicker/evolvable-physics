@@ -1,0 +1,6 @@
+{
+  "aggregate_wall_ceiling_seconds": 300,
+  "aggregate_wall_pass": true,
+  "seal_sha256": "dce7c137b5b9e0378a4f123e7b6628f6951cfcb8517e977fa6655139fc222d99",
+  "wall_seconds_including_sealing": 5.962923874147236
+}
