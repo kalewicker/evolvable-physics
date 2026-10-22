@@ -1,0 +1,41 @@
+{
+  "actual_keyed_source_executed": false,
+  "date": "2026-10-22",
+  "development_attempts": 2,
+  "e01_authorized": false,
+  "implementation_files": {
+    "scripts/audit_p01o.py": "03bf3cd890b0fe85e99fd60e1f12d03fbf4269a201a6b4d1532865c6ce1d147b",
+    "scripts/generator_v4.py": "60ae1ff8e2f0e862705446952558cc316bff050f81381773d0d5c454afa574ee",
+    "scripts/p01o_census.py": "065469063dadfbb7488023b7f44b4b2784bda2497e2bf209b933cb9b584c319f",
+    "scripts/p01o_contract.py": "2c8cc1de6d4cf9c1c1d9bcdf888107c4be419cc1d6a257b24f79dc98dce3f4a0",
+    "scripts/p01o_static.py": "f7356e9cd45fdcd78b1c716768fb777d73751aa4c7b64e43a2900fa4919b0a4e",
+    "scripts/test_p01o_implementation.py": "924cd903ace76a85480b54738fa9601cf5579ed9935bbfa2e74bed2e00b4401d",
+    "scripts/validate_p01o_implementation.py": "81ac0c970c82b871a9696c6a5f2d798d0d5887c858f22a784cbe969d6c35e566",
+    "src/bin/generator-v4.rs": "22d5169ab20ae6f053f140f156711d6717fe50ce4ec9da6335c85bb14ea4920a"
+  },
+  "literal_counts": {
+    "assembly": 2916,
+    "invalid": 79,
+    "probe": 395,
+    "rule": 14337
+  },
+  "literal_mock_gate_pass": true,
+  "live_sampled_rss_integration_executed": false,
+  "mock_draw_records_per_implementation": 347004,
+  "next_scope": "verify/freeze full source/dependency/tool/binary/input closure and exact fresh output admission; commit/push before any v4 keyed call, then only the one fixed P01o static census",
+  "receipts": {
+    "artifacts/p01o-implementation-002/assessment.json": "ffcdf382fc0f3c0a350d74783b3e953535300ae095e35e59298f9670ad6fc723",
+    "artifacts/p01o-implementation-002/checksums.json": "a5feab0c2bca0ee85475d970e47236743fcb18f6db72c90b6eeb6c9359c70571",
+    "artifacts/p01o-implementation-002/completion.json": "44c3fceaa376432240928f2a9b0de155457677e3499f951275326206433687dd",
+    "artifacts/p01o-implementation-integrity-001/receipt.json": "e816c110a8594b5503bab71bab7677a01f6e655760635a5303810a94f7774080"
+  },
+  "recorded_mock_assemblies": 2916,
+  "registration_commit": "45ff81d9d2d0c8ccd7eea5e51f263abdc00cb6ad",
+  "registration_freeze_sha256": "5cf81d427179494d94ffb06d43cf5d93e1720489ea5f6571123acabfecab1fc5",
+  "rust_binary_sha256": "266d63798a1f22ca3d21592de923f5ab5850f904dc5dc685448600cf7934c755",
+  "samplers_runner_report_auditor_implemented": true,
+  "sampling_admitted": false,
+  "schema": "p01o-literal-implementation-readiness-v1",
+  "scientific_status": "untested",
+  "world_execution_admitted": false
+}

@@ -1773,6 +1773,98 @@
     {
       "file": "docs/evidence/p01o-registration-001/tests-optimized.log",
       "sha256": "38e17fac5f449cda52bfa7429d94a23b26a989e3feb689302cba632739294cd3"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/assessment.json",
+      "sha256": "ffcdf382fc0f3c0a350d74783b3e953535300ae095e35e59298f9670ad6fc723"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/attempt-001/assessment.json",
+      "sha256": "7d2d2a7aadce1dbf2d17fe6ee4f232a2edb6530fea7851059b9b6b029ad31aa2"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/attempt-001/checksums.json",
+      "sha256": "4ddf4d2471597acfb57b2f7b06d9814e2cea637f07b8e338cf664ae1d753a3fd"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/attempt-001/completion.json",
+      "sha256": "9257c15d3038cd3e5574225903ff6569b540fe1b2091b672ff7e86ed163cb858"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-001/check-0.log",
+      "sha256": "28fb0f6d46f6245a8dfe7dfaf0c36cf4a1ba27ae76f85675f14e8e38061d4913"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-001/check-1.log",
+      "sha256": "b6ebea4b563d5e9d514d8be4a430ae51698d2f2020cc450b377229688c7e21fe"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-001/check-2.log",
+      "sha256": "9132a7e2d3fae8639c287ee97e0d92f21a6418095e52b27d6416ddbc3a880791"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-001/check-3.log",
+      "sha256": "433c2baac8d4363e47fe83699ccad7e35c3c2f62b4419f3d749238f39b1a81f6"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-001/check-4.log",
+      "sha256": "2e9e2df84823082480361cb53a4818c5ce70e74ca987113f9efbc612b6b39576"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-001/checks.json",
+      "sha256": "1d4128278c08cd51797601f1c0a521489dd902f70d4fb5a93505e61354dbbd26"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-001/identities.json",
+      "sha256": "1cfdc2c66afd072c4e0a778b62fc588de508db0f09affae082a2dfbb62349a09"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-002/check-0.log",
+      "sha256": "7f859e5f0d9e3ee5424cc380d0393521b2772932c1b14a057e86e64987ee9eb7"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-002/check-1.log",
+      "sha256": "4e0521ced667aaef1150cccf9b35ce59e6b78cbe05c22c09f46cd7989a10aa8c"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-002/check-2.log",
+      "sha256": "ae71c74ca62b7f89627d3eeccc3580ecd02b258755bc3d746d662c792491fc1f"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-002/check-3.log",
+      "sha256": "59639588a6f1826f129cbcd121edc07279dab94786f5fa5bde6b3439b2e845cc"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-002/check-4.log",
+      "sha256": "92434e198f27984c035c376ec77a7cf9e6ebdde782f8ccb1336ae3329b66ddb7"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-002/checks.json",
+      "sha256": "8c72a8cd54bb44b662f954c614f30cc1e429baa283024433659ec7881240fdc0"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/build-002/identities.json",
+      "sha256": "37c367b44e3e9bbaf2f67663627abef49b4908bc943c992e15311355efc8fe1f"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/checksums.json",
+      "sha256": "a5feab0c2bca0ee85475d970e47236743fcb18f6db72c90b6eeb6c9359c70571"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/completion.json",
+      "sha256": "44c3fceaa376432240928f2a9b0de155457677e3499f951275326206433687dd"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/integrity_audit.json",
+      "sha256": "e816c110a8594b5503bab71bab7677a01f6e655760635a5303810a94f7774080"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/integrity_audit_source.py",
+      "sha256": "78e0979a199df41db09096e2519d9fd8469077adb3d703e9171f4c39a34e8287"
+    },
+    {
+      "file": "docs/evidence/p01o-implementation-001/publication_context.json",
+      "sha256": "1c51966b0e523223cefd58537c6e3a576eb9d67fad64812d9d9767147745300c"
     }
   ]
 }

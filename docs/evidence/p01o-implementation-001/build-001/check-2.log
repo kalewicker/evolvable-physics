@@ -1,0 +1,12 @@
+   Compiling causal-alife v0.1.0 (/Users/kalewicker/Documents/Playground/causal-alife)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.00s
+     Running unittests src/bin/generator-v4.rs (target/debug/deps/generator_v4-19d75d448ba57902)
+
+running 4 tests
+test tests::absent_admission_rejects_before_source_use ... ok
+test tests::booleans_and_missing_fields_are_rejected ... ok
+test tests::primitive_vectors_are_unhashed ... ok
+test tests::literal_birth_uses_map_and_fixed_costs ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

@@ -1,0 +1,34 @@
+{
+  "adapter_executions": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "checksums_sha256": "4ddf4d2471597acfb57b2f7b06d9814e2cea637f07b8e338cf664ae1d753a3fd",
+      "current_sources_verified": false,
+      "inventory_entries": 29,
+      "records": {
+        "literal": 17727,
+        "recorded": 2916
+      },
+      "status": "pass"
+    },
+    {
+      "attempt": 2,
+      "checksums_sha256": "a5feab0c2bca0ee85475d970e47236743fcb18f6db72c90b6eeb6c9359c70571",
+      "current_sources_verified": true,
+      "inventory_entries": 29,
+      "records": {
+        "literal": 17727,
+        "recorded": 2916
+      },
+      "status": "pass"
+    }
+  ],
+  "keyed_hash_evaluations": 0,
+  "prior_public_receipts_verified": 443,
+  "schema": "p01o-implementation-integrity-audit-v1",
+  "scientific_status": "untested",
+  "scope": "read-only byte custody, independent registered-input coordinates, differential streams and ceilings; operation/static oracle remains implementation preflight",
+  "status": "pass",
+  "world_transitions": 0
+}

@@ -1,0 +1,6 @@
+{
+  "aggregate_wall_ceiling_seconds": 300,
+  "checksums_sha256": "4ddf4d2471597acfb57b2f7b06d9814e2cea637f07b8e338cf664ae1d753a3fd",
+  "schema": "p01o-implementation-preflight-completion-v1",
+  "wall_seconds_including_inventory": 15.150869249366224
+}

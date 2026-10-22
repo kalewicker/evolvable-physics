@@ -427,3 +427,18 @@ with Python optimization; 235 frozen files and 438 prior receipts matched.
 No keyed sampler was implemented or run. Next implement the new paths using
 literal/mock tests, then commit/push a separate execution freeze before any
 keyed evaluation. Scientific status remains untested.
+
+## P01o sampler implementation readiness complete
+
+Separate v4 samplers, census runner, static report and auditors now pass
+literal/mock readiness: all 17,727 frozen responses and 2,916 recorded mock
+assemblies matched, with independent operation/static checks. Ten Python and
+four Rust tests, Clippy, release build and read-only integrity checks passed.
+Both development attempts are retained. See
+[findings](docs/p01o_implementation_findings.md) and
+[readiness](docs/p01o_implementation_readiness.json).
+
+No v4 keyed draw or sampled census has run. Next prepare and commit/push the
+full execution closure and exact-output admission before the single registered
+static attempt. Scientific status remains untested; no world runs or E01 are
+admitted.

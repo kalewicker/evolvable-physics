@@ -1,0 +1,15 @@
+test_absent_admission_rejects_before_keyed_source (test_p01o_implementation.Implementation.test_absent_admission_rejects_before_keyed_source) ... ok
+test_all_128_mock_cells_pipeline_and_independent_census (test_p01o_implementation.Implementation.test_all_128_mock_cells_pipeline_and_independent_census) ... ok
+test_child_as_donor_and_type_closure_are_not_guaranteed (test_p01o_implementation.Implementation.test_child_as_donor_and_type_closure_are_not_guaranteed) ... ok
+test_injected_draws_and_independent_output_reconstruction (test_p01o_implementation.Implementation.test_injected_draws_and_independent_output_reconstruction) ... ok
+test_joint_donor_state_is_stronger_than_pairwise_intersections (test_p01o_implementation.Implementation.test_joint_donor_state_is_stronger_than_pairwise_intersections) ... ok
+test_primitive_vectors_are_strings_and_arithmetic_only (test_p01o_implementation.Implementation.test_primitive_vectors_are_strings_and_arithmetic_only) ... ok
+test_reservations_and_stream_caps (test_p01o_implementation.Implementation.test_reservations_and_stream_caps) ... ok
+test_stage_failure_does_not_launch_later_cells (test_p01o_implementation.Implementation.test_stage_failure_does_not_launch_later_cells) ... ok
+test_wrong_preimage_modulo_or_operation_rejected (test_p01o_implementation.Implementation.test_wrong_preimage_modulo_or_operation_rejected) ... ok
+test_zero_raw_matter_is_overridden_but_missing_funding_is_not (test_p01o_implementation.Implementation.test_zero_raw_matter_is_overridden_but_missing_funding_is_not) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.820s
+
+OK

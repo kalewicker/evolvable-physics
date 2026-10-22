@@ -66,3 +66,23 @@ sampled static attempt. Preserve all 32 laws/128 cells, negatives, duplicates,
 failures and missingness. No sampled retry/resumption/extension, repair/filter,
 favorable-law selection, world transitions, environment/detector changes or
 E01. P01g/P01k outcomes remain unchanged; scientific status stays untested.
+
+## Current next boundary after P01o implementation readiness
+
+The separate v4 samplers, runner, static report and independent auditor are
+implemented. All 17,727 frozen literal responses and 2,916 recorded mock
+assemblies passed full differential/operation/static checks; 347,004 fake-prefix
+draw records per implementation were verified. Ten Python tests (normal and
+optimized), four Rust tests, Clippy and release build passed. Preserve both
+passing development attempts: final audit strictness/negative cases were added
+between them, with identical inputs and binary. All 235 frozen identities and
+443 preceding public receipts matched. See docs/p01o_implementation_findings.md
+and docs/p01o_implementation_readiness.json. No keyed source, sampled census,
+live sampled-RSS integration or world execution ran. Next verify/freeze full
+sources, dependencies, tools, binaries and inputs and bind one exact fresh
+output directory in a separate admission; commit/push before any v4 keyed call.
+Keep the fixed 32-law/128-cell panel, budgets, stop/no-retry policy, complete
+missingness and all historical negatives/inconclusives intact. No table repair,
+filter/reroll, favorable-law selection, world transitions, environment/detector
+changes or E01. Static authored coherence and mock equality do not establish
+sampled equivalence or chemistry; scientific status remains untested.

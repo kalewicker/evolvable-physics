@@ -1,0 +1,72 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts",
+      "-p",
+      "test_p01o_implementation.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check-0.log",
+    "wall_seconds": 0.8811322916299105
+  },
+  {
+    "command": [
+      "python3",
+      "-O",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts",
+      "-p",
+      "test_p01o_implementation.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check-1.log",
+    "wall_seconds": 1.143337208777666
+  },
+  {
+    "command": [
+      "cargo",
+      "test",
+      "--bin",
+      "generator-v4"
+    ],
+    "returncode": 0,
+    "log": "check-2.log",
+    "wall_seconds": 1.312725250609219
+  },
+  {
+    "command": [
+      "cargo",
+      "clippy",
+      "--bin",
+      "generator-v4",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "returncode": 0,
+    "log": "check-3.log",
+    "wall_seconds": 0.2832664158195257
+  },
+  {
+    "command": [
+      "cargo",
+      "build",
+      "--release",
+      "--bin",
+      "generator-v4"
+    ],
+    "returncode": 0,
+    "log": "check-4.log",
+    "wall_seconds": 1.718844374641776
+  }
+]

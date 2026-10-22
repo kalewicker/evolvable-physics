@@ -1,0 +1,12 @@
+{
+  "src/bin/generator-v4.rs": "22d5169ab20ae6f053f140f156711d6717fe50ce4ec9da6335c85bb14ea4920a",
+  "scripts/p01o_contract.py": "2c8cc1de6d4cf9c1c1d9bcdf888107c4be419cc1d6a257b24f79dc98dce3f4a0",
+  "scripts/audit_p01o.py": "da5b5c3bb5d4c409df883d27b38905f08e9874421789e097a0871ebee9c4fdda",
+  "scripts/check_p01o_registration.py": "32567365f98ec82b82c17ac2e4a287a39bd7131c889f40271a3ae8418b1b3167",
+  "scripts/test_p01o_registration.py": "aff164bc0e33eaf97915899b7660dd41babf41fc1393dce7974738e382e5854d",
+  "scripts/test_p01o_implementation.py": "fc4a4e2c87e82faae7d86ddc2db876259e5a1c9eb455b8c0bffb5dda7b5c94e1",
+  "scripts/p01o_census.py": "065469063dadfbb7488023b7f44b4b2784bda2497e2bf209b933cb9b584c319f",
+  "scripts/p01o_static.py": "f7356e9cd45fdcd78b1c716768fb777d73751aa4c7b64e43a2900fa4919b0a4e",
+  "scripts/validate_p01o_implementation.py": "81ac0c970c82b871a9696c6a5f2d798d0d5887c858f22a784cbe969d6c35e566",
+  "scripts/generator_v4.py": "60ae1ff8e2f0e862705446952558cc316bff050f81381773d0d5c454afa574ee"
+}
