@@ -1,0 +1,7 @@
+{
+  "scripts/check_p01o_registration.py": "32567365f98ec82b82c17ac2e4a287a39bd7131c889f40271a3ae8418b1b3167",
+  "scripts/test_p01o_registration.py": "aff164bc0e33eaf97915899b7660dd41babf41fc1393dce7974738e382e5854d",
+  "docs/p01o_protocol.json": "ab001093f6f38e73571e485ef8c32e4103106c4801ef823a5c4c64c6a7926064",
+  "docs/p01o_primitive_vectors.json": "6d021a3d778efefc92dde76044afcd835ea5082c8ee9f7f0cd3bac1cf33fa64d",
+  "docs/p01o_registration.md": "799ae16dd2985339a4c2a2ecc08e6939f70fd56ed3cd1442d5185c95e2d961fe"
+}

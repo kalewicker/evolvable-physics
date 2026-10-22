@@ -1753,6 +1753,26 @@
     {
       "file": "docs/evidence/p01n-readiness-001/seal.json",
       "sha256": "dce7c137b5b9e0378a4f123e7b6628f6951cfcb8517e977fa6655139fc222d99"
+    },
+    {
+      "file": "docs/evidence/p01o-registration-001/publication_context.json",
+      "sha256": "ec4c6972f0b104cf7aa7e812b43f6b1cb6364d6f3d28a487f423dfaf0502e766"
+    },
+    {
+      "file": "docs/evidence/p01o-registration-001/static_review.json",
+      "sha256": "4064d066e8e04e82e1fcceda121f44f5f13f38c615ef2d7cd8e24a40e0a773d1"
+    },
+    {
+      "file": "docs/evidence/p01o-registration-001/test-source-identities.json",
+      "sha256": "76ff8675d2ba6fc5e3ee57ccee03828ffb3d657cf8c1b896e451e0b96e6720b3"
+    },
+    {
+      "file": "docs/evidence/p01o-registration-001/tests-normal.log",
+      "sha256": "38e17fac5f449cda52bfa7429d94a23b26a989e3feb689302cba632739294cd3"
+    },
+    {
+      "file": "docs/evidence/p01o-registration-001/tests-optimized.log",
+      "sha256": "38e17fac5f449cda52bfa7429d94a23b26a989e3feb689302cba632739294cd3"
     }
   ]
 }

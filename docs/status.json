@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-22",
-  "stage": "P01n_literal_readiness_complete",
+  "stage": "P01o_registration_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,8 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "separately register bounded v4 keyed implementation and an unfiltered static census/equivalence panel; no keyed draw before committed execution closure and no world trajectories",
-    "preserve all consumed panels, original negative/inconclusive outcomes, frozen sources and receipts; no table repair/filtering/reroll, environment/detector changes or E01"
+    "after P01o registration commit/push, implement only the new v4 sampler/runner/static-report/auditor paths and new literal/mock tests; keep all 235 frozen sources and Cargo files unchanged",
+    "before any v4 namespace-keyed hash call, including tests or audit helpers, prepare and separately commit/push full execution closure and exact-output admission for the one registered 128-cell zero-epoch census",
+    "retain all cells, duplicates, negatives and missingness; no sampled retry, repair, filter, favorable-law selection, world execution, environment/detector changes or E01"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -248,5 +249,12 @@
     "rule": 14337
   },
   "p01n_readiness_findings": "docs/p01n_readiness_findings.md",
-  "p01n_readiness_receipt": "docs/evidence/p01n-readiness-001/receipt_audit.json"
+  "p01n_readiness_receipt": "docs/evidence/p01n-readiness-001/receipt_audit.json",
+  "p01o_registration_complete": true,
+  "p01o_protocol": "docs/p01o_protocol.json",
+  "p01o_registration_freeze": "docs/p01o_registration_freeze.json",
+  "p01o_findings": "docs/p01o_findings.md",
+  "p01o_static_review": "docs/evidence/p01o-registration-001/static_review.json",
+  "generator_v4_sampler_implementation_admitted_after_registration_commit": true,
+  "p01o_sampling_started": false
 }

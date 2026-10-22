@@ -1,0 +1,225 @@
+{
+  "schema": "p01o-v4-static-census-registration-v1",
+  "registered_date": "2026-10-22",
+  "question": "Does the specified v4 keyed sampler agree across independent implementations, and which necessary constructive bodies and type/state/material paths occur in a fixed unfiltered panel?",
+  "scope": "sampler implementation registration and future static census only; no world execution",
+  "generator": "p01-generator-v4",
+  "generator_contract": "docs/generator_v4_design.json",
+  "prerequisite": "docs/p01n_readiness_admission.json",
+  "proposal_ids": [
+    6000,
+    6001,
+    6002,
+    6003,
+    6004,
+    6005,
+    6006,
+    6007,
+    6008,
+    6009,
+    6010,
+    6011,
+    6012,
+    6013,
+    6014,
+    6015,
+    6016,
+    6017,
+    6018,
+    6019,
+    6020,
+    6021,
+    6022,
+    6023,
+    6024,
+    6025,
+    6026,
+    6027,
+    6028,
+    6029,
+    6030,
+    6031
+  ],
+  "initial_state_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "law_denominator": 32,
+  "environment_denominator": 128,
+  "epochs": 0,
+  "expansion": "proposal-major, initial-minor; retain every cell, duplicate table and negative; no filtering, repair, rejection, replacement, retry or favorable-law escalation",
+  "panel_rationale": "32 consecutive uninspected law IDs provide a bounded descriptive static census; four initial states check key separation, not four independent laws; not powered for prevalence or a behavioral success claim",
+  "draw_contract": {
+    "serialization": "UTF-8 compact JSON array [namespace,proposal,initial,field,index]; no ASCII escaping; exact integer decimal values",
+    "digest": "SHA-256; first 16 hexadecimal digits interpreted as unsigned big-endian u64, then modulo range; preserve modulo bias",
+    "map": {
+      "field": "child_kind_by_donor",
+      "initial": 0,
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "modulus": 3,
+      "offset": 1
+    },
+    "rule_domains": {
+      "form": 8,
+      "kind0": 3,
+      "kind1": 3,
+      "new_kind": 3,
+      "state0": 4,
+      "state1": 4,
+      "value": 3,
+      "sign": 2,
+      "amount": 2,
+      "matter": 2,
+      "route": 2
+    },
+    "rule_initial": 0,
+    "rule_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "initial_domains": {
+      "node_kind": 3,
+      "node_state": 3,
+      "structural": 2,
+      "scheduler": 18446744073709551615
+    },
+    "initial_indices": "node_kind/node_state/structural: 0..7; scheduler: index 0; initial=requested initial state ID",
+    "field_policy": "evaluate and log all 11 raw fields per slot even overridden/unused; each map read exactly three times per cell; no fallback, repair or caching of evaluated digests",
+    "logical_field_records_per_cell": 119,
+    "logical_field_records_per_implementation": 15232,
+    "unique_message_addresses": 6208,
+    "record": "every logical draw retains namespace/proposal/initial/field/index/modulus, exact preimage UTF-8, full digest hex, prefix u64 and reduced raw integer",
+    "independent_check": "Rust and Python implement serialization/hash/reduction independently; the later record auditor independently rebuilds exact messages and SHA/reduction for every recorded draw and reconstructs complete outputs from raw fields",
+    "state_map": {
+      "field": "role_state_by_kind",
+      "initial": 0,
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "modulus": 3,
+      "offset": 0
+    },
+    "read_order": [
+      "type map indices 0..2 at initial=0",
+      "state map indices 0..2 at initial=0",
+      "rule slots 0..7, then rule_domains insertion order, at initial=0",
+      "nodes 0..7, interleaved node_kind then node_state, at requested initial",
+      "structural indices 0..7 at requested initial",
+      "scheduler index 0 at requested initial"
+    ]
+  },
+  "serialization_vectors": "docs/p01o_primitive_vectors.json",
+  "future_paths": {
+    "rust_sampler": "src/bin/generator-v4.rs",
+    "python_sampler": "scripts/generator_v4.py",
+    "runner": "scripts/p01o_census.py",
+    "static_report": "scripts/p01o_static.py",
+    "auditor": "scripts/audit_p01o.py"
+  },
+  "observables": {
+    "law_identity": "SHA-256 of canonical ordered eight-rule list after removing only id fields; preserve duplicate bodies, slot order and all 32 proposal cells; report distinct table count separately",
+    "initial_environment": "complete exact JSON including both maps, all ordered draw records, eight rules, initial world, seed, resource accounting and limits; complete law and both-map identity across four initial IDs",
+    "template_census": "all eight slots by form and Transfer route; retain body IDs and absent templates",
+    "birth_funding_pairs": "same-table birth and Structural Transfer body pairs with ordered kind equality, donor-state intersection, child birth-state acceptance, transfer matter/activation; report each predicate independently",
+    "birth_recycle_pairs": "same-table birth/recycle body pairs with ordered kind equality, donor-state intersection and child birth-state acceptance; not actual deletion or leaf applicability",
+    "child_donor_pairs": "same-table birth/next-birth body pairs with first child kind versus next donor kind, child birth-state acceptance and explicit newborn resources (1,1) versus birth requirement (3,2)",
+    "joined_motifs": "join birth/funding/recycle/next-birth body IDs on the same birth within one table; report type-only, joint immediate-state-aligned and matter-bearing predicates separately; intersect all donor-state constraints simultaneously; no pooling across laws or initial states",
+    "type_paths": "for each birth donor kind follow f through the set of present birth donor kinds until missing donor or repeated kind; graph closure only, not a resource-feasible lifecycle",
+    "initial_histograms": "eight-node kind/state histograms and fixed resource/Contact/Structural inventories per initial cell; no pattern bindings or applicable-candidate enumeration",
+    "state_limits": "report unary state-write bodies and exact constructive role states; designed state coherence does not establish initial access or persistence; state drift, topology, resources and scheduling remain untested",
+    "behavioral_outcomes": "births/recycling/descendants/AP/maintenance/reproduction/heredity/adaptation are null with reason not_executed; static zero counts never become behavioral zeros"
+  },
+  "static_predicate_contract": {
+    "ordered_kinds": "birth donor P and created C must equal pair-pattern kinds [P,C] in that order",
+    "donor_state_intersection": "birth donor state and pair donor state agree or either is wildcard; no donor-state write in birth bundle",
+    "child_birth_state_acceptance": "target/donor predicate is wildcard or equals the creating birth value",
+    "material_funding": "Structural Transfer matter > 0, separately from types/states",
+    "interpretation": "all are local schema predicates; no guarantee of state reachability, affordability, leaf topology, scheduling, detector visibility or repeated events",
+    "joint_donor_states": "intersect birth, funding and recycle donor predicates in one common state set; pairwise compatibility with a wildcard birth is insufficient",
+    "v4_correlation_check": "for correctly reconstructed v4 tables, any type-compatible joined motif has matching exact constructive states and positive Structural matter; check as an engineering invariant, not an independent scientific discovery or chemistry gate"
+  },
+  "per_process": {
+    "rust_generation": {
+      "wall_seconds": 5,
+      "sampled_rss_bytes": 134217728,
+      "output_bytes": 1048576
+    },
+    "python_generation": {
+      "wall_seconds": 5,
+      "sampled_rss_bytes": 134217728,
+      "output_bytes": 1048576
+    },
+    "static_report": {
+      "wall_seconds": 30,
+      "sampled_rss_bytes": 536870912,
+      "output_bytes": 8388608
+    },
+    "independent_audit": {
+      "wall_seconds": 30,
+      "sampled_rss_bytes": 536870912,
+      "output_bytes": 8388608
+    }
+  },
+  "campaign": {
+    "wall_seconds": 300,
+    "total_process_cpu_seconds": 120,
+    "artifact_bytes": 1073741824,
+    "metadata_reserve_bytes": 16777216,
+    "poll_seconds": 0.01,
+    "stage_order": "for each of 128 fixed cells: Rust generation then Python generation; after all cells: static_report then independent_audit",
+    "launch_policy": "reserve full stage wall allowance, twice that allowance in aggregate CPU, declared stage output and metadata reserve before launch; stop at first unavailable reservation",
+    "failure_policy": "stop at first failed/mismatching/capped stage, preserve current prefix and all 128 planned cells including unstarted; no resumed/repeated sampled attempt",
+    "accounting": "include both generators, parent checks, static report, independent audit, guards, snapshots, inventories, seals and failure receipts; compilation/mock tests precede the campaign clock",
+    "rss_policy": "sampled enforcement plus reaped peak check; not a hard instantaneous bound",
+    "output_policy": "all per-stage output ceilings combine stdout and stderr; artifact ceiling also includes failed/partial streams, snapshots and metadata"
+  },
+  "engineering_gate": [
+    "all 128 fixed environments independently verified, all draw records correct and Rust/Python full output equality; no missing, failed, censored or replaced cells",
+    "each proposal has identical laws and both maps across four initial IDs; all ordered draw records, raw/overridden fields, eight forms, operation order/costs, resources, counters, profiles and limits match the frozen v4 literal contract",
+    "complete per-table/cell census retains negatives, duplicates and unresolved state/resource constraints; static predicates independently checked and never reported as dynamics",
+    "all source/dependency/tool/binary/input identities, per-stage and aggregate ceilings, costs, inventory and seals pass"
+  ],
+  "chemistry_continuation_gate": null,
+  "decision": {
+    "engineering_fail_or_incomplete": "stop, retain all outcomes and diagnose read-only; no retry, completion of missing cells, replacement, budget extension or new favorable panel under this registration",
+    "engineering_pass": "static correctness/census only; publish all route counts including zeros; require a separately justified registered decision before any trajectory experiment",
+    "no_selection": "no motif-count success threshold, type-path admission filter, reroll to improve counts, or selection of favorable laws for longer evolution",
+    "negative_scope": "absence of body/type paths is descriptive for this fixed panel; static positives do not establish affordability, leaf topology or repeated events. Exact-table dynamic exclusions require their own conditional source argument; existing P01g negative gate and P01k outcomes unchanged"
+  },
+  "requirements_before_sampling": [
+    "commit/push this registration, primitive vectors and static review before sampler implementation",
+    "implement only at new paths; keep all frozen adapters, Cargo files, historical generators, gates and receipts unchanged",
+    "before execution freeze, test only unhashed serialization, literal digest-prefix arithmetic, injected mock fields, synthetic report descriptors and guard bookkeeping; no v4 namespace-keyed hash call on any proposal, including tests and independent audit helpers",
+    "freeze complete sources, dependencies, tools, binaries, registrations and inputs; admission binds exact output path and 128-slot manifest policy, and must be committed/pushed before first keyed hash call",
+    "one future sampled static attempt in a fresh directory; capability preflight may probe process/RSS accounting without sampler calls before attempt creation; once started, write all 128 planned cells before any sampler or independent hash-audit call; no candidate enumeration, transition interpreter, native worker or detector"
+  ],
+  "implementation_admitted_after_registration_commit": true,
+  "sampler_implemented_now": false,
+  "sampling_admitted_now": false,
+  "world_execution_admitted": false,
+  "e01_authorized": false,
+  "scientific_status": "untested",
+  "effective_rule_contract": {
+    "source": "docs/generator_v4_design.json",
+    "literal_prerequisite": "docs/p01n_readiness_admission.json",
+    "constructive": "birth donor state s(P), child kind f(P), newborn state s(f(P)); Structural funding and recycle patterns [P,f(P)] with exact states [s(P),s(f(P))]; Structural funding matter=1",
+    "unchanged": "other forms including Contact transfer retain raw v3 semantics; Structural transfer activation remains amount+1; all operation order, costs, eight slots, initial resources/topology, caps and detector thresholds unchanged",
+    "raw_policy": "all eleven fields required, drawn and recorded even when overridden; no insertion, conditioning, wildcard repair, resampling or selection"
+  },
+  "comparison_policy": "new namespace changes every keyed field and initial world; this panel is not paired with P01k, not an estimate of v4 superiority, and not a controlled ablation of state versus matter changes",
+  "registration_only_now": true
+}

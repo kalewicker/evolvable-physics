@@ -1,0 +1,98 @@
+{
+  "schema": "p01o-unhashed-primitive-vectors-v1",
+  "serialization": [
+    {
+      "arguments": [
+        "p01-generator-v4",
+        6000,
+        0,
+        "child_kind_by_donor",
+        0
+      ],
+      "utf8": "[\"p01-generator-v4\",6000,0,\"child_kind_by_donor\",0]"
+    },
+    {
+      "arguments": [
+        "p01-generator-v4",
+        6000,
+        0,
+        "role_state_by_kind",
+        2
+      ],
+      "utf8": "[\"p01-generator-v4\",6000,0,\"role_state_by_kind\",2]"
+    },
+    {
+      "arguments": [
+        "p01-generator-v4",
+        6000,
+        0,
+        "route",
+        7
+      ],
+      "utf8": "[\"p01-generator-v4\",6000,0,\"route\",7]"
+    },
+    {
+      "arguments": [
+        "p01-generator-v4",
+        6000,
+        3,
+        "node_state",
+        7
+      ],
+      "utf8": "[\"p01-generator-v4\",6000,3,\"node_state\",7]"
+    },
+    {
+      "arguments": [
+        "p01-generator-v4",
+        6031,
+        3,
+        "scheduler",
+        0
+      ],
+      "utf8": "[\"p01-generator-v4\",6031,3,\"scheduler\",0]"
+    },
+    {
+      "arguments": [
+        "p01-generator-v4",
+        18446744073709551615,
+        3,
+        "scheduler",
+        0
+      ],
+      "utf8": "[\"p01-generator-v4\",18446744073709551615,3,\"scheduler\",0]"
+    }
+  ],
+  "prefix_reduction": [
+    {
+      "prefix_hex": "0000000000000000",
+      "modulus": 3,
+      "raw": 0
+    },
+    {
+      "prefix_hex": "0000000000000001",
+      "modulus": 3,
+      "raw": 1
+    },
+    {
+      "prefix_hex": "0100000000000000",
+      "modulus": 8,
+      "raw": 0
+    },
+    {
+      "prefix_hex": "ffffffffffffffff",
+      "modulus": 3,
+      "raw": 0
+    },
+    {
+      "prefix_hex": "ffffffffffffffff",
+      "modulus": 18446744073709551615,
+      "raw": 0
+    },
+    {
+      "prefix_hex": "fffffffffffffffe",
+      "modulus": 18446744073709551615,
+      "raw": 18446744073709551614
+    }
+  ],
+  "scope": "Literal serialization and arithmetic only. No SHA-256 evaluation of these messages and no sampled law construction; max-u64 message is a serialization boundary, not an admitted proposal."
+}

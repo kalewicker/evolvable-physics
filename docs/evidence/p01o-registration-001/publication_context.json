@@ -1,0 +1,34 @@
+{
+  "copies": [
+    {
+      "original": "artifacts/p01o-registration-001/static_review.json",
+      "public": "docs/evidence/p01o-registration-001/static_review.json",
+      "sha256": "4064d066e8e04e82e1fcceda121f44f5f13f38c615ef2d7cd8e24a40e0a773d1"
+    },
+    {
+      "original": "artifacts/p01o-registration-tests-001/normal.log",
+      "public": "docs/evidence/p01o-registration-001/tests-normal.log",
+      "sha256": "38e17fac5f449cda52bfa7429d94a23b26a989e3feb689302cba632739294cd3"
+    },
+    {
+      "original": "artifacts/p01o-registration-tests-001/optimized.log",
+      "public": "docs/evidence/p01o-registration-001/tests-optimized.log",
+      "sha256": "38e17fac5f449cda52bfa7429d94a23b26a989e3feb689302cba632739294cd3"
+    },
+    {
+      "original": "artifacts/p01o-registration-tests-001/identities.json",
+      "public": "docs/evidence/p01o-registration-001/test-source-identities.json",
+      "sha256": "76ff8675d2ba6fc5e3ee57ccee03828ffb3d657cf8c1b896e451e0b96e6720b3"
+    }
+  ],
+  "date": "2026-10-22",
+  "external_files": {
+    "AGENTS.md": "78c0a649553ee3750966ae5cafe37f6ccc08a3a29f808fdbc665d2e387b5e215",
+    "README.md": "f9df9cfa12b51d2f32b376e9da3878ab395e841c1a246c6cdc415b630fb29c51",
+    "docs/p01o_findings.md": "79f52bbb8a9471dec2244fb651afc25f849778041b86e0984f65d990af6b1dc0",
+    "docs/p01o_registration_freeze.json": "5cf81d427179494d94ffb06d43cf5d93e1720489ea5f6571123acabfecab1fc5",
+    "docs/status.json": "c24e01fce89aa25e7cb22b3b069644093b83f12090cc10903b9fa880d079bafe"
+  },
+  "schema": "p01o-registration-publication-context-v1",
+  "scope": "static registration only; file hashes for custody, no namespace-keyed draws, sampler implementation, constructed sampled environments or world execution"
+}

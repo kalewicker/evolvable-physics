@@ -42,3 +42,27 @@ favorable historical law selection, world execution, changed environment or
 detector gates, or E01 follows from literal readiness. Preserve all consumed
 panels and negative/inconclusive outcomes. Behavioral outcomes remain
 null/not_executed and scientific status untested.
+
+## Current next boundary after P01o registration
+
+P01o keyed-v4/static-census registration is complete. See docs/p01o_protocol.json,
+docs/p01o_registration.md, docs/p01o_registration_freeze.json and
+scripts/check_p01o_registration.py. The fixed future panel is proposals
+6000..6031 × initials 0..3, 128 environments, zero epochs; 119 ordered field
+records per cell, 15,232 per implementation, 6,208 unique addresses. Static
+review and thirteen tests (normal and optimized) passed, with 235 frozen file
+identities and 438 prior public receipts preserved. No keyed sampler or call
+was implemented/executed. After this registration is committed/pushed, next
+implement only the registered new sampler/runner/static-report/auditor paths
+and new tests. Keep all frozen sources and Cargo files byte-identical. Tests
+before execution admission must use unhashed serialization, literal prefix
+arithmetic, injected fields and synthetic report/guard bookkeeping only; no v4
+namespace-keyed SHA evaluation on any proposal, including audit helpers.
+Require simultaneous donor-state intersection for joined bodies, ordered reads
+of both maps and all raw fields, and no inference of behavior from static
+correlations. Then freeze full sources/dependencies/tools/binaries/inputs and
+commit/push a separate admission binding the exact output before the single
+sampled static attempt. Preserve all 32 laws/128 cells, negatives, duplicates,
+failures and missingness. No sampled retry/resumption/extension, repair/filter,
+favorable-law selection, world transitions, environment/detector changes or
+E01. P01g/P01k outcomes remain unchanged; scientific status stays untested.

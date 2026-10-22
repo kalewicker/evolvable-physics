@@ -413,3 +413,17 @@ Next separately register v4 keyed implementation and an unfiltered static
 census before implementing or evaluating the actual sampler. No world runs or
 E01 are admitted. The original registration, frozen sources and prior results
 remain unchanged.
+
+## P01o v4 static-census registration
+
+The [new registration](docs/p01o_registration.md) fixes 32 fresh proposals
+(6000..6031) × four initial states, 128 environments and **zero epochs**. It
+requires independent field/output checks and an unfiltered descriptive census;
+no route-count threshold admits chemistry or trajectories. The new namespace
+makes this an unpaired panel, not a test of v4 superiority.
+
+[Static review](docs/p01o_findings.md) and thirteen tests passed normally and
+with Python optimization; 235 frozen files and 438 prior receipts matched.
+No keyed sampler was implemented or run. Next implement the new paths using
+literal/mock tests, then commit/push a separate execution freeze before any
+keyed evaluation. Scientific status remains untested.
