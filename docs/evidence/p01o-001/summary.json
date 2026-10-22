@@ -1,0 +1,1211 @@
+{
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "census_sha256": "0de00f0fe8485944486e3f8cb8939574704935c4036c74294e0361515624e927",
+  "chemistry_continuation_gate": null,
+  "distinct_tables": 32,
+  "initial_environments": 128,
+  "keyed_hash_evaluations": 0,
+  "law_cells": 32,
+  "laws": [
+    {
+      "law_digest": "95dc5a11e55a1c6ed046e97737a52490ccf2a09ff4b30ca0c7d048749c4a6960",
+      "map": [
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 1,
+        "birth_funding_pairs": 1,
+        "birth_recycle_pairs": 2,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 1,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 1,
+        "funding_kind_matches": 1,
+        "funding_kind_states_and_material": 1,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6000,
+      "state_map": [
+        1,
+        2,
+        1
+      ],
+      "state_write_bodies": [
+        1
+      ]
+    },
+    {
+      "law_digest": "4876ad1c1bf29b876f22aa090be655c348653b50d0884bded1b813f35fe9d4fe",
+      "map": [
+        2,
+        2,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 2,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 2,
+        "child_donor_kind_and_birth_state": 2,
+        "child_donor_kind_matches": 2,
+        "child_donor_pairs": 4,
+        "closed_type_paths": 2,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6001,
+      "state_map": [
+        0,
+        1,
+        1
+      ],
+      "state_write_bodies": [
+        7
+      ]
+    },
+    {
+      "law_digest": "f43387fb06a0c6e37b28d42f295a09a84ac4976cf9eb2072437c882a60d59d3c",
+      "map": [
+        2,
+        1,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 1,
+        "birth_funding_pairs": 1,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 1,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 1,
+        "funding_kind_matches": 1,
+        "funding_kind_states_and_material": 1,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6002,
+      "state_map": [
+        2,
+        1,
+        2
+      ],
+      "state_write_bodies": [
+        0,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "law_digest": "e863bdab632a30d13c1e8cda5ae749a53889ef065e970267014c6b36a12c3104",
+      "map": [
+        1,
+        1,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 3,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 3,
+        "child_donor_kind_matches": 3,
+        "child_donor_pairs": 9,
+        "closed_type_paths": 2,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6003,
+      "state_map": [
+        1,
+        1,
+        2
+      ],
+      "state_write_bodies": []
+    },
+    {
+      "law_digest": "72228ca7070e9ad5a3292599a549f2812abbcb7c2cd95fa1fad26dfb239abd24",
+      "map": [
+        3,
+        2,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 1,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 2,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 1,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6004,
+      "state_map": [
+        2,
+        1,
+        1
+      ],
+      "state_write_bodies": [
+        0,
+        6
+      ]
+    },
+    {
+      "law_digest": "d8beee7de566f992987a8fd00a3f03ee678ab5455e2acf9a77291571f8c8befa",
+      "map": [
+        1,
+        1,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 1,
+        "birth_funding_pairs": 1,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 1,
+        "child_donor_kind_matches": 1,
+        "child_donor_pairs": 1,
+        "closed_type_paths": 1,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6005,
+      "state_map": [
+        0,
+        2,
+        1
+      ],
+      "state_write_bodies": [
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "law_digest": "9f4cc51daa45b62b472713182bdb6af2bcb8b5d4d518be46ee24bc4c585a25a5",
+      "map": [
+        2,
+        2,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 2,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 4,
+        "child_donor_kind_and_birth_state": 2,
+        "child_donor_kind_matches": 2,
+        "child_donor_pairs": 4,
+        "closed_type_paths": 2,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 1,
+        "recycle_kind_matches": 1
+      },
+      "proposal": 6006,
+      "state_map": [
+        2,
+        0,
+        1
+      ],
+      "state_write_bodies": []
+    },
+    {
+      "law_digest": "d3f81ddfb6a1cde4c1142d93cc2d18eff90647111f653c5213e0bc85c4eb1b46",
+      "map": [
+        2,
+        2,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6007,
+      "state_map": [
+        2,
+        0,
+        1
+      ],
+      "state_write_bodies": [
+        1
+      ]
+    },
+    {
+      "law_digest": "f1608235c681b76552d76bf3682b9f54c3b839aa99424c4455fb784d763def35",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 2,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 1,
+        "child_donor_kind_matches": 1,
+        "child_donor_pairs": 4,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6008,
+      "state_map": [
+        2,
+        2,
+        2
+      ],
+      "state_write_bodies": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "law_digest": "892f1fa544cfbc59abc7168146d7431347277cf29498298e5ec7c07b873e1207",
+      "map": [
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 1,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 1,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6009,
+      "state_map": [
+        2,
+        2,
+        0
+      ],
+      "state_write_bodies": [
+        1
+      ]
+    },
+    {
+      "law_digest": "18e7d69b97a8ce4241a3eb0f785a01d83261a7f45fa8775b2d550a53a0b8aa42",
+      "map": [
+        1,
+        3,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 3,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 1,
+        "child_donor_kind_matches": 1,
+        "child_donor_pairs": 9,
+        "closed_type_paths": 1,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6010,
+      "state_map": [
+        1,
+        1,
+        2
+      ],
+      "state_write_bodies": [
+        4
+      ]
+    },
+    {
+      "law_digest": "458a80c5e47ef7f04baa218a6f9e5e83176b8b6b52e2427d0efedf1557462773",
+      "map": [
+        2,
+        2,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 2,
+        "birth_funding_pairs": 2,
+        "birth_recycle_pairs": 4,
+        "child_donor_kind_and_birth_state": 2,
+        "child_donor_kind_matches": 2,
+        "child_donor_pairs": 4,
+        "closed_type_paths": 2,
+        "funding_kind_and_immediate_states": 1,
+        "funding_kind_matches": 1,
+        "funding_kind_states_and_material": 1,
+        "joined_immediate_state_aligned": 1,
+        "joined_immediate_state_aligned_and_material": 1,
+        "joined_matter_bearing": 1,
+        "joined_type_only": 1,
+        "recycle_kind_and_immediate_states": 1,
+        "recycle_kind_matches": 1
+      },
+      "proposal": 6011,
+      "state_map": [
+        1,
+        1,
+        2
+      ],
+      "state_write_bodies": [
+        0,
+        4
+      ]
+    },
+    {
+      "law_digest": "217f67ca35bc9a2acd9a0a0c9e6b3be37c82eb0b2d5728d28f86716f24e376cd",
+      "map": [
+        2,
+        3,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 1,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 2,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 1,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 1,
+        "recycle_kind_matches": 1
+      },
+      "proposal": 6012,
+      "state_map": [
+        1,
+        1,
+        0
+      ],
+      "state_write_bodies": [
+        4,
+        7
+      ]
+    },
+    {
+      "law_digest": "005fbd8f02799d0fe07e829c0a14d2b5734130bb7ec640bb535640d7e6a3d478",
+      "map": [
+        2,
+        2,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6013,
+      "state_map": [
+        2,
+        0,
+        2
+      ],
+      "state_write_bodies": [
+        2
+      ]
+    },
+    {
+      "law_digest": "f1eb0b6034870194463594dd8f1339632f8c32021fa2e299f8b74072d84c7187",
+      "map": [
+        3,
+        3,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 2,
+        "birth_funding_pairs": 2,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 4,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 2,
+        "funding_kind_matches": 2,
+        "funding_kind_states_and_material": 2,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6014,
+      "state_map": [
+        1,
+        0,
+        0
+      ],
+      "state_write_bodies": [
+        7
+      ]
+    },
+    {
+      "law_digest": "9e048b024e8ab537699ddd3b4448f470d5e8c49ccc7246c321ada7f778443081",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 2,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 6,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 4,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 2,
+        "recycle_kind_matches": 2
+      },
+      "proposal": 6015,
+      "state_map": [
+        0,
+        1,
+        1
+      ],
+      "state_write_bodies": [
+        0
+      ]
+    },
+    {
+      "law_digest": "17bd74b471c8de29b2978a386529b856d22b73e0ec88c1e66c0af2d566e828ba",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6016,
+      "state_map": [
+        1,
+        1,
+        0
+      ],
+      "state_write_bodies": [
+        5
+      ]
+    },
+    {
+      "law_digest": "61c9e00df664a52b45864f714298bdf253a52ff4435e19c9636f6c5e458a24c8",
+      "map": [
+        2,
+        1,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6017,
+      "state_map": [
+        2,
+        2,
+        0
+      ],
+      "state_write_bodies": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ]
+    },
+    {
+      "law_digest": "8771e9206d890a03a8c81433a82fefeb3ed26512d317eebf3ba076eb1b3641ad",
+      "map": [
+        1,
+        3,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 3,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 3,
+        "child_donor_kind_and_birth_state": 9,
+        "child_donor_kind_matches": 9,
+        "child_donor_pairs": 9,
+        "closed_type_paths": 1,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 3,
+        "recycle_kind_matches": 3
+      },
+      "proposal": 6018,
+      "state_map": [
+        1,
+        1,
+        1
+      ],
+      "state_write_bodies": []
+    },
+    {
+      "law_digest": "6a564433014593f6bc44a2271e0ad4a2edc3252cc5931e20ec7094617c73ac23",
+      "map": [
+        3,
+        3,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 1,
+        "birth_funding_pairs": 1,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 1,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 1,
+        "funding_kind_matches": 1,
+        "funding_kind_states_and_material": 1,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6019,
+      "state_map": [
+        2,
+        2,
+        1
+      ],
+      "state_write_bodies": []
+    },
+    {
+      "law_digest": "9309e194f6fd7b705284c17cf8563091186b1c1a5b3c3b1bdb6dd8037bdc7f09",
+      "map": [
+        2,
+        3,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 1,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 1,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6020,
+      "state_map": [
+        2,
+        0,
+        1
+      ],
+      "state_write_bodies": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "law_digest": "af338d2b9062f608aae37d55ddf1032ecc90814a4ebb3283b7f8b02b816109d4",
+      "map": [
+        1,
+        2,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 2,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 2,
+        "child_donor_kind_and_birth_state": 4,
+        "child_donor_kind_matches": 4,
+        "child_donor_pairs": 4,
+        "closed_type_paths": 1,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6021,
+      "state_map": [
+        0,
+        0,
+        0
+      ],
+      "state_write_bodies": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "law_digest": "62dff1b57f7b5e7fe46a26ef6cda9fe63d158af07fb2f7d853048756cdc1e9bb",
+      "map": [
+        3,
+        1,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 2,
+        "birth_funding_pairs": 2,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 4,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 1,
+        "funding_kind_matches": 1,
+        "funding_kind_states_and_material": 1,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6022,
+      "state_map": [
+        0,
+        0,
+        2
+      ],
+      "state_write_bodies": [
+        7
+      ]
+    },
+    {
+      "law_digest": "21c101ac689b6d8c371d14e6099ab9277b741c7eb97c5d9478b5f0d7ac15f1ae",
+      "map": [
+        3,
+        3,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 2,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 4,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6023,
+      "state_map": [
+        1,
+        0,
+        2
+      ],
+      "state_write_bodies": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "law_digest": "a3c06980ae3b7a3e04042b00fdfc6c2b357c455f2d8421e2cf8df249e21139cc",
+      "map": [
+        3,
+        3,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6024,
+      "state_map": [
+        1,
+        2,
+        1
+      ],
+      "state_write_bodies": [
+        4
+      ]
+    },
+    {
+      "law_digest": "3bf4b9e608bc267a0568aa0c2224161cf0d211eba7fe797266ad887b5d283338",
+      "map": [
+        2,
+        2,
+        2
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6025,
+      "state_map": [
+        2,
+        2,
+        1
+      ],
+      "state_write_bodies": [
+        5
+      ]
+    },
+    {
+      "law_digest": "4e08b616086fdb66cf39ca66a267a089a0b23ac2afe766328457a749b5f3fdf6",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6026,
+      "state_map": [
+        0,
+        0,
+        2
+      ],
+      "state_write_bodies": [
+        0
+      ]
+    },
+    {
+      "law_digest": "87a229b5c85c699d89874d892e9a19b4321cba74eb5217dfd46976e43aa459a1",
+      "map": [
+        3,
+        3,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6027,
+      "state_map": [
+        0,
+        2,
+        0
+      ],
+      "state_write_bodies": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "law_digest": "c94746bf90717f3904f2986ec0005deac4d9d7045e9cb672e8570b588f3ea878",
+      "map": [
+        2,
+        3,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6028,
+      "state_map": [
+        2,
+        0,
+        2
+      ],
+      "state_write_bodies": [
+        2
+      ]
+    },
+    {
+      "law_digest": "29fc67357f2700645a0504734b2735bc209a8f64e30bd8ebd1a58225b89395aa",
+      "map": [
+        1,
+        3,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6029,
+      "state_map": [
+        2,
+        2,
+        0
+      ],
+      "state_write_bodies": []
+    },
+    {
+      "law_digest": "f286bb5522df29f81990f8adc1a8a4ba410b83549ec0941189cbb1fbfddf6727",
+      "map": [
+        3,
+        2,
+        1
+      ],
+      "metrics": {
+        "birth_bodies": 4,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 1,
+        "child_donor_kind_matches": 1,
+        "child_donor_pairs": 16,
+        "closed_type_paths": 1,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6030,
+      "state_map": [
+        0,
+        0,
+        2
+      ],
+      "state_write_bodies": [
+        2,
+        4
+      ]
+    },
+    {
+      "law_digest": "727f66ae91c30da5f92c303d628f0369e0600e1807ede6a49c5ecfd4168dacb2",
+      "map": [
+        3,
+        3,
+        3
+      ],
+      "metrics": {
+        "birth_bodies": 0,
+        "birth_funding_pairs": 0,
+        "birth_recycle_pairs": 0,
+        "child_donor_kind_and_birth_state": 0,
+        "child_donor_kind_matches": 0,
+        "child_donor_pairs": 0,
+        "closed_type_paths": 0,
+        "funding_kind_and_immediate_states": 0,
+        "funding_kind_matches": 0,
+        "funding_kind_states_and_material": 0,
+        "joined_immediate_state_aligned": 0,
+        "joined_immediate_state_aligned_and_material": 0,
+        "joined_matter_bearing": 0,
+        "joined_type_only": 0,
+        "recycle_kind_and_immediate_states": 0,
+        "recycle_kind_matches": 0
+      },
+      "proposal": 6031,
+      "state_map": [
+        2,
+        2,
+        0
+      ],
+      "state_write_bodies": [
+        3,
+        6,
+        7
+      ]
+    }
+  ],
+  "positive_distinct_tables": {
+    "birth_bodies": 21,
+    "birth_funding_pairs": 7,
+    "birth_recycle_pairs": 9,
+    "child_donor_kind_and_birth_state": 10,
+    "child_donor_kind_matches": 10,
+    "child_donor_pairs": 21,
+    "closed_type_paths": 9,
+    "funding_kind_and_immediate_states": 6,
+    "funding_kind_matches": 6,
+    "funding_kind_states_and_material": 6,
+    "joined_immediate_state_aligned": 1,
+    "joined_immediate_state_aligned_and_material": 1,
+    "joined_matter_bearing": 1,
+    "joined_type_only": 1,
+    "recycle_kind_and_immediate_states": 5,
+    "recycle_kind_matches": 5
+  },
+  "positive_law_cells": {
+    "birth_bodies": 21,
+    "birth_funding_pairs": 7,
+    "birth_recycle_pairs": 9,
+    "child_donor_kind_and_birth_state": 10,
+    "child_donor_kind_matches": 10,
+    "child_donor_pairs": 21,
+    "closed_type_paths": 9,
+    "funding_kind_and_immediate_states": 6,
+    "funding_kind_matches": 6,
+    "funding_kind_states_and_material": 6,
+    "joined_immediate_state_aligned": 1,
+    "joined_immediate_state_aligned_and_material": 1,
+    "joined_matter_bearing": 1,
+    "joined_type_only": 1,
+    "recycle_kind_and_immediate_states": 5,
+    "recycle_kind_matches": 5
+  },
+  "schema": "p01o-descriptive-census-summary-v1",
+  "scientific_status": "untested",
+  "scope": "descriptive counts of preregistered local schema predicates; exact constructive states and positive Structural matter are authored correlations, with no chemistry gate or behavioral observations",
+  "seal_sha256": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00",
+  "totals_by_proposal_cell": {
+    "birth_bodies": 39,
+    "birth_funding_pairs": 10,
+    "birth_recycle_pairs": 27,
+    "child_donor_kind_and_birth_state": 26,
+    "child_donor_kind_matches": 26,
+    "child_donor_pairs": 87,
+    "closed_type_paths": 13,
+    "funding_kind_and_immediate_states": 7,
+    "funding_kind_matches": 7,
+    "funding_kind_states_and_material": 7,
+    "joined_immediate_state_aligned": 1,
+    "joined_immediate_state_aligned_and_material": 1,
+    "joined_matter_bearing": 1,
+    "joined_type_only": 1,
+    "recycle_kind_and_immediate_states": 8,
+    "recycle_kind_matches": 8
+  },
+  "world_transitions": 0
+}

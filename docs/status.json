@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-22",
-  "stage": "P01o_execution_freeze_prepared",
+  "stage": "P01o_static_execution_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "commit/push the P01o execution freeze/admission before any v4 keyed evaluation; the tested source/binary and complete dependency closure are pinned",
-    "after that gate, verify closure and process/RSS capability before attempt creation, then execute only python3 scripts/p01o_census.py artifacts/p01o-001 with all 128 planned cells written before any keyed call",
-    "preserve/seal all cells, negatives, duplicates, failures and unstarted outcomes under unchanged budgets; no sampled retry/resume/extension, input repair, favorable selection, world execution or E01; post-seal audit hashes files only"
+    "separately preregister a read-only resource/state/topology review across all 32 retained tables and 128 initial records before diagnosis; no keyed reevaluation, new sampling or favorable-law trajectories",
+    "preserve consumed registration, original seal, all cells, costs, duplicates and negative/inconclusive outcomes; static alignment is an authored correlation, not chemistry",
+    "no sampled retry/resume/extension, law repair/filter/reroll, favorable subset, changed environment/detectors, world trajectories or E01; scientific status stays untested"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -223,7 +223,7 @@
   "p01m_design_complete": true,
   "generator_v4_implemented": true,
   "generator_v4_implementation_admitted": true,
-  "generator_v4_sampling_admitted": true,
+  "generator_v4_sampling_admitted": false,
   "generator_v4_design": "docs/generator_v4_design.json",
   "p01m_findings": "docs/p01m_findings.md",
   "p01m_closure": "docs/p01m_closure.json",
@@ -256,7 +256,7 @@
   "p01o_findings": "docs/p01o_findings.md",
   "p01o_static_review": "docs/evidence/p01o-registration-001/static_review.json",
   "generator_v4_sampler_implementation_admitted_after_registration_commit": true,
-  "p01o_sampling_started": false,
+  "p01o_sampling_started": true,
   "p01o_runner_implemented": true,
   "p01o_static_report_implemented": true,
   "p01o_independent_auditor_implemented": true,
@@ -267,5 +267,16 @@
   "p01o_execution_admission": "docs/p01o_execution_admission.json",
   "p01o_execution_freeze_notes": "docs/p01o_execution_freeze_notes.md",
   "p01o_pre_execution_receipt": "docs/evidence/p01o-execution-readiness-001/readiness.json",
-  "p01o_execution_ready_after_commit_push": true
+  "p01o_execution_ready_after_commit_push": false,
+  "p01o_execution_complete": true,
+  "p01o_registration_consumed": true,
+  "p01o_engineering_gate_pass": true,
+  "p01o_chemistry_continuation_gate": null,
+  "p01o_closure": "docs/p01o_closure.json",
+  "p01o_execution_findings": "docs/p01o_execution_findings.md",
+  "p01o_execution_receipt": "docs/evidence/p01o-001/receipt_audit.json",
+  "p01o_cost_receipt": "docs/evidence/p01o-001/cost_audit.json",
+  "p01o_static_summary": "docs/evidence/p01o-001/summary.json",
+  "generator_v4_sampled_output_equivalence_verified": true,
+  "generator_v4_equivalence_scope": "the fixed 128 P01o initial environments only"
 }

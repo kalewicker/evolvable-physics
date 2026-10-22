@@ -1,0 +1,84 @@
+{
+  "copies": [
+    {
+      "original": "artifacts/p01o-001/manifest.json",
+      "public": "docs/evidence/p01o-001/manifest.json",
+      "sha256": "a98abb984752c2151e5aa42a7796bff365c69b503af0ed8bdaea384ad540b095"
+    },
+    {
+      "original": "artifacts/p01o-001/assessment.json",
+      "public": "docs/evidence/p01o-001/assessment.json",
+      "sha256": "30d6cf04e5840173468840067b7d08cbf5d339103d43959e9970d3b4b87a2926"
+    },
+    {
+      "original": "artifacts/p01o-001/checksums.json",
+      "public": "docs/evidence/p01o-001/checksums.json",
+      "sha256": "360229fcae6f851e370a22b3017b8283d1119145fa7ee5dcbd99a56a2d900740"
+    },
+    {
+      "original": "artifacts/p01o-001/seal.json",
+      "public": "docs/evidence/p01o-001/seal.json",
+      "sha256": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00"
+    },
+    {
+      "original": "artifacts/p01o-001/analysis/static_report/stdout.bin",
+      "public": "docs/evidence/p01o-001/static_census.json",
+      "sha256": "0de00f0fe8485944486e3f8cb8939574704935c4036c74294e0361515624e927"
+    },
+    {
+      "original": "artifacts/p01o-001/analysis/independent_audit/stdout.bin",
+      "public": "docs/evidence/p01o-001/independent_audit.json",
+      "sha256": "ebd7402b5185b6ce7acb7ccf1424e5018724419231e9a15566de16feb5f27fc7"
+    },
+    {
+      "original": "artifacts/p01o-001-receipt-audit.json",
+      "public": "docs/evidence/p01o-001/receipt_audit.json",
+      "sha256": "7936c1b0103c3530faf3e90804b2efb9f2478963ec5f9b02228b60969577c365"
+    },
+    {
+      "original": "artifacts/p01o-001-cost-audit.json",
+      "public": "docs/evidence/p01o-001/cost_audit.json",
+      "sha256": "2fa9566bf1d01cab94e59a6885939fb084a42c909cdb71676f639dc430e921db"
+    },
+    {
+      "original": "artifacts/p01o-closeout-001/summary.json",
+      "public": "docs/evidence/p01o-001/summary.json",
+      "sha256": "0822171dc4063001d9286d9dd4b89957ece4a475cce388f323eac5c0b3ff71c3"
+    },
+    {
+      "original": "artifacts/p01o-closeout-001/campaign.log",
+      "public": "docs/evidence/p01o-001/campaign.log",
+      "sha256": "e390e89ee87f62d9f229ce5bcf3975f4ab7f427a244dbaa1e442861aca08e137"
+    },
+    {
+      "original": "artifacts/p01o-capability-preflight-001/sandbox-probe.log",
+      "public": "docs/evidence/p01o-001/preflight/sandbox-probe.log",
+      "sha256": "0487d9cc58a3566d6c3cf05691b9baca5260c4fb75848ddd332a10864478d161"
+    },
+    {
+      "original": "artifacts/p01o-capability-preflight-001/scope.json",
+      "public": "docs/evidence/p01o-001/preflight/scope.json",
+      "sha256": "482361f86f782962723b6e4edf62f8e99eec20f864dfa0a9368abac20f5b11f9"
+    },
+    {
+      "original": "artifacts/p01o-pre-execution-check-002/readiness.json",
+      "public": "docs/evidence/p01o-001/preflight/readiness.json",
+      "sha256": "37c6122a8eadab9d65ad69331d87669bf2536aa4bd02bad85ecc84b7d760f0e3"
+    }
+  ],
+  "date": "2026-10-22",
+  "execution_freeze_commit": "29d731ed505e95b92921be9b6a8b1f116a8da0d9",
+  "external_files": {
+    "AGENTS.md": "5f9998c99e7182a300f99b8bcaca06727539ff3688affa4c8e626a8ae6c9badb",
+    "README.md": "db557a70c39554af7c80efd60cade95bd12d716083bb2b8ddfd869020ed6d604",
+    "docs/p01o_closure.json": "de6638e005989839f24e99fcb0d279930182a0ad2cdbb6432c58d7413ecd3a24",
+    "docs/p01o_execution_findings.md": "9344948499dcf84cb14e871eddc579ad306dddeb3ac2b7db8eb58b9ed6d284e8",
+    "docs/status.json": "e48f6472513c96b0b36b6acec9dc3c505f027e6b2c2e9e585069dc71f83cc9e0",
+    "scripts/audit_p01o_costs.py": "5adbf59c3a05f2b66a7b526b400f6a499cf8d7c3faa3a62166c3f4f836bd71e1",
+    "scripts/summarize_p01o.py": "c1a18e18333af0f14bfcbd02bf6fc38ce706f834ffd026f3cfdb467bbd2da4bb"
+  },
+  "note": "Original sampled inventory/seal remain unchanged. Complete generator outputs/preimages, descriptors, source/dependency snapshots and binary stay local. Later audits/summary, capability preflight, final campaign stdout and closeout documentation are outside the original inventory and bound here. Every law and negative is retained; no favorable-law subset or trajectory admission.",
+  "original_inventory_entries": 5127,
+  "schema": "p01o-static-execution-publication-context-v1",
+  "scope": "single consumed static census; later saved-receipt/cost and descriptive aggregation only, no post-seal keyed reevaluation or world execution"
+}

@@ -1,0 +1,15 @@
+{
+  "aggregate_cpu_seconds": "29.066875",
+  "artifact_bytes": 215277328,
+  "guarded_stage_cpu_seconds": "14.840306999999999434",
+  "keyed_hash_evaluations": 0,
+  "peak_child_rss_bytes": 27607040,
+  "retained_stage_output_bytes": 9168794,
+  "schema": "p01o-read-only-cost-audit-v1",
+  "scope": "post-seal receipts/costs only; sampled RSS is not an instantaneous bound",
+  "seal_sha256": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00",
+  "stages_verified": 258,
+  "status": "pass",
+  "wall_seconds": 32.692696374841034,
+  "world_transitions": 0
+}

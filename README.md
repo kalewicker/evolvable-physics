@@ -454,3 +454,18 @@ fixture failure is retained. No keyed evaluation or sampled attempt occurred.
 After this gate is committed/pushed, next run only the registered 32-law/128-cell
 zero-epoch census, with the original budgets and stop/no-retry policy. All
 behavioral endpoints remain unexecuted; scientific status remains untested.
+
+## P01o sampled static census complete
+
+All 32 laws / 128 environments and 258 stages passed independent engineering
+and custody/cost checks. The census retains 32 distinct tables, including every
+negative. One joined motif has aligned type/state/material predicates; those
+local correlations do not establish a resource-feasible lifecycle. No world
+epochs ran. See [findings](docs/p01o_execution_findings.md),
+[complete summary](docs/evidence/p01o-001/summary.json) and
+[closure](docs/p01o_closure.json).
+
+The registration is consumed. Next preregister a read-only resource/state/
+topology review across all retained tables before diagnosis. No sampled retry,
+repair, favorable-law trajectories or E01 are admitted; scientific status
+remains untested.

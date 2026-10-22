@@ -107,3 +107,26 @@ No retry/resumption/extension, repaired input, replacement or favorable-law
 selection. Post-seal receipt audit uses file hashes only. No sampled attempt or
 keyed evaluation occurred in preparing the freeze. No world transitions,
 detectors, environment change or E01 are admitted; scientific status untested.
+
+## Current next boundary after P01o execution
+
+P01o sampled static execution is complete and consumed. Execution-freeze commit
+29d731e was pushed before keyed evaluation. The sandbox ps probe failed before
+attempt-directory creation/draws and is retained; the approved run was the sole
+sampled attempt. All 128 initial environments (32 distinct tables), 258 stages,
+15,232 logical draws per implementation and 6,208 unique addresses passed exact
+Rust/Python, independent output/static and later custody/Decimal-cost checks.
+The original 5,127-entry inventory/seal is unchanged. Costs were 32.692696 s
+wall, 29.066875 s CPU and 215,277,328 bytes, with no overshoot or missing cell.
+There are seven kind/state/material-compatible birth/funding pairs in six
+tables, eight birth/recycle matches in five, and 26 child-donor matches in ten.
+One joined motif in one table has all immediate type/state/material predicates
+aligned. These constructive correlations are authored, with no chemistry gate
+or dynamic evidence. See docs/p01o_execution_findings.md and docs/p01o_closure.json.
+Preserve original registration/freeze/admission, all cells and seal; no sampled
+retry/resume/extension/replacement/repair or favorable-law selection. Next
+separately preregister read-only resource/state/topology questions and source
+identities across all 32 tables/128 initial records before diagnosis. No keyed
+message reevaluation, new sampled panel, world execution, environment/detector
+changes or E01. Behavioral outcomes remain null/not_executed and scientific
+status untested; all P01g/P01k negatives/inconclusives remain unchanged.

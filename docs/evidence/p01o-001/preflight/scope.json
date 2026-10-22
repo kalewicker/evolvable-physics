@@ -1,0 +1,7 @@
+{
+  "status": "sandbox_ps_denied_before_attempt_creation",
+  "attempt_directory_exists": false,
+  "keyed_evaluations": 0,
+  "world_transitions": 0,
+  "earlier_readonly_import_error": "ModuleNotFoundError: No module named check_p01o_execution; corrected by invoking the checker script directly"
+}

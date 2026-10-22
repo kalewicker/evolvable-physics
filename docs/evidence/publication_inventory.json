@@ -1917,6 +1917,62 @@
     {
       "file": "docs/evidence/p01o-execution-readiness-001/verified-check/toolchain.json",
       "sha256": "0b611d1fcaf9fef851225aad94766ec4112a1c7a8e7221941da1e200d0c7abc9"
+    },
+    {
+      "file": "docs/evidence/p01o-001/assessment.json",
+      "sha256": "30d6cf04e5840173468840067b7d08cbf5d339103d43959e9970d3b4b87a2926"
+    },
+    {
+      "file": "docs/evidence/p01o-001/campaign.log",
+      "sha256": "e390e89ee87f62d9f229ce5bcf3975f4ab7f427a244dbaa1e442861aca08e137"
+    },
+    {
+      "file": "docs/evidence/p01o-001/checksums.json",
+      "sha256": "360229fcae6f851e370a22b3017b8283d1119145fa7ee5dcbd99a56a2d900740"
+    },
+    {
+      "file": "docs/evidence/p01o-001/cost_audit.json",
+      "sha256": "2fa9566bf1d01cab94e59a6885939fb084a42c909cdb71676f639dc430e921db"
+    },
+    {
+      "file": "docs/evidence/p01o-001/independent_audit.json",
+      "sha256": "ebd7402b5185b6ce7acb7ccf1424e5018724419231e9a15566de16feb5f27fc7"
+    },
+    {
+      "file": "docs/evidence/p01o-001/manifest.json",
+      "sha256": "a98abb984752c2151e5aa42a7796bff365c69b503af0ed8bdaea384ad540b095"
+    },
+    {
+      "file": "docs/evidence/p01o-001/preflight/readiness.json",
+      "sha256": "37c6122a8eadab9d65ad69331d87669bf2536aa4bd02bad85ecc84b7d760f0e3"
+    },
+    {
+      "file": "docs/evidence/p01o-001/preflight/sandbox-probe.log",
+      "sha256": "0487d9cc58a3566d6c3cf05691b9baca5260c4fb75848ddd332a10864478d161"
+    },
+    {
+      "file": "docs/evidence/p01o-001/preflight/scope.json",
+      "sha256": "482361f86f782962723b6e4edf62f8e99eec20f864dfa0a9368abac20f5b11f9"
+    },
+    {
+      "file": "docs/evidence/p01o-001/publication_context.json",
+      "sha256": "b6370c799c22811756a3d464d8c1a9a6af0344c3e4b24289f88c1948838b2448"
+    },
+    {
+      "file": "docs/evidence/p01o-001/receipt_audit.json",
+      "sha256": "7936c1b0103c3530faf3e90804b2efb9f2478963ec5f9b02228b60969577c365"
+    },
+    {
+      "file": "docs/evidence/p01o-001/seal.json",
+      "sha256": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00"
+    },
+    {
+      "file": "docs/evidence/p01o-001/static_census.json",
+      "sha256": "0de00f0fe8485944486e3f8cb8939574704935c4036c74294e0361515624e927"
+    },
+    {
+      "file": "docs/evidence/p01o-001/summary.json",
+      "sha256": "0822171dc4063001d9286d9dd4b89957ece4a475cce388f323eac5c0b3ff71c3"
     }
   ]
 }

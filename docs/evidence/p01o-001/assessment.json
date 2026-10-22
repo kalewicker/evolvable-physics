@@ -1,0 +1,19 @@
+{
+  "chemistry_continuation_gate": null,
+  "complete_environments": 128,
+  "distinct_observed_tables": 32,
+  "e01_authorized": false,
+  "engineering_gate_pass": true,
+  "environment_denominator": 128,
+  "execution_status": "complete",
+  "law_denominator": 32,
+  "overshoot_before_seal": [],
+  "resource_usage_before_seal": {
+    "artifact_bytes": 214763480,
+    "total_process_cpu_seconds": 28.607147,
+    "wall_seconds": 31.959892542101443
+  },
+  "schema": "p01o-assessment-v1",
+  "scientific_status": "untested",
+  "world_transitions": 0
+}
