@@ -1,0 +1,15 @@
+{
+  "build_policy": "Reuse byte-identical generator-v4 release binary and successful implementation build/test receipts; no rebuild or keyed source invocation",
+  "dependency_membership_verified": {
+    "crate_files": 1103,
+    "python_framework_files": 1,
+    "python_source_extension_files": 1925,
+    "rust_library_files": 59
+  },
+  "implementation_commit": "cf9f42f2a4eb0b85e3611f12a7dad146b1a6b446",
+  "keyed_sampler_evaluations": 0,
+  "platform": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "world_transitions": 0
+}

@@ -1,0 +1,11 @@
+test_complete_invented_closure_passes_without_sampling (test_p01o_execution.ExecutionClosure.test_complete_invented_closure_passes_without_sampling) ... ok
+test_hashes_identify_files_only (test_p01o_execution.ExecutionClosure.test_hashes_identify_files_only) ... ok
+test_linked_freeze_and_admission_flags_rejected (test_p01o_execution.ExecutionClosure.test_linked_freeze_and_admission_flags_rejected) ... ok
+test_readiness_and_dependency_manifest_coverage_rejected (test_p01o_execution.ExecutionClosure.test_readiness_and_dependency_manifest_coverage_rejected) ... ok
+test_source_dependency_tool_and_binary_tamper_rejected (test_p01o_execution.ExecutionClosure.test_source_dependency_tool_and_binary_tamper_rejected) ... ok
+test_wrong_output_and_existing_attempt_rejected (test_p01o_execution.ExecutionClosure.test_wrong_output_and_existing_attempt_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.034s
+
+OK

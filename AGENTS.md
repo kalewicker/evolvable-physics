@@ -86,3 +86,24 @@ missingness and all historical negatives/inconclusives intact. No table repair,
 filter/reroll, favorable-law selection, world transitions, environment/detector
 changes or E01. Static authored coherence and mock equality do not establish
 sampled equivalence or chemistry; scientific status remains untested.
+
+## Current next boundary after P01o execution freeze
+
+P01o execution freeze/admission is prepared and identity-checked. See
+`docs/p01o_execution_freeze_notes.md`, `docs/p01o_execution_freeze.json` and
+`docs/p01o_execution_admission.json`. The pre-execution review verified 740
+project/input/receipt files, 3,088 dependency files, four tools, 466 prior public
+receipts and the existing tested generator-v4 binary. Fresh Cargo metadata and
+complete crate/Python/Rust dependency membership matched. Six new closure tests
+passed normally and optimized; retain the initial temporary-directory alias
+fixture failure and snapshots. No frozen implementation or gate changed.
+Commit/push this freeze/admission before the first v4 keyed evaluation.
+After that gate, only the exact single static census command/output
+`python3 scripts/p01o_census.py artifacts/p01o-001` is admitted. Verify closure
+and probe process/RSS accounting before directory creation; a capability failure
+before creation makes no keyed call. Once started, write all 128 planned cells
+before any sampler or independent hash-audit call and preserve/seal all outcomes.
+No retry/resumption/extension, repaired input, replacement or favorable-law
+selection. Post-seal receipt audit uses file hashes only. No sampled attempt or
+keyed evaluation occurred in preparing the freeze. No world transitions,
+detectors, environment change or E01 are admitted; scientific status untested.

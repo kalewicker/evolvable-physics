@@ -1,0 +1,22 @@
+{
+  "admitted_output": "artifacts/p01o-001",
+  "date": "2026-10-22",
+  "e01_authorized": false,
+  "execution_freeze_sha256": "6c1a90ab3f735257df83357cf46284ba574f4ff13720a0d69a2b3e1c8f5b3909",
+  "execution_gate": "this freeze/admission must be committed and pushed before first keyed evaluation, including independent hash audit",
+  "fixed_cells": 128,
+  "fixed_laws": 32,
+  "keyed_sampler_evaluations_so_far": 0,
+  "limits": "unchanged docs/p01o_protocol.json; all 128 planned manifest rows before any keyed call; pre-creation process/RSS capability check makes no keyed call",
+  "literal_implementation_readiness_sha256": "e406d64f9df50fee2b15390e826c70596e6f4d446e45d56dabbe57f2c1ca834f",
+  "no_retries_or_replacements": true,
+  "output_absolute": "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01o-001",
+  "protocol_sha256": "ab001093f6f38e73571e485ef8c32e4103106c4801ef823a5c4c64c6a7926064",
+  "registration_freeze_sha256": "5cf81d427179494d94ffb06d43cf5d93e1720489ea5f6571123acabfecab1fc5",
+  "sampling_admitted": true,
+  "schema": "p01o-static-execution-admission-v1",
+  "scientific_status": "untested",
+  "tests_and_build": "byte-identical reuse of tested generator-v4 binary and ten Python/four Rust tests, Clippy/release and literal/mock preflight; six new closure tests pass normal/optimized; initial temporary-directory fixture failure retained",
+  "world_execution_admitted": false,
+  "world_transitions_so_far": 0
+}

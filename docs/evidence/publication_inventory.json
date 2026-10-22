@@ -1865,6 +1865,58 @@
     {
       "file": "docs/evidence/p01o-implementation-001/publication_context.json",
       "sha256": "1c51966b0e523223cefd58537c6e3a576eb9d67fad64812d9d9767147745300c"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/failed-check/checks.json",
+      "sha256": "f95a7c0547862d634cbb61848052f8e44fe9ef5048fe353f8d8b6d60148486ca"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/failed-check/source-identities.json",
+      "sha256": "7142dd47966d5cf1ee166ced3b33de0321a36fc57eea8dae1daab2d8f95c4823"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/failed-check/tests-normal.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/failed-check/tests-normal.stderr",
+      "sha256": "351b68833ed9a1de1f1fcad9fff763a122704bd285f600c79c4451a1fd881d69"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/publication_context.json",
+      "sha256": "079f6cd26fae89401fdf4d43addd2011d29c76e1bffeac43a8c3e1e717fbb829"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/readiness.json",
+      "sha256": "37c6122a8eadab9d65ad69331d87669bf2536aa4bd02bad85ecc84b7d760f0e3"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/verified-check/checks.json",
+      "sha256": "b6d0df61c7d0a840a90a8de7abdb02283de603b62cf3301c698d18352e26ae8a"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/verified-check/rustc.log",
+      "sha256": "a30ae9f932f04d4426978deb2b626208c9d81ba5b3f9b0069d68b58f0b1d9600"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/verified-check/tests-normal.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/verified-check/tests-normal.stderr",
+      "sha256": "5529e02886143d4a4eeaf5a625af630a737656edb2db50dd42440258502c76a5"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/verified-check/tests-optimized.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/verified-check/tests-optimized.stderr",
+      "sha256": "242b02ab85f3bc3fa46cb0f66efd325c888aad37b5951feff5754257b3d2a1d7"
+    },
+    {
+      "file": "docs/evidence/p01o-execution-readiness-001/verified-check/toolchain.json",
+      "sha256": "0b611d1fcaf9fef851225aad94766ec4112a1c7a8e7221941da1e200d0c7abc9"
     }
   ]
 }

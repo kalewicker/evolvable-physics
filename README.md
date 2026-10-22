@@ -442,3 +442,15 @@ No v4 keyed draw or sampled census has run. Next prepare and commit/push the
 full execution closure and exact-output admission before the single registered
 static attempt. Scientific status remains untested; no world runs or E01 are
 admitted.
+
+## P01o execution freeze prepared
+
+The [freeze and admission](docs/p01o_execution_freeze_notes.md) bind one static
+census to `artifacts/p01o-001`. Pre-execution checks verified 740 source/input/
+receipt files, 3,088 dependencies, four tools and the unchanged tested binary.
+Six closure tests passed normally and optimized; the initial temporary-path
+fixture failure is retained. No keyed evaluation or sampled attempt occurred.
+
+After this gate is committed/pushed, next run only the registered 32-law/128-cell
+zero-epoch census, with the original budgets and stop/no-retry policy. All
+behavioral endpoints remain unexecuted; scientific status remains untested.

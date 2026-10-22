@@ -1,0 +1,77 @@
+{
+  "copies": [
+    {
+      "original": "artifacts/p01o-execution-readiness-001/readiness.json",
+      "public": "docs/evidence/p01o-execution-readiness-001/readiness.json",
+      "sha256": "37c6122a8eadab9d65ad69331d87669bf2536aa4bd02bad85ecc84b7d760f0e3"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-001/checks.json",
+      "public": "docs/evidence/p01o-execution-readiness-001/failed-check/checks.json",
+      "sha256": "f95a7c0547862d634cbb61848052f8e44fe9ef5048fe353f8d8b6d60148486ca"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-001/tests-normal.log",
+      "public": "docs/evidence/p01o-execution-readiness-001/failed-check/tests-normal.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-001/tests-normal.stderr",
+      "public": "docs/evidence/p01o-execution-readiness-001/failed-check/tests-normal.stderr",
+      "sha256": "351b68833ed9a1de1f1fcad9fff763a122704bd285f600c79c4451a1fd881d69"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-001/source-identities.json",
+      "public": "docs/evidence/p01o-execution-readiness-001/failed-check/source-identities.json",
+      "sha256": "7142dd47966d5cf1ee166ced3b33de0321a36fc57eea8dae1daab2d8f95c4823"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-002/checks.json",
+      "public": "docs/evidence/p01o-execution-readiness-001/verified-check/checks.json",
+      "sha256": "b6d0df61c7d0a840a90a8de7abdb02283de603b62cf3301c698d18352e26ae8a"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-002/tests-normal.log",
+      "public": "docs/evidence/p01o-execution-readiness-001/verified-check/tests-normal.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-002/tests-normal.stderr",
+      "public": "docs/evidence/p01o-execution-readiness-001/verified-check/tests-normal.stderr",
+      "sha256": "5529e02886143d4a4eeaf5a625af630a737656edb2db50dd42440258502c76a5"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-002/tests-optimized.log",
+      "public": "docs/evidence/p01o-execution-readiness-001/verified-check/tests-optimized.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-002/tests-optimized.stderr",
+      "public": "docs/evidence/p01o-execution-readiness-001/verified-check/tests-optimized.stderr",
+      "sha256": "242b02ab85f3bc3fa46cb0f66efd325c888aad37b5951feff5754257b3d2a1d7"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-002/toolchain.json",
+      "public": "docs/evidence/p01o-execution-readiness-001/verified-check/toolchain.json",
+      "sha256": "0b611d1fcaf9fef851225aad94766ec4112a1c7a8e7221941da1e200d0c7abc9"
+    },
+    {
+      "original": "artifacts/p01o-execution-build-002/rustc.log",
+      "public": "docs/evidence/p01o-execution-readiness-001/verified-check/rustc.log",
+      "sha256": "a30ae9f932f04d4426978deb2b626208c9d81ba5b3f9b0069d68b58f0b1d9600"
+    }
+  ],
+  "date": "2026-10-22",
+  "external_files": {
+    "AGENTS.md": "9d36dd731f95a0d2a6bbd7a6b123a52e0f60f9b81615e849bf1ce743a1577fb5",
+    "README.md": "3db28a33e373d4f4ce6551208e33dfe54924bf1e78000ec96595e7bfa433ca5b",
+    "docs/p01o_execution_admission.json": "f0646000ac215eba1f352843723d36a52579f2b3bd9f74ed1784aec4f1a2900d",
+    "docs/p01o_execution_freeze.json": "6c1a90ab3f735257df83357cf46284ba574f4ff13720a0d69a2b3e1c8f5b3909",
+    "docs/p01o_execution_freeze_notes.md": "418d192be41dcd35aba3d17ccaca9f2b82831742b587f22ac3082b105fb1195a",
+    "docs/status.json": "bed5ee3f38a7b8c99f73b87f100633f40baac9275562c89ae75acd40be9a2bc2",
+    "scripts/check_p01o_execution.py": "96a29cbed6c1b1fdd351d03b280045912eb19b30d7c354b706081397a6dbf9e3",
+    "scripts/test_p01o_execution.py": "9e64b6be8ee5926bd98fc8ce7199e4057a4986a81448501aed5c629b9b71bf78"
+  },
+  "note": "Pre-execution identity/closure review only; no keyed evaluation or sampled attempt. Full Cargo metadata, dependency inventory and failed-source snapshots remain local and are bound by the execution freeze. Original prior receipts remain byte-identical. Commit/push required before first keyed evaluation.",
+  "schema": "p01o-execution-freeze-publication-context-v1"
+}

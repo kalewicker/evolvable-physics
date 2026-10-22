@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-22",
-  "stage": "P01o_implementation_readiness_complete",
+  "stage": "P01o_execution_freeze_prepared",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "verify/freeze full source/dependency/tool/binary/input closure and exact fresh output admission; commit/push before any v4 keyed call, then only the one fixed P01o static census",
-    "no namespace-keyed source or live sampled-RSS integration has run; do not infer actual sampler equality or chemistry from literal/mock metadata",
-    "preserve all 32 laws/128 cells, fixed budgets, consumed panels and negative/inconclusive outcomes; no retry/resumption/extension, repair/filter/reroll, favorable-law selection, world execution or E01"
+    "commit/push the P01o execution freeze/admission before any v4 keyed evaluation; the tested source/binary and complete dependency closure are pinned",
+    "after that gate, verify closure and process/RSS capability before attempt creation, then execute only python3 scripts/p01o_census.py artifacts/p01o-001 with all 128 planned cells written before any keyed call",
+    "preserve/seal all cells, negatives, duplicates, failures and unstarted outcomes under unchanged budgets; no sampled retry/resume/extension, input repair, favorable selection, world execution or E01; post-seal audit hashes files only"
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -72,7 +72,7 @@
   "p01f_registration_freeze": "docs/p01f_registration_freeze.json",
   "generator_v2_implemented": true,
   "reachability_witness_runner_implemented": true,
-  "next_work_requires_execution_freeze": true,
+  "next_work_requires_execution_freeze": false,
   "p01f_execution_complete": true,
   "p01f_registration_consumed": true,
   "p01f_reachability_gate_pass": true,
@@ -223,7 +223,7 @@
   "p01m_design_complete": true,
   "generator_v4_implemented": true,
   "generator_v4_implementation_admitted": true,
-  "generator_v4_sampling_admitted": false,
+  "generator_v4_sampling_admitted": true,
   "generator_v4_design": "docs/generator_v4_design.json",
   "p01m_findings": "docs/p01m_findings.md",
   "p01m_closure": "docs/p01m_closure.json",
@@ -262,5 +262,10 @@
   "p01o_independent_auditor_implemented": true,
   "p01o_literal_mock_readiness_pass": true,
   "p01o_implementation_findings": "docs/p01o_implementation_findings.md",
-  "p01o_implementation_readiness": "docs/p01o_implementation_readiness.json"
+  "p01o_implementation_readiness": "docs/p01o_implementation_readiness.json",
+  "p01o_execution_freeze": "docs/p01o_execution_freeze.json",
+  "p01o_execution_admission": "docs/p01o_execution_admission.json",
+  "p01o_execution_freeze_notes": "docs/p01o_execution_freeze_notes.md",
+  "p01o_pre_execution_receipt": "docs/evidence/p01o-execution-readiness-001/readiness.json",
+  "p01o_execution_ready_after_commit_push": true
 }

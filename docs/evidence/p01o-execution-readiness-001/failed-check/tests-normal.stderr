@@ -1,0 +1,69 @@
+test_complete_invented_closure_passes_without_sampling (test_p01o_execution.ExecutionClosure.test_complete_invented_closure_passes_without_sampling) ... ERROR
+test_hashes_identify_files_only (test_p01o_execution.ExecutionClosure.test_hashes_identify_files_only) ... ERROR
+test_linked_freeze_and_admission_flags_rejected (test_p01o_execution.ExecutionClosure.test_linked_freeze_and_admission_flags_rejected) ... ok
+test_readiness_and_dependency_manifest_coverage_rejected (test_p01o_execution.ExecutionClosure.test_readiness_and_dependency_manifest_coverage_rejected) ... FAIL
+test_source_dependency_tool_and_binary_tamper_rejected (test_p01o_execution.ExecutionClosure.test_source_dependency_tool_and_binary_tamper_rejected) ... ok
+test_wrong_output_and_existing_attempt_rejected (test_p01o_execution.ExecutionClosure.test_wrong_output_and_existing_attempt_rejected) ... FAIL
+
+======================================================================
+ERROR: test_complete_invented_closure_passes_without_sampling (test_p01o_execution.ExecutionClosure.test_complete_invented_closure_passes_without_sampling)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01o_execution.py", line 55, in test_complete_invented_closure_passes_without_sampling
+    self.assertEqual(checker.review(self.root)['fixed_environments'], 128)
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/check_p01o_execution.py", line 12, in review
+    require(admission['admitted_output'] == 'artifacts/p01o-001' and
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            admission['output_absolute'] == str(output), 'fixed output directory')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/p01o_contract.py", line 11, in require
+    raise ValueError(message)
+ValueError: fixed output directory
+
+======================================================================
+ERROR: test_hashes_identify_files_only (test_p01o_execution.ExecutionClosure.test_hashes_identify_files_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01o_execution.py", line 105, in test_hashes_identify_files_only
+    self.assertEqual(checker.review(self.root)['keyed_evaluations_so_far'], 0)
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/check_p01o_execution.py", line 12, in review
+    require(admission['admitted_output'] == 'artifacts/p01o-001' and
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            admission['output_absolute'] == str(output), 'fixed output directory')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/p01o_contract.py", line 11, in require
+    raise ValueError(message)
+ValueError: fixed output directory
+
+======================================================================
+FAIL: test_readiness_and_dependency_manifest_coverage_rejected (test_p01o_execution.ExecutionClosure.test_readiness_and_dependency_manifest_coverage_rejected)
+----------------------------------------------------------------------
+ValueError: fixed output directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01o_execution.py", line 90, in test_readiness_and_dependency_manifest_coverage_rejected
+    with self.assertRaisesRegex(ValueError, 'readiness identity'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "readiness identity" does not match "fixed output directory"
+
+======================================================================
+FAIL: test_wrong_output_and_existing_attempt_rejected (test_p01o_execution.ExecutionClosure.test_wrong_output_and_existing_attempt_rejected)
+----------------------------------------------------------------------
+ValueError: fixed output directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01o_execution.py", line 75, in test_wrong_output_and_existing_attempt_rejected
+    with self.assertRaisesRegex(ValueError, 'no resume'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "no resume" does not match "fixed output directory"
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.022s
+
+FAILED (failures=2, errors=2)

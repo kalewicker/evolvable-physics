@@ -1,0 +1,19 @@
+{
+  "binary_sha256": "266d63798a1f22ca3d21592de923f5ab5850f904dc5dc685448600cf7934c755",
+  "cargo_dependency_packages": 21,
+  "dependency_files": 3088,
+  "execution_admission_sha256": "f0646000ac215eba1f352843723d36a52579f2b3bd9f74ed1784aec4f1a2900d",
+  "execution_freeze_sha256": "6c1a90ab3f735257df83357cf46284ba574f4ff13720a0d69a2b3e1c8f5b3909",
+  "fixed_environments": 128,
+  "fixed_laws": 32,
+  "keyed_evaluations_so_far": 0,
+  "prior_public_receipts_verified": 466,
+  "protocol_sha256": "ab001093f6f38e73571e485ef8c32e4103106c4801ef823a5c4c64c6a7926064",
+  "schema": "p01o-pre-execution-readiness-v1",
+  "scientific_status": "untested",
+  "scope": "identity/closure/admission review only; commit/push gate must precede sampled execution",
+  "source_files": 740,
+  "status": "pass",
+  "tool_files": 4,
+  "world_transitions": 0
+}
