@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "mode": "normal",
+      "returncode": 0,
+      "log_sha256": "8bd934e30faa7e60f4acff6307096c8b59500de6b69751bfa7291f661e45c5ae"
+    },
+    {
+      "mode": "optimized",
+      "returncode": 0,
+      "log_sha256": "8bd934e30faa7e60f4acff6307096c8b59500de6b69751bfa7291f661e45c5ae"
+    }
+  ],
+  "source_sha256": {
+    "scripts/check_p01q_registration.py": "ef4e9b7b4d979e9984fa0879d2679433c7598f21fbaf64215997ed291f93d2d3",
+    "scripts/test_p01q_registration.py": "3b9c6e84b99fae4236d913d9328c2f7d3e06661a3923654e3497f3dbe1b687d7",
+    "docs/p01q_protocol.json": "a1088536ee54ec2fb7688cda98c79ce94677db5974abb141d3d672e54c1bc639"
+  },
+  "world_transitions": 0,
+  "keyed_evaluations": 0
+}

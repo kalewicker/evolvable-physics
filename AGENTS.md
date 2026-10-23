@@ -181,3 +181,25 @@ implementation/execution. No favorable-table trajectory, generator repair,
 rerun of the consumed census, environment/detector change or E01 is admitted.
 Behavioral outcomes stay null/not_executed and scientific status untested;
 all P01g/P01k/P01o outcomes and inconclusives remain unchanged.
+
+
+## Current next boundary after P01q registration
+
+P01q is registered for first dynamics on all32 saved v4 laws/all128 environments,
+128epochs each, without keyed reevaluation or input changes. See
+`docs/p01q_protocol.json`, `docs/p01q_registration.md`,
+`docs/p01q_registration_freeze.json` and `docs/p01q_findings.md`.
+Eight registration tests passed normally/optimized; 271 frozen source files,
+264 inputs, 518 prior receipts and the original5127-entry inventory/seal matched.
+No new retained-body parsing, candidates or world transitions occurred.
+After commit/push, implement only the five registered new paths and validate
+all16 invented observation/mock pipeline control groups. Do not edit frozen
+Rust/Cargo/Python source, environment or detector paths. No concrete transitions
+or candidates, including fixture tests, until a separately committed/pushed
+full execution freeze/admission. Preserve every implementation/test failure.
+The future single artifacts/p01q-001 attempt uses unchanged P01g mechanism gate,
+secondary funding/descendant/cleanup observations, 1200s wall/600s CPU/2GiB caps
+and64MiB terminal reserve. Directory creation consumes the attempt; no retry,
+resumption, missing-cell completion, repair or favorable-law selection.
+Preserve null/not_executed outcomes until observed, all historical negatives and
+inconclusives, and original seals. Scientific status untested; no E01.

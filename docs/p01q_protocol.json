@@ -1,0 +1,167 @@
+{
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "budget_rationale": "Double the previous64-cell P01g aggregate caps for128cells; per-stage limits and horizon stay fixed. This is a bounded feasibility ceiling, not a forecast or guaranteed completion; savings from omitted generation are not reassigned.",
+  "campaign": {
+    "accounting": "One measured attempt includes custody, saved-input verification/copy, snapshots, worker, report, independent replay and event extraction, guards, inventories and seal. Compilation and invented structural tests precede the clock. Count controller and all child CPU and all emitted file bytes, including snapshots and failure receipts.",
+    "artifact_bytes": 2147483648,
+    "launch_policy": "Before each stage reserve full stage wall allowance plus5s, twice that allowance plus5s in aggregate CPU, output allowance and64MiB final metadata reserve. Stop at first failed reservation. Independently enforce aggregate caps during stages and controller operations; reserve closure capacity before first transition.",
+    "metadata_reserve_bytes": 67108864,
+    "poll_seconds": 0.01,
+    "rss_policy": "sampled enforcement plus reaped peak check; not a hard instantaneous memory bound",
+    "total_process_cpu_seconds": 600,
+    "wall_seconds": 1200
+  },
+  "closed_environment_limits": "initial activation 64, no supply; each birth burns activation, so at most 64 births per trajectory conservatively; free state/edge changes can persist and do not establish sustained constructive turnover",
+  "control_policy": "Invented event/world descriptors and mocked process stages only before execution admission; no concrete candidate enumeration, transition interpreter, retained-world execution or keyed calls in tests. Original P01f witness results remain evidence, never rerun. Runtime replay is admitted only as part of the future single registered attempt.",
+  "date": "2026-10-23",
+  "decision": {
+    "both_pass": "eligible to propose a fresh bounded development protocol; no automatic E01, longer run, seed expansion, driven environment or scientific claim",
+    "engineering_failure_or_incomplete": "stop; retain every case and diagnose infrastructure, censoring or feasibility; no expansion or completion of missing cells under this registration",
+    "engineering_pass_mechanism_fail": "stop this distribution's escalation; retain zeros and frozen gates; read-only diagnosis before any separately justified redesign"
+  },
+  "e01_authorized": false,
+  "engineering_gate": [
+    "all128 fixed trajectories complete128epochs with no missing/censored/failed/replaced cells",
+    "all saved input streams and original seals match; identical law table across each four-initial group; all immutable source/dependency/tool/binary identities match",
+    "unchanged Rust worker/report and independent original Python replay plus single-pass adapter agree on candidates, scheduling, dependencies, world states, ledgers, cap justification and every detector record",
+    "event evidence is derived from committed before/after state differences with exact event/node/edge IDs; separate event-observation auditor agrees without importing the primary extractor",
+    "all fixed invented controls pass before admission; all stage/aggregate cost ceilings, inventories and seals pass"
+  ],
+  "epochs": 128,
+  "execution_output": "artifacts/p01q-001",
+  "future_paths": {
+    "campaign": "scripts/p01q_campaign.py",
+    "cell": "scripts/p01q_cell.py",
+    "independent_events": "scripts/audit_p01q_events.py",
+    "receipt_audit": "scripts/audit_p01q_receipts.py",
+    "tests": "scripts/test_p01q.py"
+  },
+  "implementation_admitted_after_commit_push": true,
+  "initial_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "input_policy": "Load both saved generation stdout JSON streams for every cell, require complete exact JSON equality including types and identical ordered law tables across four initials. Copy the whole saved environment into the worker request without regeneration, normalization, ID/state/resource reset or changed limits. File hashing for custody is allowed; keyed generator message evaluation is forbidden.",
+  "keyed_evaluation_admitted": false,
+  "law_denominator": 32,
+  "mechanism_gate": {
+    "additional_funding_and_descendant_construction": "secondary descriptive endpoints; not substituted for the primary loop or imposed as extra acceptance thresholds",
+    "eligible_observations": "complete independently verified trajectories only; one qualifying table counts once even when multiple proposals or initial states share it",
+    "min_distinct_rule_tables_with_visible_birth": 2,
+    "min_of_those_tables_with_same_trajectory_visible_birth_recycle_loop": 1,
+    "rationale": "small engineering continuation criterion requiring repeatable access to detector-visible birth across distinct sampled tables plus one within-trajectory recycling example; not a statistical significance threshold or life criterion"
+  },
+  "observables": {
+    "additional_structural_funding": "later committed form-3 Structural Transfer has an actual earlier-born node as recipient; exclude the Transfer internal to its birth; retain transferred matter and activation",
+    "attached_funded_birth": "committed form-4 event creates a fresh node, a donor-to-child Structural edge, child free matter >=1 and activation >=1; record event ID, donor and created node ID",
+    "cleanup_events": "For each committed form6/7, record exact removed Structural edge ID and ordered endpoints, node deletion/preservation, donor/recipient balances and dissipated activation. Link endpoints to earlier births where present; cleanup6 can orphan G while it remains live.",
+    "descendant_construction": "committed form-4 birth has an actual earlier-born node as its donor/account; record both birth event IDs; this construction relation is not biological ancestry or causal reproduction",
+    "full_detector_record": "unchanged original Rust/Python environment detector output for every retained prefix; full-horizon AP null on censoring; never choose one estimator to replace disagreement",
+    "newborn_recycling": "committed form-7 deletion removes a node created in an earlier retained birth event in this same trajectory; record creation/deletion IDs and refund recipient",
+    "ordered_branch": "Secondary descriptive endpoint, no admission threshold: same distinct P,C,G in one cell; ordered events birth P->C, two subsequent form3 matter1 Structural transfers P->C, birth C->G, form6/7 removal of that C->G creation edge, then form7 recycle C to P using surviving P->C creation edge. Require creation edges survive until their named cleanup and at least the two funding events precede C birth. Enumerate all qualifying event tuples, deduplicate counts by (P,C,G,cleanup form); retain tuple evidence, intervening events and actual phase balances. Do not require isolated-branch predicted balances when intervening events occur; report net changes and total burns separately. This is temporal co-occurrence, not causal necessity or reproduction.",
+    "orphaning": "record when an actual newborn remains live with no incident Structural edge after a committed event",
+    "visible_birth": "an actual attached funded newborn belongs to at least one eligible connected proposal and at least one eligible interaction proposal at the same retained sample while live; record sample and both proposals; this is eligibility only",
+    "visible_birth_recycle_loop": "the same created node satisfies attached_funded_birth, visible_birth and later newborn_recycling within one trajectory; do not pool different nodes, initial states or laws"
+  },
+  "order": "proposal-major, initial-minor; all128 manifest slots before first transition; no filter, repair, replacement, reroll or resumed cell",
+  "per_process": {
+    "native": {
+      "output_bytes": 4456448,
+      "sampled_rss_bytes": 268435456,
+      "wall_seconds": 10
+    },
+    "python_audit": {
+      "output_bytes": 1048576,
+      "sampled_rss_bytes": 536870912,
+      "wall_seconds": 30
+    },
+    "rust_report": {
+      "output_bytes": 4194304,
+      "sampled_rss_bytes": 536870912,
+      "wall_seconds": 20
+    }
+  },
+  "prior_knowledge": "P01o and P01p static results are known, including the conditional cleanup7 branch in law6011; no v4 trajectories have been observed. This is post-static-data development registration, not a blind population experiment.",
+  "proposal_ids": [
+    6000,
+    6001,
+    6002,
+    6003,
+    6004,
+    6005,
+    6006,
+    6007,
+    6008,
+    6009,
+    6010,
+    6011,
+    6012,
+    6013,
+    6014,
+    6015,
+    6016,
+    6017,
+    6018,
+    6019,
+    6020,
+    6021,
+    6022,
+    6023,
+    6024,
+    6025,
+    6026,
+    6027,
+    6028,
+    6029,
+    6030,
+    6031
+  ],
+  "question": "Do attached births become detector-visible and later recycle under the unchanged scheduler, and do newborn funding, descendant construction and cleanup actually occur?",
+  "registration_only_now": true,
+  "reporting": {
+    "costs": "report aggregate measured pipeline CPU/wall/bytes and each stage's CPU/wall/RSS/output; per-run median, nearest-rank p95 and maximum; no whole-campaign forecast from witness timing",
+    "denominators": "All32 law cells and128 trajectories; all negatives, censored, failed and unstarted cells retained; four initials nested within law.",
+    "interpretation": "Fixed v4 panel with authored correlations and known static outcomes. Descriptive fractions only; no paired v3/v4 superiority, isolated state-versus-matter effect, population estimate or causal claim.",
+    "law_identity": "SHA-256 of canonical ordered eight-rule list omitting only id fields; retain duplicate bodies and tables, count distinct tables separately.",
+    "missingness": "report observed prefix mechanisms as lower-bound observations; unobserved full-horizon metrics are null with reason, never false or silently excluded",
+    "unit": "Proposal ID is law unit; initial states nested, not128 independent replicates."
+  },
+  "requirements_before_execution": [
+    "Commit/push this registration and source/input freeze before new implementation.",
+    "Implement only listed new paths, preserving existing Rust, Cargo, Python interpreters, environment and detectors. Test invented descriptors/mock stages only; retain every test/build failure with source identity.",
+    "Separately freeze full source/dependency/tool/binary/input closure including membership, verify old seals and fixed inputs, and commit/push execution admission before any world transition including tests.",
+    "Probe process/RSS capability before attempt-directory creation. Capability failure before creation has zero transitions. Once directory is created the registration is consumed, even if failure precedes first transition; never retry/resume/extend.",
+    "Write all128 planned manifest slots before any worker launch; preserve successful/failed/censored/unstarted states and a terminal receipt even on stop. If seal fails, preserve partial outputs and mark integrity failure, never rewrite original artifacts."
+  ],
+  "schema": "p01q-saved-panel-dynamics-registration-v1",
+  "scientific_status": "untested",
+  "source_bundle": "artifacts/p01o-001",
+  "source_seal_sha256": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00",
+  "trajectory_denominator": 128,
+  "verification_controls": [
+    "actual attached funded birth versus rule availability",
+    "initial node is not newborn",
+    "birth-internal Transfer is not additional funding",
+    "funding recipient and descendant donor must be the same earlier-born node",
+    "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+    "visibility requires both eligible proposal types at same retained sample while node live",
+    "different nodes, cells or tables cannot be pooled into a loop",
+    "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+    "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+    "exact refund and activation burn; no free activation restoration",
+    "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+    "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+    "Rust/Python detector disagreement remains inconclusive",
+    "input hash/type/slot mismatch fails; no sampler fallback",
+    "duplicate table digest counts once without dropping rows",
+    "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+  ],
+  "worker_request": {
+    "max_events": 16384,
+    "max_trace_bytes": 4194304
+  },
+  "world_execution_admitted_now": false
+}

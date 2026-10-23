@@ -1,0 +1,13 @@
+test_budgets_and_output_cannot_expand (test_p01q_registration.Registration.test_budgets_and_output_cannot_expand) ... ok
+test_missing_controls_or_observables_rejected (test_p01q_registration.Registration.test_missing_controls_or_observables_rejected) ... ok
+test_no_early_admission_or_observed_zero (test_p01q_registration.Registration.test_no_early_admission_or_observed_zero) ... ok
+test_panel_horizon_and_bool_mutations (test_p01q_registration.Registration.test_panel_horizon_and_bool_mutations) ... ok
+test_source_and_path_identity (test_p01q_registration.Registration.test_source_and_path_identity) ... ok
+test_threshold_and_historical_decision_unchanged (test_p01q_registration.Registration.test_threshold_and_historical_decision_unchanged) ... ok
+test_unfiltered_cartesian_order (test_p01q_registration.Registration.test_unfiltered_cartesian_order) ... ok
+test_valid_without_hashes_or_execution (test_p01q_registration.Registration.test_valid_without_hashes_or_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK

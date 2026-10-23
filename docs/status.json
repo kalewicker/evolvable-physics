@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
-  "date": "2026-10-22",
-  "stage": "P01p_read_only_review_complete",
+  "date": "2026-10-23",
+  "stage": "P01q_dynamical_assay_registered",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "separately justify/register a bounded unfiltered dynamical mechanism assay using all 32 retained laws/all 128 saved environments, fixing evidence, controls, horizons, gates, costs and failure policy before implementation/execution; no keyed reevaluation or favorable subset",
-    "preserve all original seals/inputs, source identities and P01g/P01k/P01o outcomes; conditional resource restoration spends activation and is not observed reproduction",
-    "no world runs, new sampler, generator repair, favorable-law selection, changed environment/detectors or E01 admitted by this read-only review; scientific status stays untested"
+    "Implement only five registered new P01q paths and validate all16 invented observation/mock pipeline controls; retain every attempt and preserve frozen source paths.",
+    "No world transitions, concrete candidates, retained-world tests or keyed evaluations before separately committed/pushed full execution closure/admission; all32 laws/all128 saved environments remain mandatory.",
+    "Preserve all consumed registrations, original seals and historical negatives/inconclusives; E01 unauthorized and scientific status untested."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -72,7 +72,7 @@
   "p01f_registration_freeze": "docs/p01f_registration_freeze.json",
   "generator_v2_implemented": true,
   "reachability_witness_runner_implemented": true,
-  "next_work_requires_execution_freeze": false,
+  "next_work_requires_execution_freeze": true,
   "p01f_execution_complete": true,
   "p01f_registration_consumed": true,
   "p01f_reachability_gate_pass": true,
@@ -295,5 +295,14 @@
   "p01p_independent_receipt": "docs/evidence/p01p-001/independent_audit.json",
   "p01p_body_combinations": 170,
   "p01p_cleanup7_branches_permitted_by_abstraction": 1,
-  "p01p_cleanup6_branches_permitted_by_abstraction": 0
+  "p01p_cleanup6_branches_permitted_by_abstraction": 0,
+  "p01q_behavioral_missing_reason": "not_executed",
+  "p01q_behavioral_outcomes": null,
+  "p01q_execution_started": false,
+  "p01q_implementation_admitted_after_commit_push": true,
+  "p01q_protocol": "docs/p01q_protocol.json",
+  "p01q_registration_complete": true,
+  "p01q_registration_findings": "docs/p01q_findings.md",
+  "p01q_registration_freeze": "docs/p01q_registration_freeze.json",
+  "p01q_registration_receipt": "docs/evidence/p01q-registration-001/static_review.json"
 }

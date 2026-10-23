@@ -1,0 +1,27 @@
+{
+  "copies": {
+    "artifacts/p01q-registration-001/static_review.json": {
+      "public": "docs/evidence/p01q-registration-001/static_review.json",
+      "sha256": "0e5232939c8f575e66d961290a45c480234e5912c99f86ac487f82bbaea4c445"
+    },
+    "artifacts/p01q-registration-build-001/normal.log": {
+      "public": "docs/evidence/p01q-registration-001/normal.log",
+      "sha256": "8bd934e30faa7e60f4acff6307096c8b59500de6b69751bfa7291f661e45c5ae"
+    },
+    "artifacts/p01q-registration-build-001/optimized.log": {
+      "public": "docs/evidence/p01q-registration-001/optimized.log",
+      "sha256": "8bd934e30faa7e60f4acff6307096c8b59500de6b69751bfa7291f661e45c5ae"
+    },
+    "artifacts/p01q-registration-build-001/tests.json": {
+      "public": "docs/evidence/p01q-registration-001/tests.json",
+      "sha256": "d3bfb39e0ed79fd350d9873198b6a3ea37583f834ada88f851e1295eb4562eeb"
+    }
+  },
+  "findings_sha256": "6f8840798f94670d18e016d85f0744e2edd931d29df113d020d1ded89d58c0ef",
+  "freeze_sha256": "d219adf2436d3cf5e298216ce0fee8686a7e607cf29403cbdf12986ff44ac29c",
+  "keyed_evaluations": 0,
+  "protocol_sha256": "a1088536ee54ec2fb7688cda98c79ce94677db5974abb141d3d672e54c1bc639",
+  "schema": "p01q-registration-publication-v1",
+  "source_snapshots": "artifacts/p01q-registration-build-001/sources; local only",
+  "world_transitions": 0
+}

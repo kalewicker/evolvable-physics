@@ -497,3 +497,12 @@ Thirteen tests passed normally and optimized, including 924 independent state
 comparisons. All inputs and original seals remain intact. Next separately
 register an unfiltered bounded dynamical mechanism assay across all saved
 initial environments. No favorable-law run, new sampling or E01 is admitted.
+
+
+P01q now registers the first bounded dynamical assay over all 32 retained v4
+laws and 128 saved environments, with a fixed 128-epoch horizon and unchanged
+P01g continuation criteria. No trajectories have run. Eight registration tests
+and complete source/input custody checks passed. Next is implementation and
+invented-control readiness, then a separate execution freeze/admission.
+See [registration findings](docs/p01q_findings.md) and
+[protocol rationale](docs/p01q_registration.md).

@@ -2073,6 +2073,26 @@
     {
       "file": "docs/evidence/p01p-001/tests/tests.json",
       "sha256": "dc295874bd90633491ab9c24ae4e420d6810535be385b1a6f5a6aab6560c3085"
+    },
+    {
+      "file": "docs/evidence/p01q-registration-001/normal.log",
+      "sha256": "8bd934e30faa7e60f4acff6307096c8b59500de6b69751bfa7291f661e45c5ae"
+    },
+    {
+      "file": "docs/evidence/p01q-registration-001/optimized.log",
+      "sha256": "8bd934e30faa7e60f4acff6307096c8b59500de6b69751bfa7291f661e45c5ae"
+    },
+    {
+      "file": "docs/evidence/p01q-registration-001/publication_context.json",
+      "sha256": "44613791a7ffc0f5973556b351aef2fcff70ab38349e1e8343d9d6892d3ea930"
+    },
+    {
+      "file": "docs/evidence/p01q-registration-001/static_review.json",
+      "sha256": "0e5232939c8f575e66d961290a45c480234e5912c99f86ac487f82bbaea4c445"
+    },
+    {
+      "file": "docs/evidence/p01q-registration-001/tests.json",
+      "sha256": "d3bfb39e0ed79fd350d9873198b6a3ea37583f834ada88f851e1295eb4562eeb"
     }
   ]
 }

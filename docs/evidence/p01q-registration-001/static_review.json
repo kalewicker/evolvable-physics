@@ -1,0 +1,25 @@
+{
+  "analysis_inputs_verified": 264,
+  "behavioral_outcomes": null,
+  "fixed_initial_records": 128,
+  "fixed_laws": 32,
+  "historical_file_counts": {
+    "docs/p01k_execution_freeze.json": 172,
+    "docs/p01n_registration_freeze.json": 220,
+    "docs/p01o_execution_freeze.json": 740,
+    "docs/p01o_registration_freeze.json": 235,
+    "docs/p01p_analysis_freeze.json": 260
+  },
+  "keyed_evaluations": 0,
+  "original_inventory_entries_verified": 5127,
+  "planned_epochs_per_cell": 128,
+  "prior_public_receipts_verified": 518,
+  "registered_controls": 16,
+  "registration_files_verified": 271,
+  "registration_freeze_sha256": "d219adf2436d3cf5e298216ce0fee8686a7e607cf29403cbdf12986ff44ac29c",
+  "retained_rule_bodies_parsed": 0,
+  "schema": "p01q-static-registration-review-v1",
+  "scientific_status": "untested",
+  "status": "pass",
+  "world_transitions": 0
+}
