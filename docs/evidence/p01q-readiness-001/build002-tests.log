@@ -1,0 +1,22 @@
+test_availability_and_initial_nodes_are_not_births (test_p01q.ObservationControls.test_availability_and_initial_nodes_are_not_births) ... ok
+test_birth_internal_transfer_not_additional_funding (test_p01q.ObservationControls.test_birth_internal_transfer_not_additional_funding) ... ok
+test_birth_must_be_funded_attached_and_paid (test_p01q.ObservationControls.test_birth_must_be_funded_attached_and_paid) ... ok
+test_censored_and_disagreement_keep_null_or_inconclusive (test_p01q.ObservationControls.test_censored_and_disagreement_keep_null_or_inconclusive) ... ok
+test_cleanup6_preserves_orphan_and_spends_activation (test_p01q.ObservationControls.test_cleanup6_preserves_orphan_and_spends_activation) ... ok
+test_funding_donor_and_same_node_cannot_be_pooled (test_p01q.ObservationControls.test_funding_donor_and_same_node_cannot_be_pooled) ... ok
+test_independent_oracle_and_receipt_mutations (test_p01q.ObservationControls.test_independent_oracle_and_receipt_mutations) ... ok
+test_order_and_unrelated_intervening_events (test_p01q.ObservationControls.test_order_and_unrelated_intervening_events) ... ok
+test_reused_body_same_kind_distinct_nodes_and_cleanup7 (test_p01q.ObservationControls.test_reused_body_same_kind_distinct_nodes_and_cleanup7) ... ok
+test_visibility_needs_both_proposals_same_live_sample (test_p01q.ObservationControls.test_visibility_needs_both_proposals_same_live_sample) ... ok
+test_wrong_edge_nonleaf_and_refund_rejected (test_p01q.ObservationControls.test_wrong_edge_nonleaf_and_refund_rejected) ... ok
+test_all128_mock_pipeline_and_stage_failure_stop (test_p01q.PipelineControls.test_all128_mock_pipeline_and_stage_failure_stop) ... ok
+test_complete_unstarted_receipt_bundle_and_inventory_corruption (test_p01q.PipelineControls.test_complete_unstarted_receipt_bundle_and_inventory_corruption) ... ok
+test_negative_full_panel_and_duplicates_and_no_pooling (test_p01q.PipelineControls.test_negative_full_panel_and_duplicates_and_no_pooling) ... ok
+test_no_execution_without_admission_and_seal_failure_retained (test_p01q.PipelineControls.test_no_execution_without_admission_and_seal_failure_retained) ... ok
+test_reservation_watchdog_and_missingness (test_p01q.PipelineControls.test_reservation_watchdog_and_missingness) ... ok
+test_saved_input_hash_types_and_no_fallback (test_p01q.PipelineControls.test_saved_input_hash_types_and_no_fallback) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.188s
+
+OK

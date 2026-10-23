@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/p01q_campaign.py", line 13, in <module>
+    import audit
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit.py", line 11, in <module>
+    raise RuntimeError('Independent audit requires assertions; do not use Python -O')
+RuntimeError: Independent audit requires assertions; do not use Python -O

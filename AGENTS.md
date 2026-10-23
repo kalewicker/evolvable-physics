@@ -203,3 +203,22 @@ and64MiB terminal reserve. Directory creation consumes the attempt; no retry,
 resumption, missing-cell completion, repair or favorable-law selection.
 Preserve null/not_executed outcomes until observed, all historical negatives and
 inconclusives, and original seals. Scientific status untested; no E01.
+
+## Current next boundary after P01q implementation readiness
+
+The five P01q paths are implemented; registration commit d141b61 preceded them.
+See docs/p01q_implementation_findings.md and docs/p01q_implementation_readiness.json.
+Seventeen invented/mock tests pass, covering all16 control groups and a complete
+128-cell/384-stage mock pipeline. Four optimized-Python entry points reject
+assertion-disabled execution. Both passing build snapshots are retained; no
+failed test, keyed call, candidate enumeration or world transition occurred.
+All271 registration files,264 inputs,523 previous public receipts and the original
+5127-entry P01o inventory/seal matched. Separate event observations agree on both
+cleanup routes, exact identities, branch phase balances and activation burns.
+Next prepare/verify full execution closure and separate admission, including
+exact membership, tools, worker/report binaries and all saved inputs. Commit/push
+that closure before any world transition, including fixture tests. Live watchdog
+integration and actual pipeline costs remain untested. The single future attempt
+is artifacts/p01q-001; no resume, retry, replacement, repaired input, favorable
+subset or extended horizon. Preserve all historical outcomes, null/not_executed
+v4 behavior and untested scientific status. E01 remains unauthorized.

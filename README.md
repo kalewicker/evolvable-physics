@@ -506,3 +506,9 @@ and complete source/input custody checks passed. Next is implementation and
 invented-control readiness, then a separate execution freeze/admission.
 See [registration findings](docs/p01q_findings.md) and
 [protocol rationale](docs/p01q_registration.md).
+
+P01q implementation readiness is complete: 17 invented/mock tests cover the
+registered controls, including all 128 cells and 384 mocked stages. Separate
+event auditors preserve cleanup/orphan distinctions and actual phase balances.
+No world has run; next is the separately committed execution closure/admission.
+See [implementation findings](docs/p01q_implementation_findings.md).

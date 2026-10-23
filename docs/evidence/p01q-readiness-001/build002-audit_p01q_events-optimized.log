@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01q_events.py", line 8, in <module>
+    if not __debug__: raise RuntimeError('Event audit requires assertions')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Event audit requires assertions

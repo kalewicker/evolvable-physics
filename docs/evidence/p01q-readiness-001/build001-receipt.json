@@ -1,0 +1,10 @@
+{
+  "returncode": 0,
+  "sources": {
+    "scripts/p01q_campaign.py": "6faab1d2024bf3ce2164f18acb0102b6589fd11c64a8229cafc37688def53fce",
+    "scripts/p01q_cell.py": "813b5d48654285b85d095377f323b80bc526266ad47c9ca86ae73ef445ab52df",
+    "scripts/audit_p01q_events.py": "a5e8607c5a0f0c6d4fad4e298ed3a6525fa43c0145915e3c2577ebdb7e30433f",
+    "scripts/audit_p01q_receipts.py": "246379fa087d6861d60756c0d0f117c898afee6e6af4f00b5f0e725f73387fe6",
+    "scripts/test_p01q.py": "2dc58212269901b6fcc5632dfc752c07366f3a5240d3330b4d0a47a5a5457bb4"
+  }
+}

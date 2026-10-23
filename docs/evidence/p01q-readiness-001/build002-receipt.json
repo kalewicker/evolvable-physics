@@ -1,0 +1,34 @@
+{
+  "returncode": 0,
+  "sources": {
+    "scripts/p01q_campaign.py": "64ff0aa3a6bfceb0af4d8431ccff8c07ef76a1576574ab5e8877f9131d1eb1eb",
+    "scripts/p01q_cell.py": "0d42f146dd577beb59a53391661b5fba197a0195396414e9dfc858a7f2dd040b",
+    "scripts/audit_p01q_events.py": "a5e8607c5a0f0c6d4fad4e298ed3a6525fa43c0145915e3c2577ebdb7e30433f",
+    "scripts/audit_p01q_receipts.py": "246379fa087d6861d60756c0d0f117c898afee6e6af4f00b5f0e725f73387fe6",
+    "scripts/test_p01q.py": "033bbcbedee0662df96fb3bbe4c8c850964ed49d8527d3d57d34afb7f129c5fc"
+  },
+  "optimized_rejection_checks": [
+    {
+      "script": "scripts/p01q_campaign.py",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "script": "scripts/p01q_cell.py",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "script": "scripts/audit_p01q_events.py",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "script": "scripts/audit_p01q_receipts.py",
+      "returncode": 1,
+      "rejected": true
+    }
+  ],
+  "world_transitions": 0,
+  "keyed_evaluations": 0
+}

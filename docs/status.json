@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-23",
-  "stage": "P01q_dynamical_assay_registered",
+  "stage": "P01q_implementation_readiness_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Implement only five registered new P01q paths and validate all16 invented observation/mock pipeline controls; retain every attempt and preserve frozen source paths.",
-    "No world transitions, concrete candidates, retained-world tests or keyed evaluations before separately committed/pushed full execution closure/admission; all32 laws/all128 saved environments remain mandatory.",
-    "Preserve all consumed registrations, original seals and historical negatives/inconclusives; E01 unauthorized and scientific status untested."
+    "Prepare and verify P01q full source/dependency/tool/binary/saved-input execution closure and separate admission, preserving all registered caps, gates and128cells.",
+    "Commit/push execution freeze/admission before any world transition, including fixture tests. Live watchdog integration and actual pipeline costs remain untested.",
+    "Preserve original seals, every prior negative/inconclusive result and null/not_executed v4 behavioral outcomes; no new keyed sampling, favorable law selection or E01."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -304,5 +304,9 @@
   "p01q_registration_complete": true,
   "p01q_registration_findings": "docs/p01q_findings.md",
   "p01q_registration_freeze": "docs/p01q_registration_freeze.json",
-  "p01q_registration_receipt": "docs/evidence/p01q-registration-001/static_review.json"
+  "p01q_registration_receipt": "docs/evidence/p01q-registration-001/static_review.json",
+  "p01q_implementation_complete": true,
+  "p01q_invented_mock_readiness_pass": true,
+  "p01q_readiness": "docs/p01q_implementation_readiness.json",
+  "p01q_implementation_findings": "docs/p01q_implementation_findings.md"
 }

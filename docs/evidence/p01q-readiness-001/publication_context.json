@@ -1,0 +1,42 @@
+{
+  "copies": {
+    "artifacts/p01q-build-001/receipt.json": {
+      "public": "docs/evidence/p01q-readiness-001/build001-receipt.json",
+      "sha256": "47190f8485dd65ccf09cb6868d02fbec567af2ab1e87cdc221332961530cc90b"
+    },
+    "artifacts/p01q-build-001/tests.log": {
+      "public": "docs/evidence/p01q-readiness-001/build001-tests.log",
+      "sha256": "1f8c7e15fe8d68781c0c29843548d1559b504d0950f2a20571d86b57aa230e0d"
+    },
+    "artifacts/p01q-build-002/audit_p01q_events-optimized.log": {
+      "public": "docs/evidence/p01q-readiness-001/build002-audit_p01q_events-optimized.log",
+      "sha256": "acfd384f998f8fed0681eed76e4c87196acad303f4a0b23ace3d7189a6d9f4a5"
+    },
+    "artifacts/p01q-build-002/audit_p01q_receipts-optimized.log": {
+      "public": "docs/evidence/p01q-readiness-001/build002-audit_p01q_receipts-optimized.log",
+      "sha256": "54906931682849ad9a7c58ed59764d566edcd8afd2f8332c5bcc6a95fa852a99"
+    },
+    "artifacts/p01q-build-002/p01q_campaign-optimized.log": {
+      "public": "docs/evidence/p01q-readiness-001/build002-p01q_campaign-optimized.log",
+      "sha256": "3930623141159c3b88bd259a9bd3146af0185e573de679920d0fadebc5010b04"
+    },
+    "artifacts/p01q-build-002/p01q_cell-optimized.log": {
+      "public": "docs/evidence/p01q-readiness-001/build002-p01q_cell-optimized.log",
+      "sha256": "cffb46428859f4bd81239bde8df4d21167102aaf45926f511642280996a005be"
+    },
+    "artifacts/p01q-build-002/receipt.json": {
+      "public": "docs/evidence/p01q-readiness-001/build002-receipt.json",
+      "sha256": "3c424fabaa41f4d3238b71c547e2acdbe4a6b4769fe8db64481fe79f01656bcb"
+    },
+    "artifacts/p01q-build-002/tests.log": {
+      "public": "docs/evidence/p01q-readiness-001/build002-tests.log",
+      "sha256": "3a749c783e5f92db09baaac5ee277fb83e6f156441307506f731edae7247aa35"
+    },
+    "artifacts/p01q-readiness-001/readiness.json": {
+      "public": "docs/evidence/p01q-readiness-001/readiness.json",
+      "sha256": "0caa3d162dd46bd2aff30ba0e10f4f38080712a4b9557b27abb9bce55cbb57ee"
+    }
+  },
+  "findings_sha256": "b671bb23711a9904279edcd5fb67e7e3704979e00af676e87d902f8febb56cbd",
+  "schema": "p01q-readiness-publication-v1"
+}

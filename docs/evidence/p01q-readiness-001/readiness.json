@@ -1,0 +1,81 @@
+{
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "control_tests": {
+    "Rust/Python detector disagreement remains inconclusive": "test_censored_and_disagreement_keep_null_or_inconclusive",
+    "actual attached funded birth versus rule availability": "test_birth_must_be_funded_attached_and_paid",
+    "birth-internal Transfer is not additional funding": "test_birth_internal_transfer_not_additional_funding",
+    "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds": "test_cleanup6_preserves_orphan_and_spends_activation",
+    "different nodes, cells or tables cannot be pooled into a loop": "test_negative_full_panel_and_duplicates_and_no_pooling",
+    "duplicate table digest counts once without dropping rows": "test_negative_full_panel_and_duplicates_and_no_pooling",
+    "exact refund and activation burn; no free activation restoration": "test_reused_body_same_kind_distinct_nodes_and_cleanup7",
+    "funding recipient and descendant donor must be the same earlier-born node": "test_funding_donor_and_same_node_cannot_be_pooled",
+    "initial node is not newborn": "test_availability_and_initial_nodes_are_not_births",
+    "input hash/type/slot mismatch fails; no sampler fallback": "test_saved_input_hash_types_and_no_fallback",
+    "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases": "test_order_and_unrelated_intervening_events",
+    "same-kind roles still require distinct node IDs; reused rule bodies allowed": "test_reused_body_same_kind_distinct_nodes_and_cleanup7",
+    "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry": "test_no_execution_without_admission_and_seal_failure_retained",
+    "visibility requires both eligible proposal types at same retained sample while node live": "test_visibility_needs_both_proposals_same_live_sample",
+    "whole-epoch cap or truncated output keeps verified prefix but full horizon null": "test_censored_and_disagreement_keep_null_or_inconclusive",
+    "wrong edge direction, missing creation edge or nonleaf deletion rejected": "test_wrong_edge_nonleaf_and_refund_rejected"
+  },
+  "development_attempts": [
+    {
+      "path": "artifacts/p01q-build-001/receipt.json",
+      "sha256": "47190f8485dd65ccf09cb6868d02fbec567af2ab1e87cdc221332961530cc90b",
+      "status": "pass"
+    },
+    {
+      "path": "artifacts/p01q-build-002/receipt.json",
+      "sha256": "3c424fabaa41f4d3238b71c547e2acdbe4a6b4769fe8db64481fe79f01656bcb",
+      "status": "pass"
+    }
+  ],
+  "e01_authorized": false,
+  "execution_admitted": false,
+  "keyed_evaluations": 0,
+  "mock_pipeline_cells": 128,
+  "mock_stage_calls": 384,
+  "optimized_rejections": [
+    {
+      "rejected": true,
+      "returncode": 1,
+      "script": "scripts/p01q_campaign.py"
+    },
+    {
+      "rejected": true,
+      "returncode": 1,
+      "script": "scripts/p01q_cell.py"
+    },
+    {
+      "rejected": true,
+      "returncode": 1,
+      "script": "scripts/audit_p01q_events.py"
+    },
+    {
+      "rejected": true,
+      "returncode": 1,
+      "script": "scripts/audit_p01q_receipts.py"
+    }
+  ],
+  "original_inventory_entries_verified": 5127,
+  "original_seal_sha256": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00",
+  "prior_public_receipts_verified": 523,
+  "registered_control_groups": 16,
+  "registration_commit": "d141b615842f26fea93863006824ca7993bf773c",
+  "registration_files_verified": 271,
+  "registration_freeze_sha256": "d219adf2436d3cf5e298216ce0fee8686a7e607cf29403cbdf12986ff44ac29c",
+  "saved_inputs_verified": 264,
+  "schema": "p01q-implementation-readiness-v1",
+  "scientific_status": "untested",
+  "sources": {
+    "scripts/audit_p01q_events.py": "a5e8607c5a0f0c6d4fad4e298ed3a6525fa43c0145915e3c2577ebdb7e30433f",
+    "scripts/audit_p01q_receipts.py": "246379fa087d6861d60756c0d0f117c898afee6e6af4f00b5f0e725f73387fe6",
+    "scripts/p01q_campaign.py": "64ff0aa3a6bfceb0af4d8431ccff8c07ef76a1576574ab5e8877f9131d1eb1eb",
+    "scripts/p01q_cell.py": "0d42f146dd577beb59a53391661b5fba197a0195396414e9dfc858a7f2dd040b",
+    "scripts/test_p01q.py": "033bbcbedee0662df96fb3bbe4c8c850964ed49d8527d3d57d34afb7f129c5fc"
+  },
+  "status": "pass",
+  "tests_passed": 17,
+  "world_transitions": 0
+}
