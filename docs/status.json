@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-23",
-  "stage": "P01q_implementation_readiness_complete",
+  "stage": "P01q_execution_freeze_ready",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Prepare and verify P01q full source/dependency/tool/binary/saved-input execution closure and separate admission, preserving all registered caps, gates and128cells.",
-    "Commit/push execution freeze/admission before any world transition, including fixture tests. Live watchdog integration and actual pipeline costs remain untested.",
-    "Preserve original seals, every prior negative/inconclusive result and null/not_executed v4 behavioral outcomes; no new keyed sampling, favorable law selection or E01."
+    "After execution freeze/admission commit/push, run only PYTHONDONTWRITEBYTECODE=1 python3 scripts/p01q_campaign.py artifacts/p01q-001, with pre-creation closure/RSS checks and all128 manifest slots before transitions.",
+    "Preserve and audit the sole attempt, including all negative/censored/failed/unstarted cells and costs. Directory creation consumes the registration; no retry, resumption, replacement, repair, favorable-law subset or expanded budget/horizon.",
+    "No keyed reevaluation, environment/detector change or E01; scientific status remains untested and all historical outcomes/criteria stay unchanged."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -72,7 +72,7 @@
   "p01f_registration_freeze": "docs/p01f_registration_freeze.json",
   "generator_v2_implemented": true,
   "reachability_witness_runner_implemented": true,
-  "next_work_requires_execution_freeze": true,
+  "next_work_requires_execution_freeze": false,
   "p01f_execution_complete": true,
   "p01f_registration_consumed": true,
   "p01f_reachability_gate_pass": true,
@@ -308,5 +308,10 @@
   "p01q_implementation_complete": true,
   "p01q_invented_mock_readiness_pass": true,
   "p01q_readiness": "docs/p01q_implementation_readiness.json",
-  "p01q_implementation_findings": "docs/p01q_implementation_findings.md"
+  "p01q_implementation_findings": "docs/p01q_implementation_findings.md",
+  "p01q_execution_freeze": "docs/p01q_execution_freeze.json",
+  "p01q_execution_admission": "docs/p01q_execution_admission.json",
+  "p01q_execution_freeze_notes": "docs/p01q_execution_freeze_notes.md",
+  "p01q_pre_execution_receipt": "docs/evidence/p01q-execution-readiness-001/readiness.json",
+  "p01q_execution_ready_after_commit_push": true
 }

@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "runtime_checker": true,
+  "source_files": 1107,
+  "dependency_files": 3846,
+  "world_transitions": 0,
+  "keyed_evaluations": 0,
+  "attempt_directory_exists": false
+}

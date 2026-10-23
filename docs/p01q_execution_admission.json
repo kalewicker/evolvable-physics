@@ -1,0 +1,26 @@
+{
+  "admitted_output": "artifacts/p01q-001",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 scripts/p01q_campaign.py artifacts/p01q-001",
+  "commit_push_gate": "This admission and full freeze must be committed and pushed before first transition. No execution occurred while preparing admission.",
+  "date": "2026-10-23",
+  "e01_authorized": false,
+  "epochs": 128,
+  "execution_freeze_sha256": "25427df0e00713d524f8e6565e962e6487db4967ef6b67e9a181a6c868e3bdad",
+  "failure_policy": "Capability probe before attempt creation. Creation consumes registration. Preserve every cell and failure; no resume/retry/repair/replacement/extension.",
+  "fixed_laws": 32,
+  "fixed_slots": 128,
+  "implementation_readiness_sha256": "6dacdd4c7fec6a4280a6f9c205d055356123332f8cfad9a25cc9075f06bb6836",
+  "keyed_evaluation_admitted": false,
+  "next": "After commit/push, one bounded all128-cell attempt and saved-receipt audit only; no automatic E01 or expansion.",
+  "no_retries_or_replacements": true,
+  "output_absolute": "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01q-001",
+  "protocol_sha256": "a1088536ee54ec2fb7688cda98c79ce94677db5974abb141d3d672e54c1bc639",
+  "registration_freeze_sha256": "d219adf2436d3cf5e298216ce0fee8686a7e607cf29403cbdf12986ff44ac29c",
+  "required_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "schema": "p01q-execution-admission-v1",
+  "scientific_status": "untested",
+  "world_execution_admitted": true,
+  "world_transitions_so_far": 0
+}

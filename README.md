@@ -512,3 +512,9 @@ registered controls, including all 128 cells and 384 mocked stages. Separate
 event auditors preserve cleanup/orphan distinctions and actual phase balances.
 No world has run; next is the separately committed execution closure/admission.
 See [implementation findings](docs/p01q_implementation_findings.md).
+
+P01q execution freeze/admission is now prepared and checked: the original
+worker/report binaries, all saved inputs, 3,846 dependency files and exact
+directory memberships are pinned. Six additional closure tests passed. No world
+has run; the next boundary is the single admitted attempt after commit/push.
+See [execution freeze notes](docs/p01q_execution_freeze_notes.md).

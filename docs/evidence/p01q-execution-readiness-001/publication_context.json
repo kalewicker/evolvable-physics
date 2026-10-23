@@ -1,0 +1,38 @@
+{
+  "admission_sha256": "e843d72e2c6fb4a583e737b7e21ef610558d26471e333549c107d4e081b10f37",
+  "copies": {
+    "artifacts/p01q-execution-build-001/cargo_metadata.stderr": {
+      "public": "docs/evidence/p01q-execution-readiness-001/cargo_metadata.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "artifacts/p01q-execution-build-001/host.json": {
+      "public": "docs/evidence/p01q-execution-readiness-001/host.json",
+      "sha256": "c27c1c5d1f65407f046574b9845723cd9a32d940c0a304e15cbdac9c3819cb55"
+    },
+    "artifacts/p01q-execution-build-001/normal.log": {
+      "public": "docs/evidence/p01q-execution-readiness-001/normal.log",
+      "sha256": "314519f2d5d6ebc5a18c646ff908c42be0b669e2606425e897a43f07993f3c37"
+    },
+    "artifacts/p01q-execution-build-001/optimized.log": {
+      "public": "docs/evidence/p01q-execution-readiness-001/optimized.log",
+      "sha256": "96530523e76594e09c22acb495ff672ef18b4cc47718b6b672ebcaff5b0d253d"
+    },
+    "artifacts/p01q-execution-build-001/tests.json": {
+      "public": "docs/evidence/p01q-execution-readiness-001/tests.json",
+      "sha256": "6046fed45cd4959b998d4b199b7eb411f5498291233352df76b9d5e555af8aa8"
+    },
+    "artifacts/p01q-execution-readiness-001/readiness.json": {
+      "public": "docs/evidence/p01q-execution-readiness-001/readiness.json",
+      "sha256": "5bb7cd4d530fa812b019fbcfec12b0114566b24dd066303b1e1cf55d39e8a7fc"
+    },
+    "artifacts/p01q-execution-readiness-001/runner_closure.json": {
+      "public": "docs/evidence/p01q-execution-readiness-001/runner_closure.json",
+      "sha256": "a53509049b031e97cbd2f0d60d7267a5c7e2df2e80f21aa47498701030cb36d7"
+    }
+  },
+  "freeze_sha256": "25427df0e00713d524f8e6565e962e6487db4967ef6b67e9a181a6c868e3bdad",
+  "keyed_evaluations": 0,
+  "notes_sha256": "3ce7998113ce0d427dfc94fa302340cbc08ff9f5c3599da0f6e1b966e165496d",
+  "schema": "p01q-execution-readiness-publication-v1",
+  "world_transitions": 0
+}

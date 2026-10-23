@@ -222,3 +222,22 @@ integration and actual pipeline costs remain untested. The single future attempt
 is artifacts/p01q-001; no resume, retry, replacement, repaired input, favorable
 subset or extended horizon. Preserve all historical outcomes, null/not_executed
 v4 behavior and untested scientific status. E01 remains unauthorized.
+
+## Current next boundary after P01q execution freeze
+
+P01q full execution freeze/admission is prepared and checked. See
+`docs/p01q_execution_freeze_notes.md`, `docs/p01q_execution_freeze.json` and
+`docs/p01q_execution_admission.json`. Read-only review and the runner's closure
+check passed: 1,107 source/input files, 3,846 dependencies, four tools, 23 directory
+memberships and 533 previous receipts. Worker/report binaries match P01g exactly.
+Six new closure tests passed normally/optimized; no test failure or world run.
+All registered inputs, implementation hashes, prior dependencies and seals remain
+unchanged. Existing Python caches are additionally pinned; disable bytecode writes.
+Commit/push this freeze/admission before the first transition. After that gate,
+only `PYTHONDONTWRITEBYTECODE=1 python3 scripts/p01q_campaign.py artifacts/p01q-001`
+is admitted. Probe closure/process/RSS before directory creation; creation consumes
+the attempt. All128 slots precede worker launch. Keep every outcome and cost,
+then audit saved receipts without replaying worlds or keyed sampling. No retry,
+resume, missing-cell completion, repaired/replaced input, favorable-law selection,
+extended horizon or relaxed gate. Live watchdog behavior and real pipeline costs
+remain untested until execution. Scientific status untested; E01 unauthorized.

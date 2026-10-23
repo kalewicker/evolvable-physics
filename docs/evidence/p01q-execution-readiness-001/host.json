@@ -1,0 +1,7 @@
+{
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "platform": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "bytecode_writes": false,
+  "cargo_metadata_returncode": 0
+}

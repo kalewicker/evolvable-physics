@@ -1,0 +1,22 @@
+{
+  "binary_sha256": {
+    "pilot-report": "c7b0b4a97104a91b77cab81b2b23e3b69d6307c5be94ecfc346a66bb090ff9c9",
+    "pilot-worker": "c72bef814a04aa4582193868c23b9a5701de6a24998c21c7fa9bba252473b8ff"
+  },
+  "cargo_dependency_packages": 21,
+  "dependency_files": 3846,
+  "epochs_per_cell": 128,
+  "execution_admission_sha256": "e843d72e2c6fb4a583e737b7e21ef610558d26471e333549c107d4e081b10f37",
+  "execution_freeze_sha256": "25427df0e00713d524f8e6565e962e6487db4967ef6b67e9a181a6c868e3bdad",
+  "fixed_environments": 128,
+  "fixed_laws": 32,
+  "keyed_evaluations": 0,
+  "membership_roots": 23,
+  "prior_public_receipts_verified": 533,
+  "schema": "p01q-pre-execution-readiness-v1",
+  "scientific_status": "untested",
+  "source_files": 1107,
+  "status": "pass",
+  "tool_files": 4,
+  "world_transitions": 0
+}

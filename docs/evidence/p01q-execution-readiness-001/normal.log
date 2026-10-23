@@ -1,0 +1,11 @@
+test_added_dependency_rejected (test_p01q_execution.Closure.test_added_dependency_rejected) ... ok
+test_admission_links_scope_and_output_rejected (test_p01q_execution.Closure.test_admission_links_scope_and_output_rejected) ... ok
+test_bytes_tamper (test_p01q_execution.Closure.test_bytes_tamper) ... ok
+test_complete_invented_closure (test_p01q_execution.Closure.test_complete_invented_closure) ... ok
+test_existing_attempt_rejected (test_p01q_execution.Closure.test_existing_attempt_rejected) ... ok
+test_omitted_hash_coverage_rejected (test_p01q_execution.Closure.test_omitted_hash_coverage_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.024s
+
+OK
