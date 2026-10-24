@@ -560,3 +560,9 @@ P01t now registers transport readiness across all128 saved inputs and both strea
 per cell. Eight registration tests and custody checks passed. Next is the new-path
 implementation, invented controls and independent all-cell audit; no native worker
 or world execution is admitted. See [registration findings](docs/p01t_registration_findings.md).
+
+
+P01t transport readiness is complete: all128 requests from256 saved streams passed
+exact typed preservation and independent audit. Fourteen tests/53 invented subcases
+passed normally and optimized. No native worker or world ran. Next is a separate
+registration for validator-only native acceptance. See [findings](docs/p01t_findings.md).

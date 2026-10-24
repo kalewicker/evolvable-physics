@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-24",
-  "stage": "P01t_saved_input_readiness_registered",
+  "stage": "P01t_saved_input_transport_readiness_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Implement only the three new registered P01t paths; use the two hash-pinned P01s modules only in the producer. Test all14 invented control families normally and optimized before retained conversion.",
-    "Then run and independently audit the unchanged all128 saved-envelope-to-request panel, preserving all256 stream identities, exact typed environments, all128 rows and complete accounting. Retain every attempt.",
-    "No native worker validation/execution, campaign integration, performance assay, consumed P01q repair or E01. Science untested; behavior null/not_executed."
+    "Separately register validator-only native request acceptance for all128 saved requests, without candidate matching or world transitions. Campaign integration, performance trials and dynamics remain separate boundaries.",
+    "Preserve both passing build/readiness/audit histories, all injected fixture failures and all original saved inputs. P01q remains consumed and unrepaired.",
+    "No native execution, campaign integration, performance trial or E01 is currently authorized. Behavioral outcomes remain null/not_executed and science untested."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -379,6 +379,18 @@
   "p01t_registration_freeze": "docs/p01t_registration_freeze.json",
   "p01t_registration_findings": "docs/p01t_registration_findings.md",
   "p01t_registration_receipt": "docs/evidence/p01t-registration-001/static_review.json",
-  "p01t_implementation_started": false,
-  "p01t_retained_conversion_started": false
+  "p01t_implementation_started": true,
+  "p01t_retained_conversion_started": true,
+  "p01t_readiness_complete": true,
+  "p01t_independent_audit_pass": true,
+  "p01t_findings": "docs/p01t_findings.md",
+  "p01t_closure": "docs/p01t_closure.json",
+  "p01t_outcomes": {
+    "cells": 128,
+    "streams": 256,
+    "requests": 128,
+    "exact_typed_requests": 128,
+    "world_transitions": 0,
+    "native_acceptance": "untested"
+  }
 }

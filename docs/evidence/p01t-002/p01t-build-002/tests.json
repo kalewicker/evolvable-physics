@@ -1,0 +1,33 @@
+{
+  "controls": [
+    "complete_envelope_to_exact_request",
+    "all128_identity_order_and_no_selection",
+    "typed_equality_bool_int_float",
+    "malformed_duplicate_nonfinite_json",
+    "wrong_digest_schema_or_cell",
+    "missing_or_unwrapped_environment",
+    "extra_metadata_and_draws_preserved",
+    "resource_rule_and_request_cap_mutation",
+    "relative_and_absolute_output_paths",
+    "partial_request_write_preserved",
+    "terminal_write_failure_preserves_first_error",
+    "reserve_boundaries_and_zero_filesystem_polls",
+    "missing_duplicate_extra_cell_receipts",
+    "inventory_and_counter_mutation"
+  ],
+  "packet_sha256": "60c67282fdeeb946fdd9f86901ba159360dda992aff83df3ca36050d47685cf6",
+  "returncodes": [
+    0,
+    0
+  ],
+  "sources": {
+    "scripts/audit_p01t.py": "9cbadf874e76daf3d5bc3bb0bc066de106a685768f4748b0ac8b53b779861f5d",
+    "scripts/p01s_accounting.py": "be42dd72ff13ab9d51bc6086a8ede99747e810a7c8599ee3c34e2ba04a012e2a",
+    "scripts/p01s_boundary.py": "b989fe16f989f27df6050fe144fb11965e6343f2ea7d33da836e5a4f385beef0",
+    "scripts/p01t_readiness.py": "2f62a1f294d54e34526e474585153e34aa3e34ddd52b7426bcbc534cd9320100",
+    "scripts/test_p01t.py": "397593a537c90ee9a3fd00af72000a625ae161e1d621397aa192bb3439cc0838"
+  },
+  "status": "pass",
+  "tests_per_mode": 14,
+  "world_transitions": 0
+}

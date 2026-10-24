@@ -361,3 +361,21 @@ honest unknown/conservative failure totals, without terminal custody/tree rescan
 No native semantic validation/execution, candidate matching, campaign integration,
 performance assay, world transition or E01 is authorized. Original P01q remains
 consumed; science untested and behavior null/not_executed.
+
+
+## Current next boundary after P01t transport readiness
+
+P01t is complete: all128 saved requests from256 original streams passed exact typed
+preservation and independent audit. See `docs/p01t_findings.md` and
+`docs/p01t_closure.json`. Fourteen tests/53 invented subcases passed normally and
+optimized. Preserve both passing build/readiness/audit histories; the second audit
+strengthened exact poll/input-count reconciliation, with identical128 request bytes.
+No failed retained attempts; injected partial-write/terminal failures stay retained.
+The final bundle is140 files/676,722 bytes, exactly reconciled. Originals unchanged.
+No worker, generator, candidate matcher or world transition ran. Transport acceptance
+is not native semantic acceptance. Next separately register validator-only native
+request acceptance for all128 requests without candidate matching/world transitions.
+Do not start native validation, campaign integration, performance assays or dynamics
+before their separately registered boundary. P01q remains consumed and unrepaired;
+behavior null/not_executed, science untested and E01 unauthorized. Raw retained
+requests remain local; publish only metadata and receipts.

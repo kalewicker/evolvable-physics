@@ -1,0 +1,19 @@
+test_01_complete_envelope (__main__.Transport.test_01_complete_envelope) ... ok
+test_02_all128 (__main__.Transport.test_02_all128) ... ok
+test_03_typed_equality (__main__.Transport.test_03_typed_equality) ... ok
+test_04_invalid_json (__main__.Transport.test_04_invalid_json) ... ok
+test_05_identity_and_hash (__main__.Transport.test_05_identity_and_hash) ... ok
+test_06_objects (__main__.Transport.test_06_objects) ... ok
+test_07_metadata (__main__.Transport.test_07_metadata) ... ok
+test_08_request_mutations (__main__.Transport.test_08_request_mutations) ... ok
+test_09_paths (__main__.Transport.test_09_paths) ... ok
+test_10_partial_write (__main__.Transport.test_10_partial_write) ... ok
+test_11_terminal (__main__.Transport.test_11_terminal) ... ok
+test_12_reserves_and_spies (__main__.Transport.test_12_reserves_and_spies) ... ok
+test_13_row_mutations (__main__.Transport.test_13_row_mutations) ... ok
+test_14_inventory_mutations (__main__.Transport.test_14_inventory_mutations) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.165s
+
+OK

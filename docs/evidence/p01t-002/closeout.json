@@ -1,0 +1,43 @@
+{
+  "attempts": {
+    "p01t-001": {
+      "bytes": 676521,
+      "completion_sha256": "49423c43fb110efb9625cfb204e8e13bb22fd752118829fc78511bc538bc6af1",
+      "entries": 140,
+      "status": "pass",
+      "wall_seconds": 2.5930103743448853
+    },
+    "p01t-002": {
+      "bytes": 676722,
+      "completion_sha256": "1c247d4dc5c5c4fc650576cb19b9720e8194a1d95eefd8e3849f0b13c4d354fb",
+      "entries": 140,
+      "status": "pass",
+      "wall_seconds": 2.184674208983779
+    },
+    "p01t-audit-001": {
+      "bytes": 203661,
+      "completion_sha256": "0eaff77b8a5689e2bbe64a1b4d608e5015c43b9edbcb848694acea01459c5535",
+      "entries": 12,
+      "status": "pass",
+      "wall_seconds": 1.3580510830506682
+    },
+    "p01t-audit-002": {
+      "bytes": 203863,
+      "completion_sha256": "65ba08aa30879e2eeab6087e43088a77ed403d7a8d93f35dc0fe0bf18887c520",
+      "entries": 12,
+      "status": "pass",
+      "wall_seconds": 1.1880920827388763
+    }
+  },
+  "frozen_files": 315,
+  "inputs": 336,
+  "keyed_evaluations": 0,
+  "original_inventory_counts": {
+    "artifacts/p01o-001": 5127,
+    "artifacts/p01q-001": 4960
+  },
+  "prior_public_receipts": 631,
+  "repeated_requests_byte_identical": 128,
+  "status": "pass",
+  "world_transitions": 0
+}
