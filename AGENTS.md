@@ -263,3 +263,23 @@ No repair, conversion, retry, resumption, missing-cell completion or new world r
 under consumed P01q. False stored mechanism gate means no eligible trajectories,
 not observed absence. Behavioral outcomes null/not_executed; scientific status
 untested and E01 unauthorized. Preserve all historical outcomes and criteria.
+
+## Current next boundary after P01r diagnosis registration
+
+P01r post-failure read-only engineering diagnosis is registered. See
+`docs/p01r_analysis_plan.md`, `docs/p01r_protocol.json`,
+`docs/p01r_analysis_freeze.json` and `docs/p01r_registration_findings.md`.
+Six registration tests passed normally/optimized;291 frozen project files,
+274 inputs,552 prior receipts and original P01o/P01q inventories/seals matched.
+No retained-payload diagnosis, keyed evaluation, transition or repair occurred.
+After commit/push, implement only scripts/review_p01r.py, scripts/audit_p01r.py
+and scripts/test_p01r.py. Test10complete-envelope and10accounting invented controls
+before the fixed all32-law/128-cell/256-stream diagnosis and independent audit.
+Old code is text/AST input only; no runtime imports/candidates/worker requests.
+Preserve wrapper metadata, typed equality, all rows and source-span identities.
+Static repeated scans cannot recover uninstrumented counters or timing; keep
+those null. Cooperative120s/128MiB per tool with1MiB terminal reserve. Retain every
+attempt; implementation-only diagnosis fixes may use fresh directories under the
+same plan. No consumed-P01q repair/resume/retry, input conversion, performance
+assay or new dynamics. A corrected runner needs a separately justified protocol.
+Scientific status untested, behavior null/not_executed and E01 unauthorized.

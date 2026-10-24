@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-23",
-  "stage": "P01q_consumed_engineering_failure_before_dynamics",
+  "stage": "P01r_read_only_engineering_diagnosis_registered",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Separately register a bounded read-only engineering diagnosis of the saved-envelope/worker interface and budget-accounting/closeout path; specify complete-envelope invented fixtures and accounting controls before new implementation or performance assay.",
-    "P01q is consumed: preserve failed cell0,127unstarted cells, original seal, input KeyError and terminal CPU-reserve failure; no retry, resume, conversion, repair or completion of missing cells.",
-    "No v4 behavioral observation exists; outcomes stay null/not_executed, scientific status untested and E01 unauthorized. Any corrected execution needs a separately justified protocol and new execution freeze."
+    "After registration commit/push, implement only review_p01r.py, audit_p01r.py and test_p01r.py; test10invented complete-envelope and10accounting controls before retained-payload diagnosis.",
+    "Run and independently audit the fixed read-only review of all32laws/all128cells/both256streams and frozen accounting/closeout sources; keep timing attribution null/uninstrumented.",
+    "Preserve consumed P01q, all original errors/seals/inputs and prior outcomes. No repair, conversion, benchmark, worker/candidate/transition execution, keyed evaluation or E01; any corrected runner requires a separate protocol."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -331,5 +331,12 @@
     "complete_trajectories": 0,
     "native_stages": 0,
     "world_transitions": 0
-  }
+  },
+  "p01r_registration_complete": true,
+  "p01r_protocol": "docs/p01r_protocol.json",
+  "p01r_analysis_plan": "docs/p01r_analysis_plan.md",
+  "p01r_analysis_freeze": "docs/p01r_analysis_freeze.json",
+  "p01r_registration_findings": "docs/p01r_registration_findings.md",
+  "p01r_registration_receipt": "docs/evidence/p01r-registration-001/static_review.json",
+  "p01r_diagnosis_started": false
 }

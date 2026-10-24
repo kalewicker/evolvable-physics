@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "mode": "normal",
+      "returncode": 0,
+      "log_sha256": "32054a04fa90a4208d869422b2cac2d1be416658fcfadc13a75447cc5af92cf4"
+    },
+    {
+      "mode": "optimized",
+      "returncode": 0,
+      "log_sha256": "32054a04fa90a4208d869422b2cac2d1be416658fcfadc13a75447cc5af92cf4"
+    }
+  ],
+  "source_hashes": {
+    "scripts/check_p01r_registration.py": "07bd7efbe5cc3e165235dbe1056cad1d070170d61d38a5f727691915f86e6ba4",
+    "scripts/test_p01r_registration.py": "7c6e51b8b67fcddd5c329920d544eb4628ad53f5189bde9884408a46655e7f26",
+    "docs/p01r_protocol.json": "288e4af570b4dde8b675c826db4f19bf8c9ee8a7353703d9ebac9e79d282a9b2"
+  },
+  "world_transitions": 0,
+  "retained_payloads_parsed": 0
+}

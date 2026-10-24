@@ -2209,6 +2209,26 @@
     {
       "file": "docs/evidence/p01q-001/seal.json",
       "sha256": "eabecddbe5ea1a14d537a56af96a2bd9516bf9dca6d1998137e7cc277df7dcf4"
+    },
+    {
+      "file": "docs/evidence/p01r-registration-001/normal.log",
+      "sha256": "32054a04fa90a4208d869422b2cac2d1be416658fcfadc13a75447cc5af92cf4"
+    },
+    {
+      "file": "docs/evidence/p01r-registration-001/optimized.log",
+      "sha256": "32054a04fa90a4208d869422b2cac2d1be416658fcfadc13a75447cc5af92cf4"
+    },
+    {
+      "file": "docs/evidence/p01r-registration-001/publication_context.json",
+      "sha256": "bb33f6b0cb3ce7dc55c4433ae940c989c687c94a64aedf32d52734d148451392"
+    },
+    {
+      "file": "docs/evidence/p01r-registration-001/static_review.json",
+      "sha256": "15c502b01d435d419c4076602659672efe8ca94a3642fbc7fffe00ca952848fb"
+    },
+    {
+      "file": "docs/evidence/p01r-registration-001/tests.json",
+      "sha256": "0b3f5b43cbe9efc103553af5850fb82ec58f8da281d1c2d38f9b614389a7f7ff"
     }
   ]
 }

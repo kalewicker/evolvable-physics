@@ -526,3 +526,9 @@ also hit its CPU reserve. The bundle was sealed without a ceiling overshoot and
 passed the frozen receipt audit. P01q is consumed; no retry or repair was made.
 Next is a separately registered engineering diagnosis. See
 [execution findings](docs/p01q_execution_findings.md).
+
+P01r now registers a read-only diagnosis of P01q's saved-input boundary and
+accounting/closeout path. Six registration tests and source/input custody checks
+passed. Next is the fixed all-cell review with complete-envelope and accounting
+controls; no repair or rerun is admitted. See
+[registration findings](docs/p01r_registration_findings.md).

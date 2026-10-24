@@ -1,0 +1,11 @@
+test_all128_cells (test_p01r_registration.Registration.test_all128_cells) ... ok
+test_controls_and_unknowns_cannot_disappear (test_p01r_registration.Registration.test_controls_and_unknowns_cannot_disappear) ... ok
+test_no_repair_performance_or_world_admission (test_p01r_registration.Registration.test_no_repair_performance_or_world_admission) ... ok
+test_panel_types_and_horizon (test_p01r_registration.Registration.test_panel_types_and_horizon) ... ok
+test_seals_paths_and_limits_unchanged (test_p01r_registration.Registration.test_seals_paths_and_limits_unchanged) ... ok
+test_valid_without_hash_or_execution (test_p01r_registration.Registration.test_valid_without_hash_or_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK
