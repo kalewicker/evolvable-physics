@@ -446,3 +446,23 @@ Keep all existing histories, including consumed P01q and the prior post-audit
 membership-check failure. Passing establishes inert plumbing only; productive
 execution and performance trials need separate registrations. Science untested,
 behavior null/not_executed and E01 unauthorized. Raw request-bearing data stays local.
+
+
+## Current next boundary after P01v integration readiness
+
+P01v is complete: all128 saved inputs/384 inert fixture processes passed exact
+identity/predecessor-chain, guard, status and independent accounting audit. See
+`docs/p01v_findings.md` and `docs/p01v_closure.json`. Twelve tests passed normally
+and optimized;70 named cases expanded to101 labels. Preserve both passing
+integration/audit pairs and closure versions: initial closure omitted existing
+bytecode (-B prevents writes, not reads); revised closure pins186 .pyc files,
+with unchanged tested source/controls and384 identical stdout receipts. Keep all
+invented failures, prefix/suffix records and first/closeout errors. Final bundle
+1,553 files/2,926,180 bytes; runtime closure2,132 files. No native worker, validator,
+reporter, candidate matcher, generator or world transition ran. Inert completion
+is not trajectory completion. Next separately register a new bounded dynamics
+campaign across all128 unchanged requests, fixing production stage contracts and
+requiring a source/binary execution freeze before launch. Preserve P01q's original
+mechanism criteria and consumed status; no input repairs, favorable selection,
+productive execution, performance claim or E01 is currently authorized. Scientific
+status untested and behavior null/not_executed. Raw request-bearing data stays local.

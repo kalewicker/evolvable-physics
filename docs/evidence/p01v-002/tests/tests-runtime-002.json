@@ -1,0 +1,142 @@
+{
+  "closure_sha256": "37e3e9fe2a71c727f724d11325259a442adabbfb4df519c002522ac37b63f37e",
+  "controls": {
+    "aggregate_budget_and_accounting": [
+      "wall_reserve_below_equal_above",
+      "byte_reserve_below_equal_above",
+      "reserved_stage_allowance",
+      "partial_syscall_write",
+      "snapshot_log_metadata_inventory_completion_bytes",
+      "zero_filesystem_budget_polls",
+      "no_tree_scan_during_stage_polls",
+      "work_counters_match_independent_spies"
+    ],
+    "attempt_preservation": [
+      "existing_output_directory_rejected",
+      "fresh_path_required_after_implementation_fix",
+      "failed_artifact_bytes_unchanged",
+      "consumed_P01q_cannot_be_resumed"
+    ],
+    "complete_inert_pipeline": [
+      "all128_rows_and384_stages",
+      "receipt_schema_inert_labels",
+      "behavioral_fields_null",
+      "relative_and_absolute_output_paths"
+    ],
+    "early_and_midpoint_failures": [
+      "before_cell0",
+      "native_stub_failure_cell0",
+      "report_stub_failure_cell0",
+      "audit_stub_failure_cell0",
+      "report_stub_failure_cell63",
+      "audit_stub_failure_cell127",
+      "later_stages_never_launched_after_failure"
+    ],
+    "executor_allowlist": [
+      "only_pinned_python_and_fixture_source",
+      "original_worker_command_rejected",
+      "validator_or_reporter_command_rejected",
+      "fixture_or_interpreter_substitution_rejected",
+      "source_call_boundary_has_no_runtime_or_generator_calls"
+    ],
+    "independent_audit_mutations": [
+      "missing_duplicate_extra_reordered_rows",
+      "missing_duplicate_extra_reordered_stages",
+      "changed_input_or_prior_report_identity",
+      "changed_stdout_or_chained_digest",
+      "changed_stage_status_or_guard_counters",
+      "inventory_membership_hash_or_total_changed",
+      "false_exact_partial_failure_total_rejected"
+    ],
+    "malformed_stage_receipts": [
+      "truncated_json",
+      "duplicate_keys",
+      "nonfinite_numbers",
+      "missing_or_unknown_fields",
+      "false_inert_label",
+      "wrong_input_digest"
+    ],
+    "process_guards": [
+      "nonzero_exit",
+      "wall_below_equal_above",
+      "output_below_equal_above",
+      "rss_below_equal_above_injected_sampler",
+      "whole_process_group_termination",
+      "partial_stdout_and_stderr_retained",
+      "one_invocation_per_stage_no_retry"
+    ],
+    "saved_request_admission": [
+      "all128_exact_hashes_and_order",
+      "first_and_last_identity",
+      "wrong_hash_rejected_before_stage",
+      "policy_and_typed_roundtrip_preserved",
+      "prior_native_acceptance_required",
+      "real_loader_not_mocked_away"
+    ],
+    "scientific_scope": [
+      "no_native_worker_or_matcher_execution",
+      "no_generated_or_repaired_saved_request",
+      "no_selected_law_or_dropped_cell",
+      "inert_completion_is_not_trajectory_completion"
+    ],
+    "terminal_failure_preservation": [
+      "all128_initialized_before_work",
+      "first_error_and_closeout_error_distinct",
+      "completed_prefix_failed_cell_unstarted_suffix",
+      "terminal_io_failure_explicitly_missing",
+      "unknown_exact_bytes_null_with_conservative_bound",
+      "no_terminal_tree_scan_or_original_custody_recheck"
+    ],
+    "three_stage_binding": [
+      "exact_native_stub_report_stub_audit_stub_order",
+      "input_hash_bound_at_each_stage",
+      "previous_stdout_hash_bound",
+      "wrong_role_or_cell_rejected",
+      "wrong_previous_hash_rejected",
+      "cross_cell_receipt_rejected"
+    ]
+  },
+  "expanded_cases": 101,
+  "expected_cells": 128,
+  "expected_inert_stages": 384,
+  "fixture_sha256": "0fe36593cd3682d1f6e9292d8c6b887861b383f78ba66b7a0aa6d2a9fa3b6785",
+  "interpreter_sha256": "695fc18cdb9a699c6b1ea88ce4027854782ed704eb34cc3200e6f8380155b6a8",
+  "packet_sha256": "18338e49b2a2cf0df1c45e89d9ec2103af282390b0727e6583d22b9dac849f1f",
+  "previous_test_receipt_sha256": "4b2a422f70fcaf09aa612d824998d87b3680069cf7fa4cba2b51fbf55956292b",
+  "returncodes": [
+    0,
+    0
+  ],
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "scripts/test_p01v.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "mode": "normal"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "scripts/test_p01v.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "mode": "optimized"
+    }
+  ],
+  "runtime_closure_revision": "include existing bytecode; tested sources/controls unchanged",
+  "sources": {
+    "scripts/audit_p01v.py": "4492987832858d429b0a56d5ce0608ae9aeb5aec6436efd02aba688fbf7860e3",
+    "scripts/p01u_validation.py": "02cbb81b9545c01723e770b5e4014e3f5a7265876c30efe59468765241b79256",
+    "scripts/p01v_fixture.py": "0fe36593cd3682d1f6e9292d8c6b887861b383f78ba66b7a0aa6d2a9fa3b6785",
+    "scripts/p01v_guard.py": "e7958869576a4259304d546f2d1319e726b58ac4feeadc11cc83c8c50e487d92",
+    "scripts/p01v_pipeline.py": "e2d6078a3907e2ee6cd510a8f47b0fe80c7606ea4a3d8ea8d88201d4633572ec",
+    "scripts/test_p01v.py": "154fd8484c76cb1f717e10d40103ccebb3a9c0e6431fcdd207e8c6b4110bfc80"
+  },
+  "status": "pass",
+  "tests_per_mode": 12
+}

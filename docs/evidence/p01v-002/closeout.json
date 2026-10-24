@@ -1,0 +1,82 @@
+{
+  "attempts": {
+    "p01v-001": {
+      "bytes": 2803548,
+      "completion_sha256": "c5cce073705ad50fc366bffe05084a8043fac52f58f930663872b126e68e87a3",
+      "files": 1553,
+      "status": "pass",
+      "wall_seconds": 12.823035749606788
+    },
+    "p01v-002": {
+      "bytes": 2926180,
+      "completion_sha256": "855397847dc7ed4d87a988439991282abc09ee73784c623a681ac43006e14637",
+      "files": 1553,
+      "status": "pass",
+      "wall_seconds": 11.622033707797527
+    },
+    "p01v-audit-001": {
+      "bytes": 1425217,
+      "completion_sha256": "e4efcf7d5b26e46a5968eaec6a5b3e108ff5054df6b716fbfd5bde0ded6038c2",
+      "files": 14,
+      "status": "pass",
+      "wall_seconds": 1.0865719998255372
+    },
+    "p01v-audit-002": {
+      "bytes": 1547897,
+      "completion_sha256": "2c83dabf6ab107e785d557a9a113d1a3092de9c7948ffa2cfed3c8ea8803c7fe",
+      "files": 14,
+      "status": "pass",
+      "wall_seconds": 1.0885203750804067
+    }
+  },
+  "byte_identical_inert_receipts": 384,
+  "bytecode_files": 186,
+  "expanded_controls": 101,
+  "frozen_files": 340,
+  "inputs": 520,
+  "keyed_evaluations": 0,
+  "original_inventory_counts": {
+    "artifacts/p01o-001": 5127,
+    "artifacts/p01q-001": 4960
+  },
+  "prior_public_receipts": 699,
+  "registered_named_subcases": 70,
+  "runtime_closure_bytes": 62776229,
+  "runtime_closure_files": 2132,
+  "runtime_dependency_snapshots": 2124,
+  "source_and_controls_unchanged_across_closure_revision": true,
+  "status": "pass",
+  "work": {
+    "p01v-001": {
+      "budget_polls": 18868,
+      "cells": 128,
+      "combined_stream_bytes": 105270,
+      "executor_counts": {
+        "fixture_recheck_bytes": 1302528,
+        "interpreter_recheck_bytes": 20213760,
+        "invocations": 384
+      },
+      "inert_stages": 384,
+      "maximum_sampled_rss_bytes": 15532032,
+      "process_group_kills": 0,
+      "rss_samples": 1557,
+      "stage_polls": 2690
+    },
+    "p01v-002": {
+      "budget_polls": 19054,
+      "cells": 128,
+      "combined_stream_bytes": 105270,
+      "executor_counts": {
+        "fixture_recheck_bytes": 1302528,
+        "interpreter_recheck_bytes": 20213760,
+        "invocations": 384
+      },
+      "inert_stages": 384,
+      "maximum_sampled_rss_bytes": 15663104,
+      "process_group_kills": 0,
+      "rss_samples": 1547,
+      "stage_polls": 2690
+    }
+  },
+  "world_transitions": 0
+}

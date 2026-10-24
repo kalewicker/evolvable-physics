@@ -1,0 +1,23 @@
+{
+  "bytes": 62776229,
+  "dependency_snapshots": 2124,
+  "existing_bytecode_files": 186,
+  "files": 2132,
+  "final_closure_sha256": "37e3e9fe2a71c727f724d11325259a442adabbfb4df519c002522ac37b63f37e",
+  "fixture_sha256": "0fe36593cd3682d1f6e9292d8c6b887861b383f78ba66b7a0aa6d2a9fa3b6785",
+  "initial_closure_sha256": "539c1039fd907665ff8648805ccc48cd47bed8117fa012ea7788ff324d18386c",
+  "interpreter_sha256": "695fc18cdb9a699c6b1ea88ce4027854782ed704eb34cc3200e6f8380155b6a8",
+  "project_bytecode_files": 0,
+  "revision_reason": "Python -B prevents writes, not reads; include existing stdlib and project .pyc files as runtime dependencies.",
+  "schema": "p01v-runtime-identity-summary-v1",
+  "scope": "all stdlib .py/.so/.dylib/.zip excluding site-packages and caches; parent loaded dyld images and interpreter. OS shared-cache images identified by platform/path, not individual file hashes. Final revision also pins existing bytecode. System shared-cache images are identified by platform/path rather than individual image hashes.",
+  "source_and_controls_unchanged": true,
+  "sources": {
+    "scripts/audit_p01v.py": "4492987832858d429b0a56d5ce0608ae9aeb5aec6436efd02aba688fbf7860e3",
+    "scripts/p01u_validation.py": "02cbb81b9545c01723e770b5e4014e3f5a7265876c30efe59468765241b79256",
+    "scripts/p01v_fixture.py": "0fe36593cd3682d1f6e9292d8c6b887861b383f78ba66b7a0aa6d2a9fa3b6785",
+    "scripts/p01v_guard.py": "e7958869576a4259304d546f2d1319e726b58ac4feeadc11cc83c8c50e487d92",
+    "scripts/p01v_pipeline.py": "e2d6078a3907e2ee6cd510a8f47b0fe80c7606ea4a3d8ea8d88201d4633572ec",
+    "scripts/test_p01v.py": "154fd8484c76cb1f717e10d40103ccebb3a9c0e6431fcdd207e8c6b4110bfc80"
+  }
+}

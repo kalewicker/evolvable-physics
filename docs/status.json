@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-24",
-  "stage": "P01v_inert_campaign_integration_registered",
+  "stage": "P01v_inert_campaign_integration_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Implement only the five new P01v paths using the explicitly pinned/reviewed P01u helper calls; write the P01v inert manifest and enforce interpreter/fixture argv allowlists.",
-    "Test all12 families/70 named subcases before retained work, then run and independently audit all128 exact saved requests across384 inert fixture stages. Preserve every attempt and completed/failed/unstarted statuses.",
-    "No original worker/validator/reporter execution, candidate matching, generator, productive dynamics, performance trial, input repair or E01. P01q remains consumed; science untested and behavior null/not_executed."
+    "Separately register a new bounded unfiltered dynamics campaign over the unchanged128 requests, with production worker/reporter/auditor contract checks and a source/binary execution freeze before launch. Preserve consumed P01q and its original mechanism criteria. Performance claims require their own assay.",
+    "Preserve the passing invented test build, both runtime-closure versions, both successful integration/audit pairs and all injected failures. No input or consumed-attempt repairs.",
+    "No productive execution or benchmark is currently admitted; native workers/validators, candidates and generators were not invoked by P01v. Science untested, behavior null/not_executed and E01 unauthorized."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -419,6 +419,17 @@
   "p01v_registration_freeze": "docs/p01v_registration_freeze.json",
   "p01v_registration_findings": "docs/p01v_registration_findings.md",
   "p01v_registration_receipt": "docs/evidence/p01v-registration-001/static_review.json",
-  "p01v_implementation_started": false,
-  "p01v_integration_started": false
+  "p01v_implementation_started": true,
+  "p01v_integration_started": true,
+  "p01v_integration_complete": true,
+  "p01v_independent_audit_pass": true,
+  "p01v_findings": "docs/p01v_findings.md",
+  "p01v_closure": "docs/p01v_closure.json",
+  "p01v_outcomes": {
+    "cells": 128,
+    "inert_stages": 384,
+    "identity_chains": 128,
+    "world_transitions": 0,
+    "native_worker_invocations": 0
+  }
 }

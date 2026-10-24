@@ -1,0 +1,17 @@
+test_01_admission (__main__.Plumbing.test_01_admission) ... ok
+test_02_stage_bindings (__main__.Plumbing.test_02_stage_bindings) ... ok
+test_03_complete_pipeline (__main__.Plumbing.test_03_complete_pipeline) ... ok
+test_04_failures (__main__.Plumbing.test_04_failures) ... ok
+test_05_bad_receipts (__main__.Plumbing.test_05_bad_receipts) ... ok
+test_06_process_guards (__main__.Plumbing.test_06_process_guards) ... ok
+test_07_executor (__main__.Plumbing.test_07_executor) ... ok
+test_08_budgets_accounting (__main__.Plumbing.test_08_budgets_accounting) ... ok
+test_09_terminal (__main__.Plumbing.test_09_terminal) ... ok
+test_10_audit_mutations (__main__.Plumbing.test_10_audit_mutations) ... ok
+test_11_attempt_preservation (__main__.Plumbing.test_11_attempt_preservation) ... ok
+test_12_scientific_scope (__main__.Plumbing.test_12_scientific_scope) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 47.691s
+
+OK

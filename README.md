@@ -586,3 +586,10 @@ P01v now registers campaign-integration readiness over all 128 saved requests us
 384 explicitly inert fixture stages. Nine registration tests and custody checks
 passed. Next is the new-path implementation and fixed failure tests, followed by
 independent integration audit. See [registration findings](docs/p01v_registration_findings.md).
+
+
+P01v inert integration is complete: all128 inputs/384 fixture stages passed the
+independent chain and accounting audit. Twelve tests passed normally and optimized.
+A runtime-closure revision added existing bytecode; both passing attempts remain
+preserved. No world ran. Next is a separately registered bounded dynamics campaign.
+See [integration findings](docs/p01v_findings.md).
