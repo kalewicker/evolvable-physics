@@ -1,0 +1,13 @@
+test_caps_and_work (__main__.Registration.test_caps_and_work) ... ok
+test_exact_controls (__main__.Registration.test_exact_controls) ... ok
+test_failure_and_unknowns (__main__.Registration.test_failure_and_unknowns) ... ok
+test_fixed_panel (__main__.Registration.test_fixed_panel) ... ok
+test_input_source_and_binary_boundary (__main__.Registration.test_input_source_and_binary_boundary) ... ok
+test_native_vs_panel_contract (__main__.Registration.test_native_vs_panel_contract) ... ok
+test_no_execution_expansion (__main__.Registration.test_no_execution_expansion) ... ok
+test_valid (__main__.Registration.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.009s
+
+OK

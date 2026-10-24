@@ -566,3 +566,10 @@ P01t transport readiness is complete: all128 requests from256 saved streams pass
 exact typed preservation and independent audit. Fourteen tests/53 invented subcases
 passed normally and optimized. No native worker or world ran. Next is a separate
 registration for validator-only native acceptance. See [findings](docs/p01t_findings.md).
+
+
+P01u now registers native validation for all 128 saved requests using a separate
+validation-only binary. Eight registration tests and custody checks passed; no
+native validation ran. Next is the isolated implementation and fixed controls,
+followed by guarded native validation and independent audit. See
+[registration findings](docs/p01u_registration_findings.md).

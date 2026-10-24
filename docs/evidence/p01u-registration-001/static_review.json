@@ -1,0 +1,23 @@
+{
+  "analysis_inputs": 495,
+  "fixed_cells": 128,
+  "fixed_laws": 32,
+  "freeze_sha256": "4a126b4dc1aa7d4359bca11dd8457bf5be80c1764b3962d676eea113a1026ea7",
+  "frozen_files": 326,
+  "implementation_started": false,
+  "keyed_evaluations": 0,
+  "native_invocations": 0,
+  "original_inventory_counts": {
+    "artifacts/p01o-001": 5127,
+    "artifacts/p01q-001": 4960
+  },
+  "planned_control_families": 15,
+  "planned_named_subcases": 74,
+  "prior_public_receipts": 663,
+  "requests_pinned": 128,
+  "retained_payloads_parsed": 0,
+  "schema": "p01u-registration-review-v1",
+  "scientific_status": "untested",
+  "status": "pass",
+  "world_transitions": 0
+}

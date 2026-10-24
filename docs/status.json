@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-24",
-  "stage": "P01t_saved_input_transport_readiness_complete",
+  "stage": "P01u_native_validation_registered",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Separately register validator-only native request acceptance for all128 saved requests, without candidate matching or world transitions. Campaign integration, performance trials and dynamics remain separate boundaries.",
-    "Preserve both passing build/readiness/audit histories, all injected fixture failures and all original saved inputs. P01q remains consumed and unrepaired.",
-    "No native execution, campaign integration, performance trial or E01 is currently authorized. Behavioral outcomes remain null/not_executed and science untested."
+    "Implement the six P01u registered paths: isolated Cargo validator/lock, guarded runner, independent auditor and tests. Test all15 control families/74 named subcases and static no-transition call closure before retained validation.",
+    "After tested source/dependency/binary closure, validate all128 unchanged P01t requests once per attempt and independently audit reports, typed roundtrips, policy, guard receipts and exact accounting. Preserve all attempts.",
+    "No original worker run, candidate matching, generator evaluation, campaign integration, benchmark or dynamics. P01q remains consumed; science untested and behavior null/not_executed."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -392,5 +392,13 @@
     "exact_typed_requests": 128,
     "world_transitions": 0,
     "native_acceptance": "untested"
-  }
+  },
+  "p01u_registration_complete": true,
+  "p01u_protocol": "docs/p01u_protocol.json",
+  "p01u_validation_plan": "docs/p01u_validation_plan.md",
+  "p01u_registration_freeze": "docs/p01u_registration_freeze.json",
+  "p01u_registration_findings": "docs/p01u_registration_findings.md",
+  "p01u_registration_receipt": "docs/evidence/p01u-registration-001/static_review.json",
+  "p01u_implementation_started": false,
+  "p01u_native_validation_started": false
 }

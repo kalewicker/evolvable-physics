@@ -379,3 +379,28 @@ Do not start native validation, campaign integration, performance assays or dyna
 before their separately registered boundary. P01q remains consumed and unrepaired;
 behavior null/not_executed, science untested and E01 unauthorized. Raw retained
 requests remain local; publish only metadata and receipts.
+
+
+## Current next boundary after P01u registration
+
+P01u validator-only native request acceptance is registered in
+`docs/p01u_protocol.json` and `docs/p01u_validation_plan.md`; see
+`docs/p01u_registration_findings.md`. Eight registration tests passed normally and
+optimized. Custody verified 326 frozen files, 495 inputs, 663 prior receipts, all
+128 exact P01t request identities and both original bundles. No native invocation.
+After registration commit/push, implement only the six new registered paths,
+including the isolated Cargo package and its own lock. Original Cargo/library/
+worker sources stay frozen. Complete all 15 control families/74 named subcases,
+static call-closure no-transition gate, source/dependency/binary identities and
+normal/optimized tests before retained native validation. Use the exact 128
+saved P01t-002 requests; no edits, horizon-zero substitutions, regeneration or
+selection. One guarded exact-binary invocation per retained cell per attempt.
+Keep worker-prefix acceptance, strict JSON/panel policy and immutable validation
+labels distinct. Independent audit checks all typed roundtrips/world identities,
+source/binary digests, guard receipts and accounting without rerunning the binary
+or claiming an independent implementation of every Rust validator. Retain all
+attempts, failures/partial outputs and all128 statuses; implementation corrections
+repeat unchanged criteria in fresh directories only. No original worker run,
+matching/applicability, generator, campaign integration, performance assay or world
+transition is admitted. P01q stays consumed and unrepaired; science untested,
+behavior null/not_executed and E01 unauthorized. Raw native roundtrips stay local.
