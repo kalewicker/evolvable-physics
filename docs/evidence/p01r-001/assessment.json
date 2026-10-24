@@ -1,0 +1,16 @@
+{
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "cells": 128,
+  "controls": 20,
+  "keyed_evaluations": 0,
+  "nested_native_cells": 128,
+  "parse_error_cells": 0,
+  "root_native_cells": 0,
+  "saved_streams": 256,
+  "scientific_status": "untested",
+  "status": "pass",
+  "typed_equal_cells": 128,
+  "valid_envelope_pairs": 128,
+  "world_transitions": 0
+}

@@ -1,0 +1,530 @@
+{
+  "call_sites": [
+    {
+      "call": "tick",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "For",
+          "line": 66
+        },
+        {
+          "kind": "For",
+          "line": 67
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 68,
+      "functions": [
+        "check_execution"
+      ],
+      "line": 68,
+      "path": "scripts/p01q_campaign.py",
+      "text": "tick()"
+    },
+    {
+      "call": "tick",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "For",
+          "line": 70
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 70,
+      "functions": [
+        "check_execution"
+      ],
+      "line": 70,
+      "path": "scripts/p01q_campaign.py",
+      "text": "tick()"
+    },
+    {
+      "call": "tick",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "For",
+          "line": 71
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 71,
+      "functions": [
+        "check_execution"
+      ],
+      "line": 71,
+      "path": "scripts/p01q_campaign.py",
+      "text": "tick()"
+    },
+    {
+      "call": "tick",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "For",
+          "line": 73
+        },
+        {
+          "kind": "For",
+          "line": 74
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 74,
+      "functions": [
+        "check_execution"
+      ],
+      "line": 74,
+      "path": "scripts/p01q_campaign.py",
+      "text": "tick()"
+    },
+    {
+      "call": "tick",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "For",
+          "line": 82
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 82,
+      "functions": [
+        "check_execution"
+      ],
+      "line": 82,
+      "path": "scripts/p01q_campaign.py",
+      "text": "tick()"
+    },
+    {
+      "call": "tick",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "For",
+          "line": 84
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 84,
+      "functions": [
+        "check_execution"
+      ],
+      "line": 84,
+      "path": "scripts/p01q_campaign.py",
+      "text": "tick()"
+    },
+    {
+      "call": "tick",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "For",
+          "line": 161
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 162,
+      "functions": [
+        "execute_pipeline"
+      ],
+      "line": 162,
+      "path": "scripts/p01q_campaign.py",
+      "text": "tick()"
+    },
+    {
+      "call": "tick",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "For",
+          "line": 161
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 182,
+      "functions": [
+        "execute_pipeline"
+      ],
+      "line": 182,
+      "path": "scripts/p01q_campaign.py",
+      "text": "tick()"
+    },
+    {
+      "call": "check_execution",
+      "classification": "source_derived",
+      "context": [],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 188,
+      "functions": [
+        "run"
+      ],
+      "line": 188,
+      "path": "scripts/p01q_campaign.py",
+      "text": "check_execution()"
+    },
+    {
+      "call": "campaign.file_bytes",
+      "classification": "source_derived",
+      "context": [],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 203,
+      "functions": [
+        "run",
+        "usage"
+      ],
+      "line": 203,
+      "path": "scripts/p01q_campaign.py",
+      "text": "campaign.file_bytes(out)"
+    },
+    {
+      "call": "usage",
+      "classification": "source_derived",
+      "context": [],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 205,
+      "functions": [
+        "run",
+        "check_budget"
+      ],
+      "line": 205,
+      "path": "scripts/p01q_campaign.py",
+      "text": "usage()"
+    },
+    {
+      "call": "usage",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "If",
+          "line": 210
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 210,
+      "functions": [
+        "run",
+        "stage"
+      ],
+      "line": 210,
+      "path": "scripts/p01q_campaign.py",
+      "text": "usage()"
+    },
+    {
+      "call": "check_budget",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 221
+        },
+        {
+          "kind": "While",
+          "line": 222
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 223,
+      "functions": [
+        "run",
+        "stage"
+      ],
+      "line": 223,
+      "path": "scripts/p01q_campaign.py",
+      "text": "check_budget()"
+    },
+    {
+      "call": "usage",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 221
+        },
+        {
+          "kind": "While",
+          "line": 222
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 226,
+      "functions": [
+        "run",
+        "stage"
+      ],
+      "line": 226,
+      "path": "scripts/p01q_campaign.py",
+      "text": "usage()"
+    },
+    {
+      "call": "check_execution",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 240
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 241,
+      "functions": [
+        "run"
+      ],
+      "line": 241,
+      "path": "scripts/p01q_campaign.py",
+      "text": "check_execution(tick=check_budget)"
+    },
+    {
+      "call": "check_budget",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 240
+        },
+        {
+          "kind": "For",
+          "line": 242
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 243,
+      "functions": [
+        "run"
+      ],
+      "line": 243,
+      "path": "scripts/p01q_campaign.py",
+      "text": "check_budget((ROOT/name).stat().st_size)"
+    },
+    {
+      "call": "check_budget",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 240
+        },
+        {
+          "kind": "For",
+          "line": 249
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 250,
+      "functions": [
+        "run"
+      ],
+      "line": 250,
+      "path": "scripts/p01q_campaign.py",
+      "text": "check_budget(Path(name).stat().st_size)"
+    },
+    {
+      "call": "check_budget",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 240
+        },
+        {
+          "kind": "For",
+          "line": 254
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 255,
+      "functions": [
+        "run"
+      ],
+      "line": 255,
+      "path": "scripts/p01q_campaign.py",
+      "text": "check_budget((ROOT/item['path']).stat().st_size)"
+    },
+    {
+      "call": "check_execution",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 240
+        },
+        {
+          "kind": "Try",
+          "line": 269
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 269,
+      "functions": [
+        "run"
+      ],
+      "line": 269,
+      "path": "scripts/p01q_campaign.py",
+      "text": "check_execution(tick=check_budget)"
+    },
+    {
+      "call": "usage",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 240
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 271,
+      "functions": [
+        "run"
+      ],
+      "line": 271,
+      "path": "scripts/p01q_campaign.py",
+      "text": "usage()"
+    },
+    {
+      "call": "usage",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 240
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 276,
+      "functions": [
+        "run"
+      ],
+      "line": 276,
+      "path": "scripts/p01q_campaign.py",
+      "text": "usage()"
+    },
+    {
+      "call": "campaign.file_bytes",
+      "classification": "source_derived",
+      "context": [
+        {
+          "kind": "Try",
+          "line": 240
+        }
+      ],
+      "dynamic_calls": null,
+      "dynamic_calls_reason": "uninstrumented",
+      "end": 279,
+      "functions": [
+        "run"
+      ],
+      "line": 279,
+      "path": "scripts/p01q_campaign.py",
+      "text": "campaign.file_bytes(out)"
+    }
+  ],
+  "classification": "source_derived",
+  "spans": [
+    {
+      "classification": "source_derived",
+      "end": 34,
+      "name": "file_bytes",
+      "path": "scripts/campaign.py",
+      "source_sha256": "a27d9c817f5aa18f8b7386d95c4f5f6d70b7b27013fc621cff306acf0d6a0a1f",
+      "start": 34,
+      "text": "def file_bytes(root): return sum(p.stat().st_size for p in root.rglob('*') if p.is_file())\n"
+    },
+    {
+      "classification": "source_derived",
+      "end": 35,
+      "name": "construct_with_source",
+      "path": "scripts/generator_v4.py",
+      "source_sha256": "60ae1ff8e2f0e862705446952558cc316bff050f81381773d0d5c454afa574ee",
+      "start": 23,
+      "text": "def construct_with_source(cell, source):\n    \"\"\"Only injected callbacks; there is deliberately no default keyed source.\"\"\"\n    records = []\n    def checked(initial, field, index, n):\n        raw, metadata = source(initial, field, index, n)\n        require(type(raw) is int and 0 <= raw < n, 'injected raw field range')\n        records.append(dict(metadata, namespace=NAMESPACE, proposal=cell['proposal'],\n                            initial=initial, field=field, index=index, modulus=n, raw=raw))\n        return raw\n    env = literal.assemble(cell['initial'], checked)\n    require(len(records) == 119, 'field census')\n    mapping = [r['raw'] + 1 for r in records[:3]]\n    return dict(schema='p01o-generated-environment-v1', **cell, map=mapping, state_map=[r['raw'] for r in records[3:6]], environment=env, draws=records)\n"
+    },
+    {
+      "classification": "source_derived",
+      "end": 86,
+      "name": "check_execution",
+      "path": "scripts/p01q_campaign.py",
+      "source_sha256": "64ff0aa3a6bfceb0af4d8431ccff8c07ef76a1576574ab5e8877f9131d1eb1eb",
+      "start": 58,
+      "text": "def check_execution(root=ROOT, tick=lambda:None):\n    freeze=load(root/'docs/p01q_execution_freeze.json');admission=load(root/'docs/p01q_execution_admission.json')\n    assert admission['schema']=='p01q-execution-admission-v1'\n    for key in ('protocol','execution_freeze','registration_freeze'):\n        assert admission[key+'_sha256']==sha(root/'docs'/('p01q_'+key+'.json'))\n    assert admission['admitted_output']=='artifacts/p01q-001' and admission['fixed_slots']==128\n    assert admission['world_execution_admitted'] is True and admission['keyed_evaluation_admitted'] is False and admission['e01_authorized'] is False\n    reg=load(root/'docs/p01q_registration_freeze.json')\n    for section in ('files','inputs','prior_public_receipts'):\n        for name,digest in reg[section].items():\n            tick();assert sha(root/name)==digest,name\n            assert freeze['files'].get(name)==digest, 'execution closure omits registered source/input'\n    for name,digest in freeze['files'].items():tick();assert sha(root/name)==digest,name\n    for item in freeze['binaries'].values():tick();assert sha(root/item['path'])==item['sha256']\n    assert set(freeze['binaries'])=={'pilot-worker','pilot-report'}\n    for section in ('dependencies','tools'):\n        for name,digest in freeze[section].items():tick();assert sha(Path(name))==digest,name\n    # The future admission supplies exact membership roots; additions cannot hide behind hashes.\n    assert freeze['membership'], 'membership roots required'\n    for item in freeze['membership']:\n        base=Path(item['root']);actual={str(p.relative_to(base)) for p in base.rglob('*') if p.is_file()}\n        assert actual==set(item['files']), 'closure membership'\n    bundle=root/'artifacts/p01o-001';inv=load(bundle/'checksums.json')\n    assert {str(p.relative_to(bundle)) for p in bundle.rglob('*') if p.is_file()}==set(inv)|{'checksums.json','seal.json'}\n    for name,digest in inv.items():tick();assert sha(bundle/name)==digest\n    assert sha(bundle/'seal.json')=='fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00'\n    for name,digest in load(root/'docs/p01p_closure.json')['receipts'].items():tick();assert sha(root/name)==digest\n    registration.validate(load(root/'docs/p01q_protocol.json'))\n    return freeze,admission\n"
+    },
+    {
+      "classification": "source_derived",
+      "end": 183,
+      "name": "execute_pipeline",
+      "path": "scripts/p01q_campaign.py",
+      "source_sha256": "64ff0aa3a6bfceb0af4d8431ccff8c07ef76a1576574ab5e8877f9131d1eb1eb",
+      "start": 157,
+      "text": "def execute_pipeline(out, protocol, manifest, stage, save, tick=lambda:None):\n    assert len(manifest['rows'])==128\n    tables={};ordered_tables={};source=out/'source'\n    proto=str(source/'docs/p01q_protocol.json');adm=str(source/'docs/p01q_execution_admission.json')\n    for row in manifest['rows']:\n        tick();row['status']='checking_saved_input';save()\n        plan,initial=p01q_cell.saved_initial(source,row['slot'],protocol)\n        assert (plan['proposal'],plan['initial'])==(row['proposal'],row['initial_state'])\n        table=audit.digest([{k:v for k,v in r.items() if k!='id'} for r in initial['native']['rules']])\n        assert tables.setdefault(row['proposal'],table)==table, 'same saved table across initials'\n        assert registration.equal(ordered_tables.setdefault(row['proposal'],initial['native']['rules']),initial['native']['rules']), 'ordered rule IDs across initials'\n        row.update(law_digest=table,status='input_verified');save()\n        request=out/'runs'/str(row['slot'])/'request.json';request.parent.mkdir(parents=True,exist_ok=True)\n        atomic_json(request,{'schema':'p01-worker-request-v1','initial':initial,'epochs':protocol['epochs'],**protocol['worker_request']})\n        native=stage(row,'native',[str(out/'bin/pilot-worker'),'run',str(request)])\n        row['status']='native_measured';save()\n        report=stage(row,'rust_report',[str(out/'bin/pilot-report'),str(request),str(native)])\n        row['status']='reported';save()\n        audited=stage(row,'python_audit',[sys.executable,str(source/'scripts/p01q_cell.py'),proto,adm,\n            str(row['slot']),str(request),str(native),str(report/'stdout.bin')])\n        receipt=load(audited/'stdout.bin')\n        assert all(receipt[k]==row[k] for k in ('slot','proposal','initial_state','law_digest'))\n        assert receipt['status'] in ('complete','censored') and receipt['independent_events_pass'] is True\n        row.update(status=receipt['status'],observation=p01q_cell.compact(receipt),receipt_sha256=sha(audited/'stdout.bin'))\n        if row['status']=='censored':row['reason']=receipt['worker_status']\n        save();tick()\n        if row['status']=='censored':raise RuntimeError('censored trajectory; stop without completing other cells')\n"
+    },
+    {
+      "classification": "source_derived",
+      "end": 203,
+      "name": "usage",
+      "path": "scripts/p01q_campaign.py",
+      "source_sha256": "64ff0aa3a6bfceb0af4d8431ccff8c07ef76a1576574ab5e8877f9131d1eb1eb",
+      "start": 202,
+      "text": "    def usage():return {'wall_seconds':time.monotonic()-started,'total_process_cpu_seconds':campaign.process_cpu()-cpu_start,\n                         'artifact_bytes':campaign.file_bytes(out)}\n"
+    },
+    {
+      "classification": "source_derived",
+      "end": 208,
+      "name": "check_budget",
+      "path": "scripts/p01q_campaign.py",
+      "source_sha256": "64ff0aa3a6bfceb0af4d8431ccff8c07ef76a1576574ab5e8877f9131d1eb1eb",
+      "start": 204,
+      "text": "    def check_budget(extra_bytes=0):\n        u=usage();cap=protocol['campaign']\n        assert u['wall_seconds']+5<cap['wall_seconds'], 'aggregate wall reserve'\n        assert u['total_process_cpu_seconds']+5<cap['total_process_cpu_seconds'], 'aggregate CPU reserve'\n        assert u['artifact_bytes']+extra_bytes+cap['metadata_reserve_bytes']<cap['artifact_bytes'], 'aggregate byte reserve'\n"
+    },
+    {
+      "classification": "source_derived",
+      "end": 212,
+      "name": "saved_initial",
+      "path": "scripts/p01q_cell.py",
+      "source_sha256": "0d42f146dd577beb59a53391661b5fba197a0195396414e9dfc858a7f2dd040b",
+      "start": 200,
+      "text": "def saved_initial(source, slot, protocol):\n    assert type(slot) is int and 0<=slot<128, 'saved slot'\n    plan=cells(protocol)[slot]\n    freeze=load(source/'docs/p01q_registration_freeze.json')\n    base=source/protocol['source_bundle']/'runs'/str(slot)\n    values=[]\n    for language in ('rust_generation','python_generation'):\n        path=base/language/'stdout.bin'\n        name=str(path.relative_to(source))\n        assert sha(path)==freeze['inputs'][name], 'saved input identity'\n        values.append(load(path))\n    assert equal(*values), 'saved streams disagree'\n    return plan,values[0]\n"
+    },
+    {
+      "classification": "source_derived",
+      "end": 203,
+      "name": "saved",
+      "path": "scripts/test_p01q.py",
+      "source_sha256": "033bbcbedee0662df96fb3bbe4c8c850964ed49d8527d3d57d34afb7f129c5fc",
+      "start": 203,
+      "text": "                def saved(source,slot,p):return dict(slot=slot,proposal=6000+slot//4,initial=slot%4),dict(native=dict(rules=[dict(id=1,label=slot//4)]))\n"
+    },
+    {
+      "classification": "source_derived",
+      "end": 31,
+      "name": "worker_request_consumer",
+      "path": "src/bin/pilot-worker.rs",
+      "source_sha256": "bad39c65628d1d10b86dea3463bc1458461ecb4ae5299caf61f1301987c74fb8",
+      "start": 23,
+      "text": "    let request: Request =\n        serde_json::from_slice(&std::fs::read(&args[2]).map_err(|e| e.to_string())?)\n            .map_err(|e| e.to_string())?;\n    if request.schema != \"p01-worker-request-v1\" || request.epochs > 1000 {\n        return Err(\"invalid_request\".into());\n    }\n    request.initial.validate()?;\n    let mut state = request.initial;\n    let start_event = state.native.world.next_event;\n"
+    }
+  ],
+  "timing_attribution": null,
+  "timing_attribution_reason": "uninstrumented"
+}

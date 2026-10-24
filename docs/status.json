@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-23",
-  "stage": "P01r_read_only_engineering_diagnosis_registered",
+  "stage": "P01r_read_only_engineering_diagnosis_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "After registration commit/push, implement only review_p01r.py, audit_p01r.py and test_p01r.py; test10invented complete-envelope and10accounting controls before retained-payload diagnosis.",
-    "Run and independently audit the fixed read-only review of all32laws/all128cells/both256streams and frozen accounting/closeout sources; keep timing attribution null/uninstrumented.",
-    "Preserve consumed P01q, all original errors/seals/inputs and prior outcomes. No repair, conversion, benchmark, worker/candidate/transition execution, keyed evaluation or E01; any corrected runner requires a separate protocol."
+    "Separately register bounded engineering recovery at new paths: explicit validated saved-envelope boundary with complete-envelope input-to-request fixtures; no bypass of that boundary in mocks.",
+    "Design bounded byte accounting with reconciliation and measured work counters plus terminal failure preservation; include temporary replacements, partial writes, snapshots and seal bytes. No corrected implementation/performance assay/dynamics before a new protocol.",
+    "Preserve consumed P01q, original seals, its input and terminal CPU-reserve failures, all unstarted cells and earlier outcomes. Behavioral results remain null/not_executed; E01 unauthorized."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -338,5 +338,20 @@
   "p01r_analysis_freeze": "docs/p01r_analysis_freeze.json",
   "p01r_registration_findings": "docs/p01r_registration_findings.md",
   "p01r_registration_receipt": "docs/evidence/p01r-registration-001/static_review.json",
-  "p01r_diagnosis_started": false
+  "p01r_diagnosis_started": true,
+  "p01r_review_complete": true,
+  "p01r_independent_audit_pass": true,
+  "p01r_findings": "docs/p01r_findings.md",
+  "p01r_closure": "docs/p01r_closure.json",
+  "p01r_independent_receipt": "docs/evidence/p01r-001/independent/audit.json",
+  "p01r_outcomes": {
+    "cells": 128,
+    "matching_stream_pairs": 128,
+    "nested_native_pairs": 128,
+    "root_native_pairs": 0,
+    "source_spans": 9,
+    "static_call_sites": 22,
+    "timing_attribution": null,
+    "world_transitions": 0
+  }
 }

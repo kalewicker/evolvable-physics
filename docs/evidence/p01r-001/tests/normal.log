@@ -1,0 +1,14 @@
+test_bounded_terminal_receipts_and_tampered_inventory (test_p01r.Controls.test_bounded_terminal_receipts_and_tampered_inventory) ... ok
+test_complete_envelope_extra_metadata_and_no_mutation (test_p01r.Controls.test_complete_envelope_extra_metadata_and_no_mutation) ... ok
+test_invented_ast_spans_loops_and_unknown_timings (test_p01r.Controls.test_invented_ast_spans_loops_and_unknown_timings) ... ok
+test_no_runtime_imports_or_process_permissions (test_p01r.Controls.test_no_runtime_imports_or_process_permissions) ... ok
+test_sizes_include_transients_partial_writes_and_metadata (test_p01r.Controls.test_sizes_include_transients_partial_writes_and_metadata) ... ok
+test_strict_decimal_reserves_and_terminal_denominator (test_p01r.Controls.test_strict_decimal_reserves_and_terminal_denominator) ... ok
+test_twenty_controls_and_independent_oracle (test_p01r.Controls.test_twenty_controls_and_independent_oracle) ... ok
+test_typed_equality_rejects_nested_boolean_integer (test_p01r.Controls.test_typed_equality_rejects_nested_boolean_integer) ... ok
+test_wrong_boundary_and_malformed_metadata (test_p01r.Controls.test_wrong_boundary_and_malformed_metadata) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.037s
+
+OK

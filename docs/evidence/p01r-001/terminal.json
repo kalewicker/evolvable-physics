@@ -1,0 +1,22 @@
+{
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "classification": "confirmed_from_saved_records",
+  "engineering_gate_pass": false,
+  "execution_status": "failed",
+  "first_error": "KeyError('native')",
+  "frozen_receipt_audit": "pass",
+  "later_check_replaces_original_failure": false,
+  "later_custody_check": "pass",
+  "resource_usage": {
+    "artifact_bytes": 249303823,
+    "total_process_cpu_seconds": 595.554482,
+    "wall_seconds": 604.1816673753783
+  },
+  "stage_records": 0,
+  "status_counts": {
+    "failed": 1,
+    "unstarted": 127
+  },
+  "terminal_recheck_error": "AssertionError('aggregate CPU reserve')"
+}

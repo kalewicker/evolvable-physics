@@ -1,0 +1,2723 @@
+[
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [],
+        "root_native": false,
+        "valid_envelope": true
+      },
+      "nested_environment_equal": true,
+      "nested_native_available": true,
+      "right": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [],
+        "root_native": false,
+        "valid_envelope": true
+      },
+      "root_native_expected_by_runner": false,
+      "typed_equal": true,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    },
+    "name": "complete_wrapper_preserves_all_fields",
+    "right": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "channels",
+          "extracted",
+          "initial_activation",
+          "injected",
+          "native",
+          "profile"
+        ],
+        "nested_native": false,
+        "reasons": [
+          "schema",
+          "slot",
+          "proposal",
+          "initial",
+          "environment",
+          "environment.native"
+        ],
+        "root_native": true,
+        "valid_envelope": false
+      },
+      "nested_environment_equal": null,
+      "nested_native_available": false,
+      "right": {
+        "keys": [
+          "channels",
+          "extracted",
+          "initial_activation",
+          "injected",
+          "native",
+          "profile"
+        ],
+        "nested_native": false,
+        "reasons": [
+          "schema",
+          "slot",
+          "proposal",
+          "initial",
+          "environment",
+          "environment.native"
+        ],
+        "root_native": true,
+        "valid_envelope": false
+      },
+      "root_native_expected_by_runner": true,
+      "typed_equal": true,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "channels": [],
+      "extracted": 0,
+      "initial_activation": 64,
+      "injected": 0,
+      "native": {
+        "limits": {},
+        "profile": "inert_descriptor_not_executable",
+        "rules": [
+          {
+            "opaque_rule": 1
+          }
+        ],
+        "seed": 0,
+        "world": {
+          "opaque_resource": 8
+        }
+      },
+      "profile": "p00c-local-driven-v1"
+    },
+    "name": "already_unwrapped_fixture_is_wrong_boundary",
+    "right": {
+      "channels": [],
+      "extracted": 0,
+      "initial_activation": 64,
+      "injected": 0,
+      "native": {
+        "limits": {},
+        "profile": "inert_descriptor_not_executable",
+        "rules": [
+          {
+            "opaque_rule": 1
+          }
+        ],
+        "seed": 0,
+        "world": {
+          "opaque_resource": 8
+        }
+      },
+      "profile": "p00c-local-driven-v1"
+    }
+  },
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "draws",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": false,
+        "reasons": [
+          "environment",
+          "environment.native"
+        ],
+        "root_native": false,
+        "valid_envelope": false
+      },
+      "nested_environment_equal": null,
+      "nested_native_available": false,
+      "right": {
+        "keys": [
+          "draws",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": false,
+        "reasons": [
+          "environment",
+          "environment.native"
+        ],
+        "root_native": false,
+        "valid_envelope": false
+      },
+      "root_native_expected_by_runner": false,
+      "typed_equal": true,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    },
+    "name": "missing_environment",
+    "right": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": false,
+        "reasons": [
+          "environment.native"
+        ],
+        "root_native": false,
+        "valid_envelope": false
+      },
+      "nested_environment_equal": true,
+      "nested_native_available": false,
+      "right": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": false,
+        "reasons": [
+          "environment.native"
+        ],
+        "root_native": false,
+        "valid_envelope": false
+      },
+      "root_native_expected_by_runner": false,
+      "typed_equal": true,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    },
+    "name": "missing_native",
+    "right": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [
+          "schema"
+        ],
+        "root_native": false,
+        "valid_envelope": false
+      },
+      "nested_environment_equal": true,
+      "nested_native_available": true,
+      "right": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [
+          "schema"
+        ],
+        "root_native": false,
+        "valid_envelope": false
+      },
+      "root_native_expected_by_runner": false,
+      "typed_equal": true,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "wrong",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    },
+    "name": "wrong_schema",
+    "right": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "wrong",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [
+          "initial"
+        ],
+        "root_native": false,
+        "valid_envelope": false
+      },
+      "nested_environment_equal": true,
+      "nested_native_available": true,
+      "right": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [
+          "initial"
+        ],
+        "root_native": false,
+        "valid_envelope": false
+      },
+      "root_native_expected_by_runner": false,
+      "typed_equal": true,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 1,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    },
+    "name": "wrong_cell_ids",
+    "right": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 1,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [],
+        "root_native": false,
+        "valid_envelope": true
+      },
+      "nested_environment_equal": true,
+      "nested_native_available": true,
+      "right": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [
+          "initial"
+        ],
+        "root_native": false,
+        "valid_envelope": false
+      },
+      "root_native_expected_by_runner": false,
+      "typed_equal": false,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    },
+    "name": "bool_vs_integer_mismatch",
+    "right": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": false,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [],
+        "root_native": false,
+        "valid_envelope": true
+      },
+      "nested_environment_equal": true,
+      "nested_native_available": true,
+      "right": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [],
+        "root_native": false,
+        "valid_envelope": true
+      },
+      "root_native_expected_by_runner": false,
+      "typed_equal": false,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    },
+    "name": "stream_disagreement",
+    "right": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 2
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "additional_metadata",
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [],
+        "root_native": false,
+        "valid_envelope": true
+      },
+      "nested_environment_equal": true,
+      "nested_native_available": true,
+      "right": {
+        "keys": [
+          "additional_metadata",
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [],
+        "root_native": false,
+        "valid_envelope": true
+      },
+      "root_native_expected_by_runner": false,
+      "typed_equal": true,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "additional_metadata": {
+        "opaque": [
+          false,
+          0
+        ]
+      },
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    },
+    "name": "extra_metadata_preserved",
+    "right": {
+      "additional_metadata": {
+        "opaque": [
+          false,
+          0
+        ]
+      },
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "expected": {
+      "classification": "confirmed_from_saved_records",
+      "left": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [],
+        "root_native": false,
+        "valid_envelope": true
+      },
+      "nested_environment_equal": false,
+      "nested_native_available": true,
+      "right": {
+        "keys": [
+          "draws",
+          "environment",
+          "initial",
+          "map",
+          "proposal",
+          "schema",
+          "slot",
+          "state_map"
+        ],
+        "nested_native": true,
+        "reasons": [],
+        "root_native": false,
+        "valid_envelope": true
+      },
+      "root_native_expected_by_runner": false,
+      "typed_equal": false,
+      "worker_semantic_validity": null
+    },
+    "kind": "interface",
+    "left": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 1
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 8
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    },
+    "name": "nested_resource_or_rule_mutation_rejected",
+    "right": {
+      "draws": [
+        {
+          "field": "inert",
+          "index": 0,
+          "initial": 0,
+          "modulus": 3,
+          "namespace": "invented",
+          "proposal": 6000,
+          "raw": 1
+        }
+      ],
+      "environment": {
+        "channels": [],
+        "extracted": 0,
+        "initial_activation": 64,
+        "injected": 0,
+        "native": {
+          "limits": {},
+          "profile": "inert_descriptor_not_executable",
+          "rules": [
+            {
+              "opaque_rule": 2
+            }
+          ],
+          "seed": 0,
+          "world": {
+            "opaque_resource": 9
+          }
+        },
+        "profile": "p00c-local-driven-v1"
+      },
+      "initial": 0,
+      "map": [
+        1,
+        2,
+        3
+      ],
+      "proposal": 6000,
+      "schema": "p01o-generated-environment-v1",
+      "slot": 0,
+      "state_map": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "case": {
+      "operations": [
+        {
+          "bytes": 5,
+          "op": "set",
+          "path": "trace"
+        },
+        {
+          "bytes": 3,
+          "op": "append",
+          "path": "trace"
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 8,
+      "inventory_matches": null,
+      "paths": [
+        "trace"
+      ],
+      "reservations_fit": [],
+      "terminal_statuses": null,
+      "totals": [
+        5,
+        8
+      ]
+    },
+    "kind": "accounting",
+    "name": "create_and_append"
+  },
+  {
+    "case": {
+      "operations": [
+        {
+          "bytes": 10,
+          "op": "set",
+          "path": "manifest"
+        },
+        {
+          "bytes": 14,
+          "op": "set",
+          "path": "manifest.pending"
+        },
+        {
+          "op": "rename",
+          "path": "manifest.pending",
+          "to": "manifest"
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 14,
+      "inventory_matches": null,
+      "paths": [
+        "manifest"
+      ],
+      "reservations_fit": [],
+      "terminal_statuses": null,
+      "totals": [
+        10,
+        24,
+        14
+      ]
+    },
+    "kind": "accounting",
+    "name": "atomic_replace_counts_old_and_temporary_until_rename"
+  },
+  {
+    "case": {
+      "operations": [
+        {
+          "bytes": 5,
+          "op": "set",
+          "path": "failed.trace"
+        },
+        {
+          "bytes": 2,
+          "op": "append",
+          "path": "failed.trace"
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 7,
+      "inventory_matches": null,
+      "paths": [
+        "failed.trace"
+      ],
+      "reservations_fit": [],
+      "terminal_statuses": null,
+      "totals": [
+        5,
+        7
+      ]
+    },
+    "kind": "accounting",
+    "name": "failed_partial_write_is_retained"
+  },
+  {
+    "case": {
+      "operations": [
+        {
+          "bytes": 5,
+          "op": "set",
+          "path": "trace"
+        },
+        {
+          "bytes": 5,
+          "op": "set",
+          "path": "trace"
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 5,
+      "inventory_matches": null,
+      "paths": [
+        "trace"
+      ],
+      "reservations_fit": [],
+      "terminal_statuses": null,
+      "totals": [
+        5,
+        5
+      ]
+    },
+    "kind": "accounting",
+    "name": "duplicate_path_not_double_counted"
+  },
+  {
+    "case": {
+      "operations": [
+        {
+          "bytes": 12,
+          "op": "set",
+          "path": "source/a"
+        },
+        {
+          "bytes": 20,
+          "op": "set",
+          "path": "dependencies/a"
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 32,
+      "inventory_matches": null,
+      "paths": [
+        "dependencies/a",
+        "source/a"
+      ],
+      "reservations_fit": [],
+      "terminal_statuses": null,
+      "totals": [
+        12,
+        32
+      ]
+    },
+    "kind": "accounting",
+    "name": "snapshot_bytes_included"
+  },
+  {
+    "case": {
+      "operations": [
+        {
+          "bytes": 8,
+          "op": "set",
+          "path": "trace"
+        },
+        {
+          "bytes": 10,
+          "op": "set",
+          "path": "manifest"
+        },
+        {
+          "bytes": 6,
+          "op": "set",
+          "path": "checksums"
+        },
+        {
+          "bytes": 4,
+          "op": "set",
+          "path": "seal"
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 28,
+      "inventory_matches": null,
+      "paths": [
+        "checksums",
+        "manifest",
+        "seal",
+        "trace"
+      ],
+      "reservations_fit": [],
+      "terminal_statuses": null,
+      "totals": [
+        8,
+        18,
+        24,
+        28
+      ]
+    },
+    "kind": "accounting",
+    "name": "metadata_and_seal_bytes_included"
+  },
+  {
+    "case": {
+      "reservations": [
+        {
+          "cap": {
+            "bytes": "134217728",
+            "cpu": "600",
+            "wall": "1200"
+          },
+          "reserve": {
+            "bytes": "1048576",
+            "cpu": "5",
+            "wall": "5"
+          },
+          "usage": {
+            "bytes": "1",
+            "cpu": "594.999",
+            "wall": "1"
+          }
+        },
+        {
+          "cap": {
+            "bytes": "134217728",
+            "cpu": "600",
+            "wall": "1200"
+          },
+          "reserve": {
+            "bytes": "1048576",
+            "cpu": "5",
+            "wall": "5"
+          },
+          "usage": {
+            "bytes": "1",
+            "cpu": "595",
+            "wall": "1"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 0,
+      "inventory_matches": null,
+      "paths": [],
+      "reservations_fit": [
+        true,
+        false
+      ],
+      "terminal_statuses": null,
+      "totals": []
+    },
+    "kind": "accounting",
+    "name": "cpu_reserve_boundary"
+  },
+  {
+    "case": {
+      "reservations": [
+        {
+          "cap": {
+            "bytes": "134217728",
+            "cpu": "600",
+            "wall": "1200"
+          },
+          "reserve": {
+            "bytes": "1048576",
+            "cpu": "5",
+            "wall": "5"
+          },
+          "usage": {
+            "bytes": "1",
+            "cpu": "1",
+            "wall": "1194.999"
+          }
+        },
+        {
+          "cap": {
+            "bytes": "134217728",
+            "cpu": "600",
+            "wall": "1200"
+          },
+          "reserve": {
+            "bytes": "1048576",
+            "cpu": "5",
+            "wall": "5"
+          },
+          "usage": {
+            "bytes": "1",
+            "cpu": "1",
+            "wall": "1195"
+          }
+        },
+        {
+          "cap": {
+            "bytes": "134217728",
+            "cpu": "600",
+            "wall": "1200"
+          },
+          "reserve": {
+            "bytes": "1048576",
+            "cpu": "5",
+            "wall": "5"
+          },
+          "usage": {
+            "bytes": "133169151",
+            "cpu": "1",
+            "wall": "1"
+          }
+        },
+        {
+          "cap": {
+            "bytes": "134217728",
+            "cpu": "600",
+            "wall": "1200"
+          },
+          "reserve": {
+            "bytes": "1048576",
+            "cpu": "5",
+            "wall": "5"
+          },
+          "usage": {
+            "bytes": "133169152",
+            "cpu": "1",
+            "wall": "1"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 0,
+      "inventory_matches": null,
+      "paths": [],
+      "reservations_fit": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "terminal_statuses": null,
+      "totals": []
+    },
+    "kind": "accounting",
+    "name": "wall_and_byte_reserve_boundaries"
+  },
+  {
+    "case": {
+      "terminal_statuses": [
+        {
+          "slot": 0,
+          "status": "failed"
+        },
+        {
+          "slot": 1,
+          "status": "unstarted"
+        },
+        {
+          "slot": 2,
+          "status": "unstarted"
+        },
+        {
+          "slot": 3,
+          "status": "unstarted"
+        },
+        {
+          "slot": 4,
+          "status": "unstarted"
+        },
+        {
+          "slot": 5,
+          "status": "unstarted"
+        },
+        {
+          "slot": 6,
+          "status": "unstarted"
+        },
+        {
+          "slot": 7,
+          "status": "unstarted"
+        },
+        {
+          "slot": 8,
+          "status": "unstarted"
+        },
+        {
+          "slot": 9,
+          "status": "unstarted"
+        },
+        {
+          "slot": 10,
+          "status": "unstarted"
+        },
+        {
+          "slot": 11,
+          "status": "unstarted"
+        },
+        {
+          "slot": 12,
+          "status": "unstarted"
+        },
+        {
+          "slot": 13,
+          "status": "unstarted"
+        },
+        {
+          "slot": 14,
+          "status": "unstarted"
+        },
+        {
+          "slot": 15,
+          "status": "unstarted"
+        },
+        {
+          "slot": 16,
+          "status": "unstarted"
+        },
+        {
+          "slot": 17,
+          "status": "unstarted"
+        },
+        {
+          "slot": 18,
+          "status": "unstarted"
+        },
+        {
+          "slot": 19,
+          "status": "unstarted"
+        },
+        {
+          "slot": 20,
+          "status": "unstarted"
+        },
+        {
+          "slot": 21,
+          "status": "unstarted"
+        },
+        {
+          "slot": 22,
+          "status": "unstarted"
+        },
+        {
+          "slot": 23,
+          "status": "unstarted"
+        },
+        {
+          "slot": 24,
+          "status": "unstarted"
+        },
+        {
+          "slot": 25,
+          "status": "unstarted"
+        },
+        {
+          "slot": 26,
+          "status": "unstarted"
+        },
+        {
+          "slot": 27,
+          "status": "unstarted"
+        },
+        {
+          "slot": 28,
+          "status": "unstarted"
+        },
+        {
+          "slot": 29,
+          "status": "unstarted"
+        },
+        {
+          "slot": 30,
+          "status": "unstarted"
+        },
+        {
+          "slot": 31,
+          "status": "unstarted"
+        },
+        {
+          "slot": 32,
+          "status": "unstarted"
+        },
+        {
+          "slot": 33,
+          "status": "unstarted"
+        },
+        {
+          "slot": 34,
+          "status": "unstarted"
+        },
+        {
+          "slot": 35,
+          "status": "unstarted"
+        },
+        {
+          "slot": 36,
+          "status": "unstarted"
+        },
+        {
+          "slot": 37,
+          "status": "unstarted"
+        },
+        {
+          "slot": 38,
+          "status": "unstarted"
+        },
+        {
+          "slot": 39,
+          "status": "unstarted"
+        },
+        {
+          "slot": 40,
+          "status": "unstarted"
+        },
+        {
+          "slot": 41,
+          "status": "unstarted"
+        },
+        {
+          "slot": 42,
+          "status": "unstarted"
+        },
+        {
+          "slot": 43,
+          "status": "unstarted"
+        },
+        {
+          "slot": 44,
+          "status": "unstarted"
+        },
+        {
+          "slot": 45,
+          "status": "unstarted"
+        },
+        {
+          "slot": 46,
+          "status": "unstarted"
+        },
+        {
+          "slot": 47,
+          "status": "unstarted"
+        },
+        {
+          "slot": 48,
+          "status": "unstarted"
+        },
+        {
+          "slot": 49,
+          "status": "unstarted"
+        },
+        {
+          "slot": 50,
+          "status": "unstarted"
+        },
+        {
+          "slot": 51,
+          "status": "unstarted"
+        },
+        {
+          "slot": 52,
+          "status": "unstarted"
+        },
+        {
+          "slot": 53,
+          "status": "unstarted"
+        },
+        {
+          "slot": 54,
+          "status": "unstarted"
+        },
+        {
+          "slot": 55,
+          "status": "unstarted"
+        },
+        {
+          "slot": 56,
+          "status": "unstarted"
+        },
+        {
+          "slot": 57,
+          "status": "unstarted"
+        },
+        {
+          "slot": 58,
+          "status": "unstarted"
+        },
+        {
+          "slot": 59,
+          "status": "unstarted"
+        },
+        {
+          "slot": 60,
+          "status": "unstarted"
+        },
+        {
+          "slot": 61,
+          "status": "unstarted"
+        },
+        {
+          "slot": 62,
+          "status": "unstarted"
+        },
+        {
+          "slot": 63,
+          "status": "unstarted"
+        },
+        {
+          "slot": 64,
+          "status": "unstarted"
+        },
+        {
+          "slot": 65,
+          "status": "unstarted"
+        },
+        {
+          "slot": 66,
+          "status": "unstarted"
+        },
+        {
+          "slot": 67,
+          "status": "unstarted"
+        },
+        {
+          "slot": 68,
+          "status": "unstarted"
+        },
+        {
+          "slot": 69,
+          "status": "unstarted"
+        },
+        {
+          "slot": 70,
+          "status": "unstarted"
+        },
+        {
+          "slot": 71,
+          "status": "unstarted"
+        },
+        {
+          "slot": 72,
+          "status": "unstarted"
+        },
+        {
+          "slot": 73,
+          "status": "unstarted"
+        },
+        {
+          "slot": 74,
+          "status": "unstarted"
+        },
+        {
+          "slot": 75,
+          "status": "unstarted"
+        },
+        {
+          "slot": 76,
+          "status": "unstarted"
+        },
+        {
+          "slot": 77,
+          "status": "unstarted"
+        },
+        {
+          "slot": 78,
+          "status": "unstarted"
+        },
+        {
+          "slot": 79,
+          "status": "unstarted"
+        },
+        {
+          "slot": 80,
+          "status": "unstarted"
+        },
+        {
+          "slot": 81,
+          "status": "unstarted"
+        },
+        {
+          "slot": 82,
+          "status": "unstarted"
+        },
+        {
+          "slot": 83,
+          "status": "unstarted"
+        },
+        {
+          "slot": 84,
+          "status": "unstarted"
+        },
+        {
+          "slot": 85,
+          "status": "unstarted"
+        },
+        {
+          "slot": 86,
+          "status": "unstarted"
+        },
+        {
+          "slot": 87,
+          "status": "unstarted"
+        },
+        {
+          "slot": 88,
+          "status": "unstarted"
+        },
+        {
+          "slot": 89,
+          "status": "unstarted"
+        },
+        {
+          "slot": 90,
+          "status": "unstarted"
+        },
+        {
+          "slot": 91,
+          "status": "unstarted"
+        },
+        {
+          "slot": 92,
+          "status": "unstarted"
+        },
+        {
+          "slot": 93,
+          "status": "unstarted"
+        },
+        {
+          "slot": 94,
+          "status": "unstarted"
+        },
+        {
+          "slot": 95,
+          "status": "unstarted"
+        },
+        {
+          "slot": 96,
+          "status": "unstarted"
+        },
+        {
+          "slot": 97,
+          "status": "unstarted"
+        },
+        {
+          "slot": 98,
+          "status": "unstarted"
+        },
+        {
+          "slot": 99,
+          "status": "unstarted"
+        },
+        {
+          "slot": 100,
+          "status": "unstarted"
+        },
+        {
+          "slot": 101,
+          "status": "unstarted"
+        },
+        {
+          "slot": 102,
+          "status": "unstarted"
+        },
+        {
+          "slot": 103,
+          "status": "unstarted"
+        },
+        {
+          "slot": 104,
+          "status": "unstarted"
+        },
+        {
+          "slot": 105,
+          "status": "unstarted"
+        },
+        {
+          "slot": 106,
+          "status": "unstarted"
+        },
+        {
+          "slot": 107,
+          "status": "unstarted"
+        },
+        {
+          "slot": 108,
+          "status": "unstarted"
+        },
+        {
+          "slot": 109,
+          "status": "unstarted"
+        },
+        {
+          "slot": 110,
+          "status": "unstarted"
+        },
+        {
+          "slot": 111,
+          "status": "unstarted"
+        },
+        {
+          "slot": 112,
+          "status": "unstarted"
+        },
+        {
+          "slot": 113,
+          "status": "unstarted"
+        },
+        {
+          "slot": 114,
+          "status": "unstarted"
+        },
+        {
+          "slot": 115,
+          "status": "unstarted"
+        },
+        {
+          "slot": 116,
+          "status": "unstarted"
+        },
+        {
+          "slot": 117,
+          "status": "unstarted"
+        },
+        {
+          "slot": 118,
+          "status": "unstarted"
+        },
+        {
+          "slot": 119,
+          "status": "unstarted"
+        },
+        {
+          "slot": 120,
+          "status": "unstarted"
+        },
+        {
+          "slot": 121,
+          "status": "unstarted"
+        },
+        {
+          "slot": 122,
+          "status": "unstarted"
+        },
+        {
+          "slot": 123,
+          "status": "unstarted"
+        },
+        {
+          "slot": 124,
+          "status": "unstarted"
+        },
+        {
+          "slot": 125,
+          "status": "unstarted"
+        },
+        {
+          "slot": 126,
+          "status": "unstarted"
+        },
+        {
+          "slot": 127,
+          "status": "unstarted"
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 0,
+      "inventory_matches": null,
+      "paths": [],
+      "reservations_fit": [],
+      "terminal_statuses": [
+        {
+          "slot": 0,
+          "status": "failed"
+        },
+        {
+          "slot": 1,
+          "status": "unstarted"
+        },
+        {
+          "slot": 2,
+          "status": "unstarted"
+        },
+        {
+          "slot": 3,
+          "status": "unstarted"
+        },
+        {
+          "slot": 4,
+          "status": "unstarted"
+        },
+        {
+          "slot": 5,
+          "status": "unstarted"
+        },
+        {
+          "slot": 6,
+          "status": "unstarted"
+        },
+        {
+          "slot": 7,
+          "status": "unstarted"
+        },
+        {
+          "slot": 8,
+          "status": "unstarted"
+        },
+        {
+          "slot": 9,
+          "status": "unstarted"
+        },
+        {
+          "slot": 10,
+          "status": "unstarted"
+        },
+        {
+          "slot": 11,
+          "status": "unstarted"
+        },
+        {
+          "slot": 12,
+          "status": "unstarted"
+        },
+        {
+          "slot": 13,
+          "status": "unstarted"
+        },
+        {
+          "slot": 14,
+          "status": "unstarted"
+        },
+        {
+          "slot": 15,
+          "status": "unstarted"
+        },
+        {
+          "slot": 16,
+          "status": "unstarted"
+        },
+        {
+          "slot": 17,
+          "status": "unstarted"
+        },
+        {
+          "slot": 18,
+          "status": "unstarted"
+        },
+        {
+          "slot": 19,
+          "status": "unstarted"
+        },
+        {
+          "slot": 20,
+          "status": "unstarted"
+        },
+        {
+          "slot": 21,
+          "status": "unstarted"
+        },
+        {
+          "slot": 22,
+          "status": "unstarted"
+        },
+        {
+          "slot": 23,
+          "status": "unstarted"
+        },
+        {
+          "slot": 24,
+          "status": "unstarted"
+        },
+        {
+          "slot": 25,
+          "status": "unstarted"
+        },
+        {
+          "slot": 26,
+          "status": "unstarted"
+        },
+        {
+          "slot": 27,
+          "status": "unstarted"
+        },
+        {
+          "slot": 28,
+          "status": "unstarted"
+        },
+        {
+          "slot": 29,
+          "status": "unstarted"
+        },
+        {
+          "slot": 30,
+          "status": "unstarted"
+        },
+        {
+          "slot": 31,
+          "status": "unstarted"
+        },
+        {
+          "slot": 32,
+          "status": "unstarted"
+        },
+        {
+          "slot": 33,
+          "status": "unstarted"
+        },
+        {
+          "slot": 34,
+          "status": "unstarted"
+        },
+        {
+          "slot": 35,
+          "status": "unstarted"
+        },
+        {
+          "slot": 36,
+          "status": "unstarted"
+        },
+        {
+          "slot": 37,
+          "status": "unstarted"
+        },
+        {
+          "slot": 38,
+          "status": "unstarted"
+        },
+        {
+          "slot": 39,
+          "status": "unstarted"
+        },
+        {
+          "slot": 40,
+          "status": "unstarted"
+        },
+        {
+          "slot": 41,
+          "status": "unstarted"
+        },
+        {
+          "slot": 42,
+          "status": "unstarted"
+        },
+        {
+          "slot": 43,
+          "status": "unstarted"
+        },
+        {
+          "slot": 44,
+          "status": "unstarted"
+        },
+        {
+          "slot": 45,
+          "status": "unstarted"
+        },
+        {
+          "slot": 46,
+          "status": "unstarted"
+        },
+        {
+          "slot": 47,
+          "status": "unstarted"
+        },
+        {
+          "slot": 48,
+          "status": "unstarted"
+        },
+        {
+          "slot": 49,
+          "status": "unstarted"
+        },
+        {
+          "slot": 50,
+          "status": "unstarted"
+        },
+        {
+          "slot": 51,
+          "status": "unstarted"
+        },
+        {
+          "slot": 52,
+          "status": "unstarted"
+        },
+        {
+          "slot": 53,
+          "status": "unstarted"
+        },
+        {
+          "slot": 54,
+          "status": "unstarted"
+        },
+        {
+          "slot": 55,
+          "status": "unstarted"
+        },
+        {
+          "slot": 56,
+          "status": "unstarted"
+        },
+        {
+          "slot": 57,
+          "status": "unstarted"
+        },
+        {
+          "slot": 58,
+          "status": "unstarted"
+        },
+        {
+          "slot": 59,
+          "status": "unstarted"
+        },
+        {
+          "slot": 60,
+          "status": "unstarted"
+        },
+        {
+          "slot": 61,
+          "status": "unstarted"
+        },
+        {
+          "slot": 62,
+          "status": "unstarted"
+        },
+        {
+          "slot": 63,
+          "status": "unstarted"
+        },
+        {
+          "slot": 64,
+          "status": "unstarted"
+        },
+        {
+          "slot": 65,
+          "status": "unstarted"
+        },
+        {
+          "slot": 66,
+          "status": "unstarted"
+        },
+        {
+          "slot": 67,
+          "status": "unstarted"
+        },
+        {
+          "slot": 68,
+          "status": "unstarted"
+        },
+        {
+          "slot": 69,
+          "status": "unstarted"
+        },
+        {
+          "slot": 70,
+          "status": "unstarted"
+        },
+        {
+          "slot": 71,
+          "status": "unstarted"
+        },
+        {
+          "slot": 72,
+          "status": "unstarted"
+        },
+        {
+          "slot": 73,
+          "status": "unstarted"
+        },
+        {
+          "slot": 74,
+          "status": "unstarted"
+        },
+        {
+          "slot": 75,
+          "status": "unstarted"
+        },
+        {
+          "slot": 76,
+          "status": "unstarted"
+        },
+        {
+          "slot": 77,
+          "status": "unstarted"
+        },
+        {
+          "slot": 78,
+          "status": "unstarted"
+        },
+        {
+          "slot": 79,
+          "status": "unstarted"
+        },
+        {
+          "slot": 80,
+          "status": "unstarted"
+        },
+        {
+          "slot": 81,
+          "status": "unstarted"
+        },
+        {
+          "slot": 82,
+          "status": "unstarted"
+        },
+        {
+          "slot": 83,
+          "status": "unstarted"
+        },
+        {
+          "slot": 84,
+          "status": "unstarted"
+        },
+        {
+          "slot": 85,
+          "status": "unstarted"
+        },
+        {
+          "slot": 86,
+          "status": "unstarted"
+        },
+        {
+          "slot": 87,
+          "status": "unstarted"
+        },
+        {
+          "slot": 88,
+          "status": "unstarted"
+        },
+        {
+          "slot": 89,
+          "status": "unstarted"
+        },
+        {
+          "slot": 90,
+          "status": "unstarted"
+        },
+        {
+          "slot": 91,
+          "status": "unstarted"
+        },
+        {
+          "slot": 92,
+          "status": "unstarted"
+        },
+        {
+          "slot": 93,
+          "status": "unstarted"
+        },
+        {
+          "slot": 94,
+          "status": "unstarted"
+        },
+        {
+          "slot": 95,
+          "status": "unstarted"
+        },
+        {
+          "slot": 96,
+          "status": "unstarted"
+        },
+        {
+          "slot": 97,
+          "status": "unstarted"
+        },
+        {
+          "slot": 98,
+          "status": "unstarted"
+        },
+        {
+          "slot": 99,
+          "status": "unstarted"
+        },
+        {
+          "slot": 100,
+          "status": "unstarted"
+        },
+        {
+          "slot": 101,
+          "status": "unstarted"
+        },
+        {
+          "slot": 102,
+          "status": "unstarted"
+        },
+        {
+          "slot": 103,
+          "status": "unstarted"
+        },
+        {
+          "slot": 104,
+          "status": "unstarted"
+        },
+        {
+          "slot": 105,
+          "status": "unstarted"
+        },
+        {
+          "slot": 106,
+          "status": "unstarted"
+        },
+        {
+          "slot": 107,
+          "status": "unstarted"
+        },
+        {
+          "slot": 108,
+          "status": "unstarted"
+        },
+        {
+          "slot": 109,
+          "status": "unstarted"
+        },
+        {
+          "slot": 110,
+          "status": "unstarted"
+        },
+        {
+          "slot": 111,
+          "status": "unstarted"
+        },
+        {
+          "slot": 112,
+          "status": "unstarted"
+        },
+        {
+          "slot": 113,
+          "status": "unstarted"
+        },
+        {
+          "slot": 114,
+          "status": "unstarted"
+        },
+        {
+          "slot": 115,
+          "status": "unstarted"
+        },
+        {
+          "slot": 116,
+          "status": "unstarted"
+        },
+        {
+          "slot": 117,
+          "status": "unstarted"
+        },
+        {
+          "slot": 118,
+          "status": "unstarted"
+        },
+        {
+          "slot": 119,
+          "status": "unstarted"
+        },
+        {
+          "slot": 120,
+          "status": "unstarted"
+        },
+        {
+          "slot": 121,
+          "status": "unstarted"
+        },
+        {
+          "slot": 122,
+          "status": "unstarted"
+        },
+        {
+          "slot": 123,
+          "status": "unstarted"
+        },
+        {
+          "slot": 124,
+          "status": "unstarted"
+        },
+        {
+          "slot": 125,
+          "status": "unstarted"
+        },
+        {
+          "slot": 126,
+          "status": "unstarted"
+        },
+        {
+          "slot": 127,
+          "status": "unstarted"
+        }
+      ],
+      "totals": []
+    },
+    "kind": "accounting",
+    "name": "terminal_failure_preserves_all_cells"
+  },
+  {
+    "case": {
+      "inventory": [
+        "expected"
+      ],
+      "operations": [
+        {
+          "bytes": 7,
+          "op": "set",
+          "path": "unlisted"
+        }
+      ]
+    },
+    "expected": {
+      "final_bytes": 7,
+      "inventory_matches": false,
+      "paths": [
+        "unlisted"
+      ],
+      "reservations_fit": [],
+      "terminal_statuses": null,
+      "totals": [
+        7
+      ]
+    },
+    "kind": "accounting",
+    "name": "inventory_mismatch_and_unlisted_file"
+  }
+]

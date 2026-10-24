@@ -1,0 +1,6914 @@
+[
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/0/rust_generation/stdout.bin",
+        "sha256": "5ab8316b36caba06cf01293321be99a9b22ba6722bcdb6a0b9669436437e16fb"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/0/python_generation/stdout.bin",
+        "sha256": "5ab8316b36caba06cf01293321be99a9b22ba6722bcdb6a0b9669436437e16fb"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6000,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 0,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/1/rust_generation/stdout.bin",
+        "sha256": "504a065bc8d142a1df437e7c98d9b38bd4d50e375b48569ece2ca8766435f271"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/1/python_generation/stdout.bin",
+        "sha256": "504a065bc8d142a1df437e7c98d9b38bd4d50e375b48569ece2ca8766435f271"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6000,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 1,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/2/rust_generation/stdout.bin",
+        "sha256": "37caaa4b00e3232e4b2c58039be2cba2b86a51d307223090ff56208fc516496c"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/2/python_generation/stdout.bin",
+        "sha256": "37caaa4b00e3232e4b2c58039be2cba2b86a51d307223090ff56208fc516496c"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6000,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 2,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/3/rust_generation/stdout.bin",
+        "sha256": "9d19229e763ebef6770369f69f45c8345f8b1717c024c5d72701f8574973c993"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/3/python_generation/stdout.bin",
+        "sha256": "9d19229e763ebef6770369f69f45c8345f8b1717c024c5d72701f8574973c993"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6000,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 3,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/4/rust_generation/stdout.bin",
+        "sha256": "f9326c74b5bde4bc790db67415f3e5a2b452e8e8c3df0d3ebd5a389e2d6f0368"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/4/python_generation/stdout.bin",
+        "sha256": "f9326c74b5bde4bc790db67415f3e5a2b452e8e8c3df0d3ebd5a389e2d6f0368"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6001,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 4,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/5/rust_generation/stdout.bin",
+        "sha256": "628d657e23d9f562c4185e3a6e0962f8835261aa0a6a1c71a8c581eb1e0be01e"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/5/python_generation/stdout.bin",
+        "sha256": "628d657e23d9f562c4185e3a6e0962f8835261aa0a6a1c71a8c581eb1e0be01e"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6001,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 5,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/6/rust_generation/stdout.bin",
+        "sha256": "850f075c08ce0604f576df5725827fb079f36156d38f388009769c0df8780247"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/6/python_generation/stdout.bin",
+        "sha256": "850f075c08ce0604f576df5725827fb079f36156d38f388009769c0df8780247"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6001,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 6,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/7/rust_generation/stdout.bin",
+        "sha256": "a2ce6b9610f569e1ff4d71004303c28e293a99c364282e98e33d8e50382b6ee6"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/7/python_generation/stdout.bin",
+        "sha256": "a2ce6b9610f569e1ff4d71004303c28e293a99c364282e98e33d8e50382b6ee6"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6001,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 7,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/8/rust_generation/stdout.bin",
+        "sha256": "7761b5683a040d5b1fff89f76d0960fb1cb2bb44018b6a4beb8dfd3400eb1c37"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/8/python_generation/stdout.bin",
+        "sha256": "7761b5683a040d5b1fff89f76d0960fb1cb2bb44018b6a4beb8dfd3400eb1c37"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6002,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 8,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/9/rust_generation/stdout.bin",
+        "sha256": "470394a352e3d37fa71717c44aacaeccde5fd5d067b3ae67f12765eaeec70b1b"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/9/python_generation/stdout.bin",
+        "sha256": "470394a352e3d37fa71717c44aacaeccde5fd5d067b3ae67f12765eaeec70b1b"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6002,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 9,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/10/rust_generation/stdout.bin",
+        "sha256": "d698af133fbc38b9c709293519997a324b6b28132a6769ae60d4fe74f15f4ae2"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/10/python_generation/stdout.bin",
+        "sha256": "d698af133fbc38b9c709293519997a324b6b28132a6769ae60d4fe74f15f4ae2"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6002,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 10,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/11/rust_generation/stdout.bin",
+        "sha256": "656e7982c346b2b5754e0a4def0030a81793b8f4e5175cf6b12a3f01193aa64d"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/11/python_generation/stdout.bin",
+        "sha256": "656e7982c346b2b5754e0a4def0030a81793b8f4e5175cf6b12a3f01193aa64d"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6002,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 11,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/12/rust_generation/stdout.bin",
+        "sha256": "90d23c7ce703946ab00da0f5283c47577cf3fd9c2fa663213f1e2edcb3cbc387"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/12/python_generation/stdout.bin",
+        "sha256": "90d23c7ce703946ab00da0f5283c47577cf3fd9c2fa663213f1e2edcb3cbc387"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6003,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 12,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/13/rust_generation/stdout.bin",
+        "sha256": "f3ae98691ff8dbc0bcfaa29f31e77aaced62dc11e274cb2a244179fcd34a841e"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/13/python_generation/stdout.bin",
+        "sha256": "f3ae98691ff8dbc0bcfaa29f31e77aaced62dc11e274cb2a244179fcd34a841e"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6003,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 13,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/14/rust_generation/stdout.bin",
+        "sha256": "c6446ad5c9623125322cfad9538696d87e82298c0bcafd029324c28d6a64e101"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/14/python_generation/stdout.bin",
+        "sha256": "c6446ad5c9623125322cfad9538696d87e82298c0bcafd029324c28d6a64e101"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6003,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 14,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/15/rust_generation/stdout.bin",
+        "sha256": "8674c73910b84fd0c10b8ed5b7dd9edca199b32b6a578c1771055f23e2edad0c"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/15/python_generation/stdout.bin",
+        "sha256": "8674c73910b84fd0c10b8ed5b7dd9edca199b32b6a578c1771055f23e2edad0c"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6003,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 15,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/16/rust_generation/stdout.bin",
+        "sha256": "8698e67414ca59516e0874319fc37f6d1887ac2c77d5c4183e79db60039dadfe"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/16/python_generation/stdout.bin",
+        "sha256": "8698e67414ca59516e0874319fc37f6d1887ac2c77d5c4183e79db60039dadfe"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6004,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 16,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/17/rust_generation/stdout.bin",
+        "sha256": "061ee967384220699319c33d315297b56e5e768d2b9e9e4a64300768bb1b9233"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/17/python_generation/stdout.bin",
+        "sha256": "061ee967384220699319c33d315297b56e5e768d2b9e9e4a64300768bb1b9233"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6004,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 17,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/18/rust_generation/stdout.bin",
+        "sha256": "2d4388ca90f12e92c20b86f3fcfbe4dd2e323b3520266428fc01073436b46fde"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/18/python_generation/stdout.bin",
+        "sha256": "2d4388ca90f12e92c20b86f3fcfbe4dd2e323b3520266428fc01073436b46fde"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6004,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 18,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/19/rust_generation/stdout.bin",
+        "sha256": "c9b8bbd7b2027caa64b9cf45c777a497640c97468b3ffc0cd9f77e45665c26aa"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/19/python_generation/stdout.bin",
+        "sha256": "c9b8bbd7b2027caa64b9cf45c777a497640c97468b3ffc0cd9f77e45665c26aa"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6004,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 19,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/20/rust_generation/stdout.bin",
+        "sha256": "3ad4a9a6e9969eef9afa1eb5b7895d21bdc18f8a0949720d69265450575de37b"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/20/python_generation/stdout.bin",
+        "sha256": "3ad4a9a6e9969eef9afa1eb5b7895d21bdc18f8a0949720d69265450575de37b"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6005,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 20,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/21/rust_generation/stdout.bin",
+        "sha256": "4627626516359451c364e6d9b41c8aa384f8fe09f0a52d49ba918d9f54a8d41e"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/21/python_generation/stdout.bin",
+        "sha256": "4627626516359451c364e6d9b41c8aa384f8fe09f0a52d49ba918d9f54a8d41e"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6005,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 21,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/22/rust_generation/stdout.bin",
+        "sha256": "5d1417c3cfbfd853383572ee42b54a9f03caf9ee237cf7c85ea9ff360409d752"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/22/python_generation/stdout.bin",
+        "sha256": "5d1417c3cfbfd853383572ee42b54a9f03caf9ee237cf7c85ea9ff360409d752"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6005,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 22,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/23/rust_generation/stdout.bin",
+        "sha256": "6768ff3a07145e66def13804b6dc2fafd6e297e63466c21ba8ded3a00350a2cc"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/23/python_generation/stdout.bin",
+        "sha256": "6768ff3a07145e66def13804b6dc2fafd6e297e63466c21ba8ded3a00350a2cc"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6005,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 23,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/24/rust_generation/stdout.bin",
+        "sha256": "37f4278621b0d74f1d65b585ca2e4abb234f60ceeaf4bdfb0eca0774e05bfba6"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/24/python_generation/stdout.bin",
+        "sha256": "37f4278621b0d74f1d65b585ca2e4abb234f60ceeaf4bdfb0eca0774e05bfba6"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6006,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 24,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/25/rust_generation/stdout.bin",
+        "sha256": "6f753a4271615495cbe3ad326e3782438d082829957287acd713f0641bc816e1"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/25/python_generation/stdout.bin",
+        "sha256": "6f753a4271615495cbe3ad326e3782438d082829957287acd713f0641bc816e1"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6006,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 25,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/26/rust_generation/stdout.bin",
+        "sha256": "ca46b1ff8169cbe4288281c1d05078ba6a80a0748ac86bd8ecf6508da2e1a492"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/26/python_generation/stdout.bin",
+        "sha256": "ca46b1ff8169cbe4288281c1d05078ba6a80a0748ac86bd8ecf6508da2e1a492"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6006,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 26,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/27/rust_generation/stdout.bin",
+        "sha256": "d69029aa6f6e25f132673c09389ee36be4ac722e91eb9ec6dbb2922ff0fbcd3c"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/27/python_generation/stdout.bin",
+        "sha256": "d69029aa6f6e25f132673c09389ee36be4ac722e91eb9ec6dbb2922ff0fbcd3c"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6006,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 27,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/28/rust_generation/stdout.bin",
+        "sha256": "764a1655bb9560077f32651ea0d7a2df9c477e96ec5cd2c52528a0062657c488"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/28/python_generation/stdout.bin",
+        "sha256": "764a1655bb9560077f32651ea0d7a2df9c477e96ec5cd2c52528a0062657c488"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6007,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 28,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/29/rust_generation/stdout.bin",
+        "sha256": "b71ec5d7a907f6e34ba1d376f2b2a3d8df61c229c7cfcc10ab135328d8861985"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/29/python_generation/stdout.bin",
+        "sha256": "b71ec5d7a907f6e34ba1d376f2b2a3d8df61c229c7cfcc10ab135328d8861985"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6007,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 29,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/30/rust_generation/stdout.bin",
+        "sha256": "c6ce6fc27290bf882ea583fb89654f29a2971df11d0a681052ff07e723856576"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/30/python_generation/stdout.bin",
+        "sha256": "c6ce6fc27290bf882ea583fb89654f29a2971df11d0a681052ff07e723856576"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6007,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 30,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/31/rust_generation/stdout.bin",
+        "sha256": "bd2a76a20143301a267f0c15fb9486c838284bf1704e86de13b4e60df0f46c01"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/31/python_generation/stdout.bin",
+        "sha256": "bd2a76a20143301a267f0c15fb9486c838284bf1704e86de13b4e60df0f46c01"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6007,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 31,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/32/rust_generation/stdout.bin",
+        "sha256": "169879dc0e856fecacb15b7552b4155e6db924e7e59589dca88ad3b8eb0a0345"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/32/python_generation/stdout.bin",
+        "sha256": "169879dc0e856fecacb15b7552b4155e6db924e7e59589dca88ad3b8eb0a0345"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6008,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 32,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/33/rust_generation/stdout.bin",
+        "sha256": "a2a03b5b7ca78e4369e5e0ffa8ba7e97b67c9feec49c32003744ffcb583b5d50"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/33/python_generation/stdout.bin",
+        "sha256": "a2a03b5b7ca78e4369e5e0ffa8ba7e97b67c9feec49c32003744ffcb583b5d50"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6008,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 33,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/34/rust_generation/stdout.bin",
+        "sha256": "041411276db9abb55ffaa83102dd53166e919f503ddad8c15b2bf59aff2981f6"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/34/python_generation/stdout.bin",
+        "sha256": "041411276db9abb55ffaa83102dd53166e919f503ddad8c15b2bf59aff2981f6"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6008,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 34,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/35/rust_generation/stdout.bin",
+        "sha256": "907a8b5db27823e6cfbaccbbd14ce539fb9ea60c93422e3485e107314536b83b"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/35/python_generation/stdout.bin",
+        "sha256": "907a8b5db27823e6cfbaccbbd14ce539fb9ea60c93422e3485e107314536b83b"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6008,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 35,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/36/rust_generation/stdout.bin",
+        "sha256": "d3147d9717951c9df5ce10d13442db63b9a52e685fbb37bdbbc2bce886912fd9"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/36/python_generation/stdout.bin",
+        "sha256": "d3147d9717951c9df5ce10d13442db63b9a52e685fbb37bdbbc2bce886912fd9"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6009,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 36,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/37/rust_generation/stdout.bin",
+        "sha256": "6908ac998b2838ff6782cfbcb54ec62a115810a542e0d8ad011f51e4397c5e9f"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/37/python_generation/stdout.bin",
+        "sha256": "6908ac998b2838ff6782cfbcb54ec62a115810a542e0d8ad011f51e4397c5e9f"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6009,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 37,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/38/rust_generation/stdout.bin",
+        "sha256": "f3463bf7f9224827fb2e1ed19e9785a9c634db145c12f86262df64d3eb652f41"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/38/python_generation/stdout.bin",
+        "sha256": "f3463bf7f9224827fb2e1ed19e9785a9c634db145c12f86262df64d3eb652f41"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6009,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 38,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/39/rust_generation/stdout.bin",
+        "sha256": "58fc016edc3cfdca74ac2496d410bdc655982b4e8beff5b5ee414a487f663512"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/39/python_generation/stdout.bin",
+        "sha256": "58fc016edc3cfdca74ac2496d410bdc655982b4e8beff5b5ee414a487f663512"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6009,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 39,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/40/rust_generation/stdout.bin",
+        "sha256": "55326f5360f60c234a82bb19085279e7ba120f88abb1ceb5c942a12f995d56ae"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/40/python_generation/stdout.bin",
+        "sha256": "55326f5360f60c234a82bb19085279e7ba120f88abb1ceb5c942a12f995d56ae"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6010,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 40,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/41/rust_generation/stdout.bin",
+        "sha256": "deefbd1d336e8134c845bf66817b7f37f47816fd1ad48ffcefff4f4b4fb5425c"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/41/python_generation/stdout.bin",
+        "sha256": "deefbd1d336e8134c845bf66817b7f37f47816fd1ad48ffcefff4f4b4fb5425c"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6010,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 41,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/42/rust_generation/stdout.bin",
+        "sha256": "f923dc15b823cb4663a6b92929f3c0cc3f76da664e901c41d477169420802cfc"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/42/python_generation/stdout.bin",
+        "sha256": "f923dc15b823cb4663a6b92929f3c0cc3f76da664e901c41d477169420802cfc"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6010,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 42,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/43/rust_generation/stdout.bin",
+        "sha256": "b3b8ec116ac45316eee7089b9817ee7ad7e4a8ce6ca18a674c758cf81d9ded0a"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/43/python_generation/stdout.bin",
+        "sha256": "b3b8ec116ac45316eee7089b9817ee7ad7e4a8ce6ca18a674c758cf81d9ded0a"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6010,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 43,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/44/rust_generation/stdout.bin",
+        "sha256": "770a908a73fd5eb92eca67bd81e16b7198f83f0277e44e24a22dfb3c71b2b5d8"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/44/python_generation/stdout.bin",
+        "sha256": "770a908a73fd5eb92eca67bd81e16b7198f83f0277e44e24a22dfb3c71b2b5d8"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6011,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 44,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/45/rust_generation/stdout.bin",
+        "sha256": "16272467e4e59443a49ccc2238e1f125dd93de9be6b85c90d15a6650435a0763"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/45/python_generation/stdout.bin",
+        "sha256": "16272467e4e59443a49ccc2238e1f125dd93de9be6b85c90d15a6650435a0763"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6011,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 45,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/46/rust_generation/stdout.bin",
+        "sha256": "ff84cc48a0ea06effaeff520ddec0e4e0a50348b55cf5c5b9a5ea46a9904b46a"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/46/python_generation/stdout.bin",
+        "sha256": "ff84cc48a0ea06effaeff520ddec0e4e0a50348b55cf5c5b9a5ea46a9904b46a"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6011,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 46,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/47/rust_generation/stdout.bin",
+        "sha256": "85165bbd9f79295a1cc39dd5e203f391fe6b3a92a5565401877812cdf4ea6b39"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/47/python_generation/stdout.bin",
+        "sha256": "85165bbd9f79295a1cc39dd5e203f391fe6b3a92a5565401877812cdf4ea6b39"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6011,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 47,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/48/rust_generation/stdout.bin",
+        "sha256": "b5596dcfbb80803e2194542d66ee34ca7ae47f749e99e55629860bc9f58cc8c9"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/48/python_generation/stdout.bin",
+        "sha256": "b5596dcfbb80803e2194542d66ee34ca7ae47f749e99e55629860bc9f58cc8c9"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6012,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 48,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/49/rust_generation/stdout.bin",
+        "sha256": "e76933cd9652951d660a316b9cd5f14a32e241910165c02c36e9aff3a67920c9"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/49/python_generation/stdout.bin",
+        "sha256": "e76933cd9652951d660a316b9cd5f14a32e241910165c02c36e9aff3a67920c9"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6012,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 49,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/50/rust_generation/stdout.bin",
+        "sha256": "19c9583f57006571b05b9d3b0613c6398af4ef14a53e87cd230adb64cb3a0790"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/50/python_generation/stdout.bin",
+        "sha256": "19c9583f57006571b05b9d3b0613c6398af4ef14a53e87cd230adb64cb3a0790"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6012,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 50,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/51/rust_generation/stdout.bin",
+        "sha256": "3bbbb20e163cbec1e923b478e6eb0eee9fc00899c5a47434b711d6d35be14c98"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/51/python_generation/stdout.bin",
+        "sha256": "3bbbb20e163cbec1e923b478e6eb0eee9fc00899c5a47434b711d6d35be14c98"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6012,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 51,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/52/rust_generation/stdout.bin",
+        "sha256": "0d73485a2be77a8ee2143cc77733421d09ac1d02ec7bd68a012517d52f146fce"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/52/python_generation/stdout.bin",
+        "sha256": "0d73485a2be77a8ee2143cc77733421d09ac1d02ec7bd68a012517d52f146fce"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6013,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 52,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/53/rust_generation/stdout.bin",
+        "sha256": "777ec2ba647ab8d8c1276751ad49f2a7ec83f3ea67ad6de214f21119fcd52894"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/53/python_generation/stdout.bin",
+        "sha256": "777ec2ba647ab8d8c1276751ad49f2a7ec83f3ea67ad6de214f21119fcd52894"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6013,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 53,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/54/rust_generation/stdout.bin",
+        "sha256": "e16f836bfbbee106d3f6fcaf1a205daf0401bab2547934d2d1794820f66134cd"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/54/python_generation/stdout.bin",
+        "sha256": "e16f836bfbbee106d3f6fcaf1a205daf0401bab2547934d2d1794820f66134cd"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6013,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 54,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/55/rust_generation/stdout.bin",
+        "sha256": "fd02dff7052c5ea4493e84b41efbd0d3ea1cad7f6ece74f77b8fd93271fd9521"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/55/python_generation/stdout.bin",
+        "sha256": "fd02dff7052c5ea4493e84b41efbd0d3ea1cad7f6ece74f77b8fd93271fd9521"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6013,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 55,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/56/rust_generation/stdout.bin",
+        "sha256": "56de514fada2c813b998a6cab43403bf8f6ec63136f4cf6220102c13eedee14e"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/56/python_generation/stdout.bin",
+        "sha256": "56de514fada2c813b998a6cab43403bf8f6ec63136f4cf6220102c13eedee14e"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6014,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 56,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/57/rust_generation/stdout.bin",
+        "sha256": "d428ae5cd392c4fb6b1478cb033317235b6aded96934dc584ce9fa6f333afbc9"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/57/python_generation/stdout.bin",
+        "sha256": "d428ae5cd392c4fb6b1478cb033317235b6aded96934dc584ce9fa6f333afbc9"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6014,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 57,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/58/rust_generation/stdout.bin",
+        "sha256": "3ec50068f1b2ef7475e117a99914f2de36e10e55f153ff90b01f744b689b1006"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/58/python_generation/stdout.bin",
+        "sha256": "3ec50068f1b2ef7475e117a99914f2de36e10e55f153ff90b01f744b689b1006"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6014,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 58,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/59/rust_generation/stdout.bin",
+        "sha256": "edb387c1f2e58d52d13f176c715701b49790aa7e6b41ea62eccfec58dad9019f"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/59/python_generation/stdout.bin",
+        "sha256": "edb387c1f2e58d52d13f176c715701b49790aa7e6b41ea62eccfec58dad9019f"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6014,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 59,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/60/rust_generation/stdout.bin",
+        "sha256": "b81d06a0dd6af713d903218a16555941fc6abceed29e9aafba9d137db3e2de4a"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/60/python_generation/stdout.bin",
+        "sha256": "b81d06a0dd6af713d903218a16555941fc6abceed29e9aafba9d137db3e2de4a"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6015,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 60,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/61/rust_generation/stdout.bin",
+        "sha256": "c51f28328189890d7263ff62289f1f82b9fd7e98553821bbb4cc279f6d89330e"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/61/python_generation/stdout.bin",
+        "sha256": "c51f28328189890d7263ff62289f1f82b9fd7e98553821bbb4cc279f6d89330e"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6015,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 61,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/62/rust_generation/stdout.bin",
+        "sha256": "23e631c73e3551f518c3f6ab004ab0bf7f57f5675ca11c6ff0d6aecdfa0079b4"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/62/python_generation/stdout.bin",
+        "sha256": "23e631c73e3551f518c3f6ab004ab0bf7f57f5675ca11c6ff0d6aecdfa0079b4"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6015,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 62,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/63/rust_generation/stdout.bin",
+        "sha256": "a41ad5c02a8296510b90caadc6c97e6fb7e63a95fc44e38563588505f14d24b4"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/63/python_generation/stdout.bin",
+        "sha256": "a41ad5c02a8296510b90caadc6c97e6fb7e63a95fc44e38563588505f14d24b4"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6015,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 63,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/64/rust_generation/stdout.bin",
+        "sha256": "c33f82394e74d1ce1eb8239a727667b79db31c2224b48c3281c6cc503eb57585"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/64/python_generation/stdout.bin",
+        "sha256": "c33f82394e74d1ce1eb8239a727667b79db31c2224b48c3281c6cc503eb57585"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6016,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 64,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/65/rust_generation/stdout.bin",
+        "sha256": "7bff6ebedea4fea6ee0f659d9e5e1a7e4311a7b838d824e550197f472a5db6d6"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/65/python_generation/stdout.bin",
+        "sha256": "7bff6ebedea4fea6ee0f659d9e5e1a7e4311a7b838d824e550197f472a5db6d6"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6016,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 65,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/66/rust_generation/stdout.bin",
+        "sha256": "f41eafde672e41daaa53693c80ac60757527aaad36b4ae0756a01b9979eeaf3c"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/66/python_generation/stdout.bin",
+        "sha256": "f41eafde672e41daaa53693c80ac60757527aaad36b4ae0756a01b9979eeaf3c"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6016,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 66,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/67/rust_generation/stdout.bin",
+        "sha256": "cc36d602d8e01e4e0d1d5b5514c8e907c9f929fa08017b48ab54e2b124bbe087"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/67/python_generation/stdout.bin",
+        "sha256": "cc36d602d8e01e4e0d1d5b5514c8e907c9f929fa08017b48ab54e2b124bbe087"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6016,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 67,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/68/rust_generation/stdout.bin",
+        "sha256": "6bb2fa8a33e2332c0c6dc41f0abad5320a8b2ce2d8e514ce00f7da8f620f2cd9"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/68/python_generation/stdout.bin",
+        "sha256": "6bb2fa8a33e2332c0c6dc41f0abad5320a8b2ce2d8e514ce00f7da8f620f2cd9"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6017,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 68,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/69/rust_generation/stdout.bin",
+        "sha256": "2b5f2d723c2b52370fada08f7678827f93240e084f662e0a0a628a754d9c3a70"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/69/python_generation/stdout.bin",
+        "sha256": "2b5f2d723c2b52370fada08f7678827f93240e084f662e0a0a628a754d9c3a70"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6017,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 69,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/70/rust_generation/stdout.bin",
+        "sha256": "c5e2d7f69a3ab6baaf5644879df72552c66e5f1be2c80dcbf40ddea7355c2838"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/70/python_generation/stdout.bin",
+        "sha256": "c5e2d7f69a3ab6baaf5644879df72552c66e5f1be2c80dcbf40ddea7355c2838"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6017,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 70,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/71/rust_generation/stdout.bin",
+        "sha256": "7dc3cfb996e8505d896cb6d7bd4087b0a4d92acd54af29d7c0aa35cb24ac6e6b"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/71/python_generation/stdout.bin",
+        "sha256": "7dc3cfb996e8505d896cb6d7bd4087b0a4d92acd54af29d7c0aa35cb24ac6e6b"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6017,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 71,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/72/rust_generation/stdout.bin",
+        "sha256": "9715870c5c61fa55d357cab7a5801b8d0ae60447555d09468b487a6642065cea"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/72/python_generation/stdout.bin",
+        "sha256": "9715870c5c61fa55d357cab7a5801b8d0ae60447555d09468b487a6642065cea"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6018,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 72,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/73/rust_generation/stdout.bin",
+        "sha256": "f73d7880f07d197881256bec02c1065773f80b33498339fc71cb0093319b44ea"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/73/python_generation/stdout.bin",
+        "sha256": "f73d7880f07d197881256bec02c1065773f80b33498339fc71cb0093319b44ea"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6018,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 73,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/74/rust_generation/stdout.bin",
+        "sha256": "227e8b868fbc409019f305d46d4081395d9e43b8fab2b8f29b077775366a80e2"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/74/python_generation/stdout.bin",
+        "sha256": "227e8b868fbc409019f305d46d4081395d9e43b8fab2b8f29b077775366a80e2"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6018,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 74,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/75/rust_generation/stdout.bin",
+        "sha256": "82d969f61081106a275ce1016685be50268e6adfbd74ab8d49889c2c4d00443c"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/75/python_generation/stdout.bin",
+        "sha256": "82d969f61081106a275ce1016685be50268e6adfbd74ab8d49889c2c4d00443c"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6018,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 75,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/76/rust_generation/stdout.bin",
+        "sha256": "e9480fcde90295c73564fd91536980f640f0e2383ea66e300d9c19b4140f1eac"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/76/python_generation/stdout.bin",
+        "sha256": "e9480fcde90295c73564fd91536980f640f0e2383ea66e300d9c19b4140f1eac"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6019,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 76,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/77/rust_generation/stdout.bin",
+        "sha256": "77d3058a48413b150de2e54ad71ef17d6a6d50664fbddc7b92c413c38c0ec6a6"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/77/python_generation/stdout.bin",
+        "sha256": "77d3058a48413b150de2e54ad71ef17d6a6d50664fbddc7b92c413c38c0ec6a6"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6019,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 77,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/78/rust_generation/stdout.bin",
+        "sha256": "4e82c611074e5698e75a29523335c99c6eb6419cc5540c0c9c379b1121f5693a"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/78/python_generation/stdout.bin",
+        "sha256": "4e82c611074e5698e75a29523335c99c6eb6419cc5540c0c9c379b1121f5693a"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6019,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 78,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/79/rust_generation/stdout.bin",
+        "sha256": "d3816085b2308725019af5eda0008228f05ce0ad895d617311656d28dfdb5fb3"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/79/python_generation/stdout.bin",
+        "sha256": "d3816085b2308725019af5eda0008228f05ce0ad895d617311656d28dfdb5fb3"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6019,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 79,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/80/rust_generation/stdout.bin",
+        "sha256": "97b264be7319c1c81255313f87599c3d44dca533a55417ea3163e42bffdb2ab2"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/80/python_generation/stdout.bin",
+        "sha256": "97b264be7319c1c81255313f87599c3d44dca533a55417ea3163e42bffdb2ab2"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6020,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 80,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/81/rust_generation/stdout.bin",
+        "sha256": "25a4de3d404dfa67bfc58b93508525be00c49b793976539c265dac1cca72f45c"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/81/python_generation/stdout.bin",
+        "sha256": "25a4de3d404dfa67bfc58b93508525be00c49b793976539c265dac1cca72f45c"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6020,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 81,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/82/rust_generation/stdout.bin",
+        "sha256": "809467d21529f477a424eb94d7b0ab4eda292a6b486baae5eadbbbfa1c4b5aac"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/82/python_generation/stdout.bin",
+        "sha256": "809467d21529f477a424eb94d7b0ab4eda292a6b486baae5eadbbbfa1c4b5aac"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6020,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 82,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/83/rust_generation/stdout.bin",
+        "sha256": "c9eed010fd06af956fca158c3df85be684e603109ec88831c015a74977e52775"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/83/python_generation/stdout.bin",
+        "sha256": "c9eed010fd06af956fca158c3df85be684e603109ec88831c015a74977e52775"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6020,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 83,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/84/rust_generation/stdout.bin",
+        "sha256": "5d9198fb264521b0f48e942a4a0c7d677228911904563eacd2e3020eb95fd671"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/84/python_generation/stdout.bin",
+        "sha256": "5d9198fb264521b0f48e942a4a0c7d677228911904563eacd2e3020eb95fd671"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6021,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 84,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/85/rust_generation/stdout.bin",
+        "sha256": "fa3caabf5d9352a695963a071182e484fd7717c47affc239522efca30141b073"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/85/python_generation/stdout.bin",
+        "sha256": "fa3caabf5d9352a695963a071182e484fd7717c47affc239522efca30141b073"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6021,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 85,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/86/rust_generation/stdout.bin",
+        "sha256": "689404a80e323b5ec886df5b645274588fdc3e3c0ac16718d04f3ed059163eb8"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/86/python_generation/stdout.bin",
+        "sha256": "689404a80e323b5ec886df5b645274588fdc3e3c0ac16718d04f3ed059163eb8"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6021,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 86,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/87/rust_generation/stdout.bin",
+        "sha256": "34eb73cd540074dfaf39a51ef4002d253a1d44ff53638728aeb92c47076d0e52"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/87/python_generation/stdout.bin",
+        "sha256": "34eb73cd540074dfaf39a51ef4002d253a1d44ff53638728aeb92c47076d0e52"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6021,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 87,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/88/rust_generation/stdout.bin",
+        "sha256": "60a7a0a5d3838f719137d473792f58fb52c8764bd4d037b3a40c65582e09ddfe"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/88/python_generation/stdout.bin",
+        "sha256": "60a7a0a5d3838f719137d473792f58fb52c8764bd4d037b3a40c65582e09ddfe"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6022,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 88,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/89/rust_generation/stdout.bin",
+        "sha256": "2f51e8d75ff0cccf9443a2c348edca5bbe63a6988f3ce742483f710ca0bb74db"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/89/python_generation/stdout.bin",
+        "sha256": "2f51e8d75ff0cccf9443a2c348edca5bbe63a6988f3ce742483f710ca0bb74db"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6022,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 89,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/90/rust_generation/stdout.bin",
+        "sha256": "8bfd7e6ebc4ae6789f18decc4309c66b09ee5c131b35c672ba1d83f63805198d"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/90/python_generation/stdout.bin",
+        "sha256": "8bfd7e6ebc4ae6789f18decc4309c66b09ee5c131b35c672ba1d83f63805198d"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6022,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 90,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/91/rust_generation/stdout.bin",
+        "sha256": "33788c4208545983fd1b33cd2805aab32541d98db4cebeb6501e35f46cc1f6a7"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/91/python_generation/stdout.bin",
+        "sha256": "33788c4208545983fd1b33cd2805aab32541d98db4cebeb6501e35f46cc1f6a7"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6022,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 91,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/92/rust_generation/stdout.bin",
+        "sha256": "92a16fd346878c0c623d4ab466a8bdfb473d7421283976a9de847b7667b08752"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/92/python_generation/stdout.bin",
+        "sha256": "92a16fd346878c0c623d4ab466a8bdfb473d7421283976a9de847b7667b08752"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6023,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 92,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/93/rust_generation/stdout.bin",
+        "sha256": "eceac7f294e16c734388dc9feccd1fe04a91e927aee3766e4f6c318f6df98b57"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/93/python_generation/stdout.bin",
+        "sha256": "eceac7f294e16c734388dc9feccd1fe04a91e927aee3766e4f6c318f6df98b57"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6023,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 93,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/94/rust_generation/stdout.bin",
+        "sha256": "299ec189691453897884c84ec90334ca936cd980a2caa16ed9146f6b4bfe1fec"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/94/python_generation/stdout.bin",
+        "sha256": "299ec189691453897884c84ec90334ca936cd980a2caa16ed9146f6b4bfe1fec"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6023,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 94,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/95/rust_generation/stdout.bin",
+        "sha256": "d44d89d2d875d9af5586196d5951121cf92a0ddda27ba4ba179b0b283fd743a3"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/95/python_generation/stdout.bin",
+        "sha256": "d44d89d2d875d9af5586196d5951121cf92a0ddda27ba4ba179b0b283fd743a3"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6023,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 95,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/96/rust_generation/stdout.bin",
+        "sha256": "a1cb2614a446b57919d31a8a798b9c6d19cbdd90563fae4ed8f009413cec1be8"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/96/python_generation/stdout.bin",
+        "sha256": "a1cb2614a446b57919d31a8a798b9c6d19cbdd90563fae4ed8f009413cec1be8"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6024,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 96,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/97/rust_generation/stdout.bin",
+        "sha256": "7f89d95bf3232cc8b26d0f12cf435c215002a5748ce719619a4f3b7b254b4a28"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/97/python_generation/stdout.bin",
+        "sha256": "7f89d95bf3232cc8b26d0f12cf435c215002a5748ce719619a4f3b7b254b4a28"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6024,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 97,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/98/rust_generation/stdout.bin",
+        "sha256": "6eed57c1dbea44d02538875441a390fedecf570aae74bd01fe30bdddc22f5acd"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/98/python_generation/stdout.bin",
+        "sha256": "6eed57c1dbea44d02538875441a390fedecf570aae74bd01fe30bdddc22f5acd"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6024,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 98,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/99/rust_generation/stdout.bin",
+        "sha256": "5d7e1ea95956f8706b30694a475c9a3abae50f5717292c04aefa7794606f6f4d"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/99/python_generation/stdout.bin",
+        "sha256": "5d7e1ea95956f8706b30694a475c9a3abae50f5717292c04aefa7794606f6f4d"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6024,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 99,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/100/rust_generation/stdout.bin",
+        "sha256": "2124e6b7d353f5ca873da29d11e6002ff3f16b93a0521ebea13aac11697f4b46"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/100/python_generation/stdout.bin",
+        "sha256": "2124e6b7d353f5ca873da29d11e6002ff3f16b93a0521ebea13aac11697f4b46"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6025,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 100,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/101/rust_generation/stdout.bin",
+        "sha256": "22fb6b0faecbd72454f312ca266ac46d4f45ba5810db18efd3f2c479498fb011"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/101/python_generation/stdout.bin",
+        "sha256": "22fb6b0faecbd72454f312ca266ac46d4f45ba5810db18efd3f2c479498fb011"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6025,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 101,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/102/rust_generation/stdout.bin",
+        "sha256": "8c2349d1b7c91318cf6e81bc2b9d71ae0ee5268e6c80c8e745c65e336541c283"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/102/python_generation/stdout.bin",
+        "sha256": "8c2349d1b7c91318cf6e81bc2b9d71ae0ee5268e6c80c8e745c65e336541c283"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6025,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 102,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/103/rust_generation/stdout.bin",
+        "sha256": "aabbe0c2fe0d8b908b2a3b10819217be9cdee78b0b226a4504eedffc150513c1"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/103/python_generation/stdout.bin",
+        "sha256": "aabbe0c2fe0d8b908b2a3b10819217be9cdee78b0b226a4504eedffc150513c1"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6025,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 103,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/104/rust_generation/stdout.bin",
+        "sha256": "c248d2f20f35a9d19e9dcaea11b82a6f5d3e03fafe7b0c0bdd70e54a7c50c184"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/104/python_generation/stdout.bin",
+        "sha256": "c248d2f20f35a9d19e9dcaea11b82a6f5d3e03fafe7b0c0bdd70e54a7c50c184"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6026,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 104,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/105/rust_generation/stdout.bin",
+        "sha256": "83621a332b2ce2a457dee68480fc7384de039c6e7f89d957362a2934eab74899"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/105/python_generation/stdout.bin",
+        "sha256": "83621a332b2ce2a457dee68480fc7384de039c6e7f89d957362a2934eab74899"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6026,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 105,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/106/rust_generation/stdout.bin",
+        "sha256": "0fb24c26df37db0252f396fa89b589aa40e2660154e561bd213f9d39e25c4d16"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/106/python_generation/stdout.bin",
+        "sha256": "0fb24c26df37db0252f396fa89b589aa40e2660154e561bd213f9d39e25c4d16"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6026,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 106,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/107/rust_generation/stdout.bin",
+        "sha256": "9124e89c6cb5a29089b3d71c6732bc9dc0c5f4cfad35ca3c60a0e67aaaba96ab"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/107/python_generation/stdout.bin",
+        "sha256": "9124e89c6cb5a29089b3d71c6732bc9dc0c5f4cfad35ca3c60a0e67aaaba96ab"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6026,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 107,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/108/rust_generation/stdout.bin",
+        "sha256": "b6882d7fa34ec26f6c0e0b614deebaf1c2d34c2dee3a17dd563be640e01d957e"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/108/python_generation/stdout.bin",
+        "sha256": "b6882d7fa34ec26f6c0e0b614deebaf1c2d34c2dee3a17dd563be640e01d957e"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6027,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 108,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/109/rust_generation/stdout.bin",
+        "sha256": "2f1e8da026ca629ddbe3917779fac43dcdc44cdcb49f5b9e293e8f62a34f0988"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/109/python_generation/stdout.bin",
+        "sha256": "2f1e8da026ca629ddbe3917779fac43dcdc44cdcb49f5b9e293e8f62a34f0988"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6027,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 109,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/110/rust_generation/stdout.bin",
+        "sha256": "2b96eaaf235e25a4db1f129e3aca6b5913f1f7db8de245deb537de3fb7b0c0ee"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/110/python_generation/stdout.bin",
+        "sha256": "2b96eaaf235e25a4db1f129e3aca6b5913f1f7db8de245deb537de3fb7b0c0ee"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6027,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 110,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/111/rust_generation/stdout.bin",
+        "sha256": "6d3f1ce6e25d245fd2c0279c90765a9d1fde2c444e80e694c2683c5b96b42ef9"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/111/python_generation/stdout.bin",
+        "sha256": "6d3f1ce6e25d245fd2c0279c90765a9d1fde2c444e80e694c2683c5b96b42ef9"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6027,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 111,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/112/rust_generation/stdout.bin",
+        "sha256": "301a00d0ebde4af407951bbba5cfc0b4b13c1e2b34ad80740652c4db758f0459"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/112/python_generation/stdout.bin",
+        "sha256": "301a00d0ebde4af407951bbba5cfc0b4b13c1e2b34ad80740652c4db758f0459"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6028,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 112,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/113/rust_generation/stdout.bin",
+        "sha256": "3054f77e10191e34a0a69d257834f51ff53f50fe82a4ae7bbabfd046f4ed515e"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/113/python_generation/stdout.bin",
+        "sha256": "3054f77e10191e34a0a69d257834f51ff53f50fe82a4ae7bbabfd046f4ed515e"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6028,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 113,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/114/rust_generation/stdout.bin",
+        "sha256": "db43461c6a8226d2afeea763be32fb1cf698a13049225d06ec36a746b0cbc827"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/114/python_generation/stdout.bin",
+        "sha256": "db43461c6a8226d2afeea763be32fb1cf698a13049225d06ec36a746b0cbc827"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6028,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 114,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/115/rust_generation/stdout.bin",
+        "sha256": "bf7ed7d24aa8d40f725065acc75f021fa2048a39941c6ca2e92b991d86dcb436"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/115/python_generation/stdout.bin",
+        "sha256": "bf7ed7d24aa8d40f725065acc75f021fa2048a39941c6ca2e92b991d86dcb436"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6028,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 115,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/116/rust_generation/stdout.bin",
+        "sha256": "4996066b12c121ae434847750022ddac27e02e8d8ad05930afe974dc001b6fe8"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/116/python_generation/stdout.bin",
+        "sha256": "4996066b12c121ae434847750022ddac27e02e8d8ad05930afe974dc001b6fe8"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6029,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 116,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/117/rust_generation/stdout.bin",
+        "sha256": "a70a15a221949fa193e9165843df6cd5fff903d24d1d721763d0daa90525acfc"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/117/python_generation/stdout.bin",
+        "sha256": "a70a15a221949fa193e9165843df6cd5fff903d24d1d721763d0daa90525acfc"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6029,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 117,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/118/rust_generation/stdout.bin",
+        "sha256": "41a5fdc6db4138c22a4f8dc1918bfedee08d0782159118e5aa71a5213b12d49a"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/118/python_generation/stdout.bin",
+        "sha256": "41a5fdc6db4138c22a4f8dc1918bfedee08d0782159118e5aa71a5213b12d49a"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6029,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 118,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/119/rust_generation/stdout.bin",
+        "sha256": "cb4e3be36b397477ccdae4bffc33a4077ddfd9929b0b06b6390d0a16203d5a46"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/119/python_generation/stdout.bin",
+        "sha256": "cb4e3be36b397477ccdae4bffc33a4077ddfd9929b0b06b6390d0a16203d5a46"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6029,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 119,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/120/rust_generation/stdout.bin",
+        "sha256": "acf21481584aa7584e24c2775cb7742d828677a85d9948b9eb1e2bc5623c5ae1"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/120/python_generation/stdout.bin",
+        "sha256": "acf21481584aa7584e24c2775cb7742d828677a85d9948b9eb1e2bc5623c5ae1"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6030,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 120,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/121/rust_generation/stdout.bin",
+        "sha256": "b8fb7eec8416f83c5c5697c31e980a31fd06a1f20494043da5f37f75bebe87c4"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/121/python_generation/stdout.bin",
+        "sha256": "b8fb7eec8416f83c5c5697c31e980a31fd06a1f20494043da5f37f75bebe87c4"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6030,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 121,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/122/rust_generation/stdout.bin",
+        "sha256": "6fde16a82edb8830d8e68b264b23246ee8f7648e81869e72cd9849db0c21d708"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/122/python_generation/stdout.bin",
+        "sha256": "6fde16a82edb8830d8e68b264b23246ee8f7648e81869e72cd9849db0c21d708"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6030,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 122,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/123/rust_generation/stdout.bin",
+        "sha256": "6dbb126e981eae073c1251e75fcd449fd0d8cb83eefb64e087b4a6e07c60bd29"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/123/python_generation/stdout.bin",
+        "sha256": "6dbb126e981eae073c1251e75fcd449fd0d8cb83eefb64e087b4a6e07c60bd29"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6030,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 123,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 0,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/124/rust_generation/stdout.bin",
+        "sha256": "056b5cf1d525f5fd1986563face6c8a46fe5b5b272ef405891e00f49d6e21eb7"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/124/python_generation/stdout.bin",
+        "sha256": "056b5cf1d525f5fd1986563face6c8a46fe5b5b272ef405891e00f49d6e21eb7"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6031,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 124,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 1,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/125/rust_generation/stdout.bin",
+        "sha256": "d8d10cdcc0219ebe9d2373a668c87fe244a19dd19a15235f5fc5c312be309666"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/125/python_generation/stdout.bin",
+        "sha256": "d8d10cdcc0219ebe9d2373a668c87fe244a19dd19a15235f5fc5c312be309666"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6031,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 125,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 2,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/126/rust_generation/stdout.bin",
+        "sha256": "2025dadaa7b71c9a9a89638be61058652b42acb10de990dfcafe31ffc59164dd"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/126/python_generation/stdout.bin",
+        "sha256": "2025dadaa7b71c9a9a89638be61058652b42acb10de990dfcafe31ffc59164dd"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6031,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 126,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  },
+  {
+    "classification": "confirmed_from_saved_records",
+    "initial": 3,
+    "inputs": [
+      {
+        "path": "artifacts/p01o-001/runs/127/rust_generation/stdout.bin",
+        "sha256": "c9f439d4557521b0e111c396e2b11275642f9495ff1da7c76d7a0c66925f9bcf"
+      },
+      {
+        "path": "artifacts/p01o-001/runs/127/python_generation/stdout.bin",
+        "sha256": "c9f439d4557521b0e111c396e2b11275642f9495ff1da7c76d7a0c66925f9bcf"
+      }
+    ],
+    "left": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "nested_environment_equal": true,
+    "nested_native_available": true,
+    "parse_errors": [],
+    "proposal": 6031,
+    "right": {
+      "keys": [
+        "draws",
+        "environment",
+        "initial",
+        "map",
+        "proposal",
+        "schema",
+        "slot",
+        "state_map"
+      ],
+      "nested_native": true,
+      "reasons": [],
+      "root_native": false,
+      "valid_envelope": true
+    },
+    "root_native_expected_by_runner": false,
+    "slot": 127,
+    "typed_equal": true,
+    "worker_semantic_validity": null
+  }
+]

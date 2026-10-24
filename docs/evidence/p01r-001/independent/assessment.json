@@ -1,0 +1,14 @@
+{
+  "cells_verified": 128,
+  "controls_verified": 20,
+  "keyed_evaluations": 0,
+  "review_completion_sha256": "ecea5dda6cc03afc2f69a04c5333f798a9a2fb6512963396ec16e498cb9fd68e",
+  "review_inventory_entries": 18,
+  "saved_streams_verified": 256,
+  "scientific_status": "untested",
+  "source_spans_verified": 9,
+  "static_call_sites_verified": 22,
+  "status": "pass",
+  "timing_attribution": null,
+  "world_transitions": 0
+}

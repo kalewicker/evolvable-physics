@@ -283,3 +283,24 @@ attempt; implementation-only diagnosis fixes may use fresh directories under the
 same plan. No consumed-P01q repair/resume/retry, input conversion, performance
 assay or new dynamics. A corrected runner needs a separately justified protocol.
 Scientific status untested, behavior null/not_executed and E01 unauthorized.
+
+## Current next boundary after P01r diagnosis
+
+P01r read-only review and independent audit are complete. Registration commit
+86bfa40 preceded diagnosis. Nine tests passed normally/optimized across all20
+invented envelope/accounting controls. One review/one audit passed; no repairs.
+All128 cells have matching paired streams with environment.native and no root
+native. Nine source spans and22 lexical call sites were audited. Old loader returns
+the envelope while runner expects native directly; mock pipeline bypasses loader.
+Budget checks recursively count artifact bytes, including callbacks in custody
+loops and snapshot preparation. Actual calls/per-operation timing are unknown,
+null/uninstrumented; no benchmark or measured speedup claim. See docs/p01r_findings.md
+and docs/p01r_closure.json. Original P01o/P01q seals and failures are unchanged;
+no worker request, runtime import, transition, candidate or keyed evaluation ran.
+Next separately register bounded recovery engineering at new paths: explicit
+saved-envelope validation with complete-envelope input-to-request fixtures,
+bounded byte accounting/reconciliation and work counters, and terminal failure
+preservation without repeated full-tree rescans. Include temporary replacements,
+partial writes, snapshots and seals. No corrected implementation, performance
+assay or trajectory is admitted by diagnosis. P01q remains consumed with no repair,
+retry/resume or missing-cell completion. Scientific status untested; E01 unauthorized.

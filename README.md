@@ -532,3 +532,10 @@ accounting/closeout path. Six registration tests and source/input custody checks
 passed. Next is the fixed all-cell review with complete-envelope and accounting
 controls; no repair or rerun is admitted. See
 [registration findings](docs/p01r_registration_findings.md).
+
+P01r diagnosis is complete and independently audited. All 128 saved stream pairs
+match and expose `environment.native`, while the failed runner expected `native`
+at the root. The source also reveals repeated full-tree byte accounting in budget
+checks; its runtime timing remains uninstrumented. Nine tests covered 20 invented
+controls. No worlds ran. Next is a separate engineering recovery registration.
+See [diagnosis findings](docs/p01r_findings.md).

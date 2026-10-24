@@ -1,0 +1,21 @@
+{
+  "actual_scan_invocations": null,
+  "classification": "confirmed_from_saved_records",
+  "copied_source_bytes": 25564664,
+  "declared_dependency_entries": 3846,
+  "declared_source_entries": 1107,
+  "inventories": {
+    "artifacts/p01o-001": {
+      "entries": 5127,
+      "listed_bytes": 214764022,
+      "seal_and_inventory_bytes": 513306
+    },
+    "artifacts/p01q-001": {
+      "entries": 4960,
+      "listed_bytes": 248815477,
+      "seal_and_inventory_bytes": 488346
+    }
+  },
+  "missing_reason": "uninstrumented",
+  "per_operation_costs": null
+}

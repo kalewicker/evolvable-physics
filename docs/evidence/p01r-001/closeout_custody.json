@@ -1,0 +1,23 @@
+{
+  "attempts": {
+    "p01r-001": {
+      "completion_sha256": "ecea5dda6cc03afc2f69a04c5333f798a9a2fb6512963396ec16e498cb9fd68e",
+      "inventory_entries": 18,
+      "output_bytes": 519602,
+      "wall_seconds": 2.004469624720514
+    },
+    "p01r-audit-001": {
+      "completion_sha256": "59dd735b98765a8e5ab7fe6137d27e3475047636dcbd9f782c8ca73e573ba8f4",
+      "inventory_entries": 13,
+      "output_bytes": 308819,
+      "wall_seconds": 1.0504292910918593
+    }
+  },
+  "frozen_files": 291,
+  "inputs": 274,
+  "keyed_evaluations": 0,
+  "prior_receipts": 552,
+  "schema": "p01r-closeout-custody-v1",
+  "status": "pass",
+  "world_transitions": 0
+}

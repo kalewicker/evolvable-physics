@@ -1,0 +1,40 @@
+{
+  "controls": [
+    "complete_wrapper_preserves_all_fields",
+    "already_unwrapped_fixture_is_wrong_boundary",
+    "missing_environment",
+    "missing_native",
+    "wrong_schema",
+    "wrong_cell_ids",
+    "bool_vs_integer_mismatch",
+    "stream_disagreement",
+    "extra_metadata_preserved",
+    "nested_resource_or_rule_mutation_rejected",
+    "create_and_append",
+    "atomic_replace_counts_old_and_temporary_until_rename",
+    "failed_partial_write_is_retained",
+    "duplicate_path_not_double_counted",
+    "snapshot_bytes_included",
+    "metadata_and_seal_bytes_included",
+    "cpu_reserve_boundary",
+    "wall_and_byte_reserve_boundaries",
+    "terminal_failure_preserves_all_cells",
+    "inventory_mismatch_and_unlisted_file"
+  ],
+  "keyed_evaluations": 0,
+  "packet": "artifacts/p01r-build-001/controls.json",
+  "packet_sha256": "8cc384e8cffcef2f973471ecc08acf8444767d5c960adca2f79814ad707f89f3",
+  "retained_payloads_parsed": 0,
+  "returncodes": [
+    0,
+    0
+  ],
+  "sources": {
+    "scripts/audit_p01r.py": "467e762f0b1cb656026db36dd8dd255eda8dc804259b83db341666d56d9de671",
+    "scripts/review_p01r.py": "35cd514869bef0d5a7151cf37b2fc0a5460d62193fcef5abd72669713f3b8dde",
+    "scripts/test_p01r.py": "507241e40a88e419fcc6298b2d4e44cc06f298a9f893e5a03ef09e3237027600"
+  },
+  "status": "pass",
+  "tests_per_mode": 9,
+  "world_transitions": 0
+}
