@@ -1,0 +1,108 @@
+{
+  "attempts": {
+    "p01s-001": {
+      "actual_entries": 37,
+      "actual_file_bytes": 78114,
+      "completion": {
+        "checksums_sha256": "410929b2684291ef32340fafac92601b36958fec372cfb73f84a5bbb18f79be1",
+        "inventory_scope": "known_paths",
+        "output_bytes": 50766,
+        "reconciliation": "pending_independent_audit",
+        "status": "fail",
+        "wall_seconds": 0.21744629088789225
+      },
+      "inventory_sha256": "ccb8b3b13c07c2686261431f2204798990dc7f12c3053ed4e54bd62abaad0fb4"
+    },
+    "p01s-002": {
+      "actual_entries": 40,
+      "actual_file_bytes": 163738,
+      "completion": {
+        "checksums_sha256": "644227b2bfb6859bb02e5aab691848e39cb9a39017504775e7100e0110d8a746",
+        "inventory_scope": "known_paths",
+        "output_bytes": 163738,
+        "reconciliation": "pending_independent_audit",
+        "status": "pass",
+        "wall_seconds": 0.18360787443816662
+      },
+      "inventory_sha256": "1f3859095dff6305e38bc00913b24b1493512bba6f3a5465b4031e6a7483cc5a"
+    },
+    "p01s-003": {
+      "actual_entries": 40,
+      "actual_file_bytes": 164638,
+      "completion": {
+        "checksums_sha256": "f1fd547ecaf5e08d600bbd122b10cd3018350d9b6c61d4677675ebaaf7790e2f",
+        "fixture_reservation_bytes": 0,
+        "inventory_scope": "known_paths",
+        "known_path_bytes": 164638,
+        "output_bytes": 164638,
+        "reconciliation": "pending_independent_audit",
+        "status": "pass",
+        "usage_upper_bound_bytes": 164638,
+        "wall_seconds": 0.05817920807749033
+      },
+      "inventory_sha256": "73dfac9c0b8b409d7efc6a18dde0a50e5f62e2bc7fd1898bfcf03db9392c2da6"
+    },
+    "p01s-audit-001": {
+      "actual_entries": 2,
+      "actual_file_bytes": 485,
+      "completion": {
+        "audit_sha256": "fd98c3610437fefdefcaa6886e1080236a1a1ddf53723e59150eae6c18518370",
+        "output_bytes": 485,
+        "status": "pass",
+        "wall_seconds": 0.04141045734286308
+      },
+      "inventory_sha256": "32f791311a5e0bdb24c22a3dc4c05358c0009565cbe7ddc81b00d16cc72b68c7"
+    },
+    "p01s-audit-002": {
+      "actual_entries": 2,
+      "actual_file_bytes": 485,
+      "completion": {
+        "audit_sha256": "c8a64ad96eee9f1adf3e4fc0d3090cddc06eee53c79720c71e30265109b2844a",
+        "output_bytes": 485,
+        "status": "pass",
+        "wall_seconds": 0.04001833405345678
+      },
+      "inventory_sha256": "3d7cfe21df8e7ecd4a68f596dcfceab7b6fcbe4d8cb92a84bddb40962e344f20"
+    },
+    "p01s-failure-probe-001": {
+      "actual_entries": 12,
+      "actual_file_bytes": 52090,
+      "completion": {
+        "checksums_sha256": "b3c4e7693f62f26e99830cd40360864a5e1358fe706409ddbe2749cc237b3d36",
+        "fixture_reservation_bytes": 69206016,
+        "inventory_scope": "known_paths",
+        "known_path_bytes": 52066,
+        "output_bytes": null,
+        "reconciliation": "incomplete",
+        "status": "fail",
+        "usage_upper_bound_bytes": 69258082,
+        "wall_seconds": 0.04456758312880993
+      },
+      "inventory_sha256": "939151e535552900d932e3c97d1683dabfefaaf75ec24967da74c19f9a79cb91"
+    }
+  },
+  "fixture_counter_totals": {
+    "budget_polls": 115,
+    "discovered_entries": 18,
+    "hash_read_bytes": 332,
+    "input_full_scans": 0,
+    "ledger_updates": 31,
+    "output_full_scans": 46,
+    "stage_reconciliations": 4,
+    "stat_calls": 123,
+    "write_bytes": 27352
+  },
+  "frozen_files": 302,
+  "inputs": 296,
+  "isolated_accounting_subcases": 33,
+  "keyed_evaluations": 0,
+  "original_inventory_counts": {
+    "artifacts/p01o-001": 5127,
+    "artifacts/p01q-001": 4960
+  },
+  "prior_receipts": 580,
+  "retained_payloads_parsed": 0,
+  "scan_and_write_counters_independently_reconciled": true,
+  "status": "pass",
+  "world_transitions": 0
+}

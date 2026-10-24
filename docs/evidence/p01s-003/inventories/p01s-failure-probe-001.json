@@ -1,0 +1,50 @@
+{
+  "assessment.json": {
+    "sha256": "adf5528fcd25180d66483f94efd0c45b4dfae38cb947b97e2dbf7e522b54bf49",
+    "size": 173
+  },
+  "checksums.json": {
+    "sha256": "b3c4e7693f62f26e99830cd40360864a5e1358fe706409ddbe2749cc237b3d36",
+    "size": 1086
+  },
+  "completion.json": {
+    "sha256": "1deddbb897707198f72e87767faa69bfda468ff70b6284d7ed46fcb7b1c7b876",
+    "size": 335
+  },
+  "custody.json": {
+    "sha256": "59ce79d0cb7c84a2612d0c89271b69ea8bee71970497c7881c58a5359c2a3263",
+    "size": 701
+  },
+  "fixtures/injected-partial": {
+    "sha256": "643f06fe86fa5419fb272281003c33272064197de4e3d5544f19e6b06a488e49",
+    "size": 24
+  },
+  "packet.json": {
+    "sha256": "faaabaea2f20aab16da01b26f48f460d62d86cf5f16c50cb2e99e1012baf619d",
+    "size": 1957
+  },
+  "sources/scripts/audit_p01s.py": {
+    "sha256": "50c2e1e86438d820c6f3717ca51f128b7c16edc27a9c6b62ae8ca774582ef911",
+    "size": 12118
+  },
+  "sources/scripts/p01s_accounting.py": {
+    "sha256": "be42dd72ff13ab9d51bc6086a8ede99747e810a7c8599ee3c34e2ba04a012e2a",
+    "size": 9780
+  },
+  "sources/scripts/p01s_boundary.py": {
+    "sha256": "b989fe16f989f27df6050fe144fb11965e6343f2ea7d33da836e5a4f385beef0",
+    "size": 2356
+  },
+  "sources/scripts/p01s_readiness.py": {
+    "sha256": "dca7cb92526e7cf8ba5633dca01d2b6cc084e409da21bdd18f87a0befd16da2f",
+    "size": 17272
+  },
+  "sources/scripts/test_p01s.py": {
+    "sha256": "249a036a6c69c998cea66da6109516bdbaf7aff42a7fa14b6bbb331564b2eeb5",
+    "size": 5550
+  },
+  "tests.json": {
+    "sha256": "455aa0b25b92f978644c877ec9c143009af26dabd510805c921ddfd3b625d384",
+    "size": 738
+  }
+}

@@ -323,3 +323,21 @@ payload conversion, worker/generator/candidate execution, campaign integration,
 performance assay or E01 is admitted. Subsequent unfiltered all128 saved-input
 readiness needs its own registration. P01q remains consumed and unrepaired;
 behavior remains null/not_executed and science untested.
+
+
+## Current next boundary after P01s fixture engineering
+
+P01s engineering is complete and independently audited; see `docs/p01s_findings.md`
+and `docs/p01s_closure.json`. All24 controls/55 subcases and 13 normal/optimized
+tests passed on final sources. Preserve four builds, failed attempt001 (relative
+fixture bug plus incomplete 50,766-byte receipt versus 78,114 actual bytes), both
+successful attempts002/003 with their audits, and the intentional partial-output
+failure probe. Do not erase these histories. Complete-envelope transport, owned
+file accounting, zero-filesystem budget polls, bounded stage reconciliation and
+four128-row terminal cases passed only on invented fixtures. No retained payloads,
+worker, generator, candidate matcher or world execution occurred; no speedup claim.
+Next separately register unfiltered all128 saved-envelope-to-request readiness
+with exact preservation and independent audit. No retained conversion, campaign
+integration, performance assay, native execution or consumed P01q repair/resume
+is authorized yet. P01q and all original seals remain unchanged; behavior is
+null/not_executed, science untested and E01 unauthorized.

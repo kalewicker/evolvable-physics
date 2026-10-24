@@ -546,3 +546,11 @@ complete saved-envelope boundary, incremental file accounting and bounded failur
 closeout. Seven registration tests and full custody checks passed. Next is the
 new-path fixture implementation and independent audit; no simulation or retained
 input conversion is admitted. See [registration findings](docs/p01s_registration_findings.md).
+
+
+P01s fixture engineering is complete: 24 controls/55 subcases passed, with 13
+normal/optimized tests and an independent audit. The first failed attempt and its
+incomplete byte receipt remain preserved; corrected fixture-path and failure
+accounting passed fresh attempts. Next is a separate all128 saved-input readiness
+registration. No retained environments or worlds ran. See
+[engineering findings](docs/p01s_findings.md).

@@ -1,0 +1,17 @@
+test_all_controls_independent_oracle (__main__.Recovery.test_all_controls_independent_oracle) ... ok
+test_budget_has_no_filesystem_calls (__main__.Recovery.test_budget_has_no_filesystem_calls) ... ok
+test_counter_mutation_rejected (__main__.Recovery.test_counter_mutation_rejected) ... ok
+test_inventory_mutation_rejected (__main__.Recovery.test_inventory_mutation_rejected) ... ok
+test_missing_control_rejected (__main__.Recovery.test_missing_control_rejected) ... ok
+test_no_old_runtime_or_process_imports (__main__.Recovery.test_no_old_runtime_or_process_imports) ... ok
+test_partial_os_write_error_accounted (__main__.Recovery.test_partial_os_write_error_accounted) ... ok
+test_process_guard (__main__.Recovery.test_process_guard) ... ok
+test_request_mutation_rejected (__main__.Recovery.test_request_mutation_rejected) ... ok
+test_stage_failure_cannot_be_retried (__main__.Recovery.test_stage_failure_cannot_be_retried) ... ok
+test_terminal_no_scan_and_preserves_io_error (__main__.Recovery.test_terminal_no_scan_and_preserves_io_error) ... ok
+test_terminal_status_mutation_rejected (__main__.Recovery.test_terminal_status_mutation_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.041s
+
+OK

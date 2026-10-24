@@ -1,0 +1,1 @@
+{"checksums_sha256": "f1fd547ecaf5e08d600bbd122b10cd3018350d9b6c61d4677675ebaaf7790e2f", "fixture_reservation_bytes": 0, "inventory_scope": "known_paths", "known_path_bytes": 164638, "output_bytes": 164638, "reconciliation": "pending_independent_audit", "status": "pass", "usage_upper_bound_bytes": 164638, "wall_seconds": 0.05817920807749033}

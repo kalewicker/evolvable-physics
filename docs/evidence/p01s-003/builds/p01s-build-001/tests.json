@@ -1,0 +1,18 @@
+{
+  "keyed_evaluations": 0,
+  "packet_sha256": "faaabaea2f20aab16da01b26f48f460d62d86cf5f16c50cb2e99e1012baf619d",
+  "returncodes": [
+    0,
+    0
+  ],
+  "sources": {
+    "scripts/audit_p01s.py": "112d805575d03b13b459bbcab8a5239d941f3f955a13a33983cf9cde60e7c162",
+    "scripts/p01s_accounting.py": "1ce314d0e908c003923aaf06e956d11796f167e9b12cc0e7fec9c14f6af7fa81",
+    "scripts/p01s_boundary.py": "b989fe16f989f27df6050fe144fb11965e6343f2ea7d33da836e5a4f385beef0",
+    "scripts/p01s_readiness.py": "b47affdb0c27999c6237fcb7c8b3c496f1ee146d0d524f9c7ce260a4c7e76ee4",
+    "scripts/test_p01s.py": "bded2f14822ab665d1da6f6920fef4a0408f9fb32111db9f89ca34fd6009d3af"
+  },
+  "status": "pass",
+  "tests_per_mode": 12,
+  "world_transitions": 0
+}

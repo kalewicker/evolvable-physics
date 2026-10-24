@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
-  "date": "2026-10-23",
-  "stage": "P01s_recovery_engineering_registered",
+  "date": "2026-10-24",
+  "stage": "P01s_invented_fixture_engineering_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Implement only the five registered P01s new paths and test all24 invented-fixture controls normally and optimized, retaining every attempt.",
-    "Independently audit exact envelope-to-request transport, actual byte accounting, bounded scan counters and all128 fixture terminal records. No retained conversion, campaign integration, performance assay or world execution.",
-    "Preserve consumed P01q and all prior outcomes. Separately register subsequent all128 saved-input readiness; science untested and E01 unauthorized."
+    "Separately register unfiltered all128 saved-envelope-to-request readiness with exact preservation and independent audit. No campaign integration, performance trial, native worker execution or consumed-attempt repair.",
+    "Preserve all four builds, the failed first readiness attempt and its incomplete byte receipt, both successful readiness/audit pairs, and the injected failure probe.",
+    "P01q remains consumed and unrepaired; behavior null/not_executed, science untested and E01 unauthorized."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -360,5 +360,17 @@
   "p01s_registration_freeze": "docs/p01s_registration_freeze.json",
   "p01s_registration_findings": "docs/p01s_registration_findings.md",
   "p01s_registration_receipt": "docs/evidence/p01s-registration-001/static_review.json",
-  "p01s_implementation_started": false
+  "p01s_implementation_started": true,
+  "p01s_engineering_complete": true,
+  "p01s_independent_audit_pass": true,
+  "p01s_findings": "docs/p01s_findings.md",
+  "p01s_closure": "docs/p01s_closure.json",
+  "p01s_outcomes": {
+    "controls": 24,
+    "subcases": 55,
+    "tests_per_mode": 13,
+    "failed_readiness_attempts": 1,
+    "successful_readiness_attempts": 2,
+    "world_transitions": 0
+  }
 }

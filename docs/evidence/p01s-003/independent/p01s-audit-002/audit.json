@@ -1,0 +1,14 @@
+{
+  "controls": 24,
+  "input_hash_read_bytes": 28518755,
+  "input_unique_reads": 1178,
+  "inventory_entries": 40,
+  "keyed_evaluations": 0,
+  "output_bytes": 164638,
+  "output_full_scans": 1,
+  "retained_payloads_parsed": 0,
+  "status": "pass",
+  "subcases": 55,
+  "terminal_rows": 512,
+  "world_transitions": 0
+}

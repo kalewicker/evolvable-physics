@@ -1,0 +1,11 @@
+{
+  "actual_output_bytes": 52090,
+  "first_error": "OSError('injected outer fixture failure after partial output')",
+  "purpose": "injected harness failure after partial output",
+  "reconciliation": "incomplete",
+  "reported_exact_bytes": null,
+  "source_test_receipt": "artifacts/p01s-build-004/tests.json",
+  "status": "pass",
+  "usage_upper_bound_bytes": 69258082,
+  "world_transitions": 0
+}

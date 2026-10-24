@@ -1,0 +1,10 @@
+{
+  "audit.json": {
+    "sha256": "fd98c3610437fefdefcaa6886e1080236a1a1ddf53723e59150eae6c18518370",
+    "size": 314
+  },
+  "completion.json": {
+    "sha256": "db6ccfa30e3eef1e055037c13acb85eaa1fe8cf58329656a8a112c7c831185cf",
+    "size": 171
+  }
+}
