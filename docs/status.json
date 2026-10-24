@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-24",
-  "stage": "P01s_invented_fixture_engineering_complete",
+  "stage": "P01t_saved_input_readiness_registered",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Separately register unfiltered all128 saved-envelope-to-request readiness with exact preservation and independent audit. No campaign integration, performance trial, native worker execution or consumed-attempt repair.",
-    "Preserve all four builds, the failed first readiness attempt and its incomplete byte receipt, both successful readiness/audit pairs, and the injected failure probe.",
-    "P01q remains consumed and unrepaired; behavior null/not_executed, science untested and E01 unauthorized."
+    "Implement only the three new registered P01t paths; use the two hash-pinned P01s modules only in the producer. Test all14 invented control families normally and optimized before retained conversion.",
+    "Then run and independently audit the unchanged all128 saved-envelope-to-request panel, preserving all256 stream identities, exact typed environments, all128 rows and complete accounting. Retain every attempt.",
+    "No native worker validation/execution, campaign integration, performance assay, consumed P01q repair or E01. Science untested; behavior null/not_executed."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -372,5 +372,13 @@
     "failed_readiness_attempts": 1,
     "successful_readiness_attempts": 2,
     "world_transitions": 0
-  }
+  },
+  "p01t_registration_complete": true,
+  "p01t_protocol": "docs/p01t_protocol.json",
+  "p01t_readiness_plan": "docs/p01t_readiness_plan.md",
+  "p01t_registration_freeze": "docs/p01t_registration_freeze.json",
+  "p01t_registration_findings": "docs/p01t_registration_findings.md",
+  "p01t_registration_receipt": "docs/evidence/p01t-registration-001/static_review.json",
+  "p01t_implementation_started": false,
+  "p01t_retained_conversion_started": false
 }

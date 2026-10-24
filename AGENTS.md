@@ -341,3 +341,23 @@ with exact preservation and independent audit. No retained conversion, campaign
 integration, performance assay, native execution or consumed P01q repair/resume
 is authorized yet. P01q and all original seals remain unchanged; behavior is
 null/not_executed, science untested and E01 unauthorized.
+
+
+## Current next boundary after P01t registration
+
+P01t saved-input transport readiness is registered in `docs/p01t_protocol.json`
+and `docs/p01t_readiness_plan.md`; see `docs/p01t_registration_findings.md`.
+Eight registration tests passed normally and optimized. Custody verified 315
+frozen files, 336 inputs and 626 prior public receipts plus both original bundles.
+After registration commit/push, implement only the three new paths and test all14
+control families before retained conversion. Producer reuse is limited to the two
+hash-pinned P01s modules; the auditor imports neither producer nor those modules.
+Then convert and independently audit all128 fixed saved-envelope pairs to inert
+requests, with all256 original byte identities and exact typed value preservation.
+No selective omissions, input repair/regeneration, old source edits or P01q resume.
+Retain every attempt; implementation-only corrections use unchanged inputs/gates
+and fresh directories. Preserve first errors, all128 statuses, partial writes and
+honest unknown/conservative failure totals, without terminal custody/tree rescans.
+No native semantic validation/execution, candidate matching, campaign integration,
+performance assay, world transition or E01 is authorized. Original P01q remains
+consumed; science untested and behavior null/not_executed.

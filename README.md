@@ -554,3 +554,9 @@ incomplete byte receipt remain preserved; corrected fixture-path and failure
 accounting passed fresh attempts. Next is a separate all128 saved-input readiness
 registration. No retained environments or worlds ran. See
 [engineering findings](docs/p01s_findings.md).
+
+
+P01t now registers transport readiness across all128 saved inputs and both streams
+per cell. Eight registration tests and custody checks passed. Next is the new-path
+implementation, invented controls and independent all-cell audit; no native worker
+or world execution is admitted. See [registration findings](docs/p01t_registration_findings.md).

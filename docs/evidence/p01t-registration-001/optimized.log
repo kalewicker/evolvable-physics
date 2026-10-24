@@ -1,0 +1,13 @@
+test_controls (__main__.Registration.test_controls) ... ok
+test_limits_and_work (__main__.Registration.test_limits_and_work) ... ok
+test_outcomes_and_failure_policy (__main__.Registration.test_outcomes_and_failure_policy) ... ok
+test_panel_and_types (__main__.Registration.test_panel_and_types) ... ok
+test_paths_and_custody (__main__.Registration.test_paths_and_custody) ... ok
+test_request_contract (__main__.Registration.test_request_contract) ... ok
+test_scope (__main__.Registration.test_scope) ... ok
+test_valid (__main__.Registration.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.004s
+
+OK
