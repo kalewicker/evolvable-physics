@@ -1,0 +1,24 @@
+{
+  "copies": {
+    "artifacts/p01v-registration-001/static_review.json": {
+      "public": "docs/evidence/p01v-registration-001/static_review.json",
+      "sha256": "b523c3ff97c8fce0a8f44c35c7f2aa8a08127179b3d7adb46ff5237cdc5e41d3"
+    },
+    "artifacts/p01v-registration-build-001/normal.log": {
+      "public": "docs/evidence/p01v-registration-001/normal.log",
+      "sha256": "98c994fdc5cd82a2a3e58de474414e7d8ecb13e0ecb263445c9a29775734e8c7"
+    },
+    "artifacts/p01v-registration-build-001/optimized.log": {
+      "public": "docs/evidence/p01v-registration-001/optimized.log",
+      "sha256": "d3c18863f905e1167ca1cbd70c60425bdf2a9269641c736acb7b4bd2a99450a6"
+    },
+    "artifacts/p01v-registration-build-001/tests.json": {
+      "public": "docs/evidence/p01v-registration-001/tests.json",
+      "sha256": "e775983560defe3a18543b11275c15bd807c83f8442f3a01b34157bd12b2daef"
+    }
+  },
+  "findings_sha256": "732eae9d7a4b3545d0da6d90a04cf4288c3b3df70736e370a3794bebf7f9bc09",
+  "freeze_sha256": "26907457a60c9e84c11fa2c2eed5958219eb34b72554706ced50cc639759c336",
+  "protocol_sha256": "82778cb4c0dc6f259f2baa5142649a8dac0b699a08e4192a6059b47f780c0c07",
+  "schema": "p01v-registration-publication-v1"
+}

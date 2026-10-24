@@ -424,3 +424,25 @@ campaign integration and failure-injection readiness at new paths. No integratio
 productive dynamics, performance trial, input repair, generator or E01 is currently
 authorized. Preserve all attempts; science untested and behavior null/not_executed.
 Raw native roundtrips and dependency/binary snapshots stay local.
+
+
+## Current next boundary after P01v registration
+
+P01v bounded inert campaign integration is registered in `docs/p01v_protocol.json`
+and `docs/p01v_integration_plan.md`; see `docs/p01v_registration_findings.md`.
+Nine registration tests passed normally and optimized; custody verified 340 frozen
+files, 520 inputs, 694 prior receipts, all128 request identities, complete P01t/P01u
+bundles and original P01o/P01q seals. No integration or fixture process ran.
+After commit/push, implement only the five registered paths and reviewed helper
+reuse. Test all12 families/70 named subcases normally and optimized before retained
+work. Then all128 requests/384 inert stages must pass independent identity/chain,
+guard, status, inventory and accounting audit. Admit only the pinned interpreter
+and fixture source/allowed roles. Do not launch original worker, validator, reporter,
+matcher or generator. Use new P01v inert manifest/status semantics; native Output
+finish cannot be reused unchanged. Preserve input bytes, all128 initialized rows,
+first/closeout errors, partial streams, failed attempts and exact unknown totals.
+No tree scans in polls/closeout or original custody rechecks under depleted reserve.
+Keep all existing histories, including consumed P01q and the prior post-audit
+membership-check failure. Passing establishes inert plumbing only; productive
+execution and performance trials need separate registrations. Science untested,
+behavior null/not_executed and E01 unauthorized. Raw request-bearing data stays local.

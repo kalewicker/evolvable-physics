@@ -2775,6 +2775,26 @@
     {
       "file": "docs/evidence/p01u-001/tests/tests.json",
       "sha256": "16ded5ae093345a16832dea72894d48a88fe36876bc839e55c835fc047f23a4f"
+    },
+    {
+      "file": "docs/evidence/p01v-registration-001/normal.log",
+      "sha256": "98c994fdc5cd82a2a3e58de474414e7d8ecb13e0ecb263445c9a29775734e8c7"
+    },
+    {
+      "file": "docs/evidence/p01v-registration-001/optimized.log",
+      "sha256": "d3c18863f905e1167ca1cbd70c60425bdf2a9269641c736acb7b4bd2a99450a6"
+    },
+    {
+      "file": "docs/evidence/p01v-registration-001/publication_context.json",
+      "sha256": "facfa1f50eb1303bf112ee8a20e498d0866521a8305baecbff1a9db9934d7d4e"
+    },
+    {
+      "file": "docs/evidence/p01v-registration-001/static_review.json",
+      "sha256": "b523c3ff97c8fce0a8f44c35c7f2aa8a08127179b3d7adb46ff5237cdc5e41d3"
+    },
+    {
+      "file": "docs/evidence/p01v-registration-001/tests.json",
+      "sha256": "e775983560defe3a18543b11275c15bd807c83f8442f3a01b34157bd12b2daef"
     }
   ],
   "note": "Original sealed receipts and logs; raw trace/checkpoint/source bundles are not included.",

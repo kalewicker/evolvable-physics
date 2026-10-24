@@ -1,0 +1,14 @@
+test_all128_and_types (__main__.Registration.test_all128_and_types) ... ok
+test_budgets_and_work (__main__.Registration.test_budgets_and_work) ... ok
+test_controls_and_failures (__main__.Registration.test_controls_and_failures) ... ok
+test_exact_request_contract (__main__.Registration.test_exact_request_contract) ... ok
+test_identity_and_new_paths (__main__.Registration.test_identity_and_new_paths) ... ok
+test_roles_and_inert_schema (__main__.Registration.test_roles_and_inert_schema) ... ok
+test_scope (__main__.Registration.test_scope) ... ok
+test_unknown_behavior (__main__.Registration.test_unknown_behavior) ... ok
+test_valid (__main__.Registration.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.011s
+
+OK

@@ -580,3 +580,9 @@ and immutable validators, exact typed roundtrips and independent audit. Fifteen
 tests passed normally and optimized. No candidate matching or world transitions
 ran. Next is a separate campaign-integration readiness registration. See
 [native validation findings](docs/p01u_findings.md).
+
+
+P01v now registers campaign-integration readiness over all 128 saved requests using
+384 explicitly inert fixture stages. Nine registration tests and custody checks
+passed. Next is the new-path implementation and fixed failure tests, followed by
+independent integration audit. See [registration findings](docs/p01v_registration_findings.md).

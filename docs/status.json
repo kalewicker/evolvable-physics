@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-24",
-  "stage": "P01u_native_validation_complete",
+  "stage": "P01v_inert_campaign_integration_registered",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Separately register bounded campaign integration and failure-injection readiness at new paths. Productive dynamics, performance trials and consumed P01q repair remain outside that engineering boundary.",
-    "Preserve one native build, one normal/optimized test build, the passing128-cell validation/audit pair, all invented failures and the corrected post-audit membership check.",
-    "Native acceptance does not establish candidate applicability or dynamics. P01q remains consumed; behavior null/not_executed, science untested and E01 unauthorized."
+    "Implement only the five new P01v paths using the explicitly pinned/reviewed P01u helper calls; write the P01v inert manifest and enforce interpreter/fixture argv allowlists.",
+    "Test all12 families/70 named subcases before retained work, then run and independently audit all128 exact saved requests across384 inert fixture stages. Preserve every attempt and completed/failed/unstarted statuses.",
+    "No original worker/validator/reporter execution, candidate matching, generator, productive dynamics, performance trial, input repair or E01. P01q remains consumed; science untested and behavior null/not_executed."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -412,5 +412,13 @@
     "unchanged_worlds": 128,
     "world_transitions": 0,
     "candidate_matching_executed": false
-  }
+  },
+  "p01v_registration_complete": true,
+  "p01v_protocol": "docs/p01v_protocol.json",
+  "p01v_integration_plan": "docs/p01v_integration_plan.md",
+  "p01v_registration_freeze": "docs/p01v_registration_freeze.json",
+  "p01v_registration_findings": "docs/p01v_registration_findings.md",
+  "p01v_registration_receipt": "docs/evidence/p01v-registration-001/static_review.json",
+  "p01v_implementation_started": false,
+  "p01v_integration_started": false
 }

@@ -1,0 +1,35 @@
+{
+  "fixture_invocations": 0,
+  "retained_payloads_parsed": 0,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "scripts/test_p01v_registration.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "mode": "normal"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "scripts/test_p01v_registration.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "mode": "optimized"
+    }
+  ],
+  "schema": "p01v-registration-tests-v1",
+  "source_hashes": {
+    "docs/p01v_integration_plan.md": "ccdecc4923d315c6ea09a4b74dbb662e81f29606b4e10faff1215f0aa82c38c9",
+    "docs/p01v_protocol.json": "82778cb4c0dc6f259f2baa5142649a8dac0b699a08e4192a6059b47f780c0c07",
+    "docs/p01v_registration_freeze.json": "26907457a60c9e84c11fa2c2eed5958219eb34b72554706ced50cc639759c336",
+    "scripts/check_p01v_registration.py": "419c56b26ffdd9b7b13f5c63dc7a50752cb9878fd536d62d85f44cf8bac909b9",
+    "scripts/test_p01v_registration.py": "1cae4a69cc2ce8fa684eea5b24f561c11a535daad58a2a2ddc36cdc6b15bd0a9"
+  },
+  "tests_per_mode": 9,
+  "world_transitions": 0
+}
