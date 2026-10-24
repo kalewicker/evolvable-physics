@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-24",
-  "stage": "P01u_native_validation_registered",
+  "stage": "P01u_native_validation_complete",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Implement the six P01u registered paths: isolated Cargo validator/lock, guarded runner, independent auditor and tests. Test all15 control families/74 named subcases and static no-transition call closure before retained validation.",
-    "After tested source/dependency/binary closure, validate all128 unchanged P01t requests once per attempt and independently audit reports, typed roundtrips, policy, guard receipts and exact accounting. Preserve all attempts.",
-    "No original worker run, candidate matching, generator evaluation, campaign integration, benchmark or dynamics. P01q remains consumed; science untested and behavior null/not_executed."
+    "Separately register bounded campaign integration and failure-injection readiness at new paths. Productive dynamics, performance trials and consumed P01q repair remain outside that engineering boundary.",
+    "Preserve one native build, one normal/optimized test build, the passing128-cell validation/audit pair, all invented failures and the corrected post-audit membership check.",
+    "Native acceptance does not establish candidate applicability or dynamics. P01q remains consumed; behavior null/not_executed, science untested and E01 unauthorized."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -399,6 +399,18 @@
   "p01u_registration_freeze": "docs/p01u_registration_freeze.json",
   "p01u_registration_findings": "docs/p01u_registration_findings.md",
   "p01u_registration_receipt": "docs/evidence/p01u-registration-001/static_review.json",
-  "p01u_implementation_started": false,
-  "p01u_native_validation_started": false
+  "p01u_implementation_started": true,
+  "p01u_native_validation_started": true,
+  "p01u_validation_complete": true,
+  "p01u_independent_audit_pass": true,
+  "p01u_findings": "docs/p01u_findings.md",
+  "p01u_closure": "docs/p01u_closure.json",
+  "p01u_outcomes": {
+    "cells": 128,
+    "native_acceptances": 128,
+    "typed_roundtrips": 128,
+    "unchanged_worlds": 128,
+    "world_transitions": 0,
+    "candidate_matching_executed": false
+  }
 }

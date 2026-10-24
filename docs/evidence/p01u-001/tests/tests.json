@@ -1,0 +1,128 @@
+{
+  "binary_sha256": "74c0183d133b9c3bbe7f70e9d3d85bd65062d8263f5a4145e8345f296e47cfb7",
+  "closure_sha256": "5914837b3c5650b77955f1be51d147d1bd6e3a9fda132960eed57448bf6f4704",
+  "controls": {
+    "environment_balance": [
+      "balance_mismatch"
+    ],
+    "environment_channels": [
+      "too_many_channels",
+      "duplicate_channel_id",
+      "zero_period",
+      "invalid_end",
+      "zero_supply_or_extract",
+      "missing_channel_node",
+      "zero_transport",
+      "missing_transport_edge",
+      "wrong_transport_class_or_ends"
+    ],
+    "guard_and_failure_closeout": [
+      "relative_and_absolute_paths",
+      "stage_wall_equal_and_one_unit_sides",
+      "stage_output_equal_and_one_unit_sides",
+      "aggregate_reserve_equal_and_one_unit_sides",
+      "process_failure",
+      "truncated_output",
+      "partial_write",
+      "terminal_io_failure",
+      "all128_preserved",
+      "polls_have_no_full_tree_scan"
+    ],
+    "immutability_and_roundtrip": [
+      "exact_request_roundtrip",
+      "world_before_after_equal",
+      "changed_roundtrip_rejected",
+      "numeric_type_coercion_detected"
+    ],
+    "independent_audit_mutations": [
+      "missing_duplicate_extra_reordered_rows",
+      "request_digest_changed",
+      "accepted_flag_or_error_stage_changed",
+      "roundtrip_changed",
+      "inventory_or_byte_total_changed",
+      "work_counter_changed"
+    ],
+    "json_shape_and_numeric_parsing": [
+      "malformed",
+      "duplicate_struct_field",
+      "unknown_field",
+      "missing_field",
+      "bool_integer",
+      "negative_unsigned",
+      "u64_overflow",
+      "nonfinite",
+      "duplicate_map_key_precheck"
+    ],
+    "no_transition_source_boundary": [
+      "only_parse_validate_canonical_calls",
+      "stepping_or_matching_call_rejected",
+      "old_source_or_binary_substitution_rejected"
+    ],
+    "profile_validation": [
+      "wrong_environment_profile",
+      "wrong_native_profile"
+    ],
+    "rule_grammar_and_connectivity": [
+      "empty_nodes",
+      "too_many_nodes",
+      "empty_ops",
+      "too_many_ops",
+      "too_many_positive_edges",
+      "too_many_absent_edges",
+      "bad_pattern_endpoints",
+      "disconnected_pattern"
+    ],
+    "rule_slots_and_ids": [
+      "operation_slot_out_of_range",
+      "duplicate_rule_id",
+      "valid_created_slot_reference"
+    ],
+    "valid_authored_request": [
+      "valid_minimal",
+      "valid_connected_rule",
+      "valid_environment_channel"
+    ],
+    "worker_prefix_and_panel_policy": [
+      "wrong_schema",
+      "epochs_1001",
+      "epochs_127_native_accept_policy_reject",
+      "max_events_changed_native_accept_policy_reject",
+      "max_trace_changed_native_accept_policy_reject"
+    ],
+    "world_allocator_and_endpoints": [
+      "node_allocator_not_ahead",
+      "edge_allocator_not_ahead",
+      "missing_endpoint",
+      "repeated_endpoint",
+      "arity_out_of_range",
+      "duplicate_edge"
+    ],
+    "world_conservation_and_writers": [
+      "matter_mismatch",
+      "activation_mismatch",
+      "invalid_writer"
+    ],
+    "world_size_limits": [
+      "node_limit_exceeded",
+      "edge_limit_exceeded"
+    ]
+  },
+  "expanded_control_cases": 93,
+  "native_results_sha256": "5a5dd52112da326a52c0c4bafb89e7865bfe5da392fae4bcee65e3408e4e3e38",
+  "native_test_cases": 53,
+  "packet_sha256": "f4f61aada7f60b2af9f6715e7c9aa55c949762078c8956b38598b40b2487413b",
+  "returncodes": [
+    0,
+    0
+  ],
+  "sources": {
+    "experiments/p01u-native/Cargo.lock": "de77f8abdca7552841b9adad84192ed83479697ae8e6d4b714ab36b040a78285",
+    "experiments/p01u-native/Cargo.toml": "9db80e459700535dad0c57dfef1773b6546661fae567d3f5f567aa2925c22ec0",
+    "experiments/p01u-native/src/main.rs": "d58860142608ca74468f031461a0988dc256e75634d5b3de2aebc8b13291a24a",
+    "scripts/audit_p01u.py": "0d166f2b4d728ece2f73e75ad998ca32899147d6fc8293dfddbcc0cb64281475",
+    "scripts/p01u_validation.py": "02cbb81b9545c01723e770b5e4014e3f5a7265876c30efe59468765241b79256",
+    "scripts/test_p01u.py": "c5763b5b9466e61ab812116c045d944c3687062ab5d169c52b6e9e8e4054b5dc"
+  },
+  "status": "pass",
+  "tests_per_mode": 15
+}

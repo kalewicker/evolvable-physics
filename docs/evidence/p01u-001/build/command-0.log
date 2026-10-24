@@ -1,0 +1,5 @@
+     Locking 22 packages to latest Rust 1.94.0 compatible versions
+      Adding serde v1.0.228 (available: v1.0.229)
+      Adding serde_core v1.0.228 (available: v1.0.229)
+      Adding serde_derive v1.0.228 (available: v1.0.229)
+      Adding serde_json v1.0.150 (available: v1.0.154)

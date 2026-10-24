@@ -573,3 +573,10 @@ validation-only binary. Eight registration tests and custody checks passed; no
 native validation ran. Next is the isolated implementation and fixed controls,
 followed by guarded native validation and independent audit. See
 [registration findings](docs/p01u_registration_findings.md).
+
+
+P01u native validation is complete: all128 saved requests passed the worker prefix
+and immutable validators, exact typed roundtrips and independent audit. Fifteen
+tests passed normally and optimized. No candidate matching or world transitions
+ran. Next is a separate campaign-integration readiness registration. See
+[native validation findings](docs/p01u_findings.md).

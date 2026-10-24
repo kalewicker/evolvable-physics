@@ -1,0 +1,6 @@
+{
+  "status": "fail",
+  "error": "ValueError: dependency membership",
+  "cause": "Path tuple ordering and string ordering differ for some nested dependency paths; closeout compared ordered lists instead of exact membership.",
+  "native_validation_affected": false
+}

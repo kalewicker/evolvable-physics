@@ -1,0 +1,20 @@
+test_01_valid (__main__.Validation.test_01_valid) ... ok
+test_02_json (__main__.Validation.test_02_json) ... ok
+test_03_prefix_policy (__main__.Validation.test_03_prefix_policy) ... ok
+test_04_profiles (__main__.Validation.test_04_profiles) ... ok
+test_05_world_structure (__main__.Validation.test_05_world_structure) ... ok
+test_06_conservation (__main__.Validation.test_06_conservation) ... ok
+test_07_grammar (__main__.Validation.test_07_grammar) ... ok
+test_08_slots (__main__.Validation.test_08_slots) ... ok
+test_09_world_limits (__main__.Validation.test_09_world_limits) ... ok
+test_10_environment_balance (__main__.Validation.test_10_environment_balance) ... ok
+test_11_channels (__main__.Validation.test_11_channels) ... ok
+test_12_immutability (__main__.Validation.test_12_immutability) ... ok
+test_13_source_boundary (__main__.Validation.test_13_source_boundary) ... ok
+test_14_guard_and_closeout (__main__.Validation.test_14_guard_and_closeout) ... ok
+test_15_audit_mutations (__main__.Validation.test_15_audit_mutations) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.596s
+
+OK

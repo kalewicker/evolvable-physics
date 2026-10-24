@@ -404,3 +404,23 @@ repeat unchanged criteria in fresh directories only. No original worker run,
 matching/applicability, generator, campaign integration, performance assay or world
 transition is admitted. P01q stays consumed and unrepaired; science untested,
 behavior null/not_executed and E01 unauthorized. Raw native roundtrips stay local.
+
+
+## Current next boundary after P01u native validation
+
+P01u is complete: all128 unchanged P01t requests passed the native worker prefix
+and immutable initial validators, with exact typed roundtrips/unchanged worlds and
+independent audit. See `docs/p01u_findings.md` and `docs/p01u_closure.json`.
+Fifteen families/74 named subcases expanded to93 cases, including53 native fixtures;
+15 tests passed normally and optimized before retained work. Preserve one build,
+one test build, one passing validation/audit pair, all intentionally failing guard
+fixtures and the failed post-audit sorted-list membership check (corrected to exact
+set membership without changing files/gates). Build closure:1,146 files/21 registry
+packages; nested lock matches original dependency versions. Retained128 invocations,
+zero guard kills, world transitions or candidate matching. Observed sampled memory
+is not a hard/instantaneous bound or performance benchmark. Original sources,
+requests, receipts and P01q remain unchanged. Next separately register bounded
+campaign integration and failure-injection readiness at new paths. No integration,
+productive dynamics, performance trial, input repair, generator or E01 is currently
+authorized. Preserve all attempts; science untested and behavior null/not_executed.
+Raw native roundtrips and dependency/binary snapshots stay local.

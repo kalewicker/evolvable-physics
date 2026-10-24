@@ -1,0 +1,45 @@
+{
+  "attempts": {
+    "p01u-001": {
+      "bytes": 2370845,
+      "completion_sha256": "cd1d739ea03edabe88db5a1710bcec0010fefa1d7ed924021446a56967f4d1c3",
+      "entries": 400,
+      "status": "pass",
+      "wall_seconds": 2.8503922913223505
+    },
+    "p01u-audit-001": {
+      "bytes": 867935,
+      "completion_sha256": "83dee7e0c5d9537de7c76ede81a6c68ed0ce00ebd1e8c57a672a9769c9809d8a",
+      "entries": 14,
+      "status": "pass",
+      "wall_seconds": 2.1814955826848745
+    }
+  },
+  "binary_sha256": "74c0183d133b9c3bbe7f70e9d3d85bd65062d8263f5a4145e8345f296e47cfb7",
+  "dependency_closure_files": 1146,
+  "dependency_registry_packages": 21,
+  "dependency_snapshot_count": 1103,
+  "exact_budget_polls_reconciled": 13653,
+  "expanded_cases": 93,
+  "frozen_files": 326,
+  "inputs": 495,
+  "keyed_evaluations": 0,
+  "maximum_sampled_rss_bytes": 671744,
+  "native_fixture_cases": 53,
+  "original_inventory_counts": {
+    "artifacts/p01o-001": 5127,
+    "artifacts/p01q-001": 4960
+  },
+  "per_stage_binary_recheck_bytes": 108634112,
+  "prior_public_receipts": 668,
+  "process_group_kills": 0,
+  "registered_named_subcases": 74,
+  "retained_native_invocations": 128,
+  "rss_samples": 175,
+  "stage_output_bytes": 456597,
+  "stage_polls": 559,
+  "static_gate_semantic_source_recheck_bytes": 32105,
+  "status": "pass",
+  "test_families": 15,
+  "world_transitions": 0
+}

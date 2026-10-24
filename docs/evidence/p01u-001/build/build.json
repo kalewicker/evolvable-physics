@@ -1,0 +1,42 @@
+{
+  "commands": [
+    {
+      "command": [
+        "cargo",
+        "generate-lockfile",
+        "--offline",
+        "--manifest-path",
+        "experiments/p01u-native/Cargo.toml"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "cargo",
+        "build",
+        "--offline",
+        "--locked",
+        "--release",
+        "--manifest-path",
+        "experiments/p01u-native/Cargo.toml",
+        "--target-dir",
+        "/Users/kalewicker/Documents/Playground/causal-alife/artifacts/p01u-build-001/target"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "rustc",
+        "-Vv"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "cargo",
+        "-V"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

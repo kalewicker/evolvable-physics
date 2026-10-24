@@ -1,0 +1,23 @@
+{
+  "binary_sha256": "74c0183d133b9c3bbe7f70e9d3d85bd65062d8263f5a4145e8345f296e47cfb7",
+  "closure_sha256": "5914837b3c5650b77955f1be51d147d1bd6e3a9fda132960eed57448bf6f4704",
+  "dependency_registry_packages": 21,
+  "dependency_snapshots": 1103,
+  "dependency_versions_exactly_match_root": true,
+  "files": 1146,
+  "root_lock_sha256": "74088da525565c8cfd07bfc0af06b188d01fe3e12402482fc6f156fcb19c0d85",
+  "schema": "p01u-build-identity-summary-v1",
+  "source_total_bytes": 13456572,
+  "sources": {
+    "experiments/p01u-native/Cargo.lock": "de77f8abdca7552841b9adad84192ed83479697ae8e6d4b714ab36b040a78285",
+    "experiments/p01u-native/Cargo.toml": "9db80e459700535dad0c57dfef1773b6546661fae567d3f5f567aa2925c22ec0",
+    "experiments/p01u-native/src/main.rs": "d58860142608ca74468f031461a0988dc256e75634d5b3de2aebc8b13291a24a",
+    "scripts/audit_p01u.py": "0d166f2b4d728ece2f73e75ad998ca32899147d6fc8293dfddbcc0cb64281475",
+    "scripts/p01u_validation.py": "02cbb81b9545c01723e770b5e4014e3f5a7265876c30efe59468765241b79256",
+    "scripts/test_p01u.py": "c5763b5b9466e61ab812116c045d944c3687062ab5d169c52b6e9e8e4054b5dc"
+  },
+  "toolchain": {
+    "cargo_log_sha256": "6a36a8bf8bd42aa197681c3cbafaf785b3a6cf5ed0361cc7240a31c458d10db9",
+    "rustc_log_sha256": "a30ae9f932f04d4426978deb2b626208c9d81ba5b3f9b0069d68b58f0b1d9600"
+  }
+}
