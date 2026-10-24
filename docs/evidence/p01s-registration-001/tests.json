@@ -1,0 +1,34 @@
+{
+  "retained_payloads_parsed": 0,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "scripts/test_p01s_registration.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "mode": "normal"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "scripts/test_p01s_registration.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "mode": "optimized"
+    }
+  ],
+  "schema": "p01s-registration-tests-v1",
+  "source_hashes": {
+    "docs/p01s_engineering_plan.md": "01278706872d1858813dd809d525888466de2fa550ea0a3a6526eb1991c1e44d",
+    "docs/p01s_protocol.json": "b0cb3c0204fd4a0f54b2d8e17e3d518c697f229c5e7281b141c5fea752441bb4",
+    "docs/p01s_registration_freeze.json": "f995453b09a1e9b92c791119cb10f489f380c4fb2b00199c717d4629b7f48bad",
+    "scripts/check_p01s_registration.py": "faab576cbcacf5056ed7e7678c237c19c7c2c3854abc8d10e432f05a5fd09310",
+    "scripts/test_p01s_registration.py": "a47a2e89dc01491f46b313f54e3a9229447f438ca9a66daccba340b0209953f1"
+  },
+  "tests_per_mode": 7,
+  "world_transitions": 0
+}

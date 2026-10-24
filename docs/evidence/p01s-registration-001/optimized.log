@@ -1,0 +1,12 @@
+test_exact_controls (__main__.Registration.test_exact_controls) ... ok
+test_old_paths_and_seals (__main__.Registration.test_old_paths_and_seals) ... ok
+test_panel (__main__.Registration.test_panel) ... ok
+test_reserves_and_work_limits (__main__.Registration.test_reserves_and_work_limits) ... ok
+test_scope (__main__.Registration.test_scope) ... ok
+test_unknowns (__main__.Registration.test_unknowns) ... ok
+test_valid (__main__.Registration.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK

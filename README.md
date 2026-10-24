@@ -539,3 +539,10 @@ at the root. The source also reveals repeated full-tree byte accounting in budge
 checks; its runtime timing remains uninstrumented. Nine tests covered 20 invented
 controls. No worlds ran. Next is a separate engineering recovery registration.
 See [diagnosis findings](docs/p01r_findings.md).
+
+
+P01s recovery engineering is registered: 24 future fixture controls cover the
+complete saved-envelope boundary, incremental file accounting and bounded failure
+closeout. Seven registration tests and full custody checks passed. Next is the
+new-path fixture implementation and independent audit; no simulation or retained
+input conversion is admitted. See [registration findings](docs/p01s_registration_findings.md).

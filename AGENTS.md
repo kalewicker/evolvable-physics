@@ -304,3 +304,22 @@ preservation without repeated full-tree rescans. Include temporary replacements,
 partial writes, snapshots and seals. No corrected implementation, performance
 assay or trajectory is admitted by diagnosis. P01q remains consumed with no repair,
 retry/resume or missing-cell completion. Scientific status untested; E01 unauthorized.
+
+
+## Current next boundary after P01s registration
+
+P01s recovery engineering is registered in `docs/p01s_protocol.json` and
+`docs/p01s_engineering_plan.md`; see `docs/p01s_registration_findings.md`.
+Seven registration tests passed normally and optimized; custody verified 302
+frozen files, 296 inputs and 580 prior public receipts plus both original bundles.
+After this registration commit/push, implement only the five new registered paths
+and independently audit all 24 invented-fixture controls. Exercise the complete
+byte-envelope-to-request boundary without mocked reader bypass, real partial and
+temporary file accounting, zero-filesystem budget polls, bounded reconciliation
+and terminal error preservation with all128 fixture statuses. Retain every attempt
+and source identity; implementation-only fixes must keep the registered panel and
+fresh output paths. Do not edit old sources or consumed attempts. No retained
+payload conversion, worker/generator/candidate execution, campaign integration,
+performance assay or E01 is admitted. Subsequent unfiltered all128 saved-input
+readiness needs its own registration. P01q remains consumed and unrepaired;
+behavior remains null/not_executed and science untested.

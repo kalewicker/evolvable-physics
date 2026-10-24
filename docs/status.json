@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-23",
-  "stage": "P01r_read_only_engineering_diagnosis_complete",
+  "stage": "P01s_recovery_engineering_registered",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Separately register bounded engineering recovery at new paths: explicit validated saved-envelope boundary with complete-envelope input-to-request fixtures; no bypass of that boundary in mocks.",
-    "Design bounded byte accounting with reconciliation and measured work counters plus terminal failure preservation; include temporary replacements, partial writes, snapshots and seal bytes. No corrected implementation/performance assay/dynamics before a new protocol.",
-    "Preserve consumed P01q, original seals, its input and terminal CPU-reserve failures, all unstarted cells and earlier outcomes. Behavioral results remain null/not_executed; E01 unauthorized."
+    "Implement only the five registered P01s new paths and test all24 invented-fixture controls normally and optimized, retaining every attempt.",
+    "Independently audit exact envelope-to-request transport, actual byte accounting, bounded scan counters and all128 fixture terminal records. No retained conversion, campaign integration, performance assay or world execution.",
+    "Preserve consumed P01q and all prior outcomes. Separately register subsequent all128 saved-input readiness; science untested and E01 unauthorized."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -353,5 +353,12 @@
     "static_call_sites": 22,
     "timing_attribution": null,
     "world_transitions": 0
-  }
+  },
+  "p01s_registration_complete": true,
+  "p01s_protocol": "docs/p01s_protocol.json",
+  "p01s_engineering_plan": "docs/p01s_engineering_plan.md",
+  "p01s_registration_freeze": "docs/p01s_registration_freeze.json",
+  "p01s_registration_findings": "docs/p01s_registration_findings.md",
+  "p01s_registration_receipt": "docs/evidence/p01s-registration-001/static_review.json",
+  "p01s_implementation_started": false
 }
