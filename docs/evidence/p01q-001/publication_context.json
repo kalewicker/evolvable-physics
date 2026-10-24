@@ -1,0 +1,48 @@
+{
+  "closure_sha256": "bfb2ad6cb300b6003063d39b92f703958710a30b08980b9dd031b84d34cd6ee8",
+  "copies": {
+    "artifacts/p01q-001/assessment.json": {
+      "public": "docs/evidence/p01q-001/assessment.json",
+      "sha256": "1ea8ec2918f348e7a54d7252f81282ae9967f98f1b2f8aa205fc7466ce4785fe"
+    },
+    "artifacts/p01q-001/checksums.json": {
+      "public": "docs/evidence/p01q-001/checksums.json",
+      "sha256": "f6818fcc61e4e0dd2deea20545474592064cb5c9730d72ca6fdbbb04cc2737c2"
+    },
+    "artifacts/p01q-001/manifest.json": {
+      "public": "docs/evidence/p01q-001/manifest.json",
+      "sha256": "783b800ca5d253e70e39a52386276c6fede5fb51cc06b38dedd9f7c2683d689d"
+    },
+    "artifacts/p01q-001/seal.json": {
+      "public": "docs/evidence/p01q-001/seal.json",
+      "sha256": "eabecddbe5ea1a14d537a56af96a2bd9516bf9dca6d1998137e7cc277df7dcf4"
+    },
+    "artifacts/p01q-closeout-001/receipt.json": {
+      "public": "docs/evidence/p01q-001/post_seal_custody.json",
+      "sha256": "1a1660591ae7ec4d1146d04a62a2e5c1729c087a42bcbc2e84e6cb23265bc4dd"
+    },
+    "artifacts/p01q-launch-001/launch-001.log": {
+      "public": "docs/evidence/p01q-001/launch-001.log",
+      "sha256": "329f4cbfadcb4c6a1b0981767bd2754664c8e208f828234ffe554025b1e567bb"
+    },
+    "artifacts/p01q-launch-001/launch-002.log": {
+      "public": "docs/evidence/p01q-001/launch-002.log",
+      "sha256": "9787d86c364c84655f4615861f43b21bbc4d9fb167cae92958a48f0f407e4a52"
+    },
+    "artifacts/p01q-receipt-audit-001/invocation.json": {
+      "public": "docs/evidence/p01q-001/receipt_audit_invocation.json",
+      "sha256": "c12bdd120835c271e5dad7623774ea25fd64e6f1f34f42b5814ad71652f39f01"
+    },
+    "artifacts/p01q-receipt-audit-001/stderr.log": {
+      "public": "docs/evidence/p01q-001/receipt_audit.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "artifacts/p01q-receipt-audit-001/stdout.json": {
+      "public": "docs/evidence/p01q-001/receipt_audit.json",
+      "sha256": "bc882901f375e838c1b3566cd7f9dec73462479fba2d4c2a670be538a2d2acca"
+    }
+  },
+  "findings_sha256": "2965b448843933fda7269e80b2daf0aeaf0c06575e07e55e00f9ba10e2d9703f",
+  "schema": "p01q-closeout-publication-v1",
+  "scope": "Byte-identical receipts/logs only; original bundle/seal unchanged, raw saved environments and source/dependency/binary snapshots remain local."
+}

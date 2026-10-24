@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "scripts/audit_p01q_receipts.py",
+    "artifacts/p01q-001"
+  ],
+  "returncode": 0,
+  "auditor_sha256": "246379fa087d6861d60756c0d0f117c898afee6e6af4f00b5f0e725f73387fe6",
+  "world_replay": false,
+  "keyed_evaluations": 0
+}

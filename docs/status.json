@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-23",
-  "stage": "P01q_execution_freeze_ready",
+  "stage": "P01q_consumed_engineering_failure_before_dynamics",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "After execution freeze/admission commit/push, run only PYTHONDONTWRITEBYTECODE=1 python3 scripts/p01q_campaign.py artifacts/p01q-001, with pre-creation closure/RSS checks and all128 manifest slots before transitions.",
-    "Preserve and audit the sole attempt, including all negative/censored/failed/unstarted cells and costs. Directory creation consumes the registration; no retry, resumption, replacement, repair, favorable-law subset or expanded budget/horizon.",
-    "No keyed reevaluation, environment/detector change or E01; scientific status remains untested and all historical outcomes/criteria stay unchanged."
+    "Separately register a bounded read-only engineering diagnosis of the saved-envelope/worker interface and budget-accounting/closeout path; specify complete-envelope invented fixtures and accounting controls before new implementation or performance assay.",
+    "P01q is consumed: preserve failed cell0,127unstarted cells, original seal, input KeyError and terminal CPU-reserve failure; no retry, resume, conversion, repair or completion of missing cells.",
+    "No v4 behavioral observation exists; outcomes stay null/not_executed, scientific status untested and E01 unauthorized. Any corrected execution needs a separately justified protocol and new execution freeze."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -298,7 +298,7 @@
   "p01p_cleanup6_branches_permitted_by_abstraction": 0,
   "p01q_behavioral_missing_reason": "not_executed",
   "p01q_behavioral_outcomes": null,
-  "p01q_execution_started": false,
+  "p01q_execution_started": true,
   "p01q_implementation_admitted_after_commit_push": true,
   "p01q_protocol": "docs/p01q_protocol.json",
   "p01q_registration_complete": true,
@@ -313,5 +313,23 @@
   "p01q_execution_admission": "docs/p01q_execution_admission.json",
   "p01q_execution_freeze_notes": "docs/p01q_execution_freeze_notes.md",
   "p01q_pre_execution_receipt": "docs/evidence/p01q-execution-readiness-001/readiness.json",
-  "p01q_execution_ready_after_commit_push": true
+  "p01q_execution_ready_after_commit_push": false,
+  "p01q_world_execution_started": false,
+  "p01q_execution_complete": true,
+  "p01q_registration_consumed": true,
+  "p01q_engineering_gate_pass": false,
+  "p01q_continuation_gate_pass": false,
+  "p01q_recorded_mechanism_gate_pass": false,
+  "p01q_mechanism_evidence": "not_assessed_no_eligible_trajectories",
+  "p01q_execution_findings": "docs/p01q_execution_findings.md",
+  "p01q_closure": "docs/p01q_closure.json",
+  "p01q_receipt_audit": "docs/evidence/p01q-001/receipt_audit.json",
+  "p01q_post_seal_custody": "docs/evidence/p01q-001/post_seal_custody.json",
+  "p01q_outcomes": {
+    "failed_cells": 1,
+    "unstarted_cells": 127,
+    "complete_trajectories": 0,
+    "native_stages": 0,
+    "world_transitions": 0
+  }
 }

@@ -1,0 +1,2407 @@
+{
+  "assessment": {
+    "continuation_gate_pass": false,
+    "decision": "engineering_failure_or_incomplete",
+    "distinct_observed_tables": 0,
+    "distinct_tables_with_same_trajectory_visible_birth_recycle_loop": 0,
+    "distinct_tables_with_visible_birth": 0,
+    "e01_authorized": false,
+    "engineering_gate_pass": false,
+    "full_horizon_ap_labels": {},
+    "law_denominator": 32,
+    "laws": [
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "failed"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6000
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6001
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6002
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6003
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6004
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6005
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6006
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6007
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6008
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6009
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6010
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6011
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6012
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6013
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6014
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6015
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6016
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6017
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6018
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6019
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6020
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6021
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6022
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6023
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6024
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6025
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6026
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6027
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6028
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6029
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6030
+      },
+      {
+        "all_four_horizons_complete": false,
+        "initial_states": [
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 0,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 1,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 2,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          },
+          {
+            "full_horizon_ap": null,
+            "full_horizon_counts": null,
+            "initial_state": 3,
+            "missing_reason": "KeyError('native')",
+            "prefix_counts": null,
+            "status": "unstarted"
+          }
+        ],
+        "law_digest": null,
+        "observed_trajectories_with_visible_birth": 0,
+        "observed_trajectories_with_visible_recycling": 0,
+        "proposal": 6031
+      }
+    ],
+    "mechanism_gate_pass": false,
+    "per_run_stage_child_cpu_seconds": null,
+    "per_run_stage_wall_seconds": null,
+    "resource_usage_before_seal": {
+      "artifact_bytes": 248726917,
+      "total_process_cpu_seconds": 595.090698,
+      "wall_seconds": 603.313108291477
+    },
+    "schema": "p01q-assessment-v1",
+    "scientific_status": "untested",
+    "stage_costs": {
+      "native": {
+        "child_cpu_seconds": null,
+        "guard_and_reaped_children_cpu_seconds": null,
+        "peak_rss_bytes": null,
+        "peak_sampled_rss_bytes": null,
+        "stderr_bytes": null,
+        "stdout_bytes": null,
+        "wall_seconds": null
+      },
+      "python_audit": {
+        "child_cpu_seconds": null,
+        "guard_and_reaped_children_cpu_seconds": null,
+        "peak_rss_bytes": null,
+        "peak_sampled_rss_bytes": null,
+        "stderr_bytes": null,
+        "stdout_bytes": null,
+        "wall_seconds": null
+      },
+      "rust_report": {
+        "child_cpu_seconds": null,
+        "guard_and_reaped_children_cpu_seconds": null,
+        "peak_rss_bytes": null,
+        "peak_sampled_rss_bytes": null,
+        "stderr_bytes": null,
+        "stdout_bytes": null,
+        "wall_seconds": null
+      }
+    },
+    "status_counts": {
+      "failed": 1,
+      "unstarted": 127
+    },
+    "trajectory_denominator": 128
+  },
+  "e01_authorized": false,
+  "error": "KeyError('native')",
+  "execution_admission_sha256": "e843d72e2c6fb4a583e737b7e21ef610558d26471e333549c107d4e081b10f37",
+  "execution_freeze_sha256": "25427df0e00713d524f8e6565e962e6487db4967ef6b67e9a181a6c868e3bdad",
+  "execution_status": "failed",
+  "protocol_sha256": "a1088536ee54ec2fb7688cda98c79ce94677db5974abb141d3d672e54c1bc639",
+  "provenance_error": "AssertionError('aggregate CPU reserve')",
+  "registration_freeze_sha256": "d219adf2436d3cf5e298216ce0fee8686a7e607cf29403cbdf12986ff44ac29c",
+  "rows": [
+    {
+      "initial_state": 0,
+      "proposal": 6000,
+      "reason": "KeyError('native')",
+      "slot": 0,
+      "stages": {},
+      "status": "failed"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6000,
+      "reason": "KeyError('native')",
+      "slot": 1,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6000,
+      "reason": "KeyError('native')",
+      "slot": 2,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6000,
+      "reason": "KeyError('native')",
+      "slot": 3,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6001,
+      "reason": "KeyError('native')",
+      "slot": 4,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6001,
+      "reason": "KeyError('native')",
+      "slot": 5,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6001,
+      "reason": "KeyError('native')",
+      "slot": 6,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6001,
+      "reason": "KeyError('native')",
+      "slot": 7,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6002,
+      "reason": "KeyError('native')",
+      "slot": 8,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6002,
+      "reason": "KeyError('native')",
+      "slot": 9,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6002,
+      "reason": "KeyError('native')",
+      "slot": 10,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6002,
+      "reason": "KeyError('native')",
+      "slot": 11,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6003,
+      "reason": "KeyError('native')",
+      "slot": 12,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6003,
+      "reason": "KeyError('native')",
+      "slot": 13,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6003,
+      "reason": "KeyError('native')",
+      "slot": 14,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6003,
+      "reason": "KeyError('native')",
+      "slot": 15,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6004,
+      "reason": "KeyError('native')",
+      "slot": 16,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6004,
+      "reason": "KeyError('native')",
+      "slot": 17,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6004,
+      "reason": "KeyError('native')",
+      "slot": 18,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6004,
+      "reason": "KeyError('native')",
+      "slot": 19,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6005,
+      "reason": "KeyError('native')",
+      "slot": 20,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6005,
+      "reason": "KeyError('native')",
+      "slot": 21,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6005,
+      "reason": "KeyError('native')",
+      "slot": 22,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6005,
+      "reason": "KeyError('native')",
+      "slot": 23,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6006,
+      "reason": "KeyError('native')",
+      "slot": 24,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6006,
+      "reason": "KeyError('native')",
+      "slot": 25,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6006,
+      "reason": "KeyError('native')",
+      "slot": 26,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6006,
+      "reason": "KeyError('native')",
+      "slot": 27,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6007,
+      "reason": "KeyError('native')",
+      "slot": 28,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6007,
+      "reason": "KeyError('native')",
+      "slot": 29,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6007,
+      "reason": "KeyError('native')",
+      "slot": 30,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6007,
+      "reason": "KeyError('native')",
+      "slot": 31,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6008,
+      "reason": "KeyError('native')",
+      "slot": 32,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6008,
+      "reason": "KeyError('native')",
+      "slot": 33,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6008,
+      "reason": "KeyError('native')",
+      "slot": 34,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6008,
+      "reason": "KeyError('native')",
+      "slot": 35,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6009,
+      "reason": "KeyError('native')",
+      "slot": 36,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6009,
+      "reason": "KeyError('native')",
+      "slot": 37,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6009,
+      "reason": "KeyError('native')",
+      "slot": 38,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6009,
+      "reason": "KeyError('native')",
+      "slot": 39,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6010,
+      "reason": "KeyError('native')",
+      "slot": 40,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6010,
+      "reason": "KeyError('native')",
+      "slot": 41,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6010,
+      "reason": "KeyError('native')",
+      "slot": 42,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6010,
+      "reason": "KeyError('native')",
+      "slot": 43,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6011,
+      "reason": "KeyError('native')",
+      "slot": 44,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6011,
+      "reason": "KeyError('native')",
+      "slot": 45,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6011,
+      "reason": "KeyError('native')",
+      "slot": 46,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6011,
+      "reason": "KeyError('native')",
+      "slot": 47,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6012,
+      "reason": "KeyError('native')",
+      "slot": 48,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6012,
+      "reason": "KeyError('native')",
+      "slot": 49,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6012,
+      "reason": "KeyError('native')",
+      "slot": 50,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6012,
+      "reason": "KeyError('native')",
+      "slot": 51,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6013,
+      "reason": "KeyError('native')",
+      "slot": 52,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6013,
+      "reason": "KeyError('native')",
+      "slot": 53,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6013,
+      "reason": "KeyError('native')",
+      "slot": 54,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6013,
+      "reason": "KeyError('native')",
+      "slot": 55,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6014,
+      "reason": "KeyError('native')",
+      "slot": 56,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6014,
+      "reason": "KeyError('native')",
+      "slot": 57,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6014,
+      "reason": "KeyError('native')",
+      "slot": 58,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6014,
+      "reason": "KeyError('native')",
+      "slot": 59,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6015,
+      "reason": "KeyError('native')",
+      "slot": 60,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6015,
+      "reason": "KeyError('native')",
+      "slot": 61,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6015,
+      "reason": "KeyError('native')",
+      "slot": 62,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6015,
+      "reason": "KeyError('native')",
+      "slot": 63,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6016,
+      "reason": "KeyError('native')",
+      "slot": 64,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6016,
+      "reason": "KeyError('native')",
+      "slot": 65,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6016,
+      "reason": "KeyError('native')",
+      "slot": 66,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6016,
+      "reason": "KeyError('native')",
+      "slot": 67,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6017,
+      "reason": "KeyError('native')",
+      "slot": 68,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6017,
+      "reason": "KeyError('native')",
+      "slot": 69,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6017,
+      "reason": "KeyError('native')",
+      "slot": 70,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6017,
+      "reason": "KeyError('native')",
+      "slot": 71,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6018,
+      "reason": "KeyError('native')",
+      "slot": 72,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6018,
+      "reason": "KeyError('native')",
+      "slot": 73,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6018,
+      "reason": "KeyError('native')",
+      "slot": 74,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6018,
+      "reason": "KeyError('native')",
+      "slot": 75,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6019,
+      "reason": "KeyError('native')",
+      "slot": 76,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6019,
+      "reason": "KeyError('native')",
+      "slot": 77,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6019,
+      "reason": "KeyError('native')",
+      "slot": 78,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6019,
+      "reason": "KeyError('native')",
+      "slot": 79,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6020,
+      "reason": "KeyError('native')",
+      "slot": 80,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6020,
+      "reason": "KeyError('native')",
+      "slot": 81,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6020,
+      "reason": "KeyError('native')",
+      "slot": 82,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6020,
+      "reason": "KeyError('native')",
+      "slot": 83,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6021,
+      "reason": "KeyError('native')",
+      "slot": 84,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6021,
+      "reason": "KeyError('native')",
+      "slot": 85,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6021,
+      "reason": "KeyError('native')",
+      "slot": 86,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6021,
+      "reason": "KeyError('native')",
+      "slot": 87,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6022,
+      "reason": "KeyError('native')",
+      "slot": 88,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6022,
+      "reason": "KeyError('native')",
+      "slot": 89,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6022,
+      "reason": "KeyError('native')",
+      "slot": 90,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6022,
+      "reason": "KeyError('native')",
+      "slot": 91,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6023,
+      "reason": "KeyError('native')",
+      "slot": 92,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6023,
+      "reason": "KeyError('native')",
+      "slot": 93,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6023,
+      "reason": "KeyError('native')",
+      "slot": 94,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6023,
+      "reason": "KeyError('native')",
+      "slot": 95,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6024,
+      "reason": "KeyError('native')",
+      "slot": 96,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6024,
+      "reason": "KeyError('native')",
+      "slot": 97,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6024,
+      "reason": "KeyError('native')",
+      "slot": 98,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6024,
+      "reason": "KeyError('native')",
+      "slot": 99,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6025,
+      "reason": "KeyError('native')",
+      "slot": 100,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6025,
+      "reason": "KeyError('native')",
+      "slot": 101,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6025,
+      "reason": "KeyError('native')",
+      "slot": 102,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6025,
+      "reason": "KeyError('native')",
+      "slot": 103,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6026,
+      "reason": "KeyError('native')",
+      "slot": 104,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6026,
+      "reason": "KeyError('native')",
+      "slot": 105,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6026,
+      "reason": "KeyError('native')",
+      "slot": 106,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6026,
+      "reason": "KeyError('native')",
+      "slot": 107,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6027,
+      "reason": "KeyError('native')",
+      "slot": 108,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6027,
+      "reason": "KeyError('native')",
+      "slot": 109,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6027,
+      "reason": "KeyError('native')",
+      "slot": 110,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6027,
+      "reason": "KeyError('native')",
+      "slot": 111,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6028,
+      "reason": "KeyError('native')",
+      "slot": 112,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6028,
+      "reason": "KeyError('native')",
+      "slot": 113,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6028,
+      "reason": "KeyError('native')",
+      "slot": 114,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6028,
+      "reason": "KeyError('native')",
+      "slot": 115,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6029,
+      "reason": "KeyError('native')",
+      "slot": 116,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6029,
+      "reason": "KeyError('native')",
+      "slot": 117,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6029,
+      "reason": "KeyError('native')",
+      "slot": 118,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6029,
+      "reason": "KeyError('native')",
+      "slot": 119,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6030,
+      "reason": "KeyError('native')",
+      "slot": 120,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6030,
+      "reason": "KeyError('native')",
+      "slot": 121,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6030,
+      "reason": "KeyError('native')",
+      "slot": 122,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6030,
+      "reason": "KeyError('native')",
+      "slot": 123,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 0,
+      "proposal": 6031,
+      "reason": "KeyError('native')",
+      "slot": 124,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 1,
+      "proposal": 6031,
+      "reason": "KeyError('native')",
+      "slot": 125,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 2,
+      "proposal": 6031,
+      "reason": "KeyError('native')",
+      "slot": 126,
+      "stages": {},
+      "status": "unstarted"
+    },
+    {
+      "initial_state": 3,
+      "proposal": 6031,
+      "reason": "KeyError('native')",
+      "slot": 127,
+      "stages": {},
+      "status": "unstarted"
+    }
+  ],
+  "schema": "p01q-campaign-manifest-v1",
+  "scientific_status": "untested"
+}

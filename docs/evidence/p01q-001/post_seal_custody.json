@@ -1,0 +1,35 @@
+{
+  "attempt_inventory_entries": 4960,
+  "behavioral_missing_reason": "not_executed",
+  "behavioral_outcomes": null,
+  "current_dependencies_verified": 3846,
+  "current_frozen_files_verified": 1107,
+  "execution_freeze_sha256": "25427df0e00713d524f8e6565e962e6487db4967ef6b67e9a181a6c868e3bdad",
+  "frozen_receipt_audit_sha256": "bc882901f375e838c1b3566cd7f9dec73462479fba2d4c2a670be538a2d2acca",
+  "keyed_evaluations": 0,
+  "launch_logs": {
+    "artifacts/p01q-launch-001/launch-001.log": "329f4cbfadcb4c6a1b0981767bd2754664c8e208f828234ffe554025b1e567bb",
+    "artifacts/p01q-launch-001/launch-002.log": "9787d86c364c84655f4615861f43b21bbc4d9fb167cae92958a48f0f407e4a52"
+  },
+  "membership_roots_verified": 23,
+  "native_stages": 0,
+  "original_p01o_inventory_entries": 5127,
+  "original_p01o_seal_sha256": "fa6fb28cefdf3f253227fc1de2096246a9c1bf30bd6c7ce2d1b8deef72fdfd00",
+  "original_terminal_recheck_error": "AssertionError('aggregate CPU reserve')",
+  "overshoot": [],
+  "resource_usage": {
+    "artifact_bytes": 249303823,
+    "total_process_cpu_seconds": 595.554482,
+    "wall_seconds": 604.1816673753783
+  },
+  "schema": "p01q-post-seal-custody-v1",
+  "scope": "Read-only hashes, exact membership and terminal accounting; no trajectory replay, input conversion or repair. This does not replace the failed in-attempt custody recheck.",
+  "seal_sha256": "eabecddbe5ea1a14d537a56af96a2bd9516bf9dca6d1998137e7cc277df7dcf4",
+  "status": "pass",
+  "status_counts": {
+    "failed": 1,
+    "unstarted": 127
+  },
+  "tools_verified": 4,
+  "world_transitions": 0
+}

@@ -241,3 +241,25 @@ then audit saved receipts without replaying worlds or keyed sampling. No retry,
 resume, missing-cell completion, repaired/replaced input, favorable-law selection,
 extended horizon or relaxed gate. Live watchdog behavior and real pipeline costs
 remain untested until execution. Scientific status untested; E01 unauthorized.
+
+## Current next boundary after P01q consumed attempt
+
+P01q is consumed by its sole attempt. Freeze/admission commit d4f56b1 preceded
+execution; sandbox ps failure occurred before directory creation and is retained.
+The approved attempt wrote all128 slots but failed cell0 before native launch:
+KeyError('native'). The terminal custody recheck then hit aggregate CPU reserve.
+No native/report/replay stage or world transition ran; 127 cells remain unstarted.
+The saved envelope contains environment; saved_initial returned the wrapper while
+the runner expected native directly. The mocked pipeline bypassed that boundary.
+Preserve that implementation and all earlier passing readiness receipts unchanged.
+See docs/p01q_execution_findings.md and docs/p01q_closure.json. Frozen receipt audit
+passed on4960 inventory entries; post-seal custody also passed without replacing
+the original terminal failure. Seal eabecddbe5ea1a14d537a56af96a2bd9516bf9dca6d1998137e7cc277df7dcf4
+is immutable. Costs604.1816673753783s wall/595.554482s CPU/249303823bytes; no overshoot.
+Next separately register bounded read-only engineering diagnosis of saved-envelope
+compatibility and budget-accounting/closeout, with complete-envelope invented
+fixtures and accounting controls before any new implementation/performance assay.
+No repair, conversion, retry, resumption, missing-cell completion or new world run
+under consumed P01q. False stored mechanism gate means no eligible trajectories,
+not observed absence. Behavioral outcomes null/not_executed; scientific status
+untested and E01 unauthorized. Preserve all historical outcomes and criteria.

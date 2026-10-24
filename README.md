@@ -518,3 +518,11 @@ worker/report binaries, all saved inputs, 3,846 dependency files and exact
 directory memberships are pinned. Six additional closure tests passed. No world
 has run; the next boundary is the single admitted attempt after commit/push.
 See [execution freeze notes](docs/p01q_execution_freeze_notes.md).
+
+P01q's sole attempt stopped before dynamics: the saved-input wrapper did not match
+what the runner expected (`KeyError('native')`). One cell failed and 127 remained
+unstarted; no native stages or world transitions ran. The terminal custody check
+also hit its CPU reserve. The bundle was sealed without a ceiling overshoot and
+passed the frozen receipt audit. P01q is consumed; no retry or repair was made.
+Next is a separately registered engineering diagnosis. See
+[execution findings](docs/p01q_execution_findings.md).
