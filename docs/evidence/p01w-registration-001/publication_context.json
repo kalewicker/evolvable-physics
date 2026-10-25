@@ -1,0 +1,29 @@
+{
+  "base_commit": "afb138bd57ef2cb933a484bdc5518d1ff88a9549",
+  "copies": {
+    "normal.log": {
+      "sha256": "a1c4978a17f7e28302fcfedd7bd05ab504b88cbe6bda67a52eab703ba049a785",
+      "source": "artifacts/p01w-registration-build-001/normal.log"
+    },
+    "optimized.log": {
+      "sha256": "dc0f62a5a6e8567ff7dd69328e4b973d52881b912496271e8e45c55b77e71fce",
+      "source": "artifacts/p01w-registration-build-001/optimized.log"
+    },
+    "static_review.json": {
+      "sha256": "a6d5fb00a1ba0fc6aef6629f95fe3db4240df2c60846f1ed82b11a1a4c675323",
+      "source": "artifacts/p01w-registration-001/static_review.json"
+    },
+    "tests.json": {
+      "sha256": "4a4a2e3cc4fba8114276241fed1ee26eed837439f3f2604b7911ece37bedd921",
+      "source": "artifacts/p01w-registration-build-001/tests.json"
+    }
+  },
+  "freeze_sha256": "1023ac09c13fa2b0981483dd8c0e574e54bf160437180d42866bb5c3905799ec",
+  "implementation_started": false,
+  "note": "Compact registration receipts only. Raw evidence, retained requests/streams and binaries are excluded from publication.",
+  "protocol": "docs/p01w_protocol.json",
+  "protocol_sha256": "dc563a982eb827e519247aab0b7e7d500bba6fe0cd7d837ffc605dc6fc99e643",
+  "registration_only": true,
+  "schema": "p01w-registration-publication-v1",
+  "world_transitions": 0
+}

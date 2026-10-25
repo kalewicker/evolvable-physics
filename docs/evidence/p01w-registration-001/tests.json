@@ -1,0 +1,43 @@
+{
+  "freeze_sha256": "1023ac09c13fa2b0981483dd8c0e574e54bf160437180d42866bb5c3905799ec",
+  "interpreter": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "interpreter_sha256": "695fc18cdb9a699c6b1ea88ce4027854782ed704eb34cc3200e6f8380155b6a8",
+  "retained_payloads_parsed": 0,
+  "runs": [
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-B",
+        "scripts/test_p01w_registration.py",
+        "-v"
+      ],
+      "log_sha256": "a1c4978a17f7e28302fcfedd7bd05ab504b88cbe6bda67a52eab703ba049a785",
+      "mode": "normal",
+      "returncode": 0,
+      "wall_seconds": 0.08784812502563
+    },
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-B",
+        "-O",
+        "scripts/test_p01w_registration.py",
+        "-v"
+      ],
+      "log_sha256": "dc0f62a5a6e8567ff7dd69328e4b973d52881b912496271e8e45c55b77e71fce",
+      "mode": "optimized",
+      "returncode": 0,
+      "wall_seconds": 0.23418879229575396
+    }
+  ],
+  "schema": "p01w-registration-tests-v1",
+  "sources": {
+    "docs/p01w_campaign_plan.md": "e229f5bd94e893adee65cfbfb2ee6e332175564126f64236c146faf479114b7a",
+    "docs/p01w_protocol.json": "dc563a982eb827e519247aab0b7e7d500bba6fe0cd7d837ffc605dc6fc99e643",
+    "scripts/check_p01w_registration.py": "87d8edbcefec5dbdd792e820980ae36a3c5368a086561103f7aba2ec51bd67a7",
+    "scripts/test_p01w_registration.py": "485f5bfddc4364c6451b62a3e8b42530e2e79dc1a5d0e7576958b68af48d1294"
+  },
+  "status": "pass",
+  "tests_per_mode": 11,
+  "world_transitions": 0
+}

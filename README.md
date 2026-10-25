@@ -593,3 +593,13 @@ independent chain and accounting audit. Twelve tests passed normally and optimiz
 A runtime-closure revision added existing bytecode; both passing attempts remain
 preserved. No world ran. Next is a separately registered bounded dynamics campaign.
 See [integration findings](docs/p01v_findings.md).
+
+P01w now registers one new bounded dynamics attempt over all128 unchanged saved
+requests. The original mechanism criteria, stage limits and1200s wall/600s CPU/
+2GiB ceilings are unchanged; consumed P01q and all its failures remain preserved.
+Eleven registration tests passed normally and optimized; byte custody checked353
+frozen files,552 inputs,732 preceding receipts and the original seals. No world ran.
+Next is production-contract implementation against invented controls, followed by
+a separately committed execution freeze before launch. See the
+[P01w campaign plan](docs/p01w_campaign_plan.md) and
+[registration findings](docs/p01w_registration_findings.md).

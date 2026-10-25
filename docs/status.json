@@ -1,7 +1,7 @@
 {
   "schema": "project-status-v1",
   "date": "2026-10-24",
-  "stage": "P01v_inert_campaign_integration_complete",
+  "stage": "P01w_bounded_dynamics_registered",
   "p00_admitted": true,
   "admission_scope": "bounded engineering profiles and disclosed fixture panels",
   "admission_receipt": "docs/evidence/p00g-001/p00g_admission_audit.json",
@@ -9,9 +9,9 @@
   "p01_started": true,
   "scientific_status": "untested",
   "next_work": [
-    "Separately register a new bounded unfiltered dynamics campaign over the unchanged128 requests, with production worker/reporter/auditor contract checks and a source/binary execution freeze before launch. Preserve consumed P01q and its original mechanism criteria. Performance claims require their own assay.",
-    "Preserve the passing invented test build, both runtime-closure versions, both successful integration/audit pairs and all injected failures. No input or consumed-attempt repairs.",
-    "No productive execution or benchmark is currently admitted; native workers/validators, candidates and generators were not invoked by P01v. Science untested, behavior null/not_executed and E01 unauthorized."
+    "After registration commit/push, implement only the eight new P01w paths; expand the ten control families/68 named controls into authored expectations and test invented descriptors/mock production-contract stages only.",
+    "Preserve original independent full Python replay plus single-pass verification, original observables/gates and resource ceilings. Separately verify and commit/push the full tested source/dependency/tool/binary/input execution freeze before candidate or world computation.",
+    "No productive execution is currently admitted. Keep all128 requests unchanged, consumed P01q and prior failures intact. The one future P01w attempt is consumed on output creation, even before transitions; no retry/resume/extension/selection. Science untested and E01 unauthorized."
   ],
   "p01_preflight_complete": true,
   "full_p01_started": true,
@@ -431,5 +431,18 @@
     "identity_chains": 128,
     "world_transitions": 0,
     "native_worker_invocations": 0
-  }
+  },
+  "p01w_behavioral_missing_reason": "not_executed",
+  "p01w_behavioral_outcomes": null,
+  "p01w_campaign_plan": "docs/p01w_campaign_plan.md",
+  "p01w_execution_started": false,
+  "p01w_implementation_admitted_after_commit_push": true,
+  "p01w_implementation_started": false,
+  "p01w_protocol": "docs/p01w_protocol.json",
+  "p01w_registration_complete": true,
+  "p01w_registration_consumed": false,
+  "p01w_registration_findings": "docs/p01w_registration_findings.md",
+  "p01w_registration_freeze": "docs/p01w_registration_freeze.json",
+  "p01w_registration_receipt": "docs/evidence/p01w-registration-001/static_review.json",
+  "p01w_world_execution_admitted": false
 }

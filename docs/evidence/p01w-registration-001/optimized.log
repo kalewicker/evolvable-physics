@@ -1,0 +1,16 @@
+test_caps_reserves_and_no_scans (__main__.Registration.test_caps_reserves_and_no_scans) ... ok
+test_controls_preserved (__main__.Registration.test_controls_preserved) ... ok
+test_exact_identity_and_new_paths (__main__.Registration.test_exact_identity_and_new_paths) ... ok
+test_no_execution_now (__main__.Registration.test_no_execution_now) ... ok
+test_no_fabricated_observations (__main__.Registration.test_no_fabricated_observations) ... ok
+test_observation_and_decision_not_redefined (__main__.Registration.test_observation_and_decision_not_redefined) ... ok
+test_panel_and_types (__main__.Registration.test_panel_and_types) ... ok
+test_production_contract_and_scope (__main__.Registration.test_production_contract_and_scope) ... ok
+test_unchanged_primary_criteria (__main__.Registration.test_unchanged_primary_criteria) ... ok
+test_unknown_and_missing_fields (__main__.Registration.test_unknown_and_missing_fields) ... ok
+test_valid (__main__.Registration.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.028s
+
+OK

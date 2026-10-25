@@ -466,3 +466,29 @@ requiring a source/binary execution freeze before launch. Preserve P01q's origin
 mechanism criteria and consumed status; no input repairs, favorable selection,
 productive execution, performance claim or E01 is currently authorized. Scientific
 status untested and behavior null/not_executed. Raw request-bearing data stays local.
+
+## Current next boundary after P01w registration
+
+P01w registers a new single bounded dynamics attempt across all128 unchanged P01t
+requests, preserving all32 laws and four initial states. See docs/p01w_protocol.json,
+docs/p01w_campaign_plan.md and docs/p01w_registration_findings.md. Eleven registration
+mutation tests passed normally and optimized; static review verified353 frozen
+files,552 custody inputs,732 preceding public receipts, all128 request hashes and
+original P01o/P01q seals. No worker/reporter/replay, candidate/world execution,
+retained request parsing or compilation ran. Original mechanism criteria and
+1200s wall/600s CPU/2GiB ceilings remain unchanged; consumed P01q remains immutable.
+After this registration is committed/pushed, next implement only its eight new
+paths and test the ten families/68 named controls using invented descriptors and
+inert/mock production-contract stages. Freeze authored expectations before tests;
+exercise the real loader on invented nested envelopes, not a bypassed loader.
+Preserve original independent full Python replay plus single-pass verification,
+independent event oracle and detector disagreement. Do not call broken P01q
+saved_initial/verify/main or execute original workers/reporters/replay in tests;
+reporting censored traces may execute a next epoch. Use a new production guard
+with original stage/aggregate caps, CPU accounting and no recursive polling scans.
+Separately verify and commit/push full tested source/dependency/tool/binary/input
+execution freeze/admission, including existing bytecode, before any candidate or
+transition computation. The one future artifacts/p01w-001 attempt is consumed on
+directory creation, even before a transition; no retry/resume/extension/input repair
+or favorable selection. Capability probes precede creation. No productive execution,
+performance assay, new generation, changed thresholds or E01 is admitted now.

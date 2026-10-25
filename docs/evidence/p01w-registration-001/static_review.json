@@ -1,0 +1,26 @@
+{
+  "control_families": 10,
+  "custody_inputs": 552,
+  "fixed_cells": 128,
+  "fixed_laws": 32,
+  "freeze_sha256": "1023ac09c13fa2b0981483dd8c0e574e54bf160437180d42866bb5c3905799ec",
+  "frozen_files": 353,
+  "implementation_started": false,
+  "keyed_evaluations": 0,
+  "named_control_cases": 68,
+  "native_worker_invocations": 0,
+  "original_inventory_counts": {
+    "artifacts/p01o-001": 5127,
+    "artifacts/p01q-001": 4960
+  },
+  "planned_production_stages": 384,
+  "prior_public_receipts": 732,
+  "reporter_invocations": 0,
+  "requests_pinned": 128,
+  "retained_payloads_parsed": 0,
+  "schema": "p01w-registration-review-v1",
+  "scientific_status": "untested",
+  "status": "pass",
+  "world_execution_admitted_now": false,
+  "world_transitions": 0
+}
