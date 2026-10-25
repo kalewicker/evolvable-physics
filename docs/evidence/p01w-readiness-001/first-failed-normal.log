@@ -1,0 +1,130 @@
+test_all_stage_and_aggregate_boundaries (__main__.AdmissionAndGuards.test_all_stage_and_aggregate_boundaries) ... ok
+test_executor_pin_and_terminal_failure (__main__.AdmissionAndGuards.test_executor_pin_and_terminal_failure) ... ok
+test_inert_real_spawn_caps_partial_streams_and_reaping (__main__.AdmissionAndGuards.test_inert_real_spawn_caps_partial_streams_and_reaping) ... ok
+test_live_cpu_bound_and_partial_write_ledger (__main__.AdmissionAndGuards.test_live_cpu_bound_and_partial_write_ledger) ... ok
+test_real_loader_and_typed_paired_envelopes (__main__.AdmissionAndGuards.test_real_loader_and_typed_paired_envelopes) ... ok
+test_source_execution_boundary (__main__.AdmissionAndGuards.test_source_execution_boundary) ... ok
+test_strict_parser_and_optimized_rejection (__main__.AdmissionAndGuards.test_strict_parser_and_optimized_rejection) ... FAIL
+test_availability_and_initial_nodes_are_not_births (__main__.ObservationControls.test_availability_and_initial_nodes_are_not_births) ... ok
+test_birth_internal_transfer_not_additional_funding (__main__.ObservationControls.test_birth_internal_transfer_not_additional_funding) ... ok
+test_birth_must_be_funded_attached_and_paid (__main__.ObservationControls.test_birth_must_be_funded_attached_and_paid) ... ok
+test_censored_and_disagreement_keep_null_or_inconclusive (__main__.ObservationControls.test_censored_and_disagreement_keep_null_or_inconclusive) ... ERROR
+test_cleanup6_preserves_orphan_and_spends_activation (__main__.ObservationControls.test_cleanup6_preserves_orphan_and_spends_activation) ... ok
+test_funding_donor_and_same_node_cannot_be_pooled (__main__.ObservationControls.test_funding_donor_and_same_node_cannot_be_pooled) ... ERROR
+test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations) ... 
+  test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations) (field='events') ... ERROR
+  test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations) (field='roles') ... ERROR
+  test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations) (field='creation_edges') ... ERROR
+test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations) ... ERROR
+test_order_and_unrelated_intervening_events (__main__.ObservationControls.test_order_and_unrelated_intervening_events) ... ok
+test_reused_body_same_kind_distinct_nodes_and_cleanup7 (__main__.ObservationControls.test_reused_body_same_kind_distinct_nodes_and_cleanup7) ... ok
+test_visibility_needs_both_proposals_same_live_sample (__main__.ObservationControls.test_visibility_needs_both_proposals_same_live_sample) ... ok
+test_wrong_edge_nonleaf_and_refund_rejected (__main__.ObservationControls.test_wrong_edge_nonleaf_and_refund_rejected) ... ok
+test_full_128_production_contract_pipeline_and_independent_audit (__main__.PipelineControls.test_full_128_production_contract_pipeline_and_independent_audit) ... ok
+test_gate_duplicates_same_node_and_no_pooling (__main__.PipelineControls.test_gate_duplicates_same_node_and_no_pooling) ... ok
+test_independent_inventory_mutations (__main__.PipelineControls.test_independent_inventory_mutations) ... ok
+test_registered_failure_matrix_and_no_retries (__main__.PipelineControls.test_registered_failure_matrix_and_no_retries) ... ok
+
+======================================================================
+ERROR: test_censored_and_disagreement_keep_null_or_inconclusive (__main__.ObservationControls.test_censored_and_disagreement_keep_null_or_inconclusive)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01w.py", line 151, in test_censored_and_disagreement_keep_null_or_inconclusive
+    with self.assertRaises(AssertionError):receipts.validate_observations(r)
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 30, in validate_observations
+    need(receipt['full_horizon_counts'] == (counts if receipt['full_horizon_verified'] else None), 'observation invariant')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 15, in need
+    if not ok:raise ValueError(why)
+              ^^^^^^^^^^^^^^^^^^^^^
+ValueError: observation invariant
+
+======================================================================
+ERROR: test_funding_donor_and_same_node_cannot_be_pooled (__main__.ObservationControls.test_funding_donor_and_same_node_cannot_be_pooled)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01w.py", line 132, in test_funding_donor_and_same_node_cannot_be_pooled
+    with self.assertRaises(AssertionError):receipts.validate_observations(receipt(altered))
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 37, in validate_observations
+    need(f['recipient'] in born and born[f['recipient']]['birth_event'] == f['birth_event'] < f['event'], 'observation invariant')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 15, in need
+    if not ok:raise ValueError(why)
+              ^^^^^^^^^^^^^^^^^^^^^
+ValueError: observation invariant
+
+======================================================================
+ERROR: test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations) (field='events')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01w.py", line 160, in test_independent_oracle_and_receipt_mutations
+    with self.subTest(field=field),self.assertRaises((AssertionError,KeyError)):receipts.validate_observations(receipt(a))
+                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 52, in validate_observations
+    need(len(ids) == 6 and all((a < c for a, c in zip(ids, ids[1:]))), 'observation invariant')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 15, in need
+    if not ok:raise ValueError(why)
+              ^^^^^^^^^^^^^^^^^^^^^
+ValueError: observation invariant
+
+======================================================================
+ERROR: test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations) (field='roles')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01w.py", line 160, in test_independent_oracle_and_receipt_mutations
+    with self.subTest(field=field),self.assertRaises((AssertionError,KeyError)):receipts.validate_observations(receipt(a))
+                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 53, in validate_observations
+    need((born[C]['donor'], born[C]['birth_event']) == (P, ids[0]), 'observation invariant')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 15, in need
+    if not ok:raise ValueError(why)
+              ^^^^^^^^^^^^^^^^^^^^^
+ValueError: observation invariant
+
+======================================================================
+ERROR: test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations) (field='creation_edges')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01w.py", line 160, in test_independent_oracle_and_receipt_mutations
+    with self.subTest(field=field),self.assertRaises((AssertionError,KeyError)):receipts.validate_observations(receipt(a))
+                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 59, in validate_observations
+    need(b['creation_edges'] == [clean[ids[5]]['edge'], clean[ids[4]]['edge']], 'observation invariant')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 15, in need
+    if not ok:raise ValueError(why)
+              ^^^^^^^^^^^^^^^^^^^^^
+ValueError: observation invariant
+
+======================================================================
+ERROR: test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01w.py", line 162, in test_independent_oracle_and_receipt_mutations
+    with self.assertRaises(AssertionError):receipts.validate_observations(receipt(a))
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 45, in validate_observations
+    need(c['returned_matter'] == (c['child_before'][0] + 2 if recycle else 1), 'observation invariant')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/audit_p01w_receipts.py", line 15, in need
+    if not ok:raise ValueError(why)
+              ^^^^^^^^^^^^^^^^^^^^^
+ValueError: observation invariant
+
+======================================================================
+FAIL: test_strict_parser_and_optimized_rejection (__main__.AdmissionAndGuards.test_strict_parser_and_optimized_rejection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01w.py", line 223, in test_strict_parser_and_optimized_rejection
+    self.assertNotEqual(completed.returncode,0);self.assertIn(b'requires assertions',completed.stderr)
+                                                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: b'requires assertions' not found in b'Traceback (most recent call last):\n  File "<string>", line 1, in <module>\n    import sys;sys.path.insert(0,\'scripts\');import p01w_cell\n                                            ^^^^^^^^^^^^^^^^\n  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/p01w_cell.py", line 16, in <module>\n    from check_p01f_registration import template\n  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/check_p01f_registration.py", line 10, in <module>\n    raise RuntimeError(\'Static registration checks require assertions\')\nRuntimeError: Static registration checks require assertions\n'
+
+----------------------------------------------------------------------
+Ran 22 tests in 8.393s
+
+FAILED (failures=1, errors=6)

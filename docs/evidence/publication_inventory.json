@@ -2947,6 +2947,94 @@
     {
       "file": "docs/evidence/p01w-registration-001/tests.json",
       "sha256": "4a4a2e3cc4fba8114276241fed1ee26eed837439f3f2604b7911ece37bedd921"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/build_history.json",
+      "sha256": "73e0cea8bb369809f63c254ea10e2664b4a549ba34ba88fd7bc35bfa3ed2db3c"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/closeout.json",
+      "sha256": "c7be2da9cf4b31c02a5d270847350654d5e44c6afe39792ac5156ddf31308c09"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/complete_closure_audit.json",
+      "sha256": "44c40ee4a7ec376feafe65819eb44dbded37d661f83e526a61f4970d6e2255ec"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/failure_matrix.json",
+      "sha256": "fe093e200fbb6591e9d79bfdce3419e97292f224060a2dca88f0d77148082cad"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/first-failed-attempt.json",
+      "sha256": "7443c5fcd0042cd4340f652605a663fc0dd02c92c431fe2c99cde3d237137231"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/first-failed-normal.log",
+      "sha256": "0aa747ce05e330f1ccb71e47e1f20ed390aad69a9d4e08891f6d04433dab6d6d"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/full_pipeline.json",
+      "sha256": "69537e485deec8e7d35a81164e1c3252149916b4695cfa39ab492ca43c6f88bf"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/normal-execution.log",
+      "sha256": "17328a093d59759c579d99bf6da2d3a62927fd9c47420e304eaacc2e6906a039"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/normal.log",
+      "sha256": "97de1c2c2391e0d870170dc18ee31218553dc9699e73822943f816feb8b29a5a"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/normal_admission_results.json",
+      "sha256": "f2c567a92eea7f2a664770ec0ba53b9b1b710650a4fb916c8d5f07bf0baa6615"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/normal_process_results.json",
+      "sha256": "01b899a9c962139f36f818aed4084b5125fba46a7399569d89ed795dafcef240"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/optimized-execution.log",
+      "sha256": "a3364fc1998f092066318d2b8ccdd8bf4abf55986a13447c8ab2b9616d5f8db7"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/optimized.log",
+      "sha256": "d7bac2242f183ddb572152ef043a10cdf93b5f47c35ac452d846268dc76cee06"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/optimized_admission_results.json",
+      "sha256": "f2c567a92eea7f2a664770ec0ba53b9b1b710650a4fb916c8d5f07bf0baa6615"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/optimized_process_results.json",
+      "sha256": "c6b9fed455914f755f36f78c1a8b1495983fb85ec6903969e02e3b26a9cdf319"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/packet.json",
+      "sha256": "edba48c42152f260c31e8a2ca2ec9322ee4e24258b06a2b22bbcc6a02bb72327"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/publication_context.json",
+      "sha256": "84c822707c739113a447c3c73e63e17133554b2522cd56b4f7c25a84c21988a8"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/runtime_closure_summary.json",
+      "sha256": "2a98561035f4560a27abb975fa70bc2709b754ee3af7b6044db1eb0ad07101a0"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/second-failed-normal-execution.log",
+      "sha256": "211f35238398719a0d7dba4db1a657e241235f61916f9f904eacb4ea2a130085"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/second-failed-optimized-execution.log",
+      "sha256": "8339d5889cdf5438d033e0bf325ab91b94a940fde6ef7a007d2124901e806cf6"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/second-failure-note.json",
+      "sha256": "846c066fc0194030ea368012aed0607695b0b4ae122568d7d54d57fd1d83eab8"
+    },
+    {
+      "file": "docs/evidence/p01w-readiness-001/tests_summary.json",
+      "sha256": "b3dfc7ebb4bce2402ae3c1a64414b4913ec337699b7950be3ce0cfb31d1af1fb"
     }
   ],
   "note": "Original sealed receipts and logs; raw trace/checkpoint/source bundles are not included.",

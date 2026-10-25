@@ -1,0 +1,1317 @@
+{
+  "cases": [
+    {
+      "contract": [
+        "wall_cpu_bytes_launch_reservations_below_equal_above",
+        "controller_live_reaped_and_helper_cpu_no_double_count",
+        "conservative_live_cpu_growth_or_fail_closed",
+        "full_stage_and_terminal_capacity_reserved",
+        "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+        "no_recursive_budget_poll_or_terminal_scan",
+        "independent_spies_reconcile_counters_and_final_bytes"
+      ],
+      "expected": "accept_boundary",
+      "family": "aggregate_accounting",
+      "name": "wall_cpu_bytes_launch_reservations_below_equal_above",
+      "variant": "below"
+    },
+    {
+      "contract": [
+        "wall_cpu_bytes_launch_reservations_below_equal_above",
+        "controller_live_reaped_and_helper_cpu_no_double_count",
+        "conservative_live_cpu_growth_or_fail_closed",
+        "full_stage_and_terminal_capacity_reserved",
+        "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+        "no_recursive_budget_poll_or_terminal_scan",
+        "independent_spies_reconcile_counters_and_final_bytes"
+      ],
+      "expected": "accept_boundary",
+      "family": "aggregate_accounting",
+      "name": "wall_cpu_bytes_launch_reservations_below_equal_above",
+      "variant": "equal"
+    },
+    {
+      "contract": [
+        "wall_cpu_bytes_launch_reservations_below_equal_above",
+        "controller_live_reaped_and_helper_cpu_no_double_count",
+        "conservative_live_cpu_growth_or_fail_closed",
+        "full_stage_and_terminal_capacity_reserved",
+        "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+        "no_recursive_budget_poll_or_terminal_scan",
+        "independent_spies_reconcile_counters_and_final_bytes"
+      ],
+      "expected": "reject",
+      "family": "aggregate_accounting",
+      "name": "wall_cpu_bytes_launch_reservations_below_equal_above",
+      "variant": "above"
+    },
+    {
+      "contract": [
+        "wall_cpu_bytes_launch_reservations_below_equal_above",
+        "controller_live_reaped_and_helper_cpu_no_double_count",
+        "conservative_live_cpu_growth_or_fail_closed",
+        "full_stage_and_terminal_capacity_reserved",
+        "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+        "no_recursive_budget_poll_or_terminal_scan",
+        "independent_spies_reconcile_counters_and_final_bytes"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "aggregate_accounting",
+      "name": "controller_live_reaped_and_helper_cpu_no_double_count",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "wall_cpu_bytes_launch_reservations_below_equal_above",
+        "controller_live_reaped_and_helper_cpu_no_double_count",
+        "conservative_live_cpu_growth_or_fail_closed",
+        "full_stage_and_terminal_capacity_reserved",
+        "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+        "no_recursive_budget_poll_or_terminal_scan",
+        "independent_spies_reconcile_counters_and_final_bytes"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "aggregate_accounting",
+      "name": "conservative_live_cpu_growth_or_fail_closed",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "wall_cpu_bytes_launch_reservations_below_equal_above",
+        "controller_live_reaped_and_helper_cpu_no_double_count",
+        "conservative_live_cpu_growth_or_fail_closed",
+        "full_stage_and_terminal_capacity_reserved",
+        "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+        "no_recursive_budget_poll_or_terminal_scan",
+        "independent_spies_reconcile_counters_and_final_bytes"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "aggregate_accounting",
+      "name": "full_stage_and_terminal_capacity_reserved",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "wall_cpu_bytes_launch_reservations_below_equal_above",
+        "controller_live_reaped_and_helper_cpu_no_double_count",
+        "conservative_live_cpu_growth_or_fail_closed",
+        "full_stage_and_terminal_capacity_reserved",
+        "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+        "no_recursive_budget_poll_or_terminal_scan",
+        "independent_spies_reconcile_counters_and_final_bytes"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "aggregate_accounting",
+      "name": "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "wall_cpu_bytes_launch_reservations_below_equal_above",
+        "controller_live_reaped_and_helper_cpu_no_double_count",
+        "conservative_live_cpu_growth_or_fail_closed",
+        "full_stage_and_terminal_capacity_reserved",
+        "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+        "no_recursive_budget_poll_or_terminal_scan",
+        "independent_spies_reconcile_counters_and_final_bytes"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "aggregate_accounting",
+      "name": "no_recursive_budget_poll_or_terminal_scan",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "wall_cpu_bytes_launch_reservations_below_equal_above",
+        "controller_live_reaped_and_helper_cpu_no_double_count",
+        "conservative_live_cpu_growth_or_fail_closed",
+        "full_stage_and_terminal_capacity_reserved",
+        "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+        "no_recursive_budget_poll_or_terminal_scan",
+        "independent_spies_reconcile_counters_and_final_bytes"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "aggregate_accounting",
+      "name": "independent_spies_reconcile_counters_and_final_bytes",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "complete_source_dependency_tool_binary_input_membership",
+        "existing_stdlib_and_project_bytecode_pinned_or_rejected",
+        "changed_unlisted_missing_or_extra_file_rejected",
+        "capability_probe_failure_before_output_creation",
+        "original_seals_and_prior_native_inert_receipts"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "execution_freeze",
+      "name": "complete_source_dependency_tool_binary_input_membership",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "complete_source_dependency_tool_binary_input_membership",
+        "existing_stdlib_and_project_bytecode_pinned_or_rejected",
+        "changed_unlisted_missing_or_extra_file_rejected",
+        "capability_probe_failure_before_output_creation",
+        "original_seals_and_prior_native_inert_receipts"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "execution_freeze",
+      "name": "existing_stdlib_and_project_bytecode_pinned_or_rejected",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "complete_source_dependency_tool_binary_input_membership",
+        "existing_stdlib_and_project_bytecode_pinned_or_rejected",
+        "changed_unlisted_missing_or_extra_file_rejected",
+        "capability_probe_failure_before_output_creation",
+        "original_seals_and_prior_native_inert_receipts"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "execution_freeze",
+      "name": "changed_unlisted_missing_or_extra_file_rejected",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "complete_source_dependency_tool_binary_input_membership",
+        "existing_stdlib_and_project_bytecode_pinned_or_rejected",
+        "changed_unlisted_missing_or_extra_file_rejected",
+        "capability_probe_failure_before_output_creation",
+        "original_seals_and_prior_native_inert_receipts"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "execution_freeze",
+      "name": "capability_probe_failure_before_output_creation",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "complete_source_dependency_tool_binary_input_membership",
+        "existing_stdlib_and_project_bytecode_pinned_or_rejected",
+        "changed_unlisted_missing_or_extra_file_rejected",
+        "capability_probe_failure_before_output_creation",
+        "original_seals_and_prior_native_inert_receipts"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "execution_freeze",
+      "name": "original_seals_and_prior_native_inert_receipts",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "invented128_cells_384_production_contract_records",
+        "wrong_hash_or_failure_before_cell0",
+        "each_role_failure_cell0",
+        "report_failure_cell63",
+        "audit_failure_cell127",
+        "all128_statuses_initialized_and_suffix_unstarted"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "full_pipeline",
+      "name": "invented128_cells_384_production_contract_records",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "invented128_cells_384_production_contract_records",
+        "wrong_hash_or_failure_before_cell0",
+        "each_role_failure_cell0",
+        "report_failure_cell63",
+        "audit_failure_cell127",
+        "all128_statuses_initialized_and_suffix_unstarted"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "full_pipeline",
+      "name": "wrong_hash_or_failure_before_cell0",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "invented128_cells_384_production_contract_records",
+        "wrong_hash_or_failure_before_cell0",
+        "each_role_failure_cell0",
+        "report_failure_cell63",
+        "audit_failure_cell127",
+        "all128_statuses_initialized_and_suffix_unstarted"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "full_pipeline",
+      "name": "each_role_failure_cell0",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "invented128_cells_384_production_contract_records",
+        "wrong_hash_or_failure_before_cell0",
+        "each_role_failure_cell0",
+        "report_failure_cell63",
+        "audit_failure_cell127",
+        "all128_statuses_initialized_and_suffix_unstarted"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "full_pipeline",
+      "name": "report_failure_cell63",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "invented128_cells_384_production_contract_records",
+        "wrong_hash_or_failure_before_cell0",
+        "each_role_failure_cell0",
+        "report_failure_cell63",
+        "audit_failure_cell127",
+        "all128_statuses_initialized_and_suffix_unstarted"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "full_pipeline",
+      "name": "audit_failure_cell127",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "invented128_cells_384_production_contract_records",
+        "wrong_hash_or_failure_before_cell0",
+        "each_role_failure_cell0",
+        "report_failure_cell63",
+        "audit_failure_cell127",
+        "all128_statuses_initialized_and_suffix_unstarted"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "full_pipeline",
+      "name": "all128_statuses_initialized_and_suffix_unstarted",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "missing_duplicate_extra_reordered_cells_and_stages",
+        "changed_request_trace_report_or_event_identity",
+        "false_gate_or_duplicate_table_count",
+        "false_cost_counter_inventory_or_seal",
+        "censored_failed_and_unstarted_metrics_not_zero",
+        "auditor_no_primary_extractor_or_campaign_imports_or_execution"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "independent_receipt_audit",
+      "name": "missing_duplicate_extra_reordered_cells_and_stages",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "missing_duplicate_extra_reordered_cells_and_stages",
+        "changed_request_trace_report_or_event_identity",
+        "false_gate_or_duplicate_table_count",
+        "false_cost_counter_inventory_or_seal",
+        "censored_failed_and_unstarted_metrics_not_zero",
+        "auditor_no_primary_extractor_or_campaign_imports_or_execution"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "independent_receipt_audit",
+      "name": "changed_request_trace_report_or_event_identity",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "missing_duplicate_extra_reordered_cells_and_stages",
+        "changed_request_trace_report_or_event_identity",
+        "false_gate_or_duplicate_table_count",
+        "false_cost_counter_inventory_or_seal",
+        "censored_failed_and_unstarted_metrics_not_zero",
+        "auditor_no_primary_extractor_or_campaign_imports_or_execution"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "independent_receipt_audit",
+      "name": "false_gate_or_duplicate_table_count",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "missing_duplicate_extra_reordered_cells_and_stages",
+        "changed_request_trace_report_or_event_identity",
+        "false_gate_or_duplicate_table_count",
+        "false_cost_counter_inventory_or_seal",
+        "censored_failed_and_unstarted_metrics_not_zero",
+        "auditor_no_primary_extractor_or_campaign_imports_or_execution"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "independent_receipt_audit",
+      "name": "false_cost_counter_inventory_or_seal",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "missing_duplicate_extra_reordered_cells_and_stages",
+        "changed_request_trace_report_or_event_identity",
+        "false_gate_or_duplicate_table_count",
+        "false_cost_counter_inventory_or_seal",
+        "censored_failed_and_unstarted_metrics_not_zero",
+        "auditor_no_primary_extractor_or_campaign_imports_or_execution"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "independent_receipt_audit",
+      "name": "censored_failed_and_unstarted_metrics_not_zero",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "missing_duplicate_extra_reordered_cells_and_stages",
+        "changed_request_trace_report_or_event_identity",
+        "false_gate_or_duplicate_table_count",
+        "false_cost_counter_inventory_or_seal",
+        "censored_failed_and_unstarted_metrics_not_zero",
+        "auditor_no_primary_extractor_or_campaign_imports_or_execution"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "independent_receipt_audit",
+      "name": "auditor_no_primary_extractor_or_campaign_imports_or_execution",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "actual attached funded birth versus rule availability",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "initial node is not newborn",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "birth-internal Transfer is not additional funding",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "funding recipient and descendant donor must be the same earlier-born node",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "visibility requires both eligible proposal types at same retained sample while node live",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "different nodes, cells or tables cannot be pooled into a loop",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "exact refund and activation burn; no free activation restoration",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "Rust/Python detector disagreement remains inconclusive",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "input hash/type/slot mismatch fails; no sampler fallback",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "duplicate table digest counts once without dropping rows",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "actual attached funded birth versus rule availability",
+        "initial node is not newborn",
+        "birth-internal Transfer is not additional funding",
+        "funding recipient and descendant donor must be the same earlier-born node",
+        "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+        "visibility requires both eligible proposal types at same retained sample while node live",
+        "different nodes, cells or tables cannot be pooled into a loop",
+        "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+        "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+        "exact refund and activation burn; no free activation restoration",
+        "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+        "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+        "Rust/Python detector disagreement remains inconclusive",
+        "input hash/type/slot mismatch fails; no sampler fallback",
+        "duplicate table digest counts once without dropping rows",
+        "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "original_verification",
+      "name": "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "worker_run_argv_and_exact_stdout_stderr_mapping",
+        "reporter_request_and_run_directory_cli",
+        "canonical_full_newline_json_and_strict_duplicate_key_rejection",
+        "complete_censored_or_malformed_result_bindings",
+        "no_stub_inert_receipts_or_plumbing_status",
+        "optimized_python_replay_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "production_stage_contract",
+      "name": "worker_run_argv_and_exact_stdout_stderr_mapping",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "worker_run_argv_and_exact_stdout_stderr_mapping",
+        "reporter_request_and_run_directory_cli",
+        "canonical_full_newline_json_and_strict_duplicate_key_rejection",
+        "complete_censored_or_malformed_result_bindings",
+        "no_stub_inert_receipts_or_plumbing_status",
+        "optimized_python_replay_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "production_stage_contract",
+      "name": "reporter_request_and_run_directory_cli",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "worker_run_argv_and_exact_stdout_stderr_mapping",
+        "reporter_request_and_run_directory_cli",
+        "canonical_full_newline_json_and_strict_duplicate_key_rejection",
+        "complete_censored_or_malformed_result_bindings",
+        "no_stub_inert_receipts_or_plumbing_status",
+        "optimized_python_replay_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "production_stage_contract",
+      "name": "canonical_full_newline_json_and_strict_duplicate_key_rejection",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "worker_run_argv_and_exact_stdout_stderr_mapping",
+        "reporter_request_and_run_directory_cli",
+        "canonical_full_newline_json_and_strict_duplicate_key_rejection",
+        "complete_censored_or_malformed_result_bindings",
+        "no_stub_inert_receipts_or_plumbing_status",
+        "optimized_python_replay_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "production_stage_contract",
+      "name": "complete_censored_or_malformed_result_bindings",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "worker_run_argv_and_exact_stdout_stderr_mapping",
+        "reporter_request_and_run_directory_cli",
+        "canonical_full_newline_json_and_strict_duplicate_key_rejection",
+        "complete_censored_or_malformed_result_bindings",
+        "no_stub_inert_receipts_or_plumbing_status",
+        "optimized_python_replay_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "production_stage_contract",
+      "name": "no_stub_inert_receipts_or_plumbing_status",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "worker_run_argv_and_exact_stdout_stderr_mapping",
+        "reporter_request_and_run_directory_cli",
+        "canonical_full_newline_json_and_strict_duplicate_key_rejection",
+        "complete_censored_or_malformed_result_bindings",
+        "no_stub_inert_receipts_or_plumbing_status",
+        "optimized_python_replay_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "production_stage_contract",
+      "name": "optimized_python_replay_rejected",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "original_full_python_replay_and_single_pass_required",
+        "independent_event_oracle_no_primary_imports",
+        "ordered_branch_cleanup6_vs7_exact_ids_and_intervening_balances",
+        "detector_disagreement_inconclusive",
+        "no_world_execution_during_invented_tests"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "replay_and_event_independence",
+      "name": "original_full_python_replay_and_single_pass_required",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "original_full_python_replay_and_single_pass_required",
+        "independent_event_oracle_no_primary_imports",
+        "ordered_branch_cleanup6_vs7_exact_ids_and_intervening_balances",
+        "detector_disagreement_inconclusive",
+        "no_world_execution_during_invented_tests"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "replay_and_event_independence",
+      "name": "independent_event_oracle_no_primary_imports",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "original_full_python_replay_and_single_pass_required",
+        "independent_event_oracle_no_primary_imports",
+        "ordered_branch_cleanup6_vs7_exact_ids_and_intervening_balances",
+        "detector_disagreement_inconclusive",
+        "no_world_execution_during_invented_tests"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "replay_and_event_independence",
+      "name": "ordered_branch_cleanup6_vs7_exact_ids_and_intervening_balances",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "original_full_python_replay_and_single_pass_required",
+        "independent_event_oracle_no_primary_imports",
+        "ordered_branch_cleanup6_vs7_exact_ids_and_intervening_balances",
+        "detector_disagreement_inconclusive",
+        "no_world_execution_during_invented_tests"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "replay_and_event_independence",
+      "name": "detector_disagreement_inconclusive",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "original_full_python_replay_and_single_pass_required",
+        "independent_event_oracle_no_primary_imports",
+        "ordered_branch_cleanup6_vs7_exact_ids_and_intervening_balances",
+        "detector_disagreement_inconclusive",
+        "no_world_execution_during_invented_tests"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "replay_and_event_independence",
+      "name": "no_world_execution_during_invented_tests",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "all128_exact_order_hashes_and_typed_stream_equality",
+        "real_loader_end_to_end_not_mocked_away",
+        "nested_environment_native_not_wrapper",
+        "no_regeneration_normalization_or_zero_horizon",
+        "four_initial_table_equality_and_duplicate_table_count_once"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "saved_request_loader",
+      "name": "all128_exact_order_hashes_and_typed_stream_equality",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "all128_exact_order_hashes_and_typed_stream_equality",
+        "real_loader_end_to_end_not_mocked_away",
+        "nested_environment_native_not_wrapper",
+        "no_regeneration_normalization_or_zero_horizon",
+        "four_initial_table_equality_and_duplicate_table_count_once"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "saved_request_loader",
+      "name": "real_loader_end_to_end_not_mocked_away",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "all128_exact_order_hashes_and_typed_stream_equality",
+        "real_loader_end_to_end_not_mocked_away",
+        "nested_environment_native_not_wrapper",
+        "no_regeneration_normalization_or_zero_horizon",
+        "four_initial_table_equality_and_duplicate_table_count_once"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "saved_request_loader",
+      "name": "nested_environment_native_not_wrapper",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "all128_exact_order_hashes_and_typed_stream_equality",
+        "real_loader_end_to_end_not_mocked_away",
+        "nested_environment_native_not_wrapper",
+        "no_regeneration_normalization_or_zero_horizon",
+        "four_initial_table_equality_and_duplicate_table_count_once"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "saved_request_loader",
+      "name": "no_regeneration_normalization_or_zero_horizon",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "all128_exact_order_hashes_and_typed_stream_equality",
+        "real_loader_end_to_end_not_mocked_away",
+        "nested_environment_native_not_wrapper",
+        "no_regeneration_normalization_or_zero_horizon",
+        "four_initial_table_equality_and_duplicate_table_count_once"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "saved_request_loader",
+      "name": "four_initial_table_equality_and_duplicate_table_count_once",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "each_stage_wall_output_and_rss_below_equal_above",
+        "separate_stdout_stderr_and_combined_caps",
+        "first_rss_sample_before_input",
+        "nonzero_exit_and_whole_process_group_kill",
+        "partial_streams_and_reaped_peak_preserved",
+        "no_retry_or_later_stage_after_failure"
+      ],
+      "expected": "accept_boundary",
+      "family": "stage_guards",
+      "name": "each_stage_wall_output_and_rss_below_equal_above",
+      "variant": "below"
+    },
+    {
+      "contract": [
+        "each_stage_wall_output_and_rss_below_equal_above",
+        "separate_stdout_stderr_and_combined_caps",
+        "first_rss_sample_before_input",
+        "nonzero_exit_and_whole_process_group_kill",
+        "partial_streams_and_reaped_peak_preserved",
+        "no_retry_or_later_stage_after_failure"
+      ],
+      "expected": "accept_boundary",
+      "family": "stage_guards",
+      "name": "each_stage_wall_output_and_rss_below_equal_above",
+      "variant": "equal"
+    },
+    {
+      "contract": [
+        "each_stage_wall_output_and_rss_below_equal_above",
+        "separate_stdout_stderr_and_combined_caps",
+        "first_rss_sample_before_input",
+        "nonzero_exit_and_whole_process_group_kill",
+        "partial_streams_and_reaped_peak_preserved",
+        "no_retry_or_later_stage_after_failure"
+      ],
+      "expected": "reject",
+      "family": "stage_guards",
+      "name": "each_stage_wall_output_and_rss_below_equal_above",
+      "variant": "above"
+    },
+    {
+      "contract": [
+        "each_stage_wall_output_and_rss_below_equal_above",
+        "separate_stdout_stderr_and_combined_caps",
+        "first_rss_sample_before_input",
+        "nonzero_exit_and_whole_process_group_kill",
+        "partial_streams_and_reaped_peak_preserved",
+        "no_retry_or_later_stage_after_failure"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "stage_guards",
+      "name": "separate_stdout_stderr_and_combined_caps",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "each_stage_wall_output_and_rss_below_equal_above",
+        "separate_stdout_stderr_and_combined_caps",
+        "first_rss_sample_before_input",
+        "nonzero_exit_and_whole_process_group_kill",
+        "partial_streams_and_reaped_peak_preserved",
+        "no_retry_or_later_stage_after_failure"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "stage_guards",
+      "name": "first_rss_sample_before_input",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "each_stage_wall_output_and_rss_below_equal_above",
+        "separate_stdout_stderr_and_combined_caps",
+        "first_rss_sample_before_input",
+        "nonzero_exit_and_whole_process_group_kill",
+        "partial_streams_and_reaped_peak_preserved",
+        "no_retry_or_later_stage_after_failure"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "stage_guards",
+      "name": "nonzero_exit_and_whole_process_group_kill",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "each_stage_wall_output_and_rss_below_equal_above",
+        "separate_stdout_stderr_and_combined_caps",
+        "first_rss_sample_before_input",
+        "nonzero_exit_and_whole_process_group_kill",
+        "partial_streams_and_reaped_peak_preserved",
+        "no_retry_or_later_stage_after_failure"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "stage_guards",
+      "name": "partial_streams_and_reaped_peak_preserved",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "each_stage_wall_output_and_rss_below_equal_above",
+        "separate_stdout_stderr_and_combined_caps",
+        "first_rss_sample_before_input",
+        "nonzero_exit_and_whole_process_group_kill",
+        "partial_streams_and_reaped_peak_preserved",
+        "no_retry_or_later_stage_after_failure"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "stage_guards",
+      "name": "no_retry_or_later_stage_after_failure",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "first_and_closeout_errors_distinct",
+        "partial_write_and_terminal_io_failure_retained",
+        "unknown_totals_null_with_conservative_bound",
+        "no_false_complete_or_silent_missing_full_horizon",
+        "attempt_creation_consumes_even_pretransition_failure",
+        "existing_output_and_resumption_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "terminal_integrity",
+      "name": "first_and_closeout_errors_distinct",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "first_and_closeout_errors_distinct",
+        "partial_write_and_terminal_io_failure_retained",
+        "unknown_totals_null_with_conservative_bound",
+        "no_false_complete_or_silent_missing_full_horizon",
+        "attempt_creation_consumes_even_pretransition_failure",
+        "existing_output_and_resumption_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "terminal_integrity",
+      "name": "partial_write_and_terminal_io_failure_retained",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "first_and_closeout_errors_distinct",
+        "partial_write_and_terminal_io_failure_retained",
+        "unknown_totals_null_with_conservative_bound",
+        "no_false_complete_or_silent_missing_full_horizon",
+        "attempt_creation_consumes_even_pretransition_failure",
+        "existing_output_and_resumption_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "terminal_integrity",
+      "name": "unknown_totals_null_with_conservative_bound",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "first_and_closeout_errors_distinct",
+        "partial_write_and_terminal_io_failure_retained",
+        "unknown_totals_null_with_conservative_bound",
+        "no_false_complete_or_silent_missing_full_horizon",
+        "attempt_creation_consumes_even_pretransition_failure",
+        "existing_output_and_resumption_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "terminal_integrity",
+      "name": "no_false_complete_or_silent_missing_full_horizon",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "first_and_closeout_errors_distinct",
+        "partial_write_and_terminal_io_failure_retained",
+        "unknown_totals_null_with_conservative_bound",
+        "no_false_complete_or_silent_missing_full_horizon",
+        "attempt_creation_consumes_even_pretransition_failure",
+        "existing_output_and_resumption_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "terminal_integrity",
+      "name": "attempt_creation_consumes_even_pretransition_failure",
+      "variant": "fixed"
+    },
+    {
+      "contract": [
+        "first_and_closeout_errors_distinct",
+        "partial_write_and_terminal_io_failure_retained",
+        "unknown_totals_null_with_conservative_bound",
+        "no_false_complete_or_silent_missing_full_horizon",
+        "attempt_creation_consumes_even_pretransition_failure",
+        "existing_output_and_resumption_rejected"
+      ],
+      "expected": "enforce_registered_contract",
+      "family": "terminal_integrity",
+      "name": "existing_output_and_resumption_rejected",
+      "variant": "fixed"
+    }
+  ],
+  "controls": {
+    "aggregate_accounting": [
+      "wall_cpu_bytes_launch_reservations_below_equal_above",
+      "controller_live_reaped_and_helper_cpu_no_double_count",
+      "conservative_live_cpu_growth_or_fail_closed",
+      "full_stage_and_terminal_capacity_reserved",
+      "all_partial_copy_snapshot_log_metadata_and_seal_bytes",
+      "no_recursive_budget_poll_or_terminal_scan",
+      "independent_spies_reconcile_counters_and_final_bytes"
+    ],
+    "execution_freeze": [
+      "complete_source_dependency_tool_binary_input_membership",
+      "existing_stdlib_and_project_bytecode_pinned_or_rejected",
+      "changed_unlisted_missing_or_extra_file_rejected",
+      "capability_probe_failure_before_output_creation",
+      "original_seals_and_prior_native_inert_receipts"
+    ],
+    "full_pipeline": [
+      "invented128_cells_384_production_contract_records",
+      "wrong_hash_or_failure_before_cell0",
+      "each_role_failure_cell0",
+      "report_failure_cell63",
+      "audit_failure_cell127",
+      "all128_statuses_initialized_and_suffix_unstarted"
+    ],
+    "independent_receipt_audit": [
+      "missing_duplicate_extra_reordered_cells_and_stages",
+      "changed_request_trace_report_or_event_identity",
+      "false_gate_or_duplicate_table_count",
+      "false_cost_counter_inventory_or_seal",
+      "censored_failed_and_unstarted_metrics_not_zero",
+      "auditor_no_primary_extractor_or_campaign_imports_or_execution"
+    ],
+    "original_verification": [
+      "actual attached funded birth versus rule availability",
+      "initial node is not newborn",
+      "birth-internal Transfer is not additional funding",
+      "funding recipient and descendant donor must be the same earlier-born node",
+      "same-kind roles still require distinct node IDs; reused rule bodies allowed",
+      "visibility requires both eligible proposal types at same retained sample while node live",
+      "different nodes, cells or tables cannot be pooled into a loop",
+      "cleanup6 removes exact creation edge and preserves grandchild; cleanup7 also deletes leaf and refunds",
+      "wrong edge direction, missing creation edge or nonleaf deletion rejected",
+      "exact refund and activation burn; no free activation restoration",
+      "ordered branch event IDs, ancestry and resource deltas; unrelated events cannot fill branch phases",
+      "whole-epoch cap or truncated output keeps verified prefix but full horizon null",
+      "Rust/Python detector disagreement remains inconclusive",
+      "input hash/type/slot mismatch fails; no sampler fallback",
+      "duplicate table digest counts once without dropping rows",
+      "stage failure, watchdog, launch reservation and seal failure preserve all128 statuses with no retry"
+    ],
+    "production_stage_contract": [
+      "worker_run_argv_and_exact_stdout_stderr_mapping",
+      "reporter_request_and_run_directory_cli",
+      "canonical_full_newline_json_and_strict_duplicate_key_rejection",
+      "complete_censored_or_malformed_result_bindings",
+      "no_stub_inert_receipts_or_plumbing_status",
+      "optimized_python_replay_rejected"
+    ],
+    "replay_and_event_independence": [
+      "original_full_python_replay_and_single_pass_required",
+      "independent_event_oracle_no_primary_imports",
+      "ordered_branch_cleanup6_vs7_exact_ids_and_intervening_balances",
+      "detector_disagreement_inconclusive",
+      "no_world_execution_during_invented_tests"
+    ],
+    "saved_request_loader": [
+      "all128_exact_order_hashes_and_typed_stream_equality",
+      "real_loader_end_to_end_not_mocked_away",
+      "nested_environment_native_not_wrapper",
+      "no_regeneration_normalization_or_zero_horizon",
+      "four_initial_table_equality_and_duplicate_table_count_once"
+    ],
+    "stage_guards": [
+      "each_stage_wall_output_and_rss_below_equal_above",
+      "separate_stdout_stderr_and_combined_caps",
+      "first_rss_sample_before_input",
+      "nonzero_exit_and_whole_process_group_kill",
+      "partial_streams_and_reaped_peak_preserved",
+      "no_retry_or_later_stage_after_failure"
+    ],
+    "terminal_integrity": [
+      "first_and_closeout_errors_distinct",
+      "partial_write_and_terminal_io_failure_retained",
+      "unknown_totals_null_with_conservative_bound",
+      "no_false_complete_or_silent_missing_full_horizon",
+      "attempt_creation_consumes_even_pretransition_failure",
+      "existing_output_and_resumption_rejected"
+    ]
+  },
+  "expected_failures": [
+    {
+      "role": "native",
+      "slot": 0,
+      "stage_calls": 1
+    },
+    {
+      "role": "rust_report",
+      "slot": 0,
+      "stage_calls": 2
+    },
+    {
+      "role": "python_audit",
+      "slot": 0,
+      "stage_calls": 3
+    },
+    {
+      "role": "rust_report",
+      "slot": 63,
+      "stage_calls": 191
+    },
+    {
+      "role": "python_audit",
+      "slot": 127,
+      "stage_calls": 384
+    }
+  ],
+  "expected_pipeline": {
+    "complete_cells": 128,
+    "distinct_visible_tables_required": 2,
+    "negative_mechanism_gate": false,
+    "same_trajectory_loop_tables_required": 1,
+    "stage_calls": 384
+  },
+  "original_expected_branch": {
+    "cleanup6": {
+      "orphan": 101,
+      "parent_net": [
+        -2,
+        -4
+      ],
+      "recycled": [
+        100
+      ],
+      "total_burns": 3
+    },
+    "cleanup7": {
+      "parent_net": [
+        0,
+        -4
+      ],
+      "recycled": [
+        100,
+        101
+      ],
+      "total_burns": 4
+    }
+  },
+  "protocol_sha256": "dc563a982eb827e519247aab0b7e7d500bba6fe0cd7d837ffc605dc6fc99e643",
+  "schema": "p01w-invented-controls-v1",
+  "scope": "Invented descriptors and inert processes only; retained request/world parsing and native worker/report/replay forbidden."
+}

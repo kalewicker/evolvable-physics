@@ -1,0 +1,305 @@
+{
+  "attempts": [
+    {
+      "attempt": "artifacts/p01w-build-001",
+      "errors": 6,
+      "failures": 1,
+      "normal_tests": 22,
+      "other_suites": "not_executed",
+      "receipt": "artifacts/p01w-build-001/attempt.json",
+      "receipt_sha256": "7443c5fcd0042cd4340f652605a663fc0dd02c92c431fe2c99cde3d237137231",
+      "source_hashes": {
+        "scripts/audit_p01w_events.py": "e1d6ada53f3c65d2b275d964f959b9dac580ff0bd68876ced88bd278fc666597",
+        "scripts/audit_p01w_receipts.py": "cc26fab9826af3464c5724ecd6cff4ceb7f4cb25dff8fb7976f444748eb9c998",
+        "scripts/check_p01w_execution.py": "cbc0b98dfbcd4868493e4a60134bcae046af862cd0b8d8dcbcb7cdbdc68c1352",
+        "scripts/p01w_campaign.py": "f6a23aabcc56b9d79b33602fd5bb6a465d12c71d726454f20c4816d99e9b8884",
+        "scripts/p01w_cell.py": "2b74d7ca5bcf1fb271920a74920e840b02837f556d8502723bbb7ab563cfe44c",
+        "scripts/p01w_guard.py": "a3389b46f7dbc959f68422e957b3ebbbf96bb1060c545d928c86829296f8eeb3",
+        "scripts/test_p01w.py": "872a77da9d526ae08f9e7040161b6e24322b33e4f9ccc3216926b52a852600d1",
+        "scripts/test_p01w_execution.py": "f60b4abb3bffb75b5e306e4a0e0df510ec0826b65a965d501eb5abcbaf1380ba"
+      },
+      "status": "fail"
+    },
+    {
+      "attempt": "artifacts/p01w-build-002",
+      "closure_sha256": "fa1f8d4a768898744c68377edc86c6074a410010911814e9ead32092fe323c5a",
+      "receipt": "artifacts/p01w-build-002/tests.json",
+      "receipt_sha256": "393d48154dbd894295d7c2bf4f632396a8f01c77abe7aaa97e33d84f0d7045ca",
+      "runs": [
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "scripts/test_p01w.py",
+            "-v"
+          ],
+          "label": "normal",
+          "log_sha256": "c1cfc51f581829162a3aa8aecab52d6048dc00d902ef9275d240d4945662bb12",
+          "returncode": 0,
+          "wall_seconds": 9.477134666405618
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "scripts/test_p01w_execution.py",
+            "-v"
+          ],
+          "label": "normal-execution",
+          "log_sha256": "211f35238398719a0d7dba4db1a657e241235f61916f9f904eacb4ea2a130085",
+          "returncode": 1,
+          "wall_seconds": 0.11247520800679922
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "-O",
+            "scripts/test_p01w.py",
+            "-v"
+          ],
+          "label": "optimized",
+          "log_sha256": "90a7c5d6d04586eeca157fb49784bde6a2f875b835fb498a76b238d3ba77c4b9",
+          "returncode": 0,
+          "wall_seconds": 0.9416583329439163
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "-O",
+            "scripts/test_p01w_execution.py",
+            "-v"
+          ],
+          "label": "optimized-execution",
+          "log_sha256": "8339d5889cdf5438d033e0bf325ab91b94a940fde6ef7a007d2124901e806cf6",
+          "returncode": 1,
+          "wall_seconds": 0.3403783328831196
+        }
+      ],
+      "sources": {
+        "scripts/audit_p01w_events.py": "e1d6ada53f3c65d2b275d964f959b9dac580ff0bd68876ced88bd278fc666597",
+        "scripts/audit_p01w_receipts.py": "f28a6ac5e256a70ecab01fa004792009960354971a010b0ac576665b5b252bf5",
+        "scripts/check_p01w_execution.py": "711e6ab4b02fdf90f91dd58de43132e96cd7371f3036c50224b84f745d62a760",
+        "scripts/p01w_campaign.py": "9aec53d074c93043f6c088ba6f63f4c94c7d2808e21d89f0310daea49ac279de",
+        "scripts/p01w_cell.py": "2b7fd22a844d5d62617e2cf088e06df66b398eed49f00d682b78e9ddbb2ca3b1",
+        "scripts/p01w_guard.py": "65801ffe5ec5c3027cd85d7faa9cff924fc6f2941a1053cdca1c5116bb5e674c",
+        "scripts/test_p01w.py": "cce6e4f0fdd953fcb276e5ba455f757bfa0f5556875169595a784b0b1c7ff316",
+        "scripts/test_p01w_execution.py": "cbd3434bf63a1aebafcb8998cc72772001efd8f5b0a9bc447e877e7ea3ef170a"
+      },
+      "status": "fail"
+    },
+    {
+      "attempt": "artifacts/p01w-build-003",
+      "closure_sha256": "640efb00ab712137ac79175bde8f4820fd448742dc0b172ed3fd5a0708ae9302",
+      "receipt": "artifacts/p01w-build-003/tests.json",
+      "receipt_sha256": "06e0c22fcbca06f0fdcdfd1dd2ac4b4067470e8401290d9b44a3b14dfa2a80fe",
+      "runs": [
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "scripts/test_p01w.py",
+            "-v"
+          ],
+          "label": "normal",
+          "log_sha256": "c65b45a2b0099379b24c528754d8949cba2f2c718d35bd6c6d2904cf8f0d0b58",
+          "returncode": 0,
+          "wall_seconds": 9.939214792102575
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "scripts/test_p01w_execution.py",
+            "-v"
+          ],
+          "label": "normal-execution",
+          "log_sha256": "4f8c3dbe25404a133aee07f074fef5725300d2944db00773619cbe8a0b124373",
+          "returncode": 0,
+          "wall_seconds": 0.47483883425593376
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "-O",
+            "scripts/test_p01w.py",
+            "-v"
+          ],
+          "label": "optimized",
+          "log_sha256": "3bc64480d53c0dc0a09c5177bafa3f31b674dc60f0b608cd516eab38f67709d8",
+          "returncode": 0,
+          "wall_seconds": 0.9767064582556486
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "-O",
+            "scripts/test_p01w_execution.py",
+            "-v"
+          ],
+          "label": "optimized-execution",
+          "log_sha256": "f1965a1c9cfe87460cd6cbc2cd8301dcb71badb405130ec4cc0e0b96f4adccf5",
+          "returncode": 0,
+          "wall_seconds": 0.8862022506073117
+        }
+      ],
+      "sources": {
+        "scripts/audit_p01w_events.py": "e1d6ada53f3c65d2b275d964f959b9dac580ff0bd68876ced88bd278fc666597",
+        "scripts/audit_p01w_receipts.py": "61a7e5876862e00e69783a8be6e2f8a7120275b3769847b67989f6d0a6f63ba1",
+        "scripts/check_p01w_execution.py": "711e6ab4b02fdf90f91dd58de43132e96cd7371f3036c50224b84f745d62a760",
+        "scripts/p01w_campaign.py": "9aec53d074c93043f6c088ba6f63f4c94c7d2808e21d89f0310daea49ac279de",
+        "scripts/p01w_cell.py": "2b7fd22a844d5d62617e2cf088e06df66b398eed49f00d682b78e9ddbb2ca3b1",
+        "scripts/p01w_guard.py": "0c75e80589ab5802c432482af4fd19b437ce20c26ef29874f6124bfe5f25995b",
+        "scripts/test_p01w.py": "c783f3d9815ada1e998d23790e1ae50f5e614278f353b95a13e11d2bad9a38a6",
+        "scripts/test_p01w_execution.py": "c9b6ed91bb5392dd08fbe6db580d14ea6570270af3928b24658b8d7ebf841b08"
+      },
+      "status": "pass"
+    },
+    {
+      "attempt": "artifacts/p01w-build-004",
+      "closure_sha256": "d0afa24ab0a9a4fafe47fa7d7fc863a0dc527dbadf1bd10399097225aa371151",
+      "receipt": "artifacts/p01w-build-004/tests.json",
+      "receipt_sha256": "6e85e0abc69048a8e396413309302bbc01db380a932af7b4230bbd9e98f1ccf8",
+      "runs": [
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "scripts/test_p01w.py",
+            "-v"
+          ],
+          "label": "normal",
+          "log_sha256": "0c5f0351f28db4c59eeab85172c4d9cc8ec7cfb4f9fe4e6b95866c99504972bc",
+          "returncode": 0,
+          "wall_seconds": 10.292767874896526
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "scripts/test_p01w_execution.py",
+            "-v"
+          ],
+          "label": "normal-execution",
+          "log_sha256": "325b82f5986e8e2c4902a5783a0b1c3471dd16f7f303c41bf092e368e52afde0",
+          "returncode": 0,
+          "wall_seconds": 0.39304620772600174
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "-O",
+            "scripts/test_p01w.py",
+            "-v"
+          ],
+          "label": "optimized",
+          "log_sha256": "efaf24566ac31ac4976b12e027240fc769e87fe079f2c15fa0391518d12358ea",
+          "returncode": 0,
+          "wall_seconds": 0.9475624589249492
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "-O",
+            "scripts/test_p01w_execution.py",
+            "-v"
+          ],
+          "label": "optimized-execution",
+          "log_sha256": "17328a093d59759c579d99bf6da2d3a62927fd9c47420e304eaacc2e6906a039",
+          "returncode": 0,
+          "wall_seconds": 0.6220372086390853
+        }
+      ],
+      "sources": {
+        "scripts/audit_p01w_events.py": "e1d6ada53f3c65d2b275d964f959b9dac580ff0bd68876ced88bd278fc666597",
+        "scripts/audit_p01w_receipts.py": "520e8df208f722d3502cc92f271e7b0a52e026b9060d16ce71c16d76b6682e05",
+        "scripts/check_p01w_execution.py": "711e6ab4b02fdf90f91dd58de43132e96cd7371f3036c50224b84f745d62a760",
+        "scripts/p01w_campaign.py": "cd5e6d1de433cfdcee4a090bfd311321402d07b304c19e1abc7483987332b8e9",
+        "scripts/p01w_cell.py": "2b7fd22a844d5d62617e2cf088e06df66b398eed49f00d682b78e9ddbb2ca3b1",
+        "scripts/p01w_guard.py": "0c75e80589ab5802c432482af4fd19b437ce20c26ef29874f6124bfe5f25995b",
+        "scripts/test_p01w.py": "24d3d00cad0e705828a8fb5a9289b18b2b155adcb8e381cf2d1a15781075058e",
+        "scripts/test_p01w_execution.py": "c9b6ed91bb5392dd08fbe6db580d14ea6570270af3928b24658b8d7ebf841b08"
+      },
+      "status": "pass"
+    },
+    {
+      "attempt": "artifacts/p01w-build-005",
+      "closure_sha256": "4a408f6f34cf0d0d1944de610c0163f2c803524d9951a1cd08d0615996b9ed5b",
+      "receipt": "artifacts/p01w-build-005/tests.json",
+      "receipt_sha256": "fc1a68387dd83e0fbfc8672c6a78405e88c7dff706002a22c7b66dc5bf38b396",
+      "runs": [
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "scripts/test_p01w.py",
+            "-v"
+          ],
+          "label": "normal",
+          "log_sha256": "97de1c2c2391e0d870170dc18ee31218553dc9699e73822943f816feb8b29a5a",
+          "returncode": 0,
+          "wall_seconds": 12.062350291758776
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "scripts/test_p01w_execution.py",
+            "-v"
+          ],
+          "label": "normal-execution",
+          "log_sha256": "17328a093d59759c579d99bf6da2d3a62927fd9c47420e304eaacc2e6906a039",
+          "returncode": 0,
+          "wall_seconds": 0.3996760407462716
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "-O",
+            "scripts/test_p01w.py",
+            "-v"
+          ],
+          "label": "optimized",
+          "log_sha256": "d7bac2242f183ddb572152ef043a10cdf93b5f47c35ac452d846268dc76cee06",
+          "returncode": 0,
+          "wall_seconds": 0.9575461251661181
+        },
+        {
+          "argv": [
+            "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+            "-B",
+            "-O",
+            "scripts/test_p01w_execution.py",
+            "-v"
+          ],
+          "label": "optimized-execution",
+          "log_sha256": "a3364fc1998f092066318d2b8ccdd8bf4abf55986a13447c8ab2b9616d5f8db7",
+          "returncode": 0,
+          "wall_seconds": 0.6235050410032272
+        }
+      ],
+      "sources": {
+        "scripts/audit_p01w_events.py": "e1d6ada53f3c65d2b275d964f959b9dac580ff0bd68876ced88bd278fc666597",
+        "scripts/audit_p01w_receipts.py": "520e8df208f722d3502cc92f271e7b0a52e026b9060d16ce71c16d76b6682e05",
+        "scripts/check_p01w_execution.py": "711e6ab4b02fdf90f91dd58de43132e96cd7371f3036c50224b84f745d62a760",
+        "scripts/p01w_campaign.py": "cd5e6d1de433cfdcee4a090bfd311321402d07b304c19e1abc7483987332b8e9",
+        "scripts/p01w_cell.py": "2b7fd22a844d5d62617e2cf088e06df66b398eed49f00d682b78e9ddbb2ca3b1",
+        "scripts/p01w_guard.py": "0c75e80589ab5802c432482af4fd19b437ce20c26ef29874f6124bfe5f25995b",
+        "scripts/test_p01w.py": "4d3198141c46216cce2d3698de56616939566243382bc7dc64558ee5cba8b96b",
+        "scripts/test_p01w_execution.py": "c9b6ed91bb5392dd08fbe6db580d14ea6570270af3928b24658b8d7ebf841b08"
+      },
+      "status": "pass"
+    }
+  ],
+  "failed_builds": 2,
+  "passing_builds": 3,
+  "productive_attempts": 0,
+  "schema": "p01w-implementation-test-history-v1",
+  "world_transitions": 0
+}

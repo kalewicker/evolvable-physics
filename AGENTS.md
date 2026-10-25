@@ -492,3 +492,27 @@ transition computation. The one future artifacts/p01w-001 attempt is consumed on
 directory creation, even before a transition; no retry/resume/extension/input repair
 or favorable selection. Capability probes precede creation. No productive execution,
 performance assay, new generation, changed thresholds or E01 is admitted now.
+
+## Current next boundary after P01w implementation readiness
+
+P01w's eight new production paths are implemented and validated against invented
+controls only. See docs/p01w_implementation_readiness.json and
+docs/p01w_implementation_findings.md. Final build005 passed33 normal tests and14
+optimized tests, with19 expected assertion-dependent skips and explicit optimized
+replay rejection. The complete invented128-cell/384-stage snapshot/admission/stage
+chain passed independent receipt audit. Preserve all five builds:001/002 failed
+harness/fixture checks,003–005 passed; the original control packet is unchanged.
+The tested runtime closure pins3706 files/98,861,408 bytes including186 existing
+bytecodes and system site-package inputs. OS shared-cache paths are recorded without
+individual file hashes. Retained request/world bodies were not parsed and original
+workers/reporters/replay/matching/generation did not execute. Original353 frozen
+files,552 inputs,737 preceding receipts, binary identities and P01o/P01q seals match.
+Next prepare and independently verify the full tested source/dependency/tool/binary/
+input execution freeze and exact command/output admission. Commit/push that separate
+gate before any candidate or world computation; do not create artifacts/p01w-001
+while preparing it. Preserve the original criteria and1200s/600s/2GiB ceilings.
+The guard's live CPU estimate is conservative; do not treat readiness timings as a
+performance result or increase budgets. Capability probes precede productive output
+creation; creation consumes the single attempt even before a transition. No retry,
+resumption, extension, repair, selection, changed detector/threshold, performance
+assay or E01. Actual behavior is null/not_executed and science remains untested.

@@ -1,0 +1,29 @@
+{
+  "definition_only_replay_imports": true,
+  "existing_bytecode_files": 186,
+  "forbidden_world_calls": 0,
+  "full_closure": "artifacts/p01w-build-005/closure.json",
+  "full_closure_sha256": "4a408f6f34cf0d0d1944de610c0163f2c803524d9951a1cd08d0615996b9ed5b",
+  "interpreter": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "limitation": "OS shared-cache libraries are recorded by path/platform, not individual file digests. No byte-complete operating-system closure is claimed.",
+  "os_shared_cache_paths_without_file_hashes": 301,
+  "platform": "darwin",
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "runtime_bytes": 98861408,
+  "runtime_files": 3706,
+  "runtime_membership_roots": [
+    {
+      "files": 2683,
+      "root": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14"
+    },
+    {
+      "files": 487,
+      "root": "/opt/homebrew/Cellar/python@3.14/3.14.5/lib/python3.14/site-packages"
+    },
+    {
+      "files": 527,
+      "root": "/opt/homebrew/lib/python3.14/site-packages"
+    }
+  ],
+  "schema": "p01w-test-runtime-summary-v1"
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "p01w-invented-test-attempt-v1",
+  "status": "fail",
+  "tests": 22,
+  "failures": 1,
+  "errors": 6,
+  "world_transitions": 0,
+  "findings": [
+    "Ported observation tests expected AssertionError but new optimized-safe receipt checks raise ValueError.",
+    "Optimized import rejected earlier by frozen template dependency; message assertion expected the cell adapter rejection."
+  ],
+  "source_hashes": "source_hashes.json",
+  "log": "normal.log"
+}

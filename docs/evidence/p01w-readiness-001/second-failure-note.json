@@ -1,0 +1,8 @@
+{
+  "status": "fail",
+  "normal_pipeline_tests_pass": 27,
+  "optimized_pass": 9,
+  "optimized_expected_skips": 18,
+  "admission_tests_error": "Invented fixture used a relative dependency path, causing a duplicated root prefix.",
+  "world_transitions": 0
+}

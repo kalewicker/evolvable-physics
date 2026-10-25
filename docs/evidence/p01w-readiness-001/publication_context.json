@@ -1,0 +1,81 @@
+{
+  "copies": {
+    "closeout.json": {
+      "sha256": "c7be2da9cf4b31c02a5d270847350654d5e44c6afe39792ac5156ddf31308c09",
+      "source": "artifacts/p01w-closeout-001/receipt.json"
+    },
+    "complete_closure_audit.json": {
+      "sha256": "44c40ee4a7ec376feafe65819eb44dbded37d661f83e526a61f4970d6e2255ec",
+      "source": "artifacts/p01w-build-005/normal/complete_closure_audit.json"
+    },
+    "failure_matrix.json": {
+      "sha256": "fe093e200fbb6591e9d79bfdce3419e97292f224060a2dca88f0d77148082cad",
+      "source": "artifacts/p01w-build-005/normal/failure_matrix.json"
+    },
+    "first-failed-attempt.json": {
+      "sha256": "7443c5fcd0042cd4340f652605a663fc0dd02c92c431fe2c99cde3d237137231",
+      "source": "artifacts/p01w-build-001/attempt.json"
+    },
+    "first-failed-normal.log": {
+      "sha256": "0aa747ce05e330f1ccb71e47e1f20ed390aad69a9d4e08891f6d04433dab6d6d",
+      "source": "artifacts/p01w-build-001/normal.log"
+    },
+    "full_pipeline.json": {
+      "sha256": "69537e485deec8e7d35a81164e1c3252149916b4695cfa39ab492ca43c6f88bf",
+      "source": "artifacts/p01w-build-005/normal/full_pipeline.json"
+    },
+    "normal-execution.log": {
+      "sha256": "17328a093d59759c579d99bf6da2d3a62927fd9c47420e304eaacc2e6906a039",
+      "source": "artifacts/p01w-build-005/normal-execution.log"
+    },
+    "normal.log": {
+      "sha256": "97de1c2c2391e0d870170dc18ee31218553dc9699e73822943f816feb8b29a5a",
+      "source": "artifacts/p01w-build-005/normal.log"
+    },
+    "normal_admission_results.json": {
+      "sha256": "f2c567a92eea7f2a664770ec0ba53b9b1b710650a4fb916c8d5f07bf0baa6615",
+      "source": "artifacts/p01w-build-005/normal-admission/results.json"
+    },
+    "normal_process_results.json": {
+      "sha256": "01b899a9c962139f36f818aed4084b5125fba46a7399569d89ed795dafcef240",
+      "source": "artifacts/p01w-build-005/normal/process_results.json"
+    },
+    "optimized-execution.log": {
+      "sha256": "a3364fc1998f092066318d2b8ccdd8bf4abf55986a13447c8ab2b9616d5f8db7",
+      "source": "artifacts/p01w-build-005/optimized-execution.log"
+    },
+    "optimized.log": {
+      "sha256": "d7bac2242f183ddb572152ef043a10cdf93b5f47c35ac452d846268dc76cee06",
+      "source": "artifacts/p01w-build-005/optimized.log"
+    },
+    "optimized_admission_results.json": {
+      "sha256": "f2c567a92eea7f2a664770ec0ba53b9b1b710650a4fb916c8d5f07bf0baa6615",
+      "source": "artifacts/p01w-build-005/optimized-admission/results.json"
+    },
+    "optimized_process_results.json": {
+      "sha256": "c6b9fed455914f755f36f78c1a8b1495983fb85ec6903969e02e3b26a9cdf319",
+      "source": "artifacts/p01w-build-005/optimized/process_results.json"
+    },
+    "packet.json": {
+      "sha256": "edba48c42152f260c31e8a2ca2ec9322ee4e24258b06a2b22bbcc6a02bb72327",
+      "source": "artifacts/p01w-build-005/packet.json"
+    },
+    "second-failed-normal-execution.log": {
+      "sha256": "211f35238398719a0d7dba4db1a657e241235f61916f9f904eacb4ea2a130085",
+      "source": "artifacts/p01w-build-002/normal-execution.log"
+    },
+    "second-failed-optimized-execution.log": {
+      "sha256": "8339d5889cdf5438d033e0bf325ab91b94a940fde6ef7a007d2124901e806cf6",
+      "source": "artifacts/p01w-build-002/optimized-execution.log"
+    },
+    "second-failure-note.json": {
+      "sha256": "846c066fc0194030ea368012aed0607695b0b4ae122568d7d54d57fd1d83eab8",
+      "source": "artifacts/p01w-build-002/failure_note.json"
+    }
+  },
+  "productive_execution_admitted": false,
+  "registration_commit": "7d88a994ecb282a8165bd48d3a5f5fbd26880a6d",
+  "schema": "p01w-readiness-publication-v1",
+  "scope": "Invented readiness evidence only; no retained request/world bodies, runtime snapshots or binaries published.",
+  "world_transitions": 0
+}

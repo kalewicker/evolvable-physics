@@ -1,0 +1,22 @@
+{
+  "custody_inputs": 552,
+  "date": "2026-10-25",
+  "execution_freeze_and_admission_absent": true,
+  "existing_bytecode_files": 186,
+  "frozen_files": 353,
+  "original_binary_identities_preserved": true,
+  "original_inventory_counts": {
+    "artifacts/p01o-001": 5127,
+    "artifacts/p01q-001": 4960
+  },
+  "prior_public_receipts": 737,
+  "productive_attempt_absent": true,
+  "retained_request_bodies_parsed": 0,
+  "runtime_bytes": 98861408,
+  "runtime_files": 3706,
+  "schema": "p01w-implementation-closeout-v1",
+  "status": "pass",
+  "tested_source_snapshots_match": true,
+  "unchanged_packet_sha256": "edba48c42152f260c31e8a2ca2ec9322ee4e24258b06a2b22bbcc6a02bb72327",
+  "world_transitions": 0
+}

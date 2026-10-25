@@ -1,0 +1,79 @@
+{
+  "control_families": 10,
+  "full_receipt": "artifacts/p01w-build-005/tests.json",
+  "full_receipt_sha256": "fc1a68387dd83e0fbfc8672c6a78405e88c7dff706002a22c7b66dc5bf38b396",
+  "normal_tests_passed": 33,
+  "optimized_expected_skips": 19,
+  "optimized_tests_passed": 14,
+  "packet_labels": 72,
+  "packet_sha256": "edba48c42152f260c31e8a2ca2ec9322ee4e24258b06a2b22bbcc6a02bb72327",
+  "registered_control_names": 68,
+  "retained_requests_parsed": 0,
+  "runs": [
+    {
+      "argv": [
+        "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+        "-B",
+        "scripts/test_p01w.py",
+        "-v"
+      ],
+      "label": "normal",
+      "log_sha256": "97de1c2c2391e0d870170dc18ee31218553dc9699e73822943f816feb8b29a5a",
+      "returncode": 0,
+      "wall_seconds": 12.062350291758776
+    },
+    {
+      "argv": [
+        "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+        "-B",
+        "scripts/test_p01w_execution.py",
+        "-v"
+      ],
+      "label": "normal-execution",
+      "log_sha256": "17328a093d59759c579d99bf6da2d3a62927fd9c47420e304eaacc2e6906a039",
+      "returncode": 0,
+      "wall_seconds": 0.3996760407462716
+    },
+    {
+      "argv": [
+        "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+        "-B",
+        "-O",
+        "scripts/test_p01w.py",
+        "-v"
+      ],
+      "label": "optimized",
+      "log_sha256": "d7bac2242f183ddb572152ef043a10cdf93b5f47c35ac452d846268dc76cee06",
+      "returncode": 0,
+      "wall_seconds": 0.9575461251661181
+    },
+    {
+      "argv": [
+        "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+        "-B",
+        "-O",
+        "scripts/test_p01w_execution.py",
+        "-v"
+      ],
+      "label": "optimized-execution",
+      "log_sha256": "a3364fc1998f092066318d2b8ccdd8bf4abf55986a13447c8ab2b9616d5f8db7",
+      "returncode": 0,
+      "wall_seconds": 0.6235050410032272
+    }
+  ],
+  "runtime_closure_sha256": "4a408f6f34cf0d0d1944de610c0163f2c803524d9951a1cd08d0615996b9ed5b",
+  "runtime_files": 3706,
+  "schema": "p01w-implementation-test-summary-v1",
+  "sources": {
+    "scripts/audit_p01w_events.py": "e1d6ada53f3c65d2b275d964f959b9dac580ff0bd68876ced88bd278fc666597",
+    "scripts/audit_p01w_receipts.py": "520e8df208f722d3502cc92f271e7b0a52e026b9060d16ce71c16d76b6682e05",
+    "scripts/check_p01w_execution.py": "711e6ab4b02fdf90f91dd58de43132e96cd7371f3036c50224b84f745d62a760",
+    "scripts/p01w_campaign.py": "cd5e6d1de433cfdcee4a090bfd311321402d07b304c19e1abc7483987332b8e9",
+    "scripts/p01w_cell.py": "2b7fd22a844d5d62617e2cf088e06df66b398eed49f00d682b78e9ddbb2ca3b1",
+    "scripts/p01w_guard.py": "0c75e80589ab5802c432482af4fd19b437ce20c26ef29874f6124bfe5f25995b",
+    "scripts/test_p01w.py": "4d3198141c46216cce2d3698de56616939566243382bc7dc64558ee5cba8b96b",
+    "scripts/test_p01w_execution.py": "c9b6ed91bb5392dd08fbe6db580d14ea6570270af3928b24658b8d7ebf841b08"
+  },
+  "status": "pass",
+  "world_transitions": 0
+}

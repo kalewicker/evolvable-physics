@@ -1,0 +1,52 @@
+[
+  {
+    "expected": "pass",
+    "matched": true,
+    "mode": "positive"
+  },
+  {
+    "expected": "reject",
+    "matched": true,
+    "mode": "changed"
+  },
+  {
+    "expected": "reject",
+    "matched": true,
+    "mode": "missing"
+  },
+  {
+    "expected": "reject",
+    "matched": true,
+    "mode": "extra"
+  },
+  {
+    "expected": "reject",
+    "matched": true,
+    "mode": "unlisted_bytecode"
+  },
+  {
+    "expected": "reject",
+    "matched": true,
+    "mode": "omit_bytecode_policy"
+  },
+  {
+    "expected": "reject",
+    "matched": true,
+    "mode": "omit_registered"
+  },
+  {
+    "expected": "reject",
+    "matched": true,
+    "mode": "omit_runtime"
+  },
+  {
+    "expected": "reject",
+    "matched": true,
+    "mode": "change_binary"
+  },
+  {
+    "expected": "reject",
+    "matched": true,
+    "mode": "change_readiness"
+  }
+]

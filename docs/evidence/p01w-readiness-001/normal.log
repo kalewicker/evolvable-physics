@@ -1,0 +1,33 @@
+test_capability_failure_precedes_attempt_creation (__main__.AdditionalControls.test_capability_failure_precedes_attempt_creation) ... ok
+test_production_receipt_rejections_and_replay_wiring (__main__.AdditionalControls.test_production_receipt_rejections_and_replay_wiring) ... ok
+test_suspended_spawn_prevents_early_input_and_group_kill (__main__.AdditionalControls.test_suspended_spawn_prevents_early_input_and_group_kill) ... ok
+test_unknown_bytes_and_no_terminal_scan (__main__.AdditionalControls.test_unknown_bytes_and_no_terminal_scan) ... ok
+test_all_stage_and_aggregate_boundaries (__main__.AdmissionAndGuards.test_all_stage_and_aggregate_boundaries) ... ok
+test_executor_pin_and_terminal_failure (__main__.AdmissionAndGuards.test_executor_pin_and_terminal_failure) ... ok
+test_inert_real_spawn_caps_partial_streams_and_reaping (__main__.AdmissionAndGuards.test_inert_real_spawn_caps_partial_streams_and_reaping) ... ok
+test_live_cpu_bound_and_partial_write_ledger (__main__.AdmissionAndGuards.test_live_cpu_bound_and_partial_write_ledger) ... ok
+test_real_loader_and_typed_paired_envelopes (__main__.AdmissionAndGuards.test_real_loader_and_typed_paired_envelopes) ... ok
+test_source_execution_boundary (__main__.AdmissionAndGuards.test_source_execution_boundary) ... ok
+test_strict_parser_and_optimized_rejection (__main__.AdmissionAndGuards.test_strict_parser_and_optimized_rejection) ... ok
+test_verified_prefix_stops_without_fabricated_full_horizon (__main__.CensoredControls.test_verified_prefix_stops_without_fabricated_full_horizon) ... ok
+test_all128_with_snapshot_admission_and_executor_bindings (__main__.CompleteClosureAudit.test_all128_with_snapshot_admission_and_executor_bindings) ... ok
+test_availability_and_initial_nodes_are_not_births (__main__.ObservationControls.test_availability_and_initial_nodes_are_not_births) ... ok
+test_birth_internal_transfer_not_additional_funding (__main__.ObservationControls.test_birth_internal_transfer_not_additional_funding) ... ok
+test_birth_must_be_funded_attached_and_paid (__main__.ObservationControls.test_birth_must_be_funded_attached_and_paid) ... ok
+test_censored_and_disagreement_keep_null_or_inconclusive (__main__.ObservationControls.test_censored_and_disagreement_keep_null_or_inconclusive) ... ok
+test_cleanup6_preserves_orphan_and_spends_activation (__main__.ObservationControls.test_cleanup6_preserves_orphan_and_spends_activation) ... ok
+test_funding_donor_and_same_node_cannot_be_pooled (__main__.ObservationControls.test_funding_donor_and_same_node_cannot_be_pooled) ... ok
+test_independent_oracle_and_receipt_mutations (__main__.ObservationControls.test_independent_oracle_and_receipt_mutations) ... ok
+test_order_and_unrelated_intervening_events (__main__.ObservationControls.test_order_and_unrelated_intervening_events) ... ok
+test_reused_body_same_kind_distinct_nodes_and_cleanup7 (__main__.ObservationControls.test_reused_body_same_kind_distinct_nodes_and_cleanup7) ... ok
+test_visibility_needs_both_proposals_same_live_sample (__main__.ObservationControls.test_visibility_needs_both_proposals_same_live_sample) ... ok
+test_wrong_edge_nonleaf_and_refund_rejected (__main__.ObservationControls.test_wrong_edge_nonleaf_and_refund_rejected) ... ok
+test_full_128_production_contract_pipeline_and_independent_audit (__main__.PipelineControls.test_full_128_production_contract_pipeline_and_independent_audit) ... ok
+test_gate_duplicates_same_node_and_no_pooling (__main__.PipelineControls.test_gate_duplicates_same_node_and_no_pooling) ... ok
+test_independent_inventory_mutations (__main__.PipelineControls.test_independent_inventory_mutations) ... ok
+test_registered_failure_matrix_and_no_retries (__main__.PipelineControls.test_registered_failure_matrix_and_no_retries) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 11.943s
+
+OK

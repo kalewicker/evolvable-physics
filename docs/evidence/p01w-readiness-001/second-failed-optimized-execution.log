@@ -1,0 +1,31 @@
+test_full_invented_closure_and_mutations (__main__.ClosureControls.test_full_invented_closure_and_mutations) ... ERROR
+test_cell_entry_requires_admission (__main__.ExecutionAdmission.test_cell_entry_requires_admission) ... ok
+test_current_checkout_not_admitted (__main__.ExecutionAdmission.test_current_checkout_not_admitted) ... ok
+test_scope_and_fixed_attempt (__main__.ExecutionAdmission.test_scope_and_fixed_attempt) ... ok
+test_unpublished_freeze_rejected (__main__.ExecutionAdmission.test_unpublished_freeze_rejected) ... ok
+
+======================================================================
+ERROR: test_full_invented_closure_and_mutations (__main__.ClosureControls.test_full_invented_closure_and_mutations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/test_p01w_execution.py", line 74, in test_full_invented_closure_and_mutations
+    if mode=='positive':self.assertEqual(c.validate(root,f,a,p,r)['status'],'pass')
+                                         ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/check_p01w_execution.py", line 29, in validate
+    for name,h in f[section].items():need(sha(Path(name) if Path(name).is_absolute() else root/name)==h,'identity '+name)
+                                          ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kalewicker/Documents/Playground/causal-alife/scripts/check_p01w_execution.py", line 11, in sha
+    def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+                                     ~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 777, in read_bytes
+    with self.open(mode='rb', buffering=0) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/p01w-build-002/optimized-admission/positive/artifacts/p01w-build-002/optimized-admission/positive/runtime/dep.py'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+FAILED (errors=1)

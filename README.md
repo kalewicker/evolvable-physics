@@ -603,3 +603,12 @@ Next is production-contract implementation against invented controls, followed b
 a separately committed execution freeze before launch. See the
 [P01w campaign plan](docs/p01w_campaign_plan.md) and
 [registration findings](docs/p01w_registration_findings.md).
+
+P01w's production pipeline is now implemented and checked with invented inputs:
+33 normal checks passed, plus14 optimized checks with19 expected skips for
+assertion-dependent code. A complete invented128-cell/384-stage bundle passed
+independent snapshot, input-chain, cost and receipt auditing. Both failed early
+test builds remain preserved. No retained world ran. Next is the separately
+committed execution freeze and admission. See
+[implementation findings](docs/p01w_implementation_findings.md) and
+[readiness evidence](docs/evidence/p01w-readiness-001/tests_summary.json).
